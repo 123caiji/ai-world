@@ -67,6 +67,8 @@
   "firstSeenAt": "2026-10-29T15:12:10.000Z",
   "tags": ["中文", "产品"],
   "heat": 148,
+  "image": "https://example.com/cover.jpg",
+  "imageSource": "原文 OG 封面",
   "evidence": {
     "url": "https://www.qbitai.com/feed",
     "fetchedAt": "2026-10-29T15:12:10.000Z",
@@ -76,7 +78,7 @@
 }
 ```
 
-`kind` 是类型（news / paper / repo / release / model / plugin / discussion / product），`evidence` 就是「凭什么说这条是真的」。
+`kind` 是类型（news / paper / repo / release / model / plugin / discussion / product），`evidence` 就是「凭什么说这条是真的」，`image` + `imageSource` 是这张缩略图来自哪里（来源站点自己给的图，不是生成的）。
 
 ## 数据源
 
@@ -179,6 +181,16 @@ ai-world/
 - 线上站点：<https://123caiji.github.io/ai-world/>
 - 提交身份是 `123caiji <166346449+123caiji@users.noreply.github.com>`，所以自动提交也计入贡献图。
 - Actions 的 `schedule` 在高峰期会有 5–30 分钟延迟，这是 GitHub 的行为，不是脚本问题。
+
+## 素材（每张图都能溯源）
+
+- 缩略图**只来自来源站点自己的图片**：RSS 的 `media:thumbnail` / `media:content` / `enclosure`、原文页 `og:image` / `twitter:image`、Hugging Face 官方卡片图、YouTube 视频封面、GitHub 仓库头像。
+- 每条都带 `imageSource` 字段，卡片右下角标注出处，鼠标悬停能看到图片真实地址。
+- 取不到图的条目显示「无素材」，**不拿占位图或 AI 生成图充数**。
+- 已知死链（例如 `opengraph.githubassets.com` 实测恒返回 429）在入库前就过滤，封面缓存 `data/snapshots/covers.json` 里也会一并清掉。
+- 右栏「素材来源」面板实时统计真实图覆盖率、按来源分布、图片来源域名。
+
+**缓存策略**：`data/*.json` 前端一律 `cache: no-store`；`style.css` / `app.js` 在构建时写入内容指纹（`?v=<内容 sha256 前十位>`），内容变了 URL 才变，更新后浏览器不会继续用旧的 CSS/JS。
 
 ## 诚实说明
 
