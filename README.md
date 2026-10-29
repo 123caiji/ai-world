@@ -158,13 +158,16 @@ ai-world/
 │  ├─ archive/YYYY-MM.jsonl   # 历史归档
 │  └─ snapshots/              # stars / releases / models / plugins 快照（算 delta 用）
 ├─ web/                       # 无构建单页（构建时整目录拷到 dist/）
-└─ .github/workflows/radar.yml
+└─ .github/workflows/
+   ├─ radar.yml               # 每小时采集 → 渲染 → 提交
+   └─ pages.yml               # dist/ 有变化就部署 GitHub Pages
 ```
 
 ## 定时与部署
 
-- `radar.yml`：每小时第 7 分钟采集一次（`7 * * * *`），也支持手动 `workflow_dispatch`。
-- 采集 → 渲染 → 提交 `data/` 与 README 热榜 → 部署 GitHub Pages。
+- `radar.yml`：每小时第 7 分钟（`7 * * * *`）采集一次，也支持手动 `workflow_dispatch`；采集 → 渲染 → 提交 `data/` 与 README 热榜。
+- `pages.yml`：`dist/` 有变化就部署 Pages（与采集解耦，采集失败时线上仍是上一版）。
+- 线上站点：<https://123caiji.github.io/ai-world/>
 - 提交身份是 `123caiji <166346449+123caiji@users.noreply.github.com>`，所以自动提交也计入贡献图。
 - Actions 的 `schedule` 在高峰期会有 5–30 分钟延迟，这是 GitHub 的行为，不是脚本问题。
 
