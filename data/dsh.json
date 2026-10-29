@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T16:56:06.722Z",
-  "total": 3917,
+  "generatedAt": "2026-10-29T21:00:19.279Z",
+  "total": 3915,
   "newCount": 0,
   "firstRun": false,
   "categories": [
@@ -10,7 +10,7 @@
     },
     {
       "name": "tools",
-      "count": 543
+      "count": 542
     },
     {
       "name": "session",
@@ -22,7 +22,7 @@
     },
     {
       "name": "workflow",
-      "count": 240
+      "count": 239
     },
     {
       "name": "model",
@@ -118,7 +118,7 @@
       "url": "https://awesome-dsh-plugin.com/p/WJDdidi-1/ai-context-doctor--plugin/",
       "repo": "https://github.com/WJDdidi-1/ai-context-doctor",
       "category": "usage",
-      "description": "在 Harness agent 开始处理某个仓库时扫描一次；若超过五分之一的体积是构建产物、锁文件和日志，就注入一条提示，点名最占空间的几项并给出一段可直接使用的 .aiignore；仓库干净则不打扰。",
+      "description": "在右侧栏新增 AIignore 标签页：按五个维度给当前对话和所在目录打分，在构建产物、锁文件、日志被读进模型之前把它们拦下，并能一键把这些规则写进 .aiignore。",
       "version": "0.23.1",
       "publishedAt": "2026-10-29T02:12:17.000Z"
     },
