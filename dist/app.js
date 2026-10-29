@@ -284,7 +284,7 @@ function cardHtml(item, index) {
   const ev = item.evidence || {};
   const title = '抓取端点：' + (ev.url || item.url) + '\n抓取时间：' + (ev.fetchedAt || '-') + '\nHTTP 状态：' + (ev.httpStatus || '-') + '\n定位：' + (ev.pointer || '-');
   const heat = Math.max(0, Math.min(100, Number(item.heat) || 0));
-  const thumb = item.image ? '<img class="thumb" src="' + esc(item.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" />' : '';
+  const media = mediaHtml(item, kind, color);
   return '<article class="card" style="--i:' + Math.min(index, 12) + ';--kc:' + color + '">' +
     '<div class="card-top">' +
     '<span class="kind kind-' + esc(kind) + '">' + esc(KIND[kind] ? KIND[kind].label : kind) + '</span>' +
@@ -301,7 +301,29 @@ function cardHtml(item, index) {
     '<div class="meta">' + tags +
     (item.discussionUrl ? '<a class="tag" href="' + esc(item.discussionUrl) + '" target="_blank" rel="noopener">讨论</a>' : '') +
     '<a class="evidence" href="' + esc(ev.url || item.url) + '" target="_blank" rel="noopener" title="' + esc(title) + '">证据 ↗</a>' +
-    '</div></div>' + thumb + '</div></article>';
+    '</div></div>' + media + '</div></article>';
+}
+
+/* ---------- 素材（只展示来源站点真实给出的图，不生成假图） ---------- */
+const AVATAR_SOURCES = new Set(['github', 'github-trending']);
+function domainOf(url) {
+  try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return ''; }
+}
+
+function mediaHtml(item, kind, color) {
+  const img = item.image;
+  if (!img) {
+    return '<div class="thumb noimg" style="--kc:' + color + '" title="该来源没有提供封面图（不使用 AI 生成图）">' +
+      '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 5h16v14H4z" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M4 15l4.5-4.5 3.5 3.5 3-2.5L20 15" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="9" cy="9" r="1.4" fill="currentColor"/></svg>' +
+      '<span>无素材</span></div>';
+  }
+  const isAvatar = AVATAR_SOURCES.has(item.source);
+  const label = item.imageSource || (isAvatar ? '仓库头像' : '站点封面');
+  const tip = label + ' · 来源：' + (domainOf(img) || '原站') + '\n图片地址：' + img;
+  return '<figure class="media">' +
+    '<img class="thumb' + (isAvatar ? ' avatar' : ' src-thumb') + '" src="' + esc(img) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" title="' + esc(tip) + '" onerror="this.classList.add(&quot;broken&quot;);this.parentNode.classList.add(&quot;broken&quot;)" />' +
+    '<figcaption class="media-tag' + (item.imageSource ? '' : ' derived') + '"><b>' + esc(label) + '</b></figcaption>' +
+    '</figure>';
 }
 
 function applyFilter() {
@@ -335,6 +357,33 @@ function fillSourceOptions() {
   $('source').innerHTML = '<option value="">全部来源</option>' + options
     .map(([id, count]) => '<option value="' + esc(id) + '">' + esc(labels.get(id)) + ' (' + count + ')</option>')
     .join('');
+}
+
+/* ---------- 素材来源面板 ---------- */
+function renderMedia(items) {
+  const total = items.length;
+  const withImg = items.filter((item) => item.image).length;
+  const bySource = new Map();
+  const byDomain = new Map();
+  for (const item of items) {
+    if (!item.image) continue;
+    const key = item.imageSource || '站点封面';
+    bySource.set(key, (bySource.get(key) || 0) + 1);
+    const d = domainOf(item.image);
+    if (d) byDomain.set(d, (byDomain.get(d) || 0) + 1);
+  }
+  const rows = [...bySource.entries()].sort((a, b) => b[1] - a[1]);
+  const max = rows.reduce((m, row) => Math.max(m, row[1]), 1);
+  const pct = total ? Math.round((withImg / total) * 100) : 0;
+  const parts = [];
+  parts.push('<div class="media-kpi"><b>' + withImg + '</b><span> / ' + total + ' 条带真实缩略图（' + pct + '%）</span></div>');
+  parts.push('<div class="bar"><span class="label">真实图</span><span class="track"><span class="fill" style="width:' + pct + '%"></span></span><span class="num">' + pct + '%</span></div>');
+  parts.push(rows.slice(0, 6).map((row) => '<div class="bar"><span class="label">' + esc(row[0]) + '</span><span class="track"><span class="fill" style="width:' + Math.round((row[1] / max) * 100) + '%"></span></span><span class="num">' + row[1] + '</span></div>').join(''));
+  const doms = [...byDomain.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+  parts.push('<div class="sub">图片来源域名</div><div class="domain-cloud">' + doms.map((row) =>
+    '<span class="dc" title="' + esc(row[0]) + ' · ' + row[1] + ' 张">' + esc(row[0]) + '<i>' + row[1] + '</i></span>').join('') + '</div>');
+  parts.push('<p class="muted" style="margin:10px 0 0;font-size:11px;line-height:1.6">缩略图全部来自来源站点自己提供的图片（RSS 媒体字段 / 官方卡片 / 视频封面 / 仓库头像），<b>没有一张是 AI 生成的</b>；取不到图的条目显示「无素材」，不拿占位图充数。</p>');
+  $('media-body').innerHTML = parts.join('');
 }
 
 function setupTheme() {
@@ -392,6 +441,7 @@ async function main() {
   renderGithub(github);
   renderDsh(dsh);
   renderSources(sources);
+  renderMedia(state.all);
   applyFilter();
 
   $('q').addEventListener('input', (event) => { state.query = event.target.value; state.shown = PAGE; applyFilter(); });

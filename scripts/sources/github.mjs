@@ -36,6 +36,11 @@ async function ghJson(url, token) {
 const SPAM_PATTERN = /(crack|keygen|license key|activation|serial key|torrent|free download|full version|repack|pre-?activated|patcher|rpocket|resocket|\.apk\b|fps optimizer)/i;
 const AI_RELEVANT = /\b(ai|a\.i\.|llm|llms|agent|agents|agentic|mcp|rag|gpt|nlp|transformer|diffusion|inference|embedding|fine-?tuning|quantization|multimodal|deepseek|qwen|llama|claude|gemini)\b/i;
 
+function ownerAvatar(full) {
+  const owner = String(full || '').split('/')[0];
+  return owner ? 'https://github.com/' + owner + '.png?size=96' : '';
+}
+
 function isJunkRepo(repo, minStars) {
   if (!repo || repo.archived || repo.fork || repo.disabled) return true;
   if (!repo.description || !String(repo.description).trim()) return true;
@@ -127,6 +132,8 @@ export const source = {
           score: repo.stargazers_count,
           scoreLabel: (repo.stargazers_count || 0) + ' stars',
           tags: ['开源', '新仓库'].concat((repo.topics || []).slice(0, 2)),
+          image: ownerAvatar(repo.full_name),
+          imageSource: 'GitHub 仓库头像',
           evidence: {
             url: searchUrl,
             fetchedAt: searched.fetchedAt,
@@ -189,6 +196,8 @@ export const source = {
             score: change.delta,
             scoreLabel: '涨 ' + change.delta + ' 星 / ' + STALE_HOURS + 'h',
             tags: ['开源', '涨星'],
+            image: ownerAvatar(full),
+            imageSource: 'GitHub 仓库头像',
             evidence: {
               url: API + '/repos/' + full,
               fetchedAt: res.fetchedAt,
@@ -222,6 +231,8 @@ export const source = {
           score: null,
           scoreLabel: release.prerelease ? '预发布' : '正式版',
           tags: ['开源', 'Release'],
+          image: ownerAvatar(full),
+          imageSource: 'GitHub 仓库头像',
           evidence: {
             url: API + '/repos/' + full + '/releases/latest',
             fetchedAt: rel.fetchedAt,

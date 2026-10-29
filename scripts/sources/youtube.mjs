@@ -73,7 +73,8 @@ export const source = {
           score: entry.likes || null,
           scoreLabel: entry.likes ? '👍 ' + entry.likes : '',
           tags: ['视频', r.ch.label || ''],
-          image: entry.thumb || null,
+          image: 'https://i.ytimg.com/vi/' + entry.videoId + '/hqdefault.jpg',
+          imageSource: 'YouTube 视频封面',
           evidence: {
             url: r.url,
             fetchedAt: r.fetchedAt,

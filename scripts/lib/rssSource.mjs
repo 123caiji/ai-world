@@ -28,6 +28,8 @@ export function makeFeedSource(spec) {
         score: null,
         scoreLabel: spec.badge || '',
         tags: spec.tags || [],
+        image: entry.image || '',
+        imageSource: entry.image ? 'RSS 原文配图' : '',
         evidence: {
           url: spec.url,
           fetchedAt: res.fetchedAt,

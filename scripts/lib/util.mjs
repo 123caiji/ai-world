@@ -109,6 +109,7 @@ export function makeItem(fields) {
     tags: [...new Set([...(fields.tags || []), ...inferTags(title + ' ' + summary)])].slice(0, 5),
     evidence: fields.evidence || { url: fields.url, fetchedAt: new Date().toISOString(), httpStatus: null, pointer: '' },
     ...(fields.image ? { image: String(fields.image) } : {}),
+    ...(fields.image && fields.imageSource ? { imageSource: String(fields.imageSource) } : {}),
     ...(fields.discussionUrl ? { discussionUrl: String(fields.discussionUrl) } : {}),
   };
 }

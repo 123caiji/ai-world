@@ -7,7 +7,7 @@
 <meta name="description" content="AI 大世界：每小时自动采集 AI 新闻、论文、新模型、数据集、视频、AI 安全情报、GitHub 新仓库与涨星、DSH 插件生态。每条情报都带抓取证据（端点、时间、HTTP 状态），机器可读。" />
 <meta name="theme-color" content="#05070f" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%230b1220%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-size=%2214%22 font-family=%22monospace%22 fill=%22%2360a5fa%22 text-anchor=%22middle%22%3EAI%3C/text%3E%3C/svg%3E" />
-<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="./style.css?v=f8b79a9cd5" />
 <link rel="alternate" type="application/rss+xml" title="AI 大世界 · 情报流" href="./feed.xml" />
 </head>
 <body>
@@ -16,6 +16,10 @@
   <div class="orb orb-b"></div>
   <div class="orb orb-c"></div>
   <div class="mesh"></div>
+  <div class="grid-lines"></div>
+  <div class="aurora"></div>
+  <div class="noise"></div>
+  <div class="scan"></div>
 </div>
 
 <header class="topbar">
@@ -108,11 +112,17 @@
       <div class="panel-body" id="sources-body"><p class="muted">加载中…</p></div>
     </section>
 
+    <section class="panel" id="panel-media">
+      <h2>素材来源</h2>
+      <div class="panel-body" id="media-body"><p class="muted">加载中…</p></div>
+    </section>
+
     <section class="panel">
       <h2>怎么验证这些情报</h2>
       <div class="panel-body">
         <ul class="verify">
           <li>每条都带 <code>evidence</code>：抓取端点、抓取时间、HTTP 状态、在响应里的定位。</li>
+          <li>缩略图是来源站点自己给的图（<code>image</code> + <code>imageSource</code>），不是 AI 生成；取不到就显示「无素材」。</li>
           <li>机器可读全量：<a href="./data/feed.json">data/feed.json</a> · 快照 <a href="./data/digest.md">data/digest.md</a> · 节奏 <a href="./data/trend.json">data/trend.json</a>。</li>
           <li>采集脚本全开源：<a href="https://github.com/123caiji/ai-world/tree/main/scripts">scripts/</a>，源清单 <a href="https://github.com/123caiji/ai-world/blob/main/config/watchlist.json">config/watchlist.json</a>。</li>
           <li>GitHub Actions 每小时跑一次（<code>7 * * * *</code>）。</li>
@@ -127,6 +137,6 @@
   <span><a href="https://github.com/123caiji/ai-world">GitHub 仓库</a> · <a href="./feed.xml">RSS</a> · <a href="./data/site.json">站点数据</a> · MIT</span>
 </footer>
 
-<script src="./app.js"></script>
+<script src="./app.js?v=73d12e24ba"></script>
 </body>
 </html>

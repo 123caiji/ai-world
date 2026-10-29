@@ -117,6 +117,15 @@ const words = [...wordCount.entries()]
   .map(([w, n]) => ({ w, n }));
 writeJson(join(DATA, 'topics.json'), { generatedAt: iso, windowHours: 72, words });
 
+const byImageSource = {};
+let withImage = 0;
+for (const item of items) {
+  if (!item.image) continue;
+  withImage += 1;
+  const key = item.imageSource || '站点封面';
+  byImageSource[key] = (byImageSource[key] || 0) + 1;
+}
+
 const site = {
   generatedAt: iso,
   feedGeneratedAt: feed.generatedAt,
@@ -133,6 +142,9 @@ const site = {
     releases: (github.releases || []).length,
     dshTotal: dsh.total || 0,
     dshNew: dsh.newCount || 0,
+    withImage,
+    imageCoverage: items.length ? Math.round((withImage / items.length) * 100) : 0,
+    byImageSource,
   },
   watchlist: {
     repos: config.repos || [],
@@ -175,6 +187,20 @@ if (existsSync(WEB)) {
   }
   writeFileSync(join(DIST, '.nojekyll'), '', 'utf8');
 
+  // 资源指纹：内容变了 URL 就变，绕过浏览器 / CDN 的旧缓存
+  const indexFile = join(DIST, 'index.html');
+  if (existsSync(indexFile)) {
+    const { createHash } = await import('node:crypto');
+    const stamp = (rel) => {
+      const fp = join(DIST, rel);
+      if (!existsSync(fp)) return 'v0';
+      return createHash('sha256').update(readFileSync(fp)).digest('hex').slice(0, 10);
+    };
+    let html = readFileSync(indexFile, 'utf8');
+    html = html.replace(/\.\/(style|app)\.(css|js)\?v=dev/g, (m, name, ext) => './' + name + '.' + ext + '?v=' + stamp(name + '.' + ext));
+    writeFileSync(indexFile, html, 'utf8');
+  }
+
   // RSS 2.0：让情报流可以被订阅（网页 / 阅读器 / 其它服务消费）
   const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   const rssItems = [...items].sort((a, b) => (b.heat || 0) - (a.heat || 0)).slice(0, 40);
@@ -194,6 +220,7 @@ if (existsSync(WEB)) {
     rss.push('<pubDate>' + new Date(item.publishedAt || item.firstSeenAt || iso).toUTCString() + '</pubDate>');
     rss.push('<category>' + esc(item.kind) + '</category>');
     rss.push('<description>' + esc((item.summary || '') + ' — 来源 ' + (item.sourceLabel || item.source) + '，抓取于 ' + (item.evidence ? item.evidence.fetchedAt : '') + '，HTTP ' + (item.evidence ? item.evidence.httpStatus : '')) + '</description>');
+    if (item.image) rss.push('<enclosure url="' + esc(item.image) + '" type="image/png" />');
     rss.push('</item>');
   }
   rss.push('</channel></rss>');

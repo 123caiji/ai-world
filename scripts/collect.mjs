@@ -2,6 +2,7 @@ import { join } from 'node:path';
 import { sources } from './sources/index.mjs';
 import { appendJsonl, readJson, writeJson } from './lib/store.mjs';
 import { sha1 } from './lib/util.mjs';
+import { fetchCoverImage, isUsableImage, mapLimit } from './lib/media.mjs';
 
 const ROOT = process.cwd();
 const DATA_DIR = join(ROOT, 'data');
@@ -142,6 +143,49 @@ const allItems = [...merged.values()].sort((a, b) => {
   return bt - at;
 });
 const kept = allItems.slice(0, MAX_FEED);
+// 历史条目里的图没有来源标签（旧版本抓的），统一补一个诚实的默认值：来自订阅源自身
+for (const item of kept) {
+  // 已知死链（如 opengraph.githubassets.com 的 429）不留在页面上，清掉好让补图重试
+  if (item.image && !isUsableImage(item.image)) {
+    item.image = '';
+    delete item.imageSource;
+  }
+  if (item.image && !item.imageSource) item.imageSource = 'RSS 原文配图';
+}
+
+// ---- 素材补全：对没有缩略图的条目，去原文页取站点自己声明的封面图（og:image / twitter:image）----
+// 只补"有原文页面、且本身没图"的条目；带并发/超时/失败静默，任何一条失败都不影响采集。
+const ENRICH_LIMIT = Number(process.env.ENRICH_LIMIT || 400);
+const missing = kept
+  .filter((item) => !item.image && item.url && /^https?:\/\//i.test(item.url))
+  .sort((a, b) => (b.heat || 0) - (a.heat || 0))
+  .slice(0, ENRICH_LIMIT);
+const coverCache = readJson(join(SNAP_DIR, 'covers.json'), {});
+// 缓存里已经失效的地址（历史抓到的 429 死链）先剔掉，别一直复用
+for (const key of Object.keys(coverCache)) {
+  if (coverCache[key] && !isUsableImage(coverCache[key])) delete coverCache[key];
+}
+const coverStarted = Date.now();
+let coverHit = 0;
+let coverCached = 0;
+if (missing.length) {
+  await mapLimit(missing, 8, async (item) => {
+    const before = Object.prototype.hasOwnProperty.call(coverCache, item.url);
+    const image = await fetchCoverImage(item.url, { cache: coverCache });
+    if (before) coverCached += 1;
+    if (!image) return;
+    item.image = image;
+    item.imageSource = '原文 OG 封面';
+    coverHit += 1;
+  });
+}
+// 缓存只保留最近 4000 条 URL，避免快照无限膨胀
+const coverKeys = Object.keys(coverCache);
+if (coverKeys.length > 4000) {
+  for (const key of coverKeys.slice(0, coverKeys.length - 4000)) delete coverCache[key];
+}
+writeJson(join(SNAP_DIR, 'covers.json'), coverCache);
+const coverMs = Date.now() - coverStarted;
 
 const month = new Date().toISOString().slice(0, 7);
 appendJsonl(join(DATA_DIR, 'archive', month + '.jsonl'), freshRows.map((row) => ({
@@ -190,5 +234,7 @@ if (ctx.draft.github) writeJson(join(DATA_DIR, 'github.json'), ctx.draft.github)
 if (ctx.draft.dsh) writeJson(join(DATA_DIR, 'dsh.json'), ctx.draft.dsh);
 
 console.log('');
+const withImage = kept.filter((item) => item.image).length;
 console.log('collected ' + collected.length + ' items, ' + freshRows.length + ' new, feed=' + kept.length + ', sources ok ' + okCount + '/' + reports.length);
+console.log('media: ' + withImage + '/' + kept.length + ' 条带真实缩略图 (' + Math.round((withImage / Math.max(1, kept.length)) * 100) + '%)，本次补图 ' + coverHit + '/' + missing.length + '（' + coverMs + 'ms)');
 for (const row of ctx.draft.github ? ctx.draft.github.warnings || [] : []) console.log('  warn: ' + row);

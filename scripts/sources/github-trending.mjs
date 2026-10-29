@@ -43,6 +43,8 @@ export const source = {
       score: row.today || row.stars,
       scoreLabel: row.today ? '今日 +' + row.today : '',
       tags: ['开源', '趋势'],
+      image: 'https://github.com/' + row.full.split('/')[0] + '.png?size=96',
+      imageSource: 'GitHub 仓库头像',
       evidence: {
         url: URL,
         fetchedAt: res.fetchedAt,

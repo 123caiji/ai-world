@@ -13,7 +13,11 @@ function parseNews(html) {
     if (!title) continue;
     const desc = stripHtml(decodeEntities((block.match(/description[\s\S]{0,600}?<p>([\s\S]{0,600}?)<\/p>/) || [])[1] || ''));
     const dateRaw = (block.match(/<div>((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2},\s+\d{4})<\/div>/) || [])[1] || '';
-    rows.push({ href, title, desc, publishedAt: toIso(dateRaw) });
+    const imgRaw = (block.match(/<img\b[^>]*\bsrc=(["'])([^"']+)\1/i) || [])[2] || '';
+    const srcset = (block.match(/<img\b[^>]*\bsrcset=(["'])([^"']+)\1/i) || [])[2] || '';
+    const fromSet = srcset.split(',').map((s) => s.trim().split(/\s+/)[0]).filter((x) => /^https?:\/\//.test(x)).pop() || '';
+    const image = /^https?:\/\//.test(imgRaw) ? imgRaw : fromSet;
+    rows.push({ href, title, desc, publishedAt: toIso(dateRaw), image });
   }
   return rows;
 }
@@ -42,6 +46,7 @@ export const source = {
         publishedAt: row.publishedAt,
         score: null,
         tags: ['官方', 'Anthropic'],
+        image: row.image || '',
         evidence: {
           url: URL,
           fetchedAt: res.fetchedAt,

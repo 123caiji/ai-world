@@ -52,6 +52,8 @@ export const source = {
         score: row.trendingScore || likes || null,
         scoreLabel: '趋势 ' + fmt(row.trendingScore),
         tags: ['模型', kind].concat(row.pipeline_tag ? [row.pipeline_tag] : []),
+        image: 'https://cdn-thumbnails.huggingface.co/social-thumbnails/' + (kind === 'dataset' ? 'datasets/' : kind === 'space' ? 'spaces/' : 'models/') + row.id + '.png',
+        imageSource: 'Hugging Face 官方卡片',
         evidence: {
           url: kind === 'model' ? MODELS : kind === 'dataset' ? DATASETS : SPACES,
           fetchedAt: kind === 'model' ? models.fetchedAt : kind === 'dataset' ? datasets.fetchedAt : spaces.fetchedAt,
