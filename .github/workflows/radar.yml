@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: radar
@@ -43,4 +44,10 @@ jobs:
             git commit -m "chore(radar): 自动采集 $(date -u +'%Y-%m-%dT%H:%MZ')"
             git push
           fi
+
+      # GITHUB_TOKEN 提交的 push 不会触发其它 workflow，所以显式 dispatch pages.yml
+      - name: 触发 Pages 部署
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run pages.yml --repo ${{ github.repository }}
 
