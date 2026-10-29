@@ -40,10 +40,20 @@ jobs:
           git add -A
           if git diff --cached --quiet; then
             echo "no data changes"
-          else
-            git commit -m "chore(radar): 自动采集 $(date -u +'%Y-%m-%dT%H:%MZ')"
-            git push
+            exit 0
           fi
+          git commit -m "chore(radar): 自动采集 $(date -u +'%Y-%m-%dT%H:%MZ')"
+          # 采集要跑几分钟，期间可能有人工提交把 main 推进；rebase 后重试
+          for i in 1 2 3; do
+            if git push; then
+              echo "pushed on attempt $i"
+              exit 0
+            fi
+            echo "push rejected, rebasing onto origin/main (attempt $i)"
+            git pull --rebase --autostash origin main || git rebase --abort || true
+          done
+          echo "::error::push failed after 3 attempts"
+          exit 1
 
       # GITHUB_TOKEN 提交的 push 不会触发其它 workflow，所以显式 dispatch pages.yml
       - name: 触发 Pages 部署
