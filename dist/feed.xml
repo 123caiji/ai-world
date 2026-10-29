@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>AI 大世界 · 实时 AI 情报站</title>
+<link>https://123caiji.github.io/ai-world/</link>
+<description>每小时自动采集的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>
+<language>zh-CN</language>
+<lastBuildDate>Thu, 29 Oct 2026 15:34:51 GMT</lastBuildDate>
+<item>
+<title>DiffuSpace 推出 Clover-35B-A3B-Preview 扩散语言模型，兼顾性能与速度</title>
+<link>https://www.ithome.com/1/019/783.htm</link>
+<guid isPermaLink="false">fa9dc42b51d3244f0e80c41dd7fd9b16359b3a15</guid>
+<pubDate>Thu, 29 Oct 2026 14:33:24 GMT</pubDate>
+<category>news</category>
+<description>IT之家 10 月 29 日消息，人工智能实验室扩散智能 (DiffuSpace) 昨日发布了其 Clover（三叶草）系列模型家族的首个成员：Clover-35B-A3B-Preview，并以 Apache 许可开源。 Clover-35B-A3B-Preview 是一款采用 MoE 架构的扩散语言模型。与传统自回归模型不同的是，其具备“全局思维”，通过多轮迭代实现结果的从模糊到具体。 DiffuSpace 表示，Clover-35B-A3B-Preview 的诞生证明 扩散语言模型能在更大的参数尺度下与自回归模型竞争甚至略胜一筹 ， 同时保持更快生成速度 。 该模型在多项基准测试中性能超过同规模的自回归模型 Qwen3.6-35B-A3B，尤其擅长智能体编程与工具使用任务。 参考 https://diffuspace.ai/blog/clover-35b/ — 来源 IT之家，抓取于 2026-10-29T15:34:40.555Z，HTTP 200</description>
+</item>
+<item>
+<title>Quoting Ben Hylak</title>
+<link>https://simonwillison.net/2026/Oct/29/ben-hylak</link>
+<guid isPermaLink="false">502de87809f2a788098ebe402b07401f2f882833</guid>
+<pubDate>Thu, 29 Oct 2026 14:06:27 GMT</pubDate>
+<category>news</category>
+<description>every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. - Ben Hylak Tags: model-context-protocol , ai — 来源 Simon Willison，抓取于 2026-10-29T15:34:40.722Z，HTTP 200</description>
+</item>
+<item>
+<title>Paris-based Mistral releases &quot;Le Chonk,&quot; a strong coding model that still trails China overall</title>
+<link>https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall</link>
+<guid isPermaLink="false">ef23d352003c053565c244f45e6ac6f4b3da5685</guid>
+<pubDate>Thu, 29 Oct 2026 15:25:27 GMT</pubDate>
+<category>news</category>
+<description>Mistral has released the weights for Large 4, aka &quot;Le Chonk,&quot; a trillion-parameter model trained entirely in Europe. Mistral says it beats its open rivals at coding, and independent testing shows it's fast and fairly cheap. It still can't match China's top models, scoring 26 points to the 32 posted by DeepSeek V4.1 Flash and GLM-5.3. The article Paris-based Mistral releases &quot;Le Chonk,&quot; a strong coding model that... — 来源 The Decoder，抓取于 2026-10-29T15:34:41.173Z，HTTP 200</description>
+</item>
+<item>
+<title>月之暗面 Kimi 接入谷歌 Gmail、云端硬盘和日历</title>
+<link>https://www.ithome.com/1/019/782.htm</link>
+<guid isPermaLink="false">8125a35f438520906d14423901f532a7c40553be</guid>
+<pubDate>Thu, 29 Oct 2026 14:27:39 GMT</pubDate>
+<category>news</category>
+<description>IT之家 10 月 29 日消息，月之暗面今天在海外宣布，Kimi 现已接入谷歌 Gmail、Google Drive 和日历，用户可通过 Plugins（插件）页面启用。 据官方介绍，用户现在可以总结 Gmail 邮件对话、查找 Google Drive 的文件，还能利用 Google 日历规划每日行程。 所有操作均通过安全的 OAuth 授权机制进行 。 IT之家了解到，Kimi 插件是接入 Kimi AI 的外部工具与服务扩展，能够让 Kimi 在处理任务时直接调用第三方能力或自动化执行操作。 — 来源 IT之家，抓取于 2026-10-29T15:34:40.555Z，HTTP 200</description>
+</item>
+<item>
+<title>OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses</title>
+<link>https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses</link>
+<guid isPermaLink="false">5d2dac20389eaa69537a8f62a7746379609af1cd</guid>
+<pubDate>Thu, 29 Oct 2026 13:20:14 GMT</pubDate>
+<category>news</category>
+<description>Chinese AI labs are now mainly tapping OpenAI's most powerful model, GPT-6 Astra, instead of Anthropic's Claude. The article OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses appeared first on The Decoder . — 来源 The Decoder，抓取于 2026-10-29T15:34:41.173Z，HTTP 200</description>
+</item>
+<item>
+<title>部署态加速，智元要打通物理AI全链路</title>
+<link>https://36kr.com/p/4047032889800965?f=rss</link>
+<guid isPermaLink="false">e75992d15a294a4db241b5ed91be2bf4b0337c94</guid>
+<pubDate>Thu, 29 Oct 2026 14:25:57 GMT</pubDate>
+<category>news</category>
+<description>在具身智能行业仍热衷于用高难度动作展示技术进步时，智元创新日上呈现了另外一种思路。 在这场发布会上，没有太多眼花缭乱的机器人特技，也没有太多夺眼球的集体舞蹈，反而更像是一场信息密度极高的技术研讨会。甚至，在世博中心的入口，智元还设置了一大面“论文墙”，呈现智元团队近期的核心技术进展。 过去三年，机器人学会了跑、跳、后空翻，但走出实验室才发现，单一技术突破撑不起复杂环境中的稳定工作。当GPT-6 Astra等大模型展现出物理任务规划能力后，“真实部署”已从口号，变成行业必须回答的问题。 智元的回答是一套组合拳： GO-3 Preview具身基座大模型、AGILE通用运动智能算法框架、WITA-OMNI原生多模态交互大模型分别攻坚作业、运动、交互三大难关；灵渠OS 1.0与AHA3第三代硬件架构从软硬件两端拉通统一端口；Worken（有效智能工时）则试图为物理AI的实际劳动产出建立度量衡。... — 来源 36氪，抓取于 2026-10-29T15:29:02.547Z，HTTP 200</description>
+</item>
+<item>
+<title>Shopify采用维萨、万事达卡的智能体支付技术</title>
+<link>https://36kr.com/newsflashes/4046930726566153?f=rss</link>
+<guid isPermaLink="false">233f6e50d931ab6a8dbc0feccd902a7019214fdb</guid>
+<pubDate>Thu, 29 Oct 2026 12:38:40 GMT</pubDate>
+<category>news</category>
+<description>Shopify宣布，已经在自家结账功能Shop Pay中接入由维萨、万事达卡以及美国运通开发的智能体支付技术。这一选择与Stripe处理智能体购物与信用卡业务的主流方案形成鲜明反差。维萨、万事达卡、美国运通推出了智能体支付令牌。该令牌代表用户的银行卡信息，授权后的AI智能体可以直接从用户银行卡完成扣款。智能体无法获取用户真实卡号，同时还可以保留信用卡积分权益与防欺诈保护机制。（新浪财经） — 来源 36氪，抓取于 2026-10-29T15:29:02.547Z，HTTP 200</description>
+</item>
+<item>
+<title>36氪研究院 | 2026年中国自动驾驶行业发展研究报告</title>
+<link>https://36kr.com/p/4046684874429576?f=rss</link>
+<guid isPermaLink="false">de76ae88586ed29bbdee7a95818019a0adf40ea5</guid>
+<pubDate>Thu, 29 Oct 2026 10:59:23 GMT</pubDate>
+<category>news</category>
+<description>自动驾驶是人工智能与汽车工业深度融合的战略性技术方向，也是中国智能网联新能源汽车战略性新兴产业中增长最为活跃的领域之一。当前，中国自动驾驶行业正处于从全域道路测试、示范应用迈向规模化商业落地的关键阶段。政策层面，2026年7月，首部针对L3、L4级自动驾驶系统的强制性国家标准（GB44721-2026）正式发布，将于2027年7月1日起实施，为自动驾驶产品确立了统一的安全准入基线；2026年8月，《道路交通安全法》修订草案完成初次审议，首设“自动驾驶汽车的特别规定”专章，填补了自动驾驶法律责任的顶层空白。技术层面，核心部件国产化降本成效显著；端到端大模型加速普及并向“物理AI基座模型”演进，技术底座的代际跃迁正重塑产业价值链。资本层面，一级市场资金加速向具备明确商业化路径的场景应用与核心部件环节集中；二级市场估值逻辑经历深层重构，由前期的技术叙事与赛道稀缺性，转向对商业模式盈利可持续性的严谨验证。... — 来源 36氪，抓取于 2026-10-29T15:29:02.547Z，HTTP 200</description>
+</item>
+<item>
+<title>Particle AI: Particle-1</title>
+<link>https://openrouter.ai/particle-ai/particle-1</link>
+<guid isPermaLink="false">6236bafadb2230a05a69528a882740a42daab12f</guid>
+<pubDate>Wed, 28 Oct 2026 17:18:13 GMT</pubDate>
+<category>model</category>
+<description>上下文 1,048,576 tokens · 输入 $0.25/M · 输出 $1/M · Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as t — 来源 OpenRouter 新模型，抓取于 2026-10-29T15:29:02.745Z，HTTP 200</description>
+</item>
+<item>
+<title>Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round</title>
+<link>https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round</link>
+<guid isPermaLink="false">5c450d9a985fdd096989ecf4cfc40ba6c5871dc6</guid>
+<pubDate>Thu, 29 Oct 2026 14:35:26 GMT</pubDate>
+<category>news</category>
+<description>On Thursday, AI app, Wabi, now describing itself as a &quot;personal agent,&quot; said it has raised $55 million at a $1.25 billion valuation. — 来源 TechCrunch AI，抓取于 2026-10-29T15:34:40.067Z，HTTP 200</description>
+</item>
+</channel></rss>

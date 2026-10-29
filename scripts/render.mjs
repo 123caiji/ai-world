@@ -131,6 +131,30 @@ if (existsSync(WEB)) {
     if (existsSync(src)) cpSync(src, join(DIST, 'data', name));
   }
   writeFileSync(join(DIST, '.nojekyll'), '', 'utf8');
+
+  // RSS 2.0：让情报流可以被订阅（网页 / 阅读器 / 其它服务消费）
+  const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  const rss = [];
+  rss.push('<?xml version="1.0" encoding="UTF-8"?>');
+  rss.push('<rss version="2.0"><channel>');
+  rss.push('<title>AI 大世界 · 实时 AI 情报站</title>');
+  rss.push('<link>https://123caiji.github.io/ai-world/</link>');
+  rss.push('<description>每小时自动采集的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>');
+  rss.push('<language>zh-CN</language>');
+  rss.push('<lastBuildDate>' + new Date(feed.generatedAt || iso).toUTCString() + '</lastBuildDate>');
+  for (const item of topByHeat.slice(0, 80)) {
+    rss.push('<item>');
+    rss.push('<title>' + esc(item.title) + '</title>');
+    rss.push('<link>' + esc(item.url) + '</link>');
+    rss.push('<guid isPermaLink="false">' + esc(item.id) + '</guid>');
+    rss.push('<pubDate>' + new Date(item.publishedAt || item.firstSeenAt || iso).toUTCString() + '</pubDate>');
+    rss.push('<category>' + esc(item.kind) + '</category>');
+    rss.push('<description>' + esc((item.summary || '') + ' — 来源 ' + (item.sourceLabel || item.source) + '，抓取于 ' + (item.evidence ? item.evidence.fetchedAt : '') + '，HTTP ' + (item.evidence ? item.evidence.httpStatus : '')) + '</description>');
+    rss.push('</item>');
+  }
+  rss.push('</channel></rss>');
+  writeFileSync(join(DIST, 'feed.xml'), rss.join('\n'), 'utf8');
+
   console.log('dist rebuilt -> ' + DIST);
 }
 
