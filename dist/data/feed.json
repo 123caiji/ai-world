@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-10-29T15:29:15.331Z",
-  "count": 358,
-  "freshCount": 358,
+  "generatedAt": "2026-10-29T15:34:51.747Z",
+  "count": 359,
+  "freshCount": 3,
   "items": [
+    {
+      "id": "cb78c86c1b7269816c680eafcc0b9906a596c4c4",
+      "kind": "news",
+      "source": "ithome",
+      "sourceLabel": "IT之家",
+      "title": "NearLink E2.0：华为 Pura 90 Plus 手机上市即支持星闪音频功能",
+      "url": "https://www.ithome.com/1/019/795.htm",
+      "summary": "IT之家 10 月 29 日消息，在昨日的华为双十一焕新季全场景新品发布会上，华为 Pura 90 Plus 手机正式发布，首发搭载麒麟 9025 芯片，焕新优惠价 5199 元起。 IT之家从华为官方了解到，Pura 90 Plus 手机采用 NearLink E2.0 技术方案， 上市即支持星闪音频功能 。 根据华为官方描述，星闪音频物理层传输速率可达 16Mbps，带宽能力超传统技术，充足的通道容量能够承载 48kHz/24bit Hi-Fi 音频无损传输。目前支持星闪音频的耳机包括 FreeClip 2 典藏版、FreeClip 2、FreeBuds Pro 5 等。",
+      "lang": "zh",
+      "publishedAt": "2026-10-29T15:28:31.000Z",
+      "firstSeenAt": "2026-10-29T15:34:40.559Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "中文",
+        "产品"
+      ],
+      "evidence": {
+        "url": "https://www.ithome.com/rss/",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
+        "httpStatus": 200,
+        "pointer": "feed item: NearLink E2.0：华为 Pura 90 Plus 手机上市即支持星闪音频功能"
+      },
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 1,
+      "heat": 112
+    },
+    {
+      "id": "184dfdbb5bfa1d87ea7a9ffba0d207a474c21104",
+      "kind": "news",
+      "source": "ithome",
+      "sourceLabel": "IT之家",
+      "title": "盖洛普研究：美国员工的工作投入度降至历史新低，远程办公者降幅最大",
+      "url": "https://www.ithome.com/1/019/794.htm",
+      "summary": "IT之家 10 月 29 日消息，据科技媒体 TechRadar 今天报道，盖洛普（Gallup）最新研究报告显示，美国员工的工作投入度降至历史新低。远程办公和混合办公的人更加缺乏工作热情，而对 AI 缺乏明确认知也正在影响员工的工作满意度。 该机构指出，2026 年第三季度，美国员工的工作投入度为 29%，降至 2011 年以来最低水平。作为对比，2020 年美国工作投入度指标为 36%，2024 年降至 31%。 IT之家注意到，与上一季度相比，全远程办公员工的工作投入度下降了 5 个百分点，混合办公员工下降了 2 个百分点。相比之下， 现场办公员工的工作投入度仅下降 1 个百分点 。 同时盖洛普已在此前发现，在工作性质允许远程办公的岗位中， 全远程办公 、 混合办公的人 ， 相比现场办公对工作预期的感受程度更差 。 至于 AI 方面盖洛普认为，今年早些时候的研究显示，员工对 AI...",
+      "lang": "zh",
+      "publishedAt": "2026-10-29T15:28:29.000Z",
+      "firstSeenAt": "2026-10-29T15:34:40.559Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "中文",
+        "论文"
+      ],
+      "evidence": {
+        "url": "https://www.ithome.com/rss/",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
+        "httpStatus": 200,
+        "pointer": "feed item: 盖洛普研究：美国员工的工作投入度降至历史新低，远程办公者降幅最大"
+      },
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 1,
+      "heat": 112
+    },
     {
       "id": "ef23d352003c053565c244f45e6ac6f4b3da5685",
       "kind": "news",
@@ -23,13 +77,13 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:06.161Z",
+        "fetchedAt": "2026-10-29T15:34:41.173Z",
         "httpStatus": 200,
         "pointer": "feed item: Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 148
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 136
     },
     {
       "id": "43acd69fb9703f5092251fda281f8acae94bafdb",
@@ -50,13 +104,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:02.673Z",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
         "httpStatus": 200,
         "pointer": "feed item: 星闪 SLE 1.0 芯片累计发货量 7000 万，华为 2023 年实现首批商用终端产品落地"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 111
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 99
     },
     {
       "id": "8755bf37309aad94270a41b11dc2038dcecc316f",
@@ -77,13 +131,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:02.673Z",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
         "httpStatus": 200,
         "pointer": "feed item: iFi 推出 UP Travel Max 蓝牙收发 DAC，支持 aptX Lossless、LDAC 等格式"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 111
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 99
     },
     {
       "id": "36fcfea518c35ab6fc149277543194c0e7404392",
@@ -103,13 +157,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:02.673Z",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
         "httpStatus": 200,
         "pointer": "feed item: 映泰推出无风扇边缘 AI 系统 MS-U320：酷睿 5 处理器 320，四 COM 口"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 111
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 99
     },
     {
       "id": "344c8b688ebd92844845df218619e306e201251e",
@@ -129,13 +183,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:02.673Z",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
         "httpStatus": 200,
         "pointer": "feed item: EA 裁员后办公室现状曝光：员工士气跌至谷底，管理层热衷于生成式 AI"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 111
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 99
     },
     {
       "id": "5c450d9a985fdd096989ecf4cfc40ba6c5871dc6",
@@ -157,13 +211,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 128
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 116
     },
     {
       "id": "6cc16376d9f59c45bba97174399cfed6eaaafbc9",
@@ -184,13 +238,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:02.673Z",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
         "httpStatus": 200,
         "pointer": "feed item: 系列唯一：华为 Pura 90 Plus 手机确认支持 USB 3.1 Gen 1 功能"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 110
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 98
     },
     {
       "id": "fa9dc42b51d3244f0e80c41dd7fd9b16359b3a15",
@@ -214,13 +268,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:02.673Z",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
         "httpStatus": 200,
         "pointer": "feed item: DiffuSpace 推出 Clover-35B-A3B-Preview 扩散语言模型，兼顾性能与速度"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 155
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 143
     },
     {
       "id": "8125a35f438520906d14423901f532a7c40553be",
@@ -242,13 +296,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:02.673Z",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
         "httpStatus": 200,
         "pointer": "feed item: 月之暗面 Kimi 接入谷歌 Gmail、云端硬盘和日历"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 146
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 134
     },
     {
       "id": "e75992d15a294a4db241b5ed91be2bf4b0337c94",
@@ -298,13 +352,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:02.673Z",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
         "httpStatus": 200,
         "pointer": "feed item: 华为制药军团总裁樊杰明确“华为不做药”，希望成为 AI 制药产业技术底座"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 110
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 98
     },
     {
       "id": "fb0dc092962c92f4c60ab92df7c25781bb057ed7",
@@ -354,13 +408,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:02.673Z",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
         "httpStatus": 200,
         "pointer": "feed item: 庆祝《ARC Raiders》发售一周年，海盗船携旗下品牌推出联名外设"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 110
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 98
     },
     {
       "id": "0bc449511ce7ba0270b11aaf551983718214b15a",
@@ -381,13 +435,13 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:06.161Z",
+        "fetchedAt": "2026-10-29T15:34:41.173Z",
         "httpStatus": 200,
         "pointer": "feed item: US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 110
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 98
     },
     {
       "id": "502de87809f2a788098ebe402b07401f2f882833",
@@ -410,13 +464,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-10-29T15:29:06.525Z",
+        "fetchedAt": "2026-10-29T15:34:40.722Z",
         "httpStatus": 200,
         "pointer": "feed item: Quoting Ben Hylak"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 155
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 142
     },
     {
       "id": "2eb3ea554d85cfe9b6abb144862a38085e8ac438",
@@ -437,13 +491,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:02.673Z",
+        "fetchedAt": "2026-10-29T15:34:40.555Z",
         "httpStatus": 200,
         "pointer": "feed item: 摩托罗拉 Signature 27 手机 11 月发布，骁龙 8EE6 芯片"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 109
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 97
     },
     {
       "id": "811a8ed42b70c1a794062b1bc775ee651c7be3f3",
@@ -464,13 +518,13 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:06.161Z",
+        "fetchedAt": "2026-10-29T15:34:41.173Z",
         "httpStatus": 200,
         "pointer": "feed item: Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 109
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 97
     },
     {
       "id": "4dd39fded35ceaf85b65036799cfb582eff9e865",
@@ -517,13 +571,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: Granite Switch 4.1.1 — Update models like you update software"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 109
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 97
     },
     {
       "id": "3bdaec97c4ab664bf0969557a62e27bb2b71c843",
@@ -574,13 +628,13 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:06.161Z",
+        "fetchedAt": "2026-10-29T15:34:41.173Z",
         "httpStatus": 200,
         "pointer": "feed item: OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 144
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 132
     },
     {
       "id": "d0e2301d55a343cce8142210a89d4b9267e2049f",
@@ -602,13 +656,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 126
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 114
     },
     {
       "id": "f1cd1b9663e9895d76732c7e08af9a1fe4425003",
@@ -628,13 +682,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: Amazon updates Alexa to help you manage shopping lists, subscriptions, and..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 108
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 96
     },
     {
       "id": "0a0d43f7429d43e5c3f9bba83b2f043c680f7b1a",
@@ -762,13 +816,13 @@
       ],
       "evidence": {
         "url": "https://www.technologyreview.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.837Z",
+        "fetchedAt": "2026-10-29T15:34:40.131Z",
         "httpStatus": 200,
         "pointer": "feed item: The Download: AI agent tracking and climate feedback loops"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 124
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 112
     },
     {
       "id": "de76ae88586ed29bbdee7a95818019a0adf40ea5",
@@ -819,13 +873,13 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:06.161Z",
+        "fetchedAt": "2026-10-29T15:34:41.173Z",
         "httpStatus": 200,
         "pointer": "feed item: Google's AI search problem finally shows up in the earnings report, some..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 103
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 91
     },
     {
       "id": "24f676feeb3a33f0a4089357246c1173c65ee21e",
@@ -847,13 +901,13 @@
       ],
       "evidence": {
         "url": "https://www.technologyreview.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.837Z",
+        "fetchedAt": "2026-10-29T15:34:40.131Z",
         "httpStatus": 200,
         "pointer": "feed item: We urgently need to monitor AI agents’ actions in real time"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 121
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 109
     },
     {
       "id": "80723490c9588397bd102f5840592cb75895c5bc",
@@ -875,13 +929,13 @@
       ],
       "evidence": {
         "url": "https://www.technologyreview.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.837Z",
+        "fetchedAt": "2026-10-29T15:34:40.131Z",
         "httpStatus": 200,
         "pointer": "feed item: Our climate models have a big, dangerous blind spot"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 103
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 91
     },
     {
       "id": "daa2f40a1020e3a8f7d3172b426ede1680f0c33c",
@@ -960,13 +1014,13 @@
       ],
       "evidence": {
         "url": "https://www.latent.space/feed",
-        "fetchedAt": "2026-10-29T15:29:08.293Z",
+        "fetchedAt": "2026-10-29T15:34:40.583Z",
         "httpStatus": 200,
         "pointer": "feed item: [AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 114
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 102
     },
     {
       "id": "fabd2f882ce76a069fda8173b13173fa3048f0e0",
@@ -987,13 +1041,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-10-29T15:29:02.181Z",
+        "fetchedAt": "2026-10-29T15:34:39.671Z",
         "httpStatus": 200,
         "pointer": "feed item: 文远知行001号员工带队，景烁科技首轮融资数千万美元"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 92
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 79
     },
     {
       "id": "6acfe9a1a52e1931145a5e1eb7a23cfcd7b51ee6",
@@ -1013,13 +1067,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-10-29T15:29:02.181Z",
+        "fetchedAt": "2026-10-29T15:34:39.671Z",
         "httpStatus": 200,
         "pointer": "feed item: 小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 91
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "66607358e02b273d7e6c40e59c3df77b8d8efd94",
@@ -1041,13 +1095,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-10-29T15:29:02.181Z",
+        "fetchedAt": "2026-10-29T15:34:39.671Z",
         "httpStatus": 200,
         "pointer": "feed item: 刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 108
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 95
     },
     {
       "id": "65d732f6398515508dd16983429128085a4585d7",
@@ -1094,13 +1148,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-10-29T15:29:02.181Z",
+        "fetchedAt": "2026-10-29T15:34:39.671Z",
         "httpStatus": 200,
         "pointer": "feed item: 24万开卖！理想重造i6，李想：目标全球畅销"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 87
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 75
     },
     {
       "id": "5cb679230bf9545bd0caff3215deb81f58f43a08",
@@ -1148,13 +1202,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-10-29T15:29:02.181Z",
+        "fetchedAt": "2026-10-29T15:34:39.671Z",
         "httpStatus": 200,
         "pointer": "feed item: 刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 104
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 92
     },
     {
       "id": "e1c742c1d925baf7505636d3c989a52bf3620d01",
@@ -1174,13 +1228,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 86
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 74
     },
     {
       "id": "a1765f446c5b64b5bbced0cf22070e131e3557ee",
@@ -1201,13 +1255,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: Welcome Le Chonk: Mistral Large 4 on Hugging Face"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 86
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 74
     },
     {
       "id": "85d975255b4f9d004ddb3cbeee15f8e8556ffee6",
@@ -1230,13 +1284,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 86
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 74
     },
     {
       "id": "ba69aedf01d3c1930baab09b83cffe0287c332eb",
@@ -1257,13 +1311,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-10-29T15:29:06.701Z",
+        "fetchedAt": "2026-10-29T15:34:40.759Z",
         "httpStatus": 200,
         "pointer": "feed item: Flatbread"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 103
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 91
     },
     {
       "id": "52ced88a57d975486cb59c4279c5407e6a979fc2",
@@ -1284,13 +1338,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-10-29T15:29:06.525Z",
+        "fetchedAt": "2026-10-29T15:34:40.722Z",
         "httpStatus": 200,
         "pointer": "feed item: Quoting Ted Sanders"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 85
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 72
     },
     {
       "id": "3b1d2ae6d532943006b09657fa8e91c98ecc3913",
@@ -1338,13 +1392,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 82
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 70
     },
     {
       "id": "9b7dd4a7a6853f5d5578ec65f1b81b44ef5537c2",
@@ -1365,13 +1419,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: Google expands AI Search ads globally as core ad growth slows"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 82
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 70
     },
     {
       "id": "f9d1493b929c42b62c5f7df2f4487f2d5b7dfbe6",
@@ -1391,13 +1445,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: Microsoft recorded $10 billion in revenue from OpenAI"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 82
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 69
     },
     {
       "id": "0ef91bd8c8c1525a43a6a4e355fcfd737ba7eeb5",
@@ -1418,13 +1472,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: Microsoft hits 10 quarters of record-breaking revenue in a row"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 81
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 69
     },
     {
       "id": "da72f42f236a1d817b4e2fc068c657040e625748",
@@ -1475,13 +1529,13 @@
       ],
       "evidence": {
         "url": "https://www.technologyreview.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.837Z",
+        "fetchedAt": "2026-10-29T15:34:40.131Z",
         "httpStatus": 200,
         "pointer": "feed item: Creating AI value with enterprise context"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 98
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 86
     },
     {
       "id": "c7f29c651e8637a271a77d6dfd6b496c555d8711",
@@ -1533,13 +1587,13 @@
       ],
       "evidence": {
         "url": "https://www.latent.space/feed",
-        "fetchedAt": "2026-10-29T15:29:08.293Z",
+        "fetchedAt": "2026-10-29T15:34:40.583Z",
         "httpStatus": 200,
         "pointer": "feed item: Why Agents Love Supabase"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 97
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 84
     },
     {
       "id": "ea370fdd96af02d90278d483b9b98b9904d3162f",
@@ -1561,13 +1615,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: Anthropic just launched tools to show companies what their AI spending is buying"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 78
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 66
     },
     {
       "id": "f6569f98353aaa46a12f762f02ef65d436017670",
@@ -1591,13 +1645,13 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:06.161Z",
+        "fetchedAt": "2026-10-29T15:34:41.173Z",
         "httpStatus": 200,
         "pointer": "feed item: Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 114
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 102
     },
     {
       "id": "8500267ec5b48f952342ab05b1dd4a4879eef689",
@@ -1619,13 +1673,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 95
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 83
     },
     {
       "id": "964eb21e0e033e44268568af2303f269e3f5a887",
@@ -1647,13 +1701,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 95
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 83
     },
     {
       "id": "fdd47e1cd5ce0eddcb26552c3338cee0213563ac",
@@ -1674,13 +1728,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-10-29T15:29:06.701Z",
+        "fetchedAt": "2026-10-29T15:34:40.759Z",
         "httpStatus": 200,
         "pointer": "feed item: Suno MCP"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 94
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 82
     },
     {
       "id": "d5629d54a83d848570ac543b36afebedb1e8979a",
@@ -1700,13 +1754,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-10-29T15:29:06.701Z",
+        "fetchedAt": "2026-10-29T15:34:40.759Z",
         "httpStatus": 200,
         "pointer": "feed item: IFTTT.ai"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 76
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 64
     },
     {
       "id": "6236bafadb2230a05a69528a882740a42daab12f",
@@ -1754,13 +1808,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 74
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 62
     },
     {
       "id": "a01db71b034ce352fca5055c39a32f0925beb930",
@@ -1783,13 +1837,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.116Z",
+        "fetchedAt": "2026-10-29T15:34:40.067Z",
         "httpStatus": 200,
         "pointer": "feed item: As AI agents reshape the web, Google opens Gemini and Search to more apps"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 110
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 98
     },
     {
       "id": "ff13d1a5478f1c05ee59ef762d5d5fe6191f6ede",
@@ -1811,13 +1865,13 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:06.161Z",
+        "fetchedAt": "2026-10-29T15:34:41.173Z",
         "httpStatus": 200,
         "pointer": "feed item: Google opens Android development to third-party AI agents and unveils new..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 119
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 107
     },
     {
       "id": "94bdedac0696aac15663941b60b0f1d2a5da08a0",
@@ -1839,13 +1893,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-10-29T15:29:06.525Z",
+        "fetchedAt": "2026-10-29T15:34:40.722Z",
         "httpStatus": 200,
         "pointer": "feed item: GitHub Octoverse 2026"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 91
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 79
     },
     {
       "id": "87d3517a492e7b54182a79b572652bf10e9becac",
@@ -1866,13 +1920,13 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:06.161Z",
+        "fetchedAt": "2026-10-29T15:34:41.173Z",
         "httpStatus": 200,
         "pointer": "feed item: OpenAI teases Dots for Europe, but its Berlin DevDay was really about building..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 91
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 79
     },
     {
       "id": "e889e386702df91d1194e2db4e1d0c372d452b2a",
@@ -1894,13 +1948,13 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:06.161Z",
+        "fetchedAt": "2026-10-29T15:34:41.173Z",
         "httpStatus": 200,
         "pointer": "feed item: Claude for Legal now verifies sources automatically, then hands the file to a..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 91
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "6275c06097e7fdd97017c963254243d5c595dc1a",
@@ -1924,13 +1978,13 @@
       ],
       "evidence": {
         "url": "https://github.blog/feed/",
-        "fetchedAt": "2026-10-29T15:29:04.946Z",
+        "fetchedAt": "2026-10-29T15:34:39.894Z",
         "httpStatus": 200,
         "pointer": "feed item: GitHub Universe 2026: Evolving every layer of the stack"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "85daa6a854746cd3e4c71a6551c481aea682fc6d",
@@ -1952,13 +2006,13 @@
       ],
       "evidence": {
         "url": "https://github.blog/feed/",
-        "fetchedAt": "2026-10-29T15:29:04.946Z",
+        "fetchedAt": "2026-10-29T15:34:39.894Z",
         "httpStatus": 200,
         "pointer": "feed item: Octoverse: Commits, pushes, reach new highs in 2026 as developers build with..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "83480dba542c152f9cf05bde1910274dc77ce61f",
@@ -1982,13 +2036,13 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:06.161Z",
+        "fetchedAt": "2026-10-29T15:34:41.173Z",
         "httpStatus": 200,
         "pointer": "feed item: Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "8b649fb89d9ab4e9eecbbbf84af2f073b3b51e15",
@@ -2036,13 +2090,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 70
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 58
     },
     {
       "id": "d6316526146016648924f0aa6a158baa8209f764",
@@ -2065,13 +2119,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-10-29T15:29:06.525Z",
+        "fetchedAt": "2026-10-29T15:34:40.722Z",
         "httpStatus": 200,
         "pointer": "feed item: The October inflection point for vibe game development"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 105
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 92
     },
     {
       "id": "75e2017ed4c5a2ecbacf8d375dd8df89d0c0d878",
@@ -2093,13 +2147,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: OpenAI and ServiceNow expand partnership across enterprise workflows"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 103
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 91
     },
     {
       "id": "6269c662aae108190ec3c1376dadb3cedae150e7",
@@ -2151,13 +2205,13 @@
       ],
       "evidence": {
         "url": "https://www.technologyreview.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.837Z",
+        "fetchedAt": "2026-10-29T15:34:40.131Z",
         "httpStatus": 200,
         "pointer": "feed item: The Download: dead startups fueling AI and interspecies communication"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 66
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 53
     },
     {
       "id": "85069581580d6ad2e5262593ca2375d705de1c16",
@@ -2177,13 +2231,13 @@
       ],
       "evidence": {
         "url": "https://www.technologyreview.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.837Z",
+        "fetchedAt": "2026-10-29T15:34:40.131Z",
         "httpStatus": 200,
         "pointer": "feed item: Pairing industrial AI autonomy and human control"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 65
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 53
     },
     {
       "id": "caef38f057d7dea70331a641f58bb5ae8b82ba72",
@@ -2204,13 +2258,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-10-29T15:29:02.181Z",
+        "fetchedAt": "2026-10-29T15:34:39.671Z",
         "httpStatus": 200,
         "pointer": "feed item: 【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 64
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 52
     },
     {
       "id": "1c71db68b8cad680c0ce57329424ce3f34f11779",
@@ -2230,13 +2284,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-10-29T15:29:02.181Z",
+        "fetchedAt": "2026-10-29T15:34:39.671Z",
         "httpStatus": 200,
         "pointer": "feed item: 工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 63
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 51
     },
     {
       "id": "c7191b4c01b0d4c5633924fbf8a26ee4cf23261a",
@@ -2282,13 +2336,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-10-29T15:29:06.525Z",
+        "fetchedAt": "2026-10-29T15:34:40.722Z",
         "httpStatus": 200,
         "pointer": "feed item: Quoting Terk Terkowitz"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 62
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 50
     },
     {
       "id": "0dc3cf0b7c98dcde7cee9fa081b12b2c28e359be",
@@ -2308,13 +2362,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: The future of the firm"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 62
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 50
     },
     {
       "id": "41c97fe8dc29ac4a38662fab728e42ff14149ac9",
@@ -2336,13 +2390,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: Legora is building the agentic operating system for legal work"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 97
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 85
     },
     {
       "id": "e0f4d0bec36c4add8da67dfda24aaead2c70063f",
@@ -2362,13 +2416,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-10-29T15:29:02.181Z",
+        "fetchedAt": "2026-10-29T15:34:39.671Z",
         "httpStatus": 200,
         "pointer": "feed item: 威卡：用数据集链接具身智能和工程机械"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 60
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 48
     },
     {
       "id": "f03a8850b36c0e2d07f4c391bf508f0b8835096c",
@@ -2388,13 +2442,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-10-29T15:29:02.181Z",
+        "fetchedAt": "2026-10-29T15:34:39.671Z",
         "httpStatus": 200,
         "pointer": "feed item: 19个项目18个成功，6个GPCR靶点全获命中！国产AI制药再破技术天花板"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 60
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 48
     },
     {
       "id": "f8ba7008ee05866e4a0e479d1cb3c46b4833440c",
@@ -2414,13 +2468,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-10-29T15:29:02.181Z",
+        "fetchedAt": "2026-10-29T15:34:39.671Z",
         "httpStatus": 200,
         "pointer": "feed item: 0营收估值200亿美元，具身版OpenAI又融10亿美元"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 60
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 48
     },
     {
       "id": "625efce5713df3eb7a7058cb5074f6112bd6668f",
@@ -2440,13 +2494,13 @@
       ],
       "evidence": {
         "url": "https://www.latent.space/feed",
-        "fetchedAt": "2026-10-29T15:29:08.293Z",
+        "fetchedAt": "2026-10-29T15:34:40.583Z",
         "httpStatus": 200,
         "pointer": "feed item: [AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\""
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 60
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 48
     },
     {
       "id": "3cec00e6eb875fdd24f21acef2b9690f1bb4f209",
@@ -2469,13 +2523,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:29.950Z",
+        "fetchedAt": "2026-10-29T15:34:22.693Z",
         "httpStatus": 200,
         "pointer": "search item full_name=shipwords-dev/shipwords created=2026-10-28T06:35:51Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 109
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 97
     },
     {
       "id": "a549e6db2d4f6260c6da8b86dd6b8a22bd2f47a8",
@@ -2499,13 +2553,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Arag&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:32.875Z",
+        "fetchedAt": "2026-10-29T15:34:24.583Z",
         "httpStatus": 200,
         "pointer": "search item full_name=harrytted/ai-agent-interview-playbook created=2026-10-28T06:02:04Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 103
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 91
     },
     {
       "id": "a9daa3cbb1ade7359d79c27845592e541436bb34",
@@ -2529,13 +2583,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Allm&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:28.883Z",
+        "fetchedAt": "2026-10-29T15:34:21.907Z",
         "httpStatus": 200,
         "pointer": "search item full_name=aa1143/NamiGPT created=2026-10-28T00:57:01Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 111
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 99
     },
     {
       "id": "9a70fd6f2e15114f6b2688ce9da26db6397b0835",
@@ -2555,13 +2609,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-10-29T15:29:06.701Z",
+        "fetchedAt": "2026-10-29T15:34:40.759Z",
         "httpStatus": 200,
         "pointer": "feed item: Confetti"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 45
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 32
     },
     {
       "id": "470ff32953cdb10d29f36ca96a916c38e1bb4312",
@@ -2582,13 +2636,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-10-29T15:29:06.701Z",
+        "fetchedAt": "2026-10-29T15:34:40.759Z",
         "httpStatus": 200,
         "pointer": "feed item: Radar"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 57
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 45
     },
     {
       "id": "f376eece8b408c45ef499c5824cf2a8e2db71e9f",
@@ -2610,13 +2664,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-10-29T15:29:06.525Z",
+        "fetchedAt": "2026-10-29T15:34:40.722Z",
         "httpStatus": 200,
         "pointer": "feed item: Game Boy Color on My Conference Badge"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 55
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 43
     },
     {
       "id": "80e5637a67e1a525d570c7c95fcdd592c0bc6c4c",
@@ -2637,13 +2691,13 @@
       ],
       "evidence": {
         "url": "https://www.latent.space/feed",
-        "fetchedAt": "2026-10-29T15:29:08.293Z",
+        "fetchedAt": "2026-10-29T15:34:40.583Z",
         "httpStatus": 200,
         "pointer": "feed item: How Anthropic ships Claude with Claude: Separating the Brain from the Hands"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 54
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 42
     },
     {
       "id": "beb92a3cbb63bc7ea56ce92ce24aa7d463fe35af",
@@ -2666,13 +2720,13 @@
       ],
       "evidence": {
         "url": "https://www.latent.space/feed",
-        "fetchedAt": "2026-10-29T15:29:08.293Z",
+        "fetchedAt": "2026-10-29T15:34:40.583Z",
         "httpStatus": 200,
         "pointer": "feed item: How Anthropic ships the #1 LLM in the World safely: Separating the Brain from..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "652f1bf21442acf53dfa97bf85db583e9bdeb76a",
@@ -2693,13 +2747,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37668"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.325Z",
-      "seenCount": 1,
-      "heat": 35
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 23
     },
     {
       "id": "f9fc9bf8c857a1ec0fb9204718e5ef514533a594",
@@ -2720,13 +2774,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37666"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.325Z",
-      "seenCount": 1,
-      "heat": 35
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 23
     },
     {
       "id": "fd2e76b882506589be2a2ddc0db161a2a8793501",
@@ -2747,13 +2801,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:12.111Z",
+        "fetchedAt": "2026-10-29T15:34:48.538Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37658"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 35
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "cdb986594d96a813369bdc6eef3f68406b990535",
@@ -2774,13 +2828,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:07.915Z",
+        "fetchedAt": "2026-10-29T15:34:45.281Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37657"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 53
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 40
     },
     {
       "id": "99835a80f458e5079d0ddc3551c75f988c69eb6d",
@@ -2798,13 +2852,13 @@
       "tags": [],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37656"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.325Z",
-      "seenCount": 1,
-      "heat": 35
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "6f327c68ae45d2bb92b9b489c8439a4f157ba77b",
@@ -2824,13 +2878,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37655"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.325Z",
-      "seenCount": 1,
-      "heat": 35
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "15f8a813011f34c6778359f17d4bae5e025b1afb",
@@ -2848,13 +2902,13 @@
       "tags": [],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:12.111Z",
+        "fetchedAt": "2026-10-29T15:34:48.538Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37652"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 35
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "4c3e256a37cfbb4cd8807dce776828dd2b643e48",
@@ -2875,13 +2929,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:07.915Z",
+        "fetchedAt": "2026-10-29T15:34:45.281Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37651"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 71
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 58
     },
     {
       "id": "a0b7070066d58225ef630136547e6a64635611ee",
@@ -2901,13 +2955,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37649"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.325Z",
-      "seenCount": 1,
-      "heat": 35
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "2f8c663eea06eb1d70f0a42d3e7c69d4e5b23554",
@@ -2928,13 +2982,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:12.111Z",
+        "fetchedAt": "2026-10-29T15:34:48.538Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37648"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 53
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 40
     },
     {
       "id": "e0482e6f8507c83ccdaab1af4b3e1d73cd954735",
@@ -2954,13 +3008,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37647"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 35
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "61d80e697b0d8b9df295a798125f60aa888d3a0c",
@@ -2980,13 +3034,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:07.915Z",
+        "fetchedAt": "2026-10-29T15:34:45.281Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37645"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 53
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 40
     },
     {
       "id": "5b12846c4df0f987db20ba3f8073c0786304ab71",
@@ -3008,13 +3062,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:07.915Z",
+        "fetchedAt": "2026-10-29T15:34:45.281Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37642"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 71
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 58
     },
     {
       "id": "ec76c0ab38acbf6e99d8f7c0509296e35938fc86",
@@ -3034,13 +3088,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37631"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 34
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "da361ea047752264f600b33ee0b4b83a7b89ca78",
@@ -3060,13 +3114,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37624"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 34
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "6594bee508dd57c8dd1a3cd94cf38bcb68762fcc",
@@ -3088,13 +3142,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37613"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 34
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "78b2af19a178f80a47ff5084cae2e7c464d8a452",
@@ -3114,13 +3168,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:07.915Z",
+        "fetchedAt": "2026-10-29T15:34:45.281Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37609"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 52
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 40
     },
     {
       "id": "6410cba520f10dd1e73a35b04e090fcf0597a28e",
@@ -3141,13 +3195,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37605"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 34
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "ba933f20444e337fcfd32dfecaabbaab39e43e96",
@@ -3169,13 +3223,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37599"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 34
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "9e2934c822251beaf5a2111a8c01b2292ec7f8df",
@@ -3197,13 +3251,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:03.737Z",
+        "fetchedAt": "2026-10-29T15:34:38.378Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37598"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 70
+      "lastSeenAt": "2026-10-29T15:34:51.743Z",
+      "seenCount": 2,
+      "heat": 58
     },
     {
       "id": "2727f85a299bc63dccdb6e1f17246d22772cc0ab",
@@ -3224,13 +3278,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:12.111Z",
+        "fetchedAt": "2026-10-29T15:34:48.538Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37588"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 52
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 40
     },
     {
       "id": "5c8045f423b8c7ab508d720818c4070947e13dcb",
@@ -3252,13 +3306,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:12.111Z",
+        "fetchedAt": "2026-10-29T15:34:48.538Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37583"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 34
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "87c580ce66ff4694f4a87afe7833489a0b0a5d5a",
@@ -3278,13 +3332,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:12.111Z",
+        "fetchedAt": "2026-10-29T15:34:48.538Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37580"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 34
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 21
     },
     {
       "id": "db98bf59a6c7e4204871c9f544fd7cc3019a06a7",
@@ -3306,13 +3360,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: Build specialized multimodal models with LFM3"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 33
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 21
     },
     {
       "id": "48172dab52b70235618897a275b1bc0965845e05",
@@ -3332,13 +3386,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:07.915Z",
+        "fetchedAt": "2026-10-29T15:34:45.281Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37494"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 32
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 20
     },
     {
       "id": "34370e88c88d0cd43d961feeb9f737a92f7f63fb",
@@ -3358,13 +3412,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: Can we trust LLMs to judge whether a research idea is novel?"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 32
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 19
     },
     {
       "id": "ceb5ff33fc7312bfc3f8a59a773555a4bce3db7a",
@@ -3384,13 +3438,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:07.915Z",
+        "fetchedAt": "2026-10-29T15:34:45.281Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37484"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 32
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 19
     },
     {
       "id": "a26b8b0dbcbaacfa5a0b2ddc46a913e4b73490ff",
@@ -3410,13 +3464,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:07.915Z",
+        "fetchedAt": "2026-10-29T15:34:45.281Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37481"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 32
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 19
     },
     {
       "id": "55b76102f9920b21774f95fbbc04061b168e6617",
@@ -3437,13 +3491,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:07.915Z",
+        "fetchedAt": "2026-10-29T15:34:45.281Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37465"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 31
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 19
     },
     {
       "id": "b7dc23ae3cdc58263f1c21e0dd7f0c9cd6172356",
@@ -3465,13 +3519,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: We’re announcing Genie 4, our new world model for real-time interactive..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 31
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 19
     },
     {
       "id": "799f316d8529235f0bcca9757e65ec1749d70acc",
@@ -3492,13 +3546,13 @@
       ],
       "evidence": {
         "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
-        "fetchedAt": "2026-10-29T15:29:07.915Z",
+        "fetchedAt": "2026-10-29T15:34:45.281Z",
         "httpStatus": 200,
         "pointer": "Atom entry id 2610.37448"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 49
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 37
     },
     {
       "id": "d42fb1eb3362412fc304b1479bee77d132c5c2a7",
@@ -3522,13 +3576,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: Retell uses OpenAI models to help power 100M monthly calls"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 66
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 53
     },
     {
       "id": "6f792c233e0d6d202af45e1201c1294951ee120c",
@@ -3552,13 +3606,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.000Z",
+        "fetchedAt": "2026-10-29T15:34:23.435Z",
         "httpStatus": 200,
         "pointer": "search item full_name=davemessew/AgentFlux created=2026-10-27T14:43:07Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 99
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 87
     },
     {
       "id": "6dd70bb9a79dbb69f3a20df4780c544753e309a0",
@@ -3579,13 +3633,13 @@
       ],
       "evidence": {
         "url": "https://www.latent.space/feed",
-        "fetchedAt": "2026-10-29T15:29:08.293Z",
+        "fetchedAt": "2026-10-29T15:34:40.583Z",
         "httpStatus": 200,
         "pointer": "feed item: Coding From the Himalayas With an Offline AI Agent"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 47
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 35
     },
     {
       "id": "008876f8cd1cb09f988f27771032f832f010909e",
@@ -3606,13 +3660,13 @@
       ],
       "evidence": {
         "url": "https://blog.cloudflare.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:04.589Z",
+        "fetchedAt": "2026-10-29T15:34:40.008Z",
         "httpStatus": 200,
         "pointer": "feed item: What took the Internet offline in Q3 2026"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 26
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 14
     },
     {
       "id": "86e551dd7e95e58a3d9e95740a1fdb70f9697aa3",
@@ -3632,13 +3686,13 @@
       ],
       "evidence": {
         "url": "https://www.technologyreview.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.837Z",
+        "fetchedAt": "2026-10-29T15:34:40.131Z",
         "httpStatus": 200,
         "pointer": "feed item: The Download: Anthropic’s IPO, smarter power grids, and exercise pills"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 25
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 13
     },
     {
       "id": "631a6f171e9d3f8e83b0e1c480b57557def81afe",
@@ -3659,13 +3713,13 @@
       ],
       "evidence": {
         "url": "https://www.technologyreview.com/feed/",
-        "fetchedAt": "2026-10-29T15:29:05.837Z",
+        "fetchedAt": "2026-10-29T15:34:40.131Z",
         "httpStatus": 200,
         "pointer": "feed item: How solid-state transformers could help power the AI boom"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 19
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 7
     },
     {
       "id": "95af72b561e4ee73f718bbafdaf7ba89092b0f50",
@@ -3685,13 +3739,13 @@
       ],
       "evidence": {
         "url": "https://www.latent.space/feed",
-        "fetchedAt": "2026-10-29T15:29:08.293Z",
+        "fetchedAt": "2026-10-29T15:34:40.583Z",
         "httpStatus": 200,
         "pointer": "feed item: [AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 17
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 5
     },
     {
       "id": "a3a879144b2984ac94bfd6f21f2a919716019c6d",
@@ -3714,13 +3768,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: OpenAI expands partnership with Oracle to bring its apps to ChatGPT"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 52
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 40
     },
     {
       "id": "8cb333260a17a324432715cb9b46155f1d0d6a44",
@@ -3741,13 +3795,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: How Check Point accelerates vulnerability research with Daybreak"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "2812ff85caf0a240e4f7754d9708354f51179199",
@@ -3769,13 +3823,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-10-29T15:29:06.525Z",
+        "fetchedAt": "2026-10-29T15:34:40.722Z",
         "httpStatus": 200,
         "pointer": "feed item: GPT-6.1 Terra"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "95d5916fd6281c36fd630aa1b5d1165f56c19b02",
@@ -3798,13 +3852,13 @@
       ],
       "evidence": {
         "url": "https://blog.cloudflare.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:04.589Z",
+        "fetchedAt": "2026-10-29T15:34:40.008Z",
         "httpStatus": 200,
         "pointer": "feed item: Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "57c034712ba556afacc59c345494cf5e22faaf80",
@@ -3857,13 +3911,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: Greptile takes bug detection beyond code review with GPT-6 Astra"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "d039e7322fab508c059019bb2a358768023176b5",
@@ -3887,13 +3941,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.37230"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 74
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 62
     },
     {
       "id": "e9c275cd829ff9935da68b28fbbe72f315f50d9b",
@@ -3915,13 +3969,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2509.05512"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 22
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 10
     },
     {
       "id": "293c4dc8eb9bad3d9d05e70199f56bd14424d280",
@@ -3945,13 +3999,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.37364"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 43
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 31
     },
     {
       "id": "b22376d07a0faf6ececb58178fa77be1b90423b7",
@@ -3974,13 +4028,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.37037"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 80
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 68
     },
     {
       "id": "d451aa6926fdb15c9a3a1654fece7abe7cec53c2",
@@ -4004,13 +4058,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.37662"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 73
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 61
     },
     {
       "id": "8f479ea224ffa8e5a849716e521d0caa3a9961b0",
@@ -4030,13 +4084,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.37624"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 29
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 17
     },
     {
       "id": "d47afb54fd8c72873014ef6bbdbd9d577a9effbc",
@@ -4059,13 +4113,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.35864"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 79
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 67
     },
     {
       "id": "e01cd416b82fc63afa935f3178ed060b44670457",
@@ -4088,13 +4142,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.36791"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 34
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "d4e4fc64e7068882d6fbcae3783c2961c0999539",
@@ -4116,13 +4170,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.37381"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 60
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 48
     },
     {
       "id": "0ed74c9c2cfdcf29b24efa5d984b4cdc320acb7b",
@@ -4145,13 +4199,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.37255"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 68
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 56
     },
     {
       "id": "2efbece755b2bd1408977ad7bbfbd80349425bd3",
@@ -4173,13 +4227,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.37175"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 65
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 53
     },
     {
       "id": "b521cb6b48c6d4e343504248b6c830b8e62c3380",
@@ -4200,13 +4254,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-10-29T15:29:06.525Z",
+        "fetchedAt": "2026-10-29T15:34:40.722Z",
         "httpStatus": 200,
         "pointer": "feed item: Quoting Jason Koebler"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "c0c39ce3049bf06d0d32bbbe83f656460675229f",
@@ -4338,13 +4392,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: Working with academic communities to build scientific understanding"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "b0f59c73797f9f802c2f6246b277a837b52a9cee",
@@ -4366,13 +4420,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-10-29T15:29:06.701Z",
+        "fetchedAt": "2026-10-29T15:34:40.759Z",
         "httpStatus": 200,
         "pointer": "feed item: Intrascope 2.0"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "1a1d4bf2fc111eb8468802ff9bbd62e331b7f1cf",
@@ -4395,13 +4449,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 48
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 36
     },
     {
       "id": "64d59b55a8fb866695c8c1e923e768f9baf418cb",
@@ -4422,13 +4476,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: ChatGPT’s expanding world of work"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "f5acbf7ed327e3fe28feb1ebaf71d215bcb1f8e6",
@@ -4478,13 +4532,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: How Fanatics and OpenAI streamline the fan experience"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "8f2f08b6e197805b4e591a57a55e222a54e44f14",
@@ -4506,13 +4560,13 @@
       ],
       "evidence": {
         "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-10-29T15:29:03.701Z",
+        "fetchedAt": "2026-10-29T15:34:39.400Z",
         "httpStatus": 200,
         "pointer": "feed item: How Ultrafast cut incident investigation from hours to minutes at OpenAI"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "12daf3b51fe388191f914640e1713e1be3a420b6",
@@ -4535,13 +4589,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.35671"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 37
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 25
     },
     {
       "id": "02c43a1d4661e9d742f8095ca1105d12d7645eed",
@@ -4564,13 +4618,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.35684"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 47
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 35
     },
     {
       "id": "d2493f9c725f4d1f5355cc667b62a00d80e62327",
@@ -4593,13 +4647,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.35201"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 83
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 71
     },
     {
       "id": "3a76d6e598998b5c2bdea55c13d85178558570dd",
@@ -4621,13 +4675,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.36184"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 19
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 7
     },
     {
       "id": "1761b5e1580d1470d3862bfe2fa5b5c5b688536e",
@@ -4650,13 +4704,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.36192"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 36
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 24
     },
     {
       "id": "21ef3c830a716861728a5a6da321b39416f13fdc",
@@ -4678,13 +4732,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.34894"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 27
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 15
     },
     {
       "id": "9a781cfc239e267fbd0cfe0c38f0b409235bbda7",
@@ -4707,13 +4761,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.36082"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 27
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 15
     },
     {
       "id": "f16bea4d1af66725c01d311c7bf028ff5838f211",
@@ -4735,13 +4789,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.35013"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 87
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 75
     },
     {
       "id": "51d8a262aec9339a2f038374a1da15f0b29b65ef",
@@ -4763,13 +4817,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2602.10657"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 34
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "3419f858036dbb02b7873998666c33832d2fdc83",
@@ -4790,13 +4844,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.34674"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 34
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 22
     },
     {
       "id": "14c308a32a9e6ba6ef0d65a670122fa0255e9bf4",
@@ -4819,13 +4873,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.36077"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 108
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 96
     },
     {
       "id": "857d6aa958a2dc3e7e202d5f3565d934ac510956",
@@ -4847,13 +4901,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.34921"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 22
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 10
     },
     {
       "id": "ba6a877b128bb51e5300774275be94698c8016f0",
@@ -4875,13 +4929,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.26185"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 25
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 13
     },
     {
       "id": "a02a79030c2a0d117d0e443997424106ab6ff76f",
@@ -4905,27 +4959,27 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.000Z",
+        "fetchedAt": "2026-10-29T15:34:23.435Z",
         "httpStatus": 200,
         "pointer": "search item full_name=emanuele-em/kanzo created=2026-10-25T11:14:03Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 78
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 66
     },
     {
       "id": "e8bb9b5c5c77cf7ddd427ff4c4ff9f459ad679db",
       "kind": "repo",
       "source": "github",
       "sourceLabel": "GitHub 新仓库",
-      "title": "qybaihe/bla · 366 stars",
+      "title": "qybaihe/bla · 378 stars",
       "url": "https://github.com/qybaihe/bla",
       "summary": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate. · TypeScript · #mcp",
       "lang": "en",
       "publishedAt": "2026-10-25T05:25:45Z",
       "firstSeenAt": "2026-10-29T15:28:31.993Z",
-      "score": 366,
-      "scoreLabel": "366 stars",
+      "score": 378,
+      "scoreLabel": "378 stars",
       "tags": [
         "开源",
         "新仓库",
@@ -4935,13 +4989,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Amcp&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.993Z",
+        "fetchedAt": "2026-10-29T15:34:24.017Z",
         "httpStatus": 200,
         "pointer": "search item full_name=qybaihe/bla created=2026-10-25T05:25:45Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 104
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 93
     },
     {
       "id": "db8d281c1d1752daef26ee3db6e45a61660fa2a7",
@@ -4965,27 +5019,27 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:29.950Z",
+        "fetchedAt": "2026-10-29T15:34:22.693Z",
         "httpStatus": 200,
         "pointer": "search item full_name=hevnsnt/CVEngine created=2026-10-24T22:34:43Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 106
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 94
     },
     {
       "id": "2519b65e4dae2378e7909647746b5dba8d3f496e",
       "kind": "repo",
       "source": "github",
       "sourceLabel": "GitHub 新仓库",
-      "title": "yjid/kensaku · 174 stars",
+      "title": "yjid/kensaku · 175 stars",
       "url": "https://github.com/yjid/kensaku",
       "summary": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access. · Rust · #ai-agents",
       "lang": "en",
       "publishedAt": "2026-10-24T21:00:26Z",
       "firstSeenAt": "2026-10-29T15:28:31.001Z",
-      "score": 174,
-      "scoreLabel": "174 stars",
+      "score": 175,
+      "scoreLabel": "175 stars",
       "tags": [
         "开源",
         "新仓库",
@@ -4995,13 +5049,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.000Z",
+        "fetchedAt": "2026-10-29T15:34:23.435Z",
         "httpStatus": 200,
         "pointer": "search item full_name=yjid/kensaku created=2026-10-24T21:00:26Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 97
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 85
     },
     {
       "id": "2508f126d44e5371f867f801179e791c172a1b84",
@@ -5023,13 +5077,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.34186"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 19
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 7
     },
     {
       "id": "27bd424b1a2d03e8fbbee5cdc294b110bc9b5fb1",
@@ -5052,13 +5106,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.35962"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 58
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 46
     },
     {
       "id": "4f35c76875c7667b50c7b5bef61a7a050c113f2f",
@@ -5082,27 +5136,27 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:33.959Z",
+        "fetchedAt": "2026-10-29T15:34:25.283Z",
         "httpStatus": 200,
         "pointer": "search item full_name=ssamurias/dsh-fish created=2026-10-24T17:11:03Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 88
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 76
     },
     {
       "id": "537bd3ea8f73dce6af1aec35e0e45d332976a9ec",
       "kind": "repo",
       "source": "github",
       "sourceLabel": "GitHub 新仓库",
-      "title": "daveebbelaar/bama · 719 stars",
+      "title": "daveebbelaar/bama · 721 stars",
       "url": "https://github.com/daveebbelaar/bama",
       "summary": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI. · Swift · #ai-agents",
       "lang": "en",
       "publishedAt": "2026-10-24T08:44:36Z",
       "firstSeenAt": "2026-10-29T15:28:31.001Z",
-      "score": 719,
-      "scoreLabel": "719 stars",
+      "score": 721,
+      "scoreLabel": "721 stars",
       "tags": [
         "开源",
         "新仓库",
@@ -5112,13 +5166,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.000Z",
+        "fetchedAt": "2026-10-29T15:34:23.435Z",
         "httpStatus": 200,
         "pointer": "search item full_name=daveebbelaar/bama created=2026-10-24T08:44:36Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "0d312a0b88ed35c79838f319c9a4d0170779a024",
@@ -5142,13 +5196,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Allm&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:28.883Z",
+        "fetchedAt": "2026-10-29T15:34:21.907Z",
         "httpStatus": 200,
         "pointer": "search item full_name=lwh0630/TokenBar created=2026-10-24T07:30:31Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 77
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 65
     },
     {
       "id": "c1ad71a16e1f5eab9c3e07cb6299112a1a597293",
@@ -5170,13 +5224,13 @@
       ],
       "evidence": {
         "url": "https://www.latent.space/feed",
-        "fetchedAt": "2026-10-29T15:29:08.293Z",
+        "fetchedAt": "2026-10-29T15:34:40.583Z",
         "httpStatus": 200,
         "pointer": "feed item: [AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "794a7ee9e3ff94061c2b40093b4c433ad2919221",
@@ -5200,13 +5254,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Amcp&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.993Z",
+        "fetchedAt": "2026-10-29T15:34:24.017Z",
         "httpStatus": 200,
         "pointer": "search item full_name=jouaaaaaa/mcd-self-butler created=2026-10-24T04:34:37Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 81
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 69
     },
     {
       "id": "20d42f4887085c51205f61071fc142996cf4f5e4",
@@ -5227,13 +5281,13 @@
       ],
       "evidence": {
         "url": "https://blog.cloudflare.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:04.589Z",
+        "fetchedAt": "2026-10-29T15:34:40.008Z",
         "httpStatus": 200,
         "pointer": "feed item: Origin Range Requests: Serving large files without range-request tuning"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "74d7f4702d4a388236625aaccac2520e81cdb278",
@@ -5268,14 +5322,14 @@
       "kind": "repo",
       "source": "github",
       "sourceLabel": "GitHub 新仓库",
-      "title": "Charonyuu/whatsmyagentdoing · 284 stars",
+      "title": "Charonyuu/whatsmyagentdoing · 285 stars",
       "url": "https://github.com/Charonyuu/whatsmyagentdoing",
       "summary": "See what every Claude Code and Codex agent on your machine is doing — live, in a little office. · JavaScript · #ai-agents",
       "lang": "en",
       "publishedAt": "2026-10-23T14:15:26Z",
       "firstSeenAt": "2026-10-29T15:28:31.001Z",
-      "score": 284,
-      "scoreLabel": "284 stars",
+      "score": 285,
+      "scoreLabel": "285 stars",
       "tags": [
         "开源",
         "新仓库",
@@ -5285,13 +5339,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.000Z",
+        "fetchedAt": "2026-10-29T15:34:23.435Z",
         "httpStatus": 200,
         "pointer": "search item full_name=Charonyuu/whatsmyagentdoing created=2026-10-23T14:15:26Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 102
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 90
     },
     {
       "id": "2ad522143c8ad00cc9b25dbeb3dd9ea39509d1ee",
@@ -5315,13 +5369,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Allm&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:28.883Z",
+        "fetchedAt": "2026-10-29T15:34:21.907Z",
         "httpStatus": 200,
         "pointer": "search item full_name=Cattmonkey/ChaosIntelligence created=2026-10-23T13:04:31Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 99
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 87
     },
     {
       "id": "09569f4128db417af6dc5cb044f950ac8cfa8f31",
@@ -5345,13 +5399,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:33.959Z",
+        "fetchedAt": "2026-10-29T15:34:25.283Z",
         "httpStatus": 200,
         "pointer": "search item full_name=Video-Rebirth/hyperflow-infinity created=2026-10-23T09:07:05Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 86
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 74
     },
     {
       "id": "a673415bc7d255dd38d4350064e625d35b193dfa",
@@ -5375,13 +5429,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:33.959Z",
+        "fetchedAt": "2026-10-29T15:34:25.283Z",
         "httpStatus": 200,
         "pointer": "search item full_name=faraflow/faraflow created=2026-10-23T06:21:09Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 67
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 55
     },
     {
       "id": "8b8c39f972c22059df6942c4706fa7c14a6f06f1",
@@ -5405,13 +5459,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.000Z",
+        "fetchedAt": "2026-10-29T15:34:23.435Z",
         "httpStatus": 200,
         "pointer": "search item full_name=0xS4N4TG/kinetograph created=2026-10-23T05:15:41Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 85
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 73
     },
     {
       "id": "bccd78c26fe3f6b23ccb9210bd1d8b4f635b0bc9",
@@ -5434,13 +5488,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:29.950Z",
+        "fetchedAt": "2026-10-29T15:34:22.693Z",
         "httpStatus": 200,
         "pointer": "search item full_name=litmers-dev/litpage created=2026-10-23T03:39:35Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 55
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 43
     },
     {
       "id": "58da40b0b62bf1106a31c66c00ee44f8a4e3a194",
@@ -5464,13 +5518,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:29.950Z",
+        "fetchedAt": "2026-10-29T15:34:22.693Z",
         "httpStatus": 200,
         "pointer": "search item full_name=liyupi/dafeiyu-cleaner created=2026-10-23T03:39:33Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 94
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 82
     },
     {
       "id": "5ab5e62f27702fac87e0a67da7ff5a960fd47442",
@@ -5494,13 +5548,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:29.950Z",
+        "fetchedAt": "2026-10-29T15:34:22.693Z",
         "httpStatus": 200,
         "pointer": "search item full_name=Shaitrish/37studio created=2026-10-23T00:26:52Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 75
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 63
     },
     {
       "id": "6430909168b586858591a32fd2f7f0e213984c90",
@@ -5521,13 +5575,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: Does Your Model Run on AWS Trainium? Look It Up"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "95eb6975ad2450494f977e3b3b02ec023bf4f2c5",
@@ -5548,13 +5602,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "fb7c5de423ac827180ee46d8f271733ef0dbed4f",
@@ -5575,13 +5629,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2601.15351"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 19
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 7
     },
     {
       "id": "c6362bf7135f3723b6521af7b7c5827540643a8c",
@@ -5604,13 +5658,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.31670"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 46
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 34
     },
     {
       "id": "a85ae40a50205c8789917a9a89d390ddf3f132ac",
@@ -5633,13 +5687,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.32749"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 60
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 48
     },
     {
       "id": "bb556b5b80861f2ec717059097b83e0eec886ce0",
@@ -5662,13 +5716,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.33245"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 37
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 25
     },
     {
       "id": "aeb0ff92943421024e3d6f22f5ef26449c2cd503",
@@ -5689,13 +5743,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-10-29T15:29:06.701Z",
+        "fetchedAt": "2026-10-29T15:34:40.759Z",
         "httpStatus": 200,
         "pointer": "feed item: Gologin Cloud Browser"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "651b6a2bacfdac69539270cb6560ccbf3ad6df05",
@@ -5717,13 +5771,13 @@
       ],
       "evidence": {
         "url": "https://github.blog/feed/",
-        "fetchedAt": "2026-10-29T15:29:04.946Z",
+        "fetchedAt": "2026-10-29T15:34:39.894Z",
         "httpStatus": 200,
         "pointer": "feed item: How bug bounty sharpens one researcher’s security skills"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "8021cc12e6d8c82e9493218df772fd9035b9ab31",
@@ -5745,13 +5799,13 @@
       ],
       "evidence": {
         "url": "https://blog.cloudflare.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:04.589Z",
+        "fetchedAt": "2026-10-29T15:34:40.008Z",
         "httpStatus": 200,
         "pointer": "feed item: Localizing compliance at scale: achieving South Korea’s ISMS certification"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "7f9dd065573027fcd681ceb43b56107dbfd577ef",
@@ -5775,13 +5829,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:29.950Z",
+        "fetchedAt": "2026-10-29T15:34:22.693Z",
         "httpStatus": 200,
         "pointer": "search item full_name=huaxialucaicaizi/ai-startup-skills created=2026-10-22T10:23:29Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "5d118fadbe793ddd15d5992558c943b8fbb4801a",
@@ -5802,13 +5856,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: Ensemble forecasting with IBM Granite time-series models"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "2e6327220e08615ce7fce0ba336c4fd836ad5554",
@@ -5831,13 +5885,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Arag&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:32.875Z",
+        "fetchedAt": "2026-10-29T15:34:24.583Z",
         "httpStatus": 200,
         "pointer": "search item full_name=khanhtq29vn/contextcraft created=2026-10-22T07:20:53Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 69
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 57
     },
     {
       "id": "5ca5f1c7ad0ede35b090da386a738900fc341691",
@@ -5888,13 +5942,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Allm&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:28.883Z",
+        "fetchedAt": "2026-10-29T15:34:21.907Z",
         "httpStatus": 200,
         "pointer": "search item full_name=heterodoxin/AbliteratedOutTheBox created=2026-10-21T21:54:10Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 78
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 66
     },
     {
       "id": "4f96993ab7528db7170e0b7ba6199c4c69efd291",
@@ -5917,13 +5971,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.31924"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 25
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 13
     },
     {
       "id": "63a65ee3fc06128e296b530abf10b294e3235490",
@@ -5947,13 +6001,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Arag&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:32.875Z",
+        "fetchedAt": "2026-10-29T15:34:24.583Z",
         "httpStatus": 200,
         "pointer": "search item full_name=dolev31/lasagna created=2026-10-21T18:58:43Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 42
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 30
     },
     {
       "id": "354f89a6c7dbf10c9b4005276656d6e23bc0b97a",
@@ -5975,13 +6029,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "f9b499debdda31c09e3233a9bc0b2b59d167a0bd",
@@ -6001,13 +6055,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/blog/feed.xml",
-        "fetchedAt": "2026-10-29T15:29:05.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.754Z",
         "httpStatus": 200,
         "pointer": "feed item: Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "20a259028135abdac8bf4666c984fe0943a10359",
@@ -6029,13 +6083,13 @@
       ],
       "evidence": {
         "url": "https://github.blog/feed/",
-        "fetchedAt": "2026-10-29T15:29:04.946Z",
+        "fetchedAt": "2026-10-29T15:34:39.894Z",
         "httpStatus": 200,
         "pointer": "feed item: The bridge to agent-scale Git infrastructure"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "dedbc374478f3e5026f41aa7f267b17a0b71d49e",
@@ -6057,13 +6111,13 @@
       ],
       "evidence": {
         "url": "https://blog.cloudflare.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:04.589Z",
+        "fetchedAt": "2026-10-29T15:34:40.008Z",
         "httpStatus": 200,
         "pointer": "feed item: Cloudflare deploys protections against php2shell vulnerability"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "50afaf72bfb9fbf4b128cd1496d603b030541fec",
@@ -6084,13 +6138,13 @@
       ],
       "evidence": {
         "url": "https://blog.cloudflare.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:04.589Z",
+        "fetchedAt": "2026-10-29T15:34:40.008Z",
         "httpStatus": 200,
         "pointer": "feed item: How Commerce.com and Cloudflare are getting storefronts ready for AI agents"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "254eda8dc9e50477fb730b7d8524bf6bcc9d900a",
@@ -6114,13 +6168,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Amcp&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.993Z",
+        "fetchedAt": "2026-10-29T15:34:24.017Z",
         "httpStatus": 200,
         "pointer": "search item full_name=yzlin286-wq/Deepscient created=2026-10-21T07:44:10Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 84
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 72
     },
     {
       "id": "26cea7ea855a6045a3ebf13619a7dbd8c5d46415",
@@ -6144,13 +6198,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Amcp&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.993Z",
+        "fetchedAt": "2026-10-29T15:34:24.017Z",
         "httpStatus": 200,
         "pointer": "search item full_name=lklbar666/mcd-saver-checkup created=2026-10-21T03:28:42Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 81
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 69
     },
     {
       "id": "018e492dbb3d1e9fc4288b40ee610ced7094567c",
@@ -6172,13 +6226,13 @@
       ],
       "evidence": {
         "url": "https://blog.cloudflare.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:04.589Z",
+        "fetchedAt": "2026-10-29T15:34:40.008Z",
         "httpStatus": 200,
         "pointer": "feed item: 8 eMudhra certificates are compromised. Here's what you need to know"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "febfb3f21da3836caf73e6bc06261616e1293b1e",
@@ -6200,13 +6254,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.30132"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 40
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 28
     },
     {
       "id": "223d6b1fea3289206f5b6dd46e239471e1f5ad79",
@@ -6229,13 +6283,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.29702"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 22
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 10
     },
     {
       "id": "9cff5b58647673f4faf9bdddcb1316ea4be53a4a",
@@ -6257,13 +6311,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.30435"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 40
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 28
     },
     {
       "id": "518eae96c69534eeb40e0f943a147eca3db92604",
@@ -6286,27 +6340,27 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.29003"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 40
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 28
     },
     {
       "id": "dd9a81b0fe5228472513c6341747d162daab57ed",
       "kind": "repo",
       "source": "github",
       "sourceLabel": "GitHub 新仓库",
-      "title": "YOLOW92/pagesift · 135 stars",
+      "title": "YOLOW92/pagesift · 136 stars",
       "url": "https://github.com/YOLOW92/pagesift",
       "summary": "High-performance, memory-efficient Rust web crawler & content extraction engine for AI agents and RAG. Adaptive crawling, clean Markdown, structured data, PDF/RSS parsing, browser rendering, Firecrawl-compatible APIs, and Python/Node.js SDKs. · Rust · #rag",
       "lang": "en",
       "publishedAt": "2026-10-20T17:30:59Z",
       "firstSeenAt": "2026-10-29T15:28:32.875Z",
-      "score": 135,
-      "scoreLabel": "135 stars",
+      "score": 136,
+      "scoreLabel": "136 stars",
       "tags": [
         "开源",
         "新仓库",
@@ -6316,13 +6370,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Arag&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:32.875Z",
+        "fetchedAt": "2026-10-29T15:34:24.583Z",
         "httpStatus": 200,
         "pointer": "search item full_name=YOLOW92/pagesift created=2026-10-20T17:30:59Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 77
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 65
     },
     {
       "id": "eb477756520c8ff87d1e543c9425b98ecf18bc4f",
@@ -6344,13 +6398,13 @@
       ],
       "evidence": {
         "url": "https://github.blog/feed/",
-        "fetchedAt": "2026-10-29T15:29:04.946Z",
+        "fetchedAt": "2026-10-29T15:34:39.894Z",
         "httpStatus": 200,
         "pointer": "feed item: How 3 Java Champions are using GitHub Copilot for increased productivity"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "cc38844670556a20c99edd152809a70be7166f90",
@@ -6374,13 +6428,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:29.950Z",
+        "fetchedAt": "2026-10-29T15:34:22.693Z",
         "httpStatus": 200,
         "pointer": "search item full_name=RabbittuX/purrge created=2026-10-20T14:35:55Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 75
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 63
     },
     {
       "id": "5e241867830c6ea756cb5669edfdfc987329709d",
@@ -6400,13 +6454,13 @@
       ],
       "evidence": {
         "url": "https://blog.cloudflare.com/rss/",
-        "fetchedAt": "2026-10-29T15:29:04.589Z",
+        "fetchedAt": "2026-10-29T15:34:40.008Z",
         "httpStatus": 200,
         "pointer": "feed item: Introducing tsrs: A port of TypeScript to Rust"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "b23a7839cb11fb8df5cb9ba97f6ff031a2732d62",
@@ -6430,13 +6484,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Amcp&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.993Z",
+        "fetchedAt": "2026-10-29T15:34:24.017Z",
         "httpStatus": 200,
         "pointer": "search item full_name=kukemc/bili-cli created=2026-10-19T22:44:50Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 103
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 91
     },
     {
       "id": "f96c0cd54e98087c54ea3ab69bf2a3846190e681",
@@ -6456,13 +6510,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.26030"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 44
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 32
     },
     {
       "id": "f73f11092849b85a57c70d3a9c1980eb92c4756c",
@@ -6485,11 +6539,38 @@
       ],
       "evidence": {
         "url": "https://github.blog/feed/",
-        "fetchedAt": "2026-10-29T15:29:04.946Z",
+        "fetchedAt": "2026-10-29T15:34:39.894Z",
         "httpStatus": 200,
         "pointer": "feed item: How to continue a GitHub Copilot app session in VS Code"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
+    },
+    {
+      "id": "fac2a6d2b26da7bc736c55a3f844a86ca9438ee5",
+      "kind": "product",
+      "source": "producthunt",
+      "sourceLabel": "Product Hunt",
+      "title": "TopAgent",
+      "url": "https://www.producthunt.com/products/topmessage",
+      "summary": "Drive B2B event attendance with an AI agent Discussion | Link",
+      "lang": "en",
+      "publishedAt": "2026-10-19T12:56:25.000Z",
+      "firstSeenAt": "2026-10-29T15:34:40.761Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "产品",
+        "智能体"
+      ],
+      "evidence": {
+        "url": "https://www.producthunt.com/feed",
+        "fetchedAt": "2026-10-29T15:34:40.759Z",
+        "httpStatus": 200,
+        "pointer": "feed item: TopAgent"
+      },
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
       "seenCount": 1,
       "heat": 30
     },
@@ -6511,13 +6592,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-10-29T15:29:06.701Z",
+        "fetchedAt": "2026-10-29T15:34:40.759Z",
         "httpStatus": 200,
         "pointer": "feed item: OutreachGuy"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "61df08ac7b59892bf7b02afa140dcb8d1af38660",
@@ -6541,13 +6622,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.000Z",
+        "fetchedAt": "2026-10-29T15:34:23.435Z",
         "httpStatus": 200,
         "pointer": "search item full_name=tshi-dev/UrTV created=2026-10-19T08:00:59Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 81
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 69
     },
     {
       "id": "e8fa649bf34169f54778b3ecb042a7ff8631865b",
@@ -6571,13 +6652,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Allm&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:28.883Z",
+        "fetchedAt": "2026-10-29T15:34:21.907Z",
         "httpStatus": 200,
         "pointer": "search item full_name=C4rohan/Lampline created=2026-10-19T06:50:54Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 108
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 96
     },
     {
       "id": "c4c55f95d84baf1a928ee201346dc8ce261a2fbc",
@@ -6660,13 +6741,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:33.959Z",
+        "fetchedAt": "2026-10-29T15:34:25.283Z",
         "httpStatus": 200,
         "pointer": "search item full_name=zoe1nan/dsh-cockpit created=2026-10-18T14:26:58Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 87
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 75
     },
     {
       "id": "643ce8037c5c9af623358b3f8fad32f419262931",
@@ -6690,13 +6771,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Amcp&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.993Z",
+        "fetchedAt": "2026-10-29T15:34:24.017Z",
         "httpStatus": 200,
         "pointer": "search item full_name=kanaworksai-hue/audio-studio-mcp created=2026-10-18T11:13:56Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 108
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 96
     },
     {
       "id": "9d1ec63dfa34e013bc0c28751b5a360a172b2733",
@@ -6720,13 +6801,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Arag&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:32.875Z",
+        "fetchedAt": "2026-10-29T15:34:24.583Z",
         "httpStatus": 200,
         "pointer": "search item full_name=hsuanshao/AgentMemory created=2026-10-18T10:37:57Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 65
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 53
     },
     {
       "id": "326bd1e9a296ec8b47520b234e42a5065009dab1",
@@ -6750,13 +6831,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:33.959Z",
+        "fetchedAt": "2026-10-29T15:34:25.283Z",
         "httpStatus": 200,
         "pointer": "search item full_name=sagiri942/WAygent created=2026-10-18T09:10:56Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 59
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 47
     },
     {
       "id": "51299d4c7c9cbf0baeebd63aa41d947e0714e9b2",
@@ -6808,13 +6889,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Arag&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:32.875Z",
+        "fetchedAt": "2026-10-29T15:34:24.583Z",
         "httpStatus": 200,
         "pointer": "search item full_name=pipedude/yahont-ce created=2026-10-18T06:23:58Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 49
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 37
     },
     {
       "id": "a83020bb2afe06ebe57ee07e823b2fc8dc96a8c3",
@@ -6838,13 +6919,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:33.959Z",
+        "fetchedAt": "2026-10-29T15:34:25.283Z",
         "httpStatus": 200,
         "pointer": "search item full_name=langchain-ai/design-agent created=2026-10-18T04:44:58Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 88
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 76
     },
     {
       "id": "fd6181e478c1fecc131f0ccca51ed1fe77e64715",
@@ -6868,13 +6949,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Allm&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:28.883Z",
+        "fetchedAt": "2026-10-29T15:34:21.907Z",
         "httpStatus": 200,
         "pointer": "search item full_name=eliasbiondo/antirion created=2026-10-17T21:43:39Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 88
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 76
     },
     {
       "id": "e13505bb1d7ca99bff43d3866a3b407b66ab2a42",
@@ -6898,13 +6979,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:33.959Z",
+        "fetchedAt": "2026-10-29T15:34:25.283Z",
         "httpStatus": 200,
         "pointer": "search item full_name=cccat6/iphone-agent-harness created=2026-10-17T16:57:20Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 81
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 69
     },
     {
       "id": "7b8b08ad8cdeeabe08b8d2a309814ed395c65c8c",
@@ -6928,13 +7009,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.000Z",
+        "fetchedAt": "2026-10-29T15:34:23.435Z",
         "httpStatus": 200,
         "pointer": "search item full_name=sit-in/awesome-grokbot-playbooks created=2026-10-17T15:47:00Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 106
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 94
     },
     {
       "id": "a5330bc50b8919701771962ce32e6497a60e1a49",
@@ -6957,13 +7038,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Allm&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:28.883Z",
+        "fetchedAt": "2026-10-29T15:34:21.907Z",
         "httpStatus": 200,
         "pointer": "search item full_name=paraboy-s/mcd-meal-pairing created=2026-10-17T12:27:31Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 58
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 46
     },
     {
       "id": "a0f115e0c2d9b6f92d55af7f2aefa8ba1b15ecb3",
@@ -6987,13 +7068,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:33.959Z",
+        "fetchedAt": "2026-10-29T15:34:25.283Z",
         "httpStatus": 200,
         "pointer": "search item full_name=Ropedia/S-Agent-2.0 created=2026-10-17T12:07:28Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 66
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 54
     },
     {
       "id": "63ec0374cbab5ddfdf3908d03c2dd427705d11bb",
@@ -7017,13 +7098,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Allm&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:28.883Z",
+        "fetchedAt": "2026-10-29T15:34:21.907Z",
         "httpStatus": 200,
         "pointer": "search item full_name=justxor/deepseek-local-guide-ru created=2026-10-17T10:03:36Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 79
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 67
     },
     {
       "id": "5af0db753dda113bce9fff1741277cb2158436b4",
@@ -7047,13 +7128,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.000Z",
+        "fetchedAt": "2026-10-29T15:34:23.435Z",
         "httpStatus": 200,
         "pointer": "search item full_name=klarluft/pitupitu created=2026-10-17T09:21:53Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 99
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 87
     },
     {
       "id": "1fd6dd971a81f8a50937488e90890c3b9d3450eb",
@@ -7132,13 +7213,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:33.959Z",
+        "fetchedAt": "2026-10-29T15:34:25.283Z",
         "httpStatus": 200,
         "pointer": "search item full_name=aliengiraffe/rhizome created=2026-10-16T22:46:12Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 94
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 82
     },
     {
       "id": "184aa01bc803dbfeaf166023c4c31d70d254ca22",
@@ -7189,13 +7270,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Amcp&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.993Z",
+        "fetchedAt": "2026-10-29T15:34:24.017Z",
         "httpStatus": 200,
         "pointer": "search item full_name=fzn0x/idx created=2026-10-16T17:51:21Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 99
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 87
     },
     {
       "id": "17bd4145ec305c231fd9c7e978508de3d053383b",
@@ -7219,13 +7300,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Amcp&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.993Z",
+        "fetchedAt": "2026-10-29T15:34:24.017Z",
         "httpStatus": 200,
         "pointer": "search item full_name=reason-machines/reason-network created=2026-10-16T15:34:34Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 108
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 96
     },
     {
       "id": "1b7124f51e375e69945ac2b7332ecf7f9109a625",
@@ -7306,13 +7387,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:33.959Z",
+        "fetchedAt": "2026-10-29T15:34:25.283Z",
         "httpStatus": 200,
         "pointer": "search item full_name=Mlilion/Codata created=2026-10-16T07:25:28Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 78
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 66
     },
     {
       "id": "4afe0403bb8070836d3e423d5cbef85838315357",
@@ -7365,13 +7446,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:31.000Z",
+        "fetchedAt": "2026-10-29T15:34:23.435Z",
         "httpStatus": 200,
         "pointer": "search item full_name=reacher-z/Awesome-CUA created=2026-10-16T03:46:44Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 83
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 71
     },
     {
       "id": "d91703c608ecfb918eb83f59cea90199660ffb95",
@@ -7395,13 +7476,13 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-10-15%20stars%3A%3E%3D20%20topic%3Allm&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-10-29T15:28:28.883Z",
+        "fetchedAt": "2026-10-29T15:34:21.907Z",
         "httpStatus": 200,
         "pointer": "search item full_name=ztt0216/MyAgent created=2026-10-16T02:51:05Z"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 106
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 94
     },
     {
       "id": "656d983e4490f14f134bd1f0d29e107c64dc48f5",
@@ -7477,13 +7558,13 @@
       ],
       "evidence": {
         "url": "https://github.blog/feed/",
-        "fetchedAt": "2026-10-29T15:29:04.946Z",
+        "fetchedAt": "2026-10-29T15:34:39.894Z",
         "httpStatus": 200,
         "pointer": "feed item: The next developer interface is ambient intelligence"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "f118bcb568c33605b59ee332de9452dd90115b21",
@@ -7504,13 +7585,13 @@
       ],
       "evidence": {
         "url": "https://github.blog/feed/",
-        "fetchedAt": "2026-10-29T15:29:04.946Z",
+        "fetchedAt": "2026-10-29T15:34:39.894Z",
         "httpStatus": 200,
         "pointer": "feed item: Staying Evergreen: How we automated secure access and repo hygiene in a shared..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "2f8fbf94edd1fb845e16bbc1d7512831f7fce100",
@@ -7644,13 +7725,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: TIME has named Google SynthID one of the Best Inventions of 2026."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "08683db964d08dddf4c7c076536576fa3229d4da",
@@ -7671,13 +7752,13 @@
       ],
       "evidence": {
         "url": "https://github.blog/feed/",
-        "fetchedAt": "2026-10-29T15:29:04.946Z",
+        "fetchedAt": "2026-10-29T15:34:39.894Z",
         "httpStatus": 200,
         "pointer": "feed item: GitHub availability report: September 2026"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "21518626117371ecac93735f6fc302de0d7590b5",
@@ -7699,13 +7780,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.22507"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 56
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 44
     },
     {
       "id": "805a0d38d194613e78f603ccf48213d917f9349b",
@@ -7728,13 +7809,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.22684"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 40
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 28
     },
     {
       "id": "42cfdf49638add895203d811cd113a397f1249a2",
@@ -7756,13 +7837,13 @@
       ],
       "evidence": {
         "url": "https://github.blog/feed/",
-        "fetchedAt": "2026-10-29T15:29:04.946Z",
+        "fetchedAt": "2026-10-29T15:34:39.894Z",
         "httpStatus": 200,
         "pointer": "feed item: From 2,500 requests to 24: Rebuilding star history without the stargazers"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "c74ac310b7ea62e87ba579551787cdc22995f968",
@@ -7783,13 +7864,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: We’re powering European scientific discovery with advanced AI compute and..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "6e34efd17ef228fa4099959ce2e3f5d0af1139d0",
@@ -7868,13 +7949,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.20832"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 25
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 13
     },
     {
       "id": "9b5ba83610066cd013b54218efee51e8b1060baa",
@@ -8030,13 +8111,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: Applying technology to understand and treat disease"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "53f90339d4bd2184e2e50e81a0a18fb1bb90fbb6",
@@ -8086,13 +8167,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: We're making it easier to identify AI-generated content globally."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "0a7d6e8e8b6e889979dc0a12221511f0a054640c",
@@ -8114,13 +8195,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: EmbeddingGemma 2: an open, lightweight multimodal embedding model"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "d26cbd17958291f739529c5e68871be8748ef33a",
@@ -8140,13 +8221,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: The latest AI news we announced in September 2026"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "bfa1377b2a0c5c2329c91f65e1c57ca7d8c4b0e5",
@@ -8167,13 +8248,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: We’re introducing SynthID Bio, bringing our watermarking technology to..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "6491aedb295f487d9bd87bb9a5e6096593e152df",
@@ -8196,13 +8277,13 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/daily_papers",
-        "fetchedAt": "2026-10-29T15:29:04.382Z",
+        "fetchedAt": "2026-10-29T15:34:38.265Z",
         "httpStatus": 200,
         "pointer": "daily_papers item paper.id=2610.30161"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.326Z",
-      "seenCount": 1,
-      "heat": 51
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 39
     },
     {
       "id": "0c90c73c08cf283551a15d6fbe9450700fca3b21",
@@ -8222,13 +8303,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=49803892 · 讨论页 https://news.ycombinator.com/item?id=49803892"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "ada2f64613585383ede8e93e10f9d34d14b332d2",
@@ -8248,13 +8329,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: Recreating a 70-year love story frame by frame"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "93b4203e0c5379ede009d886cee79af7453ed50c",
@@ -8274,13 +8355,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: AlphaGenome Atlas: a high-resolution map of human DNA"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "5300202d1d578e9004db05de1a4b4a63f71cb8d6",
@@ -8300,13 +8381,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: Backing 16 green AI projects in Asia-Pacific"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "fdde95d12fdd1da3fc5d4d2baf8ae2699d0f602d",
@@ -8326,13 +8407,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-10-29T15:29:06.701Z",
+        "fetchedAt": "2026-10-29T15:34:40.759Z",
         "httpStatus": 200,
         "pointer": "feed item: ChatInbox"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.328Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 0
     },
     {
       "id": "41f6aa329ebff1053f5eb58d8a2c571084b071b4",
@@ -8352,13 +8433,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=49563355 · 讨论页 https://news.ycombinator.com/item?id=49563355"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "7e743250c8520b4745e161494cff1283a56f6494",
@@ -8379,13 +8460,13 @@
       ],
       "evidence": {
         "url": "https://blog.google/technology/google-deepmind/rss/",
-        "fetchedAt": "2026-10-29T15:29:03.991Z",
+        "fetchedAt": "2026-10-29T15:34:39.903Z",
         "httpStatus": 200,
         "pointer": "feed item: Introducing WeatherNext 3, our most advanced and accurate global weather AI..."
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 30
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 18
     },
     {
       "id": "311d3f683fc6738c0a0efab1a0552491e97421d1",
@@ -8406,13 +8487,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=49241679 · 讨论页 https://news.ycombinator.com/item?id=49241679"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "ab356a102eb7800f2f85eb3e0676bb4ed7584047",
@@ -8430,13 +8511,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=49161518 · 讨论页 https://news.ycombinator.com/item?id=49161518"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "e75df1016aa12143321e69cddb3c5f5d5d8ae01d",
@@ -8456,13 +8537,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=49038433 · 讨论页 https://news.ycombinator.com/item?id=49038433"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "20b0eb2d5c1499740c7eb0c94f0e2e59fcb04e9d",
@@ -8483,13 +8564,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=48997548 · 讨论页 https://news.ycombinator.com/item?id=48997548"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "be1720d248f4abf9d166942662f16c70cc384447",
@@ -8509,13 +8590,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=48865019 · 讨论页 https://news.ycombinator.com/item?id=48865019"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "a2e900a63d1b6ce3339b12c053ed6763027fa1eb",
@@ -8535,13 +8616,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=48734373 · 讨论页 https://news.ycombinator.com/item?id=48734373"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "18cbb19eeff369f10b60745f8bc727fb47ab1657",
@@ -8561,13 +8642,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=48500012 · 讨论页 https://news.ycombinator.com/item?id=48500012"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "147a989f3e59cd8d7d7e298e8a885ec4cc125ecc",
@@ -8587,13 +8668,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=48463808 · 讨论页 https://news.ycombinator.com/item?id=48463808"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "16a68b9778c26f6f6171b123e03f0d5cab32c27c",
@@ -8611,13 +8692,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=48434312 · 讨论页 https://news.ycombinator.com/item?id=48434312"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "918121c45d596b702d7db6a79b3cf3f534385372",
@@ -8637,13 +8718,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=48311647 · 讨论页 https://news.ycombinator.com/item?id=48311647"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "e12527f8da80d493a7de403ff1545973c6fd2d9c",
@@ -8661,13 +8742,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=48292224 · 讨论页 https://news.ycombinator.com/item?id=48292224"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "8d6b924dbc62dae7393aec2028d57928e24c61a4",
@@ -8685,13 +8766,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=48153379 · 讨论页 https://news.ycombinator.com/item?id=48153379"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "091bca843c1bdc63060d97b629ab3c2374bb53f7",
@@ -8709,13 +8790,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=48085821 · 讨论页 https://news.ycombinator.com/item?id=48085821"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "8ffed2502175348b76a1ae54c9fd81d652d7d172",
@@ -8735,13 +8816,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=47793411 · 讨论页 https://news.ycombinator.com/item?id=47793411"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "13141fd23dc1a3eb85038c25ea0dacf2f377f8d5",
@@ -8762,13 +8843,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=47792764 · 讨论页 https://news.ycombinator.com/item?id=47792764"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 108
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 96
     },
     {
       "id": "a82d7c686ec292f119d1c9de866db892b32d5fc5",
@@ -8788,13 +8869,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=47584540 · 讨论页 https://news.ycombinator.com/item?id=47584540"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "22157c2347b84e25b07d330a85b6bf6c9327af14",
@@ -8815,13 +8896,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=47460525 · 讨论页 https://news.ycombinator.com/item?id=47460525"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 108
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 96
     },
     {
       "id": "56635f909c8c75f84d2134efb2e0484a33392eeb",
@@ -8839,13 +8920,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=47340079 · 讨论页 https://news.ycombinator.com/item?id=47340079"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "ccd31ec6965476fc2798e5df387c0dadb47e7f93",
@@ -8863,13 +8944,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=47193478 · 讨论页 https://news.ycombinator.com/item?id=47193478"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "762d67ab8a6145e995a1dbdb3ae6ed62c1528b4d",
@@ -8889,13 +8970,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=47136179 · 讨论页 https://news.ycombinator.com/item?id=47136179"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "044dc888316bbf315c38b710f60d52ddbbbb91ab",
@@ -8915,13 +8996,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=46990729 · 讨论页 https://news.ycombinator.com/item?id=46990729"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "239822888b64d3788cbe826cf3aae2b4d768a993",
@@ -8941,13 +9022,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=46902223 · 讨论页 https://news.ycombinator.com/item?id=46902223"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "c7327bd3a6ec2d10352708a08c838eb4bdd32035",
@@ -8967,13 +9048,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=45840088 · 讨论页 https://news.ycombinator.com/item?id=45840088"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "dc08e95a19c21187e6075c235d486d3dd8c606df",
@@ -8993,13 +9074,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=45619329 · 讨论页 https://news.ycombinator.com/item?id=45619329"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "59435b916b93f0d92d14716a0a359bfd4bd07f86",
@@ -9017,41 +9098,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=45529587 · 讨论页 https://news.ycombinator.com/item?id=45529587"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
-    },
-    {
-      "id": "a01abed4e92aced270ff5bde475360a3281985f2",
-      "kind": "release",
-      "source": "github",
-      "sourceLabel": "GitHub Release",
-      "title": "microsoft/autogen 发布 python-v0.7.5",
-      "url": "https://github.com/microsoft/autogen/releases/tag/python-v0.7.5",
-      "summary": "## What's Changed * Fix docs dotnet core typo by @lach-g in https://github.com/microsoft/autogen/pull/6950 * Fix loading streaming Bedrock response with tool usage with empty argument by @pawel-dabro in https://github.com/microsoft/autogen/pull/6979 * Support linear memory in RedisMemory by @justin-",
-      "lang": "zh",
-      "publishedAt": "2025-09-30T06:18:26Z",
-      "firstSeenAt": "2026-10-29T15:28:52.690Z",
-      "score": null,
-      "scoreLabel": "正式版",
-      "tags": [
-        "开源",
-        "Release",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://api.github.com/repos/microsoft/autogen/releases/latest",
-        "fetchedAt": "2026-10-29T15:28:52.690Z",
-        "httpStatus": 200,
-        "pointer": "release tag_name=python-v0.7.5"
-      },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 12
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "1ccc22f7699c5edb18a37a63503b998a8e6029f3",
@@ -9071,42 +9124,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=45415962 · 讨论页 https://news.ycombinator.com/item?id=45415962"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
-    },
-    {
-      "id": "c39b16fd1af01c947d68bf4057307f1beeb6e761",
-      "kind": "release",
-      "source": "github",
-      "sourceLabel": "GitHub Release",
-      "title": "Aider-AI/aider 发布 v0.86.0",
-      "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
-      "summary": "- Added support for all GPT-5 models. - Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names. - Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner. - `/clear` now prints “All chat history cleared.” so you know it worked, by Zex",
-      "lang": "zh",
-      "publishedAt": "2025-08-09T17:42:19Z",
-      "firstSeenAt": "2026-10-29T15:28:55.801Z",
-      "score": null,
-      "scoreLabel": "正式版",
-      "tags": [
-        "开源",
-        "Release",
-        "模型",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://api.github.com/repos/Aider-AI/aider/releases/latest",
-        "fetchedAt": "2026-10-29T15:28:55.801Z",
-        "httpStatus": 200,
-        "pointer": "release tag_name=v0.86.0"
-      },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 48
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "fb4dd9037b12dee38e83476d9e7d0d6e6ad016c6",
@@ -9126,13 +9150,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=44800746 · 讨论页 https://news.ycombinator.com/item?id=44800746"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "9c987af35dd3620b355e1e4f51c5d6821531f282",
@@ -9150,13 +9174,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=44567857 · 讨论页 https://news.ycombinator.com/item?id=44567857"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "3838e22e1b959de30c8d33b269b70821952771e3",
@@ -9176,13 +9200,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=44560662 · 讨论页 https://news.ycombinator.com/item?id=44560662"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "35e7dfe3d805c2ddcf4661c26d4bae5972f1fd81",
@@ -9200,13 +9224,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=44163063 · 讨论页 https://news.ycombinator.com/item?id=44163063"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "3c007ec8be232881498b04a69cb4f2d529ab68d4",
@@ -9226,13 +9250,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=44063703 · 讨论页 https://news.ycombinator.com/item?id=44063703"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "46a3facd48f8107e1faed4e711bdcf4a1184c976",
@@ -9253,13 +9277,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=43985489 · 讨论页 https://news.ycombinator.com/item?id=43985489"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 108
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 96
     },
     {
       "id": "782fa5ba2c8203efa7cd7c581988a0ce04daffcc",
@@ -9277,13 +9301,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=43905942 · 讨论页 https://news.ycombinator.com/item?id=43905942"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "80d76661dadff945db9dd3393ac609a9a2fdd89d",
@@ -9303,13 +9327,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=43163011 · 讨论页 https://news.ycombinator.com/item?id=43163011"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "497d9309bb9389e16dcad2aeb9aa538d81ee3023",
@@ -9329,13 +9353,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=42823568 · 讨论页 https://news.ycombinator.com/item?id=42823568"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "58537e5dfd170fbefc7977c3d648e96ea5a4d772",
@@ -9353,13 +9377,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=42560558 · 讨论页 https://news.ycombinator.com/item?id=42560558"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "d09a7076a61cdc4b96f48b9ae89f038312fc117f",
@@ -9377,13 +9401,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=42473321 · 讨论页 https://news.ycombinator.com/item?id=42473321"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "03af66389e97461a2778ca5ed6cc8af734d85676",
@@ -9403,13 +9427,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=claude&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:06.684Z",
+        "fetchedAt": "2026-10-29T15:34:40.912Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=41914989 · 讨论页 https://news.ycombinator.com/item?id=41914989"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "a6af93974c6099df78dc60616da902702b5e7cb5",
@@ -9427,13 +9451,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=41523070 · 讨论页 https://news.ycombinator.com/item?id=41523070"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "ccbd823d1a8240ea4cce9c4c457f5ec30e0b3a32",
@@ -9453,13 +9477,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=41392128 · 讨论页 https://news.ycombinator.com/item?id=41392128"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "01b75515db1cd2c50d1351f3e83dde93654c81a1",
@@ -9477,13 +9501,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=41386319 · 讨论页 https://news.ycombinator.com/item?id=41386319"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "ee56c03e8fca3c1d457c8ad359c37376ea2bc230",
@@ -9503,13 +9527,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=41046773 · 讨论页 https://news.ycombinator.com/item?id=41046773"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "3455511439c1119f47b87107e30ae4894885d1db",
@@ -9527,13 +9551,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=40447431 · 讨论页 https://news.ycombinator.com/item?id=40447431"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "53553b8ab5296648dd7b2fc5680a1178fc53627e",
@@ -9553,13 +9577,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=39973467 · 讨论页 https://news.ycombinator.com/item?id=39973467"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "745c448d7cf95581279d39273232f76cc6ef1f0d",
@@ -9577,13 +9601,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=39535800 · 讨论页 https://news.ycombinator.com/item?id=39535800"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "60e46b87aa74833f2e79c1b9f22e23a8e306ec79",
@@ -9601,13 +9625,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=39526057 · 讨论页 https://news.ycombinator.com/item?id=39526057"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "cedab7fabcbbaf3bd8ae6527196161b1ed4866dc",
@@ -9627,13 +9651,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=AI&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.060Z",
+        "fetchedAt": "2026-10-29T15:34:38.415Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=38544729 · 讨论页 https://news.ycombinator.com/item?id=38544729"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "b1cb0ed597a48604725abd0dae5038566b68a77d",
@@ -9651,13 +9675,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=38505211 · 讨论页 https://news.ycombinator.com/item?id=38505211"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "62967a2be646c7bd3a0623e29b73e25c03de33a1",
@@ -9677,13 +9701,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=LLM&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:03.955Z",
+        "fetchedAt": "2026-10-29T15:34:39.035Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=38464057 · 讨论页 https://news.ycombinator.com/item?id=38464057"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "9f2d132d077684c73d0b37c59bffb6d89836a41e",
@@ -9701,13 +9725,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=38375239 · 讨论页 https://news.ycombinator.com/item?id=38375239"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "ae375d9d5cf27161f34c6caee801643b79977c92",
@@ -9725,13 +9749,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=38309611 · 讨论页 https://news.ycombinator.com/item?id=38309611"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "e3fa9e6175a107e286d6a9fca2f04bc5a77e36d0",
@@ -9749,13 +9773,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=35813322 · 讨论页 https://news.ycombinator.com/item?id=35813322"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "bf3fc6bcb9a7cfbe46ca790e35b742000e1755eb",
@@ -9773,13 +9797,13 @@
       "tags": [],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=34979981 · 讨论页 https://news.ycombinator.com/item?id=34979981"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 72
+      "lastSeenAt": "2026-10-29T15:34:51.745Z",
+      "seenCount": 2,
+      "heat": 60
     },
     {
       "id": "4e69db11f4a2b8959497f63430a6e24cd5e68838",
@@ -9800,13 +9824,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=openai&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:05.817Z",
+        "fetchedAt": "2026-10-29T15:34:40.280Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=32927360 · 讨论页 https://news.ycombinator.com/item?id=32927360"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "e4bbcace925d6f374d7ccb3cddd267039ee27f70",
@@ -9826,13 +9850,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=21772610 · 讨论页 https://news.ycombinator.com/item?id=21772610"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     },
     {
       "id": "1f145fbeb64c153e3585ba70e0a28d36be5c8e27",
@@ -9852,13 +9876,13 @@
       ],
       "evidence": {
         "url": "https://hn.algolia.com/api/v1/search?tags=story&query=agent&numericFilters=points%3E60&hitsPerPage=12",
-        "fetchedAt": "2026-10-29T15:29:04.941Z",
+        "fetchedAt": "2026-10-29T15:34:39.660Z",
         "httpStatus": 200,
         "pointer": "algolia hit objectID=13932226 · 讨论页 https://news.ycombinator.com/item?id=13932226"
       },
-      "lastSeenAt": "2026-10-29T15:29:15.327Z",
-      "seenCount": 1,
-      "heat": 90
+      "lastSeenAt": "2026-10-29T15:34:51.744Z",
+      "seenCount": 2,
+      "heat": 78
     }
   ]
 }
