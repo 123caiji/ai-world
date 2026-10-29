@@ -4,14 +4,14 @@
 <link>https://123caiji.github.io/ai-world/</link>
 <description>每小时自动采集的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 29 Oct 2026 15:34:51 GMT</lastBuildDate>
+<lastBuildDate>Thu, 29 Oct 2026 15:45:24 GMT</lastBuildDate>
 <item>
 <title>DiffuSpace 推出 Clover-35B-A3B-Preview 扩散语言模型，兼顾性能与速度</title>
 <link>https://www.ithome.com/1/019/783.htm</link>
 <guid isPermaLink="false">fa9dc42b51d3244f0e80c41dd7fd9b16359b3a15</guid>
 <pubDate>Thu, 29 Oct 2026 14:33:24 GMT</pubDate>
 <category>news</category>
-<description>IT之家 10 月 29 日消息，人工智能实验室扩散智能 (DiffuSpace) 昨日发布了其 Clover（三叶草）系列模型家族的首个成员：Clover-35B-A3B-Preview，并以 Apache 许可开源。 Clover-35B-A3B-Preview 是一款采用 MoE 架构的扩散语言模型。与传统自回归模型不同的是，其具备“全局思维”，通过多轮迭代实现结果的从模糊到具体。 DiffuSpace 表示，Clover-35B-A3B-Preview 的诞生证明 扩散语言模型能在更大的参数尺度下与自回归模型竞争甚至略胜一筹 ， 同时保持更快生成速度 。 该模型在多项基准测试中性能超过同规模的自回归模型 Qwen3.6-35B-A3B，尤其擅长智能体编程与工具使用任务。 参考 https://diffuspace.ai/blog/clover-35b/ — 来源 IT之家，抓取于 2026-10-29T15:34:40.555Z，HTTP 200</description>
+<description>IT之家 10 月 29 日消息，人工智能实验室扩散智能 (DiffuSpace) 昨日发布了其 Clover（三叶草）系列模型家族的首个成员：Clover-35B-A3B-Preview，并以 Apache 许可开源。 Clover-35B-A3B-Preview 是一款采用 MoE 架构的扩散语言模型。与传统自回归模型不同的是，其具备“全局思维”，通过多轮迭代实现结果的从模糊到具体。 DiffuSpace 表示，Clover-35B-A3B-Preview 的诞生证明 扩散语言模型能在更大的参数尺度下与自回归模型竞争甚至略胜一筹 ， 同时保持更快生成速度 。 该模型在多项基准测试中性能超过同规模的自回归模型 Qwen3.6-35B-A3B，尤其擅长智能体编程与工具使用任务。 参考 https://diffuspace.ai/blog/clover-35b/ — 来源 IT之家，抓取于 2026-10-29T15:45:17.192Z，HTTP 200</description>
 </item>
 <item>
 <title>Quoting Ben Hylak</title>
@@ -19,7 +19,7 @@
 <guid isPermaLink="false">502de87809f2a788098ebe402b07401f2f882833</guid>
 <pubDate>Thu, 29 Oct 2026 14:06:27 GMT</pubDate>
 <category>news</category>
-<description>every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. - Ben Hylak Tags: model-context-protocol , ai — 来源 Simon Willison，抓取于 2026-10-29T15:34:40.722Z，HTTP 200</description>
+<description>every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. - Ben Hylak Tags: model-context-protocol , ai — 来源 Simon Willison，抓取于 2026-10-29T15:45:18.460Z，HTTP 200</description>
 </item>
 <item>
 <title>Paris-based Mistral releases &quot;Le Chonk,&quot; a strong coding model that still trails China overall</title>
@@ -27,7 +27,7 @@
 <guid isPermaLink="false">ef23d352003c053565c244f45e6ac6f4b3da5685</guid>
 <pubDate>Thu, 29 Oct 2026 15:25:27 GMT</pubDate>
 <category>news</category>
-<description>Mistral has released the weights for Large 4, aka &quot;Le Chonk,&quot; a trillion-parameter model trained entirely in Europe. Mistral says it beats its open rivals at coding, and independent testing shows it's fast and fairly cheap. It still can't match China's top models, scoring 26 points to the 32 posted by DeepSeek V4.1 Flash and GLM-5.3. The article Paris-based Mistral releases &quot;Le Chonk,&quot; a strong coding model that... — 来源 The Decoder，抓取于 2026-10-29T15:34:41.173Z，HTTP 200</description>
+<description>Mistral has released the weights for Large 4, aka &quot;Le Chonk,&quot; a trillion-parameter model trained entirely in Europe. Mistral says it beats its open rivals at coding, and independent testing shows it's fast and fairly cheap. It still can't match China's top models, scoring 26 points to the 32 posted by DeepSeek V4.1 Flash and GLM-5.3. The article Paris-based Mistral releases &quot;Le Chonk,&quot; a strong coding model that... — 来源 The Decoder，抓取于 2026-10-29T15:45:18.861Z，HTTP 200</description>
 </item>
 <item>
 <title>月之暗面 Kimi 接入谷歌 Gmail、云端硬盘和日历</title>
@@ -35,7 +35,7 @@
 <guid isPermaLink="false">8125a35f438520906d14423901f532a7c40553be</guid>
 <pubDate>Thu, 29 Oct 2026 14:27:39 GMT</pubDate>
 <category>news</category>
-<description>IT之家 10 月 29 日消息，月之暗面今天在海外宣布，Kimi 现已接入谷歌 Gmail、Google Drive 和日历，用户可通过 Plugins（插件）页面启用。 据官方介绍，用户现在可以总结 Gmail 邮件对话、查找 Google Drive 的文件，还能利用 Google 日历规划每日行程。 所有操作均通过安全的 OAuth 授权机制进行 。 IT之家了解到，Kimi 插件是接入 Kimi AI 的外部工具与服务扩展，能够让 Kimi 在处理任务时直接调用第三方能力或自动化执行操作。 — 来源 IT之家，抓取于 2026-10-29T15:34:40.555Z，HTTP 200</description>
+<description>IT之家 10 月 29 日消息，月之暗面今天在海外宣布，Kimi 现已接入谷歌 Gmail、Google Drive 和日历，用户可通过 Plugins（插件）页面启用。 据官方介绍，用户现在可以总结 Gmail 邮件对话、查找 Google Drive 的文件，还能利用 Google 日历规划每日行程。 所有操作均通过安全的 OAuth 授权机制进行 。 IT之家了解到，Kimi 插件是接入 Kimi AI 的外部工具与服务扩展，能够让 Kimi 在处理任务时直接调用第三方能力或自动化执行操作。 — 来源 IT之家，抓取于 2026-10-29T15:45:17.192Z，HTTP 200</description>
 </item>
 <item>
 <title>OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses</title>
@@ -43,7 +43,7 @@
 <guid isPermaLink="false">5d2dac20389eaa69537a8f62a7746379609af1cd</guid>
 <pubDate>Thu, 29 Oct 2026 13:20:14 GMT</pubDate>
 <category>news</category>
-<description>Chinese AI labs are now mainly tapping OpenAI's most powerful model, GPT-6 Astra, instead of Anthropic's Claude. The article OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses appeared first on The Decoder . — 来源 The Decoder，抓取于 2026-10-29T15:34:41.173Z，HTTP 200</description>
+<description>Chinese AI labs are now mainly tapping OpenAI's most powerful model, GPT-6 Astra, instead of Anthropic's Claude. The article OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses appeared first on The Decoder . — 来源 The Decoder，抓取于 2026-10-29T15:45:18.861Z，HTTP 200</description>
 </item>
 <item>
 <title>部署态加速，智元要打通物理AI全链路</title>
@@ -78,11 +78,11 @@
 <description>上下文 1,048,576 tokens · 输入 $0.25/M · 输出 $1/M · Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as t — 来源 OpenRouter 新模型，抓取于 2026-10-29T15:29:02.745Z，HTTP 200</description>
 </item>
 <item>
-<title>Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round</title>
-<link>https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round</link>
-<guid isPermaLink="false">5c450d9a985fdd096989ecf4cfc40ba6c5871dc6</guid>
-<pubDate>Thu, 29 Oct 2026 14:35:26 GMT</pubDate>
-<category>news</category>
-<description>On Thursday, AI app, Wabi, now describing itself as a &quot;personal agent,&quot; said it has raised $55 million at a $1.25 billion valuation. — 来源 TechCrunch AI，抓取于 2026-10-29T15:34:40.067Z，HTTP 200</description>
+<title>jackwener/DeepseekHarness-Android · 129 stars</title>
+<link>https://github.com/jackwener/DeepseekHarness-Android</link>
+<guid isPermaLink="false">6cc398c21d71ef38de194db0dbbf2075bc9c613a</guid>
+<pubDate>Tue, 27 Oct 2026 19:26:12 GMT</pubDate>
+<category>repo</category>
+<description>免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku · Kotlin · #llm — 来源 GitHub 新仓库，抓取于 2026-10-29T15:44:57.968Z，HTTP 200</description>
 </item>
 </channel></rss>

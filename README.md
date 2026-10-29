@@ -39,13 +39,13 @@
 | 全量机器可读数据 | [`data/feed.json`](data/feed.json)（每条 16 个字段，含 evidence） |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/10/29 23:34:51 · 库内 359 条 · 本轮新增 3 条 · 数据源 20/20 正常
+**最近一次采集**：2026/10/29 23:45:24 · 库内 361 条 · 本轮新增 3 条 · 数据源 20/20 正常
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 143 | [DiffuSpace 推出 Clover-35B-A3B-Preview 扩散语言模型，兼顾性能与速度](https://www.ithome.com/1/019/783.htm) | IT之家 |
 | 142 | [Quoting Ben Hylak](https://simonwillison.net/2026/Oct/29/ben-hylak) | Simon Willison |
-| 136 | [Paris-based Mistral releases "Le Chonk," a strong coding model that still trails China overall](https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall) | The Decoder |
+| 135 | [Paris-based Mistral releases "Le Chonk," a strong coding model that still trails China overall](https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall) | The Decoder |
 | 134 | [月之暗面 Kimi 接入谷歌 Gmail、云端硬盘和日历](https://www.ithome.com/1/019/782.htm) | IT之家 |
 | 132 | [OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses](https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses) | The Decoder |
 | 128 | [部署态加速，智元要打通物理AI全链路](https://36kr.com/p/4047032889800965?f=rss) | 36氪 |
