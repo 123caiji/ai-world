@@ -2,7 +2,7 @@
   "vllm-project/vllm": "v0.32.0",
   "sgl-project/sglang": "v0.5.22",
   "huggingface/transformers": "v5.22.0",
-  "langchain-ai/langchain": "langchain-core==1.7.1",
+  "langchain-ai/langchain": "langchain-core==1.7.3",
   "modelcontextprotocol/servers": "v2.2.0",
   "ggml-org/llama.cpp": "v0.8.0",
   "openai/openai-python": "v3.41.0",
