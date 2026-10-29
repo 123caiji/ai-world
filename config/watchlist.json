@@ -8,7 +8,7 @@
   "topics": ["llm", "ai-agents", "rag", "mcp", "agentic-workflow"],
   "keywords": {
     "boost": 18,
-    "list": ["agent", "智能体", "mcp", "推理", "inference", "开源", "open source", "deepseek", "qwen", "kimi", "glm", "claude", "gemini", "gpt", "上下文", "context", "量化", "quantization", "安全", "安全对齐", "红队", "harness", "dsh"]
+    "list": ["agent", "智能体", "mcp", "推理", "inference", "开源", "open source", "deepseek", "qwen", "kimi", "glm", "claude", "gemini", "gpt", "上下文", "context", "量化", "quantization", "安全", "安全对齐", "红队", "harness", "dsh", "多模态", "multimodal", "benchmark", "sota", "rag", "fine-tune", "微调", "扩散", "diffusion", "视频生成", "世界模型", "world model"]
   },
   "repos": [
     "deepseek-ai/deepseek-harness",
@@ -33,7 +33,9 @@
     { "id": "headline", "title": "头条", "kinds": ["news", "product"], "limit": 12 },
     { "id": "papers", "title": "论文", "kinds": ["paper"], "limit": 12 },
     { "id": "repos", "title": "开源", "kinds": ["repo", "release"], "limit": 10 },
-    { "id": "models", "title": "模型", "kinds": ["model"], "limit": 8 },
+    { "id": "models", "title": "模型与数据集", "kinds": ["model", "dataset", "space"], "limit": 10 },
+    { "id": "video", "title": "视频", "kinds": ["video"], "limit": 8 },
+    { "id": "security", "title": "AI 安全", "kinds": ["security"], "limit": 8 },
     { "id": "plugins", "title": "DSH 插件", "kinds": ["plugin"], "limit": 8 },
     { "id": "hot", "title": "社区热帖", "kinds": ["discussion"], "limit": 8 }
   ]

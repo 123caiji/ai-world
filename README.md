@@ -7,7 +7,7 @@
 
 [![radar](https://github.com/123caiji/ai-world/actions/workflows/radar.yml/badge.svg)](https://github.com/123caiji/ai-world/actions/workflows/radar.yml)
 [![pages](https://img.shields.io/badge/site-ai--world-60a5fa)](https://123caiji.github.io/ai-world/)
-[![sources](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%BA%90-20%20%E4%B8%AA-34d399)](#数据源)
+[![sources](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%BA%90-39%20%E4%B8%AA-34d399)](#数据源)
 [![license](https://img.shields.io/badge/license-MIT-8a9ab3)](LICENSE)
 
 </div>
@@ -20,7 +20,7 @@
 
 它每小时做四件事：
 
-1. **抓情报** —— 20 个数据源并发采集（中英新闻、官方博客、arXiv、Hugging Face、Hacker News、Product Hunt、OpenRouter 模型目录）。
+1. **抓情报** —— 39 个数据源并发采集（中英新闻、官方博客、arXiv 多分区、Hugging Face 论文/模型/数据集/Space 趋势、GitHub 每日趋势、Hacker News / Show HN / Lobsters、YouTube 技术频道、AI 安全事件、中文技术社区、Anthropic 官方、Product Hunt、OpenRouter 模型目录）。
 2. **扫 GitHub** —— 最近两周的 AI 新仓库、话题榜、涨星榜（自己存 stars 快照算 delta）、关注仓库的最新 Release。
 3. **查插件** —— 扫 DSH 插件索引的 3000+ 插件，diff 出新增。
 4. **发网页** —— 生成静态站推到 GitHub Pages，并把最热的 6 条写回本 README。
@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/10/29 23:45:24 · 库内 361 条 · 本轮新增 3 条 · 数据源 20/20 正常
+**最近一次采集**：2026/10/30 00:06:55 · 库内 621 条 · 本轮新增 2 条 · 数据源 39/39 正常
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 143 | [DiffuSpace 推出 Clover-35B-A3B-Preview 扩散语言模型，兼顾性能与速度](https://www.ithome.com/1/019/783.htm) | IT之家 |
-| 142 | [Quoting Ben Hylak](https://simonwillison.net/2026/Oct/29/ben-hylak) | Simon Willison |
-| 135 | [Paris-based Mistral releases "Le Chonk," a strong coding model that still trails China overall](https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall) | The Decoder |
-| 134 | [月之暗面 Kimi 接入谷歌 Gmail、云端硬盘和日历](https://www.ithome.com/1/019/782.htm) | IT之家 |
-| 132 | [OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses](https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses) | The Decoder |
-| 128 | [部署态加速，智元要打通物理AI全链路](https://36kr.com/p/4047032889800965?f=rss) | 36氪 |
+| 204 | [thedotmack/claude-mem · 今日 +459 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
+| 196 | [nightly-labs/openbot · 今日 +705 ⭐](https://github.com/nightly-labs/openbot) | GitHub 每日趋势 |
+| 196 | [Donchitos/Claude-Code-Game-Studios · 今日 +538 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |
+| 178 | [pbakaus/impeccable · 今日 +2881 ⭐](https://github.com/pbakaus/impeccable) | GitHub 每日趋势 |
+| 170 | [CopilotKit/OpenBot · 今日 +240 ⭐](https://github.com/CopilotKit/OpenBot) | GitHub 每日趋势 |
+| 160 | [elayadesign/ai-design-skills · 今日 +1178 ⭐](https://github.com/elayadesign/ai-design-skills) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
@@ -87,7 +87,15 @@
 | 论文 | arXiv（cs.AI / cs.CL / cs.LG） | `export.arxiv.org/api/query` |
 | 论文 | Hugging Face 每日论文 | `huggingface.co/api/daily_papers` |
 | 开源 | GitHub 搜索 / 话题 / Release | `api.github.com` |
+| 模型 | Hugging Face 模型 / 数据集 / Space 趋势榜 | `huggingface.co/api/models?sort=trendingScore` |
 | 模型 | OpenRouter 模型目录 | `openrouter.ai/api/v1/models` |
+| 开源 | GitHub 每日趋势（HTML 解析） | `github.com/trending` |
+| 视频 | YouTube 技术频道 Atom（Karpathy / AI Explained / 2 Minute Papers / Matt Wolfe / MLST） | `youtube.com/feeds/videos.xml` |
+| 安全 | The Hacker News（AI 相关安全事件） | `feeds.feedburner.com/TheHackersNews` |
+| 社区 | Lobsters · Show HN · V2EX · 掘金 · OSCHINA · InfoQ 中文 | 各自 RSS / Algolia |
+| 官方 | Anthropic News（HTML 解析） | `anthropic.com/news` |
+| 英文 | The Verge AI · Wired AI · Ars Technica · NVIDIA · BAIR · ScienceDaily | 各自 RSS |
+| 中文 | 雷锋网 · 极客公园 · 爱范儿 · 钛媒体 | 各自 RSS |
 | 热帖 | Hacker News（Algolia，按分值过滤） | `hn.algolia.com/api/v1/search` |
 | 插件 | DSH 插件索引（3900+ 插件） | `awesome-dsh-plugin.com/index.json` |
 | 中文 | 量子位 · 36氪 · IT之家 | 各自 RSS |
@@ -149,7 +157,7 @@ ai-world/
 │  ├─ render.mjs              # 生成 digest / README 热榜 / dist 静态站
 │  ├─ serve.mjs               # 本地预览
 │  ├─ lib/{http,feed,util,store,rssSource}.mjs
-│  └─ sources/                # 20 个适配器，一个文件管一个源
+│  └─ sources/                # 39 个适配器，一个文件管一个源
 ├─ data/
 │  ├─ feed.json               # 主数据（近 600 条，带 evidence）
 │  ├─ github.json             # 新仓库 / 涨星 / Release / 话题

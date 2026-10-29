@@ -6,7 +6,7 @@ import { sha1 } from './lib/util.mjs';
 const ROOT = process.cwd();
 const DATA_DIR = join(ROOT, 'data');
 const SNAP_DIR = join(DATA_DIR, 'snapshots');
-const MAX_FEED = 600;
+const MAX_FEED = 900;
 const MAX_AGE_HOURS = 24 * 21;
 const SOURCE_TIMEOUT_MS = 180000;
 const HEAVY = new Set(['github', 'dsh-plugins']);

@@ -74,6 +74,49 @@ digest.push('> 每条条目都带 `evidence` 字段（抓取端点、抓取时�
 mkdirSync(DATA, { recursive: true });
 writeFileSync(join(DATA, 'digest.md'), digest.join('\n') + '\n', 'utf8');
 
+// —— 24 小时入库节奏（按 firstSeenAt 分桶），给前端 sparkline 用 ——
+const HOUR = 3600000;
+const nowMs = now.getTime();
+const buckets = new Array(24).fill(0);
+for (const item of items) {
+  const seen = new Date(item.firstSeenAt || item.publishedAt || 0).getTime();
+  if (!Number.isFinite(seen)) continue;
+  const diff = nowMs - seen;
+  if (diff < 0 || diff >= 24 * HOUR) continue;
+  const idx = 23 - Math.floor(diff / HOUR);
+  if (idx >= 0 && idx < 24) buckets[idx] += 1;
+}
+const trend = {
+  generatedAt: iso,
+  hours: buckets.map((n, i) => ({ h: new Date(nowMs - (23 - i) * HOUR).toISOString().slice(0, 13) + ':00Z', n })),
+};
+writeJson(join(DATA, 'trend.json'), trend);
+
+// —— 热词云：英文词 + 中文词表命中，统计最近 72 小时条目 ——
+const STOP = new Set(['the', 'and', 'for', 'with', 'from', 'that', 'this', 'you', 'your', 'are', 'was', 'were', 'has', 'have', 'had', 'not', 'but', 'its', 'our', 'their', 'they', 'them', 'than', 'then', 'into', 'over', 'about', 'more', 'most', 'can', 'could', 'will', 'would', 'should', 'new', 'now', 'how', 'why', 'what', 'when', 'who', 'which', 'also', 'just', 'get', 'gets', 'make', 'makes', 'use', 'using', 'used', 'one', 'two', 'all', 'any', 'may', 'via', 'per', 'out', 'off', 'his', 'her', 'she', 'him', 'been', 'being', 'such', 'some', 'these', 'those', 'there', 'here', 'where', 'while', 'after', 'before', 'between', 'under', 'very', 'much', 'many', 'like', 'well', 'back', 'down', 'first', 'last', 'best', 'top', 'day', 'week', 'show', 'says', 'said', 'ai-', 'www', 'com', 'http', 'https', 'github', 'arxiv', 'open', 'source', 'update', 'updates', 'release', 'releases', 'launch', 'launches', 'through', 'across', 'stars', 'their', '的', 'and', 'for', 'with']);
+const ZH_VOCAB = ['大模型', '智能体', '多模态', '推理', '微调', '训练', '算力', '芯片', '开源', '闭源', '提示词', '上下文', '向量', '检索', '知识库', '对齐', '安全', '红队', '越狱', '国产', '融资', '发布', '智能', '模型', '机器人', '自动驾驶', '语音', '视频生成', '图像生成', '世界模型', '强化学习', '数据标注', '蒸馏', '量化', '端侧', '部署', '论文', '基准', '评测'];
+const wordCount = new Map();
+const bump = (w) => wordCount.set(w, (wordCount.get(w) || 0) + 1);
+for (const item of items) {
+  const seen = new Date(item.firstSeenAt || item.publishedAt || 0).getTime();
+  if (!Number.isFinite(seen) || nowMs - seen > 72 * HOUR) continue;
+  const text = (item.title || '') + ' ' + (item.summary || '');
+  for (const raw of text.toLowerCase().match(/[a-z][a-z0-9+#.-]{2,}/g) || []) {
+    const w = raw.replace(/[.-]+$/, '');
+    if (w.length < 3 || w.length > 24 || STOP.has(w)) continue;
+    bump(w);
+  }
+  for (const w of ZH_VOCAB) {
+    if (text.includes(w)) bump(w);
+  }
+}
+const words = [...wordCount.entries()]
+  .filter(([, n]) => n >= 3)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 48)
+  .map(([w, n]) => ({ w, n }));
+writeJson(join(DATA, 'topics.json'), { generatedAt: iso, windowHours: 72, words });
+
 const site = {
   generatedAt: iso,
   feedGeneratedAt: feed.generatedAt,
@@ -126,7 +169,7 @@ if (existsSync(WEB)) {
   mkdirSync(DIST, { recursive: true });
   cpSync(WEB, DIST, { recursive: true });
   mkdirSync(join(DIST, 'data'), { recursive: true });
-  for (const name of ['feed.json', 'github.json', 'dsh.json', 'sources.json', 'site.json']) {
+  for (const name of ['feed.json', 'github.json', 'dsh.json', 'sources.json', 'site.json', 'trend.json', 'topics.json']) {
     const src = join(DATA, name);
     if (existsSync(src)) cpSync(src, join(DIST, 'data', name));
   }
