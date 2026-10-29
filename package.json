@@ -1,0 +1,18 @@
+{
+  "name": "ai-world",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，每小时自动采集，每条都带可核验证据",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "render": "node scripts/render.mjs",
+    "build": "node scripts/collect.mjs && node scripts/render.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "keywords": ["ai-news", "ai-radar", "github-trending", "arxiv", "dsh-plugin", "intelligence"],
+  "license": "MIT",
+  "author": "123caiji",
+  "repository": { "type": "git", "url": "https://github.com/123caiji/ai-world.git" }
+}

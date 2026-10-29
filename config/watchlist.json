@@ -1,0 +1,40 @@
+{
+  "$comment": "AI 大世界雷达的个性化配置。改这里就能改雷达关注什么，下次采集自动生效。",
+  "title": "AI 大世界 · 雷达配置",
+  "minStars": 20,
+  "newRepoDays": 14,
+  "topicMinStars": 800,
+  "riserDelta": 120,
+  "topics": ["llm", "ai-agents", "rag", "mcp", "agentic-workflow"],
+  "keywords": {
+    "boost": 18,
+    "list": ["agent", "智能体", "mcp", "推理", "inference", "开源", "open source", "deepseek", "qwen", "kimi", "glm", "claude", "gemini", "gpt", "上下文", "context", "量化", "quantization", "安全", "安全对齐", "红队", "harness", "dsh"]
+  },
+  "repos": [
+    "deepseek-ai/deepseek-harness",
+    "vllm-project/vllm",
+    "sgl-project/sglang",
+    "huggingface/transformers",
+    "langchain-ai/langchain",
+    "modelcontextprotocol/servers",
+    "ggml-org/llama.cpp",
+    "openai/openai-python",
+    "anthropics/anthropic-cookbook",
+    "ollama/ollama",
+    "microsoft/autogen",
+    "crewAIInc/crewAI",
+    "browser-use/browser-use",
+    "Aider-AI/aider",
+    "cline/cline",
+    "n8n-io/n8n"
+  ],
+  "ownRepos": ["123caiji/ai-world", "123caiji/dsh-memory-toolkit", "123caiji/dsh-live", "123caiji/awesome-agent-security", "123caiji/AI-LLM-Agent-Learning"],
+  "sections": [
+    { "id": "headline", "title": "头条", "kinds": ["news", "product"], "limit": 12 },
+    { "id": "papers", "title": "论文", "kinds": ["paper"], "limit": 12 },
+    { "id": "repos", "title": "开源", "kinds": ["repo", "release"], "limit": 10 },
+    { "id": "models", "title": "模型", "kinds": ["model"], "limit": 8 },
+    { "id": "plugins", "title": "DSH 插件", "kinds": ["plugin"], "limit": 8 },
+    { "id": "hot", "title": "社区热帖", "kinds": ["discussion"], "limit": 8 }
+  ]
+}

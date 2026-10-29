@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI 大世界 · 实时 AI 情报站</title>
+<meta name="description" content="AI 大世界：每小时自动采集 AI 新闻、arXiv 论文、新模型、GitHub 新仓库与涨星、DSH 插件生态。每条情报都带抓取证据（端点、时间、HTTP 状态），机器可读。" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%230b1220%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-size=%2214%22 font-family=%22monospace%22 fill=%22%2360a5fa%22 text-anchor=%22middle%22%3EAI%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="logo">AI</div>
+    <div class="brand-text">
+      <h1>AI 大世界</h1>
+      <p class="tagline">实时 AI 情报站 · 新闻 / 论文 / 新模型 / 开源涨星 / DSH 插件 · 每条情报都带可核验证据</p>
+    </div>
+  </div>
+  <div class="toolbar">
+    <input id="q" type="search" placeholder="搜索标题 / 来源 / 标签" autocomplete="off" />
+    <select id="source" aria-label="按来源筛选"><option value="">全部来源</option></select>
+    <label class="switch"><input type="checkbox" id="sortByHeat" /> 热度优先</label>
+    <button id="theme" class="ghost" type="button" title="切换深浅色">◐</button>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs" aria-label="分类"></nav>
+
+<main>
+  <section class="feed">
+    <div class="stats" id="stats"></div>
+    <div class="list" id="list"></div>
+    <button id="more" class="ghost wide" type="button" hidden>加载更多</button>
+  </section>
+
+  <aside class="side">
+    <section class="panel" id="panel-github">
+      <h2>GitHub 雷达</h2>
+      <div class="panel-body" id="github-body"><p class="muted">加载中…</p></div>
+    </section>
+    <section class="panel" id="panel-dsh">
+      <h2>DSH 插件生态</h2>
+      <div class="panel-body" id="dsh-body"><p class="muted">加载中…</p></div>
+    </section>
+    <section class="panel" id="panel-sources">
+      <h2>数据源健康度</h2>
+      <div class="panel-body" id="sources-body"><p class="muted">加载中…</p></div>
+    </section>
+    <section class="panel" id="panel-verify">
+      <h2>怎么验证这些情报</h2>
+      <div class="panel-body">
+        <ul class="verify">
+          <li>每条都带 <code>evidence</code>：抓取端点、抓取时间、HTTP 状态、在响应里的定位（feed 条目 / JSON 字段 / 检索条件）。</li>
+          <li>机器可读全量数据：<a href="./data/feed.json">data/feed.json</a>，本轮快照：<a href="./data/digest.md">data/digest.md</a>。</li>
+          <li>采集脚本全开源：<a href="https://github.com/123caiji/ai-world/tree/main/scripts">scripts/</a>，源清单在 <a href="https://github.com/123caiji/ai-world/blob/main/config/watchlist.json">config/watchlist.json</a>。</li>
+          <li>GitHub Actions 每小时跑一次（<code>7 * * * *</code>），失败会出现在报告与 issue 里。</li>
+        </ul>
+      </div>
+    </section>
+  </aside>
+</main>
+
+<footer class="foot">
+  <span id="foot-meta">AI 大世界 · 每小时自动采集</span>
+  <span><a href="https://github.com/123caiji/ai-world">GitHub 仓库</a> · <a href="./data/site.json">站点数据</a> · MIT</span>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
