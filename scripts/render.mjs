@@ -134,6 +134,7 @@ if (existsSync(WEB)) {
 
   // RSS 2.0：让情报流可以被订阅（网页 / 阅读器 / 其它服务消费）
   const esc = (s) => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  const rssItems = [...items].sort((a, b) => (b.heat || 0) - (a.heat || 0)).slice(0, 40);
   const rss = [];
   rss.push('<?xml version="1.0" encoding="UTF-8"?>');
   rss.push('<rss version="2.0"><channel>');
@@ -142,7 +143,7 @@ if (existsSync(WEB)) {
   rss.push('<description>每小时自动采集的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>');
   rss.push('<language>zh-CN</language>');
   rss.push('<lastBuildDate>' + new Date(feed.generatedAt || iso).toUTCString() + '</lastBuildDate>');
-  for (const item of topByHeat.slice(0, 80)) {
+  for (const item of rssItems) {
     rss.push('<item>');
     rss.push('<title>' + esc(item.title) + '</title>');
     rss.push('<link>' + esc(item.url) + '</link>');
