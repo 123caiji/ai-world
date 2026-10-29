@@ -151,6 +151,34 @@
       "imageSource": "原文 OG 封面"
     },
     {
+      "id": "f32f2f6b5cfd03f5adb9f1cc91ac5f024dfadf9b",
+      "kind": "discussion",
+      "source": "community",
+      "sourceLabel": "V2EX · AI 讨论",
+      "title": "[Claude] 有人用 Microsoft 365 Business Standard with Copilot 版本里面的 Claude 么？",
+      "url": "https://www.v2ex.com/t/1253006",
+      "summary": "有人用 Microsoft 365 Business Standard with Copilot 版本里面的 Claude 么？我看我老婆公司的 Microsoft 365 的 Copilot 是能选 Claude 模型的（他们公司的 365 账号注册地是新加坡） 这条路子有人试过么，怎么样？比如我开个新加坡地区或者美区的 microsoft 企业版",
+      "lang": "zh",
+      "publishedAt": "2026-10-29T16:07:26.000Z",
+      "firstSeenAt": "2026-10-29T16:09:31.121Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "中文",
+        "社区",
+        "模型"
+      ],
+      "evidence": {
+        "url": "https://www.v2ex.com/index.xml",
+        "fetchedAt": "2026-10-29T16:09:26.859Z",
+        "httpStatus": 200,
+        "pointer": "v2ex RSS item: [Claude] 有人用 Microsoft 365 Business Standard with "
+      },
+      "lastSeenAt": "2026-10-29T16:09:35.764Z",
+      "seenCount": 1,
+      "heat": 130
+    },
+    {
       "id": "4341922ec9bb436c9ae33bc4c062ff0557b0bc6b",
       "kind": "repo",
       "source": "github-trending",
@@ -1059,7 +1087,7 @@
       "sourceLabel": "The Verge AI",
       "title": "The NYT Cooking app is testing AI recipe modifications",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
-      "summary": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any […]",
+      "summary": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it's sparked some drama among users. NYT Cooking senior editor Genevieve Ko announced the feature last Friday, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any number […]",
       "lang": "en",
       "publishedAt": "2026-10-29T14:39:37.000Z",
       "firstSeenAt": "2026-10-29T16:05:38.402Z",
@@ -1521,6 +1549,35 @@
       "heat": 96
     },
     {
+      "id": "9eacaef84ee45addef19ec320b4e72f52e20c4f5",
+      "kind": "security",
+      "source": "security",
+      "sourceLabel": "BleepingComputer",
+      "title": "3 Ways AI Agents Already Operate in Your Browser",
+      "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser",
+      "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users. [...]",
+      "lang": "en",
+      "publishedAt": "2026-10-29T14:00:10.000Z",
+      "firstSeenAt": "2026-10-29T16:09:26.778Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "安全",
+        "AI 滥用",
+        "智能体",
+        "产品"
+      ],
+      "evidence": {
+        "url": "https://www.bleepingcomputer.com/feed/",
+        "fetchedAt": "2026-10-29T16:09:26.777Z",
+        "httpStatus": 200,
+        "pointer": "RSS item: 3 Ways AI Agents Already Operate in Your Browser"
+      },
+      "lastSeenAt": "2026-10-29T16:09:35.764Z",
+      "seenCount": 1,
+      "heat": 126
+    },
+    {
       "id": "079251699e8ed6eae1b10e41114aac4fe00caede",
       "kind": "news",
       "source": "verge-ai",
@@ -1938,7 +1995,7 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T16:06:48.506Z",
+        "fetchedAt": "2026-10-29T16:09:33.084Z",
         "httpStatus": 200,
         "pointer": "feed item: Amazon updates Alexa to help you manage shopping lists, subscriptions, and..."
       },
@@ -3980,7 +4037,7 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-10-29T16:06:51.754Z",
+        "fetchedAt": "2026-10-29T16:09:33.776Z",
         "httpStatus": 200,
         "pointer": "feed item: AssemblyAI"
       },
@@ -4574,7 +4631,7 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-10-29T16:06:48.506Z",
+        "fetchedAt": "2026-10-29T16:09:33.084Z",
         "httpStatus": 200,
         "pointer": "feed item: The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO"
       },
@@ -5824,13 +5881,13 @@
       ],
       "evidence": {
         "url": "https://www.leiphone.com/feed",
-        "fetchedAt": "2026-10-29T16:06:46.995Z",
+        "fetchedAt": "2026-10-29T16:09:32.321Z",
         "httpStatus": 200,
         "pointer": "feed item: 字节辟谣\"群演数据喂大模型\"：严重失实！"
       },
-      "lastSeenAt": "2026-10-29T16:06:55.651Z",
-      "seenCount": 2,
-      "heat": 48
+      "lastSeenAt": "2026-10-29T16:09:35.764Z",
+      "seenCount": 3,
+      "heat": 47
     },
     {
       "id": "e0f4d0bec36c4add8da67dfda24aaead2c70063f",
@@ -5958,12 +6015,12 @@
       ],
       "evidence": {
         "url": "https://www.leiphone.com/feed",
-        "fetchedAt": "2026-10-29T16:06:46.995Z",
+        "fetchedAt": "2026-10-29T16:09:32.321Z",
         "httpStatus": 200,
         "pointer": "feed item: 华为群英传之刘睿：AI助手要告别聊天框，从“被动响应”走向“主动服务”"
       },
-      "lastSeenAt": "2026-10-29T16:06:55.651Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-10-29T16:09:35.764Z",
+      "seenCount": 3,
       "heat": 83
     },
     {
@@ -6073,12 +6130,12 @@
       ],
       "evidence": {
         "url": "https://www.leiphone.com/feed",
-        "fetchedAt": "2026-10-29T16:06:46.995Z",
+        "fetchedAt": "2026-10-29T16:09:32.321Z",
         "httpStatus": 200,
         "pointer": "feed item: 模态缺失、噪声干扰怎么办？天津大学张长青：给多模态融合加上「可信度量尺」| CNCC 2026"
       },
-      "lastSeenAt": "2026-10-29T16:06:55.651Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-10-29T16:09:35.764Z",
+      "seenCount": 3,
       "heat": 63
     },
     {
@@ -6291,6 +6348,33 @@
       "lastSeenAt": "2026-10-29T16:45:50.550Z",
       "seenCount": 8,
       "heat": 97
+    },
+    {
+      "id": "ad10900db6cdd66b5313b3a9210db4b8de20b684",
+      "kind": "news",
+      "source": "anthropic",
+      "sourceLabel": "Anthropic 官方",
+      "title": "AI for Science expands to foundations and research institutions",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "summary": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.",
+      "lang": "en",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "firstSeenAt": "2026-10-29T16:00:58.547Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "官方",
+        "Anthropic"
+      ],
+      "evidence": {
+        "url": "https://www.anthropic.com/news",
+        "fetchedAt": "2026-10-29T16:09:27.997Z",
+        "httpStatus": 200,
+        "pointer": "news listing row href=/news/ai-for-science-expands-foundations-research-institutions"
+      },
+      "lastSeenAt": "2026-10-29T16:09:35.764Z",
+      "seenCount": 5,
+      "heat": 32
     },
     {
       "id": "9a70fd6f2e15114f6b2688ce9da26db6397b0835",
@@ -8326,6 +8410,62 @@
       "lastSeenAt": "2026-10-29T16:45:50.550Z",
       "seenCount": 8,
       "heat": 59
+    },
+    {
+      "id": "10310c209328b333bcb74674a62790ce398884c7",
+      "kind": "news",
+      "source": "anthropic",
+      "sourceLabel": "Anthropic 官方",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/news/announcements",
+      "summary": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
+      "lang": "en",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "firstSeenAt": "2026-10-29T16:00:58.547Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "官方",
+        "Anthropic",
+        "模型"
+      ],
+      "evidence": {
+        "url": "https://www.anthropic.com/news",
+        "fetchedAt": "2026-10-29T16:09:27.997Z",
+        "httpStatus": 200,
+        "pointer": "news listing row href=/news/announcements"
+      },
+      "lastSeenAt": "2026-10-29T16:09:35.764Z",
+      "seenCount": 5,
+      "heat": 18
+    },
+    {
+      "id": "16faca12f9641778719c92ca16cd33af5bbf9b6f",
+      "kind": "news",
+      "source": "anthropic",
+      "sourceLabel": "Anthropic 官方",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "summary": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
+      "lang": "en",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "firstSeenAt": "2026-10-29T16:00:58.547Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "官方",
+        "Anthropic",
+        "模型"
+      ],
+      "evidence": {
+        "url": "https://www.anthropic.com/news",
+        "fetchedAt": "2026-10-29T16:09:27.997Z",
+        "httpStatus": 200,
+        "pointer": "news listing row href=/news/expanding-partnership-gsa"
+      },
+      "lastSeenAt": "2026-10-29T16:09:35.764Z",
+      "seenCount": 5,
+      "heat": 18
     },
     {
       "id": "8cb333260a17a324432715cb9b46155f1d0d6a44",
@@ -11406,7 +11546,7 @@
       ],
       "evidence": {
         "url": "https://blogs.nvidia.com/feed/",
-        "fetchedAt": "2026-10-29T16:06:50.724Z",
+        "fetchedAt": "2026-10-29T16:09:32.804Z",
         "httpStatus": 200,
         "pointer": "feed item: Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World..."
       },
@@ -13112,6 +13252,33 @@
       "lastSeenAt": "2026-10-29T16:45:50.550Z",
       "seenCount": 8,
       "heat": 76
+    },
+    {
+      "id": "4c6c987b6534578844c4e934b848e7958e078caa",
+      "kind": "news",
+      "source": "anthropic",
+      "sourceLabel": "Anthropic 官方",
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "summary": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+      "lang": "en",
+      "publishedAt": "2026-10-18T00:00:00.000Z",
+      "firstSeenAt": "2026-10-29T16:00:58.547Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "官方",
+        "Anthropic"
+      ],
+      "evidence": {
+        "url": "https://www.anthropic.com/news",
+        "fetchedAt": "2026-10-29T16:09:27.997Z",
+        "httpStatus": 200,
+        "pointer": "news listing row href=/news/public-benefit-fund"
+      },
+      "lastSeenAt": "2026-10-29T16:09:35.764Z",
+      "seenCount": 5,
+      "heat": 0
     },
     {
       "id": "fd6181e478c1fecc131f0ccca51ed1fe77e64715",
@@ -14844,7 +15011,7 @@
       "url": "https://www.anthropic.com/news/distillation-defenses",
       "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
       "lang": "en",
-      "publishedAt": "2026-10-11T16:00:00.000Z",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
       "firstSeenAt": "2026-10-29T16:00:58.547Z",
       "score": null,
       "scoreLabel": "",

@@ -8,16 +8,17 @@
 
 - [U.S. investigated Chinese spy plot aimed at Nvidia CEO](https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo) · TechCrunch AI · 2026/10/30 00:42:32
 - [huggingface/transformers 发布 v5.22.0](https://github.com/huggingface/transformers/releases/tag/v5.22.0) · GitHub Release · 2026/10/29 22:15:39
+- [3 Ways AI Agents Already Operate in Your Browser](https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser) · BleepingComputer · 2026/10/29 22:00:10
 - [谷歌 Alphabet 盘初跌超 13% 创其历史上最大单日跌幅](https://www.ithome.com/1/019/773.htm) · IT之家 · 2026/10/29 21:40:42
 - [百度集团副总裁吴甜离职，知情人士称文心模型下周将有新进展](https://www.ithome.com/1/019/769.htm) · IT之家 · 2026/10/29 21:32:37
 - [Python 智能体开发实战 02：你的 AI 助教说话像换了个模型？九成的 system prompt 都写错了](https://juejin.cn/post/7701929263046148159) · 掘金 · 2026/10/29 19:49:07
 - [n8n-io/n8n 发布 n8n@2.45.6](https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.6) · GitHub Release · 2026/10/29 16:30:41
 - [crewAIInc/crewAI 发布 1.15.33](https://github.com/crewAIInc/crewAI/releases/tag/1.15.33) · GitHub Release · 2026/10/29 15:36:24
-- [AssemblyAI](https://www.producthunt.com/products/assemblyai) · Product Hunt · 2026/10/29 06:35:24
 - [openai/openai-python 发布 v3.41.0](https://github.com/openai/openai-python/releases/tag/v3.41.0) · GitHub Release · 2026/10/29 06:26:54
 - [modelcontextprotocol/servers 发布 v2.2.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0) · GitHub Release · 2026/10/29 04:57:13
 - [ollama/ollama 发布 v0.40.13](https://github.com/ollama/ollama/releases/tag/v0.40.13) · GitHub Release · 2026/10/29 03:55:04
 - [Particle AI: Particle-1](https://openrouter.ai/particle-ai/particle-1) · OpenRouter 新模型 · 2026/10/29 01:18:13
+- [Meta says it’ll probably delay its controversial new business terms again](https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely) · The Verge AI · 2026/10/29 00:15:30
 - [langchain-ai/langchain 发布 langchain-core==1.7.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1) · GitHub Release · 2026/10/28 23:00:02
 - [ggml-org/llama.cpp 发布 v0.8.0](https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0) · GitHub Release · 2026/10/28 20:47:51
 - [browser-use/browser-use 发布 0.13.14](https://github.com/browser-use/browser-use/releases/tag/0.13.14) · GitHub Release · 2026/10/27 06:00:34
