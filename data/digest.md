@@ -1,12 +1,13 @@
 # AI 大世界 · 采集快照
 
 - 生成时间：2026/10/30 00:45:54（Asia/Shanghai）
-- 库内条目：633 条；最近一次新增：2 条
+- 库内条目：639 条；最近一次新增：2 条
 - 数据源：39/39 正常
 
 ## 本次新增
 
 - [U.S. investigated Chinese spy plot aimed at Nvidia CEO](https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo) · TechCrunch AI · 2026/10/30 00:42:32
+- [[Claude] 有人用 Microsoft 365 Business Standard with Copilot 版本里面的 Claude 么？](https://www.v2ex.com/t/1253006) · V2EX · AI 讨论 · 2026/10/30 00:07:26
 - [huggingface/transformers 发布 v5.22.0](https://github.com/huggingface/transformers/releases/tag/v5.22.0) · GitHub Release · 2026/10/29 22:15:39
 - [3 Ways AI Agents Already Operate in Your Browser](https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser) · BleepingComputer · 2026/10/29 22:00:10
 - [谷歌 Alphabet 盘初跌超 13% 创其历史上最大单日跌幅](https://www.ithome.com/1/019/773.htm) · IT之家 · 2026/10/29 21:40:42
@@ -14,11 +15,11 @@
 - [Python 智能体开发实战 02：你的 AI 助教说话像换了个模型？九成的 system prompt 都写错了](https://juejin.cn/post/7701929263046148159) · 掘金 · 2026/10/29 19:49:07
 - [n8n-io/n8n 发布 n8n@2.45.6](https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.6) · GitHub Release · 2026/10/29 16:30:41
 - [crewAIInc/crewAI 发布 1.15.33](https://github.com/crewAIInc/crewAI/releases/tag/1.15.33) · GitHub Release · 2026/10/29 15:36:24
+- [AssemblyAI](https://www.producthunt.com/products/assemblyai) · Product Hunt · 2026/10/29 06:35:24
 - [openai/openai-python 发布 v3.41.0](https://github.com/openai/openai-python/releases/tag/v3.41.0) · GitHub Release · 2026/10/29 06:26:54
 - [modelcontextprotocol/servers 发布 v2.2.0](https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0) · GitHub Release · 2026/10/29 04:57:13
 - [ollama/ollama 发布 v0.40.13](https://github.com/ollama/ollama/releases/tag/v0.40.13) · GitHub Release · 2026/10/29 03:55:04
 - [Particle AI: Particle-1](https://openrouter.ai/particle-ai/particle-1) · OpenRouter 新模型 · 2026/10/29 01:18:13
-- [Meta says it’ll probably delay its controversial new business terms again](https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely) · The Verge AI · 2026/10/29 00:15:30
 - [langchain-ai/langchain 发布 langchain-core==1.7.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1) · GitHub Release · 2026/10/28 23:00:02
 - [ggml-org/llama.cpp 发布 v0.8.0](https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0) · GitHub Release · 2026/10/28 20:47:51
 - [browser-use/browser-use 发布 0.13.14](https://github.com/browser-use/browser-use/releases/tag/0.13.14) · GitHub Release · 2026/10/27 06:00:34
@@ -29,8 +30,6 @@
 - [cline/cline 发布 v4.1.26](https://github.com/cline/cline/releases/tag/v4.1.26) · GitHub Release · 2026/10/26 17:06:50
 - [MoonshotAI: Kimi K3.1 Pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) · OpenRouter 新模型 · 2026/10/24 01:56:28
 - [Recursive: Flint (free)](https://openrouter.ai/recursive/flint-v1.0:free) · OpenRouter 新模型 · 2026/10/22 06:46:05
-- [MiniMax: MiniMax M3.1 Flash](https://openrouter.ai/minimax/minimax-m3.1-flash) · OpenRouter 新模型 · 2026/10/19 11:12:49
-- [sgl-project/sglang 发布 v0.5.22](https://github.com/sgl-project/sglang/releases/tag/v0.5.22) · GitHub Release · 2026/10/19 10:55:19
 
 ## 热度榜
 

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-29T16:48:50.732Z",
+  "generatedAt": "2026-10-29T16:51:47.006Z",
   "feedGeneratedAt": "2026-10-29T16:45:54.490Z",
   "title": "AI 大世界",
   "stats": {
-    "items": 633,
+    "items": 639,
     "fresh": 2,
     "byKind": {
-      "discussion": 90,
-      "news": 231,
+      "discussion": 91,
+      "news": 235,
       "repo": 57,
       "video": 15,
       "security": 14,
@@ -19,13 +19,12 @@
       "space": 15
     },
     "bySource": {
-      "community": 31,
+      "community": 32,
       "techcrunch-ai": 15,
       "github-trending": 6,
       "nvidia": 11,
       "verge-ai": 10,
       "latent-space": 9,
-      "verge-ai": 11,
       "ithome": 15,
       "youtube": 15,
       "the-decoder": 10,
@@ -47,7 +46,7 @@
       "github-blog": 10,
       "lobsters": 1,
       "openai": 12,
-      "anthropic": 12,
+      "anthropic": 16,
       "arxiv-more": 20,
       "arxiv": 21,
       "deepmind": 10,
@@ -67,7 +66,7 @@
     "dshTotal": 3917,
     "dshNew": 0,
     "withImage": 405,
-    "imageCoverage": 64,
+    "imageCoverage": 63,
     "byImageSource": {
       "原文 OG 封面": 201,
       "GitHub 仓库头像": 55,
