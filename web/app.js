@@ -41,6 +41,30 @@ function relTime(isoString) {
   return Math.round(days / 30) + ' 个月前';
 }
 
+/* ---------- 数据新鲜度：让人一眼看出自动扫描有没有在跑 ---------- */
+function renderFreshness(generatedAt) {
+  const pill = $('freshness');
+  const text = $('freshText');
+  if (!pill || !text) return;
+  const paint = () => {
+    if (!generatedAt) {
+      pill.className = 'freshness stale';
+      text.textContent = '数据时间未知';
+      return;
+    }
+    const minutes = Math.max(0, Math.round((Date.now() - new Date(generatedAt).getTime()) / 60000));
+    const label = minutes < 1 ? '刚刚更新'
+      : minutes < 60 ? minutes + ' 分钟前更新'
+      : (Math.round(minutes / 6) / 10).toFixed(1).replace(/\.0$/, '') + ' 小时前更新';
+    pill.className = 'freshness ' + (minutes <= 75 ? 'ok' : minutes <= 240 ? 'warn' : 'stale');
+    text.textContent = '自动扫描 · ' + label;
+    pill.title = '最近一次自动采集：' + new Date(generatedAt).toLocaleString('zh-CN', { hour12: false }) +
+      '（由 GitHub Actions 定时任务触发，人工不参与）';
+  };
+  paint();
+  setInterval(paint, 60000);
+}
+
 async function loadJson(path, fallback) {
   try {
     const res = await fetch(path, { cache: 'no-store' });
@@ -450,7 +474,8 @@ async function main() {
   $('more').addEventListener('click', () => { state.shown += PAGE; applyFilter(); });
 
   const generated = (site && site.feedGeneratedAt) || feed.generatedAt;
-  $('foot-meta').textContent = 'AI 大世界 · 每小时自动采集 · 最近采集 ' +
+  renderFreshness(generated);
+  $('foot-meta').textContent = 'AI 大世界 · GitHub Actions 每小时自动采集（无需人工） · 最近采集 ' +
     (generated ? new Date(generated).toLocaleString('zh-CN', { hour12: false }) : '未知') +
     ' · 库内 ' + state.all.length + ' 条';
 }
