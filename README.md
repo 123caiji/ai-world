@@ -37,6 +37,7 @@
 | 数据源健康度：哪个源活着、抓了几条、多久 | 网页右下角、`data/sources.json` |
 | 本轮快照（Markdown） | [`data/digest.md`](data/digest.md) |
 | 全量机器可读数据 | [`data/feed.json`](data/feed.json)（每条 16 个字段，含 evidence） |
+| 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
 **最近一次采集**：2026/10/29 23:45:24 · 库内 361 条 · 本轮新增 3 条 · 数据源 20/20 正常
