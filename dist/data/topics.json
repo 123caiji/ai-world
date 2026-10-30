@@ -1,129 +1,129 @@
 {
-  "generatedAt": "2026-10-30T19:17:25.842Z",
+  "generatedAt": "2026-10-30T22:02:54.046Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 171
+      "n": 179
     },
     {
       "w": "models",
-      "n": 170
+      "n": 167
     },
     {
       "w": "model",
-      "n": 147
+      "n": 133
     },
     {
       "w": "发布",
-      "n": 116
+      "n": 114
     },
     {
       "w": "openai",
-      "n": 105
+      "n": 111
     },
     {
       "w": "claude",
-      "n": 104
+      "n": 110
     },
     {
       "w": "模型",
       "n": 97
     },
     {
-      "w": "agents",
-      "n": 93
+      "w": "anthropic",
+      "n": 92
     },
     {
-      "w": "anthropic",
-      "n": 91
+      "w": "agents",
+      "n": 90
     },
     {
       "w": "code",
       "n": 79
     },
     {
-      "w": "pro",
-      "n": 75
+      "w": "data",
+      "n": 77
     },
     {
-      "w": "智能",
+      "w": "pro",
+      "n": 76
+    },
+    {
+      "w": "google",
       "n": 72
     },
     {
-      "w": "data",
+      "w": "智能",
       "n": 70
     },
     {
       "w": "language",
-      "n": 65
-    },
-    {
-      "w": "google",
-      "n": 63
+      "n": 61
     },
     {
       "w": "learning",
-      "n": 63
-    },
-    {
-      "w": "training",
-      "n": 57
+      "n": 58
     },
     {
       "w": "deepseek",
-      "n": 55
+      "n": 56
     },
     {
-      "w": "world",
-      "n": 52
-    },
-    {
-      "w": "llm",
-      "n": 46
+      "w": "training",
+      "n": 56
     },
     {
       "w": "gemini",
-      "n": 46
+      "n": 51
+    },
+    {
+      "w": "world",
+      "n": 48
+    },
+    {
+      "w": "app",
+      "n": 47
+    },
+    {
+      "w": "chatgpt",
+      "n": 47
     },
     {
       "w": "芯片",
       "n": 46
     },
     {
-      "w": "chatgpt",
-      "n": 44
-    },
-    {
-      "w": "app",
-      "n": 44
-    },
-    {
       "w": "work",
-      "n": 43
+      "n": 45
+    },
+    {
+      "w": "llm",
+      "n": 45
     },
     {
       "w": "research",
       "n": 43
     },
     {
-      "w": "video",
-      "n": 40
-    },
-    {
-      "w": "visual",
-      "n": 40
+      "w": "coding",
+      "n": 39
     },
     {
       "w": "token",
       "n": 39
     },
     {
+      "w": "october",
+      "n": 37
+    },
+    {
       "w": "nvidia",
       "n": 37
     },
     {
-      "w": "october",
+      "w": "ceo",
       "n": 36
     },
     {
@@ -131,19 +131,19 @@
       "n": 36
     },
     {
-      "w": "coding",
+      "w": "amazon",
       "n": 35
     },
     {
-      "w": "agentic",
+      "w": "business",
       "n": 34
     },
     {
-      "w": "security",
-      "n": 33
+      "w": "video",
+      "n": 34
     },
     {
-      "w": "tasks",
+      "w": "billion",
       "n": 33
     },
     {
@@ -151,19 +151,27 @@
       "n": 33
     },
     {
-      "w": "only",
-      "n": 33
-    },
-    {
       "w": "large",
       "n": 33
     },
     {
-      "w": "software",
+      "w": "each",
       "n": 32
     },
     {
-      "w": "whether",
+      "w": "yet",
+      "n": 32
+    },
+    {
+      "w": "carbon",
+      "n": 32
+    },
+    {
+      "w": "microsoft",
+      "n": 32
+    },
+    {
+      "w": "software",
       "n": 32
     },
     {
@@ -171,27 +179,19 @@
       "n": 32
     },
     {
-      "w": "billion",
+      "w": "only",
+      "n": 32
+    },
+    {
+      "w": "agentic",
       "n": 32
     },
     {
       "w": "introduce",
-      "n": 32
-    },
-    {
-      "w": "yet",
       "n": 31
     },
     {
-      "w": "business",
-      "n": 31
-    },
-    {
-      "w": "systems",
-      "n": 31
-    },
-    {
-      "w": "carbon",
+      "w": "whether",
       "n": 31
     }
   ]
