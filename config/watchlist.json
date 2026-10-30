@@ -28,6 +28,23 @@
     "cline/cline",
     "n8n-io/n8n"
   ],
+  "social": {
+    "$comment": "社交媒体源（推特类）。X/Twitter 没有免费 API，这里用同样在实时聊 AI 的 Bluesky / Mastodon / Reddit 补上。accounts 填你想跟的 Bluesky 账号 handle（如 someone.bsky.social），填错只会跳过、不影响其它源。",
+    "bluesky": {
+      "queries": ["AI agent", "LLM", "open source AI", "AI safety"],
+      "accounts": []
+    },
+    "mastodon": {
+      "feeds": [
+        { "instance": "https://mastodon.social", "tag": "ai" },
+        { "instance": "https://mastodon.social", "tag": "LLM" },
+        { "instance": "https://mastodon.social", "tag": "MachineLearning" },
+        { "instance": "https://sigmoid.social", "tag": "ai" },
+        { "instance": "https://hachyderm.io", "tag": "ai" }
+      ]
+    },
+    "reddit": { "subs": ["MachineLearning", "LocalLLaMA", "artificial", "OpenAI"] }
+  },
   "ownRepos": ["123caiji/ai-world", "123caiji/dsh-memory-toolkit", "123caiji/dsh-live", "123caiji/awesome-agent-security", "123caiji/AI-LLM-Agent-Learning"],
   "sections": [
     { "id": "headline", "title": "头条", "kinds": ["news", "product"], "limit": 12 },
@@ -37,6 +54,6 @@
     { "id": "video", "title": "视频", "kinds": ["video"], "limit": 8 },
     { "id": "security", "title": "AI 安全", "kinds": ["security"], "limit": 8 },
     { "id": "plugins", "title": "DSH 插件", "kinds": ["plugin"], "limit": 8 },
-    { "id": "hot", "title": "社区热帖", "kinds": ["discussion"], "limit": 8 }
+    { "id": "hot", "title": "社区热帖", "kinds": ["discussion"], "limit": 12 }
   ]
 }

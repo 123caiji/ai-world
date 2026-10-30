@@ -14,8 +14,16 @@ import { source as youtube } from './youtube.mjs';
 import { source as security } from './security.mjs';
 import { source as community } from './community.mjs';
 import { source as anthropic } from './anthropic.mjs';
+import { source as bluesky } from './bluesky.mjs';
+import { source as mastodon } from './mastodon.mjs';
+import { source as reddit } from './reddit.mjs';
 
-const AI_MATCH = 'AI|A\\.I\\.|人工智能|大模型|模型|智能体|Agent|LLM|GPT|Claude|Gemini|OpenAI|Anthropic|英伟达|NVIDIA|算力|推理|多模态|机器人|芯片|DeepSeek|Qwen|Kimi|豆包|通义';
+// 注意：'AI' 必须是整词（\\bAI\\b），否则 'said' / 'email' / 'available' 这类词都会误命中；
+// 'OpenAI' 之类由后面的独立分支兜住，不受整词限制影响。
+const AI_MATCH = '\\bAI\\b|A\\.I\\.|人工智能|大模型|模型|智能体|Agent|LLM|GPT|Claude|Gemini|OpenAI|Anthropic|英伟达|NVIDIA|算力|推理|多模态|机器人|芯片|DeepSeek|Qwen|Kimi|豆包|通义';
+
+// 论坛类社区（LessWrong / Alignment Forum）用更宽的过滤：它们本来就在讨论 AI 对齐与治理
+const COMMUNITY_MATCH = '\\bAI\\b|\\bAGI\\b|\\bLLM\\b|alignment|superintelligence|\\bmodel|\\bagent|\\bsafety|\\bcompute|对齐|智能体|大模型|机器学习|深度学习|安全';
 
 export const sources = [
   // —— 结构化源（自有解析器）——
@@ -34,6 +42,11 @@ export const sources = [
   security,
   community,
   anthropic,
+
+  // —— 社交媒体（"推特类"：X 没有免费 API，用同样在实时讨论 AI 的开放网络替代）——
+  bluesky,
+  mastodon,
+  reddit,
 
   // —— 中文资讯 ——
   makeFeedSource({ id: 'qbitai', label: '量子位', url: 'https://www.qbitai.com/feed', kind: 'news', tags: ['中文'], limit: 20 }),
@@ -63,6 +76,23 @@ export const sources = [
   makeFeedSource({ id: 'simonw', label: 'Simon Willison', url: 'https://simonwillison.net/atom/everything/', kind: 'news', tags: ['个人'], limit: 8 }),
   makeFeedSource({ id: 'bair', label: 'BAIR 伯克利', url: 'https://bair.berkeley.edu/blog/feed.xml', kind: 'paper', tags: ['研究'], limit: 6 }),
   makeFeedSource({ id: 'sciencedaily', label: 'ScienceDaily AI', url: 'https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml', kind: 'paper', tags: ['研究'], limit: 8 }),
+
+  // —— 官方博客 / 研究机构（补充）——
+  makeFeedSource({ id: 'google-ai', label: 'Google AI 博客', url: 'https://blog.google/technology/ai/rss/', kind: 'news', tags: ['官方'], limit: 10 }),
+  makeFeedSource({ id: 'qwen', label: 'Qwen 官方博客', url: 'https://qwenlm.github.io/blog/index.xml', kind: 'news', tags: ['官方', '开源'], limit: 8 }),
+  makeFeedSource({ id: 'msr', label: '微软研究院', url: 'https://www.microsoft.com/en-us/research/feed/', kind: 'paper', tags: ['研究'], limit: 8 }),
+  makeFeedSource({ id: 'apple-ml', label: 'Apple 机器学习', url: 'https://machinelearning.apple.com/rss.xml', kind: 'paper', tags: ['研究'], limit: 8 }),
+  makeFeedSource({ id: 'aws-ml', label: 'AWS 机器学习', url: 'https://aws.amazon.com/blogs/machine-learning/feed/', kind: 'news', tags: ['工程'], limit: 10 }),
+
+  // —— 分析博客 / 社区讨论（补充）——
+  makeFeedSource({ id: 'smol-ai', label: 'AI News (smol.ai)', url: 'https://news.smol.ai/rss.xml', kind: 'news', tags: ['精选'], limit: 8 }),
+  makeFeedSource({ id: 'interconnects', label: 'Interconnects', url: 'https://www.interconnects.ai/feed', kind: 'news', tags: ['分析'], limit: 6 }),
+  makeFeedSource({ id: 'oneusefulthing', label: 'One Useful Thing', url: 'https://www.oneusefulthing.org/feed', kind: 'news', tags: ['分析'], limit: 6 }),
+  makeFeedSource({ id: 'aheadofai', label: 'Ahead of AI', url: 'https://magazine.sebastianraschka.com/feed', kind: 'news', tags: ['分析', '研究'], limit: 6 }),
+  makeFeedSource({ id: 'gradient', label: 'The Gradient', url: 'https://thegradient.pub/rss/', kind: 'news', tags: ['研究'], limit: 6 }),
+  makeFeedSource({ id: 'techmeme', label: 'Techmeme', url: 'https://www.techmeme.com/feed.xml', kind: 'news', tags: ['英文'], limit: 10, match: AI_MATCH }),
+  makeFeedSource({ id: 'alignmentforum', label: 'Alignment Forum', url: 'https://www.alignmentforum.org/feed.xml', kind: 'discussion', tags: ['社区'], limit: 8, match: COMMUNITY_MATCH }),
+  makeFeedSource({ id: 'lesswrong', label: 'LessWrong', url: 'https://www.lesswrong.com/feed.xml', kind: 'discussion', tags: ['社区'], limit: 8, match: COMMUNITY_MATCH }),
 
   // —— 产品 ——
   makeFeedSource({ id: 'producthunt', label: 'Product Hunt', url: 'https://www.producthunt.com/feed', kind: 'product', tags: ['产品'], limit: 10, match: 'AI|Agent|GPT|LLM|模型|智能' }),
