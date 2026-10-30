@@ -4,7 +4,7 @@ import { appendJsonl, readJson, writeJson } from './lib/store.mjs';
 import { sha1 } from './lib/util.mjs';
 import { fetchCoverImage, isUsableImage, mapLimit } from './lib/media.mjs';
 import { DEFAULT_INTERVAL_MIN, FORCE, clearSkipMarker, humanMinutes, writeSkipMarker } from './lib/window.mjs';
-import { dispatchSuccessor, isActions, readKeeperConfig, waitForWindow, writeKeeperState } from './lib/keeper.mjs';
+import { dispatchSuccessor, isActions, readKeeperConfig, syncToRemoteMain, waitForWindow, writeKeeperState } from './lib/keeper.mjs';
 
 const ROOT = process.cwd();
 const DATA_DIR = join(ROOT, 'data');
@@ -24,11 +24,18 @@ const keeper = readKeeperConfig(ROOT);
 const keeperOn = keeper.enabled && (isActions() || process.env.RADAR_KEEPER === '1');
 const keeperMaxWait = Number(process.env.RADAR_KEEPER_MAX_WAIT_MIN || keeper.maxWaitMinutes);
 
-const lastCollectedAt = readJson(join(DATA_DIR, 'site.json'), {}).feedGeneratedAt
-  || readJson(join(DATA_DIR, 'feed.json'), {}).generatedAt
-  || null;
-let sinceMinutes = lastCollectedAt ? (Date.now() - new Date(lastCollectedAt).getTime()) / 60000 : Number.POSITIVE_INFINITY;
-let windowOpen = FORCE || Boolean(only) || !Number.isFinite(sinceMinutes) || sinceMinutes >= DEFAULT_INTERVAL_MIN;
+function evaluateWindowNow() {
+  const lastCollected = readJson(join(DATA_DIR, 'site.json'), {}).feedGeneratedAt
+    || readJson(join(DATA_DIR, 'feed.json'), {}).generatedAt
+    || null;
+  const since = lastCollected ? (Date.now() - new Date(lastCollected).getTime()) / 60000 : Number.POSITIVE_INFINITY;
+  const open = FORCE || Boolean(only) || !Number.isFinite(since) || since >= DEFAULT_INTERVAL_MIN;
+  return { lastCollected, since, open };
+}
+
+let lastCollectedAt = null;
+let sinceMinutes = Number.POSITIVE_INFINITY;
+let windowOpen = false;
 
 if (keeperOn) {
   // 先排队、后干活：本轮即使被取消/报错，链子也不会断
@@ -48,12 +55,19 @@ if (keeperOn) {
       : 'keeper: 排队失败（' + (dispatched.error || dispatched.skipped || dispatched.message) + '），本轮只靠 cron 兜底',
   );
 
+  // 检出的 sha 可能已经落后（上一环刚把数据推上来）：先同步，再判断窗口，别白采一轮
+  syncToRemoteMain({ root: ROOT });
+
+  ({ lastCollected: lastCollectedAt, since: sinceMinutes, open: windowOpen } = evaluateWindowNow());
+
   if (!windowOpen) {
     const waited = await waitForWindow({ root: ROOT, intervalMinutes: DEFAULT_INTERVAL_MIN, maxWaitMinutes: keeperMaxWait });
     windowOpen = waited.evaluated.collect;
     sinceMinutes = waited.evaluated.sinceMinutes;
     if (windowOpen) console.log('keeper: 守候 ' + waited.waitedMinutes + ' 分钟后窗口打开，开始采集');
   }
+} else {
+  ({ lastCollected: lastCollectedAt, since: sinceMinutes, open: windowOpen } = evaluateWindowNow());
 }
 
 if (!windowOpen) {

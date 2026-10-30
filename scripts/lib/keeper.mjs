@@ -1,3 +1,4 @@
+import { execFileSync } from 'node:child_process';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { evaluateWindow } from './window.mjs';
@@ -24,6 +25,38 @@ const HEARTBEAT_EVERY_MS = 10 * 60000;
 
 /** 睡眠分片：1 分钟，便于打印进度、也让取消能及时生效 */
 export const SLEEP_CHUNK_MS = Number(process.env.KEEPER_SLEEP_CHUNK_MS || 60000);
+
+/**
+ * 把检出同步到远端最新 main。
+ *
+ * 为什么需要：workflow_dispatch 触发的 run 检出的是「派发那一刻的 sha」，
+ * 而不是「运行时最新的 main」。如果上一环在我 checkout 之后才把采集结果推上来，
+ * 我这边看到的 site.json 就是旧的 → 误判窗口已开 → 白采一轮，最后 push 被拒（非快进）。
+ * 实测出现过一次（run 41008410610 的「提交数据」失败）。
+ *
+ * 采集是在临时 runner 上跑的，工作区可以随便重置，所以直接 reset --hard 到 origin/main。
+ */
+export function syncToRemoteMain({ root = process.cwd(), log = console.log } = {}) {
+  const git = (args) => execFileSync('git', args, {
+    cwd: root,
+    encoding: 'utf8',
+    env: { ...process.env, GIT_TERMINAL_PROMPT: '0' },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  }).trim();
+  try {
+    git(['fetch', '--no-tags', 'origin', 'main']);
+    const head = git(['rev-parse', 'HEAD']);
+    const remote = git(['rev-parse', 'origin/main']);
+    if (head === remote) return { synced: false, head };
+    git(['reset', '--hard', 'origin/main']);
+    log('keeper: 检出 ' + head.slice(0, 7) + ' 落后远端 ' + remote.slice(0, 7) + '，已同步到最新 main 再判断窗口');
+    return { synced: true, from: head, to: remote };
+  } catch (err) {
+    const message = String((err && err.message) || err).split('\n')[0];
+    log('keeper: 同步远端 main 失败（' + message + '），按当前检出继续');
+    return { synced: false, error: message };
+  }
+}
 
 export function isActions() {
   return process.env.GITHUB_ACTIONS === 'true';
