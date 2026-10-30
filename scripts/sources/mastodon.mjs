@@ -8,7 +8,10 @@ const DEFAULT_FEEDS = [
   { instance: 'https://mastodon.social', tag: 'LLM' },
   { instance: 'https://mastodon.social', tag: 'MachineLearning' },
   { instance: 'https://sigmoid.social', tag: 'ai' },
+  { instance: 'https://sigmoid.social', tag: 'LLM' },
   { instance: 'https://hachyderm.io', tag: 'ai' },
+  { instance: 'https://hachyderm.io', tag: 'LLM' },
+  { instance: 'https://hachyderm.io', tag: 'MachineLearning' },
 ];
 const LIMIT = 20;
 const MIN_TEXT = 20;

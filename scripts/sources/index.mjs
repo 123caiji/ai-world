@@ -94,6 +94,14 @@ export const sources = [
   makeFeedSource({ id: 'alignmentforum', label: 'Alignment Forum', url: 'https://www.alignmentforum.org/feed.xml', kind: 'discussion', tags: ['社区'], limit: 8, match: COMMUNITY_MATCH }),
   makeFeedSource({ id: 'lesswrong', label: 'LessWrong', url: 'https://www.lesswrong.com/feed.xml', kind: 'discussion', tags: ['社区'], limit: 8, match: COMMUNITY_MATCH }),
 
+  // —— 媒体与分析（第三波：实测可抓的 AI 垂直媒体与厂商工程博客）——
+  makeFeedSource({ id: 'marktechpost', label: 'MarkTechPost', url: 'https://www.marktechpost.com/feed/', kind: 'news', tags: ['英文', '媒体'], limit: 10 }),
+  makeFeedSource({ id: 'synced', label: 'Synced Review', url: 'https://syncedreview.com/feed/', kind: 'paper', tags: ['研究', '英文'], limit: 10 }),
+  makeFeedSource({ id: 'aibusiness', label: 'AI Business', url: 'https://aibusiness.com/rss.xml', kind: 'news', tags: ['英文', '产业'], limit: 12 }),
+  makeFeedSource({ id: 'ieee-spectrum-ai', label: 'IEEE Spectrum · AI', url: 'https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss', kind: 'news', tags: ['英文', '研究'], limit: 10 }),
+  makeFeedSource({ id: 'unite-ai', label: 'Unite.AI', url: 'https://www.unite.ai/feed/', kind: 'news', tags: ['英文', '媒体'], limit: 10 }),
+  makeFeedSource({ id: 'together', label: 'Together AI 博客', url: 'https://www.together.ai/blog/rss.xml', kind: 'news', tags: ['官方', '工程'], limit: 8 }),
+
   // —— 产品 ——
   makeFeedSource({ id: 'producthunt', label: 'Product Hunt', url: 'https://www.producthunt.com/feed', kind: 'product', tags: ['产品'], limit: 10, match: 'AI|Agent|GPT|LLM|模型|智能' }),
 ];

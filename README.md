@@ -7,7 +7,7 @@
 
 [![radar](https://github.com/123caiji/ai-world/actions/workflows/radar.yml/badge.svg)](https://github.com/123caiji/ai-world/actions/workflows/radar.yml)
 [![pages](https://img.shields.io/badge/site-ai--world-60a5fa)](https://123caiji.github.io/ai-world/)
-[![sources](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%BA%90-55%20%E4%B8%AA-34d399)](#数据源)
+[![sources](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E6%BA%90-61%20%E4%B8%AA-34d399)](#数据源)
 [![license](https://img.shields.io/badge/license-MIT-8a9ab3)](LICENSE)
 
 </div>
@@ -20,7 +20,7 @@
 
 它每 165 分钟做四件事（采集窗口 + 自愈链机制，见下文「定时与部署」）：
 
-1. **抓情报** —— 55 个数据源并发采集（中英新闻、官方博客、arXiv 多分区、Hugging Face 论文/模型/数据集/Space 趋势、GitHub 每日趋势、Hacker News / Show HN / Lobsters、YouTube 技术频道、AI 安全事件、中文技术社区、Anthropic 官方、Product Hunt、OpenRouter 模型目录，以及**社交媒体**：Bluesky、Mastodon、Reddit 的 AI 讨论）。
+1. **抓情报** —— 61 个数据源并发采集（中英新闻、官方博客、arXiv 多分区、Hugging Face 论文/模型/数据集/Space 趋势、GitHub 每日趋势、Hacker News / Show HN / Lobsters、YouTube 技术频道、AI 安全事件、中文技术社区、Anthropic 官方、Product Hunt、OpenRouter 模型目录、AI 垂直媒体（MarkTechPost / Synced / AI Business / IEEE Spectrum / Unite.AI），以及**社交媒体**：Bluesky、Mastodon、Reddit 的 AI 讨论）。
 2. **扫 GitHub** —— 最近两周的 AI 新仓库、话题榜、涨星榜（自己存 stars 快照算 delta）、关注仓库的最新 Release。
 3. **查插件** —— 扫 DSH 插件索引的 3000+ 插件，diff 出新增。
 4. **发网页** —— 生成静态站推到 GitHub Pages，并把最热的 6 条写回本 README。
@@ -105,11 +105,13 @@
 | 英文 | The Decoder · TechCrunch AI · MIT 科技评论 · Latent Space · Simon Willison | 各自 RSS |
 | 产品 | Product Hunt | `producthunt.com/feed` |
 | 社交 | Bluesky（AI 话题搜索，按点赞排序） | `public.api.bsky.app/xrpc/app.bsky.feed.searchPosts` |
-| 社交 | Mastodon（#ai / #LLM / #MachineLearning 话题时间线，多个实例） | `mastodon.social/api/v1/timelines/tag/*` |
+| 社交 | Mastodon（#ai / #LLM / #MachineLearning 话题时间线；mastodon.social / sigmoid.social / hachyderm.io 多实例） | `<实例>/api/v1/timelines/tag/*` |
 | 社交 | Reddit · r/MachineLearning · r/LocalLLaMA · r/artificial · r/OpenAI | `reddit.com/r/*/hot.json` |
 | 官方 | Google AI · Qwen · 微软研究院 · Apple 机器学习 · AWS 机器学习 | 各自 RSS |
 | 分析 | AI News (smol.ai) · Interconnects · One Useful Thing · Ahead of AI · The Gradient · Techmeme | 各自 RSS |
 | 社区 | LessWrong · Alignment Forum | 各自 RSS |
+| 媒体 | MarkTechPost · Synced Review · AI Business · IEEE Spectrum AI · Unite.AI | 各自 RSS |
+| 官方 | Together AI 博客 | `together.ai/blog/rss.xml` |
 
 > **关于「推特」**：X / Twitter 没有免费公开 API（要付费），所以这里用 **Bluesky** 补上「推特类」的实时讨论，再加 Mastodon 和 Reddit。三个都是公开接口、不需要 key。你自己的 Bluesky 关注列表可以写进 `config/watchlist.json` 的 `social.bluesky.accounts`，下一轮采集自动生效。
 
@@ -167,7 +169,7 @@ ai-world/
 │  ├─ render.mjs              # 生成 digest / README 热榜 / dist 静态站
 │  ├─ serve.mjs               # 本地预览
 │  ├─ lib/{http,feed,util,store,rssSource}.mjs
-│  └─ sources/                # 55 个适配器，一个文件管一个源
+│  └─ sources/                # 61 个适配器，一个文件管一个源
 ├─ data/
 │  ├─ feed.json               # 主数据（近 600 条，带 evidence）
 │  ├─ github.json             # 新仓库 / 涨星 / Release / 话题
