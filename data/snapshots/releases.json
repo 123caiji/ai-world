@@ -1,7 +1,7 @@
 {
   "vllm-project/vllm": "v0.32.0",
   "sgl-project/sglang": "v0.5.22",
-  "huggingface/transformers": "v5.22.0",
+  "huggingface/transformers": "v5.22.1",
   "langchain-ai/langchain": "langchain-core==1.7.3",
   "modelcontextprotocol/servers": "v2.2.0",
   "ggml-org/llama.cpp": "v0.8.0",
@@ -12,5 +12,5 @@
   "browser-use/browser-use": "0.13.14",
   "Aider-AI/aider": "v0.86.0",
   "cline/cline": "v4.1.26",
-  "n8n-io/n8n": "n8n@2.45.6"
+  "n8n-io/n8n": "n8n@2.45.7"
 }

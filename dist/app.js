@@ -114,7 +114,7 @@ function renderKpis(site, feedItems) {
     ['库内情报', stats.items || feedItems.length, '条'],
     ['本轮新增', stats.fresh || 0, '条'],
     ['近 1 小时入库', last1h, '条'],
-    ['数据源在线', stats.sourcesOk || 0, '/' + (stats.sourcesTotal || 0)],
+    ['数据源在线', stats.sourcesOk || 0, '/' + Math.max(0, (stats.sourcesTotal || 0) - (stats.sourcesSkipped || 0))],
   ];
   $('kpis').innerHTML = rows.map(([label, value, suffix]) => (
     '<div class="kpi"><div class="v" data-target="' + (Number(value) || 0) + '">0</div>' +
@@ -230,16 +230,24 @@ function renderSources(sources) {
   if (!rows.length) { $('sources-body').innerHTML = '<p class="muted">暂无数据</p>'; return; }
   const cells = rows.map((row) => {
     const ok = row.status === 'ok';
-    return '<div class="s" title="' + esc(row.label + ' · ' + (ok ? row.items + ' 条 · ' + Math.round((row.latencyMs || 0) / 100) / 10 + 's' : '失败: ' + (row.error || ''))) + '">' +
-      '<i class="dot' + (ok ? '' : ' err') + '"></i><span class="t">' + esc(row.label) + '</span>' +
-      '<span class="n">' + (ok ? row.items : '×') + '</span></div>';
+    const skipped = row.status === 'skipped';
+    const ttl = ok
+      ? row.label + ' · ' + row.items + ' 条 · ' + Math.round((row.latencyMs || 0) / 100) / 10 + 's'
+      : skipped
+        ? row.label + ' · 未启用：' + (row.reason || '需要凭据')
+        : row.label + ' · 失败: ' + (row.error || '');
+    return '<div class="s' + (skipped ? ' off' : '') + '" title="' + esc(ttl) + '">' +
+      '<i class="dot' + (ok ? '' : skipped ? ' off' : ' err') + '"></i><span class="t">' + esc(row.label) + '</span>' +
+      '<span class="n">' + (ok ? row.items : skipped ? '—' : '×') + '</span></div>';
   }).join('');
-  const failed = rows.filter((row) => row.status !== 'ok');
+  const failed = rows.filter((row) => row.status !== 'ok' && row.status !== 'skipped');
+  const skipped = rows.filter((row) => row.status === 'skipped');
   $('sources-body').innerHTML = '<div class="src-grid">' + cells + '</div>' +
-    (failed.length ? failed.map((row) => '<div class="src-err">× ' + esc(row.label) + '：' + esc(String(row.error || '').slice(0, 90)) + '</div>').join('') : '');
+    (failed.length ? failed.map((row) => '<div class="src-err">× ' + esc(row.label) + '：' + esc(String(row.error || '').slice(0, 90)) + '</div>').join('') : '') +
+    (skipped.length ? '<div class="src-note">未启用 ' + skipped.length + ' 个：' + esc(skipped.map((row) => row.label).join('、')) + '（配好仓库 Secrets 凭据后自动开始采集）</div>' : '');
   const okCount = rows.filter((row) => row.status === 'ok').length;
-  $('radar-caption').textContent = '数据源 ' + okCount + '/' + rows.length + ' 在线 · 每 3 小时一批';
-  $('pulseText').textContent = okCount === rows.length ? '采集在线' : '部分源异常';
+  $('radar-caption').textContent = '数据源 ' + okCount + '/' + (rows.length - skipped.length) + ' 在线' + (skipped.length ? ' · ' + skipped.length + ' 个未启用' : '') + ' · 每 3 小时一批';
+  $('pulseText').textContent = okCount === rows.length ? '采集在线' : failed.length ? '部分源异常' : '采集在线';
 }
 
 /* ---------- GitHub 面板 ---------- */
@@ -491,7 +499,7 @@ function renderPipeline(site, keeper) {
   if (!state_ || !box) return;
 
   $('pipe-fresh').textContent = stats.fresh != null ? '+' + stats.fresh : '–';
-  $('pipe-src').textContent = (stats.sourcesOk != null ? stats.sourcesOk + '/' + stats.sourcesTotal : '–');
+  $('pipe-src').textContent = (stats.sourcesOk != null ? stats.sourcesOk + '/' + Math.max(0, (stats.sourcesTotal || 0) - (stats.sourcesSkipped || 0)) : '–');
 
   if (!lastIso) {
     state_.className = 'pipe-state';
