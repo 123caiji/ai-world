@@ -3,6 +3,7 @@ import { sources } from './sources/index.mjs';
 import { appendJsonl, readJson, writeJson } from './lib/store.mjs';
 import { sha1 } from './lib/util.mjs';
 import { fetchCoverImage, isUsableImage, mapLimit } from './lib/media.mjs';
+import { DEFAULT_INTERVAL_MIN, FORCE, clearSkipMarker, humanMinutes, writeSkipMarker } from './lib/window.mjs';
 
 const ROOT = process.cwd();
 const DATA_DIR = join(ROOT, 'data');
@@ -14,6 +15,30 @@ const HEAVY = new Set(['github', 'dsh-plugins']);
 
 const onlyArg = process.argv.find((a) => a.startsWith('--only='));
 const only = onlyArg ? onlyArg.slice('--only='.length).split(',') : null;
+
+// ---- 采集窗口：定时器每小时都会尝试，真正采集最长每 3 小时一次 ----
+// 这样 GitHub cron 的延迟/丢拍只会推迟，不会漏掉；窗口到了的第一轮尝试立刻补跑。
+const lastCollectedAt = readJson(join(DATA_DIR, 'site.json'), {}).feedGeneratedAt
+  || readJson(join(DATA_DIR, 'feed.json'), {}).generatedAt
+  || null;
+const sinceMinutes = lastCollectedAt ? (Date.now() - new Date(lastCollectedAt).getTime()) / 60000 : Number.POSITIVE_INFINITY;
+const windowOpen = FORCE || Boolean(only) || !Number.isFinite(sinceMinutes) || sinceMinutes >= DEFAULT_INTERVAL_MIN;
+
+if (!windowOpen) {
+  writeSkipMarker(ROOT, {
+    skippedAt: new Date().toISOString(),
+    lastCollect: lastCollectedAt,
+    sinceMinutes: Math.round(sinceMinutes),
+    intervalMinutes: DEFAULT_INTERVAL_MIN,
+    nextDueAt: new Date(new Date(lastCollectedAt).getTime() + DEFAULT_INTERVAL_MIN * 60000).toISOString(),
+  });
+  console.log(
+    `collect skipped: 上次采集 ${humanMinutes(sinceMinutes)}前，未到 ${humanMinutes(DEFAULT_INTERVAL_MIN)} 窗口；` +
+    `下一轮尝试会自动补跑（FORCE_COLLECT=1 可强制采集）。`,
+  );
+  process.exit(0);
+}
+clearSkipMarker(ROOT);
 
 const config = readJson(join(ROOT, 'config', 'watchlist.json'), {});
 const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';

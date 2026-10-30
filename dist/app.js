@@ -56,10 +56,11 @@ function renderFreshness(generatedAt) {
     const label = minutes < 1 ? '刚刚更新'
       : minutes < 60 ? minutes + ' 分钟前更新'
       : (Math.round(minutes / 6) / 10).toFixed(1).replace(/\.0$/, '') + ' 小时前更新';
-    pill.className = 'freshness ' + (minutes <= 75 ? 'ok' : minutes <= 240 ? 'warn' : 'stale');
+    // 采集节奏：脚本每 165 分钟开一次窗口，定时器每小时来探一次（GitHub cron 常有 30~60 分钟延迟）
+    pill.className = 'freshness ' + (minutes <= 200 ? 'ok' : minutes <= 480 ? 'warn' : 'stale');
     text.textContent = '自动扫描 · ' + label;
     pill.title = '最近一次自动采集：' + new Date(generatedAt).toLocaleString('zh-CN', { hour12: false }) +
-      '（由 GitHub Actions 定时任务触发，人工不参与）';
+      '（每 3 小时一批，由 GitHub Actions 定时任务自动判断窗口后触发，人工不参与）';
   };
   paint();
   setInterval(paint, 60000);
@@ -237,7 +238,7 @@ function renderSources(sources) {
   $('sources-body').innerHTML = '<div class="src-grid">' + cells + '</div>' +
     (failed.length ? failed.map((row) => '<div class="src-err">× ' + esc(row.label) + '：' + esc(String(row.error || '').slice(0, 90)) + '</div>').join('') : '');
   const okCount = rows.filter((row) => row.status === 'ok').length;
-  $('radar-caption').textContent = '数据源 ' + okCount + '/' + rows.length + ' 在线 · 每小时扫描';
+  $('radar-caption').textContent = '数据源 ' + okCount + '/' + rows.length + ' 在线 · 每 3 小时一批';
   $('pulseText').textContent = okCount === rows.length ? '采集在线' : '部分源异常';
 }
 
@@ -475,7 +476,7 @@ async function main() {
 
   const generated = (site && site.feedGeneratedAt) || feed.generatedAt;
   renderFreshness(generated);
-  $('foot-meta').textContent = 'AI 大世界 · GitHub Actions 每小时自动采集（无需人工） · 最近采集 ' +
+  $('foot-meta').textContent = 'AI 大世界 · GitHub Actions 每 3 小时自动采集一批（定时器每小时探窗口，到点自动补跑，无需人工） · 最近采集 ' +
     (generated ? new Date(generated).toLocaleString('zh-CN', { hour12: false }) : '未知') +
     ' · 库内 ' + state.all.length + ' 条';
 }

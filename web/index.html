@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>AI 大世界 · 实时 AI 情报站</title>
-<meta name="description" content="AI 大世界：每小时自动采集 AI 新闻、论文、新模型、数据集、视频、AI 安全情报、GitHub 新仓库与涨星、DSH 插件生态。每条情报都带抓取证据（端点、时间、HTTP 状态），机器可读。" />
+<meta name="description" content="AI 大世界：每 3 小时自动采集一批 AI 新闻、论文、新模型、数据集、视频、AI 安全情报、GitHub 新仓库与涨星、DSH 插件生态。每条情报都带抓取证据（端点、时间、HTTP 状态），机器可读。" />
 <meta name="theme-color" content="#05070f" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%230b1220%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-size=%2214%22 font-family=%22monospace%22 fill=%22%2360a5fa%22 text-anchor=%22middle%22%3EAI%3C/text%3E%3C/svg%3E" />
 <link rel="stylesheet" href="./style.css?v=dev" />
@@ -42,7 +42,7 @@
 <section class="hero">
   <div class="hero-main">
     <h1>此刻，AI 世界正在发生什么<span class="cursor"></span></h1>
-    <p class="lede">20+ 个数据源每小时扫描一次：论文、模型、数据集、开源仓库、产品、视频、AI 安全事件，以及中文 / 英文媒体的实时动态。<b>每条都带可核验的抓取证据。</b></p>
+    <p class="lede">20+ 个数据源每 3 小时成批扫描一次（定时器每小时探窗口，到点自动补跑）：论文、模型、数据集、开源仓库、产品、视频、AI 安全事件，以及中文 / 英文媒体的实时动态。<b>每条都带可核验的抓取证据。</b></p>
     <div class="kpis" id="kpis"></div>
     <div class="spark-wrap">
       <div class="spark-head"><span>最近 24 小时入库节奏</span><span class="muted" id="spark-total"></span></div>
@@ -126,7 +126,7 @@
           <li>缩略图是来源站点自己给的图（<code>image</code> + <code>imageSource</code>），不是 AI 生成；取不到就显示「无素材」。</li>
           <li>机器可读全量：<a href="./data/feed.json">data/feed.json</a> · 快照 <a href="./data/digest.md">data/digest.md</a> · 节奏 <a href="./data/trend.json">data/trend.json</a>。</li>
           <li>采集脚本全开源：<a href="https://github.com/123caiji/ai-world/tree/main/scripts">scripts/</a>，源清单 <a href="https://github.com/123caiji/ai-world/blob/main/config/watchlist.json">config/watchlist.json</a>。</li>
-          <li>GitHub Actions 每小时跑一次（<code>7 * * * *</code>）。</li>
+          <li>GitHub Actions 定时器每小时探一次窗口（<code>7 * * * *</code>），脚本判断距上次采集满 165 分钟才真正采集；GitHub 丢拍或延迟时，窗口一到的那轮自动补跑。</li>
         </ul>
       </div>
     </section>
@@ -134,7 +134,7 @@
 </main>
 
 <footer class="foot">
-  <span id="foot-meta">AI 大世界 · 每小时自动采集</span>
+  <span id="foot-meta">AI 大世界 · 每 3 小时自动采集一批</span>
   <span><a href="https://github.com/123caiji/ai-world">GitHub 仓库</a> · <a href="./feed.xml">RSS</a> · <a href="./data/site.json">站点数据</a> · MIT</span>
 </footer>
 

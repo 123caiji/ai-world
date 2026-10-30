@@ -1,11 +1,20 @@
 import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { readJson, writeJson } from './lib/store.mjs';
+import { clearSkipMarker, readSkipMarker } from './lib/window.mjs';
 
 const ROOT = process.cwd();
 const DATA = join(ROOT, 'data');
 const DIST = join(ROOT, 'dist');
 const WEB = join(ROOT, 'web');
+
+const skipMarker = readSkipMarker(ROOT);
+if (skipMarker) {
+  // 采集窗口没到：collect.mjs 没动任何数据，这里也必须原样退出，否则 site.json 的时间戳会造成假提交
+  clearSkipMarker(ROOT);
+  console.log('render skipped: 本轮采集窗口未到（上次采集 ' + skipMarker.sinceMinutes + ' 分钟前），保持线上数据不变');
+  process.exit(0);
+}
 
 const feed = readJson(join(DATA, 'feed.json'), { items: [], generatedAt: null });
 const github = readJson(join(DATA, 'github.json'), { newRepos: [], risers: [], releases: [], ownRepos: [], topics: [] });

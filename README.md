@@ -2,7 +2,7 @@
 
 # AI 大世界 · 实时 AI 情报站
 
-**每小时自动采集** AI 新闻、arXiv 论文、新模型、GitHub 新仓库 / 涨星 / Release、DSH 插件生态。<br />
+**每 3 小时自动采集一批** AI 新闻、arXiv 论文、新模型、GitHub 新仓库 / 涨星 / Release、DSH 插件生态（定时器每小时探窗口，到点自动补跑，人工不参与）。<br />
 **每条情报都带可核验证据**：抓取端点、抓取时间、HTTP 状态、在响应里的定位。
 
 [![radar](https://github.com/123caiji/ai-world/actions/workflows/radar.yml/badge.svg)](https://github.com/123caiji/ai-world/actions/workflows/radar.yml)
@@ -18,7 +18,7 @@
 
 一个**只用 GitHub Actions 就能跑**的 AI 情报雷达。没有服务器、没有第三方 API key、没有付费数据源，全部来自公开接口。
 
-它每小时做四件事：
+它每 3 小时做四件事（采集窗口机制，见下文「定时与部署」）：
 
 1. **抓情报** —— 39 个数据源并发采集（中英新闻、官方博客、arXiv 多分区、Hugging Face 论文/模型/数据集/Space 趋势、GitHub 每日趋势、Hacker News / Show HN / Lobsters、YouTube 技术频道、AI 安全事件、中文技术社区、Anthropic 官方、Product Hunt、OpenRouter 模型目录）。
 2. **扫 GitHub** —— 最近两周的 AI 新仓库、话题榜、涨星榜（自己存 stars 快照算 delta）、关注仓库的最新 Release。
@@ -170,13 +170,14 @@ ai-world/
 │  └─ snapshots/              # stars / releases / models / plugins 快照（算 delta 用）
 ├─ web/                       # 无构建单页（构建时整目录拷到 dist/）
 └─ .github/workflows/
-   ├─ radar.yml               # 每小时采集 → 渲染 → 提交
+   ├─ radar.yml               # 定时器每小时探窗口，满 165 分钟才采集 → 渲染 → 提交
    └─ pages.yml               # dist/ 有变化就部署 GitHub Pages
 ```
 
 ## 定时与部署
 
-- `radar.yml`：每小时第 7 分钟（`7 * * * *`）采集一次，也支持手动 `workflow_dispatch`；采集 → 渲染 → 提交 `data/` 与 README 热榜。
+- `radar.yml`：定时器每小时第 7 分钟（`7 * * * *`）触发一次，也支持手动 `workflow_dispatch`。**真正是否采集由脚本判断**：`scripts/lib/window.mjs` 读取上次采集时间（`data/site.json` 的 `feedGeneratedAt`），距上次采集不足 165 分钟就秒退并打印 `collect skipped`，不写任何文件（`render` 也会跳过，避免产生假提交）；到点的那一轮立刻补跑。这样 GitHub cron 丢拍 / 延迟只是让某个 slot 空转，不会出现「一丢就断 3 小时」。
+- 想立刻采一轮：`FORCE_COLLECT=1 node scripts/collect.mjs && node scripts/render.mjs`（或 Actions 手动 dispatch 并设置同名环境变量），也可以临时改 `COLLECT_INTERVAL_MIN`。
 - `pages.yml`：`dist/` 有变化就部署 Pages（与采集解耦，采集失败时线上仍是上一版）。
 - 线上站点：<https://123caiji.github.io/ai-world/>
 - 提交身份是 `123caiji <166346449+123caiji@users.noreply.github.com>`，所以自动提交也计入贡献图。
