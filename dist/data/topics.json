@@ -1,198 +1,198 @@
 {
-  "generatedAt": "2026-10-30T05:25:24.445Z",
+  "generatedAt": "2026-10-30T05:29:25.098Z",
   "windowHours": 72,
   "words": [
     {
       "w": "models",
-      "n": 125
+      "n": 185
     },
     {
       "w": "model",
-      "n": 121
+      "n": 147
     },
     {
       "w": "agent",
-      "n": 118
-    },
-    {
-      "w": "openai",
-      "n": 86
+      "n": 142
     },
     {
       "w": "agents",
-      "n": 83
+      "n": 100
+    },
+    {
+      "w": "openai",
+      "n": 90
     },
     {
       "w": "anthropic",
-      "n": 70
-    },
-    {
-      "w": "claude",
-      "n": 65
+      "n": 79
     },
     {
       "w": "发布",
-      "n": 59
+      "n": 78
     },
     {
-      "w": "pro",
-      "n": 59
+      "w": "language",
+      "n": 76
     },
     {
-      "w": "google",
-      "n": 56
+      "w": "claude",
+      "n": 74
     },
     {
       "w": "模型",
+      "n": 68
+    },
+    {
+      "w": "pro",
+      "n": 62
+    },
+    {
+      "w": "learning",
+      "n": 62
+    },
+    {
+      "w": "google",
+      "n": 57
+    },
+    {
+      "w": "world",
+      "n": 53
+    },
+    {
+      "w": "智能",
+      "n": 51
+    },
+    {
+      "w": "tokens",
       "n": 50
+    },
+    {
+      "w": "code",
+      "n": 49
     },
     {
       "w": "nvidia",
       "n": 49
     },
     {
-      "w": "reasoning",
-      "n": 46
-    },
-    {
       "w": "gemini",
-      "n": 46
+      "n": 48
     },
     {
-      "w": "language",
-      "n": 46
+      "w": "reasoning",
+      "n": 47
     },
     {
-      "w": "tokens",
+      "w": "data",
+      "n": 45
+    },
+    {
+      "w": "work",
       "n": 44
     },
     {
-      "w": "world",
+      "w": "visual",
+      "n": 43
+    },
+    {
+      "w": "video",
       "n": 42
     },
     {
-      "w": "code",
+      "w": "training",
+      "n": 42
+    },
+    {
+      "w": "llm",
+      "n": 42
+    },
+    {
+      "w": "large",
       "n": 41
     },
     {
-      "w": "智能",
+      "w": "tasks",
+      "n": 39
+    },
+    {
+      "w": "agentic",
+      "n": 39
+    },
+    {
+      "w": "deepseek",
       "n": 38
     },
     {
       "w": "security",
-      "n": 37
-    },
-    {
-      "w": "llm",
-      "n": 37
-    },
-    {
-      "w": "data",
-      "n": 35
-    },
-    {
-      "w": "work",
-      "n": 34
-    },
-    {
-      "w": "visual",
-      "n": 34
-    },
-    {
-      "w": "learning",
-      "n": 34
+      "n": 38
     },
     {
       "w": "coding",
-      "n": 32
-    },
-    {
-      "w": "agentic",
-      "n": 30
-    },
-    {
-      "w": "python",
-      "n": 30
-    },
-    {
-      "w": "上下文",
-      "n": 29
-    },
-    {
-      "w": "deepseek",
-      "n": 28
-    },
-    {
-      "w": "time",
-      "n": 28
-    },
-    {
-      "w": "chatgpt",
-      "n": 27
-    },
-    {
-      "w": "video",
-      "n": 27
-    },
-    {
-      "w": "tasks",
-      "n": 27
-    },
-    {
-      "w": "intelligence",
-      "n": 27
+      "n": 38
     },
     {
       "w": "multimodal",
-      "n": 27
+      "n": 37
     },
     {
-      "w": "large",
-      "n": 26
+      "w": "token",
+      "n": 33
     },
     {
-      "w": "tools",
-      "n": 25
+      "w": "上下文",
+      "n": 33
     },
     {
-      "w": "built",
-      "n": 25
+      "w": "time",
+      "n": 32
     },
     {
-      "w": "cloud",
-      "n": 24
+      "w": "introduce",
+      "n": 32
     },
     {
-      "w": "frontier",
-      "n": 24
-    },
-    {
-      "w": "llms",
-      "n": 24
-    },
-    {
-      "w": "app",
-      "n": 23
-    },
-    {
-      "w": "carbon",
-      "n": 23
-    },
-    {
-      "w": "opus",
-      "n": 23
-    },
-    {
-      "w": "each",
-      "n": 23
-    },
-    {
-      "w": "help",
-      "n": 23
+      "w": "python",
+      "n": 32
     },
     {
       "w": "yet",
-      "n": 23
+      "n": 30
+    },
+    {
+      "w": "llms",
+      "n": 30
+    },
+    {
+      "w": "tools",
+      "n": 29
+    },
+    {
+      "w": "existing",
+      "n": 29
+    },
+    {
+      "w": "built",
+      "n": 29
+    },
+    {
+      "w": "chatgpt",
+      "n": 28
+    },
+    {
+      "w": "app",
+      "n": 28
+    },
+    {
+      "w": "each",
+      "n": 28
+    },
+    {
+      "w": "however",
+      "n": 27
+    },
+    {
+      "w": "benchmark",
+      "n": 27
     }
   ]
 }
