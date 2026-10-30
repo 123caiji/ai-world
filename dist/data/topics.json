@@ -1,54 +1,58 @@
 {
-  "generatedAt": "2026-10-30T11:00:38.549Z",
+  "generatedAt": "2026-10-30T13:46:26.029Z",
   "windowHours": 72,
   "words": [
     {
       "w": "models",
-      "n": 210
+      "n": 192
     },
     {
       "w": "agent",
-      "n": 170
+      "n": 172
     },
     {
       "w": "model",
       "n": 165
     },
     {
-      "w": "agents",
-      "n": 109
+      "w": "发布",
+      "n": 114
     },
     {
-      "w": "发布",
-      "n": 106
+      "w": "agents",
+      "n": 103
     },
     {
       "w": "openai",
-      "n": 91
-    },
-    {
-      "w": "anthropic",
-      "n": 89
-    },
-    {
-      "w": "language",
-      "n": 87
+      "n": 97
     },
     {
       "w": "模型",
-      "n": 86
+      "n": 92
     },
     {
-      "w": "code",
-      "n": 82
+      "w": "anthropic",
+      "n": 88
     },
     {
       "w": "claude",
-      "n": 81
+      "n": 87
     },
     {
       "w": "pro",
-      "n": 79
+      "n": 84
+    },
+    {
+      "w": "language",
+      "n": 80
+    },
+    {
+      "w": "code",
+      "n": 74
+    },
+    {
+      "w": "智能",
+      "n": 69
     },
     {
       "w": "learning",
@@ -59,139 +63,135 @@
       "n": 68
     },
     {
-      "w": "智能",
-      "n": 65
+      "w": "deepseek",
+      "n": 59
     },
     {
       "w": "training",
-      "n": 60
-    },
-    {
-      "w": "world",
-      "n": 60
-    },
-    {
-      "w": "deepseek",
-      "n": 53
-    },
-    {
-      "w": "nvidia",
-      "n": 53
+      "n": 55
     },
     {
       "w": "google",
-      "n": 52
+      "n": 54
     },
     {
-      "w": "work",
-      "n": 50
+      "w": "world",
+      "n": 54
     },
     {
       "w": "video",
-      "n": 47
-    },
-    {
-      "w": "large",
-      "n": 46
-    },
-    {
-      "w": "security",
-      "n": 45
-    },
-    {
-      "w": "visual",
-      "n": 45
-    },
-    {
-      "w": "coding",
-      "n": 44
-    },
-    {
-      "w": "research",
-      "n": 44
+      "n": 49
     },
     {
       "w": "gemini",
-      "n": 44
+      "n": 45
+    },
+    {
+      "w": "芯片",
+      "n": 43
+    },
+    {
+      "w": "work",
+      "n": 43
+    },
+    {
+      "w": "research",
+      "n": 43
+    },
+    {
+      "w": "token",
+      "n": 43
+    },
+    {
+      "w": "visual",
+      "n": 43
+    },
+    {
+      "w": "security",
+      "n": 42
     },
     {
       "w": "app",
       "n": 42
     },
     {
-      "w": "token",
+      "w": "nvidia",
       "n": 42
     },
     {
+      "w": "coding",
+      "n": 41
+    },
+    {
+      "w": "large",
+      "n": 41
+    },
+    {
+      "w": "chatgpt",
+      "n": 39
+    },
+    {
       "w": "tasks",
-      "n": 40
-    },
-    {
-      "w": "tokens",
-      "n": 40
-    },
-    {
-      "w": "agentic",
       "n": 39
     },
     {
       "w": "llm",
-      "n": 37
+      "n": 38
     },
     {
-      "w": "reasoning",
-      "n": 37
+      "w": "tokens",
+      "n": 38
     },
     {
-      "w": "introduce",
+      "w": "agentic",
       "n": 36
     },
     {
-      "w": "chatgpt",
+      "w": "introduce",
       "n": 35
     },
     {
-      "w": "existing",
-      "n": 35
-    },
-    {
-      "w": "intelligence",
+      "w": "whether",
       "n": 34
     },
     {
-      "w": "芯片",
+      "w": "reasoning",
       "n": 33
     },
     {
-      "w": "build",
+      "w": "existing",
       "n": 33
     },
     {
-      "w": "systems",
+      "w": "intelligence",
+      "n": 32
+    },
+    {
+      "w": "each",
       "n": 32
     },
     {
       "w": "yet",
-      "n": 32
-    },
-    {
-      "w": "time",
       "n": 31
     },
     {
-      "w": "however",
+      "w": "built",
       "n": 31
     },
     {
-      "w": "today",
+      "w": "real",
       "n": 30
     },
     {
-      "w": "tools",
+      "w": "systems",
       "n": 30
     },
     {
       "w": "carbon",
+      "n": 30
+    },
+    {
+      "w": "only",
       "n": 30
     }
   ]
