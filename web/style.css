@@ -607,6 +607,38 @@ html[data-theme="light"] .bg-layer .scan { opacity: .3; }
 }
 @keyframes shimmer { from { background-position: 140% 0; } to { background-position: -40% 0; } }
 
+/* ---------- 抽屉：同类近邻 ---------- */
+.drawer-near { display: flex; flex-direction: column; gap: 6px; }
+.near-item {
+  display: flex; gap: 9px; padding: 8px 10px; border-radius: 10px;
+  border: 1px solid var(--line); background: rgba(148, 163, 184, .05);
+  cursor: pointer; transition: border-color .2s, background .2s, transform .2s;
+}
+.near-item:hover { border-color: var(--line-strong); background: rgba(148, 163, 184, .1); transform: translateX(2px); }
+.near-item .nb { flex: none; width: 3px; border-radius: 2px; background: var(--kc, var(--blue)); }
+.near-item .nt {
+  font-size: 12px; line-height: 1.45;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.near-item .nm { font: 10px/1 var(--mono); color: var(--muted); margin-top: 5px; }
+
+/* ---------- 情报流动热力图（来源 × 最近 24 小时） ---------- */
+.heat-sum { font-size: 11px; color: var(--muted); margin-bottom: 9px; }
+.heat-sum b { color: var(--text); font: 700 15px/1 var(--mono); margin-right: 2px; }
+.heat-grid { display: flex; flex-direction: column; gap: 3px; }
+.heat-row { display: grid; grid-template-columns: 58px repeat(24, 1fr); gap: 2px; align-items: center; }
+.heat-label {
+  font: 10px/1 var(--mono); color: var(--muted);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding-right: 2px;
+}
+.heat-cell { position: relative; height: 9px; border-radius: 2px; background: rgba(148, 163, 184, .1); overflow: hidden; }
+.heat-cell::after { content: ""; position: absolute; inset: 0; background: var(--cyan); opacity: var(--a, 0); }
+.heat-cell.zero { background: rgba(148, 163, 184, .07); }
+.heat-cell.zero::after { display: none; }
+.heat-legend { display: flex; align-items: center; gap: 4px; margin-top: 9px; font: 10px/1 var(--mono); color: var(--muted); }
+.heat-legend i { position: relative; width: 11px; height: 8px; border-radius: 2px; background: rgba(148, 163, 184, .1); overflow: hidden; }
+.heat-legend i::after { content: ""; position: absolute; inset: 0; background: var(--cyan); opacity: var(--a, 0); }
+
 /* ---------- 卡片微交互 ---------- */
 .card { cursor: pointer; }
 .card:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }

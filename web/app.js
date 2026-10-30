@@ -612,8 +612,15 @@ function renderDrawer(item) {
     '<div class="drawer-meta"><span>' + esc(item.sourceLabel || item.source) + '</span><span>' + esc(relTime(item.publishedAt || item.firstSeenAt)) + '</span><span>' + esc(item.lang || '') + '</span></div>' +
     (item.summary ? '<p class="drawer-summary">' + esc(item.summary) + '</p>' : '') +
     '<div class="sub">抓取证据（可核对）</div><dl class="ev-table">' + rows + '</dl>' +
-    (tags ? '<div class="drawer-tags">' + tags + '</div>' : '');
+    (tags ? '<div class="drawer-tags">' + tags + '</div>' : '') +
+    nearHtml(item);
   $('drawer-open').href = item.url;
+  $('drawer-body').querySelectorAll('.near-item').forEach((node) => {
+    node.addEventListener('click', () => {
+      const found = state.all.find((other) => other.id === node.getAttribute('data-near-id'));
+      if (found) openDrawer(found, state.all);
+    });
+  });
   $('drawer-prev').disabled = drawerIdx <= 0;
   $('drawer-next').disabled = drawerIdx < 0 || drawerIdx >= drawerCtx.length - 1;
 }
@@ -684,6 +691,74 @@ function setupDrawer() {
     }
     setTimeout(() => { $('drawer-copy').textContent = '复制 JSON'; }, 1600);
   });
+}
+
+/* ---------- 同类近邻（抽屉里顺着一条往下钻） ---------- */
+function nearItems(item, limit) {
+  const max = limit || 3;
+  const pub = (o) => new Date(o.publishedAt || o.firstSeenAt || 0).getTime() || 0;
+  return state.all
+    .filter((o) => o && o.id !== item.id)
+    .map((o) => ({ o, s: (o.kind === item.kind ? 2 : 0) + (o.source === item.source ? 1 : 0) }))
+    .filter((x) => x.s > 0)
+    .sort((a, b) => (b.s - a.s) || (pub(b.o) - pub(a.o)))
+    .slice(0, max)
+    .map((x) => x.o);
+}
+
+function nearHtml(item) {
+  const near = nearItems(item);
+  if (!near.length) return '';
+  const rows = near.map((other) => {
+    const conf = KIND[other.kind || 'news'] || { color: '#60a5fa' };
+    return '<div class="near-item" data-near-id="' + esc(other.id) + '" style="--kc:' + conf.color + '">' +
+      '<span class="nb"></span><div class="near-main"><div class="nt">' + esc(other.title) + '</div>' +
+      '<div class="nm">' + esc(other.sourceLabel || other.source) + ' · ' + esc(relTime(other.publishedAt || other.firstSeenAt)) + '</div></div></div>';
+  }).join('');
+  return '<div class="sub">同类近邻</div><div class="drawer-near">' + rows + '</div>';
+}
+
+/* ---------- 情报流动热力图（来源 × 最近 24 小时） ---------- */
+const HEAT_HOURS = 24;
+
+function renderHeat(items) {
+  const body = $('heat-body');
+  if (!body) return;
+  const now = Date.now();
+  const rows = new Map();
+  let grand = 0;
+  for (const item of items) {
+    const iso = item.publishedAt || item.firstSeenAt; // 优先按“世界发生”的时间，其次才是我们发现的时间
+    const t = iso ? new Date(iso).getTime() : NaN;
+    if (!isFinite(t)) continue;
+    const age = now - t;
+    if (age < 0 || age >= HEAT_HOURS * 3600000) continue;
+    const bin = HEAT_HOURS - 1 - Math.floor(age / 3600000);
+    const key = item.source || 'other';
+    if (!rows.has(key)) rows.set(key, { label: item.sourceLabel || key, bins: new Array(HEAT_HOURS).fill(0), total: 0 });
+    const row = rows.get(key);
+    row.bins[bin] += 1;
+    row.total += 1;
+    grand += 1;
+  }
+  const top = [...rows.entries()].sort((a, b) => b[1].total - a[1].total).slice(0, 8);
+  if (!top.length) {
+    body.innerHTML = '<p class="muted" style="margin:0;font-size:11.5px">最近 24 小时还没有新条目，等下一批采集。</p>';
+    return;
+  }
+  let max = 1;
+  for (const [, row] of top) for (const n of row.bins) if (n > max) max = n;
+  const cells = (row) => row.bins.map((n, i) => {
+    if (!n) return '<span class="heat-cell zero"></span>';
+    const age = HEAT_HOURS - 1 - i;
+    const when = age === 0 ? '最近 1 小时' : age === 1 ? '1 小时前' : age + ' 小时前';
+    const alpha = (0.16 + (n / max) * 0.84).toFixed(3);
+    return '<span class="heat-cell" style="--a:' + alpha + '" title="' + esc(row.label) + ' · ' + esc(when) + ' · ' + n + ' 条"></span>';
+  }).join('');
+  body.innerHTML = '<div class="heat-sum"><b>' + grand + '</b> 条 · 峰值 ' + max + ' 条/小时 · 行 = 来源，列 = 最近 24 小时（按条目发布时间，缺则用发现时间）</div>' +
+    '<div class="heat-grid">' + top.map(([key, row]) =>
+      '<div class="heat-row"><span class="heat-label" title="' + esc(row.label) + ' · ' + row.total + ' 条">' + esc(key) + '</span>' + cells(row) + '</div>').join('') + '</div>' +
+    '<div class="heat-legend"><span>少</span><i style="--a:.16"></i><i style="--a:.37"></i><i style="--a:.58"></i><i style="--a:.79"></i><i style="--a:1"></i><span>多</span></div>';
 }
 
 /* ---------- 命令面板（⌘K / Ctrl+K） ---------- */
@@ -858,6 +933,7 @@ async function main() {
   renderDsh(dsh);
   renderSources(sources);
   renderMedia(state.all);
+  renderHeat(state.all);
   applyFilter();
 
   /* 小组件层接线 */
