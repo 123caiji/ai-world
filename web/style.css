@@ -529,6 +529,9 @@ html[data-theme="light"] .bg-layer .scan { opacity: .3; }
    小组件层（流水线 / 安全快报 / 论文速览 / 详情抽屉 / 命令面板）
    ============================================================ */
 
+/* hidden 属性必须真的隐藏：.drawer / .palette-mask 自带 display:flex，会盖掉 UA 的 [hidden] 规则 */
+[hidden] { display: none !important; }
+
 /* 滚动进度条 */
 .scrollbar {
   position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 90;
