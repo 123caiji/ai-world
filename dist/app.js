@@ -450,7 +450,9 @@ function setupShortcuts() {
 
 /* ---------- 采集流水线（真实数据：site.json 的 feedGeneratedAt） ---------- */
 const WINDOW_MINUTES = 165; // 与 scripts/lib/window.mjs 的 DEFAULT_INTERVAL_MIN 保持一致
+const CHAIN_STALE_MS = 4 * 3600 * 1000; // 自愈链心跳超过这个时间就当地图失效，退回 cron 口径
 let pipelineSite = null;
+let pipelineKeeper = null;
 
 function fmtDelta(ms) {
   const total = Math.max(0, Math.round(ms / 60000));
@@ -472,8 +474,15 @@ function hhmm(date) {
   return date.toLocaleTimeString('zh-CN', { hour12: false, hour: '2-digit', minute: '2-digit' });
 }
 
-function renderPipeline(site) {
+function chainAlive() {
+  const k = pipelineKeeper;
+  if (!k || !k.updatedAt || k.lastDispatchOk === false) return false;
+  return Date.now() - new Date(k.updatedAt).getTime() < CHAIN_STALE_MS;
+}
+
+function renderPipeline(site, keeper) {
   if (site) pipelineSite = site;
+  if (keeper !== undefined) pipelineKeeper = keeper;
   const data = pipelineSite || {};
   const stats = data.stats || {};
   const lastIso = data.feedGeneratedAt || data.generatedAt;
@@ -505,7 +514,9 @@ function renderPipeline(site) {
   if (remaining > 0) {
     box.classList.remove('ready');
     state_.className = 'pipe-state ok';
-    state_.textContent = '窗口未到 · 还差 ' + fmtDelta(remaining) + '（定时器每小时 ' + hhmm(nextTickSlot(now)) + ' 探一次）';
+    state_.textContent = chainAlive()
+      ? '窗口未到 · 还差 ' + fmtDelta(remaining) + '（自愈链已排队，到点自己跑，不依赖 cron）'
+      : '窗口未到 · 还差 ' + fmtDelta(remaining) + '（定时器每小时 ' + hhmm(nextTickSlot(now)) + ' 探一次）';
     $('pipe-next').textContent = fmtDelta(remaining);
     $('pipe-next').title = '下一批窗口：' + new Date(due).toLocaleString('zh-CN', { hour12: false });
   } else {
@@ -515,10 +526,14 @@ function renderPipeline(site) {
     $('pipe-next').title = '窗口已开：' + new Date(due).toLocaleString('zh-CN', { hour12: false });
     if (overdue < 90 * 60000) {
       state_.className = 'pipe-state warn';
-      state_.textContent = '窗口已开 ' + fmtDelta(overdue) + ' · 等下一次定时器触发（每小时 ' + hhmm(nextTickSlot(now)) + '）';
+      state_.textContent = chainAlive()
+        ? '窗口已开 ' + fmtDelta(overdue) + ' · 这一轮正在补跑（自愈链驱动）'
+        : '窗口已开 ' + fmtDelta(overdue) + ' · 等下一次定时器触发（每小时 ' + hhmm(nextTickSlot(now)) + '）';
     } else {
       state_.className = 'pipe-state bad';
-      state_.textContent = '已超窗 ' + fmtDelta(overdue) + ' · 定时器一探到就会自动补跑';
+      state_.textContent = chainAlive()
+        ? '已超窗 ' + fmtDelta(overdue) + ' · 链条还活着但这一轮没跑起来，去看 Actions 日志'
+        : '已超窗 ' + fmtDelta(overdue) + ' · 定时器一探到就会自动补跑';
     }
   }
   fill.style.width = pct.toFixed(1) + '%';
@@ -911,7 +926,7 @@ async function main() {
   setupShortcuts();
   startClock();
 
-  const [site, feed, github, dsh, sources, trend, topics] = await Promise.all([
+  const [site, feed, github, dsh, sources, trend, topics, keeper] = await Promise.all([
     loadJson('./data/site.json', {}),
     loadJson('./data/feed.json', { items: [] }),
     loadJson('./data/github.json', {}),
@@ -919,6 +934,7 @@ async function main() {
     loadJson('./data/sources.json', {}),
     loadJson('./data/trend.json', { hours: [] }),
     loadJson('./data/topics.json', { words: [] }),
+    loadJson('./data/keeper.json', {}),
   ]);
 
   state.all = feed.items || [];
@@ -937,7 +953,7 @@ async function main() {
   applyFilter();
 
   /* 小组件层接线 */
-  renderPipeline(site);
+  renderPipeline(site, keeper);
   setInterval(() => renderPipeline(), 30000);
   renderBrief(state.all);
   renderPapers(state.all);

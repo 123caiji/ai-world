@@ -4,6 +4,7 @@ import { appendJsonl, readJson, writeJson } from './lib/store.mjs';
 import { sha1 } from './lib/util.mjs';
 import { fetchCoverImage, isUsableImage, mapLimit } from './lib/media.mjs';
 import { DEFAULT_INTERVAL_MIN, FORCE, clearSkipMarker, humanMinutes, writeSkipMarker } from './lib/window.mjs';
+import { dispatchSuccessor, isActions, readKeeperConfig, waitForWindow, writeKeeperState } from './lib/keeper.mjs';
 
 const ROOT = process.cwd();
 const DATA_DIR = join(ROOT, 'data');
@@ -16,13 +17,44 @@ const HEAVY = new Set(['github', 'dsh-plugins']);
 const onlyArg = process.argv.find((a) => a.startsWith('--only='));
 const only = onlyArg ? onlyArg.slice('--only='.length).split(',') : null;
 
-// ---- 采集窗口：定时器每小时都会尝试，真正采集最长每 3 小时一次 ----
-// 这样 GitHub cron 的延迟/丢拍只会推迟，不会漏掉；窗口到了的第一轮尝试立刻补跑。
+// ---- 采集窗口 + 自愈链 ----
+// cron 只当兜底：GitHub 的 schedule 会延迟甚至整段丢拍（实测 4 小时一次都没来），
+// 所以节奏由脚本自己维持 —— 每轮一开始先把下一轮排进队列，本轮守候到窗口打开再采集。
+const keeper = readKeeperConfig(ROOT);
+const keeperOn = keeper.enabled && (isActions() || process.env.RADAR_KEEPER === '1');
+const keeperMaxWait = Number(process.env.RADAR_KEEPER_MAX_WAIT_MIN || keeper.maxWaitMinutes);
+
 const lastCollectedAt = readJson(join(DATA_DIR, 'site.json'), {}).feedGeneratedAt
   || readJson(join(DATA_DIR, 'feed.json'), {}).generatedAt
   || null;
-const sinceMinutes = lastCollectedAt ? (Date.now() - new Date(lastCollectedAt).getTime()) / 60000 : Number.POSITIVE_INFINITY;
-const windowOpen = FORCE || Boolean(only) || !Number.isFinite(sinceMinutes) || sinceMinutes >= DEFAULT_INTERVAL_MIN;
+let sinceMinutes = lastCollectedAt ? (Date.now() - new Date(lastCollectedAt).getTime()) / 60000 : Number.POSITIVE_INFINITY;
+let windowOpen = FORCE || Boolean(only) || !Number.isFinite(sinceMinutes) || sinceMinutes >= DEFAULT_INTERVAL_MIN;
+
+if (keeperOn) {
+  // 先排队、后干活：本轮即使被取消/报错，链子也不会断
+  const dispatched = await dispatchSuccessor({ reason: 'keeper-start' });
+  const state = writeKeeperState(ROOT, {
+    enabled: true,
+    event: process.env.GITHUB_EVENT_NAME || 'local',
+    runId: process.env.GITHUB_RUN_ID || null,
+    lastDispatchOk: Boolean(dispatched.ok),
+    lastDispatch: dispatched,
+    intervalMinutes: DEFAULT_INTERVAL_MIN,
+    maxWaitMinutes: keeperMaxWait,
+  });
+  console.log(
+    dispatched.ok
+      ? 'keeper: 第 ' + state.chainRuns + ' 环 — 下一轮已排进队列（ref=' + dispatched.ref + '）'
+      : 'keeper: 排队失败（' + (dispatched.error || dispatched.skipped || dispatched.message) + '），本轮只靠 cron 兜底',
+  );
+
+  if (!windowOpen) {
+    const waited = await waitForWindow({ root: ROOT, intervalMinutes: DEFAULT_INTERVAL_MIN, maxWaitMinutes: keeperMaxWait });
+    windowOpen = waited.evaluated.collect;
+    sinceMinutes = waited.evaluated.sinceMinutes;
+    if (windowOpen) console.log('keeper: 守候 ' + waited.waitedMinutes + ' 分钟后窗口打开，开始采集');
+  }
+}
 
 if (!windowOpen) {
   writeSkipMarker(ROOT, {

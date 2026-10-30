@@ -190,7 +190,7 @@ if (existsSync(WEB)) {
   mkdirSync(DIST, { recursive: true });
   cpSync(WEB, DIST, { recursive: true });
   mkdirSync(join(DIST, 'data'), { recursive: true });
-  for (const name of ['feed.json', 'github.json', 'dsh.json', 'sources.json', 'site.json', 'trend.json', 'topics.json']) {
+  for (const name of ['feed.json', 'github.json', 'dsh.json', 'sources.json', 'site.json', 'trend.json', 'topics.json', 'keeper.json']) {
     const src = join(DATA, name);
     if (existsSync(src)) cpSync(src, join(DIST, 'data', name));
   }

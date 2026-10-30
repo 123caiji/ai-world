@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "maxWaitMinutes": 180,
+  "note": "自愈链开关：每轮 run 一开始就把下一轮 workflow_dispatch 排进队列，然后脚本自己等到采集窗口打开再采集。GitHub cron 丢拍时链条仍按 165 分钟节奏跑；关掉它会退回纯 cron 模式（不可靠）。"
+}

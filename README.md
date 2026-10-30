@@ -176,12 +176,13 @@ ai-world/
 
 ## 定时与部署
 
-- `radar.yml`：定时器每小时第 7 分钟（`7 * * * *`）触发一次，也支持手动 `workflow_dispatch`。**真正是否采集由脚本判断**：`scripts/lib/window.mjs` 读取上次采集时间（`data/site.json` 的 `feedGeneratedAt`），距上次采集不足 165 分钟就秒退并打印 `collect skipped`，不写任何文件（`render` 也会跳过，避免产生假提交）；到点的那一轮立刻补跑。这样 GitHub cron 丢拍 / 延迟只是让某个 slot 空转，不会出现「一丢就断 3 小时」。
-- 想立刻采一轮：`FORCE_COLLECT=1 node scripts/collect.mjs && node scripts/render.mjs`（或 Actions 手动 dispatch 并设置同名环境变量），也可以临时改 `COLLECT_INTERVAL_MIN`。
+- `radar.yml`：**采集节奏由脚本自己维持（自愈链）**，cron 只当兜底。每轮 run 一开始先用 `GITHUB_TOKEN` 把下一轮 `workflow_dispatch` 排进队列（`scripts/lib/keeper.mjs`），然后本轮守候到采集窗口打开再干活。窗口条件是「距上次采集 ≥ 165 分钟」，没到就在 job 里睡，最多睡 180 分钟。链条健康状态写在 `data/keeper.json`（`chainRuns` / `lastDispatch` / `updatedAt`）。
+- 为什么不再依赖 cron：`schedule` 是「尽力而为」的——高峰期延迟几十分钟是常态，恶劣时会静默丢拍（本仓库实测出现过 4 小时一次都没触发，线上数据停在 4 小时前）。`workflow_dispatch` 则是 `GITHUB_TOKEN` 能触发新 run 的例外（只有 `push` 会被抑制），所以自愈链既不需要 PAT，也不需要 workflow 权限。
+- 开关：`config/keeper.json` 的 `enabled`（关掉后退回纯 cron 模式，不推荐）、`maxWaitMinutes`（默认 180）。
+- 想立刻采一轮：`FORCE_COLLECT=1 node scripts/collect.mjs && node scripts/render.mjs`；`COLLECT_INTERVAL_MIN` 可临时改窗口。本地想试链条而不真采集：`RADAR_KEEPER=1 COLLECT_INTERVAL_MIN=10000 RADAR_KEEPER_MAX_WAIT_MIN=0.05 node scripts/collect.mjs`。
 - `pages.yml`：`dist/` 有变化就部署 Pages（与采集解耦，采集失败时线上仍是上一版）。
 - 线上站点：<https://123caiji.github.io/ai-world/>
 - 提交身份是 `123caiji <166346449+123caiji@users.noreply.github.com>`，所以自动提交也计入贡献图。
-- Actions 的 `schedule` 在高峰期会有 5–30 分钟延迟，这是 GitHub 的行为，不是脚本问题。
 
 ## 素材（每张图都能溯源）
 
@@ -195,7 +196,7 @@ ai-world/
 
 ## 站上的小组件
 
-- **采集流水线**（首屏 KPI 下方）：上次采集时间、下一批窗口倒计时、本轮新入库条数、数据源健康度，进度条按 165 分钟窗口推进。三种状态直接写在脸上：窗口未到（还差多久）、已开窗（等下一次定时器）、已超窗（定时器还没来，来了会自动补跑）。
+- **采集流水线**（首屏 KPI 下方）：上次采集时间、下一批窗口倒计时、本轮新入库条数、数据源健康度，进度条按 165 分钟窗口推进。三种状态都写在脸上：窗口未到（还差多久）、已开窗（这一轮正在补跑）、已超窗（链条还活着但没跑起来）；文案会读 `data/keeper.json`，自愈链正常时说「自愈链已排队，到点自己跑，不依赖 cron」，心跳超过 4 小时就退回 cron 口径。
 - **情报详情抽屉**：点任意卡片从右侧滑出，把这条情报的抓取证据摊开——抓取端点、抓取时间、HTTP 状态、响应定位、首次发现、最后确认（含扫到次数）、热度、分值、语言、图片原址、条目 ID。底部可以「上一条 / 下一条」连续看、一键复制 JSON、打开原文；键盘 ←→ 切换、Esc 关闭。
 - **命令面板**：`⌘K` / `Ctrl+K` 打开，输入关键词直接搜全量情报（按热度取前 8 条），输入 `>` 前缀执行命令（切换主题、加载更多、跳到 GitHub 雷达、打开 RSS、打开数据文件）。
 - **安全快报 / 论文速览**（右栏）：近 24 小时安全条数与热门前 3、最新 3 篇论文，点条目同样能开抽屉。
