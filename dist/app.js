@@ -310,7 +310,7 @@ function cardHtml(item, index) {
   const title = '抓取端点：' + (ev.url || item.url) + '\n抓取时间：' + (ev.fetchedAt || '-') + '\nHTTP 状态：' + (ev.httpStatus || '-') + '\n定位：' + (ev.pointer || '-');
   const heat = Math.max(0, Math.min(100, Number(item.heat) || 0));
   const media = mediaHtml(item, kind, color);
-  return '<article class="card" style="--i:' + Math.min(index, 12) + ';--kc:' + color + '">' +
+  return '<article class="card" style="--i:' + Math.min(index, 12) + ';--kc:' + color + '" data-idx="' + index + '" tabindex="0" role="button">' +
     '<div class="card-top">' +
     '<span class="kind kind-' + esc(kind) + '">' + esc(KIND[kind] ? KIND[kind].label : kind) + '</span>' +
     '<span>' + esc(item.sourceLabel || item.source) + '</span>' +
@@ -423,7 +423,10 @@ function setupTheme() {
 
 function setupShortcuts() {
   document.addEventListener('keydown', (event) => {
-    if (event.key === '/' && document.activeElement !== $('q')) {
+    const overlay = ($('palette-mask') && !$('palette-mask').hidden) || ($('drawer') && !$('drawer').hidden);
+    const typing = event.target && /^(INPUT|TEXTAREA|SELECT)$/.test(event.target.tagName || '');
+    if (overlay) return;
+    if (event.key === '/' && !typing && document.activeElement !== $('q')) {
       event.preventDefault();
       $('q').focus();
     } else if (event.key === 'Escape') {
@@ -437,6 +440,394 @@ function setupShortcuts() {
   });
   window.addEventListener('scroll', () => {
     document.querySelector('.topbar').classList.toggle('scrolled', window.scrollY > 8);
+  }, { passive: true });
+}
+
+
+/* ============================================================
+   小组件层：采集流水线 / 安全快报 / 论文速览 / 详情抽屉 / 命令面板
+   ============================================================ */
+
+/* ---------- 采集流水线（真实数据：site.json 的 feedGeneratedAt） ---------- */
+const WINDOW_MINUTES = 165; // 与 scripts/lib/window.mjs 的 DEFAULT_INTERVAL_MIN 保持一致
+let pipelineSite = null;
+
+function fmtDelta(ms) {
+  const total = Math.max(0, Math.round(ms / 60000));
+  const h = Math.floor(total / 60);
+  const m = total % 60;
+  if (h <= 0) return m + ' 分钟';
+  return h + ' 小时 ' + m + ' 分';
+}
+
+function nextTickSlot(now) {
+  // GitHub Actions 的 cron 是每小时第 7 分钟触发
+  const slot = new Date(now);
+  slot.setMinutes(7, 0, 0);
+  if (slot.getTime() <= now) slot.setHours(slot.getHours() + 1);
+  return slot;
+}
+
+function hhmm(date) {
+  return date.toLocaleTimeString('zh-CN', { hour12: false, hour: '2-digit', minute: '2-digit' });
+}
+
+function renderPipeline(site) {
+  if (site) pipelineSite = site;
+  const data = pipelineSite || {};
+  const stats = data.stats || {};
+  const lastIso = data.feedGeneratedAt || data.generatedAt;
+  const state_ = $('pipe-state');
+  const box = $('pipeline');
+  if (!state_ || !box) return;
+
+  $('pipe-fresh').textContent = stats.fresh != null ? '+' + stats.fresh : '–';
+  $('pipe-src').textContent = (stats.sourcesOk != null ? stats.sourcesOk + '/' + stats.sourcesTotal : '–');
+
+  if (!lastIso) {
+    state_.className = 'pipe-state';
+    state_.textContent = '还没有采集记录';
+    $('pipe-last').textContent = '–';
+    $('pipe-next').textContent = '–';
+    $('pipe-fill').style.width = '0%';
+    return;
+  }
+
+  const last = new Date(lastIso).getTime();
+  const due = last + WINDOW_MINUTES * 60000;
+  const now = Date.now();
+  const pct = Math.max(0, Math.min(100, ((now - last) / (WINDOW_MINUTES * 60000)) * 100));
+  const remaining = due - now;
+  const fill = $('pipe-fill');
+  $('pipe-last').textContent = relTime(lastIso);
+  $('pipe-last').title = new Date(last).toLocaleString('zh-CN', { hour12: false });
+
+  if (remaining > 0) {
+    box.classList.remove('ready');
+    state_.className = 'pipe-state ok';
+    state_.textContent = '窗口未到 · 还差 ' + fmtDelta(remaining) + '（定时器每小时 ' + hhmm(nextTickSlot(now)) + ' 探一次）';
+    $('pipe-next').textContent = fmtDelta(remaining);
+    $('pipe-next').title = '下一批窗口：' + new Date(due).toLocaleString('zh-CN', { hour12: false });
+  } else {
+    box.classList.add('ready');
+    const overdue = -remaining;
+    $('pipe-next').textContent = '已开窗';
+    $('pipe-next').title = '窗口已开：' + new Date(due).toLocaleString('zh-CN', { hour12: false });
+    if (overdue < 90 * 60000) {
+      state_.className = 'pipe-state warn';
+      state_.textContent = '窗口已开 ' + fmtDelta(overdue) + ' · 等下一次定时器触发（每小时 ' + hhmm(nextTickSlot(now)) + '）';
+    } else {
+      state_.className = 'pipe-state bad';
+      state_.textContent = '已超窗 ' + fmtDelta(overdue) + ' · 定时器一探到就会自动补跑';
+    }
+  }
+  fill.style.width = pct.toFixed(1) + '%';
+}
+
+/* ---------- 安全快报 / 论文速览（都来自同一份 feed.json） ---------- */
+function briefHtml(item, color) {
+  const ev = item.evidence || {};
+  return '<div class="brief-item" style="--kc:' + color + '" data-brief-url="' + esc(item.url) + '">' +
+    '<span class="brief-bar"></span><div class="brief-main">' +
+    '<div class="brief-title">' + esc(item.title) + '</div>' +
+    '<div class="brief-meta"><span>' + esc(item.sourceLabel || item.source) + '</span>' +
+    '<span>' + esc(relTime(item.publishedAt || item.firstSeenAt)) + '</span>' +
+    '<span>' + (ev.httpStatus ? 'HTTP ' + esc(ev.httpStatus) : '') + '</span></div>' +
+    '</div></div>';
+}
+
+function renderBrief(items) {
+  const dayAgo = Date.now() - 24 * 3600 * 1000;
+  const recent = items.filter((item) => item.kind === 'security' && new Date(item.publishedAt || item.firstSeenAt).getTime() >= dayAgo);
+  const total = items.filter((item) => item.kind === 'security').length;
+  const top = [...recent].sort((a, b) => (b.heat || 0) - (a.heat || 0)).slice(0, 3);
+  const body = $('brief-body');
+  if (!body) return;
+  const head = '<div class="brief-count"><b>' + recent.length + '</b> 条 24 小时内新增 · 库内共 ' + total + ' 条</div>';
+  body.innerHTML = head + (top.length
+    ? top.map((item) => briefHtml(item, KIND.security.color)).join('')
+    : '<p class="muted" style="margin:0;font-size:11.5px">最近 24 小时没有新的安全条目。</p>');
+  body.querySelectorAll('.brief-item').forEach((node) => {
+    node.addEventListener('click', () => {
+      const found = items.find((item) => item.url === node.getAttribute('data-brief-url'));
+      if (found) openDrawer(found, top);
+    });
+  });
+}
+
+function renderPapers(items) {
+  const papers = items.filter((item) => item.kind === 'paper')
+    .sort((a, b) => new Date(b.publishedAt || b.firstSeenAt).getTime() - new Date(a.publishedAt || a.firstSeenAt).getTime())
+    .slice(0, 3);
+  const body = $('papers-body');
+  if (!body) return;
+  const total = items.filter((item) => item.kind === 'paper').length;
+  body.innerHTML = '<div class="brief-count"><b>' + total + '</b> 篇论文在库 · 按抓取时间最新 3 篇</div>' +
+    papers.map((item) => briefHtml(item, KIND.paper.color)).join('');
+  body.querySelectorAll('.brief-item').forEach((node) => {
+    node.addEventListener('click', () => {
+      const found = items.find((item) => item.url === node.getAttribute('data-brief-url'));
+      if (found) openDrawer(found, papers);
+    });
+  });
+}
+
+/* ---------- 详情抽屉（把证据摊开给人看） ---------- */
+let drawerCtx = [];
+let drawerIdx = -1;
+
+function drawerRow(label, value) {
+  if (!value) return '';
+  return '<dt>' + esc(label) + '</dt><dd>' + value + '</dd>';
+}
+
+function renderDrawer(item) {
+  const ev = item.evidence || {};
+  const kindKey = item.kind || 'news';
+  const conf = KIND[kindKey] || { label: kindKey, color: '#60a5fa' };
+  $('drawer-kind').textContent = conf.label;
+  $('drawer-kind').style.color = conf.color;
+  $('drawer-kind').style.borderColor = conf.color;
+  $('drawer-src').textContent = (item.sourceLabel || item.source || '') + ' · ' + relTime(item.publishedAt || item.firstSeenAt);
+  const media = item.image
+    ? '<div class="drawer-media"><img src="' + esc(item.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" /><div class="drawer-meta" style="margin-top:6px">素材：' + esc(item.imageSource || '来源站点配图') + '</div></div>'
+    : '<div class="drawer-media"><div class="noimg">无素材 · 来源站点没有提供图片</div></div>';
+  const tags = (item.tags || []).slice(0, 8).map((tag) => '<span class="tag">' + esc(tag) + '</span>').join('');
+  const rows = [
+    drawerRow('抓取端点', ev.url ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + esc(ev.url) + '</a>' : ''),
+    drawerRow('抓取时间', ev.fetchedAt ? esc(ev.fetchedAt) : ''),
+    drawerRow('HTTP 状态', ev.httpStatus ? esc(ev.httpStatus) : ''),
+    drawerRow('响应定位', ev.pointer ? esc(ev.pointer) : ''),
+    drawerRow('首次发现', item.firstSeenAt ? esc(item.firstSeenAt) : ''),
+    drawerRow('最后确认', item.lastSeenAt ? esc(item.lastSeenAt) + (item.seenCount > 1 ? '（第 ' + esc(item.seenCount) + ' 次扫到）' : '') : ''),
+    drawerRow('发布原时', item.publishedAt ? esc(item.publishedAt) : ''),
+    drawerRow('热度', item.heat != null ? esc(item.heat) + ' / 100' : ''),
+    drawerRow('分值', item.scoreLabel ? esc(item.scoreLabel) + (item.score != null ? '（原始 ' + esc(item.score) + '）' : '') : ''),
+    drawerRow('语言', item.lang ? esc(item.lang) : ''),
+    drawerRow('图片原址', item.image ? '<a href="' + esc(item.image) + '" target="_blank" rel="noopener">' + esc(item.image) + '</a>' : '来源未提供'),
+    drawerRow('条目 ID', esc(item.id || '')),
+  ].join('');
+  $('drawer-body').innerHTML = media +
+    '<h3 class="drawer-title"><a href="' + esc(item.url) + '" target="_blank" rel="noopener">' + esc(item.title) + '</a></h3>' +
+    '<div class="drawer-meta"><span>' + esc(item.sourceLabel || item.source) + '</span><span>' + esc(relTime(item.publishedAt || item.firstSeenAt)) + '</span><span>' + esc(item.lang || '') + '</span></div>' +
+    (item.summary ? '<p class="drawer-summary">' + esc(item.summary) + '</p>' : '') +
+    '<div class="sub">抓取证据（可核对）</div><dl class="ev-table">' + rows + '</dl>' +
+    (tags ? '<div class="drawer-tags">' + tags + '</div>' : '');
+  $('drawer-open').href = item.url;
+  $('drawer-prev').disabled = drawerIdx <= 0;
+  $('drawer-next').disabled = drawerIdx < 0 || drawerIdx >= drawerCtx.length - 1;
+}
+
+function openDrawer(item, context) {
+  drawerCtx = Array.isArray(context) && context.length ? context : [item];
+  drawerIdx = drawerCtx.indexOf(item);
+  if (drawerIdx < 0) { drawerCtx = [item]; drawerIdx = 0; }
+  renderDrawer(item);
+  const drawer = $('drawer');
+  const mask = $('drawer-mask');
+  mask.hidden = false;
+  drawer.hidden = false;
+  requestAnimationFrame(() => { mask.classList.add('show'); drawer.classList.add('show'); });
+  drawer.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('drawer-open');
+}
+
+function closeDrawer() {
+  const drawer = $('drawer');
+  const mask = $('drawer-mask');
+  if (!drawer || drawer.hidden) return;
+  mask.classList.remove('show');
+  drawer.classList.remove('show');
+  drawer.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('drawer-open');
+  setTimeout(() => { mask.hidden = true; drawer.hidden = true; }, 280);
+}
+
+function stepDrawer(delta) {
+  const next = drawerIdx + delta;
+  if (next < 0 || next >= drawerCtx.length) return;
+  drawerIdx = next;
+  renderDrawer(drawerCtx[drawerIdx]);
+  $('drawer-body').scrollTop = 0;
+}
+
+function setupDrawer() {
+  $('list').addEventListener('click', (event) => {
+    const card = event.target.closest('.card');
+    if (!card) return;
+    if (event.target.closest('a')) return;
+    const idx = Number(card.getAttribute('data-idx'));
+    const item = state.filtered[idx];
+    if (item) openDrawer(item, state.filtered);
+  });
+  $('list').addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    const card = event.target.closest('.card');
+    if (!card) return;
+    event.preventDefault();
+    const item = state.filtered[Number(card.getAttribute('data-idx'))];
+    if (item) openDrawer(item, state.filtered);
+  });
+  $('drawer-close').addEventListener('click', closeDrawer);
+  $('drawer-mask').addEventListener('click', closeDrawer);
+  $('drawer-prev').addEventListener('click', () => stepDrawer(-1));
+  $('drawer-next').addEventListener('click', () => stepDrawer(1));
+  $('drawer-copy').addEventListener('click', async () => {
+    const item = drawerCtx[drawerIdx];
+    if (!item) return;
+    const text = JSON.stringify(item, null, 2);
+    try {
+      await navigator.clipboard.writeText(text);
+      $('drawer-copy').textContent = '已复制 ✓';
+    } catch (err) {
+      $('drawer-copy').textContent = '复制失败';
+    }
+    setTimeout(() => { $('drawer-copy').textContent = '复制 JSON'; }, 1600);
+  });
+}
+
+/* ---------- 命令面板（⌘K / Ctrl+K） ---------- */
+const COMMANDS = [
+  { label: '切换深浅主题', hint: 'theme', run: () => $('theme').click() },
+  { label: '加载更多情报', hint: 'more', run: () => { $('more').click(); window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }); } },
+  { label: '跳到 GitHub 雷达面板', hint: 'github', run: () => document.getElementById('panel-github').scrollIntoView({ behavior: 'smooth', block: 'center' }) },
+  { label: '打开 RSS 订阅', hint: 'rss', run: () => window.open('./feed.xml', '_blank') },
+  { label: '打开站点数据 site.json', hint: 'data', run: () => window.open('./data/site.json', '_blank') },
+  { label: '打开全量数据 feed.json', hint: 'feed', run: () => window.open('./data/feed.json', '_blank') },
+];
+let paletteRows = [];
+let paletteIdx = 0;
+
+function paletteMatch(query) {
+  const q = query.trim();
+  if (q.startsWith('>')) {
+    const word = q.slice(1).trim().toLowerCase();
+    return COMMANDS
+      .filter((cmd) => !word || cmd.label.toLowerCase().includes(word) || cmd.hint.includes(word))
+      .map((cmd) => ({ type: 'cmd', cmd }));
+  }
+  const lower = q.toLowerCase();
+  const pool = q ? state.all.filter((item) => (item.title + ' ' + (item.summary || '') + ' ' + (item.sourceLabel || '') + ' ' + (item.tags || []).join(' ')).toLowerCase().includes(lower)) : state.all;
+  return [...pool].sort((a, b) => (b.heat || 0) - (a.heat || 0)).slice(0, 8).map((item) => ({ type: 'item', item }));
+}
+
+function renderPalette(query) {
+  paletteRows = paletteMatch(query);
+  paletteIdx = 0;
+  const list = $('palette-list');
+  if (!paletteRows.length) {
+    list.innerHTML = '<div class="palette-empty">没有匹配项。输入 &gt; 可以执行命令，例如 &gt; theme</div>';
+    return;
+  }
+  list.innerHTML = paletteRows.map((row, i) => {
+    if (row.type === 'cmd') {
+      return '<div class="palette-item' + (i === paletteIdx ? ' active' : '') + '" data-row="' + i + '" style="--kc:var(--violet)">' +
+        '<span class="pi-bar"></span><div class="pi-main"><div class="pi-title">' + esc(row.cmd.label) + '</div>' +
+        '<div class="pi-sub">命令 · ' + esc(row.cmd.hint) + '</div></div><span class="pi-kind">执行</span></div>';
+    }
+    const item = row.item;
+    const kindKey = item.kind || 'news';
+    const conf = KIND[kindKey] || { label: kindKey, color: '#60a5fa' };
+    return '<div class="palette-item' + (i === paletteIdx ? ' active' : '') + '" data-row="' + i + '" style="--kc:' + conf.color + '">' +
+      '<span class="pi-bar"></span><div class="pi-main"><div class="pi-title">' + esc(item.title) + '</div>' +
+      '<div class="pi-sub">' + esc(item.sourceLabel || item.source) + ' · ' + esc(relTime(item.publishedAt || item.firstSeenAt)) + ' · 热度 ' + esc(item.heat) + '</div></div>' +
+      '<span class="pi-kind">' + esc(conf.label) + '</span></div>';
+  }).join('');
+}
+
+function paletteRun(index) {
+  const row = paletteRows[index];
+  if (!row) return;
+  closePalette();
+  if (row.type === 'cmd') { row.cmd.run(); return; }
+  openDrawer(row.item, paletteRows.filter((r) => r.type === 'item').map((r) => r.item));
+}
+
+function movePalette(delta) {
+  if (!paletteRows.length) return;
+  paletteIdx = (paletteIdx + delta + paletteRows.length) % paletteRows.length;
+  const items = $('palette-list').querySelectorAll('.palette-item');
+  items.forEach((node, i) => node.classList.toggle('active', i === paletteIdx));
+  const active = items[paletteIdx];
+  if (active && active.scrollIntoView) active.scrollIntoView({ block: 'nearest' });
+}
+
+function openPalette() {
+  const mask = $('palette-mask');
+  if (!mask || !mask.hidden) return;
+  mask.hidden = false;
+  requestAnimationFrame(() => mask.classList.add('show'));
+  $('palette-input').value = '';
+  renderPalette('');
+  setTimeout(() => $('palette-input').focus(), 30);
+}
+
+function closePalette() {
+  const mask = $('palette-mask');
+  if (!mask || mask.hidden) return;
+  mask.classList.remove('show');
+  setTimeout(() => { mask.hidden = true; }, 180);
+}
+
+function setupPalette() {
+  $('openPalette').addEventListener('click', openPalette);
+  $('palette-input').addEventListener('input', (event) => renderPalette(event.target.value));
+  $('palette-mask').addEventListener('click', (event) => { if (event.target === $('palette-mask')) closePalette(); });
+  $('palette-list').addEventListener('click', (event) => {
+    const node = event.target.closest('.palette-item');
+    if (node) paletteRun(Number(node.getAttribute('data-row')));
+  });
+  document.addEventListener('keydown', (event) => {
+    const meta = event.metaKey || event.ctrlKey;
+    if (meta && event.key.toLowerCase() === 'k') {
+      event.preventDefault();
+      if ($('palette-mask').hidden) openPalette(); else closePalette();
+      return;
+    }
+    const paletteOpen = !$('palette-mask').hidden;
+    if (paletteOpen) {
+      if (event.key === 'ArrowDown') { event.preventDefault(); movePalette(1); }
+      else if (event.key === 'ArrowUp') { event.preventDefault(); movePalette(-1); }
+      else if (event.key === 'Enter') { event.preventDefault(); paletteRun(paletteIdx); }
+      else if (event.key === 'Escape') { event.preventDefault(); closePalette(); }
+      return;
+    }
+    if (event.key === 'Escape' && !$('drawer').hidden) {
+      event.preventDefault();
+      closeDrawer();
+      return;
+    }
+    if ((event.key === 'ArrowLeft' || event.key === 'ArrowRight') && !$('drawer').hidden) {
+      event.preventDefault();
+      stepDrawer(event.key === 'ArrowRight' ? 1 : -1);
+    }
+  });
+}
+
+/* ---------- 顶部滚动进度 ---------- */
+function setupScrollbar() {
+  const bar = $('scrollbar');
+  if (!bar) return;
+  const paint = () => {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = max > 0 ? Math.min(1, window.scrollY / max) : 0;
+    bar.style.transform = 'scaleX(' + pct.toFixed(4) + ')';
+  };
+  window.addEventListener('scroll', paint, { passive: true });
+  window.addEventListener('resize', paint);
+  paint();
+}
+
+/* ---------- 卡片指针光效 ---------- */
+function setupCardGlow() {
+  const list = $('list');
+  if (!list) return;
+  list.addEventListener('pointermove', (event) => {
+    const card = event.target.closest('.card');
+    if (!card) return;
+    const rect = card.getBoundingClientRect();
+    card.style.setProperty('--mx', ((event.clientX - rect.left) / rect.width * 100).toFixed(1) + '%');
+    card.style.setProperty('--my', ((event.clientY - rect.top) / rect.height * 100).toFixed(1) + '%');
   }, { passive: true });
 }
 
@@ -468,6 +859,16 @@ async function main() {
   renderSources(sources);
   renderMedia(state.all);
   applyFilter();
+
+  /* 小组件层接线 */
+  renderPipeline(site);
+  setInterval(() => renderPipeline(), 30000);
+  renderBrief(state.all);
+  renderPapers(state.all);
+  setupDrawer();
+  setupPalette();
+  setupScrollbar();
+  setupCardGlow();
 
   $('q').addEventListener('input', (event) => { state.query = event.target.value; state.shown = PAGE; applyFilter(); });
   $('source').addEventListener('change', (event) => { state.source = event.target.value; state.shown = PAGE; applyFilter(); });

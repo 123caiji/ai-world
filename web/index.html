@@ -11,6 +11,7 @@
 <link rel="alternate" type="application/rss+xml" title="AI 大世界 · 情报流" href="./feed.xml" />
 </head>
 <body>
+<div class="scrollbar" id="scrollbar" aria-hidden="true"></div>
 <div class="bg-layer" aria-hidden="true">
   <div class="orb orb-a"></div>
   <div class="orb orb-b"></div>
@@ -34,8 +35,9 @@
   <div class="clock" id="clock">--:--:--</div>
   <div class="freshness ok" id="freshness" title="数据新鲜度"><span class="dot"></span><span id="freshText">扫描中</span></div>
   <div class="search">
-    <input id="q" type="search" placeholder="搜索标题 / 来源 / 标签   （按 / 聚焦）" autocomplete="off" />
+    <input id="q" type="search" placeholder="搜索标题 / 来源 / 标签   （按 / 聚焦，⌘K 命令面板）" autocomplete="off" />
   </div>
+  <button id="openPalette" class="icon-btn palette-btn" type="button" title="命令面板（Ctrl / ⌘ + K）">⌘K</button>
   <button id="theme" class="icon-btn" type="button" title="切换深浅色">◐</button>
 </header>
 
@@ -44,6 +46,20 @@
     <h1>此刻，AI 世界正在发生什么<span class="cursor"></span></h1>
     <p class="lede">20+ 个数据源每 3 小时成批扫描一次（定时器每小时探窗口，到点自动补跑）：论文、模型、数据集、开源仓库、产品、视频、AI 安全事件，以及中文 / 英文媒体的实时动态。<b>每条都带可核验的抓取证据。</b></p>
     <div class="kpis" id="kpis"></div>
+
+    <div class="pipeline" id="pipeline">
+      <div class="pipe-head">
+        <span class="pipe-title"><i class="pipe-live"></i>采集流水线</span>
+        <span class="pipe-state" id="pipe-state">读取站点数据…</span>
+      </div>
+      <div class="pipe-track" title="本轮采集窗口进度（每 165 分钟一批）"><span class="pipe-fill" id="pipe-fill"></span></div>
+      <div class="pipe-grid">
+        <div class="pipe-cell"><b id="pipe-last">–</b><span>上次采集</span></div>
+        <div class="pipe-cell"><b id="pipe-next">–</b><span>下一批窗口</span></div>
+        <div class="pipe-cell"><b id="pipe-fresh">–</b><span>本轮新入库</span></div>
+        <div class="pipe-cell"><b id="pipe-src">–</b><span>数据源在线</span></div>
+      </div>
+    </div>
     <div class="spark-wrap">
       <div class="spark-head"><span>最近 24 小时入库节奏</span><span class="muted" id="spark-total"></span></div>
       <svg id="spark" viewBox="0 0 720 96" preserveAspectRatio="none" aria-hidden="true"></svg>
@@ -80,11 +96,23 @@
         <span class="count" id="count"></span>
       </div>
     </div>
-    <div class="list" id="list"></div>
+    <div class="list" id="list">
+      <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+    </div>
     <button id="more" class="ghost wide" type="button" hidden>加载更多</button>
   </section>
 
   <aside class="side">
+    <section class="panel widget" id="panel-brief">
+      <h2>安全快报 <em class="hint">最近 24h</em></h2>
+      <div class="panel-body" id="brief-body"><p class="muted">加载中…</p></div>
+    </section>
+
+    <section class="panel widget" id="panel-papers">
+      <h2>论文速览 <em class="hint">最新 3 篇</em></h2>
+      <div class="panel-body" id="papers-body"><p class="muted">加载中…</p></div>
+    </section>
+
     <section class="panel">
       <h2>情报构成</h2>
       <div class="donut-row">
@@ -137,6 +165,33 @@
   <span id="foot-meta">AI 大世界 · 每 3 小时自动采集一批</span>
   <span><a href="https://github.com/123caiji/ai-world">GitHub 仓库</a> · <a href="./feed.xml">RSS</a> · <a href="./data/site.json">站点数据</a> · MIT</span>
 </footer>
+
+<div class="drawer-mask" id="drawer-mask" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-hidden="true" aria-label="情报详情">
+  <div class="drawer-head">
+    <span class="kind" id="drawer-kind">情报</span>
+    <span class="muted" id="drawer-src"></span>
+    <button class="icon-btn" id="drawer-close" type="button" title="关闭（Esc）">✕</button>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+  <div class="drawer-foot">
+    <button class="ghost" id="drawer-prev" type="button">← 上一条</button>
+    <button class="ghost" id="drawer-next" type="button">下一条 →</button>
+    <button class="ghost" id="drawer-copy" type="button">复制 JSON</button>
+    <a class="ghost link" id="drawer-open" target="_blank" rel="noopener">打开原文 ↗</a>
+  </div>
+</aside>
+
+<div class="palette-mask" id="palette-mask" hidden>
+  <div class="palette" role="dialog" aria-modal="true" aria-label="命令面板">
+    <div class="palette-input-row">
+      <span class="palette-caret">›</span>
+      <input id="palette-input" type="text" placeholder="搜索情报，或输入命令：> 主题 / > 更多 / > github" autocomplete="off" />
+    </div>
+    <div class="palette-list" id="palette-list"></div>
+    <div class="palette-foot">↑↓ 选择 · Enter 执行 · Esc 关闭</div>
+  </div>
+</div>
 
 <script src="./app.js?v=dev"></script>
 </body>
