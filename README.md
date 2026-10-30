@@ -2,7 +2,7 @@
 
 # AI 大世界 · 实时 AI 情报站
 
-**每 3 小时自动采集一批** AI 新闻、arXiv 论文、新模型、GitHub 新仓库 / 涨星 / Release、DSH 插件生态（定时器每小时探窗口，到点自动补跑，人工不参与）。<br />
+**每 165 分钟自动采集一批** AI 新闻、arXiv 论文、新模型、GitHub 新仓库 / 涨星 / Release、DSH 插件生态（Actions 里的自愈链：每轮自己把下一轮排进队列，窗口到点自己开跑，cron 只是兜底，人工不参与）。<br />
 **每条情报都带可核验证据**：抓取端点、抓取时间、HTTP 状态、在响应里的定位。
 
 [![radar](https://github.com/123caiji/ai-world/actions/workflows/radar.yml/badge.svg)](https://github.com/123caiji/ai-world/actions/workflows/radar.yml)
@@ -18,7 +18,7 @@
 
 一个**只用 GitHub Actions 就能跑**的 AI 情报雷达。没有服务器、没有第三方 API key、没有付费数据源，全部来自公开接口。
 
-它每 3 小时做四件事（采集窗口机制，见下文「定时与部署」）：
+它每 165 分钟做四件事（采集窗口 + 自愈链机制，见下文「定时与部署」）：
 
 1. **抓情报** —— 39 个数据源并发采集（中英新闻、官方博客、arXiv 多分区、Hugging Face 论文/模型/数据集/Space 趋势、GitHub 每日趋势、Hacker News / Show HN / Lobsters、YouTube 技术频道、AI 安全事件、中文技术社区、Anthropic 官方、Product Hunt、OpenRouter 模型目录）。
 2. **扫 GitHub** —— 最近两周的 AI 新仓库、话题榜、涨星榜（自己存 stars 快照算 delta）、关注仓库的最新 Release。

@@ -60,7 +60,7 @@ function renderFreshness(generatedAt) {
     pill.className = 'freshness ' + (minutes <= 200 ? 'ok' : minutes <= 480 ? 'warn' : 'stale');
     text.textContent = '自动扫描 · ' + label;
     pill.title = '最近一次自动采集：' + new Date(generatedAt).toLocaleString('zh-CN', { hour12: false }) +
-      '（每 3 小时一批，由 GitHub Actions 定时任务自动判断窗口后触发，人工不参与）';
+      '（每 165 分钟一批，由 Actions 里的自愈链自动排队触发、到点自己开跑，cron 只是兜底，人工不参与）';
   };
   paint();
   setInterval(paint, 60000);
@@ -969,7 +969,7 @@ async function main() {
 
   const generated = (site && site.feedGeneratedAt) || feed.generatedAt;
   renderFreshness(generated);
-  $('foot-meta').textContent = 'AI 大世界 · GitHub Actions 每 3 小时自动采集一批（定时器每小时探窗口，到点自动补跑，无需人工） · 最近采集 ' +
+  $('foot-meta').textContent = 'AI 大世界 · 自愈链每 165 分钟自动采集一批（每轮自己排队下一轮，cron 只是兜底，无需人工） · 最近采集 ' +
     (generated ? new Date(generated).toLocaleString('zh-CN', { hour12: false }) : '未知') +
     ' · 库内 ' + state.all.length + ' 条';
 }

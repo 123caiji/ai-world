@@ -159,7 +159,7 @@
           <li>缩略图是来源站点自己给的图（<code>image</code> + <code>imageSource</code>），不是 AI 生成；取不到就显示「无素材」。</li>
           <li>机器可读全量：<a href="./data/feed.json">data/feed.json</a> · 快照 <a href="./data/digest.md">data/digest.md</a> · 节奏 <a href="./data/trend.json">data/trend.json</a>。</li>
           <li>采集脚本全开源：<a href="https://github.com/123caiji/ai-world/tree/main/scripts">scripts/</a>，源清单 <a href="https://github.com/123caiji/ai-world/blob/main/config/watchlist.json">config/watchlist.json</a>。</li>
-          <li>GitHub Actions 定时器每小时探一次窗口（<code>7 * * * *</code>），脚本判断距上次采集满 165 分钟才真正采集；GitHub 丢拍或延迟时，窗口一到的那轮自动补跑。</li>
+          <li><b>自愈链</b>：每轮采集开始前，脚本自己用 <code>gh workflow run</code> 把下一轮排进 Actions 队列（<code>scripts/lib/keeper.mjs</code>），窗口没到就在 job 里睡到点再采，所以 GitHub 的 cron 丢拍/延迟不会让数据停摆；<a href="./data/keeper.json">data/keeper.json</a> 是链条心跳（第几环、上次排队是否成功）。</li>
         </ul>
       </div>
     </section>
