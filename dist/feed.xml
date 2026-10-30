@@ -4,14 +4,14 @@
 <link>https://123caiji.github.io/ai-world/</link>
 <description>每 165 分钟自动扫描（无需人工）的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 30 Oct 2026 16:29:01 GMT</lastBuildDate>
+<lastBuildDate>Fri, 30 Oct 2026 19:14:27 GMT</lastBuildDate>
 <item>
 <title>thedotmack/claude-mem · 今日 +1145 ⭐</title>
 <link>https://github.com/thedotmack/claude-mem</link>
 <guid isPermaLink="false">b8da10635efbda0c4c165e7fe1eeef9cfbfe64a1</guid>
 <pubDate>Thu, 29 Oct 2026 16:00:57 GMT</pubDate>
 <category>repo</category>
-<description>Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T16:28:48.979Z，HTTP 200</description>
+<description>Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T19:14:18.261Z，HTTP 200</description>
 <enclosure url="https://github.com/thedotmack.png?size=96" type="image/png" />
 </item>
 <item>
@@ -24,12 +24,12 @@
 <enclosure url="https://github.com/ollama.png?size=96" type="image/png" />
 </item>
 <item>
-<title>deepseek-ai/deepseek-harness 涨 960 星</title>
+<title>deepseek-ai/deepseek-harness 涨 924 星</title>
 <link>https://github.com/deepseek-ai/deepseek-harness</link>
 <guid isPermaLink="false">889ea1c117f15b3172d305835b21dbdb4895b8c0</guid>
-<pubDate>Fri, 30 Oct 2026 16:28:33 GMT</pubDate>
+<pubDate>Fri, 30 Oct 2026 19:14:03 GMT</pubDate>
 <category>repo</category>
-<description>DeepSeek Harness: Everything is a Plugin. · 当前 266602 stars — 来源 GitHub 涨星榜，抓取于 2026-10-30T16:28:39.342Z，HTTP 200</description>
+<description>DeepSeek Harness: Everything is a Plugin. · 当前 266666 stars — 来源 GitHub 涨星榜，抓取于 2026-10-30T19:14:08.963Z，HTTP 200</description>
 <enclosure url="https://github.com/deepseek-ai.png?size=96" type="image/png" />
 </item>
 <item>
@@ -56,7 +56,7 @@
 <guid isPermaLink="false">76608378b66475536688ea5d246bea079805f62f</guid>
 <pubDate>Fri, 30 Oct 2026 10:57:26 GMT</pubDate>
 <category>repo</category>
-<description>Skills for Real Engineers. Straight from my .agents directory. · Shell · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T16:28:48.979Z，HTTP 200</description>
+<description>Skills for Real Engineers. Straight from my .agents directory. · Shell · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T19:14:18.261Z，HTTP 200</description>
 <enclosure url="https://github.com/mattpocock.png?size=96" type="image/png" />
 </item>
 <item>
@@ -65,7 +65,7 @@
 <guid isPermaLink="false">0876c9c2b39765c74de5f7cb09e4d083d75c8946</guid>
 <pubDate>Thu, 29 Oct 2026 16:00:57 GMT</pubDate>
 <category>repo</category>
-<description>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T16:28:48.979Z，HTTP 200</description>
+<description>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T19:14:18.261Z，HTTP 200</description>
 <enclosure url="https://github.com/CopilotKit.png?size=96" type="image/png" />
 </item>
 <item>
@@ -74,8 +74,17 @@
 <guid isPermaLink="false">fa4361846156ed467960d677c72734a959c6327d</guid>
 <pubDate>Thu, 29 Oct 2026 16:00:57 GMT</pubDate>
 <category>repo</category>
-<description>The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships. · Rust · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T16:28:48.979Z，HTTP 200</description>
+<description>The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships. · Rust · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T19:14:18.261Z，HTTP 200</description>
 <enclosure url="https://github.com/pbakaus.png?size=96" type="image/png" />
+</item>
+<item>
+<title>aa1143/NamiAgent · 22 stars</title>
+<link>https://github.com/aa1143/NamiAgent</link>
+<guid isPermaLink="false">d6c4008e66c9a0467cb86d09ef6006eda4868205</guid>
+<pubDate>Fri, 30 Oct 2026 11:03:30 GMT</pubDate>
+<category>repo</category>
+<description>零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex 等主流 Agent · Python · #agent — 来源 GitHub 新仓库，抓取于 2026-10-30T19:14:06.652Z，HTTP 200</description>
+<enclosure url="https://github.com/aa1143.png?size=96" type="image/png" />
 </item>
 <item>
 <title>anthropics/skills · 今日 +287 ⭐</title>
@@ -83,7 +92,7 @@
 <guid isPermaLink="false">10ba719313a0c83566e4fb1db426c34c44e8815e</guid>
 <pubDate>Fri, 30 Oct 2026 10:57:26 GMT</pubDate>
 <category>repo</category>
-<description>Public repository for Agent Skills · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T16:28:48.979Z，HTTP 200</description>
+<description>Public repository for Agent Skills · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T19:14:18.261Z，HTTP 200</description>
 <enclosure url="https://github.com/anthropics.png?size=96" type="image/png" />
 </item>
 <item>
@@ -92,17 +101,8 @@
 <guid isPermaLink="false">50e4a04dc2f5610369e535b5963c39ab24c3673b</guid>
 <pubDate>Fri, 30 Oct 2026 10:57:26 GMT</pubDate>
 <category>repo</category>
-<description>A collection of AI agent skills for working with Expo projects and Expo Application Services · Shell · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T16:28:48.979Z，HTTP 200</description>
+<description>A collection of AI agent skills for working with Expo projects and Expo Application Services · Shell · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T19:14:18.261Z，HTTP 200</description>
 <enclosure url="https://github.com/expo.png?size=96" type="image/png" />
-</item>
-<item>
-<title>OpenAI Claims It Just Did The Impossible</title>
-<link>https://www.youtube.com/watch?v=CWdTBLsbaQs</link>
-<guid isPermaLink="false">ce14acab8d98c49f18a1af52359343e9bf12b12b</guid>
-<pubDate>Fri, 30 Oct 2026 15:57:16 GMT</pubDate>
-<category>video</category>
-<description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 OpenAI's paper is available here: https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf Our paper with the cherry splash ray tracing simulation at... — 来源 YouTube · Two Minute Papers，抓取于 2026-10-30T16:28:48.229Z，HTTP 200</description>
-<enclosure url="https://i.ytimg.com/vi/CWdTBLsbaQs/hqdefault.jpg" type="image/png" />
 </item>
 <item>
 <title>macro-inc/macro · 今日 +117 ⭐</title>
@@ -110,7 +110,7 @@
 <guid isPermaLink="false">df43f2fe1a6cdcdc315f91a24180ce9acaf9426f</guid>
 <pubDate>Fri, 30 Oct 2026 10:57:26 GMT</pubDate>
 <category>repo</category>
-<description>Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory. · Rust · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T16:28:48.979Z，HTTP 200</description>
+<description>Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory. · Rust · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T19:14:18.261Z，HTTP 200</description>
 <enclosure url="https://github.com/macro-inc.png?size=96" type="image/png" />
 </item>
 <item>
@@ -119,7 +119,7 @@
 <guid isPermaLink="false">7e7a6ce6c81ff0b491dad3522f0eb9a3d19259e0</guid>
 <pubDate>Fri, 30 Oct 2026 10:57:26 GMT</pubDate>
 <category>repo</category>
-<description>Lightpanda: the headless browser designed for AI and automation · Zig · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T16:28:48.979Z，HTTP 200</description>
+<description>Lightpanda: the headless browser designed for AI and automation · Zig · 共... — 来源 GitHub 每日趋势，抓取于 2026-10-30T19:14:18.261Z，HTTP 200</description>
 <enclosure url="https://github.com/lightpanda-io.png?size=96" type="image/png" />
 </item>
 <item>
@@ -130,15 +130,6 @@
 <category>repo</category>
 <description>（无简介） · 共 160,016,161,116,825,760,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000 stars — 来源 GitHub 每日趋势，抓取于 2026-10-30T08:11:52.530Z，HTTP 200</description>
 <enclosure url="https://github.com/elayadesign.png?size=96" type="image/png" />
-</item>
-<item>
-<title>[程序员] 开源 Claude 客户端更新了一下，增加 SSH、Agent、Git、ego 等功能</title>
-<link>https://www.v2ex.com/t/1253318</link>
-<guid isPermaLink="false">b35c960bfda05418937c4ed2a3830adf2c28b082</guid>
-<pubDate>Fri, 30 Oct 2026 15:50:40 GMT</pubDate>
-<category>discussion</category>
-<description>将自己的 Claude 客户端又更新一遍，感觉也差不多够用了，后面暂时没更新欲望。 https://github.com/elioinvest/Crew 目前更新的功能： 1 、增加 SSH 功能。可以使用你的 Claude 或者 ChatGPT,通过 Crew 的 SSH 功能管理远程服务器 2 、增加多智能体 3 、底部展示 Claude 以及 ChatGPT 的用量 4 、增加 git 管理功能，由于比较喜欢 sourcetree ，因此，样式差不多。 5 、集成了 ego 浏览器，通过，ego 快速进行浏览器自动化操作 — 来源 V2EX · AI 讨论，抓取于 2026-10-30T16:28:48.635Z，HTTP 200</description>
-<enclosure url="https://cdn.v2ex.com/gravatar/e1dd21e86c5328d61dc8792e0c8cda3c?s=73&amp;d=retro" type="image/png" />
 </item>
 <item>
 <title>[分享创造] 做了个 mydash： Claude Code / Codex 产出的方案、报告、PDF、网页原型，在手机上直接看（自托管，开源）</title>
@@ -185,20 +176,30 @@
 <enclosure url="https://cdn.v2ex.com/avatar/a226/c158/45139_xlarge.png?m=1789817905" type="image/png" />
 </item>
 <item>
+<title>Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)</title>
+<link>https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us</link>
+<guid isPermaLink="false">cabe8a08dfb8581078069bf28aaf679503c8ac59</guid>
+<pubDate>Fri, 30 Oct 2026 17:27:45 GMT</pubDate>
+<category>news</category>
+<description>The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US) , providing access to OpenAI’s frontier models through two components. Work completes complex, multi-step tasks and delivers review-ready results, and Codex is a coding agent for developing, testing, and reviewing software. This walkthrough is intended for organizations whose security architecture requires model inference to use AWS... — 来源 AWS 机器学习，抓取于 2026-10-30T19:14:24.633Z，HTTP 200</description>
+<enclosure url="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22175-featured-image.png" type="image/png" />
+</item>
+<item>
+<title>OpenAI Claims It Just Did The Impossible</title>
+<link>https://www.youtube.com/watch?v=CWdTBLsbaQs</link>
+<guid isPermaLink="false">ce14acab8d98c49f18a1af52359343e9bf12b12b</guid>
+<pubDate>Fri, 30 Oct 2026 15:57:16 GMT</pubDate>
+<category>video</category>
+<description>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 OpenAI's paper is available here: https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf Our paper with the cherry splash ray tracing simulation at... — 来源 YouTube · Two Minute Papers，抓取于 2026-10-30T19:14:17.365Z，HTTP 200</description>
+<enclosure url="https://i.ytimg.com/vi/CWdTBLsbaQs/hqdefault.jpg" type="image/png" />
+</item>
+<item>
 <title>我用 Express 写了个 MCP，Claude 直接调用我的 API 了</title>
 <link>https://juejin.cn/post/7702280025022267442</link>
 <guid isPermaLink="false">8454d54e1f411113f9aa08b53e6cd23ca12d0e23</guid>
 <pubDate>Fri, 30 Oct 2026 09:20:11 GMT</pubDate>
 <category>discussion</category>
 <description>写在前面 作为一个写了多年 Express 的老后端，前阵子被「AI Agent」「MCP」刷屏，心里其实有点慌：这套东西是不是要从头学一套新框架？ 动手之后发现——根本不是。MCP Server 的 — 来源 掘金，抓取于 2026-10-30T10:57:26.895Z，HTTP 200</description>
-</item>
-<item>
-<title>词元工厂硅基流动港股上市申请获证监会备案接收：注册用户超千万，年内融资近 29 亿元</title>
-<link>https://www.ithome.com/1/020/369.htm</link>
-<guid isPermaLink="false">47228fd802ce5978e376c903fa402491d6450569</guid>
-<pubDate>Fri, 30 Oct 2026 14:22:53 GMT</pubDate>
-<category>news</category>
-<description>IT之家 10 月 30 日消息，硅基流动在港股发行上市申请获中国证监会备案受理。据弗若斯特沙利文资料，该公司是中国最大的独立生态词元（Token）供应商，注册用户超过 1000 万名，服务企业客户超过 1.3 万家。 IT之家注：硅基流动成立于 2023 年，定位为独立生态词元供应平台，不自建大模型，也不直接出售算力。 其业务逻辑是将英伟达、华为昇腾、沐曦、摩尔线程等厂商的异构芯片通过自研推理引擎统一调度，让 DeepSeek、Qwen、Kimi 等主流模型在池化算力上运行，再以 Token 为单位对外提供服务。截至 2026 年 6 月，平台累计支持 170 余款 AI 模型，适配 10 余款芯片。 硅基流动与国产芯片的绑定是其业务叙述的关键一环。2025 年春节，该公司因率先推出基于华为昇腾的 DeepSeek 推理服务而进入大众视野，其体验与性价比被指比肩国际顶尖 GPU... — 来源 IT之家，抓取于 2026-10-30T16:28:53.915Z，HTTP 200</description>
 </item>
 <item>
 <title># chatgpt rastreia o que vocẽ faz na internet através de uma rede de progagandas. Use # adblocker . https://www....</title>
@@ -224,6 +225,15 @@
 <category>news</category>
 <description>近日，由英伟达与麻省理工学院研究人员组成的 Efficient-Large-Model 团队，在 Hugging Face 发布视频增强项目 Open-H3-Regenerate-2K 的模型权重，配套推理代码已在 NVlabs/Sana 仓库开放。该方案基于 MiniMax H3，将低分辨率视频草稿重新生成为高分辨率视频，支持 2560×1440 的 2K 输出，最高可实现 3840×2160 的原生 4K 重生成。 MiniMax H3 的完整系统包含多模态上下文处理、基础音视频生成和高分辨率重生成等环节。其中，已开放权重的 H3-Base 负责生成 768P 音视频，官方 H3-Regenerate-2K 模块通过 API 提供服务。此次发布的项目复用 H3 基础模型的生成能力，为高分辨率重生成环节提供了一套可自行部署的开放实现。 在细化模型的训练阶段，研究团队保持 H3 Transformer 主干与视频 VAE... — 来源 雷峰网，抓取于 2026-10-30T10:57:38.485Z，HTTP 200</description>
 <enclosure url="https://static.leiphone.com/uploads/new/images/20261030/6ae44159b0730.jpg?imageView2/2/w/740" type="image/png" />
+</item>
+<item>
+<title>[程序员] 写了一个 AI 桌面应用(gpt claude 反重力)的免全局、TUN 的进程代理软件，欢迎大家试用</title>
+<link>https://www.v2ex.com/t/1253329</link>
+<guid isPermaLink="false">777d9604e6ebf5af0acf688d36b1927a098af741</guid>
+<pubDate>Fri, 30 Oct 2026 19:05:33 GMT</pubDate>
+<category>discussion</category>
+<description>Local-AI-Route Local-AI-Route 是一款专为桌面 AI 应用打造的轻量级、免全局 TUN 、免改系统代理的 进程级本地代理启动与管理工具 。开箱 原生深度适配 ： 🤖 ChatGPT （兼容 Windows 商店/独立安装包、macOS App Bundle 、Linux 桌面客户端） 🧠 Claude （兼容 Windows MSIX/Squirrel 、macOS App Bundle 、Linux 桌面端） 🌌 Antigravity 桌面版 ⚡ Antigravity IDE （精确区分注册表与应用标识，专项保障 LSP 子进程代理继承） 🧩 自定义扩展 ：一键添加任意 Chromium / Electron 类桌面 AI 应用（如 Cursor 、Windsurf 等） 请打开 Local-AI-Route Github 源码 获取更多细节。 — 来源 V2EX · AI 讨论，抓取于 2026-10-30T19:14:17.546Z，HTTP 200</description>
+<enclosure url="https://cdn.v2ex.com/gravatar/2235a7bb94d98570bfc9f4b785883e4d?s=73&amp;d=retro" type="image/png" />
 </item>
 <item>
 <title>Give people AI they said, what could possibly go wrong they thought. An Accenture contractor gave a personal Claude agent admin access to...</title>
@@ -311,15 +321,6 @@
 <pubDate>Fri, 30 Oct 2026 05:00:18 GMT</pubDate>
 <category>discussion</category>
 <description>Gemini 4 Carbon 登顶、DeepSeek 融资 1055 亿、智元用「上岗工时」定义机器人价值。3 分钟看完今天 AI 圈 5 件大事，文末附对照表与可运行早报脚本。 — 来源 掘金，抓取于 2026-10-30T05:26:18.965Z，HTTP 200</description>
-</item>
-<item>
-<title>[分享创造] 开源一个家庭试卷工作台</title>
-<link>https://www.v2ex.com/t/1253312</link>
-<guid isPermaLink="false">af69e5ba104554645915b1b6a9db29caf15b51af</guid>
-<pubDate>Fri, 30 Oct 2026 15:21:07 GMT</pubDate>
-<category>discussion</category>
-<description>初衷很简单：要在网上搜试卷，打印给妹妹做（成绩实在惨不忍睹了）。偶然发现小红书上资源挺不错，一开始就是个简单网页，后来嫌操作繁琐——先用浏览器脚本下载图片，再本地合成 PDF 打印，有时候还得调整图片。趁着 ZCode 还在送 token ，干脆让它直接做成了程序。中间经历了几次迭代，有些功能边界我自己可能都没用到，目前基本功能差不多了，感兴趣的可以试试。 它能做什么 采集浏览 ：在小红书笔记页手动采集试卷图片（单篇手动、有节流，仅限个人学习用途） 试卷库 + 整理打印 ：页序调整、补页，直接打印或导出 A4 PDF （纵/横混排） 试卷批阅 ：本地导入或手机扫码上传作答照片（局域网直传，先进暂存区核对才入库），支持人工批阅和 AI 批阅双路径 AI 批阅 ：推荐走外部批阅——生成 PDF + 配套提示词，丢给豆包这类网页 AI ，结果复制回来粘贴就能自动解析；也支持自带 API Key （ DeepSeek / 智谱 /... — 来源 V2EX · AI 讨论，抓取于 2026-10-30T16:28:48.635Z，HTTP 200</description>
-<enclosure url="https://cdn.v2ex.com/avatar/bef3/24fe/622913_xlarge.png?m=1789134206" type="image/png" />
 </item>
 <item>
 <title>[分享创造] 做了个小工具 cc-pair：让 Claude Code 和 Codex 互相 review 代码</title>

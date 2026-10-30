@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-30T16:28:47.539Z",
-  "total": 3993,
+  "generatedAt": "2026-10-30T19:14:16.804Z",
+  "total": 3992,
   "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 753
+      "count": 754
     },
     {
       "name": "tools",
@@ -14,11 +14,11 @@
     },
     {
       "name": "session",
-      "count": 287
+      "count": 286
     },
     {
       "name": "dev",
-      "count": 253
+      "count": 252
     },
     {
       "name": "workflow",
@@ -78,7 +78,7 @@
       "url": "https://awesome-dsh-plugin.com/p/kyoukisu/dsh-rich-ui/",
       "repo": "https://github.com/kyoukisu/dsh-rich-ui",
       "category": "ui",
-      "description": "用严格的 JSON 契约在 DSH 中渲染富文本回答：带详情面板的实体列表、指标卡、多序列图表、可排序表格、嵌套分层图、流程图与本地控件。",
+      "description": "在 DeepSeek Harness 中呈现 ChatGPT 风格的富文本回答：实体面板、指标卡、多序列图表、可排序表格、嵌套分层图、流程图与本地控件。",
       "version": "0.4.3",
       "publishedAt": "2026-10-30T02:25:34.000Z"
     },
@@ -218,7 +218,7 @@
       "url": "https://awesome-dsh-plugin.com/p/verneuil/dsh-opencode-go-usage/",
       "repo": "https://github.com/verneuil/dsh-opencode-go-usage",
       "category": "usage",
-      "description": "DSH 悬浮窗插件：三环显示 OpenCode Go 的 5 小时 / 本周 / 本月用量，可选同时显示 DeepSeek 账户余额；悬停浮层列出各窗口与重置倒计时，极简模式把三环嵌套显示；设置页可调刷新间隔、进度口径、显示项与浮窗位置。",
+      "description": "DSH 悬浮窗：三环显示 OpenCode Go 的 5 小时 / 本周 / 本月用量，支持自动计算模型配额剩余，可选同时显示 DeepSeek 账户余额；极简模式把三环嵌套显示并支持自定义外 / 中 / 内环数据与实时预览。",
       "version": "3.1.4",
       "publishedAt": "2026-10-30T01:48:38.000Z"
     },
@@ -258,7 +258,7 @@
       "url": "https://awesome-dsh-plugin.com/p/yue7ye/dsh-Context-Drawer/",
       "repo": "https://github.com/yue7ye/dsh-Context-Drawer",
       "category": "session",
-      "description": "按日期把已经结束的对话轮次从 DeepSeek Harness 会话的模型上下文里移走，聊天记录与只追加的会话日志保持原样。",
+      "description": "会话上下文超过阈值时，先把较早的消息追加到按会话归档的文件夹，再把最早的已完成轮次移出模型可见上下文；聊天记录与会话日志保持原样。",
       "version": "0.1.0",
       "publishedAt": "2026-10-30T01:33:30.000Z"
     },

@@ -1,82 +1,86 @@
 {
-  "generatedAt": "2026-10-30T16:31:57.666Z",
+  "generatedAt": "2026-10-30T19:17:25.842Z",
   "windowHours": 72,
   "words": [
     {
-      "w": "models",
-      "n": 178
+      "w": "agent",
+      "n": 171
     },
     {
-      "w": "agent",
+      "w": "models",
       "n": 170
     },
     {
       "w": "model",
-      "n": 152
+      "n": 147
     },
     {
       "w": "发布",
-      "n": 117
+      "n": 116
     },
     {
       "w": "openai",
-      "n": 106
+      "n": 105
     },
     {
       "w": "claude",
-      "n": 97
-    },
-    {
-      "w": "agents",
-      "n": 97
+      "n": 104
     },
     {
       "w": "模型",
       "n": 97
     },
     {
-      "w": "anthropic",
-      "n": 89
+      "w": "agents",
+      "n": 93
     },
     {
-      "w": "pro",
-      "n": 81
+      "w": "anthropic",
+      "n": 91
     },
     {
       "w": "code",
-      "n": 78
+      "n": 79
     },
     {
-      "w": "language",
-      "n": 73
+      "w": "pro",
+      "n": 75
     },
     {
       "w": "智能",
       "n": 72
     },
     {
-      "w": "learning",
-      "n": 69
-    },
-    {
       "w": "data",
-      "n": 63
+      "n": 70
     },
     {
-      "w": "deepseek",
-      "n": 57
-    },
-    {
-      "w": "world",
-      "n": 56
-    },
-    {
-      "w": "training",
-      "n": 55
+      "w": "language",
+      "n": 65
     },
     {
       "w": "google",
-      "n": 53
+      "n": 63
+    },
+    {
+      "w": "learning",
+      "n": 63
+    },
+    {
+      "w": "training",
+      "n": 57
+    },
+    {
+      "w": "deepseek",
+      "n": 55
+    },
+    {
+      "w": "world",
+      "n": 52
+    },
+    {
+      "w": "llm",
+      "n": 46
     },
     {
       "w": "gemini",
@@ -87,111 +91,107 @@
       "n": 46
     },
     {
-      "w": "research",
-      "n": 45
-    },
-    {
-      "w": "token",
-      "n": 45
-    },
-    {
-      "w": "work",
-      "n": 45
-    },
-    {
       "w": "chatgpt",
-      "n": 43
-    },
-    {
-      "w": "llm",
-      "n": 42
-    },
-    {
-      "w": "coding",
-      "n": 41
-    },
-    {
-      "w": "video",
-      "n": 41
-    },
-    {
-      "w": "visual",
-      "n": 41
+      "n": 44
     },
     {
       "w": "app",
+      "n": 44
+    },
+    {
+      "w": "work",
+      "n": 43
+    },
+    {
+      "w": "research",
+      "n": 43
+    },
+    {
+      "w": "video",
       "n": 40
     },
     {
-      "w": "tasks",
+      "w": "visual",
+      "n": 40
+    },
+    {
+      "w": "token",
       "n": 39
-    },
-    {
-      "w": "security",
-      "n": 38
-    },
-    {
-      "w": "agentic",
-      "n": 37
     },
     {
       "w": "nvidia",
       "n": 37
     },
     {
-      "w": "tokens",
-      "n": 37
-    },
-    {
-      "w": "whether",
+      "w": "october",
       "n": 36
-    },
-    {
-      "w": "large",
-      "n": 36
-    },
-    {
-      "w": "introduce",
-      "n": 35
-    },
-    {
-      "w": "only",
-      "n": 34
-    },
-    {
-      "w": "yet",
-      "n": 33
     },
     {
       "w": "intelligence",
+      "n": 36
+    },
+    {
+      "w": "coding",
+      "n": 35
+    },
+    {
+      "w": "agentic",
+      "n": 34
+    },
+    {
+      "w": "security",
       "n": 33
     },
     {
-      "w": "each",
+      "w": "tasks",
       "n": 33
+    },
+    {
+      "w": "codex",
+      "n": 33
+    },
+    {
+      "w": "only",
+      "n": 33
+    },
+    {
+      "w": "large",
+      "n": 33
+    },
+    {
+      "w": "software",
+      "n": 32
+    },
+    {
+      "w": "whether",
+      "n": 32
     },
     {
       "w": "company",
       "n": 32
     },
     {
-      "w": "codex",
+      "w": "billion",
       "n": 32
     },
     {
-      "w": "existing",
+      "w": "introduce",
       "n": 32
+    },
+    {
+      "w": "yet",
+      "n": 31
+    },
+    {
+      "w": "business",
+      "n": 31
+    },
+    {
+      "w": "systems",
+      "n": 31
     },
     {
       "w": "carbon",
-      "n": 31
-    },
-    {
-      "w": "billion",
-      "n": 31
-    },
-    {
-      "w": "built",
       "n": 31
     }
   ]

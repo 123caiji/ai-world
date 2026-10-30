@@ -40,13 +40,13 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/10/31 00:29:01 · 库内 900 条 · 本轮新增 349 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/10/31 03:14:27 · 库内 900 条 · 本轮新增 376 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 205 | [thedotmack/claude-mem · 今日 +1145 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
 | 204 | [ollama/ollama 涨 133 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 196 | [deepseek-ai/deepseek-harness 涨 960 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 924 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [nightly-labs/openbot · 今日 +709 ⭐](https://github.com/nightly-labs/openbot) | GitHub 每日趋势 |
 | 192 | [Donchitos/Claude-Code-Game-Studios · 今日 +353 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |
 | 178 | [mattpocock/skills · 今日 +882 ⭐](https://github.com/mattpocock/skills) | GitHub 每日趋势 |
