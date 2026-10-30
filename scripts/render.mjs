@@ -218,7 +218,7 @@ if (existsSync(WEB)) {
   rss.push('<rss version="2.0"><channel>');
   rss.push('<title>AI 大世界 · 实时 AI 情报站</title>');
   rss.push('<link>https://123caiji.github.io/ai-world/</link>');
-  rss.push('<description>每小时自动采集的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>');
+  rss.push('<description>每 165 分钟自动扫描（无需人工）的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>');
   rss.push('<language>zh-CN</language>');
   rss.push('<lastBuildDate>' + new Date(feed.generatedAt || iso).toUTCString() + '</lastBuildDate>');
   for (const item of rssItems) {

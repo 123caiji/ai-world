@@ -2,7 +2,7 @@
   "name": "ai-world",
   "version": "0.1.0",
   "private": true,
-  "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，每小时自动采集，每条都带可核验证据",
+  "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链），每条都带可核验证据",
   "type": "module",
   "engines": { "node": ">=20" },
   "scripts": {
