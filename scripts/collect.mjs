@@ -109,6 +109,24 @@ async function runSource(source) {
   const started = Date.now();
   try {
     const result = await withTimeout(source.run(ctx), SOURCE_TIMEOUT_MS, source.id);
+    if (result && result.skipped) {
+      console.log('[skip] ' + source.id.padEnd(16) + ' ' + (result.reason || '未启用'));
+      return {
+        id: source.id,
+        label: source.label,
+        kind: source.kind,
+        status: 'skipped',
+        httpStatus: null,
+        items: 0,
+        raw: 0,
+        latencyMs: Date.now() - started,
+        lastOk: null,
+        error: '',
+        reason: result.reason || '',
+        warnings: [],
+        _items: [],
+      };
+    }
     const items = (result.items || []).filter((item) => item && item.url && item.title);
     console.log('[ok]   ' + source.id.padEnd(16) + String(items.length).padStart(4) + ' new items  (' + (result.count || items.length) + ' raw, ' + (Date.now() - started) + 'ms)');
     return {
@@ -278,6 +296,7 @@ writeJson(join(DATA_DIR, 'feed.json'), {
 });
 
 const okCount = reports.filter((r) => r.status === 'ok').length;
+const skippedCount = reports.filter((r) => r.status === 'skipped').length;
 const sourceRows = reports.map(({ _items, ...rest }) => rest);
 const priorMap = new Map((previousSources.sources || []).map((row) => [row.id, row]));
 const sourcesPayload = {
@@ -285,7 +304,8 @@ const sourcesPayload = {
   totals: {
     sources: reports.length,
     ok: okCount,
-    error: reports.length - okCount,
+    skipped: skippedCount,
+    error: reports.length - okCount - skippedCount,
     items: kept.length,
     fresh: freshRows.length,
     latencyMs: reports.reduce((sum, r) => sum + r.latencyMs, 0),
@@ -306,6 +326,6 @@ if (ctx.draft.dsh) writeJson(join(DATA_DIR, 'dsh.json'), ctx.draft.dsh);
 
 console.log('');
 const withImage = kept.filter((item) => item.image).length;
-console.log('collected ' + collected.length + ' items, ' + freshRows.length + ' new, feed=' + kept.length + ', sources ok ' + okCount + '/' + reports.length);
+console.log('collected ' + collected.length + ' items, ' + freshRows.length + ' new, feed=' + kept.length + ', sources ok ' + okCount + '/' + reports.length + (skippedCount ? '（' + skippedCount + ' 个未启用，见 [skip]）' : ''));
 console.log('media: ' + withImage + '/' + kept.length + ' 条带真实缩略图 (' + Math.round((withImage / Math.max(1, kept.length)) * 100) + '%)，本次补图 ' + coverHit + '/' + missing.length + '（' + coverMs + 'ms)');
 for (const row of ctx.draft.github ? ctx.draft.github.warnings || [] : []) console.log('  warn: ' + row);

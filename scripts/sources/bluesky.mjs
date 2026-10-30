@@ -1,4 +1,4 @@
-import { fetchJson } from '../lib/http.mjs';
+import { fetchJson, fetchJsonPost } from '../lib/http.mjs';
 import { makeItem, stripHtml, trimText } from '../lib/util.mjs';
 
 // Bluesky（去中心化微博，AI 圈很多人从 X 搬了过去）的公开搜索接口，不需要任何密钥。
@@ -66,6 +66,26 @@ export const source = {
   kind: 'discussion',
   homepage: 'https://bsky.app/',
   async run(ctx = {}) {
+    // searchPosts 现在要认证（未登录的 AppView 调用一律 403），所以凭据是可选的开关：
+    // 仓库 Secrets 里配 BLUESKY_HANDLE + BLUESKY_APP_PASSWORD（App Password，不是主密码）就自动启用。
+    const handle = String(process.env.BLUESKY_HANDLE || '').trim();
+    const appPassword = String(process.env.BLUESKY_APP_PASSWORD || '').trim();
+    if (!handle || !appPassword) {
+      return {
+        items: [], count: 0, httpStatus: null, latencyMs: 0, skipped: true,
+        reason: '未启用：需要在仓库 Secrets 里配置 BLUESKY_HANDLE 与 BLUESKY_APP_PASSWORD',
+      };
+    }
+    let jwt = '';
+    try {
+      const session = await fetchJsonPost('https://bsky.social/xrpc/com.atproto.server.createSession',
+        { identifier: handle, password: appPassword }, { timeoutMs: 20000, retries: 1 });
+      jwt = session.json.accessJwt || '';
+      if (!jwt) throw new Error('createSession 没有返回 accessJwt');
+    } catch (err) {
+      throw new Error('Bluesky 登录失败（检查 BLUESKY_HANDLE / BLUESKY_APP_PASSWORD）：' + String((err && err.message) || err).slice(0, 160));
+    }
+
     const conf = (ctx.config && ctx.config.social && ctx.config.social.bluesky) || {};
     const queries = Array.isArray(conf.queries) && conf.queries.length ? conf.queries : DEFAULT_QUERIES;
     const accounts = Array.isArray(conf.accounts) ? conf.accounts : DEFAULT_ACCOUNTS;
@@ -90,7 +110,7 @@ export const source = {
     for (const q of queries) {
       const url = SEARCH + '?q=' + encodeURIComponent(q) + '&limit=' + LIMIT + '&sort=top';
       try {
-        const { json, status, latencyMs: ms, fetchedAt } = await fetchJson(url, { timeoutMs: 20000, retries: 1 });
+        const { json, status, latencyMs: ms, fetchedAt } = await fetchJson(url, { timeoutMs: 20000, retries: 1, token: jwt });
         httpStatus = status;
         latencyMs += ms;
         okCount += 1;
@@ -104,7 +124,7 @@ export const source = {
     for (const actor of accounts) {
       const url = FEED + '?actor=' + encodeURIComponent(actor) + '&limit=20&filter=posts_no_replies';
       try {
-        const { json, status, latencyMs: ms, fetchedAt } = await fetchJson(url, { timeoutMs: 20000, retries: 1 });
+        const { json, status, latencyMs: ms, fetchedAt } = await fetchJson(url, { timeoutMs: 20000, retries: 1, token: jwt });
         latencyMs += ms;
         okCount += 1;
         for (const row of json.feed || []) accept(row.post, { via: 'getAuthorFeed', requestUrl: url, fetchedAt, status });

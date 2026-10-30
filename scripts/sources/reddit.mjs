@@ -1,4 +1,4 @@
-import { fetchJson } from '../lib/http.mjs';
+import { fetchJson, fetchJsonPost } from '../lib/http.mjs';
 import { makeItem, stripHtml, trimText } from '../lib/util.mjs';
 
 // Reddit 的公开 JSON 接口（不需要 OAuth，但要用浏览器 UA，否则会被 403）。
@@ -53,6 +53,30 @@ export const source = {
   kind: 'discussion',
   homepage: 'https://www.reddit.com/r/MachineLearning/',
   async run(ctx = {}) {
+    // Reddit 会挡数据中心 IP（GitHub Actions 的出口一律 403），所以凭据同样是可选开关：
+    // Secrets 配 REDDIT_CLIENT_ID + REDDIT_CLIENT_SECRET（script 类型 app）就走 OAuth。
+    const clientId = String(process.env.REDDIT_CLIENT_ID || '').trim();
+    const clientSecret = String(process.env.REDDIT_CLIENT_SECRET || '').trim();
+    if (!clientId || !clientSecret) {
+      return {
+        items: [], count: 0, httpStatus: null, latencyMs: 0, skipped: true,
+        reason: '未启用：需要在仓库 Secrets 里配置 REDDIT_CLIENT_ID 与 REDDIT_CLIENT_SECRET',
+      };
+    }
+    let access = '';
+    try {
+      const basic = Buffer.from(clientId + ':' + clientSecret).toString('base64');
+      const tok = await fetchJsonPost('https://www.reddit.com/api/v1/access_token', 'grant_type=client_credentials', {
+        contentType: 'application/x-www-form-urlencoded',
+        headers: { authorization: 'Basic ' + basic, 'user-agent': UA },
+        timeoutMs: 20000, retries: 1,
+      });
+      access = tok.json.access_token || '';
+      if (!access) throw new Error('access_token 为空');
+    } catch (err) {
+      throw new Error('Reddit 取 token 失败（检查 REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET）：' + String((err && err.message) || err).slice(0, 160));
+    }
+
     const conf = (ctx.config && ctx.config.social && ctx.config.social.reddit) || {};
     const subs = Array.isArray(conf.subs) && conf.subs.length ? conf.subs : DEFAULT_SUBS;
     const items = [];
@@ -64,9 +88,9 @@ export const source = {
     let okCount = 0;
 
     for (const sub of subs) {
-      const requestUrl = 'https://www.reddit.com/r/' + encodeURIComponent(sub) + '/hot.json?limit=' + LIMIT + '&raw_json=1';
+      const requestUrl = 'https://oauth.reddit.com/r/' + encodeURIComponent(sub) + '/hot?limit=' + LIMIT + '&raw_json=1';
       try {
-        const { json, status, latencyMs: ms, fetchedAt } = await fetchJson(requestUrl, { timeoutMs: 20000, retries: 1, headers: { 'user-agent': UA } });
+        const { json, status, latencyMs: ms, fetchedAt } = await fetchJson(requestUrl, { timeoutMs: 20000, retries: 1, headers: { 'user-agent': UA, authorization: 'Bearer ' + access } });
         httpStatus = status;
         latencyMs += ms;
         okCount += 1;
@@ -87,7 +111,7 @@ export const source = {
       await sleep(400);
     }
 
-    if (!okCount) throw new Error('Reddit 全部失败（本机被墙或云端 IP 被限流时属正常）：' + warnings.slice(0, 2).join(' | '));
+    if (!okCount) throw new Error('Reddit 全部失败（凭据失效或被限流）：' + warnings.slice(0, 2).join(' | '));
     return { items, httpStatus, latencyMs, count: raw, warnings };
   },
 };

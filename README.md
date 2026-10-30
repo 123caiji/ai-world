@@ -40,13 +40,13 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/10/30 16:12:08 · 库内 900 条 · 本轮新增 254 条 · 数据源 59/61 正常
+**最近一次采集**：2026/10/30 13:26:34 · 库内 849 条 · 本轮新增 162 条 · 数据源 39/39 正常
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 201 | [thedotmack/claude-mem · 今日 +336 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 632 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [nightly-labs/openbot · 今日 +709 ⭐](https://github.com/nightly-labs/openbot) | GitHub 每日趋势 |
+| 195 | [deepseek-ai/deepseek-harness 涨 463 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 192 | [Donchitos/Claude-Code-Game-Studios · 今日 +353 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |
 | 178 | [pbakaus/impeccable · 今日 +2870 ⭐](https://github.com/pbakaus/impeccable) | GitHub 每日趋势 |
 | 171 | [CopilotKit/OpenBot · 今日 +247 ⭐](https://github.com/CopilotKit/OpenBot) | GitHub 每日趋势 |
@@ -104,16 +104,28 @@
 | 官方 | OpenAI · Google DeepMind · Hugging Face · GitHub · Cloudflare | 各自 RSS |
 | 英文 | The Decoder · TechCrunch AI · MIT 科技评论 · Latent Space · Simon Willison | 各自 RSS |
 | 产品 | Product Hunt | `producthunt.com/feed` |
-| 社交 | Bluesky（AI 话题搜索，按点赞排序） | `public.api.bsky.app/xrpc/app.bsky.feed.searchPosts` |
+| 社交 | Bluesky（AI 话题搜索，按点赞排序；**需凭据**） | `app.bsky.feed.searchPosts`（认证后） |
 | 社交 | Mastodon（#ai / #LLM / #MachineLearning 话题时间线；mastodon.social / sigmoid.social / hachyderm.io 多实例） | `<实例>/api/v1/timelines/tag/*` |
-| 社交 | Reddit · r/MachineLearning · r/LocalLLaMA · r/artificial · r/OpenAI | `reddit.com/r/*/hot.json` |
+| 社交 | Reddit · r/MachineLearning · r/LocalLLaMA · r/artificial · r/OpenAI（**需凭据**） | `oauth.reddit.com/r/*/hot` |
 | 官方 | Google AI · Qwen · 微软研究院 · Apple 机器学习 · AWS 机器学习 | 各自 RSS |
 | 分析 | AI News (smol.ai) · Interconnects · One Useful Thing · Ahead of AI · The Gradient · Techmeme | 各自 RSS |
 | 社区 | LessWrong · Alignment Forum | 各自 RSS |
 | 媒体 | MarkTechPost · Synced Review · AI Business · IEEE Spectrum AI · Unite.AI | 各自 RSS |
 | 官方 | Together AI 博客 | `together.ai/blog/rss.xml` |
 
-> **关于「推特」**：X / Twitter 没有免费公开 API（要付费），所以这里用 **Bluesky** 补上「推特类」的实时讨论，再加 Mastodon 和 Reddit。三个都是公开接口、不需要 key。你自己的 Bluesky 关注列表可以写进 `config/watchlist.json` 的 `social.bluesky.accounts`，下一轮采集自动生效。
+> **关于「推特」**：X / Twitter 没有免费公开 API（要付费），所以这里用 **Bluesky** 补上「推特类」的实时讨论，再加 Mastodon 和 Reddit。Mastodon 是公开接口、开箱即用；你自己的 Bluesky 关注列表可以写进 `config/watchlist.json` 的 `social.bluesky.accounts`，下一轮采集自动生效。
+>
+> **Bluesky / Reddit 需要凭据才启用**（实测：Bluesky 的 `searchPosts` 已要求登录、Reddit 会挡数据中心 IP，Actions 里不配凭据一律 403）。不想配也没关系——它们会在面板上显示为「未启用」（灰点，不计入异常），其余数据源照常。
+>
+> 配法（仓库 Settings → Secrets and variables → Actions → New repository secret）：
+>
+> | Secret | 取值 |
+> | --- | --- |
+> | `BLUESKY_HANDLE` | 你的 Bluesky 账号，如 `xxx.bsky.social` |
+> | `BLUESKY_APP_PASSWORD` | Bluesky 设置里的 App Password（**不是**主密码） |
+> | `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` | reddit.com/prefs/apps 建一个 `script` 类型 app 得到的两个值 |
+>
+> 配好后下一轮采集自动生效，不需要改代码。
 
 ## 本地跑
 

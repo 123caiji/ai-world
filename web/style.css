@@ -394,7 +394,10 @@ html[data-theme="light"] .hero h1 { background: linear-gradient(96deg, #0b1526 6
 .src-grid .s .n { margin-left: auto; font: 10.5px/1 var(--mono); color: var(--muted); }
 .dot { width: 6px; height: 6px; border-radius: 50%; flex: none; background: var(--green); box-shadow: 0 0 7px rgba(52, 211, 153, .8); }
 .dot.err { background: var(--red); box-shadow: 0 0 7px rgba(251, 113, 133, .8); }
+.dot.off { background: var(--muted); box-shadow: none; opacity: .55; }
+.src-grid .s.off { opacity: .6; }
 .src-err { grid-column: 1 / -1; font-size: 10.5px; color: var(--red); opacity: .85; }
+.src-note { grid-column: 1 / -1; font-size: 10.5px; color: var(--muted); opacity: .85; }
 
 .verify { margin: 0; padding-left: 16px; line-height: 1.72; font-size: 12px; }
 .verify li { margin-bottom: 6px; }

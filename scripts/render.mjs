@@ -33,6 +33,8 @@ for (const item of items) {
 }
 const sourceRows = sources.sources || [];
 const okCount = sourceRows.filter((row) => row.status === 'ok').length;
+const skippedCount = sourceRows.filter((row) => row.status === 'skipped').length;
+const onlineCount = Math.max(1, sourceRows.length - skippedCount);
 
 function zhTime(isoString) {
   try {
@@ -146,6 +148,7 @@ const site = {
     bySource,
     sourcesOk: okCount,
     sourcesTotal: sourceRows.length,
+    sourcesSkipped: skippedCount,
     newRepos: (github.newRepos || []).length,
     risers: (github.risers || []).length,
     releases: (github.releases || []).length,
@@ -172,7 +175,7 @@ function updateReadme() {
   if (start === -1 || end === -1) return;
   const block = [];
   block.push('<!-- RADAR:START -->');
-  block.push('**最近一次采集**：' + zhTime(feed.generatedAt || iso) + ' · 库内 ' + items.length + ' 条 · 本轮新增 ' + (feed.freshCount || 0) + ' 条 · 数据源 ' + okCount + '/' + sourceRows.length + ' 正常');
+  block.push('**最近一次采集**：' + zhTime(feed.generatedAt || iso) + ' · 库内 ' + items.length + ' 条 · 本轮新增 ' + (feed.freshCount || 0) + ' 条 · 数据源 ' + okCount + '/' + (sourceRows.length - skippedCount) + ' 正常' + (skippedCount ? '（另有 ' + skippedCount + ' 个待配置凭据）' : ''));
   block.push('');
   block.push('| 热度 | 条目 | 来源 |');
   block.push('| ---: | --- | --- |');
