@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/10/30 05:01:00 · 库内 666 条 · 本轮新增 32 条 · 数据源 39/39 正常
+**最近一次采集**：2026/10/30 08:47:43 · 库内 689 条 · 本轮新增 28 条 · 数据源 38/39 正常
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 204 | [thedotmack/claude-mem · 今日 +459 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
-| 196 | [nightly-labs/openbot · 今日 +705 ⭐](https://github.com/nightly-labs/openbot) | GitHub 每日趋势 |
-| 196 | [Donchitos/Claude-Code-Game-Studios · 今日 +538 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |
-| 195 | [deepseek-ai/deepseek-harness 涨 132 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 178 | [pbakaus/impeccable · 今日 +2881 ⭐](https://github.com/pbakaus/impeccable) | GitHub 每日趋势 |
-| 170 | [CopilotKit/OpenBot · 今日 +240 ⭐](https://github.com/CopilotKit/OpenBot) | GitHub 每日趋势 |
+| 201 | [thedotmack/claude-mem · 今日 +336 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
+| 196 | [nightly-labs/openbot · 今日 +709 ⭐](https://github.com/nightly-labs/openbot) | GitHub 每日趋势 |
+| 192 | [Donchitos/Claude-Code-Game-Studios · 今日 +353 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |
+| 186 | [deepseek-ai/deepseek-harness 涨 182 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 178 | [pbakaus/impeccable · 今日 +2870 ⭐](https://github.com/pbakaus/impeccable) | GitHub 每日趋势 |
+| 171 | [CopilotKit/OpenBot · 今日 +247 ⭐](https://github.com/CopilotKit/OpenBot) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
