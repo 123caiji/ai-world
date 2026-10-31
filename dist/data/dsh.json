@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T17:19:55.125Z",
+  "generatedAt": "2026-10-31T20:05:39.492Z",
   "total": 4092,
   "newCount": 0,
   "firstRun": false,
@@ -22,7 +22,7 @@
     },
     {
       "name": "workflow",
-      "count": 252
+      "count": 253
     },
     {
       "name": "model",
@@ -188,7 +188,7 @@
       "url": "https://awesome-dsh-plugin.com/p/westanke/dsh-remote-bridge/",
       "repo": "https://github.com/westanke/dsh-remote-bridge",
       "category": "remote",
-      "description": "把 DSH 内核的私有 remote 协议翻译成版本化 REST 接口（聊天、会话、文件、设备），供 Android 客户端 dsh-companion 等受信任客户端使用；桌面端在 DSH 设置里内联渲染七张折叠卡片（根目录 / 远程访问 / 设备 / 识图 / 回收站 / 插件 / App 下载）。",
+      "description": "把 DSH 内核的私有 remote 协议翻译成版本化 REST 接口（聊天、会话、文件、设备），供 Android 客户端 dsh-companion 等受信任客户端使用；桌面端在 DSH 设置里提供「手机设置」面板：主列表五张卡（远程访问 / 外网隧道 / 设备 / 回收站 / App…",
       "version": "2.9.0",
       "publishedAt": "2026-10-31T01:39:21.000Z"
     },
@@ -258,7 +258,7 @@
       "url": "https://awesome-dsh-plugin.com/p/2310770803/dsh-session-copy/",
       "repo": "https://github.com/2310770803/dsh-session-copy",
       "category": "session",
-      "description": "在会话标题栏添加一个复制按钮，可复制会话深度链接、整段对话 Markdown 或工作目录。",
+      "description": "在会话标题栏添加一个复制按钮，可复制会话深度链接、整段对话 Markdown、勾选的部分消息（QQ/微信式多选）或工作目录。",
       "version": "1.3.1",
       "publishedAt": "2026-10-31T01:13:58.000Z"
     },
@@ -358,7 +358,7 @@
       "url": "https://awesome-dsh-plugin.com/p/ILoveHAKU/dsh-dialog-fence/",
       "repo": "https://github.com/ILoveHAKU/dsh-dialog-fence",
       "category": "dev",
-      "description": "给每个对话加一道行为围栏：规则存在一个 JSON 文件里，可在设置页或对话面板里编辑，每条规则右侧都有独立开关，可以随时单独停用某一条而不用删掉它（停用项不参与注入、剩余条目编号仍然连续），启用中的规则作为一段固定顺序的运行时上下文注入，不重写系统提示词前缀。",
+      "description": "给每个对话加一道行为围栏：规则存在一个 JSON 文件里，可在设置页或对话面板里编辑，每条规则右侧都有独立开关，可以随时单独停用某一条而不用删掉它（停用项不参与注入、剩余条目编号仍然连续）；也可以多选若干对话整体排除在外，让它们完全不受围栏约束，勾选对话本身不会改动任何规则；启用中的规则作为一段固定顺序的运行时上下文注…",
       "version": "0.14.0",
       "publishedAt": "2026-10-31T00:36:23.000Z"
     },
