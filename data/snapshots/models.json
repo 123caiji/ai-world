@@ -523,14 +523,6 @@
     "created": 1784818580,
     "name": "inclusionAI: Ling 3.0 Flash"
   },
-  "poolside/laguna-s-2.1": {
-    "created": 1784652683,
-    "name": "Poolside: Laguna S 2.1"
-  },
-  "poolside/laguna-s-2.1:free": {
-    "created": 1784652683,
-    "name": "Poolside: Laguna S 2.1 (free)"
-  },
   "google/gemini-3.6-flash": {
     "created": 1784646733,
     "name": "Google: Gemini 3.6 Flash"
@@ -638,14 +630,6 @@
   "tencent/hy3": {
     "created": 1783344048,
     "name": "Tencent: Hy3"
-  },
-  "poolside/laguna-xs-2.1": {
-    "created": 1783002429,
-    "name": "Poolside: Laguna XS 2.1"
-  },
-  "poolside/laguna-xs-2.1:free": {
-    "created": 1783002429,
-    "name": "Poolside: Laguna XS 2.1 (free)"
   },
   "anthropic/claude-sonnet-5": {
     "created": 1782843083,

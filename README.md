@@ -40,13 +40,13 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/10/31 19:49:03 · 库内 900 条 · 本轮新增 473 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/10/31 22:34:39 · 库内 900 条 · 本轮新增 479 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 208 | [Orkas-AI/Orkas · 今日 +1004 ⭐](https://github.com/Orkas-AI/Orkas) | GitHub 每日趋势 |
 | 205 | [thedotmack/claude-mem · 今日 +1723 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 580 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 584 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [Orkas-AI/Orkas · 今日 +1004 ⭐](https://github.com/Orkas-AI/Orkas) | GitHub 每日趋势 |
 | 196 | [Donchitos/Claude-Code-Game-Studios · 今日 +1347 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |
 | 196 | [nightly-labs/openbot · 今日 +709 ⭐](https://github.com/nightly-labs/openbot) | GitHub 每日趋势 |
 | 191 | [ollama/ollama 涨 128 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
