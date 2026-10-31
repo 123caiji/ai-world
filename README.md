@@ -40,12 +40,12 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/10/31 11:31:59 · 库内 900 条 · 本轮新增 409 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/10/31 14:17:41 · 库内 900 条 · 本轮新增 458 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 205 | [thedotmack/claude-mem · 今日 +1140 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 734 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 650 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [nightly-labs/openbot · 今日 +709 ⭐](https://github.com/nightly-labs/openbot) | GitHub 每日趋势 |
 | 194 | [6 AI Updates Worth Knowing & A Bubble-Bursting IPO](https://www.youtube.com/watch?v=eDiQNFa-zYg) | YouTube · Matt Wolfe |
 | 192 | [Donchitos/Claude-Code-Game-Studios · 今日 +353 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |

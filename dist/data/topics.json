@@ -1,125 +1,109 @@
 {
-  "generatedAt": "2026-10-31T03:34:08.805Z",
+  "generatedAt": "2026-10-31T06:20:31.651Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 169
+      "n": 165
     },
     {
       "w": "openai",
       "n": 131
     },
     {
-      "w": "models",
-      "n": 128
+      "w": "claude",
+      "n": 126
     },
     {
       "w": "发布",
-      "n": 123
-    },
-    {
-      "w": "model",
-      "n": 120
-    },
-    {
-      "w": "claude",
       "n": 119
     },
     {
-      "w": "anthropic",
-      "n": 102
+      "w": "models",
+      "n": 119
     },
     {
       "w": "模型",
-      "n": 99
+      "n": 107
     },
     {
-      "w": "pro",
-      "n": 85
+      "w": "model",
+      "n": 106
+    },
+    {
+      "w": "anthropic",
+      "n": 104
     },
     {
       "w": "code",
-      "n": 83
+      "n": 85
     },
     {
-      "w": "google",
-      "n": 79
+      "w": "pro",
+      "n": 82
     },
     {
       "w": "智能",
-      "n": 77
+      "n": 81
     },
     {
       "w": "data",
-      "n": 75
+      "n": 78
     },
     {
-      "w": "agents",
-      "n": 73
-    },
-    {
-      "w": "deepseek",
-      "n": 57
+      "w": "google",
+      "n": 72
     },
     {
       "w": "chatgpt",
-      "n": 55
+      "n": 64
+    },
+    {
+      "w": "deepseek",
+      "n": 61
+    },
+    {
+      "w": "agents",
+      "n": 57
     },
     {
       "w": "app",
-      "n": 51
-    },
-    {
-      "w": "芯片",
-      "n": 51
-    },
-    {
-      "w": "gemini",
-      "n": 51
+      "n": 54
     },
     {
       "w": "ceo",
-      "n": 47
+      "n": 48
     },
     {
-      "w": "language",
-      "n": 46
-    },
-    {
-      "w": "llm",
-      "n": 46
+      "w": "芯片",
+      "n": 48
     },
     {
       "w": "training",
       "n": 45
     },
     {
-      "w": "nvidia",
-      "n": 44
+      "w": "llm",
+      "n": 45
     },
     {
-      "w": "learning",
-      "n": 44
+      "w": "language",
+      "n": 43
+    },
+    {
+      "w": "gemini",
+      "n": 43
     },
     {
       "w": "october",
-      "n": 42
+      "n": 41
     },
     {
-      "w": "intelligence",
-      "n": 42
-    },
-    {
-      "w": "work",
-      "n": 42
-    },
-    {
-      "w": "world",
+      "w": "learning",
       "n": 40
     },
     {
-      "w": "coding",
+      "w": "token",
       "n": 39
     },
     {
@@ -127,72 +111,88 @@
       "n": 38
     },
     {
-      "w": "token",
-      "n": 38
+      "w": "meta",
+      "n": 37
     },
     {
-      "w": "amazon",
-      "n": 35
+      "w": "intelligence",
+      "n": 36
     },
     {
-      "w": "billion",
-      "n": 35
-    },
-    {
-      "w": "company",
-      "n": 33
+      "w": "world",
+      "n": 36
     },
     {
       "w": "apple",
+      "n": 34
+    },
+    {
+      "w": "coding",
       "n": 33
+    },
+    {
+      "w": "nvidia",
+      "n": 32
+    },
+    {
+      "w": "work",
+      "n": 32
+    },
+    {
+      "w": "amazon",
+      "n": 32
+    },
+    {
+      "w": "billion",
+      "n": 32
     },
     {
       "w": "research",
-      "n": 33
+      "n": 32
     },
     {
       "w": "api",
-      "n": 32
+      "n": 31
     },
     {
-      "w": "carbon",
-      "n": 32
+      "w": "search",
+      "n": 30
     },
     {
-      "w": "microsoft",
-      "n": 32
+      "w": "算力",
+      "n": 30
     },
     {
-      "w": "software",
-      "n": 32
+      "w": "company",
+      "n": 30
     },
     {
       "w": "iphone",
-      "n": 31
+      "n": 30
     },
     {
-      "w": "codex",
-      "n": 31
+      "w": "build",
+      "n": 29
     },
     {
       "w": "only",
-      "n": 30
+      "n": 29
+    },
+    {
+      "w": "alphabet",
+      "n": 29
     },
     {
       "w": "大模型",
       "n": 29
     },
     {
-      "w": "meta",
+      "w": "microsoft",
       "n": 29
     },
     {
-      "w": "max",
-      "n": 29
-    },
-    {
-      "w": "agentic",
-      "n": 29
+      "w": "cursor",
+      "n": 28
     }
   ]
 }
