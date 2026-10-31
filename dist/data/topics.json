@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-31T14:37:26.559Z",
+  "generatedAt": "2026-10-31T17:23:07.396Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 167
+      "n": 175
     },
     {
       "w": "claude",
@@ -12,15 +12,15 @@
     },
     {
       "w": "openai",
-      "n": 127
+      "n": 131
     },
     {
       "w": "发布",
-      "n": 124
+      "n": 122
     },
     {
       "w": "anthropic",
-      "n": 111
+      "n": 114
     },
     {
       "w": "模型",
@@ -28,70 +28,70 @@
     },
     {
       "w": "code",
-      "n": 94
-    },
-    {
-      "w": "models",
       "n": 89
     },
     {
       "w": "data",
-      "n": 84
+      "n": 87
+    },
+    {
+      "w": "models",
+      "n": 86
     },
     {
       "w": "model",
-      "n": 83
-    },
-    {
-      "w": "pro",
       "n": 78
     },
     {
-      "w": "智能",
-      "n": 76
+      "w": "pro",
+      "n": 77
     },
     {
-      "w": "deepseek",
-      "n": 70
+      "w": "智能",
+      "n": 72
     },
     {
       "w": "google",
+      "n": 69
+    },
+    {
+      "w": "deepseek",
       "n": 67
     },
     {
       "w": "chatgpt",
-      "n": 62
-    },
-    {
-      "w": "芯片",
       "n": 61
     },
     {
-      "w": "app",
-      "n": 56
+      "w": "芯片",
+      "n": 58
     },
     {
-      "w": "ceo",
+      "w": "app",
       "n": 55
     },
     {
+      "w": "ceo",
+      "n": 54
+    },
+    {
       "w": "agents",
-      "n": 50
+      "n": 53
     },
     {
       "w": "llm",
-      "n": 43
+      "n": 47
     },
     {
       "w": "meta",
-      "n": 41
-    },
-    {
-      "w": "world",
-      "n": 38
+      "n": 45
     },
     {
       "w": "算力",
+      "n": 38
+    },
+    {
+      "w": "training",
       "n": 37
     },
     {
@@ -99,31 +99,39 @@
       "n": 37
     },
     {
+      "w": "world",
+      "n": 37
+    },
+    {
+      "w": "research",
+      "n": 36
+    },
+    {
+      "w": "intelligence",
+      "n": 36
+    },
+    {
+      "w": "europe",
+      "n": 36
+    },
+    {
       "w": "apple",
       "n": 36
     },
     {
-      "w": "training",
-      "n": 36
-    },
-    {
-      "w": "business",
-      "n": 36
+      "w": "proton",
+      "n": 35
     },
     {
       "w": "max",
       "n": 35
     },
     {
-      "w": "intelligence",
-      "n": 35
-    },
-    {
-      "w": "research",
+      "w": "news",
       "n": 34
     },
     {
-      "w": "europe",
+      "w": "people",
       "n": 34
     },
     {
@@ -131,7 +139,19 @@
       "n": 34
     },
     {
-      "w": "alphabet",
+      "w": "business",
+      "n": 34
+    },
+    {
+      "w": "artificialintelligence",
+      "n": 34
+    },
+    {
+      "w": "amazon",
+      "n": 33
+    },
+    {
+      "w": "company",
       "n": 33
     },
     {
@@ -139,35 +159,27 @@
       "n": 33
     },
     {
-      "w": "people",
+      "w": "tech",
       "n": 32
-    },
-    {
-      "w": "amazon",
-      "n": 32
-    },
-    {
-      "w": "company",
-      "n": 31
-    },
-    {
-      "w": "proton",
-      "n": 31
     },
     {
       "w": "coding",
+      "n": 32
+    },
+    {
+      "w": "europesays.com",
+      "n": 32
+    },
+    {
+      "w": "windows",
+      "n": 31
+    },
+    {
+      "w": "iphone",
       "n": 30
     },
     {
-      "w": "only",
-      "n": 30
-    },
-    {
-      "w": "gemini",
-      "n": 30
-    },
-    {
-      "w": "tech",
+      "w": "api",
       "n": 30
     },
     {
@@ -175,23 +187,11 @@
       "n": 30
     },
     {
-      "w": "nvidia",
-      "n": 30
-    },
-    {
-      "w": "artificialintelligence",
-      "n": 30
-    },
-    {
-      "w": "europesays.com",
-      "n": 30
-    },
-    {
-      "w": "codex",
+      "w": "alphabet",
       "n": 29
     },
     {
-      "w": "windows",
+      "w": "only",
       "n": 29
     }
   ]
