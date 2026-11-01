@@ -13,7 +13,7 @@ export const source = {
   homepage: 'https://arxiv.org/',
   async run() {
     const query = CATEGORIES.map((cat) => 'cat:' + cat).join('+OR+');
-    const url = 'http://export.arxiv.org/api/query?search_query=' + query + '&sortBy=submittedDate&sortOrder=descending&max_results=' + (PER_CATEGORY * CATEGORIES.length);
+    const url = 'https://export.arxiv.org/api/query?search_query=' + query + '&sortBy=submittedDate&sortOrder=descending&max_results=' + (PER_CATEGORY * CATEGORIES.length);
     const res = await fetchText(url, { timeoutMs: 40000 });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const parsed = parseFeed(res.text);

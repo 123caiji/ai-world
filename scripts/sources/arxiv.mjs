@@ -18,7 +18,7 @@ export const source = {
     let latencyMs = 0;
     let rawCount = 0;
     for (const cat of CATEGORIES) {
-      const url = 'http://export.arxiv.org/api/query?search_query=cat:' + cat + '&sortBy=submittedDate&sortOrder=descending&max_results=' + PER_CATEGORY;
+      const url = 'https://export.arxiv.org/api/query?search_query=cat:' + cat + '&sortBy=submittedDate&sortOrder=descending&max_results=' + PER_CATEGORY;
       const res = await fetchText(url, { timeoutMs: 30000 });
       httpStatus = res.status;
       latencyMs += res.latencyMs;
