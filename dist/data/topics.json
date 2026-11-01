@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-01T07:11:25.072Z",
+  "generatedAt": "2026-11-01T09:56:55.115Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 173
+      "n": 180
     },
     {
       "w": "claude",
-      "n": 130
+      "n": 127
     },
     {
       "w": "openai",
@@ -16,15 +16,15 @@
     },
     {
       "w": "发布",
-      "n": 123
-    },
-    {
-      "w": "anthropic",
-      "n": 100
+      "n": 111
     },
     {
       "w": "模型",
-      "n": 99
+      "n": 94
+    },
+    {
+      "w": "anthropic",
+      "n": 93
     },
     {
       "w": "code",
@@ -32,66 +32,62 @@
     },
     {
       "w": "data",
-      "n": 84
-    },
-    {
-      "w": "deepseek",
-      "n": 74
+      "n": 88
     },
     {
       "w": "chatgpt",
-      "n": 71
+      "n": 78
     },
     {
-      "w": "智能",
+      "w": "deepseek",
+      "n": 72
+    },
+    {
+      "w": "pro",
       "n": 71
     },
     {
       "w": "google",
-      "n": 65
+      "n": 67
     },
     {
-      "w": "pro",
-      "n": 60
+      "w": "智能",
+      "n": 64
     },
     {
       "w": "llm",
-      "n": 59
+      "n": 62
     },
     {
       "w": "ceo",
-      "n": 58
+      "n": 57
     },
     {
       "w": "models",
-      "n": 55
+      "n": 56
     },
     {
       "w": "芯片",
       "n": 54
     },
     {
-      "w": "europesays.com",
-      "n": 50
-    },
-    {
       "w": "model",
-      "n": 49
+      "n": 51
     },
     {
-      "w": "meta",
-      "n": 49
+      "w": "tech",
+      "n": 48
     },
     {
       "w": "news",
-      "n": 45
-    },
-    {
-      "w": "europe",
-      "n": 45
+      "n": 47
     },
     {
       "w": "artificialintelligence",
+      "n": 44
+    },
+    {
+      "w": "meta",
       "n": 43
     },
     {
@@ -99,11 +95,7 @@
       "n": 42
     },
     {
-      "w": "tech",
-      "n": 42
-    },
-    {
-      "w": "app",
+      "w": "europesays.com",
       "n": 42
     },
     {
@@ -111,12 +103,20 @@
       "n": 40
     },
     {
+      "w": "europe",
+      "n": 40
+    },
+    {
+      "w": "app",
+      "n": 39
+    },
+    {
       "w": "people",
       "n": 39
     },
     {
-      "w": "pubeurope.com",
-      "n": 39
+      "w": "max",
+      "n": 37
     },
     {
       "w": "windows",
@@ -127,72 +127,72 @@
       "n": 37
     },
     {
-      "w": "intelligence",
+      "w": "ram",
       "n": 35
+    },
+    {
+      "w": "coding",
+      "n": 35
+    },
+    {
+      "w": "ultra",
+      "n": 34
+    },
+    {
+      "w": "pubeurope.com",
+      "n": 34
+    },
+    {
+      "w": "agentic",
+      "n": 33
+    },
+    {
+      "w": "api",
+      "n": 33
     },
     {
       "w": "software",
       "n": 33
     },
     {
-      "w": "iphone",
-      "n": 32
-    },
-    {
-      "w": "max",
-      "n": 32
-    },
-    {
-      "w": "company",
-      "n": 32
-    },
-    {
-      "w": "coding",
-      "n": 32
-    },
-    {
-      "w": "cursor",
-      "n": 32
-    },
-    {
       "w": "codex",
-      "n": 32
+      "n": 31
+    },
+    {
+      "w": "mastodon.social",
+      "n": 31
+    },
+    {
+      "w": "altman",
+      "n": 31
+    },
+    {
+      "w": "work",
+      "n": 30
+    },
+    {
+      "w": "business",
+      "n": 30
     },
     {
       "w": "算力",
-      "n": 32
-    },
-    {
-      "w": "token",
-      "n": 31
-    },
-    {
-      "w": "api",
-      "n": 31
-    },
-    {
-      "w": "october",
-      "n": 31
+      "n": 30
     },
     {
       "w": "build",
       "n": 30
     },
     {
-      "w": "agentic",
+      "w": "company",
       "n": 30
     },
     {
-      "w": "business",
-      "n": 29
+      "w": "cursor",
+      "n": 30
     },
     {
-      "w": "work",
-      "n": 29
-    },
-    {
-      "w": "mastodon.social",
-      "n": 28
+      "w": "october",
+      "n": 30
     }
   ]
 }
