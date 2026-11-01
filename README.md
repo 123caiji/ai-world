@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/1 06:51:39 · 库内 900 条 · 本轮新增 475 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/1 09:37:10 · 库内 900 条 · 本轮新增 474 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 205 | [thedotmack/claude-mem · 今日 +1723 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 689 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 196 | [Orkas-AI/Orkas · 今日 +1118 ⭐](https://github.com/Orkas-AI/Orkas) | GitHub 每日趋势 |
-| 196 | [Donchitos/Claude-Code-Game-Studios · 今日 +724 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |
+| 196 | [deepseek-ai/deepseek-harness 涨 658 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [Orkas-AI/Orkas · 今日 +1044 ⭐](https://github.com/Orkas-AI/Orkas) | GitHub 每日趋势 |
 | 191 | [ollama/ollama 涨 128 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 178 | [mattpocock/skills · 今日 +882 ⭐](https://github.com/mattpocock/skills) | GitHub 每日趋势 |
+| 190 | [pbakaus/impeccable · 今日 +1338 ⭐](https://github.com/pbakaus/impeccable) | GitHub 每日趋势 |
+| 178 | [mattpocock/skills · 今日 +883 ⭐](https://github.com/mattpocock/skills) | GitHub 每日趋势 |
+| 176 | [ggml-org/llama.cpp 涨 122 星](https://github.com/ggml-org/llama.cpp) | GitHub 涨星榜 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
