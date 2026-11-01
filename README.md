@@ -40,13 +40,13 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/2 02:11:03 · 库内 900 条 · 本轮新增 560 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/2 04:56:35 · 库内 900 条 · 本轮新增 553 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 205 | [thedotmack/claude-mem · 今日 +1527 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
 | 203 | [beenuar/AiSOC · 今日 +436 ⭐](https://github.com/beenuar/AiSOC) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 828 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 851 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [patchy631/ai-engineering-hub · 今日 +573 ⭐](https://github.com/patchy631/ai-engineering-hub) | GitHub 每日趋势 |
 | 196 | [Donchitos/Claude-Code-Game-Studios · 今日 +970 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |
 | 196 | [Orkas-AI/Orkas · 今日 +1044 ⭐](https://github.com/Orkas-AI/Orkas) | GitHub 每日趋势 |
