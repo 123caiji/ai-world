@@ -1,54 +1,50 @@
 {
-  "generatedAt": "2026-11-02T19:05:17.497Z",
+  "generatedAt": "2026-11-02T21:50:49.456Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 176
+      "n": 166
     },
     {
       "w": "openai",
-      "n": 112
-    },
-    {
-      "w": "模型",
-      "n": 101
-    },
-    {
-      "w": "发布",
-      "n": 97
+      "n": 115
     },
     {
       "w": "claude",
+      "n": 97
+    },
+    {
+      "w": "模型",
+      "n": 95
+    },
+    {
+      "w": "发布",
       "n": 92
     },
     {
       "w": "智能",
-      "n": 91
+      "n": 86
     },
     {
       "w": "anthropic",
-      "n": 85
+      "n": 79
     },
     {
       "w": "data",
-      "n": 68
-    },
-    {
-      "w": "deepseek",
-      "n": 68
-    },
-    {
-      "w": "llm",
-      "n": 66
+      "n": 78
     },
     {
       "w": "model",
-      "n": 66
+      "n": 71
     },
     {
       "w": "pro",
       "n": 64
+    },
+    {
+      "w": "llm",
+      "n": 63
     },
     {
       "w": "chatgpt",
@@ -56,42 +52,54 @@
     },
     {
       "w": "models",
-      "n": 59
+      "n": 57
+    },
+    {
+      "w": "code",
+      "n": 56
     },
     {
       "w": "agentic",
-      "n": 53
+      "n": 56
+    },
+    {
+      "w": "deepseek",
+      "n": 56
+    },
+    {
+      "w": "agents",
+      "n": 52
     },
     {
       "w": "tech",
       "n": 52
     },
     {
-      "w": "code",
-      "n": 51
+      "w": "company",
+      "n": 48
     },
     {
-      "w": "agents",
-      "n": 50
+      "w": "news",
+      "n": 48
     },
     {
       "w": "mnl",
       "n": 48
     },
     {
-      "w": "news",
-      "n": 46
-    },
-    {
       "w": "europesays.com",
-      "n": 44
+      "n": 48
     },
     {
       "w": "work",
+      "n": 44
+    },
+    {
+      "w": "google",
       "n": 43
     },
     {
-      "w": "company",
+      "w": "artificialintelligence",
       "n": 42
     },
     {
@@ -103,35 +111,35 @@
       "n": 40
     },
     {
-      "w": "artificialintelligence",
-      "n": 40
+      "w": "november",
+      "n": 38
+    },
+    {
+      "w": "llms",
+      "n": 38
     },
     {
       "w": "software",
       "n": 38
     },
     {
-      "w": "google",
+      "w": "coding",
       "n": 37
     },
     {
-      "w": "芯片",
+      "w": "pubeurope.com",
       "n": 36
     },
     {
-      "w": "llms",
-      "n": 34
-    },
-    {
       "w": "codex",
-      "n": 34
+      "n": 35
     },
     {
-      "w": "pubeurope.com",
-      "n": 34
+      "w": "intelligence",
+      "n": 33
     },
     {
-      "w": "november",
+      "w": "people",
       "n": 33
     },
     {
@@ -139,11 +147,11 @@
       "n": 33
     },
     {
-      "w": "people",
+      "w": "don",
       "n": 32
     },
     {
-      "w": "大模型",
+      "w": "human",
       "n": 32
     },
     {
@@ -151,47 +159,39 @@
       "n": 32
     },
     {
-      "w": "机器人",
+      "w": "芯片",
       "n": 32
     },
     {
-      "w": "human",
+      "w": "tools",
       "n": 31
     },
     {
-      "w": "meta",
+      "w": "agenticai",
       "n": 31
     },
     {
-      "w": "开源",
+      "w": "own",
       "n": 30
     },
     {
-      "w": "coding",
+      "w": "大模型",
       "n": 30
     },
     {
-      "w": "don",
+      "w": "机器人",
       "n": 30
     },
     {
       "w": "business",
+      "n": 30
+    },
+    {
+      "w": "article",
       "n": 29
     },
     {
-      "w": "series",
-      "n": 28
-    },
-    {
-      "w": "raised",
-      "n": 28
-    },
-    {
-      "w": "tools",
-      "n": 28
-    },
-    {
-      "w": "own",
+      "w": "开源",
       "n": 28
     }
   ]
