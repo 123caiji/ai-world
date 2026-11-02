@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-01T23:45:02.102Z",
+  "generatedAt": "2026-11-02T02:30:35.526Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 173
+      "n": 167
     },
     {
       "w": "openai",
@@ -12,42 +12,46 @@
     },
     {
       "w": "claude",
-      "n": 123
+      "n": 125
     },
     {
       "w": "发布",
-      "n": 87
-    },
-    {
-      "w": "data",
-      "n": 87
+      "n": 98
     },
     {
       "w": "anthropic",
-      "n": 87
+      "n": 97
     },
     {
       "w": "模型",
-      "n": 85
+      "n": 88
+    },
+    {
+      "w": "data",
+      "n": 81
     },
     {
       "w": "chatgpt",
-      "n": 76
-    },
-    {
-      "w": "google",
-      "n": 69
+      "n": 78
     },
     {
       "w": "llm",
-      "n": 67
+      "n": 72
     },
     {
       "w": "code",
+      "n": 68
+    },
+    {
+      "w": "deepseek",
       "n": 67
     },
     {
-      "w": "models",
+      "w": "google",
+      "n": 67
+    },
+    {
+      "w": "智能",
       "n": 65
     },
     {
@@ -55,51 +59,55 @@
       "n": 63
     },
     {
+      "w": "models",
+      "n": 63
+    },
+    {
       "w": "pro",
-      "n": 60
-    },
-    {
-      "w": "model",
-      "n": 60
-    },
-    {
-      "w": "deepseek",
-      "n": 60
+      "n": 62
     },
     {
       "w": "europesays.com",
-      "n": 58
+      "n": 60
     },
     {
       "w": "news",
-      "n": 55
+      "n": 56
     },
     {
       "w": "ceo",
-      "n": 55
-    },
-    {
-      "w": "智能",
-      "n": 54
+      "n": 56
     },
     {
       "w": "artificialintelligence",
-      "n": 53
+      "n": 54
     },
     {
-      "w": "apple",
-      "n": 48
+      "w": "model",
+      "n": 52
     },
     {
       "w": "europe",
-      "n": 47
+      "n": 48
     },
     {
-      "w": "芯片",
+      "w": "apple",
       "n": 46
     },
     {
+      "w": "芯片",
+      "n": 45
+    },
+    {
       "w": "pubeurope.com",
+      "n": 43
+    },
+    {
+      "w": "people",
+      "n": 42
+    },
+    {
+      "w": "meta",
       "n": 42
     },
     {
@@ -107,91 +115,83 @@
       "n": 41
     },
     {
-      "w": "meta",
+      "w": "agentic",
       "n": 41
     },
     {
-      "w": "people",
-      "n": 40
+      "w": "software",
+      "n": 39
     },
     {
       "w": "max",
       "n": 39
     },
     {
-      "w": "agentic",
-      "n": 39
-    },
-    {
-      "w": "software",
-      "n": 38
-    },
-    {
       "w": "agenticai",
-      "n": 37
+      "n": 39
     },
     {
       "w": "agents",
       "n": 36
     },
     {
-      "w": "altman",
-      "n": 35
+      "w": "proton",
+      "n": 36
     },
     {
       "w": "llms",
       "n": 35
     },
     {
-      "w": "company",
-      "n": 35
-    },
-    {
-      "w": "windows",
-      "n": 35
-    },
-    {
       "w": "work",
-      "n": 35
+      "n": 34
     },
     {
-      "w": "proton",
-      "n": 34
+      "w": "codex",
+      "n": 33
+    },
+    {
+      "w": "companies",
+      "n": 33
     },
     {
       "w": "business",
       "n": 33
     },
     {
-      "w": "开源",
-      "n": 32
-    },
-    {
-      "w": "mastodon.social",
-      "n": 32
-    },
-    {
-      "w": "own",
-      "n": 31
-    },
-    {
-      "w": "october",
-      "n": 30
-    },
-    {
-      "w": "app",
-      "n": 30
+      "w": "company",
+      "n": 33
     },
     {
       "w": "don",
-      "n": 29
+      "n": 32
     },
     {
-      "w": "intelligence",
-      "n": 29
+      "w": "altman",
+      "n": 32
     },
     {
-      "w": "sam",
+      "w": "开源",
+      "n": 31
+    },
+    {
+      "w": "mastodon.social",
+      "n": 31
+    },
+    {
+      "w": "want",
+      "n": 30
+    },
+    {
+      "w": "own",
+      "n": 30
+    },
+    {
+      "w": "europesays",
+      "n": 30
+    },
+    {
+      "w": "api",
       "n": 29
     }
   ]
