@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-02T16:16:29.911Z",
-  "total": 4282,
+  "generatedAt": "2026-11-02T19:02:02.812Z",
+  "total": 4281,
   "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 812
+      "count": 811
     },
     {
       "name": "tools",
@@ -18,7 +18,7 @@
     },
     {
       "name": "workflow",
-      "count": 265
+      "count": 266
     },
     {
       "name": "dev",
@@ -42,7 +42,7 @@
     },
     {
       "name": "theme",
-      "count": 147
+      "count": 146
     },
     {
       "name": "remote",
@@ -131,16 +131,6 @@
       "description": "按提供商（账号）分流的 SOCKS5/HTTP 代理池。基于 API 密钥识别账号实现精准分流，支持绝对直连（无视 DSH 全局代理）与内置联网工具代理热装。配置在 DSH 设置页图形化管理，保存即热生效。",
       "version": "0.6.1",
       "publishedAt": "2026-11-02T02:17:08.000Z"
-    },
-    {
-      "name": "dsh-tide-theme",
-      "title": "zdt3476/dsh-simplify-theme",
-      "url": "https://awesome-dsh-plugin.com/p/zdt3476/dsh-simplify-theme/",
-      "repo": "https://github.com/zdt3476/dsh-simplify-theme",
-      "category": "theme",
-      "description": "给 DeepSeek Harness 的极简主题：去投影去毛玻璃、收紧圆角、中性化气泡与交互态；并附带一组界面增强——侧栏归档分页与实时筛选、与输入卡片对齐的模型/思考等级控件、按回合绘制的子代理委派图、按数值着色的缓存命中与上下文占用、以及每轮回答的耗时。",
-      "version": "0.4.0",
-      "publishedAt": "2026-11-02T02:15:26.000Z"
     },
     {
       "name": "dsh-plugin-memory",
@@ -338,7 +328,7 @@
       "url": "https://awesome-dsh-plugin.com/p/device1999/dsh-session-archive-delete/",
       "repo": "https://github.com/device1999/dsh-session-archive-delete",
       "category": "session",
-      "description": "给 DSH 会话「…」菜单加「备份删除」与「彻底删除」两个入口：先把会话目录、投影缓存和元数据快照复制到本地归档文件夹并逐文件校验，通过后再删除原件以释放磁盘空间；派生的子代理会话一并处理，每个备份文件夹都带 RESTORE.txt 恢复步骤。",
+      "description": "给 DSH 会话「···」菜单加「备份删除」与「彻底删除」两个入口：这是一个安全的会话删除工具（session-delete），删除会话前先把会话目录、投影缓存和元数据快照复制到本地归档文件夹并逐文件校验，通过后再删除原件以释放磁盘空间；派生的子代理会话一并处理，每个备份文件夹都带 RESTORE.txt 恢复步骤。",
       "version": "0.1.4",
       "publishedAt": "2026-11-02T00:43:09.000Z"
     },
@@ -461,6 +451,16 @@
       "description": "在 DeepSeek Harness 模型选择器旁显示 28 条提供商入口的订阅额度与账户余额，附统一设置页和只读额度查询工具。",
       "version": "0.21.3",
       "publishedAt": "2026-11-01T22:54:03.000Z"
+    },
+    {
+      "name": "dsh-openrouter-plus",
+      "title": "GnaneshKunal/dsh-openrouter-plus",
+      "url": "https://awesome-dsh-plugin.com/p/GnaneshKunal/dsh-openrouter-plus/",
+      "repo": "https://github.com/GnaneshKunal/dsh-openrouter-plus",
+      "category": "model",
+      "description": "按会话切换 OpenRouter 路由：本地回环中继把 `service_tier`、`provider.sort` 与 `:floor` 变体写进每个请求，九个预设从输入框的按钮里选，每个预设另有固定的基址供整条路由使用。",
+      "version": "0.6.0",
+      "publishedAt": "2026-11-01T22:39:43.000Z"
     }
   ]
 }
