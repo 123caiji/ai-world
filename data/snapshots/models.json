@@ -251,6 +251,10 @@
     "created": 1790007541,
     "name": "SpaceXAI: Grok 4.7"
   },
+  "x-ai/grok-4.7:batch": {
+    "created": 1790007541,
+    "name": "SpaceXAI: Grok 4.7 (batch)"
+  },
   "qwen/qwen3.8-omni-flash": {
     "created": 1789959954,
     "name": "Qwen: Qwen3.8 Omni Flash"
@@ -462,6 +466,10 @@
   "x-ai/grok-4.6": {
     "created": 1786548957,
     "name": "SpaceXAI: Grok 4.6"
+  },
+  "x-ai/grok-4.6:batch": {
+    "created": 1786548957,
+    "name": "SpaceXAI: Grok 4.6 (batch)"
   },
   "liquid/lfm-2.5-2.6b": {
     "created": 1786470519,

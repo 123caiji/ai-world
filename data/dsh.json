@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-03T17:07:51.328Z",
-  "total": 4389,
+  "generatedAt": "2026-11-03T19:53:38.711Z",
+  "total": 4386,
   "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 831
+      "count": 830
     },
     {
       "name": "tools",
-      "count": 605
+      "count": 606
     },
     {
       "name": "session",
@@ -22,7 +22,7 @@
     },
     {
       "name": "dev",
-      "count": 270
+      "count": 268
     },
     {
       "name": "model",
@@ -34,7 +34,7 @@
     },
     {
       "name": "memory",
-      "count": 190
+      "count": 189
     },
     {
       "name": "notify",
@@ -178,7 +178,7 @@
       "url": "https://awesome-dsh-plugin.com/p/zdt3476/dsh-tide-theme/",
       "repo": "https://github.com/zdt3476/dsh-tide-theme",
       "category": "theme",
-      "description": "潮汐玻璃——给 DeepSeek Harness 的冰蓝玻璃主题，附带一组界面增强：单行状态 HUD 与用量看板、按回合绘制的子代理委派图、侧栏归档分页与实时筛选、输入框下方的模型/思考等级控件、每轮回答耗时。一个总开关控制 HUD、用量看板与委派图是否套用插件的玻璃材质，关闭后完整回落到 DSH…",
+      "description": "给 DeepSeek Harness Web 的深海潮汐蓝主题：单一强调色、磨砂（非玻璃）材质，明暗双态一致。同套令牌下的界面增强：单行底栏 HUD（读取真实会话投影的上下文占用与上限、TPS、缓存命中率、耗时）、按回合绘制的子代理委派卡片（显示 token 用量，并可附上按 OpenRouter…",
       "version": "0.5.2",
       "publishedAt": "2026-11-03T02:16:14.000Z"
     },
@@ -433,16 +433,6 @@
       "publishedAt": "2026-11-03T01:00:23.000Z"
     },
     {
-      "name": "dsh-memory-tiers",
-      "title": "1129742588/dsh-memory-tiers",
-      "url": "https://awesome-dsh-plugin.com/p/1129742588/dsh-memory-tiers/",
-      "repo": "https://github.com/1129742588/dsh-memory-tiers",
-      "category": "memory",
-      "description": "六层记忆插件：自动捕获每轮对话，以 user 快照形式注入稳定的记忆块，并把宿主自带历史压成一条占位（不调用模型）。",
-      "version": "0.8.3",
-      "publishedAt": "2026-11-03T00:55:22.000Z"
-    },
-    {
       "name": "dsh-hdc-bridge",
       "title": "1na-ko/dsh-hdc-bridge",
       "url": "https://awesome-dsh-plugin.com/p/1na-ko/dsh-hdc-bridge/",
@@ -461,6 +451,16 @@
       "description": "项目级跨会话记忆：node:sqlite 七层存储（soul/user/project/fact/lesson/rules/topic），首条消息缓存友好注入 + 每条消息关键词命中，memory_remember/search/find_similar/read/update/project…",
       "version": "0.32.5",
       "publishedAt": "2026-11-03T00:33:45.000Z"
+    },
+    {
+      "name": "dsh-env-manager-plugin",
+      "title": "zhiwuli0228/dsh-env-manager",
+      "url": "https://awesome-dsh-plugin.com/p/zhiwuli0228/dsh-env-manager/",
+      "repo": "https://github.com/zhiwuli0228/dsh-env-manager",
+      "category": "dev",
+      "description": "基于文件的 DSH 环境注册表：通过面板和模型工具管理环境、服务、部署以及操作到 Skill 的绑定。",
+      "version": "0.1.2",
+      "publishedAt": "2026-11-03T00:32:52.000Z"
     }
   ]
 }
