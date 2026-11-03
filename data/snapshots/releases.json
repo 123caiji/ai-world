@@ -1,6 +1,6 @@
 {
   "vllm-project/vllm": "v0.33.0rc3",
-  "sgl-project/sglang": "v0.5.22",
+  "sgl-project/sglang": "v0.5.23",
   "huggingface/transformers": "v5.22.1",
   "langchain-ai/langchain": "langchain-core==1.7.4",
   "modelcontextprotocol/servers": "v2.2.0",

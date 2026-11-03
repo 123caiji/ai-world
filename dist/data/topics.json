@@ -1,157 +1,153 @@
 {
-  "generatedAt": "2026-11-02T21:50:49.456Z",
+  "generatedAt": "2026-11-03T00:36:19.986Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 166
+      "n": 168
     },
     {
       "w": "openai",
-      "n": 115
-    },
-    {
-      "w": "claude",
-      "n": 97
+      "n": 114
     },
     {
       "w": "模型",
-      "n": 95
+      "n": 97
     },
     {
       "w": "发布",
-      "n": 92
+      "n": 95
     },
     {
-      "w": "智能",
-      "n": 86
+      "w": "claude",
+      "n": 94
     },
     {
       "w": "anthropic",
-      "n": 79
+      "n": 91
+    },
+    {
+      "w": "智能",
+      "n": 89
     },
     {
       "w": "data",
-      "n": 78
+      "n": 75
     },
     {
       "w": "model",
-      "n": 71
-    },
-    {
-      "w": "pro",
-      "n": 64
-    },
-    {
-      "w": "llm",
-      "n": 63
-    },
-    {
-      "w": "chatgpt",
-      "n": 62
-    },
-    {
-      "w": "models",
-      "n": 57
-    },
-    {
-      "w": "code",
-      "n": 56
-    },
-    {
-      "w": "agentic",
-      "n": 56
+      "n": 73
     },
     {
       "w": "deepseek",
+      "n": 67
+    },
+    {
+      "w": "pro",
+      "n": 62
+    },
+    {
+      "w": "chatgpt",
+      "n": 60
+    },
+    {
+      "w": "code",
+      "n": 60
+    },
+    {
+      "w": "llm",
       "n": 56
     },
     {
-      "w": "agents",
-      "n": 52
-    },
-    {
       "w": "tech",
-      "n": 52
+      "n": 53
     },
     {
-      "w": "company",
-      "n": 48
-    },
-    {
-      "w": "news",
-      "n": 48
+      "w": "agentic",
+      "n": 53
     },
     {
       "w": "mnl",
       "n": 48
     },
     {
-      "w": "europesays.com",
-      "n": 48
+      "w": "models",
+      "n": 47
+    },
+    {
+      "w": "company",
+      "n": 47
+    },
+    {
+      "w": "agents",
+      "n": 44
     },
     {
       "w": "work",
       "n": 44
     },
     {
-      "w": "google",
+      "w": "llms",
+      "n": 44
+    },
+    {
+      "w": "news",
       "n": 43
     },
     {
-      "w": "artificialintelligence",
+      "w": "token",
       "n": 42
     },
     {
-      "w": "token",
-      "n": 40
+      "w": "europesays.com",
+      "n": 42
     },
     {
-      "w": "europe",
+      "w": "google",
       "n": 40
     },
     {
       "w": "november",
-      "n": 38
+      "n": 39
     },
     {
-      "w": "llms",
-      "n": 38
-    },
-    {
-      "w": "software",
-      "n": 38
-    },
-    {
-      "w": "coding",
+      "w": "europe",
       "n": 37
     },
     {
-      "w": "pubeurope.com",
+      "w": "codex",
+      "n": 37
+    },
+    {
+      "w": "芯片",
       "n": 36
     },
     {
-      "w": "codex",
+      "w": "people",
+      "n": 36
+    },
+    {
+      "w": "harness",
+      "n": 36
+    },
+    {
+      "w": "software",
       "n": 35
     },
     {
-      "w": "intelligence",
+      "w": "coding",
+      "n": 34
+    },
+    {
+      "w": "artificialintelligence",
+      "n": 34
+    },
+    {
+      "w": "机器人",
       "n": 33
     },
     {
-      "w": "people",
-      "n": 33
-    },
-    {
-      "w": "world",
-      "n": 33
-    },
-    {
-      "w": "don",
-      "n": 32
-    },
-    {
-      "w": "human",
+      "w": "app",
       "n": 32
     },
     {
@@ -159,19 +155,27 @@
       "n": 32
     },
     {
-      "w": "芯片",
-      "n": 32
+      "w": "world",
+      "n": 31
+    },
+    {
+      "w": "intelligence",
+      "n": 31
+    },
+    {
+      "w": "pubeurope.com",
+      "n": 31
     },
     {
       "w": "tools",
-      "n": 31
+      "n": 30
     },
     {
-      "w": "agenticai",
-      "n": 31
+      "w": "raised",
+      "n": 30
     },
     {
-      "w": "own",
+      "w": "series",
       "n": 30
     },
     {
@@ -179,19 +183,15 @@
       "n": 30
     },
     {
-      "w": "机器人",
-      "n": 30
-    },
-    {
-      "w": "business",
-      "n": 30
-    },
-    {
-      "w": "article",
+      "w": "companies",
       "n": 29
     },
     {
-      "w": "开源",
+      "w": "own",
+      "n": 29
+    },
+    {
+      "w": "web",
       "n": 28
     }
   ]
