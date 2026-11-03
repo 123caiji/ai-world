@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/3 11:19:02 · 库内 900 条 · 本轮新增 578 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/3 14:05:39 · 库内 900 条 · 本轮新增 574 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 205 | [thedotmack/claude-mem · 今日 +1803 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
 | 203 | [beenuar/AiSOC · 今日 +446 ⭐](https://github.com/beenuar/AiSOC) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 1211 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 1198 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [patchy631/ai-engineering-hub · 今日 +1191 ⭐](https://github.com/patchy631/ai-engineering-hub) | GitHub 每日趋势 |
-| 196 | [Donchitos/Claude-Code-Game-Studios · 今日 +1379 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |
 | 184 | [Get AI agents the fuck off Fedi! They're an existential threat to small instances, and they're a primary contributor to moderator burnout....](https://lgbtqia.space/@alice/117549918931112699) | Mastodon（联邦宇宙） |
+| 178 | [vercel-labs/agent-desktop · 今日 +2275 ⭐](https://github.com/vercel-labs/agent-desktop) | GitHub 每日趋势 |
+| 178 | [mattpocock/skills · 今日 +858 ⭐](https://github.com/mattpocock/skills) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
