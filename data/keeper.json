@@ -1,18 +1,18 @@
 {
   "enabled": true,
-  "event": "workflow_dispatch",
-  "runId": "41809832467",
-  "lastDispatchOk": false,
+  "event": "schedule",
+  "runId": "41873774211",
+  "lastDispatchOk": true,
   "lastDispatch": {
-    "ok": false,
-    "status": 502,
+    "ok": true,
+    "status": 204,
     "ref": "main",
     "reason": "keeper-start",
-    "message": "{\n  \"message\": \"Server Error\"\n}\n",
-    "at": "2026-11-04T09:50:24.662Z"
+    "message": "queued",
+    "at": "2026-11-04T17:03:48.391Z"
   },
   "intervalMinutes": 165,
   "maxWaitMinutes": 180,
-  "chainRuns": 4,
-  "updatedAt": "2026-11-04T09:50:24.662Z"
+  "chainRuns": 5,
+  "updatedAt": "2026-11-04T17:03:48.392Z"
 }
