@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T17:56:47.208Z",
-  "total": 4569,
+  "generatedAt": "2026-11-05T20:42:22.938Z",
+  "total": 4565,
   "newCount": 0,
   "firstRun": false,
   "categories": [
@@ -18,19 +18,19 @@
     },
     {
       "name": "workflow",
-      "count": 284
+      "count": 285
     },
     {
       "name": "dev",
-      "count": 278
+      "count": 277
     },
     {
       "name": "model",
-      "count": 256
+      "count": 254
     },
     {
       "name": "usage",
-      "count": 229
+      "count": 228
     },
     {
       "name": "memory",
@@ -68,7 +68,7 @@
       "url": "https://awesome-dsh-plugin.com/p/Wahwayhale/dsh-connect-doubao/",
       "repo": "https://github.com/Wahwayhale/dsh-connect-doubao",
       "category": "model",
-      "description": "复用本机豆包桌面客户端已有的登录态，作为 DeepSeek Harness 的模型 provider，并提供 5 小时限额与周额度的只读额度概览。仅 Windows x64：凭据解密依赖 DPAPI。",
+      "description": "复用本机豆包桌面客户端已有的登录态，作为 DeepSeek Harness 的模型 provider：对话、Seedream 生图，以及一块实时额度看板，涵盖 5 小时、周与活动赠送额度，显示「还剩多少」而不是「已用多少」。仅 Windows x64：凭据解密依赖 DPAPI。",
       "version": "0.4.0",
       "publishedAt": "2026-11-05T02:29:05.000Z"
     },
@@ -108,7 +108,7 @@
       "url": "https://awesome-dsh-plugin.com/p/xyzOvO/dsh-wiki-notes/",
       "repo": "https://github.com/xyzOvO/dsh-wiki-notes",
       "category": "memory",
-      "description": "在本地 Markdown 笔记库里只读检索：一次调用返回命中小节正文与页级出处，另带库健康检查与「把好答案回写成新页」的骨架。",
+      "description": "在本地 Markdown 笔记库上做只读的知识网关，四个工具：`wiki_recall` 一次调用返回命中小节正文与页级出处，另带库健康检查与「把好答案回写成新页」的骨架；`wiki_context` 返回一份带逐页摘录的证据包，附「知识够不够」的判定和明确的缺口清单；`wiki_verify`…",
       "version": "1.4.1",
       "publishedAt": "2026-11-05T02:22:36.000Z"
     },

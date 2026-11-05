@@ -40,12 +40,12 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/6 01:57:04 · 库内 900 条 · 本轮新增 518 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/6 04:42:38 · 库内 900 条 · 本轮新增 503 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 205 | [thedotmack/claude-mem · 今日 +1172 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 1253 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 1236 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [scenario-labs/skills · 今日 +674 ⭐](https://github.com/scenario-labs/skills) | GitHub 每日趋势 |
 | 196 | [NVIDIA/auto-ontology · 今日 +2707 ⭐](https://github.com/NVIDIA/auto-ontology) | GitHub 每日趋势 |
 | 192 | [FareedKhan-dev/kimi-k3-in-c · 今日 +351 ⭐](https://github.com/FareedKhan-dev/kimi-k3-in-c) | GitHub 每日趋势 |
