@@ -1,97 +1,105 @@
 {
-  "generatedAt": "2026-11-05T04:11:58.678Z",
+  "generatedAt": "2026-11-05T06:57:31.251Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 160
+      "n": 165
     },
     {
       "w": "openai",
-      "n": 144
-    },
-    {
-      "w": "google",
-      "n": 137
-    },
-    {
-      "w": "agents",
-      "n": 127
-    },
-    {
-      "w": "data",
-      "n": 127
+      "n": 153
     },
     {
       "w": "model",
-      "n": 126
+      "n": 136
     },
     {
-      "w": "claude",
-      "n": 124
+      "w": "agents",
+      "n": 131
+    },
+    {
+      "w": "google",
+      "n": 130
     },
     {
       "w": "models",
-      "n": 124
+      "n": 130
     },
     {
       "w": "发布",
-      "n": 123
+      "n": 129
     },
     {
-      "w": "anthropic",
-      "n": 86
+      "w": "data",
+      "n": 119
+    },
+    {
+      "w": "claude",
+      "n": 108
     },
     {
       "w": "apple",
       "n": 86
     },
     {
-      "w": "november",
-      "n": 83
+      "w": "anthropic",
+      "n": 80
     },
     {
       "w": "智能",
-      "n": 75
+      "n": 73
     },
     {
       "w": "模型",
-      "n": 72
-    },
-    {
-      "w": "announced",
       "n": 71
     },
     {
-      "w": "code",
-      "n": 68
+      "w": "november",
+      "n": 71
     },
     {
-      "w": "search",
-      "n": 68
-    },
-    {
-      "w": "chatgpt",
-      "n": 66
-    },
-    {
-      "w": "work",
+      "w": "announced",
       "n": 65
     },
     {
+      "w": "code",
+      "n": 64
+    },
+    {
+      "w": "search",
+      "n": 64
+    },
+    {
       "w": "siri",
-      "n": 62
-    },
-    {
-      "w": "company",
-      "n": 58
-    },
-    {
-      "w": "gemini",
-      "n": 54
+      "n": 61
     },
     {
       "w": "llm",
+      "n": 59
+    },
+    {
+      "w": "research",
+      "n": 56
+    },
+    {
+      "w": "company",
+      "n": 55
+    },
+    {
+      "w": "work",
+      "n": 55
+    },
+    {
+      "w": "language",
+      "n": 53
+    },
+    {
+      "w": "chatgpt",
+      "n": 52
+    },
+    {
+      "w": "gemini",
       "n": 51
     },
     {
@@ -99,100 +107,92 @@
       "n": 49
     },
     {
-      "w": "research",
-      "n": 49
-    },
-    {
-      "w": "pro",
+      "w": "coding",
       "n": 47
     },
     {
-      "w": "learning",
+      "w": "pro",
       "n": 46
-    },
-    {
-      "w": "api",
-      "n": 44
-    },
-    {
-      "w": "coding",
-      "n": 43
-    },
-    {
-      "w": "language",
-      "n": 43
-    },
-    {
-      "w": "inference",
-      "n": 43
-    },
-    {
-      "w": "systems",
-      "n": 41
     },
     {
       "w": "ios",
       "n": 41
     },
     {
-      "w": "tasks",
-      "n": 39
+      "w": "api",
+      "n": 41
     },
     {
-      "w": "tech",
-      "n": 38
-    },
-    {
-      "w": "intelligence",
-      "n": 38
-    },
-    {
-      "w": "codex",
-      "n": 38
+      "w": "learning",
+      "n": 41
     },
     {
       "w": "app",
-      "n": 37
+      "n": 40
     },
     {
-      "w": "token",
-      "n": 35
+      "w": "systems",
+      "n": 39
+    },
+    {
+      "w": "tasks",
+      "n": 38
+    },
+    {
+      "w": "inference",
+      "n": 38
     },
     {
       "w": "news",
-      "n": 35
+      "n": 36
     },
     {
-      "w": "other",
-      "n": 35
-    },
-    {
-      "w": "product",
-      "n": 35
-    },
-    {
-      "w": "time",
-      "n": 35
-    },
-    {
-      "w": "astra",
-      "n": 34
-    },
-    {
-      "w": "github.com",
-      "n": 34
+      "w": "tech",
+      "n": 36
     },
     {
       "w": "agentic",
+      "n": 36
+    },
+    {
+      "w": "iphone",
+      "n": 35
+    },
+    {
+      "w": "video",
+      "n": 35
+    },
+    {
+      "w": "codex",
       "n": 34
+    },
+    {
+      "w": "token",
+      "n": 34
+    },
+    {
+      "w": "image",
+      "n": 33
+    },
+    {
+      "w": "intelligence",
+      "n": 33
     },
     {
       "w": "center",
       "n": 33
     },
     {
-      "w": "without",
+      "w": "github.com",
       "n": 33
+    },
+    {
+      "w": "only",
+      "n": 33
+    },
+    {
+      "w": "meta",
+      "n": 32
     }
   ]
 }
