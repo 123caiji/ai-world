@@ -1,121 +1,117 @@
 {
-  "generatedAt": "2026-11-04T22:39:57.503Z",
+  "generatedAt": "2026-11-05T01:25:42.690Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 162
-    },
-    {
-      "w": "openai",
-      "n": 133
+      "n": 156
     },
     {
       "w": "google",
-      "n": 132
+      "n": 138
     },
     {
-      "w": "data",
-      "n": 128
+      "w": "openai",
+      "n": 136
     },
     {
       "w": "发布",
+      "n": 127
+    },
+    {
+      "w": "claude",
+      "n": 125
+    },
+    {
+      "w": "data",
       "n": 125
     },
     {
       "w": "model",
-      "n": 118
-    },
-    {
-      "w": "claude",
-      "n": 117
+      "n": 120
     },
     {
       "w": "agents",
-      "n": 109
+      "n": 107
     },
     {
       "w": "models",
-      "n": 103
+      "n": 99
     },
     {
       "w": "november",
-      "n": 87
+      "n": 86
     },
     {
       "w": "智能",
-      "n": 87
+      "n": 85
     },
     {
       "w": "apple",
+      "n": 85
+    },
+    {
+      "w": "anthropic",
       "n": 84
     },
     {
       "w": "模型",
-      "n": 81
-    },
-    {
-      "w": "anthropic",
-      "n": 78
+      "n": 84
     },
     {
       "w": "announced",
       "n": 73
     },
     {
+      "w": "code",
+      "n": 70
+    },
+    {
       "w": "chatgpt",
-      "n": 71
+      "n": 69
     },
     {
       "w": "siri",
       "n": 67
     },
     {
-      "w": "code",
+      "w": "search",
       "n": 65
     },
     {
-      "w": "work",
-      "n": 62
-    },
-    {
-      "w": "search",
-      "n": 62
-    },
-    {
       "w": "company",
-      "n": 58
+      "n": 60
+    },
+    {
+      "w": "work",
+      "n": 60
     },
     {
       "w": "gemini",
-      "n": 58
+      "n": 57
     },
     {
-      "w": "security",
+      "w": "pro",
       "n": 51
     },
     {
       "w": "ios",
-      "n": 50
+      "n": 48
     },
     {
-      "w": "llm",
-      "n": 47
+      "w": "schools",
+      "n": 46
     },
     {
       "w": "iphone",
-      "n": 47
+      "n": 45
     },
     {
       "w": "research",
-      "n": 44
+      "n": 45
     },
     {
-      "w": "intelligence",
-      "n": 44
-    },
-    {
-      "w": "app",
+      "w": "token",
       "n": 44
     },
     {
@@ -127,72 +123,76 @@
       "n": 43
     },
     {
-      "w": "token",
-      "n": 43
-    },
-    {
-      "w": "schools",
-      "n": 42
-    },
-    {
-      "w": "language",
-      "n": 42
-    },
-    {
-      "w": "systems",
+      "w": "coding",
       "n": 41
     },
     {
-      "w": "pro",
+      "w": "intelligence",
+      "n": 41
+    },
+    {
+      "w": "llm",
+      "n": 41
+    },
+    {
+      "w": "security",
       "n": 40
     },
     {
+      "w": "app",
+      "n": 39
+    },
+    {
+      "w": "api",
+      "n": 37
+    },
+    {
       "w": "tech",
-      "n": 38
+      "n": 37
     },
     {
-      "w": "coding",
-      "n": 38
-    },
-    {
-      "w": "ceo",
-      "n": 36
+      "w": "center",
+      "n": 37
     },
     {
       "w": "inference",
+      "n": 37
+    },
+    {
+      "w": "systems",
+      "n": 37
+    },
+    {
+      "w": "news",
       "n": 36
     },
     {
-      "w": "without",
-      "n": 35
+      "w": "language",
+      "n": 36
     },
     {
       "w": "other",
       "n": 35
     },
     {
-      "w": "video",
+      "w": "product",
+      "n": 34
+    },
+    {
+      "w": "github.com",
       "n": 34
     },
     {
       "w": "world",
+      "n": 34
+    },
+    {
+      "w": "video",
+      "n": 34
+    },
+    {
+      "w": "ceo",
       "n": 33
-    },
-    {
-      "w": "center",
-      "n": 33
-    },
-    {
-      "w": "astra",
-      "n": 32
-    },
-    {
-      "w": "api",
-      "n": 32
-    },
-    {
-      "w": "game",
-      "n": 32
     }
   ]
 }

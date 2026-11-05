@@ -40,13 +40,13 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/5 06:37:10 · 库内 900 条 · 本轮新增 502 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/5 09:23:31 · 库内 900 条 · 本轮新增 493 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 205 | [thedotmack/claude-mem · 今日 +1165 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 1332 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 196 | [NVIDIA/auto-ontology · 今日 +2053 ⭐](https://github.com/NVIDIA/auto-ontology) | GitHub 每日趋势 |
+| 205 | [thedotmack/claude-mem · 今日 +1172 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
+| 196 | [deepseek-ai/deepseek-harness 涨 1224 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [NVIDIA/auto-ontology · 今日 +2050 ⭐](https://github.com/NVIDIA/auto-ontology) | GitHub 每日趋势 |
 | 196 | [Donchitos/Claude-Code-Game-Studios · 今日 +1182 ⭐](https://github.com/Donchitos/Claude-Code-Game-Studios) | GitHub 每日趋势 |
 | 192 | [FareedKhan-dev/kimi-k3-in-c · 今日 +351 ⭐](https://github.com/FareedKhan-dev/kimi-k3-in-c) | GitHub 每日趋势 |
 | 190 | [JustVugg/colibri · 今日 +802 ⭐](https://github.com/JustVugg/colibri) | GitHub 每日趋势 |
