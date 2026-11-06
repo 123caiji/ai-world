@@ -4,7 +4,7 @@
 <link>https://123caiji.github.io/ai-world/</link>
 <description>每 165 分钟自动扫描（无需人工）的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 06 Nov 2026 10:30:46 GMT</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 13:16:31 GMT</lastBuildDate>
 <item>
 <title>scenario-labs/skills · 今日 +667 ⭐</title>
 <link>https://github.com/scenario-labs/skills</link>
@@ -13,15 +13,6 @@
 <category>repo</category>
 <description>Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T10:30:15.017Z，HTTP 200</description>
 <enclosure url="https://github.com/scenario-labs.png?size=96" type="image/png" />
-</item>
-<item>
-<title>NVIDIA/auto-ontology · 今日 +2679 ⭐</title>
-<link>https://github.com/NVIDIA/auto-ontology</link>
-<guid isPermaLink="false">8ac198972094b1b5917753df1abe71739aab233e</guid>
-<pubDate>Fri, 06 Nov 2026 10:30:15 GMT</pubDate>
-<category>repo</category>
-<description>Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T10:30:15.017Z，HTTP 200</description>
-<enclosure url="https://github.com/NVIDIA.png?size=96" type="image/png" />
 </item>
 <item>
 <title>thedotmack/claude-mem · 今日 +1172 ⭐</title>
@@ -33,13 +24,22 @@
 <enclosure url="https://github.com/thedotmack.png?size=96" type="image/png" />
 </item>
 <item>
-<title>deepseek-ai/deepseek-harness 涨 1053 星</title>
+<title>deepseek-ai/deepseek-harness 涨 1028 星</title>
 <link>https://github.com/deepseek-ai/deepseek-harness</link>
 <guid isPermaLink="false">889ea1c117f15b3172d305835b21dbdb4895b8c0</guid>
-<pubDate>Fri, 06 Nov 2026 10:29:57 GMT</pubDate>
+<pubDate>Fri, 06 Nov 2026 13:15:47 GMT</pubDate>
 <category>repo</category>
-<description>DeepSeek Harness: Everything is a Plugin. · 当前 274434 stars — 来源 GitHub 涨星榜，抓取于 2026-11-06T10:30:03.164Z，HTTP 200</description>
+<description>DeepSeek Harness: Everything is a Plugin. · 当前 274570 stars — 来源 GitHub 涨星榜，抓取于 2026-11-06T13:15:53.699Z，HTTP 200</description>
 <enclosure url="https://github.com/deepseek-ai.png?size=96" type="image/png" />
+</item>
+<item>
+<title>NVIDIA/auto-ontology · 今日 +2005 ⭐</title>
+<link>https://github.com/NVIDIA/auto-ontology</link>
+<guid isPermaLink="false">8ac198972094b1b5917753df1abe71739aab233e</guid>
+<pubDate>Fri, 06 Nov 2026 10:30:15 GMT</pubDate>
+<category>repo</category>
+<description>Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T13:16:03.607Z，HTTP 200</description>
+<enclosure url="https://github.com/NVIDIA.png?size=96" type="image/png" />
 </item>
 <item>
 <title>HerdBuilderEstimate/roblox-studio-mcp · 427 stars</title>
@@ -47,8 +47,17 @@
 <guid isPermaLink="false">ff1baa6ed7d030644c6653368ff21def4829a4bc</guid>
 <pubDate>Fri, 06 Nov 2026 06:16:35 GMT</pubDate>
 <category>repo</category>
-<description>Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight · Python · #mcp — 来源 GitHub 新仓库，抓取于 2026-11-06T10:29:59.620Z，HTTP 200</description>
+<description>Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight · Python · #mcp — 来源 GitHub 新仓库，抓取于 2026-11-06T13:15:49.954Z，HTTP 200</description>
 <enclosure url="https://github.com/HerdBuilderEstimate.png?size=96" type="image/png" />
+</item>
+<item>
+<title>cloudflare/security-audit-skill · 今日 +2524 ⭐</title>
+<link>https://github.com/cloudflare/security-audit-skill</link>
+<guid isPermaLink="false">6426decba2ef7b96f71b59cf09f9d9099db6345d</guid>
+<pubDate>Fri, 06 Nov 2026 13:16:03 GMT</pubDate>
+<category>repo</category>
+<description>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings · JavaScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T13:16:03.607Z，HTTP 200</description>
+<enclosure url="https://github.com/cloudflare.png?size=96" type="image/png" />
 </item>
 <item>
 <title>garrytan/gstack · 今日 +612 ⭐</title>
@@ -60,12 +69,12 @@
 <enclosure url="https://github.com/garrytan.png?size=96" type="image/png" />
 </item>
 <item>
-<title>mattpocock/skills · 今日 +2071 ⭐</title>
+<title>mattpocock/skills · 今日 +2058 ⭐</title>
 <link>https://github.com/mattpocock/skills</link>
 <guid isPermaLink="false">76608378b66475536688ea5d246bea079805f62f</guid>
 <pubDate>Fri, 06 Nov 2026 04:59:04 GMT</pubDate>
 <category>repo</category>
-<description>Skills for Real Engineers. Straight from my .agents directory. · Shell · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T10:30:15.017Z，HTTP 200</description>
+<description>Skills for Real Engineers. Straight from my .agents directory. · Shell · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T13:16:03.607Z，HTTP 200</description>
 <enclosure url="https://github.com/mattpocock.png?size=96" type="image/png" />
 </item>
 <item>
@@ -87,12 +96,12 @@
 <enclosure url="https://github.com/max-sixty.png?size=96" type="image/png" />
 </item>
 <item>
-<title>google/skills · 今日 +211 ⭐</title>
+<title>google/skills · 今日 +532 ⭐</title>
 <link>https://github.com/google/skills</link>
 <guid isPermaLink="false">876f4401e17e3a1112895d8a67b25d11a43c510f</guid>
 <pubDate>Thu, 05 Nov 2026 12:25:35 GMT</pubDate>
 <category>repo</category>
-<description>Agent Skills for Google products and technologies · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T10:30:15.017Z，HTTP 200</description>
+<description>Agent Skills for Google products and technologies · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T13:16:03.607Z，HTTP 200</description>
 <enclosure url="https://github.com/google.png?size=96" type="image/png" />
 </item>
 <item>
@@ -113,15 +122,6 @@
 <enclosure url="https://github.com/vercel-labs.png?size=96" type="image/png" />
 </item>
 <item>
-<title>JosssphZhou/poki · 335 stars</title>
-<link>https://github.com/JosssphZhou/poki</link>
-<guid isPermaLink="false">353d1cbf5681c172c183bc0c4025b8731c0b8c46</guid>
-<pubDate>Thu, 05 Nov 2026 15:04:31 GMT</pubDate>
-<category>repo</category>
-<description>Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware. · JavaScript · #ai-agents — 来源 GitHub 新仓库，抓取于 2026-11-06T10:29:59.003Z，HTTP 200</description>
-<enclosure url="https://github.com/JosssphZhou.png?size=96" type="image/png" />
-</item>
-<item>
 <title>Tencent has expanded the inference cluster behind its Hy4 model tenfold after a surge in demand from WorkBuddy, its office AI agent, and...</title>
 <link>https://universeodon.com/@china/117568335083582699</link>
 <guid isPermaLink="false">7166f8663b5d47bd453f8abc00bb3f91f3689f85</guid>
@@ -136,15 +136,6 @@
 <pubDate>Thu, 05 Nov 2026 03:34:35 GMT</pubDate>
 <category>discussion</category>
 <description>The LionRock AI Lab under China Merchants Group has open-sourced Lion-ER-35B-A3B, a mixture-of-experts vision-language model for embodied reasoning, fine-tuned from Qwen3.6-35B-A3B and released under Apache 2.0. The lab says it scores... — @china@universeodon.com（China Tech 🇨🇳 AI News） · 0 赞 · 1 转发 · 0 回复 — 来源 Mastodon（联邦宇宙），抓取于 2026-11-05T04:08:50.514Z，HTTP 200</description>
-</item>
-<item>
-<title>[推广] [周末限时福利] 免费白嫖 claude-opus-5-5, gpt-6.1-sol、 grok-4.7、deepseek-v4.1-flash</title>
-<link>https://www.v2ex.com/t/1255070</link>
-<guid isPermaLink="false">9364380718d568121377de1b2b668b7fe92a0cbf</guid>
-<pubDate>Fri, 06 Nov 2026 10:23:49 GMT</pubDate>
-<category>discussion</category>
-<description>点击链接注册 API 中转站即可随机领取 2-5 美刀鸡蛋 Midalo API 中转站注册地址： https://agent.midalo.ai/ （一定要用这个地址注册，不然拿不到赠送额度） Midalo API 官方 QQ 群：1030748124 （注册后进群发送账户 ID 即可随机领取测试额度鸡蛋，24 小时内到账） 客服 QQ：3809674723 — 来源 V2EX · AI 讨论，抓取于 2026-11-06T10:30:15.810Z，HTTP 200</description>
-<enclosure url="https://cdn.v2ex.com/avatar/66d3/7f3b/319275_xlarge.png?m=1793610591" type="image/png" />
 </item>
 <item>
 <title>[Rust] zg 使用 Rust 重写，索引构建耗时减少 65%，峰值内存降低 53%</title>
@@ -172,6 +163,15 @@
 <category>discussion</category>
 <description> — 来源 V2EX · AI 讨论，抓取于 2026-11-05T04:08:49.563Z，HTTP 200</description>
 <enclosure url="https://cdn.v2ex.com/gravatar/2baabaef80992508a0345ee9dffa2bdd?s=73&amp;d=retro" type="image/png" />
+</item>
+<item>
+<title>[酷工作] 上海社招， AI Infra / Agent Infra 工程师</title>
+<link>https://www.v2ex.com/t/1255084</link>
+<guid isPermaLink="false">b0ba225b6b8761a0bf3340eb3aec3665673d07c3</guid>
+<pubDate>Fri, 06 Nov 2026 12:57:06 GMT</pubDate>
+<category>discussion</category>
+<description>AI Infra：GPU 算力优化工程师 工作地点： 上海徐汇 经验要求：3–5 年 薪资 30-50k 团队与岗位简介 我们负责公司 AI Infra 算力平台的建设，为企业客户提供统一的 GPU 算力调度底座。平台同时运行 Kubernetes （ Volcano / Kueue ）和 Slurm 两套调度体系，承载大规模分布式训练、批量推理与交互式开发任务，并在推进两者的融合与统一纳管；在算力之上提供 MaaS 模型服务，以 token 计费对外输出算力。我们鼓励你在日常工作中大量使用 AI 提效工具。 岗位职责 负责大模型推理服务的性能优化，提升单位 GPU 的 token 产出，支撑 MaaS 业务的成本与 SLA 目标； 负责主流开源模型在目标 GPU 平台（含 Blackwell 架构）上的性能基线建立与持续优化，输出吞吐、TTFT / TPOT 、每百万 token 成本等指标； 负责量化（ FP8 /... — 来源 V2EX · AI 讨论，抓取于 2026-11-06T13:16:04.548Z，HTTP 200</description>
+<enclosure url="https://cdn.v2ex.com/gravatar/9e57aedb99a5a23cef518c98496da6b0?s=73&amp;d=retro" type="image/png" />
 </item>
 <item>
 <title>Death is coming and it knows what it’s talking about. # ai # chatgpt # openai # meta # google # gemini # anthropic # claude # genai</title>
@@ -206,6 +206,15 @@
 <pubDate>Thu, 05 Nov 2026 00:45:14 GMT</pubDate>
 <category>news</category>
 <description>IT之家 11 月 5 日消息，据华为计算公众号，2026 年 11 月 4 日，月之暗面正式公布 Kimi K3.1 Pro 完整模型权重。昇腾基于 vLLM Ascend、SGLang 同步实现 0 Day 推理适配，支持昇腾 Atlas 800 A3、Atlas 900 A3 SuperPod 超节点以及昇腾 950 超节点系列产品进行 Kimi K3.1 Pro 的推理部署。 围绕模型新增的稀疏注意力、百万级上下文及推理服务需求，昇腾开展算子与框架协同优化，支持用户及开发者在模型发布首日开展部署与应用验证。 IT之家注意到，Kimi K3.1 Pro 是 K3.1 系列的首个模型， 拥有 2.8 万亿参数 ，原生支持视觉理解，具备百万 token 上下文窗口。模型在 K3 基础上进一步扩大后训练规模，在代码开发、3D 创作、金融研究、事实准确性和长程智能体任务等方面实现能力提升。... — 来源 IT之家，抓取于 2026-11-05T01:22:34.679Z，HTTP 200</description>
+</item>
+<item>
+<title>[酷工作] [远程/全职] AdmitPlus 招聘 AI 应用工程师、产品经理、运营推广</title>
+<link>https://www.v2ex.com/t/1255081</link>
+<guid isPermaLink="false">66fb894333ea1e503d0359ac4a375c52756376d0</guid>
+<pubDate>Fri, 06 Nov 2026 12:14:05 GMT</pubDate>
+<category>discussion</category>
+<description>AdmitPlus （ admitplus.ai ）做面向学生的 AI 学习产品。学生和口语、写作、规划、评估这些学习 Agent 一起练习。系统会记下目标、弱项和练习结果，让下一次指导更贴这个人。 公司直招。三个岗位都是远程全职。简历发到 hello@admitplus.ai ，邮件标题写上岗位名称和 V2EX 。 薪资： 30–40k AI 应用工程师（ Python / FastAPI / RAG / Agent ） 以后端和 AI 应用为主，同时要能写 React / TypeScript ，把模型能力接到真实业务并上线。 RAG 和知识库：多模态文档解析、清洗、分段、embedding 、增量索引、混合检索、重排序 Agent：任务规划、工具调用、结构化输出、多 Agent 协作、MCP / Skills 长期记忆：上下文裁剪、按需召回、去重、冲突处理；结构化数据和向量数据分开存 后端：FastAPI... — 来源 V2EX · AI 讨论，抓取于 2026-11-06T13:16:04.548Z，HTTP 200</description>
+<enclosure url="https://cdn.v2ex.com/avatar/2c3b/9cb3/396326_xlarge.png?m=1735872754" type="image/png" />
 </item>
 <item>
 <title>周畅庞天宇离职，多模态生成失宠了吗？</title>
@@ -283,6 +292,15 @@
 <description>Intelligenza artificiale e pace MCP - PeaceLink interagisce con le intelligenze artificiali PeaceLink ha attivato due server basati sul Model Context Protocol (MCP), lo standard che permette a un modello linguistico di interrogare... — @peacelink@sociale.network（Associazione Peacelink） · 0 赞 · 0 转发 · 0 回复 — 来源 Mastodon（联邦宇宙），抓取于 2026-11-05T23:28:02.421Z，HTTP 200</description>
 </item>
 <item>
+<title>JosssphZhou/poki · 350 stars</title>
+<link>https://github.com/JosssphZhou/poki</link>
+<guid isPermaLink="false">353d1cbf5681c172c183bc0c4025b8731c0b8c46</guid>
+<pubDate>Thu, 05 Nov 2026 15:04:31 GMT</pubDate>
+<category>repo</category>
+<description>Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware. · JavaScript · #ai-agents — 来源 GitHub 新仓库，抓取于 2026-11-06T13:15:49.388Z，HTTP 200</description>
+<enclosure url="https://github.com/JosssphZhou.png?size=96" type="image/png" />
+</item>
+<item>
 <title>Kimi Formally Launches Hosted Agents for Enterprise AI Workloads</title>
 <link>https://www.unite.ai/kimi-formally-launches-hosted-agents-for-enterprise-ai-workloads</link>
 <guid isPermaLink="false">b5c409154d35aba005cb8e1cb39025a458d05bec</guid>
@@ -334,22 +352,5 @@
 <category>repo</category>
 <description>基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。 · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T10:30:15.017Z，HTTP 200</description>
 <enclosure url="https://github.com/Usagi-org.png?size=96" type="image/png" />
-</item>
-<item>
-<title>microsoft/VibeVoice · 今日 +223 ⭐</title>
-<link>https://github.com/microsoft/VibeVoice</link>
-<guid isPermaLink="false">b9901cf076934a21a9f14121fccba9e41d61044a</guid>
-<pubDate>Thu, 05 Nov 2026 12:25:35 GMT</pubDate>
-<category>repo</category>
-<description>Open-Source Frontier Voice AI · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T10:30:15.017Z，HTTP 200</description>
-<enclosure url="https://github.com/microsoft.png?size=96" type="image/png" />
-</item>
-<item>
-<title>CVSS 10.0 沙箱逃逸 + 假扩展后门：给 Agent 开发者的供应链与沙箱安全复盘（附可跑的配置审计器）</title>
-<link>https://juejin.cn/post/7704345935706734633</link>
-<guid isPermaLink="false">14cc96258a5864d53c6bc266ac83bf9d20e1dade</guid>
-<pubDate>Thu, 05 Nov 2026 03:46:32 GMT</pubDate>
-<category>discussion</category>
-<description>本周的锚点：上下文是输入，授权是架构；人从操作员变验收员——而验收员的第一课，是不信任被验收方自己写的报告。 — 来源 掘金，抓取于 2026-11-05T06:54:23.957Z，HTTP 200</description>
 </item>
 </channel></rss>
