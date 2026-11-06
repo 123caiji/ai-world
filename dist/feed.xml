@@ -4,7 +4,7 @@
 <link>https://123caiji.github.io/ai-world/</link>
 <description>每 165 分钟自动扫描（无需人工）的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 06 Nov 2026 13:16:31 GMT</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 16:02:19 GMT</lastBuildDate>
 <item>
 <title>scenario-labs/skills · 今日 +667 ⭐</title>
 <link>https://github.com/scenario-labs/skills</link>
@@ -24,12 +24,12 @@
 <enclosure url="https://github.com/thedotmack.png?size=96" type="image/png" />
 </item>
 <item>
-<title>deepseek-ai/deepseek-harness 涨 1028 星</title>
+<title>deepseek-ai/deepseek-harness 涨 1062 星</title>
 <link>https://github.com/deepseek-ai/deepseek-harness</link>
 <guid isPermaLink="false">889ea1c117f15b3172d305835b21dbdb4895b8c0</guid>
-<pubDate>Fri, 06 Nov 2026 13:15:47 GMT</pubDate>
+<pubDate>Fri, 06 Nov 2026 16:01:33 GMT</pubDate>
 <category>repo</category>
-<description>DeepSeek Harness: Everything is a Plugin. · 当前 274570 stars — 来源 GitHub 涨星榜，抓取于 2026-11-06T13:15:53.699Z，HTTP 200</description>
+<description>DeepSeek Harness: Everything is a Plugin. · 当前 274712 stars — 来源 GitHub 涨星榜，抓取于 2026-11-06T16:01:41.514Z，HTTP 200</description>
 <enclosure url="https://github.com/deepseek-ai.png?size=96" type="image/png" />
 </item>
 <item>
@@ -38,26 +38,8 @@
 <guid isPermaLink="false">8ac198972094b1b5917753df1abe71739aab233e</guid>
 <pubDate>Fri, 06 Nov 2026 10:30:15 GMT</pubDate>
 <category>repo</category>
-<description>Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T13:16:03.607Z，HTTP 200</description>
+<description>Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T16:01:51.685Z，HTTP 200</description>
 <enclosure url="https://github.com/NVIDIA.png?size=96" type="image/png" />
-</item>
-<item>
-<title>HerdBuilderEstimate/roblox-studio-mcp · 427 stars</title>
-<link>https://github.com/HerdBuilderEstimate/roblox-studio-mcp</link>
-<guid isPermaLink="false">ff1baa6ed7d030644c6653368ff21def4829a4bc</guid>
-<pubDate>Fri, 06 Nov 2026 06:16:35 GMT</pubDate>
-<category>repo</category>
-<description>Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight · Python · #mcp — 来源 GitHub 新仓库，抓取于 2026-11-06T13:15:49.954Z，HTTP 200</description>
-<enclosure url="https://github.com/HerdBuilderEstimate.png?size=96" type="image/png" />
-</item>
-<item>
-<title>cloudflare/security-audit-skill · 今日 +2524 ⭐</title>
-<link>https://github.com/cloudflare/security-audit-skill</link>
-<guid isPermaLink="false">6426decba2ef7b96f71b59cf09f9d9099db6345d</guid>
-<pubDate>Fri, 06 Nov 2026 13:16:03 GMT</pubDate>
-<category>repo</category>
-<description>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings · JavaScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T13:16:03.607Z，HTTP 200</description>
-<enclosure url="https://github.com/cloudflare.png?size=96" type="image/png" />
 </item>
 <item>
 <title>garrytan/gstack · 今日 +612 ⭐</title>
@@ -69,12 +51,30 @@
 <enclosure url="https://github.com/garrytan.png?size=96" type="image/png" />
 </item>
 <item>
+<title>HerdBuilderEstimate/roblox-studio-mcp · 427 stars</title>
+<link>https://github.com/HerdBuilderEstimate/roblox-studio-mcp</link>
+<guid isPermaLink="false">ff1baa6ed7d030644c6653368ff21def4829a4bc</guid>
+<pubDate>Fri, 06 Nov 2026 06:16:35 GMT</pubDate>
+<category>repo</category>
+<description>Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight · Python · #mcp — 来源 GitHub 新仓库，抓取于 2026-11-06T16:01:36.305Z，HTTP 200</description>
+<enclosure url="https://github.com/HerdBuilderEstimate.png?size=96" type="image/png" />
+</item>
+<item>
+<title>cloudflare/security-audit-skill · 今日 +2524 ⭐</title>
+<link>https://github.com/cloudflare/security-audit-skill</link>
+<guid isPermaLink="false">6426decba2ef7b96f71b59cf09f9d9099db6345d</guid>
+<pubDate>Fri, 06 Nov 2026 13:16:03 GMT</pubDate>
+<category>repo</category>
+<description>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings · JavaScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T16:01:51.685Z，HTTP 200</description>
+<enclosure url="https://github.com/cloudflare.png?size=96" type="image/png" />
+</item>
+<item>
 <title>mattpocock/skills · 今日 +2058 ⭐</title>
 <link>https://github.com/mattpocock/skills</link>
 <guid isPermaLink="false">76608378b66475536688ea5d246bea079805f62f</guid>
 <pubDate>Fri, 06 Nov 2026 04:59:04 GMT</pubDate>
 <category>repo</category>
-<description>Skills for Real Engineers. Straight from my .agents directory. · Shell · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T13:16:03.607Z，HTTP 200</description>
+<description>Skills for Real Engineers. Straight from my .agents directory. · Shell · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T16:01:51.685Z，HTTP 200</description>
 <enclosure url="https://github.com/mattpocock.png?size=96" type="image/png" />
 </item>
 <item>
@@ -101,7 +101,7 @@
 <guid isPermaLink="false">876f4401e17e3a1112895d8a67b25d11a43c510f</guid>
 <pubDate>Thu, 05 Nov 2026 12:25:35 GMT</pubDate>
 <category>repo</category>
-<description>Agent Skills for Google products and technologies · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T13:16:03.607Z，HTTP 200</description>
+<description>Agent Skills for Google products and technologies · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-06T16:01:51.685Z，HTTP 200</description>
 <enclosure url="https://github.com/google.png?size=96" type="image/png" />
 </item>
 <item>
@@ -165,6 +165,15 @@
 <enclosure url="https://cdn.v2ex.com/gravatar/2baabaef80992508a0345ee9dffa2bdd?s=73&amp;d=retro" type="image/png" />
 </item>
 <item>
+<title>[分享创造] 做了个 Claude Code CLI 侧边栏</title>
+<link>https://www.v2ex.com/t/1255111</link>
+<guid isPermaLink="false">90339f189e794b28356220006ec8c9a6c5c5b726</guid>
+<pubDate>Fri, 06 Nov 2026 15:40:11 GMT</pubDate>
+<category>discussion</category>
+<description>Claude 的桌面 App 很好用，但日常工作手持两个账号，得 App 和 CLI 一起用。CLI 里没有 App 那样的侧边栏，能看的信息太少，就做了这个插件，先满足一些个人需求。 效果如图： 展示当前会话的： 目录、分支、模型，上下文和 5h / 周额度 子 Agent 的状态、耗时、token 会话里碰过的 PR / Issue ，带实时状态 你贴的、工具产出的链接 持续迭代中... Repo： https://github.com/itaober/agent-plugins 安装： claude plugin marketplace add itaober/agent-plugins claude plugin install panel@itaober 需要 Claude Code 2.1.293+，装完重开会话，用 /panel 开关。 欢迎大家试用。 — 来源 V2EX · AI 讨论，抓取于 2026-11-06T16:01:52.772Z，HTTP 200</description>
+<enclosure url="https://cdn.v2ex.com/avatar/0460/74e2/625146_xlarge.png?m=1787809730" type="image/png" />
+</item>
+<item>
 <title>[酷工作] 上海社招， AI Infra / Agent Infra 工程师</title>
 <link>https://www.v2ex.com/t/1255084</link>
 <guid isPermaLink="false">b0ba225b6b8761a0bf3340eb3aec3665673d07c3</guid>
@@ -200,12 +209,21 @@
 <enclosure url="https://www.unite.ai/wp-content/uploads/2026/11/supermicro-launches-shared-kv-cache-storage-for-long-context-ai.jpg" type="image/png" />
 </item>
 <item>
-<title>华为宣布昇腾 0 Day 支持 Kimi K3.1 Pro 推理部署，2.8 万亿级 MoE 模型能力再进阶</title>
-<link>https://www.ithome.com/1/022/502.htm</link>
-<guid isPermaLink="false">d78b5b56966b285a553c9143846bf49f3869d35e</guid>
-<pubDate>Thu, 05 Nov 2026 00:45:14 GMT</pubDate>
+<title>[分享创造] 做了个 Agent 版的「Adobe + Office 全家桶」，能在 codex、claude code 中直接使用</title>
+<link>https://www.v2ex.com/t/1255104</link>
+<guid isPermaLink="false">8e92783d9b5d7e80e4a253f7141f2ed73e8da978</guid>
+<pubDate>Fri, 06 Nov 2026 15:06:24 GMT</pubDate>
+<category>discussion</category>
+<description>大家好，最近做了一个在线办公和创作工具站 EasyRunCraft ，分享给大家试试。 可以把它理解成一套类似「 Adobe + Office 全家桶」的工具：文档、表格、PPT 、PDF 、图片、视频、音频、CAD ，都有对应的编辑器。打开浏览器就能用，也可以接到自己的 Agent ，让它帮忙处理文件。 地址： https://easyruncraft.com 先说一下来源：这 13 个编辑器来自 ArtCraft 的开源 Crafting Apps 项目，编辑器本身的能力由原作者和贡献者完成。 我主要做的是在线整合、统一账户，以及内置 AI 和 MCP 接入。感谢原作者和贡献者，原项目源码在这里：GitHub 。 用起来有几种方式： 平时可以直接当在线软件用，打开文件、修改、保存，不需要安装。临时改个 PDF 、处理图片、调整表格，都可以找到对应的编辑器。 编辑器里也加了 AI... — 来源 V2EX · AI 讨论，抓取于 2026-11-06T16:01:52.772Z，HTTP 200</description>
+<enclosure url="https://cdn.v2ex.com/avatar/2aaa/ddf2/2427_xlarge.png?m=1793977551" type="image/png" />
+</item>
+<item>
+<title>Day-0 支持：摩尔线程完成 3 万亿级参数 Kimi-K3.1 Pro 适配，支持文本与图片推理</title>
+<link>https://www.ithome.com/1/023/561.htm</link>
+<guid isPermaLink="false">7a2d605c6dbd6c9369f928a661d71bdc19b3a099</guid>
+<pubDate>Fri, 06 Nov 2026 14:41:55 GMT</pubDate>
 <category>news</category>
-<description>IT之家 11 月 5 日消息，据华为计算公众号，2026 年 11 月 4 日，月之暗面正式公布 Kimi K3.1 Pro 完整模型权重。昇腾基于 vLLM Ascend、SGLang 同步实现 0 Day 推理适配，支持昇腾 Atlas 800 A3、Atlas 900 A3 SuperPod 超节点以及昇腾 950 超节点系列产品进行 Kimi K3.1 Pro 的推理部署。 围绕模型新增的稀疏注意力、百万级上下文及推理服务需求，昇腾开展算子与框架协同优化，支持用户及开发者在模型发布首日开展部署与应用验证。 IT之家注意到，Kimi K3.1 Pro 是 K3.1 系列的首个模型， 拥有 2.8 万亿参数 ，原生支持视觉理解，具备百万 token 上下文窗口。模型在 K3 基础上进一步扩大后训练规模，在代码开发、3D 创作、金融研究、事实准确性和长程智能体任务等方面实现能力提升。... — 来源 IT之家，抓取于 2026-11-05T01:22:34.679Z，HTTP 200</description>
+<description>IT之家 11 月 6 日消息， 本月 4 日，月之暗面正式公布 Kimi K3.1 Pro 完整模型权重 。在 Arena 运营的 Agent Arena 智能体排行榜中，Kimi K3.1 Pro（Max）位列开放权重模型第一、全部参评模型第 13 位，并在工作、编程与聊天三个类别中均居开放模型首位。 摩尔线程官方今日宣布，摩尔线程基于 AI 训推一体智算卡 MTT S5000 及 MUSA 软件栈， 完成 Kimi-K3.1 Pro 模型的 Day-0 适配 ，打通模型加载、服务启动及文本、图片基础推理链路。 IT之家了解到， Kimi K3.1 Pro 是 K3.1 系列首款模型 ，也是迄今能力最强的 3 万亿级参数模型，支持 100 万上下文。经过大规模后训练和强化学习，模型在代码、3D 创作、金融研究、知识问答及长程 Agent 任务等方面均全面提升；在代码与 Agent... — 来源 IT之家，抓取于 2026-11-06T16:01:58.092Z，HTTP 200</description>
 </item>
 <item>
 <title>[酷工作] [远程/全职] AdmitPlus 招聘 AI 应用工程师、产品经理、运营推广</title>
@@ -276,29 +294,12 @@
 <description>IT之家 11 月 5 日消息，Kimi 今日宣布推出 Kimi Hosted Agents（托管智能体） ，将支撑 Agent 运行的 Harness 作为云端服务提供（Harness as a Service）。 企业和开发者无需自行搭建和维护运行框架， 即可获得 7×24 小时的托管环境 ，支持长程任务执行与多智能体高效协作。 企业可以按需配置 Agent，快速构建两类业务应用： 面向内部业务 ：集成到企业内部系统，提供业务监控、运维响应等任务。 面向产品用户 ：嵌入企业对外提供的产品，提供 App 内的投研助手、客服助手等 Agent 服务。 为保障 Agent 安全可控地运行， Kimi Hosted Agents 提供独立沙箱、网络访问权限控制 ，企业可设定操作边界，并在必要时随时中止会话；执行过程留痕可查，支持审计导出；清晰的计费规则与用量报表，也让企业能够掌握各个 Agent 项目资源消耗与费用。 Kimi... — 来源 IT之家，抓取于 2026-11-05T04:08:52.712Z，HTTP 200</description>
 </item>
 <item>
-<title>月之暗面 2.8 万亿参数 Kimi K3.1 Pro 开放权重，登顶 Agent Arena 开源模型榜</title>
-<link>https://www.ithome.com/1/022/490.htm</link>
-<guid isPermaLink="false">2ba051f38c91bb17c6e609d905d1f40712541d3e</guid>
-<pubDate>Thu, 05 Nov 2026 00:00:15 GMT</pubDate>
-<category>news</category>
-<description>IT之家 11 月 5 日消息，按照 10 月 24 日发布时给出的承诺，月之暗面（Moonshot AI）今日在 Hugging Face 平台开放了 Kimi K3.1 Pro 的模型权重。 在 Arena 运营的 Agent Arena 智能体排行榜中，Kimi K3.1 Pro（Max）位列开放权重模型第一、全部参评模型第 13 位，并在工作、编程与聊天三个类别中均居开放模型首位。 Agent Arena 的评测方式与传统的成对盲测不同。它不要求用户对两个回答投票，而是从真实用户的智能体会话中提取信号，包括用户对任务的明确确认、表扬与投诉、纠正指令以及 Shell 命令执行错误等，再通过 Arena 称为“因果追踪”的随机化推断方法估算各模型相对于平均水平的净改进率。 Kimi K3.1 Pro 此次排名基于全球用户超过 1.75 万次真实长周期智能体任务会话，净改进率为 +5.1%，较上一代 K3（Max）的... — 来源 IT之家，抓取于 2026-11-05T01:22:34.679Z，HTTP 200</description>
-</item>
-<item>
 <title>Intelligenza artificiale e pace MCP - PeaceLink interagisce con le intelligenze artificiali PeaceLink ha attivato due server basati sul...</title>
 <link>https://sociale.network/@peacelink/117566020152377949</link>
 <guid isPermaLink="false">50e255f192cf0d17d7b07b818c9292f1415ef8a3</guid>
 <pubDate>Thu, 05 Nov 2026 21:45:02 GMT</pubDate>
 <category>discussion</category>
 <description>Intelligenza artificiale e pace MCP - PeaceLink interagisce con le intelligenze artificiali PeaceLink ha attivato due server basati sul Model Context Protocol (MCP), lo standard che permette a un modello linguistico di interrogare... — @peacelink@sociale.network（Associazione Peacelink） · 0 赞 · 0 转发 · 0 回复 — 来源 Mastodon（联邦宇宙），抓取于 2026-11-05T23:28:02.421Z，HTTP 200</description>
-</item>
-<item>
-<title>JosssphZhou/poki · 350 stars</title>
-<link>https://github.com/JosssphZhou/poki</link>
-<guid isPermaLink="false">353d1cbf5681c172c183bc0c4025b8731c0b8c46</guid>
-<pubDate>Thu, 05 Nov 2026 15:04:31 GMT</pubDate>
-<category>repo</category>
-<description>Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware. · JavaScript · #ai-agents — 来源 GitHub 新仓库，抓取于 2026-11-06T13:15:49.388Z，HTTP 200</description>
-<enclosure url="https://github.com/JosssphZhou.png?size=96" type="image/png" />
 </item>
 <item>
 <title>Kimi Formally Launches Hosted Agents for Enterprise AI Workloads</title>
