@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/6 07:28:12 · 库内 900 条 · 本轮新增 486 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/6 10:13:47 · 库内 900 条 · 本轮新增 511 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 205 | [thedotmack/claude-mem · 今日 +1172 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 1171 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 196 | [scenario-labs/skills · 今日 +674 ⭐](https://github.com/scenario-labs/skills) | GitHub 每日趋势 |
-| 196 | [NVIDIA/auto-ontology · 今日 +2707 ⭐](https://github.com/NVIDIA/auto-ontology) | GitHub 每日趋势 |
+| 196 | [deepseek-ai/deepseek-harness 涨 1047 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [scenario-labs/skills · 今日 +667 ⭐](https://github.com/scenario-labs/skills) | GitHub 每日趋势 |
+| 196 | [NVIDIA/auto-ontology · 今日 +2679 ⭐](https://github.com/NVIDIA/auto-ontology) | GitHub 每日趋势 |
 | 192 | [FareedKhan-dev/kimi-k3-in-c · 今日 +351 ⭐](https://github.com/FareedKhan-dev/kimi-k3-in-c) | GitHub 每日趋势 |
-| 190 | [JustVugg/colibri · 今日 +802 ⭐](https://github.com/JustVugg/colibri) | GitHub 每日趋势 |
+| 178 | [garrytan/gstack · 今日 +612 ⭐](https://github.com/garrytan/gstack) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
