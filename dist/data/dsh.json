@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-06T18:47:39.005Z",
-  "total": 4704,
+  "generatedAt": "2026-11-06T21:33:09.905Z",
+  "total": 4703,
   "newCount": 0,
   "firstRun": false,
   "categories": [
@@ -14,7 +14,7 @@
     },
     {
       "name": "session",
-      "count": 356
+      "count": 355
     },
     {
       "name": "workflow",
@@ -238,7 +238,7 @@
       "url": "https://awesome-dsh-plugin.com/p/waafer1/dsh-jipu/",
       "repo": "https://github.com/waafer1/dsh-jipu",
       "category": "workflow",
-      "description": "读者优先的长篇小说工序：细纲先行、14 个门禁脚本、700 条主题种子，每个脚本自带自检（脚本依赖宿主上的 Python 3 运行）。",
+      "description": "读者优先的长篇小说工序：细纲先行、21 个门禁脚本、700 条主题种子，每个脚本自带自检；脚本依赖宿主上的 Python 3 运行。",
       "version": "1.12.0",
       "publishedAt": "2026-11-06T02:01:14.000Z"
     },
@@ -278,7 +278,7 @@
       "url": "https://awesome-dsh-plugin.com/p/Chengyunlai/dsh-workbench/",
       "repo": "https://github.com/Chengyunlai/dsh-workbench",
       "category": "dev",
-      "description": "DeepSeek Harness 对话旁的开发工作台，支持源码跳转、Python 类关系、Git 差异、断点调试与可搜索的 Markdown 记忆卡片。Go 与 Java 的源码跳转需自备语言服务器；断点调试需另行安装调试适配器（debugpy、Delve、vscode-js-debug）；Python 类关系仅支持…",
+      "description": "从 DeepSeek Harness 对话点击源码链接，直接跳到指定行。在右侧工作台查看 Git 差异和断点变量，也可以把讲解保存为可搜索的 Markdown 记忆卡片。支持 Python 类关系图（Beta）。Go 和 Java 跳转需要语言服务器，断点调试需要调试适配器。",
       "version": "1.4.3",
       "publishedAt": "2026-11-06T01:55:20.000Z"
     },
