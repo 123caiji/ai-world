@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/6 15:44:55 · 库内 900 条 · 本轮新增 501 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/6 18:30:46 · 库内 900 条 · 本轮新增 521 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 212 | [HerdBuilderEstimate/roblox-studio-mcp · 426 stars](https://github.com/HerdBuilderEstimate/roblox-studio-mcp) | GitHub 新仓库 |
+| 208 | [scenario-labs/skills · 今日 +667 ⭐](https://github.com/scenario-labs/skills) | GitHub 每日趋势 |
+| 208 | [NVIDIA/auto-ontology · 今日 +2679 ⭐](https://github.com/NVIDIA/auto-ontology) | GitHub 每日趋势 |
 | 205 | [thedotmack/claude-mem · 今日 +1172 ⭐](https://github.com/thedotmack/claude-mem) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 1023 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 178 | [mattpocock/skills · 今日 +2071 ⭐](https://github.com/mattpocock/skills) | GitHub 每日趋势 |
-| 178 | [vercel-labs/agent-desktop · 今日 +2173 ⭐](https://github.com/vercel-labs/agent-desktop) | GitHub 每日趋势 |
-| 178 | [max-sixty/worktrunk · 今日 +546 ⭐](https://github.com/max-sixty/worktrunk) | GitHub 每日趋势 |
+| 196 | [deepseek-ai/deepseek-harness 涨 1053 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [HerdBuilderEstimate/roblox-studio-mcp · 427 stars](https://github.com/HerdBuilderEstimate/roblox-studio-mcp) | GitHub 新仓库 |
+| 190 | [garrytan/gstack · 今日 +612 ⭐](https://github.com/garrytan/gstack) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样

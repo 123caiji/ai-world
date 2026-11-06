@@ -1,69 +1,69 @@
 {
-  "generatedAt": "2026-11-06T07:47:49.372Z",
+  "generatedAt": "2026-11-06T10:33:29.333Z",
   "windowHours": 72,
   "words": [
     {
-      "w": "openai",
-      "n": 176
-    },
-    {
       "w": "agent",
-      "n": 169
+      "n": 180
     },
     {
-      "w": "model",
-      "n": 136
+      "w": "openai",
+      "n": 171
     },
     {
       "w": "发布",
-      "n": 119
+      "n": 131
+    },
+    {
+      "w": "model",
+      "n": 120
     },
     {
       "w": "claude",
-      "n": 119
-    },
-    {
-      "w": "agents",
       "n": 116
     },
     {
-      "w": "data",
-      "n": 99
-    },
-    {
-      "w": "models",
-      "n": 95
-    },
-    {
-      "w": "anthropic",
-      "n": 92
-    },
-    {
       "w": "模型",
-      "n": 89
+      "n": 102
     },
     {
-      "w": "november",
-      "n": 83
+      "w": "agents",
+      "n": 98
     },
     {
-      "w": "google",
-      "n": 82
+      "w": "data",
+      "n": 93
     },
     {
       "w": "智能",
-      "n": 81
+      "n": 92
+    },
+    {
+      "w": "anthropic",
+      "n": 85
+    },
+    {
+      "w": "november",
+      "n": 77
+    },
+    {
+      "w": "google",
+      "n": 73
+    },
+    {
+      "w": "models",
+      "n": 72
     },
     {
       "w": "pro",
-      "n": 66
+      "n": 67
     },
     {
-      "w": "company",
-      "n": 57
+      "w": "token",
+      "n": 56
     },
     {
-      "w": "meta",
+      "w": "code",
       "n": 54
     },
     {
@@ -71,95 +71,87 @@
       "n": 53
     },
     {
-      "w": "code",
-      "n": 52
-    },
-    {
-      "w": "token",
-      "n": 52
-    },
-    {
-      "w": "announced",
-      "n": 52
-    },
-    {
-      "w": "flash",
+      "w": "company",
       "n": 51
     },
     {
-      "w": "news",
+      "w": "flash",
       "n": 50
     },
     {
+      "w": "meta",
+      "n": 48
+    },
+    {
+      "w": "news",
+      "n": 48
+    },
+    {
       "w": "tech",
-      "n": 49
-    },
-    {
-      "w": "work",
-      "n": 49
-    },
-    {
-      "w": "coding",
       "n": 48
-    },
-    {
-      "w": "research",
-      "n": 48
-    },
-    {
-      "w": "chatgpt",
-      "n": 45
-    },
-    {
-      "w": "llm",
-      "n": 45
     },
     {
       "w": "app",
-      "n": 43
+      "n": 47
+    },
+    {
+      "w": "announced",
+      "n": 46
     },
     {
       "w": "api",
-      "n": 42
-    },
-    {
-      "w": "startup",
-      "n": 42
-    },
-    {
-      "w": "apple",
-      "n": 41
+      "n": 44
     },
     {
       "w": "芯片",
+      "n": 44
+    },
+    {
+      "w": "work",
+      "n": 44
+    },
+    {
+      "w": "research",
+      "n": 43
+    },
+    {
+      "w": "chatgpt",
+      "n": 42
+    },
+    {
+      "w": "llm",
       "n": 40
     },
     {
-      "w": "tasks",
+      "w": "apple",
       "n": 39
     },
     {
-      "w": "nvidia",
-      "n": 36
-    },
-    {
-      "w": "ceo",
-      "n": 36
-    },
-    {
-      "w": "intelligence",
-      "n": 36
-    },
-    {
       "w": "智能体",
-      "n": 35
+      "n": 37
     },
     {
       "w": "gpu",
+      "n": 36
+    },
+    {
+      "w": "startup",
+      "n": 36
+    },
+    {
+      "w": "机器人",
       "n": 35
     },
     {
-      "w": "people",
+      "w": "nvidia",
+      "n": 35
+    },
+    {
+      "w": "ceo",
+      "n": 35
+    },
+    {
+      "w": "coding",
       "n": 34
     },
     {
@@ -167,31 +159,39 @@
       "n": 34
     },
     {
-      "w": "center",
+      "w": "intelligence",
       "n": 33
+    },
+    {
+      "w": "center",
+      "n": 32
+    },
+    {
+      "w": "cyber",
+      "n": 32
+    },
+    {
+      "w": "people",
+      "n": 32
+    },
+    {
+      "w": "image",
+      "n": 31
+    },
+    {
+      "w": "安全",
+      "n": 31
     },
     {
       "w": "business",
       "n": 31
     },
     {
-      "w": "control",
+      "w": "deepseek",
       "n": 31
     },
     {
-      "w": "systems",
-      "n": 31
-    },
-    {
-      "w": "cyber",
-      "n": 31
-    },
-    {
-      "w": "reasoning",
-      "n": 30
-    },
-    {
-      "w": "image",
+      "w": "million",
       "n": 30
     }
   ]
