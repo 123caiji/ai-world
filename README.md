@@ -40,12 +40,12 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/7 08:19:32 · 库内 900 条 · 本轮新增 478 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/7 11:05:06 · 库内 900 条 · 本轮新增 492 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 208 | [scenario-labs/skills · 今日 +667 ⭐](https://github.com/scenario-labs/skills) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 1013 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 963 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [NVIDIA/auto-ontology · 今日 +2015 ⭐](https://github.com/NVIDIA/auto-ontology) | GitHub 每日趋势 |
 | 191 | [AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)](https://www.youtube.com/watch?v=IrAHINf0M6E) | YouTube · Matt Wolfe |
 | 190 | [garrytan/gstack · 今日 +612 ⭐](https://github.com/garrytan/gstack) | GitHub 每日趋势 |

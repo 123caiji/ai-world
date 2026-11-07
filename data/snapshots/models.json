@@ -1,4 +1,12 @@
 {
+  "liquid/lfm-3-1.7b": {
+    "created": 1794009477,
+    "name": "LiquidAI: LFM3-1.7B"
+  },
+  "liquid/lfm-3-1.7b:free": {
+    "created": 1794009477,
+    "name": "LiquidAI: LFM3-1.7B (free)"
+  },
   "google/gemini-omni-1.2-flash": {
     "created": 1793898961,
     "name": "Google: Gemini Omni 1.2 Flash"
