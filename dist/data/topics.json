@@ -1,26 +1,30 @@
 {
-  "generatedAt": "2026-11-07T08:39:05.924Z",
+  "generatedAt": "2026-11-07T11:24:39.581Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 165
-    },
-    {
-      "w": "data",
-      "n": 148
+      "n": 166
     },
     {
       "w": "openai",
-      "n": 139
+      "n": 142
     },
     {
-      "w": "anthropic",
-      "n": 119
+      "w": "data",
+      "n": 136
     },
     {
       "w": "model",
       "n": 115
+    },
+    {
+      "w": "anthropic",
+      "n": 110
+    },
+    {
+      "w": "发布",
+      "n": 98
     },
     {
       "w": "agents",
@@ -28,119 +32,103 @@
     },
     {
       "w": "claude",
-      "n": 93
-    },
-    {
-      "w": "发布",
-      "n": 88
+      "n": 94
     },
     {
       "w": "模型",
-      "n": 85
+      "n": 88
     },
     {
       "w": "november",
-      "n": 85
-    },
-    {
-      "w": "models",
-      "n": 82
-    },
-    {
-      "w": "智能",
-      "n": 66
+      "n": 80
     },
     {
       "w": "google",
-      "n": 64
+      "n": 72
+    },
+    {
+      "w": "智能",
+      "n": 70
+    },
+    {
+      "w": "models",
+      "n": 69
     },
     {
       "w": "app",
-      "n": 62
+      "n": 64
     },
     {
       "w": "meta",
-      "n": 61
-    },
-    {
-      "w": "pro",
-      "n": 58
+      "n": 59
     },
     {
       "w": "tech",
-      "n": 58
+      "n": 57
     },
     {
       "w": "people",
       "n": 56
     },
     {
-      "w": "code",
-      "n": 53
+      "w": "llm",
+      "n": 55
     },
     {
-      "w": "company",
-      "n": 53
+      "w": "code",
+      "n": 54
     },
     {
       "w": "muse",
       "n": 52
     },
     {
-      "w": "llm",
+      "w": "research",
       "n": 51
     },
     {
-      "w": "announced",
-      "n": 49
+      "w": "company",
+      "n": 50
     },
     {
-      "w": "research",
-      "n": 49
-    },
-    {
-      "w": "token",
+      "w": "gemini",
       "n": 48
     },
     {
       "w": "work",
-      "n": 48
+      "n": 46
     },
     {
-      "w": "nvidia",
-      "n": 47
+      "w": "token",
+      "n": 46
     },
     {
-      "w": "api",
+      "w": "announced",
       "n": 45
     },
     {
-      "w": "gemini",
+      "w": "api",
       "n": 44
     },
     {
-      "w": "news",
-      "n": 43
+      "w": "nvidia",
+      "n": 42
     },
     {
-      "w": "gpu",
-      "n": 43
+      "w": "pro",
+      "n": 42
+    },
+    {
+      "w": "cyber",
+      "n": 42
     },
     {
       "w": "intelligence",
-      "n": 42
+      "n": 40
     },
     {
       "w": "center",
       "n": 40
-    },
-    {
-      "w": "cyber",
-      "n": 40
-    },
-    {
-      "w": "deepseek",
-      "n": 39
     },
     {
       "w": "flash",
@@ -151,8 +139,16 @@
       "n": 38
     },
     {
-      "w": "users",
+      "w": "gpu",
       "n": 37
+    },
+    {
+      "w": "deepseek",
+      "n": 37
+    },
+    {
+      "w": "news",
+      "n": 36
     },
     {
       "w": "ipo",
@@ -163,19 +159,15 @@
       "n": 36
     },
     {
-      "w": "agentic",
-      "n": 36
-    },
-    {
       "w": "information",
-      "n": 35
-    },
-    {
-      "w": "chatgpt",
       "n": 34
     },
     {
-      "w": "software",
+      "w": "agentic",
+      "n": 34
+    },
+    {
+      "w": "gpt-6",
       "n": 33
     },
     {
@@ -183,15 +175,23 @@
       "n": 33
     },
     {
-      "w": "gpt-6",
-      "n": 32
-    },
-    {
-      "w": "development",
-      "n": 32
-    },
-    {
       "w": "access",
+      "n": 32
+    },
+    {
+      "w": "artificialintelligence",
+      "n": 32
+    },
+    {
+      "w": "video",
+      "n": 31
+    },
+    {
+      "w": "control",
+      "n": 31
+    },
+    {
+      "w": "chatgpt",
       "n": 31
     }
   ]

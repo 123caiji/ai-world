@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/7 16:36:11 · 库内 900 条 · 本轮新增 521 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/7 19:21:46 · 库内 900 条 · 本轮新增 515 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 208 | [scenario-labs/skills · 今日 +667 ⭐](https://github.com/scenario-labs/skills) | GitHub 每日趋势 |
-| 203 | [ollama/ollama 涨 127 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 196 | [deepseek-ai/deepseek-harness 涨 823 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 199 | [meta/astryx · 今日 +198 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
+| 196 | [deepseek-ai/deepseek-harness 涨 801 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [NVIDIA/auto-ontology · 今日 +2015 ⭐](https://github.com/NVIDIA/auto-ontology) | GitHub 每日趋势 |
+| 191 | [ollama/ollama 涨 126 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
 | 190 | [garrytan/gstack · 今日 +612 ⭐](https://github.com/garrytan/gstack) | GitHub 每日趋势 |
-| 178 | [cloudflare/security-audit-skill · 今日 +2548 ⭐](https://github.com/cloudflare/security-audit-skill) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
