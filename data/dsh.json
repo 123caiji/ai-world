@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T19:38:39.609Z",
-  "total": 4791,
+  "generatedAt": "2026-11-07T22:24:13.566Z",
+  "total": 4790,
   "newCount": 0,
   "firstRun": false,
   "categories": [
@@ -38,7 +38,7 @@
     },
     {
       "name": "theme",
-      "count": 160
+      "count": 159
     },
     {
       "name": "notify",
@@ -128,7 +128,7 @@
       "url": "https://awesome-dsh-plugin.com/p/OrderG-X/dsh-design-studio/",
       "repo": "https://github.com/OrderG-X/dsh-design-studio",
       "category": "ui",
-      "description": "右侧栏的设计工作台。模型做网页、App 界面、桌面软件窗口、微信小程序、海报、幻灯片、邮件时，每个 HTML 文件在画布上显示为一屏，套设备外框，文件一改就刷新；本地开发服务器经代理接入，热更新照常；已有的 HTML 文件或文件夹，点「浏览…」或拖进右侧栏就能打开（桌面版）。小程序屏画上微信右上角的胶囊，顶栏是深色时胶…",
+      "description": "右侧栏的设计工作台。模型做网页、App 界面、桌面软件窗口、微信小程序、海报、幻灯片、邮件时，每个 HTML 文件在画布上显示为一屏，套设备外框，文件一改就刷新；本地开发服务器经代理接入，热更新照常；已有的 HTML 文件或文件夹，点「浏览…」或拖进右侧栏就能打开（桌面版）。设计库里有你在各个会话做过的所有设计、收的灵…",
       "version": "0.11.0",
       "publishedAt": "2026-11-07T02:02:41.000Z"
     },
@@ -358,7 +358,7 @@
       "url": "https://awesome-dsh-plugin.com/p/439436269-ctrl/dsh-file-explorer/",
       "repo": "https://github.com/439436269-ctrl/dsh-file-explorer",
       "category": "ui",
-      "description": "在侧栏里浏览工作区：懒加载文件树，面板内预览文本 / Markdown / 图片，并可交给系统默认程序打开。",
+      "description": "侧栏文件浏览器与文件预览器：懒加载文件树，面板内预览文本 / Markdown（含表格）/ 图片，可把当前文件送进会话右侧文档预览，或交给系统默认程序打开；只读，路径限定在可浏览根内。",
       "version": "0.2.1",
       "publishedAt": "2026-11-07T00:44:48.000Z"
     },
@@ -428,7 +428,7 @@
       "url": "https://awesome-dsh-plugin.com/p/439436269-ctrl/dsh-sticky-notes/",
       "repo": "https://github.com/439436269-ctrl/dsh-sticky-notes",
       "category": "ui",
-      "description": "在左侧栏加一面可平铺的彩色便签墙：每行 2–5 个或自适应、置顶、搜索与颜色筛选、带恢复的回收站、Markdown 导出；四个 note_* 工具读写同一批便签。",
+      "description": "DSH 左侧栏的彩色便签墙（便签插件 / 记事贴）：每行 2–5 个或自适应、置顶、搜索与颜色筛选、带恢复的回收站、Markdown 导出；四个 note_* 工具读写同一批便签。",
       "version": "0.2.1",
       "publishedAt": "2026-11-07T00:41:21.000Z"
     },
