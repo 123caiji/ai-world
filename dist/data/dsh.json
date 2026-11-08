@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T20:30:56.792Z",
+  "generatedAt": "2026-11-08T23:16:45.275Z",
   "total": 4870,
   "newCount": 0,
   "firstRun": false,
@@ -398,7 +398,7 @@
       "url": "https://awesome-dsh-plugin.com/p/EternalNight996/memory-eternal/",
       "repo": "https://github.com/EternalNight996/memory-eternal",
       "category": "memory",
-      "description": "别的记忆插件让 AI 记住更多，我们让 AI 只记住对的：Agent 只能提案，人工审核才进主库（三库分离 + 不可变审计日志）；召回走 SQLite FTS5/BM25、零模型调用（实测 p50 2.3ms），记忆账本摊开召回成本与有用率；一个库接 DSH / Claude Code / Codex /…",
+      "description": "别的记忆插件让 AI 记住更多，我们让 AI 只记住对的：Agent 只能提案，人工审核才进主库（三库分离 + 不可变审计日志）；召回走 SQLite FTS5/BM25、零模型调用（实测 p50 2.3ms），记忆账本摊开召回成本与有用率。v0.30 起知识星图改为平铺力导向（默认 800…",
       "version": "0.28.1",
       "publishedAt": "2026-11-07T22:06:52.000Z"
     },
