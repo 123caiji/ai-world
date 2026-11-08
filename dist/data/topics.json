@@ -1,129 +1,129 @@
 {
-  "generatedAt": "2026-11-08T03:59:48.646Z",
+  "generatedAt": "2026-11-08T06:45:57.798Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 167
+      "n": 173
     },
     {
       "w": "data",
-      "n": 130
+      "n": 128
     },
     {
       "w": "openai",
-      "n": 125
+      "n": 116
     },
     {
       "w": "anthropic",
-      "n": 110
-    },
-    {
-      "w": "发布",
-      "n": 106
+      "n": 109
     },
     {
       "w": "模型",
-      "n": 98
+      "n": 96
+    },
+    {
+      "w": "发布",
+      "n": 90
     },
     {
       "w": "claude",
-      "n": 93
+      "n": 89
     },
     {
       "w": "model",
-      "n": 83
+      "n": 88
     },
     {
       "w": "智能",
-      "n": 82
-    },
-    {
-      "w": "tech",
-      "n": 59
-    },
-    {
-      "w": "people",
-      "n": 58
-    },
-    {
-      "w": "app",
-      "n": 58
-    },
-    {
-      "w": "agents",
-      "n": 57
-    },
-    {
-      "w": "meta",
-      "n": 56
-    },
-    {
-      "w": "pro",
-      "n": 55
+      "n": 74
     },
     {
       "w": "llm",
-      "n": 55
+      "n": 58
     },
     {
       "w": "code",
-      "n": 53
+      "n": 58
     },
     {
-      "w": "november",
-      "n": 53
+      "w": "people",
+      "n": 57
     },
     {
-      "w": "intelligence",
-      "n": 49
-    },
-    {
-      "w": "google",
-      "n": 49
+      "w": "tech",
+      "n": 56
     },
     {
       "w": "research",
+      "n": 54
+    },
+    {
+      "w": "app",
+      "n": 53
+    },
+    {
+      "w": "meta",
+      "n": 53
+    },
+    {
+      "w": "agents",
+      "n": 50
+    },
+    {
+      "w": "november",
       "n": 49
     },
     {
-      "w": "models",
-      "n": 46
+      "w": "pro",
+      "n": 48
     },
     {
       "w": "token",
       "n": 46
     },
     {
-      "w": "芯片",
+      "w": "models",
+      "n": 46
+    },
+    {
+      "w": "google",
+      "n": 46
+    },
+    {
+      "w": "deepseek",
       "n": 45
     },
     {
-      "w": "ipo",
-      "n": 45
-    },
-    {
-      "w": "muse",
+      "w": "intelligence",
       "n": 44
     },
     {
-      "w": "company",
+      "w": "ipo",
       "n": 42
     },
     {
-      "w": "artificialintelligence",
+      "w": "company",
       "n": 41
     },
     {
-      "w": "nvidia",
+      "w": "artificialintelligence",
       "n": 40
+    },
+    {
+      "w": "api",
+      "n": 39
     },
     {
       "w": "news",
       "n": 39
     },
     {
-      "w": "work",
+      "w": "芯片",
+      "n": 39
+    },
+    {
+      "w": "nvidia",
       "n": 39
     },
     {
@@ -131,68 +131,68 @@
       "n": 39
     },
     {
-      "w": "artificial",
-      "n": 37
+      "w": "security",
+      "n": 36
+    },
+    {
+      "w": "work",
+      "n": 36
+    },
+    {
+      "w": "dsh",
+      "n": 36
+    },
+    {
+      "w": "muse",
+      "n": 36
     },
     {
       "w": "europesays.com",
       "n": 36
     },
     {
-      "w": "deepseek",
+      "w": "mcp",
       "n": 35
     },
     {
-      "w": "ceo",
-      "n": 35
-    },
-    {
-      "w": "chatgpt",
-      "n": 34
-    },
-    {
-      "w": "security",
-      "n": 34
-    },
-    {
-      "w": "center",
-      "n": 34
-    },
-    {
-      "w": "gpu",
-      "n": 34
-    },
-    {
-      "w": "api",
-      "n": 34
+      "w": "artificial",
+      "n": 33
     },
     {
       "w": "pubeurope.com",
       "n": 33
     },
     {
+      "w": "center",
+      "n": 32
+    },
+    {
       "w": "amazon",
       "n": 32
     },
     {
-      "w": "agentic",
-      "n": 31
-    },
-    {
-      "w": "valuation",
-      "n": 31
-    },
-    {
-      "w": "public",
-      "n": 30
-    },
-    {
       "w": "mastodon.social",
+      "n": 31
+    },
+    {
+      "w": "codex",
       "n": 30
     },
     {
-      "w": "mcp",
+      "w": "chatgpt",
       "n": 30
+    },
+    {
+      "w": "ceo",
+      "n": 30
+    },
+    {
+      "w": "gpu",
+      "n": 30
+    },
+    {
+      "w": "agentic",
+      "n": 29
     }
   ]
 }
