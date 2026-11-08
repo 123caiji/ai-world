@@ -40,14 +40,14 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/8 06:24:28 · 库内 900 条 · 本轮新增 529 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/8 09:11:21 · 库内 900 条 · 本轮新增 521 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 208 | [scenario-labs/skills · 今日 +667 ⭐](https://github.com/scenario-labs/skills) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 821 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 749 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [NVIDIA/auto-ontology · 今日 +2015 ⭐](https://github.com/NVIDIA/auto-ontology) | GitHub 每日趋势 |
-| 192 | [ollama/ollama 涨 132 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
+| 191 | [ollama/ollama 涨 129 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
 | 190 | [garrytan/gstack · 今日 +612 ⭐](https://github.com/garrytan/gstack) | GitHub 每日趋势 |
 | 189 | [Claude Code Just Called My Phone](https://www.youtube.com/watch?v=A5SfzBD6M3o) | YouTube · Matt Wolfe |
 <!-- RADAR:END -->
