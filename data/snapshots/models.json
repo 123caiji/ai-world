@@ -67,6 +67,10 @@
     "created": 1792225624,
     "name": "DeepSeek: DeepSeek V4.1 Flash 1017"
   },
+  "deepseek/deepseek-v4.1-flash-1017:batch": {
+    "created": 1792225624,
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)"
+  },
   "elorian/glimpse": {
     "created": 1792206629,
     "name": "Elorian: Glimpse"
@@ -714,6 +718,10 @@
   "z-ai/glm-5.2": {
     "created": 1781631930,
     "name": "Z.ai: GLM 5.2"
+  },
+  "z-ai/glm-5.2:batch": {
+    "created": 1781631930,
+    "name": "Z.ai: GLM 5.2 (batch)"
   },
   "moonshotai/kimi-k2.7-code": {
     "created": 1781266361,
@@ -1475,9 +1483,17 @@
     "created": 1751910858,
     "name": "Morph: Morph V3 Large"
   },
+  "morph/morph-v3-large:batch": {
+    "created": 1751910858,
+    "name": "Morph: Morph V3 Large (batch)"
+  },
   "morph/morph-v3-fast": {
     "created": 1751910002,
     "name": "Morph: Morph V3 Fast"
+  },
+  "morph/morph-v3-fast:batch": {
+    "created": 1751910002,
+    "name": "Morph: Morph V3 Fast (batch)"
   },
   "mistralai/mistral-small-3.2-24b-instruct": {
     "created": 1750443016,
