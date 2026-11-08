@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T17:45:19.333Z",
-  "total": 4872,
+  "generatedAt": "2026-11-08T20:30:56.792Z",
+  "total": 4870,
   "newCount": 0,
   "firstRun": false,
   "categories": [
@@ -46,7 +46,7 @@
     },
     {
       "name": "remote",
-      "count": 155
+      "count": 154
     },
     {
       "name": "fun",
@@ -78,7 +78,7 @@
       "url": "https://awesome-dsh-plugin.com/p/hoyyang/dsh-project-manager/",
       "repo": "https://github.com/hoyyang/dsh-project-manager",
       "category": "workflow",
-      "description": "项目看板：卡片组泳道自定义阶段，卡片关联落盘项目记忆、挂载仓库与已有会话（可恢复归档）；从卡片开的会话自动读取项目记忆。",
+      "description": "项目看板 + 任务日程（甘特图）+ 项目记忆：从卡片打开的会话自动带上项目最新记忆；一句话落盘不丢事实需要 python3，Windows 上不可用。",
       "version": "0.57.0",
       "publishedAt": "2026-11-08T02:21:32.000Z"
     },
@@ -108,7 +108,7 @@
       "url": "https://awesome-dsh-plugin.com/p/lzyxczw-cyber/dafish-clean/",
       "repo": "https://github.com/lzyxczw-cyber/dafish-clean",
       "category": "tools",
-      "description": "非官方 Mole CLI 图形面板（macOS）：实时系统状态、清理预览与二次确认、磁盘分析、应用清单、系统维护、清理历史，并内置 Homebrew 安装引导。",
+      "description": "大肥鱼 clean —— 非官方 Mole CLI 图形面板（macOS）：实时系统状态、清理预览与二次确认、磁盘分析、应用清单、系统维护、清理历史，并内置 Mole CLI 安装引导。",
       "version": "1.0.2",
       "publishedAt": "2026-11-08T02:09:29.000Z"
     },
