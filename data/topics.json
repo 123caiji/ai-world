@@ -1,97 +1,101 @@
 {
-  "generatedAt": "2026-11-09T13:09:32.899Z",
+  "generatedAt": "2026-11-09T15:55:48.765Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 164
+      "n": 151
     },
     {
       "w": "nvidia",
-      "n": 129
-    },
-    {
-      "w": "发布",
-      "n": 104
-    },
-    {
-      "w": "模型",
-      "n": 94
+      "n": 139
     },
     {
       "w": "claude",
-      "n": 93
+      "n": 97
     },
     {
-      "w": "智能",
+      "w": "发布",
+      "n": 92
+    },
+    {
+      "w": "模型",
       "n": 86
     },
     {
-      "w": "openai",
-      "n": 78
-    },
-    {
-      "w": "ceo",
-      "n": 74
+      "w": "智能",
+      "n": 81
     },
     {
       "w": "huang",
-      "n": 73
+      "n": 81
+    },
+    {
+      "w": "ceo",
+      "n": 80
     },
     {
       "w": "anthropic",
-      "n": 70
-    },
-    {
-      "w": "pro",
-      "n": 68
-    },
-    {
-      "w": "data",
-      "n": 67
-    },
-    {
-      "w": "model",
-      "n": 63
-    },
-    {
-      "w": "llm",
-      "n": 61
+      "n": 71
     },
     {
       "w": "models",
-      "n": 61
+      "n": 71
+    },
+    {
+      "w": "data",
+      "n": 70
+    },
+    {
+      "w": "model",
+      "n": 67
+    },
+    {
+      "w": "openai",
+      "n": 64
+    },
+    {
+      "w": "llm",
+      "n": 63
+    },
+    {
+      "w": "pro",
+      "n": 58
+    },
+    {
+      "w": "jensen",
+      "n": 57
+    },
+    {
+      "w": "chatgpt",
+      "n": 56
     },
     {
       "w": "code",
-      "n": 56
+      "n": 55
+    },
+    {
+      "w": "tech",
+      "n": 54
     },
     {
       "w": "news",
       "n": 53
     },
     {
-      "w": "tech",
-      "n": 53
-    },
-    {
-      "w": "jensen",
-      "n": 52
-    },
-    {
-      "w": "chatgpt",
-      "n": 49
-    },
-    {
-      "w": "artificialintelligence",
-      "n": 49
+      "w": "agents",
+      "n": 50
     },
     {
       "w": "intelligence",
-      "n": 47
+      "n": 48
     },
     {
-      "w": "agents",
+      "w": "november",
+      "n": 48
+    },
+    {
+      "w": "software",
       "n": 46
     },
     {
@@ -99,63 +103,59 @@
       "n": 45
     },
     {
-      "w": "europe",
+      "w": "artificialintelligence",
       "n": 44
     },
     {
-      "w": "europesays.com",
-      "n": 44
+      "w": "meta",
+      "n": 43
     },
     {
-      "w": "google",
-      "n": 42
-    },
-    {
-      "w": "software",
-      "n": 42
-    },
-    {
-      "w": "芯片",
-      "n": 42
+      "w": "siri",
+      "n": 41
     },
     {
       "w": "apple",
       "n": 40
     },
     {
-      "w": "pubeurope.com",
+      "w": "europesays.com",
       "n": 40
     },
     {
-      "w": "november",
+      "w": "app",
       "n": 39
     },
     {
-      "w": "siri",
-      "n": 38
-    },
-    {
-      "w": "meta",
-      "n": 38
-    },
-    {
-      "w": "app",
-      "n": 38
-    },
-    {
-      "w": "work",
-      "n": 37
-    },
-    {
       "w": "chinese",
-      "n": 37
+      "n": 39
     },
     {
-      "w": "artificial",
-      "n": 37
+      "w": "europe",
+      "n": 39
+    },
+    {
+      "w": "company",
+      "n": 38
+    },
+    {
+      "w": "google",
+      "n": 38
     },
     {
       "w": "mastodon.social",
+      "n": 38
+    },
+    {
+      "w": "artificial",
+      "n": 36
+    },
+    {
+      "w": "芯片",
+      "n": 36
+    },
+    {
+      "w": "work",
       "n": 36
     },
     {
@@ -163,36 +163,36 @@
       "n": 36
     },
     {
+      "w": "pubeurope.com",
+      "n": 36
+    },
+    {
+      "w": "announced",
+      "n": 34
+    },
+    {
       "w": "china",
       "n": 34
     },
     {
-      "w": "people",
+      "w": "safety",
       "n": 33
     },
     {
-      "w": "company",
-      "n": 32
-    },
-    {
-      "w": "deepseek",
-      "n": 32
+      "w": "coding",
+      "n": 31
     },
     {
       "w": "security",
       "n": 31
     },
     {
-      "w": "byteseu.com",
-      "n": 31
+      "w": "companies",
+      "n": 30
     },
     {
       "w": "agentic",
-      "n": 29
-    },
-    {
-      "w": "companies",
-      "n": 29
+      "n": 30
     }
   ]
 }
