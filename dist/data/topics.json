@@ -1,69 +1,69 @@
 {
-  "generatedAt": "2026-11-09T04:51:57.293Z",
+  "generatedAt": "2026-11-09T07:38:07.250Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 151
-    },
-    {
-      "w": "openai",
-      "n": 118
-    },
-    {
-      "w": "anthropic",
-      "n": 105
+      "n": 149
     },
     {
       "w": "发布",
-      "n": 102
+      "n": 104
+    },
+    {
+      "w": "openai",
+      "n": 103
     },
     {
       "w": "模型",
-      "n": 91
-    },
-    {
-      "w": "claude",
-      "n": 89
-    },
-    {
-      "w": "data",
-      "n": 88
-    },
-    {
-      "w": "model",
-      "n": 85
-    },
-    {
-      "w": "models",
-      "n": 67
-    },
-    {
-      "w": "智能",
-      "n": 66
-    },
-    {
-      "w": "llm",
-      "n": 64
-    },
-    {
-      "w": "tech",
-      "n": 63
+      "n": 98
     },
     {
       "w": "nvidia",
+      "n": 97
+    },
+    {
+      "w": "claude",
+      "n": 93
+    },
+    {
+      "w": "anthropic",
+      "n": 90
+    },
+    {
+      "w": "智能",
+      "n": 72
+    },
+    {
+      "w": "model",
+      "n": 69
+    },
+    {
+      "w": "data",
+      "n": 68
+    },
+    {
+      "w": "ceo",
       "n": 63
     },
     {
-      "w": "meta",
-      "n": 60
-    },
-    {
       "w": "code",
-      "n": 59
+      "n": 63
     },
     {
       "w": "pro",
+      "n": 63
+    },
+    {
+      "w": "llm",
+      "n": 62
+    },
+    {
+      "w": "models",
+      "n": 58
+    },
+    {
+      "w": "tech",
       "n": 58
     },
     {
@@ -71,111 +71,87 @@
       "n": 55
     },
     {
-      "w": "intelligence",
-      "n": 55
-    },
-    {
-      "w": "ceo",
-      "n": 54
+      "w": "meta",
+      "n": 52
     },
     {
       "w": "api",
       "n": 51
     },
     {
+      "w": "huang",
+      "n": 48
+    },
+    {
       "w": "chatgpt",
-      "n": 50
-    },
-    {
-      "w": "artificialintelligence",
-      "n": 50
-    },
-    {
-      "w": "agents",
-      "n": 49
-    },
-    {
-      "w": "google",
       "n": 47
     },
     {
-      "w": "app",
-      "n": 46
+      "w": "artificialintelligence",
+      "n": 47
     },
     {
-      "w": "ipo",
-      "n": 46
+      "w": "intelligence",
+      "n": 45
     },
     {
-      "w": "europe",
-      "n": 46
-    },
-    {
-      "w": "europesays.com",
-      "n": 46
-    },
-    {
-      "w": "research",
+      "w": "google",
       "n": 44
     },
     {
-      "w": "muse",
+      "w": "agents",
       "n": 44
     },
     {
-      "w": "huang",
+      "w": "siri",
       "n": 43
     },
     {
-      "w": "pubeurope.com",
+      "w": "ipo",
+      "n": 43
+    },
+    {
+      "w": "app",
+      "n": 42
+    },
+    {
+      "w": "dsh",
       "n": 41
     },
     {
       "w": "芯片",
-      "n": 39
-    },
-    {
-      "w": "siri",
-      "n": 38
-    },
-    {
-      "w": "artificial",
-      "n": 38
-    },
-    {
-      "w": "people",
-      "n": 38
-    },
-    {
-      "w": "mastodon.social",
-      "n": 37
+      "n": 40
     },
     {
       "w": "deepseek",
-      "n": 36
-    },
-    {
-      "w": "work",
-      "n": 36
+      "n": 40
     },
     {
       "w": "apple",
+      "n": 40
+    },
+    {
+      "w": "europe",
+      "n": 40
+    },
+    {
+      "w": "mastodon.social",
+      "n": 38
+    },
+    {
+      "w": "pubeurope.com",
+      "n": 38
+    },
+    {
+      "w": "europesays.com",
+      "n": 38
+    },
+    {
+      "w": "muse",
       "n": 36
     },
     {
-      "w": "company",
-      "n": 36
-    },
-    {
-      "w": "software",
-      "n": 36
-    },
-    {
-      "w": "don",
-      "n": 34
-    },
-    {
-      "w": "watch",
+      "w": "jensen",
       "n": 34
     },
     {
@@ -183,16 +159,40 @@
       "n": 34
     },
     {
-      "w": "china",
+      "w": "artificial",
       "n": 33
     },
     {
-      "w": "november",
-      "n": 30
+      "w": "research",
+      "n": 33
     },
     {
-      "w": "算力",
-      "n": 30
+      "w": "work",
+      "n": 33
+    },
+    {
+      "w": "software",
+      "n": 33
+    },
+    {
+      "w": "watch",
+      "n": 33
+    },
+    {
+      "w": "people",
+      "n": 33
+    },
+    {
+      "w": "don",
+      "n": 32
+    },
+    {
+      "w": "codex",
+      "n": 31
+    },
+    {
+      "w": "company",
+      "n": 31
     }
   ]
 }
