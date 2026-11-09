@@ -40,11 +40,11 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/9 10:03:26 · 库内 900 条 · 本轮新增 557 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/9 12:49:40 · 库内 900 条 · 本轮新增 544 条 · 数据源 57/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 196 | [deepseek-ai/deepseek-harness 涨 713 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 774 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [meta/astryx · 今日 +875 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
 | 191 | [ollama/ollama 涨 125 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
 | 178 | [anthropics/skills · 今日 +792 ⭐](https://github.com/anthropics/skills) | GitHub 每日趋势 |

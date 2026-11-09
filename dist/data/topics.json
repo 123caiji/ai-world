@@ -1,89 +1,93 @@
 {
-  "generatedAt": "2026-11-09T02:05:31.708Z",
+  "generatedAt": "2026-11-09T04:51:57.293Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 153
+      "n": 151
     },
     {
       "w": "openai",
-      "n": 128
-    },
-    {
-      "w": "data",
-      "n": 114
+      "n": 118
     },
     {
       "w": "anthropic",
-      "n": 106
+      "n": 105
     },
     {
       "w": "发布",
-      "n": 90
-    },
-    {
-      "w": "claude",
-      "n": 83
+      "n": 102
     },
     {
       "w": "模型",
-      "n": 83
+      "n": 91
+    },
+    {
+      "w": "claude",
+      "n": 89
+    },
+    {
+      "w": "data",
+      "n": 88
     },
     {
       "w": "model",
-      "n": 82
-    },
-    {
-      "w": "llm",
-      "n": 67
-    },
-    {
-      "w": "tech",
-      "n": 65
-    },
-    {
-      "w": "code",
-      "n": 64
+      "n": 85
     },
     {
       "w": "models",
+      "n": 67
+    },
+    {
+      "w": "智能",
+      "n": 66
+    },
+    {
+      "w": "llm",
+      "n": 64
+    },
+    {
+      "w": "tech",
       "n": 63
     },
     {
       "w": "nvidia",
-      "n": 61
+      "n": 63
     },
     {
       "w": "meta",
-      "n": 61
+      "n": 60
     },
     {
-      "w": "智能",
-      "n": 60
+      "w": "code",
+      "n": 59
+    },
+    {
+      "w": "pro",
+      "n": 58
+    },
+    {
+      "w": "news",
+      "n": 55
     },
     {
       "w": "intelligence",
       "n": 55
     },
     {
-      "w": "app",
-      "n": 52
-    },
-    {
       "w": "ceo",
-      "n": 52
+      "n": 54
     },
     {
-      "w": "google",
+      "w": "api",
       "n": 51
     },
     {
-      "w": "pro",
-      "n": 51
+      "w": "chatgpt",
+      "n": 50
     },
     {
-      "w": "people",
+      "w": "artificialintelligence",
       "n": 50
     },
     {
@@ -91,19 +95,27 @@
       "n": 49
     },
     {
-      "w": "chatgpt",
-      "n": 48
+      "w": "google",
+      "n": 47
+    },
+    {
+      "w": "app",
+      "n": 46
     },
     {
       "w": "ipo",
-      "n": 47
+      "n": 46
     },
     {
-      "w": "artificialintelligence",
-      "n": 47
+      "w": "europe",
+      "n": 46
     },
     {
-      "w": "news",
+      "w": "europesays.com",
+      "n": 46
+    },
+    {
+      "w": "research",
       "n": 44
     },
     {
@@ -111,43 +123,35 @@
       "n": 44
     },
     {
-      "w": "europe",
-      "n": 44
-    },
-    {
-      "w": "europesays.com",
-      "n": 44
-    },
-    {
-      "w": "research",
-      "n": 42
-    },
-    {
-      "w": "api",
-      "n": 41
-    },
-    {
-      "w": "software",
-      "n": 41
-    },
-    {
-      "w": "deepseek",
-      "n": 39
-    },
-    {
-      "w": "artificial",
-      "n": 39
-    },
-    {
-      "w": "company",
-      "n": 39
+      "w": "huang",
+      "n": 43
     },
     {
       "w": "pubeurope.com",
-      "n": 39
+      "n": 41
     },
     {
       "w": "芯片",
+      "n": 39
+    },
+    {
+      "w": "siri",
+      "n": 38
+    },
+    {
+      "w": "artificial",
+      "n": 38
+    },
+    {
+      "w": "people",
+      "n": 38
+    },
+    {
+      "w": "mastodon.social",
+      "n": 37
+    },
+    {
+      "w": "deepseek",
       "n": 36
     },
     {
@@ -155,43 +159,39 @@
       "n": 36
     },
     {
-      "w": "huang",
-      "n": 35
-    },
-    {
-      "w": "mastodon.social",
-      "n": 35
-    },
-    {
-      "w": "november",
-      "n": 34
-    },
-    {
-      "w": "siri",
-      "n": 33
-    },
-    {
-      "w": "byteseu.com",
-      "n": 32
-    },
-    {
       "w": "apple",
-      "n": 31
+      "n": 36
+    },
+    {
+      "w": "company",
+      "n": 36
+    },
+    {
+      "w": "software",
+      "n": 36
     },
     {
       "w": "don",
+      "n": 34
+    },
+    {
+      "w": "watch",
+      "n": 34
+    },
+    {
+      "w": "byteseu.com",
+      "n": 34
+    },
+    {
+      "w": "china",
+      "n": 33
+    },
+    {
+      "w": "november",
       "n": 30
     },
     {
-      "w": "companies",
-      "n": 30
-    },
-    {
-      "w": "center",
-      "n": 30
-    },
-    {
-      "w": "public",
+      "w": "算力",
       "n": 30
     }
   ]
