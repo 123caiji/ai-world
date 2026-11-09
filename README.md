@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/9 07:17:00 · 库内 900 条 · 本轮新增 564 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/9 10:03:26 · 库内 900 条 · 本轮新增 557 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 196 | [deepseek-ai/deepseek-harness 涨 685 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 196 | [meta/astryx · 今日 +863 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
+| 196 | [deepseek-ai/deepseek-harness 涨 713 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [meta/astryx · 今日 +875 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
 | 191 | [ollama/ollama 涨 125 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 178 | [anthropics/skills · 今日 +793 ⭐](https://github.com/anthropics/skills) | GitHub 每日趋势 |
-| 178 | [vercel-labs/agent-browser · 今日 +812 ⭐](https://github.com/vercel-labs/agent-browser) | GitHub 每日趋势 |
-| 178 | [cloudflare/security-audit-skill · 今日 +2085 ⭐](https://github.com/cloudflare/security-audit-skill) | GitHub 每日趋势 |
+| 178 | [anthropics/skills · 今日 +792 ⭐](https://github.com/anthropics/skills) | GitHub 每日趋势 |
+| 178 | [vercel-labs/agent-browser · 今日 +815 ⭐](https://github.com/vercel-labs/agent-browser) | GitHub 每日趋势 |
+| 176 | [google/skills · 今日 +443 ⭐](https://github.com/google/skills) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
