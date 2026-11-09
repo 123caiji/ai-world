@@ -1,133 +1,137 @@
 {
-  "generatedAt": "2026-11-09T18:41:21.273Z",
+  "generatedAt": "2026-11-09T21:26:53.148Z",
   "windowHours": 72,
   "words": [
     {
-      "w": "agent",
-      "n": 148
+      "w": "nvidia",
+      "n": 150
     },
     {
-      "w": "nvidia",
-      "n": 147
+      "w": "agent",
+      "n": 146
     },
     {
       "w": "claude",
-      "n": 99
+      "n": 122
+    },
+    {
+      "w": "anthropic",
+      "n": 101
+    },
+    {
+      "w": "huang",
+      "n": 96
     },
     {
       "w": "发布",
       "n": 95
     },
     {
-      "w": "huang",
-      "n": 90
-    },
-    {
-      "w": "模型",
-      "n": 84
+      "w": "models",
+      "n": 86
     },
     {
       "w": "ceo",
       "n": 82
     },
     {
-      "w": "智能",
-      "n": 79
-    },
-    {
-      "w": "models",
-      "n": 73
-    },
-    {
-      "w": "anthropic",
-      "n": 72
-    },
-    {
-      "w": "data",
-      "n": 70
+      "w": "模型",
+      "n": 80
     },
     {
       "w": "model",
-      "n": 69
+      "n": 79
     },
     {
-      "w": "openai",
-      "n": 68
+      "w": "智能",
+      "n": 76
     },
     {
-      "w": "llm",
-      "n": 67
+      "w": "data",
+      "n": 73
     },
     {
       "w": "jensen",
+      "n": 68
+    },
+    {
+      "w": "agents",
+      "n": 66
+    },
+    {
+      "w": "november",
+      "n": 66
+    },
+    {
+      "w": "openai",
+      "n": 64
+    },
+    {
+      "w": "llm",
       "n": 63
     },
     {
       "w": "code",
-      "n": 60
-    },
-    {
-      "w": "agents",
-      "n": 56
-    },
-    {
-      "w": "november",
-      "n": 56
-    },
-    {
-      "w": "pro",
-      "n": 56
-    },
-    {
-      "w": "news",
-      "n": 55
-    },
-    {
-      "w": "tech",
-      "n": 52
-    },
-    {
-      "w": "chatgpt",
-      "n": 52
+      "n": 59
     },
     {
       "w": "intelligence",
-      "n": 48
+      "n": 55
     },
     {
-      "w": "software",
-      "n": 47
+      "w": "chatgpt",
+      "n": 55
     },
     {
-      "w": "api",
-      "n": 47
+      "w": "news",
+      "n": 53
     },
     {
-      "w": "artificialintelligence",
-      "n": 45
-    },
-    {
-      "w": "meta",
-      "n": 43
-    },
-    {
-      "w": "announced",
-      "n": 42
-    },
-    {
-      "w": "google",
-      "n": 42
-    },
-    {
-      "w": "europesays.com",
-      "n": 42
+      "w": "tech",
+      "n": 53
     },
     {
       "w": "work",
-      "n": 41
+      "n": 53
+    },
+    {
+      "w": "pro",
+      "n": 52
+    },
+    {
+      "w": "software",
+      "n": 49
+    },
+    {
+      "w": "google",
+      "n": 48
+    },
+    {
+      "w": "api",
+      "n": 48
+    },
+    {
+      "w": "announced",
+      "n": 47
     },
     {
       "w": "research",
+      "n": 46
+    },
+    {
+      "w": "meta",
+      "n": 44
+    },
+    {
+      "w": "artificialintelligence",
+      "n": 44
+    },
+    {
+      "w": "app",
+      "n": 44
+    },
+    {
+      "w": "safety",
       "n": 41
     },
     {
@@ -135,19 +139,19 @@
       "n": 41
     },
     {
-      "w": "mastodon.social",
+      "w": "apple",
       "n": 40
     },
     {
-      "w": "app",
-      "n": 40
+      "w": "company",
+      "n": 39
     },
     {
       "w": "chinese",
       "n": 39
     },
     {
-      "w": "safety",
+      "w": "artificial",
       "n": 39
     },
     {
@@ -155,11 +159,7 @@
       "n": 39
     },
     {
-      "w": "company",
-      "n": 38
-    },
-    {
-      "w": "apple",
+      "w": "europesays.com",
       "n": 38
     },
     {
@@ -167,32 +167,32 @@
       "n": 37
     },
     {
-      "w": "pubeurope.com",
-      "n": 36
-    },
-    {
-      "w": "artificial",
-      "n": 35
-    },
-    {
-      "w": "china",
-      "n": 33
-    },
-    {
-      "w": "芯片",
-      "n": 33
-    },
-    {
-      "w": "companies",
-      "n": 32
+      "w": "mastodon.social",
+      "n": 37
     },
     {
       "w": "agentic",
-      "n": 31
+      "n": 35
     },
     {
-      "w": "times",
-      "n": 31
+      "w": "pubeurope.com",
+      "n": 35
+    },
+    {
+      "w": "fable",
+      "n": 34
+    },
+    {
+      "w": "coding",
+      "n": 34
+    },
+    {
+      "w": "spy",
+      "n": 32
+    },
+    {
+      "w": "china",
+      "n": 32
     }
   ]
 }

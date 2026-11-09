@@ -1,4 +1,12 @@
 {
+  "anthropic/claude-fable-5.2": {
+    "created": 1794253781,
+    "name": "Anthropic: Claude Fable 5.2"
+  },
+  "anthropic/claude-fable-5.2:batch": {
+    "created": 1794253781,
+    "name": "Anthropic: Claude Fable 5.2 (batch)"
+  },
   "meta/muse-ember": {
     "created": 1794247648,
     "name": "Meta: Muse Ember"
