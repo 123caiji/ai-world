@@ -1,46 +1,46 @@
 {
-  "generatedAt": "2026-11-09T15:55:48.765Z",
+  "generatedAt": "2026-11-09T18:41:21.273Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 151
+      "n": 148
     },
     {
       "w": "nvidia",
-      "n": 139
+      "n": 147
     },
     {
       "w": "claude",
-      "n": 97
+      "n": 99
     },
     {
       "w": "发布",
-      "n": 92
-    },
-    {
-      "w": "模型",
-      "n": 86
-    },
-    {
-      "w": "智能",
-      "n": 81
+      "n": 95
     },
     {
       "w": "huang",
-      "n": 81
+      "n": 90
+    },
+    {
+      "w": "模型",
+      "n": 84
     },
     {
       "w": "ceo",
-      "n": 80
+      "n": 82
     },
     {
-      "w": "anthropic",
-      "n": 71
+      "w": "智能",
+      "n": 79
     },
     {
       "w": "models",
-      "n": 71
+      "n": 73
+    },
+    {
+      "w": "anthropic",
+      "n": 72
     },
     {
       "w": "data",
@@ -48,86 +48,106 @@
     },
     {
       "w": "model",
-      "n": 67
+      "n": 69
     },
     {
       "w": "openai",
-      "n": 64
+      "n": 68
     },
     {
       "w": "llm",
-      "n": 63
-    },
-    {
-      "w": "pro",
-      "n": 58
+      "n": 67
     },
     {
       "w": "jensen",
-      "n": 57
-    },
-    {
-      "w": "chatgpt",
-      "n": 56
+      "n": 63
     },
     {
       "w": "code",
+      "n": 60
+    },
+    {
+      "w": "agents",
+      "n": 56
+    },
+    {
+      "w": "november",
+      "n": 56
+    },
+    {
+      "w": "pro",
+      "n": 56
+    },
+    {
+      "w": "news",
       "n": 55
     },
     {
       "w": "tech",
-      "n": 54
+      "n": 52
     },
     {
-      "w": "news",
-      "n": 53
-    },
-    {
-      "w": "agents",
-      "n": 50
+      "w": "chatgpt",
+      "n": 52
     },
     {
       "w": "intelligence",
       "n": 48
     },
     {
-      "w": "november",
-      "n": 48
-    },
-    {
       "w": "software",
-      "n": 46
+      "n": 47
     },
     {
       "w": "api",
-      "n": 45
+      "n": 47
     },
     {
       "w": "artificialintelligence",
-      "n": 44
+      "n": 45
     },
     {
       "w": "meta",
       "n": 43
     },
     {
+      "w": "announced",
+      "n": 42
+    },
+    {
+      "w": "google",
+      "n": 42
+    },
+    {
+      "w": "europesays.com",
+      "n": 42
+    },
+    {
+      "w": "work",
+      "n": 41
+    },
+    {
+      "w": "research",
+      "n": 41
+    },
+    {
       "w": "siri",
       "n": 41
     },
     {
-      "w": "apple",
-      "n": 40
-    },
-    {
-      "w": "europesays.com",
+      "w": "mastodon.social",
       "n": 40
     },
     {
       "w": "app",
-      "n": 39
+      "n": 40
     },
     {
       "w": "chinese",
+      "n": 39
+    },
+    {
+      "w": "safety",
       "n": 39
     },
     {
@@ -139,60 +159,40 @@
       "n": 38
     },
     {
-      "w": "google",
+      "w": "apple",
       "n": 38
     },
     {
-      "w": "mastodon.social",
-      "n": 38
-    },
-    {
-      "w": "artificial",
-      "n": 36
-    },
-    {
-      "w": "芯片",
-      "n": 36
-    },
-    {
-      "w": "work",
-      "n": 36
-    },
-    {
-      "w": "research",
-      "n": 36
+      "w": "security",
+      "n": 37
     },
     {
       "w": "pubeurope.com",
       "n": 36
     },
     {
-      "w": "announced",
-      "n": 34
+      "w": "artificial",
+      "n": 35
     },
     {
       "w": "china",
-      "n": 34
-    },
-    {
-      "w": "safety",
       "n": 33
     },
     {
-      "w": "coding",
-      "n": 31
-    },
-    {
-      "w": "security",
-      "n": 31
+      "w": "芯片",
+      "n": 33
     },
     {
       "w": "companies",
-      "n": 30
+      "n": 32
     },
     {
       "w": "agentic",
-      "n": 30
+      "n": 31
+    },
+    {
+      "w": "times",
+      "n": 31
     }
   ]
 }
