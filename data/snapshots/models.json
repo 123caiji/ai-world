@@ -1,4 +1,12 @@
 {
+  "baidu/ernie-5.5-flash-preview": {
+    "created": 1794333533,
+    "name": "Baidu Qianfan: ERNIE-5.5-Flash-Preview"
+  },
+  "baidu/ernie-light-dt-1.0-intl": {
+    "created": 1794331260,
+    "name": "Baidu Qianfan: ERNIE-Light-DT-1.0"
+  },
   "google/gemini-4-carbon": {
     "created": 1794326871,
     "name": "Google: Gemini 4 Carbon"
