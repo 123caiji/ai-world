@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/10 16:27:16 · 库内 900 条 · 本轮新增 566 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/10 19:13:09 · 库内 900 条 · 本轮新增 516 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 196 | [deepseek-ai/deepseek-harness 涨 700 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 713 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [meta/astryx · 今日 +3278 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
+| 190 | [mattpocock/skills · 今日 +1223 ⭐](https://github.com/mattpocock/skills) | GitHub 每日趋势 |
+| 190 | [anthropics/claude-quickstarts · 今日 +551 ⭐](https://github.com/anthropics/claude-quickstarts) | GitHub 每日趋势 |
+| 189 | [addyosmani/agent-skills · 今日 +465 ⭐](https://github.com/addyosmani/agent-skills) | GitHub 每日趋势 |
 | 178 | [anthropics/skills · 今日 +1038 ⭐](https://github.com/anthropics/skills) | GitHub 每日趋势 |
-| 178 | [vercel-labs/agent-browser · 今日 +916 ⭐](https://github.com/vercel-labs/agent-browser) | GitHub 每日趋势 |
-| 178 | [homeassistant-ai/ha-mcp · 今日 +31 ⭐](https://github.com/homeassistant-ai/ha-mcp) | GitHub 每日趋势 |
-| 169 | [garrytan/gbrain · 今日 +216 ⭐](https://github.com/garrytan/gbrain) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
