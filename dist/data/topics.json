@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-11-10T02:57:57.840Z",
+  "generatedAt": "2026-11-10T05:43:37.250Z",
   "windowHours": 72,
   "words": [
     {
       "w": "nvidia",
-      "n": 164
+      "n": 170
     },
     {
       "w": "claude",
-      "n": 150
+      "n": 155
     },
     {
       "w": "agent",
-      "n": 141
+      "n": 147
+    },
+    {
+      "w": "anthropic",
+      "n": 129
     },
     {
       "w": "huang",
       "n": 124
     },
     {
-      "w": "anthropic",
+      "w": "发布",
       "n": 117
     },
     {
-      "w": "发布",
-      "n": 107
-    },
-    {
       "w": "ceo",
-      "n": 97
+      "n": 101
     },
     {
       "w": "jensen",
@@ -36,7 +36,7 @@
     },
     {
       "w": "models",
-      "n": 88
+      "n": 87
     },
     {
       "w": "模型",
@@ -44,23 +44,19 @@
     },
     {
       "w": "model",
-      "n": 80
-    },
-    {
-      "w": "智能",
-      "n": 78
+      "n": 79
     },
     {
       "w": "november",
+      "n": 78
+    },
+    {
+      "w": "fable",
       "n": 74
     },
     {
-      "w": "openai",
+      "w": "智能",
       "n": 73
-    },
-    {
-      "w": "llm",
-      "n": 69
     },
     {
       "w": "data",
@@ -68,131 +64,135 @@
     },
     {
       "w": "agents",
-      "n": 67
+      "n": 64
+    },
+    {
+      "w": "openai",
+      "n": 63
+    },
+    {
+      "w": "llm",
+      "n": 59
     },
     {
       "w": "code",
-      "n": 62
-    },
-    {
-      "w": "fable",
-      "n": 62
-    },
-    {
-      "w": "intelligence",
-      "n": 60
-    },
-    {
-      "w": "chatgpt",
-      "n": 58
+      "n": 56
     },
     {
       "w": "pro",
-      "n": 54
-    },
-    {
-      "w": "work",
-      "n": 53
-    },
-    {
-      "w": "api",
-      "n": 53
+      "n": 55
     },
     {
       "w": "company",
       "n": 53
     },
     {
-      "w": "software",
-      "n": 52
-    },
-    {
-      "w": "apple",
-      "n": 52
-    },
-    {
-      "w": "research",
-      "n": 52
+      "w": "intelligence",
+      "n": 53
     },
     {
       "w": "announced",
+      "n": 52
+    },
+    {
+      "w": "work",
+      "n": 52
+    },
+    {
+      "w": "api",
+      "n": 51
+    },
+    {
+      "w": "apple",
       "n": 50
     },
     {
+      "w": "chatgpt",
+      "n": 49
+    },
+    {
       "w": "meta",
+      "n": 49
+    },
+    {
+      "w": "siri",
       "n": 48
     },
     {
-      "w": "news",
-      "n": 47
+      "w": "research",
+      "n": 48
     },
     {
       "w": "google",
       "n": 47
     },
     {
-      "w": "chinese",
-      "n": 46
+      "w": "news",
+      "n": 47
     },
     {
       "w": "safety",
-      "n": 45
+      "n": 46
     },
     {
-      "w": "app",
-      "n": 45
+      "w": "software",
+      "n": 44
+    },
+    {
+      "w": "agentic",
+      "n": 43
     },
     {
       "w": "tech",
       "n": 43
     },
     {
-      "w": "siri",
+      "w": "chinese",
       "n": 42
     },
     {
-      "w": "agentic",
-      "n": 42
+      "w": "ipo",
+      "n": 40
     },
     {
       "w": "spy",
       "n": 40
     },
     {
-      "w": "artificialintelligence",
-      "n": 40
-    },
-    {
-      "w": "china",
+      "w": "mythos",
       "n": 39
     },
     {
-      "w": "artificial",
+      "w": "app",
+      "n": 38
+    },
+    {
+      "w": "artificialintelligence",
       "n": 38
     },
     {
       "w": "ios",
-      "n": 36
+      "n": 37
     },
     {
       "w": "security",
-      "n": 36
-    },
-    {
-      "w": "europesays.com",
-      "n": 36
-    },
-    {
-      "w": "europe",
-      "n": 36
-    },
-    {
-      "w": "coding",
       "n": 35
     },
     {
-      "w": "机器人",
-      "n": 35
+      "w": "platform",
+      "n": 33
+    },
+    {
+      "w": "artificial",
+      "n": 33
+    },
+    {
+      "w": "mcp",
+      "n": 33
+    },
+    {
+      "w": "tpu",
+      "n": 33
     }
   ]
 }
