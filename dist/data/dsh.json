@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-10T00:09:15.934Z",
-  "total": 4985,
+  "generatedAt": "2026-11-10T02:54:45.834Z",
+  "total": 4982,
   "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 949
+      "count": 948
     },
     {
       "name": "tools",
@@ -18,7 +18,7 @@
     },
     {
       "name": "workflow",
-      "count": 321
+      "count": 320
     },
     {
       "name": "dev",
@@ -26,11 +26,11 @@
     },
     {
       "name": "model",
-      "count": 273
+      "count": 272
     },
     {
       "name": "usage",
-      "count": 252
+      "count": 253
     },
     {
       "name": "memory",
@@ -268,7 +268,7 @@
       "url": "https://awesome-dsh-plugin.com/p/loyalchiiina/dsh-schedule-calendar/",
       "repo": "https://github.com/loyalchiiina/dsh-schedule-calendar",
       "category": "ui",
-      "description": "给 dsh-better-sidebar 用的侧边栏日程助手（必须先装该插件，标签页由它注册）：多城市天气、黄历、农历日历、日程提醒、待办、日报周报、星座运势、好运签到，以及按人设置的休息日班制。",
+      "description": "给 dsh-better-sidebar 用的侧边栏日程助手（必须先装该插件；需 DSH 0.2.2+）：今日安排、日历、待办、天气，可开关的黄历与星座运势，每日签到攒运气，并按实际完成情况自动生成日报与周报。另可通过 IMAP 监控 QQ 邮箱。适配 DSH 内核 0.2.2-rc.1。",
       "version": "0.4.1",
       "publishedAt": "2026-11-09T01:58:16.000Z"
     },
@@ -278,7 +278,7 @@
       "url": "https://awesome-dsh-plugin.com/p/loyalchiiina/dsh-model-fold/",
       "repo": "https://github.com/loyalchiiina/dsh-model-fold",
       "category": "model",
-      "description": "三级级联模型面板（来源 → 模型 → 思考强度），支持识图/思考强度一键开关、能力图标，以及逐模型真实测活并把结果持久化保存。",
+      "description": "三级级联模型面板（来源 → 模型 → 思考强度），支持识图与思考强度一键开关、能力图标，以及逐模型真实测活并把结果持久化保存。适配 DSH 内核 0.2.2-rc.1。",
       "version": "1.0.1",
       "publishedAt": "2026-11-09T01:56:22.000Z"
     },
@@ -298,7 +298,7 @@
       "url": "https://awesome-dsh-plugin.com/p/loyalchiiina/dsh-deepseek-web-free/",
       "repo": "https://github.com/loyalchiiina/dsh-deepseek-web-free",
       "category": "model",
-      "description": "把你已登录的 chat.deepseek.com 账号当作额外模型接入 DSH，同时把 DeepSeek 网页端直接嵌进 DSH 窗口：右侧栏标签页，以及一颗可拖动、可拉伸的鲸鱼悬浮球窗口（位置与尺寸跨重启记忆，拖球时窗口跟随）。登录只需一次且双向同步——在设置页或面板内登录/退出都会同步到另一边，重启后无需重登。Pr…",
+      "description": "y-wi/dsh-deepseek-web 的 fork：把 DeepSeek 网页版桥接进 DSH，不花 API 额度就能跑短上下文对话、工作流与技能包，直接发图片也能免费识图。带悬浮球与侧边栏，一键登录后长期保持登录；正文任意文字右键即可投送到网页端输入框，投送前自动清空原输入框。沿用上游 provider id…",
       "version": "1.0.37",
       "publishedAt": "2026-11-09T01:53:37.000Z"
     },
