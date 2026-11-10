@@ -1,4 +1,8 @@
 {
+  "thinkingmachines/inkling-2-small:free": {
+    "created": 1794261847,
+    "name": "Thinking Machines: Inkling 2 Small (free)"
+  },
   "anthropic/claude-fable-5.2": {
     "created": 1794253781,
     "name": "Anthropic: Claude Fable 5.2"
@@ -34,10 +38,6 @@
   "tencent/hy4": {
     "created": 1793766031,
     "name": "Tencent: Hy4"
-  },
-  "stealth/crouton-alpha": {
-    "created": 1793669930,
-    "name": "Crouton Alpha"
   },
   "z-ai/glm-5.3-flashx-legal": {
     "created": 1793626154,

@@ -1,70 +1,66 @@
 {
-  "generatedAt": "2026-11-09T21:26:53.148Z",
+  "generatedAt": "2026-11-10T00:12:26.997Z",
   "windowHours": 72,
   "words": [
     {
       "w": "nvidia",
-      "n": 150
+      "n": 164
     },
     {
       "w": "agent",
-      "n": 146
+      "n": 144
     },
     {
       "w": "claude",
-      "n": 122
-    },
-    {
-      "w": "anthropic",
-      "n": 101
+      "n": 137
     },
     {
       "w": "huang",
-      "n": 96
+      "n": 123
+    },
+    {
+      "w": "anthropic",
+      "n": 112
     },
     {
       "w": "发布",
-      "n": 95
-    },
-    {
-      "w": "models",
-      "n": 86
+      "n": 104
     },
     {
       "w": "ceo",
-      "n": 82
-    },
-    {
-      "w": "模型",
-      "n": 80
-    },
-    {
-      "w": "model",
-      "n": 79
-    },
-    {
-      "w": "智能",
-      "n": 76
-    },
-    {
-      "w": "data",
-      "n": 73
+      "n": 94
     },
     {
       "w": "jensen",
-      "n": 68
+      "n": 89
     },
     {
-      "w": "agents",
-      "n": 66
+      "w": "models",
+      "n": 89
+    },
+    {
+      "w": "model",
+      "n": 83
+    },
+    {
+      "w": "模型",
+      "n": 81
+    },
+    {
+      "w": "智能",
+      "n": 75
     },
     {
       "w": "november",
-      "n": 66
+      "n": 73
+    },
+    {
+      "w": "data",
+      "n": 70
     },
     {
       "w": "openai",
-      "n": 64
+      "n": 67
     },
     {
       "w": "llm",
@@ -72,66 +68,90 @@
     },
     {
       "w": "code",
-      "n": 59
+      "n": 62
     },
     {
       "w": "intelligence",
-      "n": 55
+      "n": 62
+    },
+    {
+      "w": "agents",
+      "n": 60
     },
     {
       "w": "chatgpt",
-      "n": 55
+      "n": 56
     },
     {
-      "w": "news",
+      "w": "research",
       "n": 53
     },
     {
-      "w": "tech",
-      "n": 53
-    },
-    {
-      "w": "work",
-      "n": 53
+      "w": "apple",
+      "n": 51
     },
     {
       "w": "pro",
-      "n": 52
+      "n": 51
+    },
+    {
+      "w": "api",
+      "n": 51
+    },
+    {
+      "w": "announced",
+      "n": 51
     },
     {
       "w": "software",
+      "n": 50
+    },
+    {
+      "w": "news",
+      "n": 50
+    },
+    {
+      "w": "work",
       "n": 49
+    },
+    {
+      "w": "meta",
+      "n": 49
+    },
+    {
+      "w": "company",
+      "n": 48
     },
     {
       "w": "google",
       "n": 48
     },
     {
-      "w": "api",
-      "n": 48
+      "w": "chinese",
+      "n": 45
     },
     {
-      "w": "announced",
-      "n": 47
-    },
-    {
-      "w": "research",
-      "n": 46
-    },
-    {
-      "w": "meta",
-      "n": 44
-    },
-    {
-      "w": "artificialintelligence",
-      "n": 44
+      "w": "tech",
+      "n": 45
     },
     {
       "w": "app",
       "n": 44
     },
     {
+      "w": "artificialintelligence",
+      "n": 43
+    },
+    {
+      "w": "agentic",
+      "n": 42
+    },
+    {
       "w": "safety",
+      "n": 42
+    },
+    {
+      "w": "fable",
       "n": 41
     },
     {
@@ -139,15 +159,7 @@
       "n": 41
     },
     {
-      "w": "apple",
-      "n": 40
-    },
-    {
-      "w": "company",
-      "n": 39
-    },
-    {
-      "w": "chinese",
+      "w": "spy",
       "n": 39
     },
     {
@@ -155,44 +167,32 @@
       "n": 39
     },
     {
-      "w": "europe",
-      "n": 39
-    },
-    {
-      "w": "europesays.com",
+      "w": "security",
       "n": 38
     },
     {
-      "w": "security",
-      "n": 37
-    },
-    {
-      "w": "mastodon.social",
-      "n": 37
-    },
-    {
-      "w": "agentic",
-      "n": 35
-    },
-    {
-      "w": "pubeurope.com",
-      "n": 35
-    },
-    {
-      "w": "fable",
-      "n": 34
+      "w": "europe",
+      "n": 38
     },
     {
       "w": "coding",
-      "n": 34
-    },
-    {
-      "w": "spy",
-      "n": 32
+      "n": 37
     },
     {
       "w": "china",
-      "n": 32
+      "n": 36
+    },
+    {
+      "w": "europesays.com",
+      "n": 36
+    },
+    {
+      "w": "mastodon.social",
+      "n": 34
+    },
+    {
+      "w": "pubeurope.com",
+      "n": 34
     }
   ]
 }
