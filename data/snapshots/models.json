@@ -1,4 +1,12 @@
 {
+  "google/gemini-4-carbon": {
+    "created": 1794326871,
+    "name": "Google: Gemini 4 Carbon"
+  },
+  "google/gemini-4-carbon:batch": {
+    "created": 1794326871,
+    "name": "Google: Gemini 4 Carbon (batch)"
+  },
   "nex-agi/nex-n2.6": {
     "created": 1794282379,
     "name": "Nex AGI: Nex-N2.6"
