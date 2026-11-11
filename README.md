@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/11 17:21:22 · 库内 900 条 · 本轮新增 511 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/11 20:07:24 · 库内 900 条 · 本轮新增 509 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 205 | [homeassistant-ai/ha-mcp · 今日 +790 ⭐](https://github.com/homeassistant-ai/ha-mcp) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 698 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 208 | [meta/astryx · 今日 +2842 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
+| 205 | [homeassistant-ai/ha-mcp · 今日 +640 ⭐](https://github.com/homeassistant-ai/ha-mcp) | GitHub 每日趋势 |
+| 196 | [deepseek-ai/deepseek-harness 涨 693 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 191 | [ollama/ollama 涨 121 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 179 | [Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)](https://www.youtube.com/watch?v=583ThJIqQ7k) | YouTube · AI Explained |
+| 190 | [vercel-labs/agent-browser · 今日 +712 ⭐](https://github.com/vercel-labs/agent-browser) | GitHub 每日趋势 |
 | 178 | [mattpocock/skills · 今日 +1225 ⭐](https://github.com/mattpocock/skills) | GitHub 每日趋势 |
-| 178 | [anthropics/claude-quickstarts · 今日 +531 ⭐](https://github.com/anthropics/claude-quickstarts) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
