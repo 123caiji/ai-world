@@ -3,7 +3,7 @@
   "sgl-project/sglang": "v0.5.23",
   "huggingface/transformers": "v5.22.2",
   "langchain-ai/langchain": "langchain-core==1.7.7",
-  "modelcontextprotocol/servers": "v2.3.0",
+  "modelcontextprotocol/servers": "v2.4.0",
   "ggml-org/llama.cpp": "v0.9.0",
   "openai/openai-python": "v3.49.0",
   "ollama/ollama": "v0.40.16",
@@ -12,5 +12,5 @@
   "browser-use/browser-use": "1.0.2",
   "Aider-AI/aider": "v0.86.0",
   "cline/cline": "v4.1.26",
-  "n8n-io/n8n": "n8n@2.47.3"
+  "n8n-io/n8n": "n8n@2.47.4"
 }

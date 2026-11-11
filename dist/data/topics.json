@@ -1,117 +1,109 @@
 {
-  "generatedAt": "2026-11-11T06:38:31.071Z",
+  "generatedAt": "2026-11-11T09:24:11.633Z",
   "windowHours": 72,
   "words": [
     {
       "w": "anthropic",
-      "n": 233
+      "n": 200
     },
     {
       "w": "claude",
-      "n": 187
+      "n": 167
     },
     {
       "w": "model",
-      "n": 156
+      "n": 147
     },
     {
       "w": "agent",
       "n": 132
     },
     {
-      "w": "models",
-      "n": 113
+      "w": "发布",
+      "n": 122
     },
     {
-      "w": "fable",
-      "n": 110
+      "w": "models",
+      "n": 104
     },
     {
       "w": "agents",
-      "n": 107
+      "n": 98
     },
     {
       "w": "nvidia",
-      "n": 105
-    },
-    {
-      "w": "发布",
-      "n": 103
+      "n": 93
     },
     {
       "w": "ipo",
-      "n": 92
-    },
-    {
-      "w": "november",
-      "n": 89
-    },
-    {
-      "w": "google",
-      "n": 83
-    },
-    {
-      "w": "data",
-      "n": 77
-    },
-    {
-      "w": "openai",
-      "n": 77
+      "n": 90
     },
     {
       "w": "模型",
-      "n": 73
+      "n": 81
+    },
+    {
+      "w": "fable",
+      "n": 80
+    },
+    {
+      "w": "google",
+      "n": 78
+    },
+    {
+      "w": "november",
+      "n": 78
+    },
+    {
+      "w": "openai",
+      "n": 75
+    },
+    {
+      "w": "data",
+      "n": 74
     },
     {
       "w": "code",
       "n": 72
     },
     {
-      "w": "huang",
-      "n": 68
+      "w": "智能",
+      "n": 65
     },
     {
       "w": "ceo",
-      "n": 68
+      "n": 62
     },
     {
       "w": "work",
-      "n": 67
-    },
-    {
-      "w": "company",
-      "n": 60
-    },
-    {
-      "w": "智能",
-      "n": 59
-    },
-    {
-      "w": "business",
       "n": 58
     },
     {
-      "w": "announced",
+      "w": "business",
       "n": 55
     },
     {
-      "w": "million",
-      "n": 55
-    },
-    {
-      "w": "jensen",
-      "n": 53
-    },
-    {
-      "w": "series",
-      "n": 51
+      "w": "company",
+      "n": 54
     },
     {
       "w": "llm",
-      "n": 50
+      "n": 52
     },
     {
-      "w": "cloud",
+      "w": "huang",
+      "n": 52
+    },
+    {
+      "w": "million",
+      "n": 51
+    },
+    {
+      "w": "announced",
+      "n": 51
+    },
+    {
+      "w": "芯片",
       "n": 48
     },
     {
@@ -119,39 +111,39 @@
       "n": 48
     },
     {
-      "w": "language",
+      "w": "series",
       "n": 47
     },
     {
-      "w": "research",
-      "n": 47
-    },
-    {
-      "w": "intelligence",
+      "w": "token",
       "n": 46
     },
     {
-      "w": "chatgpt",
-      "n": 45
-    },
-    {
-      "w": "mythos",
-      "n": 45
-    },
-    {
-      "w": "training",
+      "w": "research",
       "n": 44
     },
     {
-      "w": "芯片",
-      "n": 41
+      "w": "training",
+      "n": 43
     },
     {
-      "w": "systems",
-      "n": 41
+      "w": "chatgpt",
+      "n": 43
     },
     {
-      "w": "ios",
+      "w": "cloud",
+      "n": 42
+    },
+    {
+      "w": "api",
+      "n": 40
+    },
+    {
+      "w": "times",
+      "n": 40
+    },
+    {
+      "w": "language",
       "n": 40
     },
     {
@@ -159,40 +151,48 @@
       "n": 39
     },
     {
-      "w": "tokens",
+      "w": "jensen",
       "n": 39
     },
     {
-      "w": "api",
+      "w": "systems",
+      "n": 39
+    },
+    {
+      "w": "ios",
       "n": 38
+    },
+    {
+      "w": "intelligence",
+      "n": 37
+    },
+    {
+      "w": "机器人",
+      "n": 35
+    },
+    {
+      "w": "adobe",
+      "n": 35
     },
     {
       "w": "safety",
-      "n": 38
-    },
-    {
-      "w": "token",
-      "n": 38
-    },
-    {
-      "w": "coding",
-      "n": 37
-    },
-    {
-      "w": "agentic",
-      "n": 37
+      "n": 35
     },
     {
       "w": "tasks",
-      "n": 37
+      "n": 35
+    },
+    {
+      "w": "news",
+      "n": 34
     },
     {
       "w": "world",
-      "n": 35
+      "n": 33
     },
     {
-      "w": "times",
-      "n": 35
+      "w": "each",
+      "n": 33
     }
   ]
 }
