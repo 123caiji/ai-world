@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-11T17:38:13.466Z",
+  "generatedAt": "2026-11-11T20:23:57.678Z",
   "since": "2026-10-28",
   "newRepos": [
     {
       "full": "wangzan101/Mika",
       "url": "https://github.com/wangzan101/Mika",
       "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "stars": 8227,
+      "stars": 8240,
       "language": "Kotlin",
       "createdAt": "2026-10-29T14:34:07Z",
       "pushedAt": "2026-11-11T17:21:56Z",
@@ -23,7 +23,7 @@
       "full": "N1nEmAn/sapper-v2",
       "url": "https://github.com/N1nEmAn/sapper-v2",
       "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
-      "stars": 1966,
+      "stars": 1975,
       "language": "Python",
       "createdAt": "2026-10-30T15:12:35Z",
       "pushedAt": "2026-11-11T12:18:45Z",
@@ -40,7 +40,7 @@
       "full": "Sandflow-ai/sand3d",
       "url": "https://github.com/Sandflow-ai/sand3d",
       "description": "3D modeling in Python, built for LLMs.",
-      "stars": 1839,
+      "stars": 1844,
       "language": "HTML",
       "createdAt": "2026-11-03T08:23:03Z",
       "pushedAt": "2026-11-11T11:48:05Z",
@@ -57,7 +57,7 @@
       "full": "RunanywhereAI/trnrt",
       "url": "https://github.com/RunanywhereAI/trnrt",
       "description": "The open LLM inference engine for AWS Trainium: NKI megakernels, 1M-token context, OpenAI-compatible API. By RunAnywhere.",
-      "stars": 1295,
+      "stars": 1318,
       "language": "Python",
       "createdAt": "2026-10-30T18:30:04Z",
       "pushedAt": "2026-11-11T10:04:47Z",
@@ -74,7 +74,7 @@
       "full": "SAOS-3624/dsh-see-now",
       "url": "https://github.com/SAOS-3624/dsh-see-now",
       "description": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token",
-      "stars": 586,
+      "stars": 589,
       "language": "JavaScript",
       "createdAt": "2026-11-01T13:32:34Z",
       "pushedAt": "2026-11-11T12:40:10Z",
@@ -125,7 +125,7 @@
       "full": "Dodaios/ste80-humanizer",
       "url": "https://github.com/Dodaios/ste80-humanizer",
       "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
-      "stars": 381,
+      "stars": 395,
       "language": "Python",
       "createdAt": "2026-11-09T17:18:59Z",
       "pushedAt": "2026-11-10T08:52:47Z",
@@ -142,10 +142,10 @@
       "full": "mdiri-ai/SoduWork",
       "url": "https://github.com/mdiri-ai/SoduWork",
       "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
-      "stars": 309,
+      "stars": 314,
       "language": "JavaScript",
       "createdAt": "2026-10-29T02:43:14Z",
-      "pushedAt": "2026-11-11T17:07:18Z",
+      "pushedAt": "2026-11-11T20:14:48Z",
       "topics": [
         "agent-harness",
         "agent-orchestration",
@@ -176,7 +176,7 @@
       "full": "zaxiu88888/issue-rag",
       "url": "https://github.com/zaxiu88888/issue-rag",
       "description": "RAG over GitHub issues, with a hand-reviewed eval set and an audit of the judge itself. Reports the interval, not just the best number.",
-      "stars": 282,
+      "stars": 285,
       "language": "Python",
       "createdAt": "2026-11-01T11:32:25Z",
       "pushedAt": "2026-11-04T06:19:04Z",
@@ -210,7 +210,7 @@
       "full": "TIGER-AI-Lab/WebsiteBench",
       "url": "https://github.com/TIGER-AI-Lab/WebsiteBench",
       "description": "Can AI agents rebuild websites through browser exploration?",
-      "stars": 227,
+      "stars": 235,
       "language": "Python",
       "createdAt": "2026-11-04T12:58:50Z",
       "pushedAt": "2026-11-10T09:24:11Z",
@@ -227,7 +227,7 @@
       "full": "yc-software/minecraft-agent-harness",
       "url": "https://github.com/yc-software/minecraft-agent-harness",
       "description": "Run language-model agents in Minecraft with Mineflayer tools, persistent sessions and shell sandboxes.",
-      "stars": 204,
+      "stars": 206,
       "language": "JavaScript",
       "createdAt": "2026-10-29T05:21:45Z",
       "pushedAt": "2026-10-29T20:30:45Z",
@@ -257,7 +257,7 @@
       "full": "mrhlaingbwardev/agentic-hacking-skills",
       "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills",
       "description": "AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' ebook (28 SKILL.md templates)",
-      "stars": 338,
+      "stars": 336,
       "language": "JavaScript",
       "createdAt": "2026-11-01T04:00:04Z",
       "pushedAt": "2026-11-01T06:16:19Z",
@@ -274,7 +274,7 @@
       "full": "amitshekhariitbhu/forward-deployed-engineer-roadmap",
       "url": "https://github.com/amitshekhariitbhu/forward-deployed-engineer-roadmap",
       "description": "Forward Deployed Engineer Roadmap - A step-by-step roadmap to become a Forward Deployed Engineer (FDE) in AI, with a blog for every topic.",
-      "stars": 327,
+      "stars": 333,
       "language": "Markdown",
       "createdAt": "2026-10-30T09:01:03Z",
       "pushedAt": "2026-11-11T04:26:43Z",
@@ -407,10 +407,10 @@
       "full": "KKKKhazix/agent-autoloop",
       "url": "https://github.com/KKKKhazix/agent-autoloop",
       "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-      "stars": 4519,
+      "stars": 4525,
       "language": "TypeScript",
       "createdAt": "2026-11-03T08:02:11Z",
-      "pushedAt": "2026-11-11T17:36:14Z",
+      "pushedAt": "2026-11-11T19:22:27Z",
       "topics": [
         "ai-agents",
         "automation",
@@ -424,10 +424,10 @@
       "full": "expo/exact",
       "url": "https://github.com/expo/exact",
       "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
-      "stars": 2782,
+      "stars": 2834,
       "language": "Rust",
       "createdAt": "2026-11-02T01:29:01Z",
-      "pushedAt": "2026-11-11T17:36:51Z",
+      "pushedAt": "2026-11-11T20:22:44Z",
       "topics": [
         "ai-agents",
         "appkit",
@@ -441,7 +441,7 @@
       "full": "voyager-so/vork",
       "url": "https://github.com/voyager-so/vork",
       "description": "Headless 3D and VFX engine for agents. Research preview.",
-      "stars": 1408,
+      "stars": 1423,
       "language": "Rust",
       "createdAt": "2026-11-05T22:37:07Z",
       "pushedAt": "2026-11-11T14:18:14Z",
@@ -458,10 +458,10 @@
       "full": "JosssphZhou/poki",
       "url": "https://github.com/JosssphZhou/poki",
       "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
-      "stars": 967,
+      "stars": 970,
       "language": "Swift",
       "createdAt": "2026-11-05T15:04:31Z",
-      "pushedAt": "2026-11-11T17:34:02Z",
+      "pushedAt": "2026-11-11T19:42:44Z",
       "topics": [
         "ai-agents",
         "automation",
@@ -475,10 +475,10 @@
       "full": "synchopate/llama-modchip",
       "url": "https://github.com/synchopate/llama-modchip",
       "description": "🐋 Run 284B DeepSeek-V4-Flash (<59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) & 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 & 13ms Claude Code restore.",
-      "stars": 932,
+      "stars": 938,
       "language": "Python",
       "createdAt": "2026-10-29T10:17:33Z",
-      "pushedAt": "2026-11-11T15:12:26Z",
+      "pushedAt": "2026-11-11T20:14:40Z",
       "topics": [
         "ai-agents",
         "apple-silicon",
@@ -492,7 +492,7 @@
       "full": "kubai087/kubai-icons",
       "url": "https://github.com/kubai087/kubai-icons",
       "description": "An agent skill that draws animated icons in one consistent style, for Claude Code, Codex and other coding agents. Comes with 2,600+ open-source icons for React, Vue and SVG, and a website to browse them.",
-      "stars": 726,
+      "stars": 732,
       "language": "JavaScript",
       "createdAt": "2026-11-03T09:52:39Z",
       "pushedAt": "2026-11-11T16:47:55Z",
@@ -503,6 +503,23 @@
         "animation",
         "claude",
         "claude-skill"
+      ]
+    },
+    {
+      "full": "phuryn/product-engineering",
+      "url": "https://github.com/phuryn/product-engineering",
+      "description": "44 agent skills from shipping three live products: decide what to build, build it with Claude Code or Codex, have a second model review it, release it.",
+      "stars": 526,
+      "language": "Python",
+      "createdAt": "2026-10-29T11:32:54Z",
+      "pushedAt": "2026-11-11T11:58:46Z",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "claude-code-marketplace",
+        "claude-code-plugins",
+        "claude-skills"
       ]
     },
     {
@@ -523,27 +540,10 @@
       ]
     },
     {
-      "full": "phuryn/product-engineering",
-      "url": "https://github.com/phuryn/product-engineering",
-      "description": "44 agent skills from shipping three live products: decide what to build, build it with Claude Code or Codex, have a second model review it, release it.",
-      "stars": 523,
-      "language": "Python",
-      "createdAt": "2026-10-29T11:32:54Z",
-      "pushedAt": "2026-11-11T11:58:46Z",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude-code",
-        "claude-code-marketplace",
-        "claude-code-plugins",
-        "claude-skills"
-      ]
-    },
-    {
       "full": "dhruvthakur11/youtube-ai-video-editing-system",
       "url": "https://github.com/dhruvthakur11/youtube-ai-video-editing-system",
       "description": "Eyeline teleprompter meets editing agents: JSON-driven animation and motion graphics workflow",
-      "stars": 482,
+      "stars": 483,
       "language": "HTML",
       "createdAt": "2026-11-06T21:33:17Z",
       "pushedAt": "2026-11-11T14:51:40Z",
@@ -594,10 +594,10 @@
       "full": "alexeyw/lot-map",
       "url": "https://github.com/alexeyw/lot-map",
       "description": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in five languages.",
-      "stars": 287,
+      "stars": 340,
       "language": "TypeScript",
       "createdAt": "2026-11-09T19:13:52Z",
-      "pushedAt": "2026-11-11T16:02:05Z",
+      "pushedAt": "2026-11-11T20:13:03Z",
       "topics": [
         "agent-observability",
         "ai-agents",
@@ -611,7 +611,7 @@
       "full": "gogoymh/auto-ontology-mcp",
       "url": "https://github.com/gogoymh/auto-ontology-mcp",
       "description": "NVIDIA Auto Ontology's semantic layer and a personal knowledge base as an MCP server for Claude, ChatGPT and other MCP clients. No LLM API key needed.",
-      "stars": 364,
+      "stars": 365,
       "language": "Python",
       "createdAt": "2026-11-06T12:09:07Z",
       "pushedAt": "2026-11-11T03:14:53Z",
@@ -622,6 +622,23 @@
         "mcp-server",
         "model-context-protocol",
         "ontology"
+      ]
+    },
+    {
+      "full": "FrigadeHQ/yogurt",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "description": "Private AI meeting notes. Free and open source.",
+      "stars": 246,
+      "language": "TypeScript",
+      "createdAt": "2026-11-10T20:01:01Z",
+      "pushedAt": "2026-11-11T19:41:13Z",
+      "topics": [
+        "electron",
+        "linux",
+        "llama-cpp",
+        "local-ai",
+        "macos",
+        "mcp"
       ]
     },
     {
@@ -645,7 +662,7 @@
       "full": "wendersoon/radar-cnpj-mcp",
       "url": "https://github.com/wendersoon/radar-cnpj-mcp",
       "description": "Servidor MCP e CLI para localizar empresas brasileiras por CNAE e região, utilizando dados abertos de CNPJ da Receita Federal.",
-      "stars": 132,
+      "stars": 133,
       "language": "TypeScript",
       "createdAt": "2026-11-01T23:58:28Z",
       "pushedAt": "2026-11-03T00:53:25Z",
@@ -659,27 +676,10 @@
       ]
     },
     {
-      "full": "DevCrabs-Inc/yandex-metrika-mcp",
-      "url": "https://github.com/DevCrabs-Inc/yandex-metrika-mcp",
-      "description": "Read-only MCP server for Yandex Metrika (Яндекс Метрика): verifiable reports, period comparisons, time series and exports for Claude, Cursor, VS Code and Codex.",
-      "stars": 128,
-      "language": "TypeScript",
-      "createdAt": "2026-11-06T12:18:59Z",
-      "pushedAt": "2026-11-10T13:08:49Z",
-      "topics": [
-        "ai-agents",
-        "analytics",
-        "claude",
-        "claude-code",
-        "claude-desktop",
-        "codex"
-      ]
-    },
-    {
       "full": "SparkofSpike/Brain4Agent",
       "url": "https://github.com/SparkofSpike/Brain4Agent",
       "description": "Committed to building the world’s most cutting-edge, CJK-first memory module for all mainstream agents. Any issues and PRs are welcome.",
-      "stars": 128,
+      "stars": 132,
       "language": "Python",
       "createdAt": "2026-11-08T01:38:31Z",
       "pushedAt": "2026-11-10T15:44:20Z",
@@ -733,7 +733,7 @@
       "stars": 119,
       "language": "JavaScript",
       "createdAt": "2026-10-31T05:50:40Z",
-      "pushedAt": "2026-11-09T05:21:41Z",
+      "pushedAt": "2026-11-11T18:27:41Z",
       "topics": [
         "ai-agents",
         "awesome",
@@ -781,7 +781,7 @@
       "full": "8hjkkwikl8/ai-portfolio",
       "url": "https://github.com/8hjkkwikl8/ai-portfolio",
       "description": "三个可运行的 AI 工程项目：可追溯 RAG、提示词评测与受守护的 NL2SQL 分析",
-      "stars": 36,
+      "stars": 38,
       "language": "Python",
       "createdAt": "2026-11-11T05:28:14Z",
       "pushedAt": "2026-11-11T08:56:34Z",
@@ -835,7 +835,7 @@
       "stars": 20,
       "language": "Python",
       "createdAt": "2026-11-02T06:41:15Z",
-      "pushedAt": "2026-11-11T13:06:04Z",
+      "pushedAt": "2026-11-11T17:58:47Z",
       "topics": [
         "ai-agent",
         "context-engineering",
@@ -865,7 +865,7 @@
       "full": "YT-Proteus-bot/MineAgent",
       "url": "https://github.com/YT-Proteus-bot/MineAgent",
       "description": "agent定制自由化，agent流程可视化。在浏览器里用画布搭出工业级 Agent 流程，选框架自动生成架构图， 拖节点、连线、写代码、配模型，点「保存」就把整张画布编译成一个可独立运行的 Python Agent 项目， 点「运行」直接在你的机器上真实执行并流式回传每一步。欢迎各位同行二次开发，如有商用请说明出处。",
-      "stars": 159,
+      "stars": 158,
       "language": "Python",
       "createdAt": "2026-11-05T06:01:27Z",
       "pushedAt": "2026-11-10T13:19:03Z",
@@ -932,9 +932,9 @@
     {
       "full": "deepseek-ai/deepseek-harness",
       "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "stars": 278897,
-      "delta": 777,
-      "deltaSince": "2026-11-10T19:30:42.592Z",
+      "stars": 278933,
+      "delta": 772,
+      "deltaSince": "2026-11-10T22:16:52.254Z",
       "pushedAt": "2026-11-11T11:32:04Z",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "language": "TypeScript",
@@ -943,10 +943,10 @@
     {
       "full": "ggml-org/llama.cpp",
       "url": "https://github.com/ggml-org/llama.cpp",
-      "stars": 134082,
-      "delta": 142,
-      "deltaSince": "2026-11-10T19:30:42.592Z",
-      "pushedAt": "2026-11-11T17:16:42Z",
+      "stars": 134139,
+      "delta": 190,
+      "deltaSince": "2026-11-10T22:16:52.254Z",
+      "pushedAt": "2026-11-11T20:17:47Z",
       "description": "LLM inference in C/C++",
       "language": "C++",
       "mine": false
@@ -954,10 +954,10 @@
     {
       "full": "browser-use/browser-use",
       "url": "https://github.com/browser-use/browser-use",
-      "stars": 120718,
-      "delta": 141,
-      "deltaSince": "2026-11-10T19:30:42.592Z",
-      "pushedAt": "2026-11-11T04:07:36Z",
+      "stars": 120730,
+      "delta": 143,
+      "deltaSince": "2026-11-10T22:16:52.254Z",
+      "pushedAt": "2026-11-11T19:22:11Z",
       "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
       "language": "Python",
       "mine": false
@@ -965,173 +965,165 @@
     {
       "full": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 210157,
-      "delta": 146,
-      "deltaSince": "2026-11-10T19:30:42.592Z",
-      "pushedAt": "2026-11-11T17:36:15Z",
+      "stars": 210202,
+      "delta": 185,
+      "deltaSince": "2026-11-10T22:16:52.254Z",
+      "pushedAt": "2026-11-11T20:00:03Z",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "language": "TypeScript",
       "mine": false
     }
   ],
-  "releases": [
-    {
-      "repo": "langchain-ai/langchain",
-      "tag": "langchain-core==1.8.0",
-      "name": "langchain-core==1.8.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0",
-      "publishedAt": "2026-11-11T15:22:07Z"
-    }
-  ],
+  "releases": [],
   "topics": [
     {
       "topic": "llm",
       "full": "affaan-m/ECC",
-      "stars": 301198,
+      "stars": 301279,
       "url": "https://github.com/affaan-m/ECC"
     },
     {
       "topic": "llm",
       "full": "NousResearch/hermes-agent",
-      "stars": 262670,
+      "stars": 262700,
       "url": "https://github.com/NousResearch/hermes-agent"
     },
     {
       "topic": "llm",
       "full": "firecrawl/firecrawl",
-      "stars": 200858,
+      "stars": 200905,
       "url": "https://github.com/firecrawl/firecrawl"
     },
     {
       "topic": "llm",
       "full": "DietrichGebert/ponytail",
-      "stars": 188955,
+      "stars": 189051,
       "url": "https://github.com/DietrichGebert/ponytail"
     },
     {
       "topic": "llm",
       "full": "Significant-Gravitas/AutoGPT",
-      "stars": 187996,
+      "stars": 187999,
       "url": "https://github.com/Significant-Gravitas/AutoGPT"
     },
     {
       "topic": "llm",
       "full": "ollama/ollama",
-      "stars": 186665,
+      "stars": 186675,
       "url": "https://github.com/ollama/ollama"
     },
     {
       "topic": "ai-agents",
       "full": "affaan-m/ECC",
-      "stars": 301198,
+      "stars": 301279,
       "url": "https://github.com/affaan-m/ECC"
     },
     {
       "topic": "ai-agents",
       "full": "deepseek-ai/deepseek-harness",
-      "stars": 278897,
+      "stars": 278933,
       "url": "https://github.com/deepseek-ai/deepseek-harness"
     },
     {
       "topic": "ai-agents",
       "full": "NousResearch/hermes-agent",
-      "stars": 262670,
+      "stars": 262700,
       "url": "https://github.com/NousResearch/hermes-agent"
     },
     {
       "topic": "ai-agents",
       "full": "firecrawl/firecrawl",
-      "stars": 200858,
+      "stars": 200905,
       "url": "https://github.com/firecrawl/firecrawl"
     },
     {
       "topic": "ai-agents",
       "full": "DietrichGebert/ponytail",
-      "stars": 188955,
+      "stars": 189051,
       "url": "https://github.com/DietrichGebert/ponytail"
     },
     {
       "topic": "ai-agents",
       "full": "langchain-ai/langchain",
-      "stars": 149362,
+      "stars": 149365,
       "url": "https://github.com/langchain-ai/langchain"
     },
     {
       "topic": "rag",
       "full": "open-webui/open-webui",
-      "stars": 158394,
+      "stars": 158402,
       "url": "https://github.com/open-webui/open-webui"
     },
     {
       "topic": "rag",
       "full": "langchain-ai/langchain",
-      "stars": 149362,
+      "stars": 149365,
       "url": "https://github.com/langchain-ai/langchain"
     },
     {
       "topic": "rag",
       "full": "Graphify-Labs/graphify",
-      "stars": 146032,
+      "stars": 146091,
       "url": "https://github.com/Graphify-Labs/graphify"
     },
     {
       "topic": "rag",
       "full": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 144424,
+      "stars": 144429,
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
     {
       "topic": "rag",
       "full": "thedotmack/claude-mem",
-      "stars": 116127,
+      "stars": 116180,
       "url": "https://github.com/thedotmack/claude-mem"
     },
     {
       "topic": "rag",
       "full": "infiniflow/ragflow",
-      "stars": 94036,
+      "stars": 94039,
       "url": "https://github.com/infiniflow/ragflow"
     },
     {
       "topic": "mcp",
       "full": "morluto/rea",
-      "stars": 452136,
+      "stars": 452397,
       "url": "https://github.com/morluto/rea"
     },
     {
       "topic": "mcp",
       "full": "affaan-m/ECC",
-      "stars": 301198,
+      "stars": 301279,
       "url": "https://github.com/affaan-m/ECC"
     },
     {
       "topic": "mcp",
       "full": "n8n-io/n8n",
-      "stars": 210157,
+      "stars": 210202,
       "url": "https://github.com/n8n-io/n8n"
     },
     {
       "topic": "mcp",
       "full": "langgenius/dify",
-      "stars": 160984,
+      "stars": 160991,
       "url": "https://github.com/langgenius/dify"
     },
     {
       "topic": "mcp",
       "full": "Snailclimb/JavaGuide",
-      "stars": 159527,
+      "stars": 159526,
       "url": "https://github.com/Snailclimb/JavaGuide"
     },
     {
       "topic": "mcp",
       "full": "open-webui/open-webui",
-      "stars": 158394,
+      "stars": 158402,
       "url": "https://github.com/open-webui/open-webui"
     },
     {
       "topic": "agentic-workflow",
       "full": "langgenius/dify",
-      "stars": 160984,
+      "stars": 160991,
       "url": "https://github.com/langgenius/dify"
     },
     {
@@ -1143,25 +1135,25 @@
     {
       "topic": "agentic-workflow",
       "full": "ruvnet/ruflo",
-      "stars": 81481,
+      "stars": 81492,
       "url": "https://github.com/ruvnet/ruflo"
     },
     {
       "topic": "agentic-workflow",
       "full": "daytonaio/daytona",
-      "stars": 71330,
+      "stars": 71327,
       "url": "https://github.com/daytonaio/daytona"
     },
     {
       "topic": "agentic-workflow",
       "full": "shanraisshan/claude-code-best-practice",
-      "stars": 68968,
+      "stars": 68973,
       "url": "https://github.com/shanraisshan/claude-code-best-practice"
     },
     {
       "topic": "agentic-workflow",
       "full": "Mintplex-Labs/anything-llm",
-      "stars": 68183,
+      "stars": 68182,
       "url": "https://github.com/Mintplex-Labs/anything-llm"
     }
   ],
@@ -1171,8 +1163,8 @@
       "url": "https://github.com/123caiji/ai-world",
       "stars": 1,
       "delta": 0,
-      "deltaSince": "2026-11-10T19:30:42.592Z",
-      "pushedAt": "2026-11-11T14:56:02Z",
+      "deltaSince": "2026-11-10T22:16:52.254Z",
+      "pushedAt": "2026-11-11T17:41:49Z",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
       "language": "JavaScript",
       "mine": true
@@ -1182,7 +1174,7 @@
       "url": "https://github.com/123caiji/dsh-memory-toolkit",
       "stars": 5,
       "delta": 0,
-      "deltaSince": "2026-11-10T19:30:42.592Z",
+      "deltaSince": "2026-11-10T22:16:52.254Z",
       "pushedAt": "2026-10-31T11:37:40Z",
       "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
       "language": "TypeScript",
@@ -1193,7 +1185,7 @@
       "url": "https://github.com/123caiji/dsh-live",
       "stars": 0,
       "delta": 0,
-      "deltaSince": "2026-11-10T19:30:42.592Z",
+      "deltaSince": "2026-11-10T22:16:52.254Z",
       "pushedAt": "2026-10-29T12:10:05Z",
       "description": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
       "language": "JavaScript",
@@ -1204,7 +1196,7 @@
       "url": "https://github.com/123caiji/awesome-agent-security",
       "stars": 1,
       "delta": 0,
-      "deltaSince": "2026-11-10T19:30:42.592Z",
+      "deltaSince": "2026-11-10T22:16:52.254Z",
       "pushedAt": "2026-11-11T10:54:25Z",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "language": "JavaScript",
@@ -1215,7 +1207,7 @@
       "url": "https://github.com/123caiji/AI-LLM-Agent-Learning",
       "stars": 8,
       "delta": 0,
-      "deltaSince": "2026-11-10T19:30:42.592Z",
+      "deltaSince": "2026-11-10T22:16:52.254Z",
       "pushedAt": "2026-10-29T12:11:31Z",
       "description": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
       "language": "Python",
