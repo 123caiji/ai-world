@@ -1,74 +1,78 @@
 {
-  "generatedAt": "2026-11-12T15:24:38.676Z",
+  "generatedAt": "2026-11-12T18:10:58.657Z",
   "windowHours": 72,
   "words": [
     {
       "w": "nvidia",
-      "n": 162
-    },
-    {
-      "w": "ceo",
-      "n": 149
-    },
-    {
-      "w": "agent",
-      "n": 134
+      "n": 185
     },
     {
       "w": "huang",
-      "n": 133
+      "n": 170
+    },
+    {
+      "w": "ceo",
+      "n": 168
+    },
+    {
+      "w": "agent",
+      "n": 137
+    },
+    {
+      "w": "jensen",
+      "n": 123
     },
     {
       "w": "发布",
-      "n": 122
+      "n": 111
     },
     {
-      "w": "模型",
+      "w": "agents",
       "n": 109
     },
     {
       "w": "model",
-      "n": 99
+      "n": 100
     },
     {
-      "w": "jensen",
-      "n": 98
+      "w": "模型",
+      "n": 97
     },
     {
       "w": "claude",
-      "n": 94
-    },
-    {
-      "w": "agents",
-      "n": 88
+      "n": 93
     },
     {
       "w": "november",
-      "n": 82
-    },
-    {
-      "w": "google",
-      "n": 75
-    },
-    {
-      "w": "智能",
-      "n": 75
-    },
-    {
-      "w": "anthropic",
-      "n": 73
-    },
-    {
-      "w": "openai",
-      "n": 72
+      "n": 86
     },
     {
       "w": "data",
-      "n": 71
+      "n": 84
+    },
+    {
+      "w": "openai",
+      "n": 79
+    },
+    {
+      "w": "google",
+      "n": 73
+    },
+    {
+      "w": "智能",
+      "n": 67
+    },
+    {
+      "w": "gemini",
+      "n": 65
     },
     {
       "w": "announced",
-      "n": 59
+      "n": 62
+    },
+    {
+      "w": "china",
+      "n": 58
     },
     {
       "w": "company",
@@ -79,11 +83,11 @@
       "n": 56
     },
     {
-      "w": "gemini",
+      "w": "anthropic",
       "n": 56
     },
     {
-      "w": "china",
+      "w": "aws",
       "n": 53
     },
     {
@@ -91,107 +95,103 @@
       "n": 52
     },
     {
-      "w": "芯片",
-      "n": 52
+      "w": "chinese",
+      "n": 51
     },
     {
       "w": "llm",
       "n": 50
     },
     {
-      "w": "pro",
-      "n": 49
-    },
-    {
       "w": "code",
-      "n": 48
-    },
-    {
-      "w": "chinese",
       "n": 46
     },
     {
       "w": "board",
-      "n": 43
+      "n": 46
     },
     {
-      "w": "security",
-      "n": 42
-    },
-    {
-      "w": "token",
-      "n": 42
+      "w": "芯片",
+      "n": 46
     },
     {
       "w": "meta",
-      "n": 42
+      "n": 45
     },
     {
-      "w": "aws",
+      "w": "platform",
       "n": 42
     },
     {
       "w": "sources",
+      "n": 42
+    },
+    {
+      "w": "security",
       "n": 41
     },
     {
-      "w": "platform",
+      "w": "tech",
       "n": 40
-    },
-    {
-      "w": "flash",
-      "n": 40
-    },
-    {
-      "w": "times",
-      "n": 39
     },
     {
       "w": "intelligence",
       "n": 39
     },
     {
+      "w": "times",
+      "n": 38
+    },
+    {
       "w": "amazon",
-      "n": 39
-    },
-    {
-      "w": "app",
-      "n": 39
-    },
-    {
-      "w": "tech",
       "n": 38
     },
     {
-      "w": "ipo",
+      "w": "pro",
       "n": 38
     },
     {
-      "w": "business",
+      "w": "token",
+      "n": 38
+    },
+    {
+      "w": "flash",
+      "n": 38
+    },
+    {
+      "w": "tools",
+      "n": 37
+    },
+    {
+      "w": "affair",
+      "n": 37
+    },
+    {
+      "w": "technology",
+      "n": 37
+    },
+    {
+      "w": "kress",
       "n": 37
     },
     {
       "w": "million",
-      "n": 37
+      "n": 36
     },
     {
-      "w": "amd",
+      "w": "research",
       "n": 35
     },
     {
-      "w": "affair",
+      "w": "work",
       "n": 34
     },
     {
-      "w": "大模型",
-      "n": 34
-    },
-    {
-      "w": "technology",
+      "w": "coding",
       "n": 33
     },
     {
-      "w": "work",
+      "w": "app",
       "n": 33
     }
   ]
