@@ -40,12 +40,12 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/12 15:03:03 · 库内 900 条 · 本轮新增 535 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/12 17:49:38 · 库内 900 条 · 本轮新增 508 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 205 | [homeassistant-ai/ha-mcp · 今日 +645 ⭐](https://github.com/homeassistant-ai/ha-mcp) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 685 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 722 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [meta/astryx · 今日 +2776 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
 | 194 | [huggingface/transformers 涨 123 星](https://github.com/huggingface/transformers) | GitHub 涨星榜 |
 | 191 | [ollama/ollama 涨 121 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
