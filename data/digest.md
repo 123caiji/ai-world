@@ -1,114 +1,114 @@
 # AI 大世界 · 采集快照
 
-- 生成时间：2026/11/12 17:49:38（Asia/Shanghai）
-- 库内条目：900 条；最近一次新增：508 条
+- 生成时间：2026/11/12 20:36:04（Asia/Shanghai）
+- 库内条目：900 条；最近一次新增：534 条
 - 数据源：59/61 正常
 
 ## 本次新增
 
-- [[Android] 26 年 root 生态又好起来了啊](https://www.v2ex.com/t/1256546) · V2EX · AI 讨论 · 2026/11/12 17:45:43
-- [EPFL introduces a new Bachelor in Artificial Intelligence. The Bachelor, introduced by the EPFL School of Computer and Communication...](https://social.epfl.ch/@EPFL/117602825307047362) · Mastodon（联邦宇宙） · 2026/11/12 17:45:04
-- [Last week, after a # Microsoft # Teams meeting with my accountant, I received an email with an automated # AI summary, courtesy of...](https://social.jpoesen.com/@jpoesen/117602821256046108) · Mastodon（联邦宇宙） · 2026/11/12 17:44:02
-- [« Office for Students says institutions in England should return to traditional exams and in-person presentations” # ai # students #...](https://mastodon.online/@clarinette/117602814202857045) · Mastodon（联邦宇宙） · 2026/11/12 17:42:15
-- [[AI Agent 智能体] 23 年 pro 两年今天也被 kyc 了，开始的月付 pro 到现在年付 pro，还是没放过](https://www.v2ex.com/t/1256545) · V2EX · AI 讨论 · 2026/11/12 17:38:51
-- [LOTO6: 4,11,17,23,34,42 #AI Predictions: #Microsoft #Copilot](https://pinky.st/notes/atgx3jyihr9000f3) · Mastodon（联邦宇宙） · 2026/11/12 17:36:20
-- [BlueMedia Launches ChatGPT Ads Partnership for Chinese Brands](https://www.unite.ai/bluemedia-launches-chatgpt-ads-partnership-for-chinese-brands) · Unite.AI · 2026/11/12 17:35:05
-- [ByteDance's Volcano Engine has released Seedance 2.5 Flash, a lighter version of its Seedance 2.5 video model that it says generates clips...](https://universeodon.com/@china/117602778103734552) · Mastodon（联邦宇宙） · 2026/11/12 17:33:04
-- [[分享创造] 整理了一份有点不正经的 Agent Skills 清单](https://www.v2ex.com/t/1256542) · V2EX · AI 讨论 · 2026/11/12 17:30:59
-- [[Claude] 昨天从亚马逊机房线路迁到甲骨文线路,都是固定 ip,然后 kyc 了](https://www.v2ex.com/t/1256540) · V2EX · AI 讨论 · 2026/11/12 17:27:04
-- [La rivoluzione quantistica arriva dagli smartphone: chip con molecole organiche 📌 Link all'articolo : https://www....](https://mastodon.bida.im/@redhotcyber/117602748876365459) · Mastodon（联邦宇宙） · 2026/11/12 17:25:38
-- [[问与答] AI 时代能否创造第四产业，而不是只能颠覆之前的产业（农业、工业、服务业）？](https://www.v2ex.com/t/1256538) · V2EX · AI 讨论 · 2026/11/12 17:18:34
-- [大唐推出基于海光 1400 系列处理器的 FX1400 迷你主机](https://www.ithome.com/1/026/278.htm) · IT之家 · 2026/11/12 17:17:42
-- [鸿海董事长刘扬伟：2027 年芯片、内存及部分关键零部件供需吃紧将持续](https://www.ithome.com/1/026/277.htm) · IT之家 · 2026/11/12 17:17:10
-- [Meta 基础设施负责人将卸任：掌舵 17 年后交棒，亚马逊老将接任](https://www.ithome.com/1/026/276.htm) · IT之家 · 2026/11/12 17:16:28
-- [EdWord new word processor for # AtariST computers https://www. atari-forum.com/viewtopic.php? t=46615 # AI # atari](https://mastodon.world/@Philsan/117602699506404327) · Mastodon（联邦宇宙） · 2026/11/12 17:13:04
-- [R 星展开新一轮《GTA6》游戏营销，悄悄开新账号放出罪恶城海滩道路画面](https://www.ithome.com/1/026/274.htm) · IT之家 · 2026/11/12 17:11:23
-- [[推广] GPT plus 会员官方正版订阅代充值，欢迎 V 友咨询](https://www.v2ex.com/t/1256537) · V2EX · AI 讨论 · 2026/11/12 17:11:17
-- ["she said # Democrats needed to dare # Trump to veto some of the party’s popular priorities. “He claims he wants to lower costs, then...](https://newsie.social/@ZhiZhu/117602691393009498) · Mastodon（联邦宇宙） · 2026/11/12 17:11:01
-- [Rappel que : «J'ai relu tout ce que l'AI a produit» est le nouveau «J'ai lu et j’accepte les conditions d'utilisation» (visiblement les...](https://mamot.fr/@matiu_bidule/117602686038297685) · Mastodon（联邦宇宙） · 2026/11/12 17:09:39
-- [黄仁勋去留悬而未决，外媒盘点英伟达潜在接班人](https://www.ithome.com/1/026/264.htm) · IT之家 · 2026/11/12 17:08:59
-- [Omdia：今年全球 AI 软件收入预计突破 2000 亿美元，较 2024 年翻一番](https://www.ithome.com/1/026/259.htm) · IT之家 · 2026/11/12 17:07:16
-- [长鑫 DDR5 产品进展：32Gb 颗粒落地，MRDIMM 速率最高 12800Mbps](https://www.ithome.com/1/026/241.htm) · IT之家 · 2026/11/12 17:01:28
-- [Watch Now: https:// zurl.co/1UdqW How AI analyzes past open patterns to schedule individual send times across different time zones #...](https://mastodon.world/@peoplewoo/117602652035828797) · Mastodon（联邦宇宙） · 2026/11/12 17:01:01
+- [QwenLM/qwen-code · 今日 +151 ⭐](https://github.com/QwenLM/qwen-code) · GitHub 每日趋势 · 时间未知
+- [ashhart/TensorFold · 今日 +58 ⭐](https://github.com/ashhart/TensorFold) · GitHub 每日趋势 · 时间未知
+- [CopilotKit/OpenBot · 今日 +291 ⭐](https://github.com/CopilotKit/OpenBot) · GitHub 每日趋势 · 时间未知
+- [Alishahryar1/free-claude-code · 今日 +636 ⭐](https://github.com/Alishahryar1/free-claude-code) · GitHub 每日趋势 · 时间未知
+- [[OpenAI] 我就问了一句 你是什么模型 就消耗了 18.1k token？](https://www.v2ex.com/t/1256582) · V2EX · AI 讨论 · 2026/11/12 20:33:32
+- [Bring Your Own Model is now generally available in Visual Studio https:// devblogs.microsoft.com/visuals...](https://hachyderm.io/@alvinashcraft/117603481509857617) · Mastodon（联邦宇宙） · 2026/11/12 20:31:57
+- [Exploring File Uploads and Downloads in MCP https:// blog.modelcontextprotocol.io/p osts/exploring-file-uploads-and-downloads-in-mcp/ # ai...](https://hachyderm.io/@alvinashcraft/117603467931135061) · Mastodon（联邦宇宙） · 2026/11/12 20:28:30
+- [The AI slump is not seen affecting Bank of Japan in rate-rise plan, with one increase every three months still forecast even after tech...](https://mastodon.social/@thejapantimes/117603458210739051) · Mastodon（联邦宇宙） · 2026/11/12 20:26:01
+- [Meta Details Multi-Year Deals for AI Data Center Supply Chains](https://www.unite.ai/meta-details-multi-year-deals-for-ai-data-center-supply-chains) · Unite.AI · 2026/11/12 20:26:01
+- [上汽大众“超能纯电 SUV”ID. ERA 5X 上市，限时 9.99 万-13.99 万元](https://www.ithome.com/1/026/379.htm) · IT之家 · 2026/11/12 20:24:45
+- [# Microsoft performs an # AI powered security review of the # Linux kernel resulting in 59 kernel bugfixes. 'Two weeks of scanning...](https://mastodon-belgium.be/@dirkdierickx/117603451600958921) · Mastodon（联邦宇宙） · 2026/11/12 20:24:21
+- [Addendum: Since, in the larger picture, contemporary art can be seen as a mirror of a society/culture in each epoch, it makes complete...](https://mastodon.thi.ng/@toxi/117603449684056237) · Mastodon（联邦宇宙） · 2026/11/12 20:23:51
+- [Dew Drop - November 12, 2026 (#4791) https://www. alvinashcraft.com/2026/11/12/d ew-drop-november-12-2026-4791/ # dotnet # cloud # ai #...](https://hachyderm.io/@alvinashcraft/117603447441601526) · Mastodon（联邦宇宙） · 2026/11/12 20:23:17
+- [agent-shell mention in the wild https:// fredrikmeyer.net/2026/11/07/ho w-i-use-ai-2026.html # emacs # llm # ai](https://indieweb.social/@xenodium/117603447030536391) · Mastodon（联邦宇宙） · 2026/11/12 20:23:11
+- [May Mobility Targets Over 10,000 Volkswagen ID. Buzz Robotaxis](https://www.unite.ai/may-mobility-targets-over-10-000-volkswagen-id-buzz-robotaxis) · Unite.AI · 2026/11/12 20:22:03
+- [西门子 CEO 博乐仁：无论黄仁勋是否离职，与英伟达的合作都不会受影响](https://www.ithome.com/1/026/374.htm) · IT之家 · 2026/11/12 20:10:00
+- [Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2](https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2) · The Decoder · 2026/11/12 20:09:43
+- [USA Today: Man sues OpenAI alleging ChatGPT encouraged his wife to poison him. “A North Carolina man has sued OpenAI, alleging ChatGPT...](https://rbfirehose.com/2026/11/12/usa-today-man-sues-openai-alleging-chatgpt-encouraged-his-wife-to-poison-him) · Mastodon（联邦宇宙） · 2026/11/12 20:05:21
+- [Google launches Tabletop, an experimental AI platform to build customizable, collaborative personal planning and coordination hubs, in beta via a waitlist (Jess Weatherbed/The Verge)](https://www.techmeme.com/261112/p21) · Techmeme · 2026/11/12 20:05:00
+- [Biomatter Raises $18M Series A to Expand AI Enzyme Design and Testing](https://www.unite.ai/biomatter-raises-18m-series-a-to-expand-ai-enzyme-design-and-testing) · Unite.AI · 2026/11/12 20:03:02
+- [Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them](https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html) · The Hacker News · 2026/11/12 20:02:51
+- [cool cool cool # Ai # aibubble # huang](https://cosocial.ca/@mick/117603359549368877) · Mastodon（联邦宇宙） · 2026/11/12 20:00:56
+- [Sources: Nvidia employees, known for their fierce loyalty to Jensen Huang, have been left stunned and some are angry at the news of his extramarital affairs (Michael Acton/Financial Times)](https://www.techmeme.com/261112/p20) · Techmeme · 2026/11/12 20:00:50
+- ["Row erupts after AI data centre campaigners told to 'stop contacting government'" Meantime, I bet the datacentre developers have...](https://mastodon.scot/@geomannie/117603356640763853) · Mastodon（联邦宇宙） · 2026/11/12 20:00:12
 
 ## 热度榜
 
 | 热度 | 标题 | 来源 | 时间 |
 | ---: | --- | --- | --- |
+| 208 | [Alishahryar1/free-claude-code · 今日 +636 ⭐](https://github.com/Alishahryar1/free-claude-code) | GitHub 每日趋势 | - |
 | 205 | [homeassistant-ai/ha-mcp · 今日 +645 ⭐](https://github.com/homeassistant-ai/ha-mcp) | GitHub 每日趋势 | - |
-| 196 | [deepseek-ai/deepseek-harness 涨 722 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 | 2026/11/12 17:48:05 |
-| 196 | [meta/astryx · 今日 +2776 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 | - |
+| 196 | [QwenLM/qwen-code · 今日 +151 ⭐](https://github.com/QwenLM/qwen-code) | GitHub 每日趋势 | - |
+| 196 | [deepseek-ai/deepseek-harness 涨 708 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 | 2026/11/12 20:34:40 |
+| 196 | [meta/astryx · 今日 +1789 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 | - |
 | 194 | [huggingface/transformers 涨 123 星](https://github.com/huggingface/transformers) | GitHub 涨星榜 | 2026/11/12 09:27:17 |
 | 191 | [ollama/ollama 涨 121 星](https://github.com/ollama/ollama) | GitHub 涨星榜 | 2026/11/11 09:02:24 |
-| 178 | [addyosmani/agent-skills · 今日 +787 ⭐](https://github.com/addyosmani/agent-skills) | GitHub 每日趋势 | - |
+| 184 | [CopilotKit/OpenBot · 今日 +291 ⭐](https://github.com/CopilotKit/OpenBot) | GitHub 每日趋势 | - |
+| 178 | [addyosmani/agent-skills · 今日 +812 ⭐](https://github.com/addyosmani/agent-skills) | GitHub 每日趋势 | - |
 | 178 | [vercel-labs/agent-browser · 今日 +708 ⭐](https://github.com/vercel-labs/agent-browser) | GitHub 每日趋势 | - |
-| 167 | [Seattle AI voice startup WellSaid, spun out of the Allen Institute for AI, has launched WellSaid Producer, which links its voiceover...](https://social.vivaldi.net/@startups/117600813833004988) | Mastodon（联邦宇宙） | 2026/11/12 09:13:31 |
-| 166 | [ggml-org/llama.cpp 涨 145 星](https://github.com/ggml-org/llama.cpp) | GitHub 涨星榜 | 2026/11/12 17:48:05 |
-| 164 | [browser-use/browser-use 涨 123 星](https://github.com/browser-use/browser-use) | GitHub 涨星榜 | 2026/11/12 17:48:05 |
 
 ## 数据源健康度
 
 | 数据源 | 状态 | HTTP | 抓取条数 | 耗时 | 证据端点 |
 | --- | --- | ---: | ---: | ---: | --- |
-| arXiv 最新预印本 | 正常 | 200 | 29 | 13s | 见每条 item 的 evidence.url |
-| arXiv 相邻领域 | 正常 | 200 | 20 | 3.5s | 见每条 item 的 evidence.url |
+| arXiv 最新预印本 | 正常 | 200 | 29 | 12.8s | 见每条 item 的 evidence.url |
+| arXiv 相邻领域 | 正常 | 200 | 20 | 3.9s | 见每条 item 的 evidence.url |
 | Hugging Face 每日论文 | 正常 | 200 | 40 | 0.1s | 见每条 item 的 evidence.url |
 | Hugging Face 热门模型 / 数据集 / Space | 正常 | 200 | 55 | 0.1s | 见每条 item 的 evidence.url |
-| GitHub · 新仓库 / 涨星 / Releases | 正常 | 200 | 57 | 16s | 见每条 item 的 evidence.url |
-| GitHub 每日趋势 | 正常 | 200 | 7 | 1.1s | 见每条 item 的 evidence.url |
-| DSH 插件索引 | 正常 | 200 | 0 | 0.5s | 见每条 item 的 evidence.url |
-| OpenRouter 模型目录 | 正常 | 200 | 0 | 0s | 见每条 item 的 evidence.url |
-| Hacker News · AI 热帖 | 正常 | 200 | 58 | 3.5s | 见每条 item 的 evidence.url |
-| Hacker News · Show HN | 正常 | 200 | 20 | 0.4s | 见每条 item 的 evidence.url |
-| Lobsters | 正常 | 200 | 1 | 0.8s | 见每条 item 的 evidence.url |
+| GitHub · 新仓库 / 涨星 / Releases | 正常 | 200 | 54 | 14.4s | 见每条 item 的 evidence.url |
+| GitHub 每日趋势 | 正常 | 200 | 8 | 1.3s | 见每条 item 的 evidence.url |
+| DSH 插件索引 | 正常 | 200 | 0 | 0.3s | 见每条 item 的 evidence.url |
+| OpenRouter 模型目录 | 正常 | 200 | 0 | 0.1s | 见每条 item 的 evidence.url |
+| Hacker News · AI 热帖 | 正常 | 200 | 58 | 3.1s | 见每条 item 的 evidence.url |
+| Hacker News · Show HN | 正常 | 200 | 20 | 0.3s | 见每条 item 的 evidence.url |
+| Lobsters | 正常 | 200 | 1 | 0.3s | 见每条 item 的 evidence.url |
 | AI 视频频道 | 正常 | 200 | 15 | 0.2s | 见每条 item 的 evidence.url |
-| AI 安全情报 | 正常 | 200 | 14 | 0.2s | 见每条 item 的 evidence.url |
-| 中文技术社区 | 正常 | 200 | 22 | 2.3s | 见每条 item 的 evidence.url |
-| Anthropic 官方新闻 | 正常 | 200 | 12 | 1s | 见每条 item 的 evidence.url |
+| AI 安全情报 | 正常 | 200 | 14 | 0.1s | 见每条 item 的 evidence.url |
+| 中文技术社区 | 正常 | 200 | 22 | 5.1s | 见每条 item 的 evidence.url |
+| Anthropic 官方新闻 | 正常 | 200 | 12 | 1.3s | 见每条 item 的 evidence.url |
 | Bluesky · AI 讨论 | 失败 | - | 0 | 0s |  |
-| Mastodon · AI 话题 | 正常 | 200 | 17 | 5.2s | 见每条 item 的 evidence.url |
+| Mastodon · AI 话题 | 正常 | 200 | 12 | 5.4s | 见每条 item 的 evidence.url |
 | Reddit · AI 版块 | 失败 | - | 0 | 0s |  |
-| 量子位 | 正常 | 200 | 10 | 1.1s | 见每条 item 的 evidence.url |
-| 36氪 | 正常 | 200 | 0 | 0.8s | 见每条 item 的 evidence.url |
-| IT之家 | 正常 | 200 | 12 | 0.3s | 见每条 item 的 evidence.url |
-| 雷峰网 | 正常 | 200 | 12 | 69s | 见每条 item 的 evidence.url |
-| 极客公园 | 正常 | 200 | 10 | 4.9s | 见每条 item 的 evidence.url |
-| 爱范儿 | 正常 | 200 | 10 | 1s | 见每条 item 的 evidence.url |
-| 钛媒体 | 正常 | 200 | 10 | 1.9s | 见每条 item 的 evidence.url |
+| 量子位 | 正常 | 200 | 10 | 1.5s | 见每条 item 的 evidence.url |
+| 36氪 | 正常 | 200 | 0 | 2.6s | 见每条 item 的 evidence.url |
+| IT之家 | 正常 | 200 | 12 | 0.2s | 见每条 item 的 evidence.url |
+| 雷峰网 | 正常 | 200 | 12 | 60.4s | 见每条 item 的 evidence.url |
+| 极客公园 | 正常 | 200 | 10 | 4.6s | 见每条 item 的 evidence.url |
+| 爱范儿 | 正常 | 200 | 10 | 1.5s | 见每条 item 的 evidence.url |
+| 钛媒体 | 正常 | 200 | 8 | 3.5s | 见每条 item 的 evidence.url |
 | OpenAI 官方博客 | 正常 | 200 | 12 | 0.1s | 见每条 item 的 evidence.url |
-| Google DeepMind | 正常 | 200 | 10 | 0.3s | 见每条 item 的 evidence.url |
+| Google DeepMind | 正常 | 200 | 10 | 0.2s | 见每条 item 的 evidence.url |
 | Hugging Face 博客 | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
 | NVIDIA 博客 | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
 | GitHub 博客 | 正常 | 200 | 8 | 0.1s | 见每条 item 的 evidence.url |
 | Cloudflare 博客 | 正常 | 200 | 5 | 0.1s | 见每条 item 的 evidence.url |
-| The Decoder | 正常 | 200 | 10 | 1.3s | 见每条 item 的 evidence.url |
-| TechCrunch AI | 正常 | 200 | 10 | 0s | 见每条 item 的 evidence.url |
-| The Verge AI | 正常 | 200 | 10 | 0s | 见每条 item 的 evidence.url |
+| The Decoder | 正常 | 200 | 10 | 1.2s | 见每条 item 的 evidence.url |
+| TechCrunch AI | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
+| The Verge AI | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
 | WIRED AI | 正常 | 200 | 8 | 0.1s | 见每条 item 的 evidence.url |
 | Ars Technica | 正常 | 200 | 4 | 0.1s | 见每条 item 的 evidence.url |
 | MIT 科技评论 | 正常 | 200 | 8 | 0.1s | 见每条 item 的 evidence.url |
-| Latent Space | 正常 | 200 | 8 | 0.6s | 见每条 item 的 evidence.url |
+| Latent Space | 正常 | 200 | 8 | 0.3s | 见每条 item 的 evidence.url |
 | Simon Willison | 正常 | 200 | 8 | 0.1s | 见每条 item 的 evidence.url |
-| BAIR 伯克利 | 正常 | 200 | 6 | 0.1s | 见每条 item 的 evidence.url |
-| ScienceDaily AI | 正常 | 200 | 8 | 0.2s | 见每条 item 的 evidence.url |
-| Google AI 博客 | 正常 | 200 | 10 | 0.2s | 见每条 item 的 evidence.url |
+| BAIR 伯克利 | 正常 | 200 | 6 | 0.4s | 见每条 item 的 evidence.url |
+| ScienceDaily AI | 正常 | 200 | 8 | 0.1s | 见每条 item 的 evidence.url |
+| Google AI 博客 | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
 | Qwen 官方博客 | 正常 | 200 | 8 | 0s | 见每条 item 的 evidence.url |
-| 微软研究院 | 正常 | 200 | 8 | 0.7s | 见每条 item 的 evidence.url |
+| 微软研究院 | 正常 | 200 | 8 | 0.6s | 见每条 item 的 evidence.url |
 | Apple 机器学习 | 正常 | 200 | 8 | 0.1s | 见每条 item 的 evidence.url |
 | AWS 机器学习 | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
 | AI News (smol.ai) | 正常 | 200 | 8 | 0.3s | 见每条 item 的 evidence.url |
 | Interconnects | 正常 | 200 | 6 | 0.1s | 见每条 item 的 evidence.url |
-| One Useful Thing | 正常 | 200 | 6 | 0.2s | 见每条 item 的 evidence.url |
+| One Useful Thing | 正常 | 200 | 6 | 0.3s | 见每条 item 的 evidence.url |
 | Ahead of AI | 正常 | 200 | 6 | 0.2s | 见每条 item 的 evidence.url |
 | The Gradient | 正常 | 200 | 6 | 0.6s | 见每条 item 的 evidence.url |
-| Techmeme | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
-| Alignment Forum | 正常 | 200 | 8 | 0.1s | 见每条 item 的 evidence.url |
-| LessWrong | 正常 | 200 | 6 | 0.1s | 见每条 item 的 evidence.url |
+| Techmeme | 正常 | 200 | 10 | 0.2s | 见每条 item 的 evidence.url |
+| Alignment Forum | 正常 | 200 | 8 | 0.2s | 见每条 item 的 evidence.url |
+| LessWrong | 正常 | 200 | 6 | 0.2s | 见每条 item 的 evidence.url |
 | MarkTechPost | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
 | Synced Review | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
-| AI Business | 正常 | 200 | 12 | 0.5s | 见每条 item 的 evidence.url |
-| IEEE Spectrum · AI | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
-| Unite.AI | 正常 | 200 | 10 | 0.6s | 见每条 item 的 evidence.url |
+| AI Business | 正常 | 200 | 12 | 0.3s | 见每条 item 的 evidence.url |
+| IEEE Spectrum · AI | 正常 | 200 | 10 | 0.2s | 见每条 item 的 evidence.url |
+| Unite.AI | 正常 | 200 | 10 | 0.2s | 见每条 item 的 evidence.url |
 | Together AI 博客 | 正常 | 200 | 8 | 0.1s | 见每条 item 的 evidence.url |
 | Product Hunt | 正常 | 200 | 10 | 0.1s | 见每条 item 的 evidence.url |
 
