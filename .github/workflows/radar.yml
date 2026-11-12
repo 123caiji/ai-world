@@ -1,12 +1,10 @@
 name: radar
 
 on:
-  schedule:
-    # 只当兜底：链子由 scripts/lib/keeper.mjs 自己接。
-    # 原来每小时一次，实测 GitHub 也只落地 1~2 次/天，
-    # 但每次落地都会把链子已经排好的 pending successor 顶成 cancelled（无损、纯噪音），
-    # 所以放宽到 6 小时一次。
-    - cron: "7 */6 * * *"
+  # 没有 cron：节奏由 scripts/lib/keeper.mjs 的自愈链维持（每轮开始先把下一轮排进队列）。
+  # 原来留了 cron 当兜底，但 concurrency 只给「1 running + 1 pending」的名额，
+  # cron 那一发会把链子排好的 pending successor 顶成 cancelled（实测 2026-11-09~11 有 21 个 cancelled）。
+  # 兜底改由 conductor.yml 负责：它只在「一个 radar run 都没有」时才派，不会顶掉任何东西。
   workflow_dispatch:
 
 permissions:
@@ -64,4 +62,3 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run pages.yml --repo ${{ github.repository }}
-

@@ -1,0 +1,56 @@
+name: conductor
+
+# radar 链的看门狗。
+# 采集节奏由 scripts/lib/keeper.mjs 的自愈链维持（每轮开始先排下一轮），
+# 所以 radar.yml 里没有 cron —— 那里留 cron 会把链子已排好的 pending 顶成 cancelled。
+# 这里只在「radar 一个在跑/排队的 run 都没有」且「feed 已经过期」时才补派一次，
+# 因此永远不会顶掉任何排队中的 run。
+on:
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: conductor
+  cancel-in-progress: false
+
+jobs:
+  ensure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 链子断了就补派一轮采集
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -uo pipefail
+          active=$(gh api "/repos/${REPO}/actions/workflows/radar.yml/runs?per_page=10" \
+            --jq '[.workflow_runs[] | select(.status=="in_progress" or .status=="queued" or .status=="waiting" or .status=="pending" or .status=="requested")] | length')
+          echo "radar active runs: ${active}"
+          if [ "${active}" != "0" ]; then
+            echo "链子还在，不打扰"
+            exit 0
+          fi
+
+          # 链子空了：看数据有多旧，才决定要不要补
+          site=$(curl -fsS "https://raw.githubusercontent.com/${REPO}/main/data/site.json" || true)
+          generated=$(printf '%s' "$site" | grep -o '"feedGeneratedAt":"[^"]*"' | head -n1 | cut -d'"' -f4)
+          echo "feed generatedAt: ${generated:-unknown}"
+          now=$(date -u +%s)
+          age_min=999999
+          if [ -n "${generated:-}" ]; then
+            ts=$(date -u -d "$generated" +%s 2>/dev/null || echo 0)
+            if [ "$ts" != "0" ]; then age_min=$(( (now - ts) / 60 )); fi
+          fi
+          echo "feed age: ${age_min}min"
+
+          if [ "${age_min}" -ge 120 ]; then
+            echo "链子断了（feed ${age_min} 分钟没更新），补派一轮"
+            gh workflow run radar.yml --repo "${REPO}"
+          else
+            echo "链子断了但数据还新（${age_min}min），下一小时再看"
+          fi
