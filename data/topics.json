@@ -1,46 +1,50 @@
 {
-  "generatedAt": "2026-11-12T01:30:43.236Z",
+  "generatedAt": "2026-11-12T04:16:21.104Z",
   "windowHours": 72,
   "words": [
     {
       "w": "model",
-      "n": 166
+      "n": 155
     },
     {
       "w": "anthropic",
-      "n": 158
+      "n": 143
     },
     {
       "w": "agent",
-      "n": 139
+      "n": 140
     },
     {
       "w": "agents",
-      "n": 134
+      "n": 131
     },
     {
       "w": "claude",
-      "n": 121
-    },
-    {
-      "w": "google",
-      "n": 111
+      "n": 123
     },
     {
       "w": "nvidia",
-      "n": 105
+      "n": 114
+    },
+    {
+      "w": "google",
+      "n": 106
     },
     {
       "w": "models",
-      "n": 104
+      "n": 97
     },
     {
       "w": "data",
-      "n": 99
+      "n": 96
     },
     {
       "w": "november",
-      "n": 94
+      "n": 93
+    },
+    {
+      "w": "发布",
+      "n": 88
     },
     {
       "w": "openai",
@@ -48,98 +52,98 @@
     },
     {
       "w": "gemini",
-      "n": 84
+      "n": 83
     },
     {
-      "w": "发布",
-      "n": 77
+      "w": "模型",
+      "n": 78
+    },
+    {
+      "w": "ceo",
+      "n": 78
     },
     {
       "w": "business",
       "n": 71
     },
     {
-      "w": "ipo",
+      "w": "huang",
       "n": 70
     },
     {
-      "w": "code",
-      "n": 69
-    },
-    {
-      "w": "模型",
-      "n": 69
-    },
-    {
       "w": "announced",
-      "n": 69
-    },
-    {
-      "w": "company",
       "n": 67
     },
     {
-      "w": "ceo",
-      "n": 64
+      "w": "company",
+      "n": 65
     },
     {
-      "w": "huang",
+      "w": "ipo",
       "n": 58
     },
     {
-      "w": "million",
-      "n": 58
-    },
-    {
-      "w": "llm",
-      "n": 56
-    },
-    {
-      "w": "series",
-      "n": 56
-    },
-    {
-      "w": "work",
-      "n": 54
-    },
-    {
-      "w": "api",
-      "n": 50
+      "w": "code",
+      "n": 57
     },
     {
       "w": "智能",
-      "n": 49
+      "n": 56
     },
     {
-      "w": "systems",
-      "n": 49
+      "w": "llm",
+      "n": 55
     },
     {
       "w": "jensen",
-      "n": 48
+      "n": 54
+    },
+    {
+      "w": "china",
+      "n": 52
+    },
+    {
+      "w": "million",
+      "n": 52
+    },
+    {
+      "w": "api",
+      "n": 51
+    },
+    {
+      "w": "series",
+      "n": 51
     },
     {
       "w": "platform",
-      "n": 47
+      "n": 49
+    },
+    {
+      "w": "work",
+      "n": 49
     },
     {
       "w": "amazon",
       "n": 47
     },
     {
-      "w": "research",
-      "n": 47
-    },
-    {
-      "w": "training",
-      "n": 44
-    },
-    {
-      "w": "intelligence",
-      "n": 43
+      "w": "systems",
+      "n": 45
     },
     {
       "w": "芯片",
+      "n": 44
+    },
+    {
+      "w": "research",
+      "n": 44
+    },
+    {
+      "w": "chatgpt",
+      "n": 43
+    },
+    {
+      "w": "intelligence",
       "n": 42
     },
     {
@@ -147,51 +151,47 @@
       "n": 42
     },
     {
-      "w": "times",
-      "n": 41
+      "w": "sources",
+      "n": 40
     },
     {
-      "w": "billion",
-      "n": 41
+      "w": "tech",
+      "n": 40
+    },
+    {
+      "w": "times",
+      "n": 40
+    },
+    {
+      "w": "training",
+      "n": 40
     },
     {
       "w": "adobe",
       "n": 40
     },
     {
-      "w": "video",
-      "n": 39
-    },
-    {
-      "w": "tools",
-      "n": 39
-    },
-    {
-      "w": "chatgpt",
-      "n": 39
-    },
-    {
-      "w": "companies",
-      "n": 39
-    },
-    {
       "w": "pro",
       "n": 38
     },
     {
-      "w": "china",
+      "w": "tools",
       "n": 38
     },
     {
-      "w": "each",
+      "w": "billion",
       "n": 38
     },
     {
-      "w": "cloud",
+      "w": "security",
       "n": 37
     },
     {
-      "w": "build",
+      "w": "time",
+      "n": 37
+    },
+    {
+      "w": "aws",
       "n": 37
     }
   ]
