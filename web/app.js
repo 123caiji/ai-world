@@ -56,11 +56,11 @@ function renderFreshness(generatedAt) {
     const label = minutes < 1 ? '刚刚更新'
       : minutes < 60 ? minutes + ' 分钟前更新'
       : (Math.round(minutes / 6) / 10).toFixed(1).replace(/\.0$/, '') + ' 小时前更新';
-    // 采集节奏：脚本每 165 分钟开一次窗口，定时器每小时来探一次（GitHub cron 常有 30~60 分钟延迟）
+    // 采集节奏：脚本每 165 分钟开一次窗口，链子自己排下一轮；conductor 看门狗每小时兜底一次
     pill.className = 'freshness ' + (minutes <= 200 ? 'ok' : minutes <= 480 ? 'warn' : 'stale');
     text.textContent = '自动扫描 · ' + label;
     pill.title = '最近一次自动采集：' + new Date(generatedAt).toLocaleString('zh-CN', { hour12: false }) +
-      '（每 165 分钟一批，由 Actions 里的自愈链自动排队触发、到点自己开跑，cron 只是兜底，人工不参与）';
+      '（每 165 分钟一批，由 Actions 里的自愈链自动排队触发、到点自己开跑，另有每小时看门狗兜底，人工不参与）';
   };
   paint();
   setInterval(paint, 60000);
@@ -458,7 +458,7 @@ function setupShortcuts() {
 
 /* ---------- 采集流水线（真实数据：site.json 的 feedGeneratedAt） ---------- */
 const WINDOW_MINUTES = 165; // 与 scripts/lib/window.mjs 的 DEFAULT_INTERVAL_MIN 保持一致
-const CHAIN_STALE_MS = 4 * 3600 * 1000; // 自愈链心跳超过这个时间就当地图失效，退回 cron 口径
+const CHAIN_STALE_MS = 4 * 3600 * 1000; // 自愈链心跳超过这个时间就当链子失效，改由看门狗兜底
 let pipelineSite = null;
 let pipelineKeeper = null;
 
@@ -471,9 +471,9 @@ function fmtDelta(ms) {
 }
 
 function nextTickSlot(now) {
-  // GitHub Actions 的 cron 是每小时第 7 分钟触发
+  // conductor.yml 的 cron 是每小时第 37 分钟触发
   const slot = new Date(now);
-  slot.setMinutes(7, 0, 0);
+  slot.setMinutes(37, 0, 0);
   if (slot.getTime() <= now) slot.setHours(slot.getHours() + 1);
   return slot;
 }
@@ -524,7 +524,7 @@ function renderPipeline(site, keeper) {
     state_.className = 'pipe-state ok';
     state_.textContent = chainAlive()
       ? '窗口未到 · 还差 ' + fmtDelta(remaining) + '（自愈链已排队，到点自己跑，不依赖 cron）'
-      : '窗口未到 · 还差 ' + fmtDelta(remaining) + '（定时器每小时 ' + hhmm(nextTickSlot(now)) + ' 探一次）';
+      : '窗口未到 · 还差 ' + fmtDelta(remaining) + '（看门狗每小时 ' + hhmm(nextTickSlot(now)) + ' 兜底一次）';
     $('pipe-next').textContent = fmtDelta(remaining);
     $('pipe-next').title = '下一批窗口：' + new Date(due).toLocaleString('zh-CN', { hour12: false });
   } else {
@@ -536,12 +536,12 @@ function renderPipeline(site, keeper) {
       state_.className = 'pipe-state warn';
       state_.textContent = chainAlive()
         ? '窗口已开 ' + fmtDelta(overdue) + ' · 这一轮正在补跑（自愈链驱动）'
-        : '窗口已开 ' + fmtDelta(overdue) + ' · 等下一次定时器触发（每小时 ' + hhmm(nextTickSlot(now)) + '）';
+        : '窗口已开 ' + fmtDelta(overdue) + ' · 等看门狗兜底（每小时 ' + hhmm(nextTickSlot(now)) + '）';
     } else {
       state_.className = 'pipe-state bad';
       state_.textContent = chainAlive()
         ? '已超窗 ' + fmtDelta(overdue) + ' · 链条还活着但这一轮没跑起来，去看 Actions 日志'
-        : '已超窗 ' + fmtDelta(overdue) + ' · 定时器一探到就会自动补跑';
+        : '已超窗 ' + fmtDelta(overdue) + ' · 看门狗一探到就会自动补跑';
     }
   }
   fill.style.width = pct.toFixed(1) + '%';
@@ -977,7 +977,7 @@ async function main() {
 
   const generated = (site && site.feedGeneratedAt) || feed.generatedAt;
   renderFreshness(generated);
-  $('foot-meta').textContent = 'AI 大世界 · 自愈链每 165 分钟自动采集一批（每轮自己排队下一轮，cron 只是兜底，无需人工） · 最近采集 ' +
+  $('foot-meta').textContent = 'AI 大世界 · 自愈链每 165 分钟自动采集一批（每轮自己排队下一轮，看门狗兜底，无需人工） · 最近采集 ' +
     (generated ? new Date(generated).toLocaleString('zh-CN', { hour12: false }) : '未知') +
     ' · 库内 ' + state.all.length + ' 条';
 }

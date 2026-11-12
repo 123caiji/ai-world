@@ -2,7 +2,7 @@
 
 # AI 大世界 · 实时 AI 情报站
 
-**每 165 分钟自动采集一批** AI 新闻、arXiv 论文、新模型、GitHub 新仓库 / 涨星 / Release、DSH 插件生态（Actions 里的自愈链：每轮自己把下一轮排进队列，窗口到点自己开跑，cron 只是兜底，人工不参与）。<br />
+**每 165 分钟自动采集一批** AI 新闻、arXiv 论文、新模型、GitHub 新仓库 / 涨星 / Release、DSH 插件生态（Actions 里的自愈链：每轮自己把下一轮排进队列，窗口到点自己开跑，另有一个每小时看门狗兜底，人工不参与）。<br />
 **每条情报都带可核验证据**：抓取端点、抓取时间、HTTP 状态、在响应里的定位。
 
 [![radar](https://github.com/123caiji/ai-world/actions/workflows/radar.yml/badge.svg)](https://github.com/123caiji/ai-world/actions/workflows/radar.yml)
@@ -192,15 +192,17 @@ ai-world/
 │  └─ snapshots/              # stars / releases / models / plugins 快照（算 delta 用）
 ├─ web/                       # 无构建单页（构建时整目录拷到 dist/）
 └─ .github/workflows/
-   ├─ radar.yml               # 定时器每小时探窗口，满 165 分钟才采集 → 渲染 → 提交
+   ├─ radar.yml               # 采集 → 渲染 → 提交（无 cron，节奏由自愈链维持）
+   ├─ conductor.yml           # 每小时看门狗：链子断了（且数据过期）才补派一轮
    └─ pages.yml               # dist/ 有变化就部署 GitHub Pages
 ```
 
 ## 定时与部署
 
-- `radar.yml`：**采集节奏由脚本自己维持（自愈链）**，cron 只当兜底。每轮 run 一开始先用 `GITHUB_TOKEN` 把下一轮 `workflow_dispatch` 排进队列（`scripts/lib/keeper.mjs`），然后本轮守候到采集窗口打开再干活。窗口条件是「距上次采集 ≥ 165 分钟」，没到就在 job 里睡，最多睡 180 分钟。链条健康状态写在 `data/keeper.json`（`chainRuns` / `lastDispatch` / `updatedAt`）。
+- `radar.yml`：**采集节奏完全由脚本自己维持（自愈链），里面没有 cron**。每轮 run 一开始先用 `GITHUB_TOKEN` 把下一轮 `workflow_dispatch` 排进队列（`scripts/lib/keeper.mjs`），然后本轮守候到采集窗口打开再干活。窗口条件是「距上次采集 ≥ 165 分钟」，没到就在 job 里睡，最多睡 180 分钟。链条健康状态写在 `data/keeper.json`（`chainRuns` / `lastDispatch` / `updatedAt`）。
 - 为什么不再依赖 cron：`schedule` 是「尽力而为」的——高峰期延迟几十分钟是常态，恶劣时会静默丢拍（本仓库实测出现过 4 小时一次都没触发，线上数据停在 4 小时前）。`workflow_dispatch` 则是 `GITHUB_TOKEN` 能触发新 run 的例外（只有 `push` 会被抑制），所以自愈链既不需要 PAT，也不需要 workflow 权限。
-- 开关：`config/keeper.json` 的 `enabled`（关掉后退回纯 cron 模式，不推荐）、`maxWaitMinutes`（默认 180）。
+- 兜底：`conductor.yml` 每小时看一次，只在「radar 一个在跑/排队的 run 都没有」且「feed 超过 120 分钟没更新」时才补派一轮，所以永远不会顶掉链子已经排好的下一环（cron 以前就会，实测顶出 21 个 cancelled）。
+- 开关：`config/keeper.json` 的 `enabled`（关掉后不再自动续链，只能靠 conductor 兜底，不推荐）、`maxWaitMinutes`（默认 180）。
 - 想立刻采一轮：`FORCE_COLLECT=1 node scripts/collect.mjs && node scripts/render.mjs`；`COLLECT_INTERVAL_MIN` 可临时改窗口。本地想试链条而不真采集：`RADAR_KEEPER=1 COLLECT_INTERVAL_MIN=10000 RADAR_KEEPER_MAX_WAIT_MIN=0.05 node scripts/collect.mjs`。
 - `pages.yml`：`dist/` 有变化就部署 Pages（与采集解耦，采集失败时线上仍是上一版）。
 - 线上站点：<https://123caiji.github.io/ai-world/>
@@ -218,7 +220,7 @@ ai-world/
 
 ## 站上的小组件
 
-- **采集流水线**（首屏 KPI 下方）：上次采集时间、下一批窗口倒计时、本轮新入库条数、数据源健康度，进度条按 165 分钟窗口推进。三种状态都写在脸上：窗口未到（还差多久）、已开窗（这一轮正在补跑）、已超窗（链条还活着但没跑起来）；文案会读 `data/keeper.json`，自愈链正常时说「自愈链已排队，到点自己跑，不依赖 cron」，心跳超过 4 小时就退回 cron 口径。
+- **采集流水线**（首屏 KPI 下方）：上次采集时间、下一批窗口倒计时、本轮新入库条数、数据源健康度，进度条按 165 分钟窗口推进。三种状态都写在脸上：窗口未到（还差多久）、已开窗（这一轮正在补跑）、已超窗（链条还活着但没跑起来）；文案会读 `data/keeper.json`，自愈链正常时说「自愈链已排队，到点自己跑，不依赖 cron」，心跳超过 4 小时就提示链子可能断了、由看门狗接管。
 - **情报详情抽屉**：点任意卡片从右侧滑出，把这条情报的抓取证据摊开——抓取端点、抓取时间、HTTP 状态、响应定位、首次发现、最后确认（含扫到次数）、热度、分值、语言、图片原址、条目 ID。底部可以「上一条 / 下一条」连续看、一键复制 JSON、打开原文；键盘 ←→ 切换、Esc 关闭。
 - **命令面板**：`⌘K` / `Ctrl+K` 打开，输入关键词直接搜全量情报（按热度取前 8 条），输入 `>` 前缀执行命令（切换主题、加载更多、跳到 GitHub 雷达、打开 RSS、打开数据文件）。
 - **安全快报 / 论文速览**（右栏）：近 24 小时安全条数与热门前 3、最新 3 篇论文，点条目同样能开抽屉。
