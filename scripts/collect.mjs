@@ -49,11 +49,12 @@ if (keeperOn) {
     intervalMinutes: DEFAULT_INTERVAL_MIN,
     maxWaitMinutes: keeperMaxWait,
   });
-  console.log(
-    dispatched.ok
-      ? 'keeper: 第 ' + state.chainRuns + ' 环 — 下一轮已排进队列（ref=' + dispatched.ref + '）'
-      : 'keeper: 排队失败（' + (dispatched.error || dispatched.skipped || dispatched.message) + '），本轮只靠 cron 兜底',
-  );
+  const dispatchNote = dispatched.ok
+    ? '第 ' + state.chainRuns + ' 环 — 下一轮已排进队列（ref=' + dispatched.ref + '）'
+    : dispatched.skipped === 'successor-exists'
+      ? '第 ' + state.chainRuns + ' 环 — 队列里已有 ' + dispatched.foreign + ' 个待跑/在跑的 run，本轮不重复派（避免把 pending 顶成 cancelled）'
+      : '排队失败（' + (dispatched.error || dispatched.skipped || dispatched.message) + '），本轮只靠 cron 兜底';
+  console.log('keeper: ' + dispatchNote);
 
   // 检出的 sha 可能已经落后（上一环刚把数据推上来）：先同步，再判断窗口，别白采一轮
   syncToRemoteMain({ root: ROOT });

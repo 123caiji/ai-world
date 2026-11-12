@@ -101,12 +101,50 @@ export function writeKeeperState(root, patch = {}) {
  * 把下一轮排进队列。必须在本轮「干活之前」调用：
  * 这样即使本轮被取消/超时/报错，链子也不会断。
  */
+const BUSY_STATUSES = ['queued', 'in_progress', 'pending', 'waiting', 'requested'];
+
+/**
+ * 数一数除了本轮之外，队列里还有几个 radar run（pending/queued/in_progress）。
+ * 为什么需要：cron 每小时也会派一次，而 concurrency 的语义是
+ * 「同一 group 只保留 1 个 running + 1 个 pending，再来一个就把 pending 顶掉」。
+ * 于是链子派出来的下一个还没轮到执行，就被 cron 派来的新 run 挤成了 cancelled。
+ * 实测 2026-11-09~11 之间的 8 个 cancelled 全是这么来的。
+ */
+async function countForeignRuns({ repo, token }) {
+  const url = 'https://api.github.com/repos/' + repo + '/actions/workflows/' + WORKFLOW_FILE + '/runs?per_page=30';
+  try {
+    const res = await fetch(url, {
+      headers: {
+        Authorization: 'Bearer ' + token,
+        Accept: 'application/vnd.github+json',
+        'User-Agent': 'ai-world-keeper',
+        'X-GitHub-Api-Version': '2022-11-28',
+      },
+    });
+    if (!res.ok) return null; // 查询失败就不拦，宁可多派也别把链接断掉
+    const json = await res.json();
+    const self = Number(process.env.GITHUB_RUN_ID || 0);
+    return (json.workflow_runs || []).filter(
+      (r) => Number(r.id) !== self && BUSY_STATUSES.includes(r.status),
+    ).length;
+  } catch {
+    return null;
+  }
+}
+
 export async function dispatchSuccessor({ reason = '' } = {}) {
   if (!isActions()) return { ok: false, skipped: 'not-in-actions' };
   const repo = process.env.GITHUB_REPOSITORY;
   const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
   if (!repo || !token) return { ok: false, error: '缺少 GITHUB_REPOSITORY 或 token' };
   const ref = process.env.GITHUB_REF_NAME || 'main';
+
+  // 幂等：队列里已经有别的 run 在等着了，就不要再派 —— 否则会把它顶成 cancelled。
+  const foreign = await countForeignRuns({ repo, token });
+  if (foreign && foreign > 0) {
+    return { ok: false, skipped: 'successor-exists', foreign, ref, reason, at: new Date().toISOString() };
+  }
+
   const url = 'https://api.github.com/repos/' + repo + '/actions/workflows/' + WORKFLOW_FILE + '/dispatches';
   try {
     const res = await fetch(url, {
