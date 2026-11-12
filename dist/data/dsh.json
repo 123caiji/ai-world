@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-12T18:07:44.180Z",
-  "total": 5437,
+  "generatedAt": "2026-11-12T20:54:17.222Z",
+  "total": 5435,
   "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 1036
+      "count": 1035
     },
     {
       "name": "tools",
@@ -128,7 +128,7 @@
       "url": "https://awesome-dsh-plugin.com/p/GuYou9799/dsh-auth-cookie-sweep/",
       "repo": "https://github.com/GuYou9799/dsh-auth-cookie-sweep",
       "category": "security",
-      "description": "由本地 Host 直接渲染一个 /auth-cookie-sweep 体检页，随时看到 cookie 罐有多满、离 16KB 的 431 还能再启动几次，并一键清理；旧 dsh-auth-* cookie 攒到几条后即失效，已经卡死的 profile 重启一次即可恢复。",
+      "description": "由本地 Host 直接渲染一个 /auth-cookie-sweep 体检页，随时看到 cookie 罐有多满、离 16KB 的 431 还能再启动几次，并一键清理；旧 dsh-auth-* cookie 会自动失效，救援额度按历史最大 jar 的 4 倍放大且不设上限。DSH 0.2.2-rc.2…",
       "version": "0.4.0",
       "publishedAt": "2026-11-12T02:25:07.000Z"
     },
@@ -138,7 +138,7 @@
       "url": "https://awesome-dsh-plugin.com/p/tao1020/dsh-chrome-use/",
       "repo": "https://github.com/tao1020/dsh-chrome-use",
       "category": "browser",
-      "description": "操纵你正在使用的 Chrome 浏览器：新建或复用已登录的标签页，让模型读取页面、点击、填写、拖拽页面元素、滚动、截图，新建标签页并分组、关闭本会话打开的标签页，并查看控制台与网络日志，调试浏览器等。需要 Chrome 120 或更新版本；扩展从 Chrome 应用商店安装，用 8 位配对码连接。",
+      "description": "操纵你正在用的 Chrome：复用已登录的标签页，读取页面、点击、填写、拖拽、滚动、截图、上传文件、导出 PDF，查看控制台与网络日志，共 33 个工具。多个 Harness 可以同时连同一个 Chrome，各自操作不同标签页，同一个标签页只归一个 Harness，不会互相抢；它们之间还能互相留言传话。前台模式可以关闭…",
       "version": "0.6.8",
       "publishedAt": "2026-11-12T02:23:17.000Z"
     },
