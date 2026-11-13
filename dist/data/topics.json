@@ -1,169 +1,149 @@
 {
-  "generatedAt": "2026-11-13T08:00:38.389Z",
+  "generatedAt": "2026-11-13T10:46:11.753Z",
   "windowHours": 72,
   "words": [
     {
-      "w": "nvidia",
-      "n": 217
+      "w": "ceo",
+      "n": 225
     },
     {
-      "w": "ceo",
-      "n": 213
+      "w": "nvidia",
+      "n": 215
     },
     {
       "w": "huang",
-      "n": 188
+      "n": 185
     },
     {
       "w": "jensen",
-      "n": 147
-    },
-    {
-      "w": "agent",
-      "n": 125
-    },
-    {
-      "w": "gemini",
-      "n": 120
+      "n": 145
     },
     {
       "w": "发布",
-      "n": 109
+      "n": 120
     },
     {
-      "w": "models",
-      "n": 104
-    },
-    {
-      "w": "google",
-      "n": 98
-    },
-    {
-      "w": "model",
-      "n": 97
-    },
-    {
-      "w": "agents",
-      "n": 95
+      "w": "agent",
+      "n": 118
     },
     {
       "w": "claude",
-      "n": 91
+      "n": 111
+    },
+    {
+      "w": "gemini",
+      "n": 105
     },
     {
       "w": "模型",
+      "n": 101
+    },
+    {
+      "w": "models",
       "n": 91
     },
     {
-      "w": "data",
-      "n": 81
+      "w": "google",
+      "n": 83
     },
     {
       "w": "openai",
       "n": 80
     },
     {
-      "w": "november",
-      "n": 77
+      "w": "model",
+      "n": 80
     },
     {
       "w": "智能",
-      "n": 73
+      "n": 79
+    },
+    {
+      "w": "agents",
+      "n": 77
+    },
+    {
+      "w": "november",
+      "n": 75
+    },
+    {
+      "w": "data",
+      "n": 69
     },
     {
       "w": "anthropic",
-      "n": 58
+      "n": 64
+    },
+    {
+      "w": "hydrogen",
+      "n": 55
     },
     {
       "w": "china",
       "n": 53
     },
     {
+      "w": "kress",
+      "n": 50
+    },
+    {
       "w": "company",
-      "n": 52
-    },
-    {
-      "w": "hydrogen",
-      "n": 51
-    },
-    {
-      "w": "aws",
-      "n": 51
-    },
-    {
-      "w": "announced",
       "n": 48
     },
     {
-      "w": "tech",
-      "n": 47
-    },
-    {
-      "w": "kress",
-      "n": 47
-    },
-    {
-      "w": "llm",
-      "n": 46
-    },
-    {
-      "w": "board",
-      "n": 46
-    },
-    {
-      "w": "sources",
-      "n": 45
-    },
-    {
-      "w": "api",
-      "n": 44
-    },
-    {
-      "w": "security",
-      "n": 43
-    },
-    {
       "w": "芯片",
-      "n": 43
+      "n": 46
     },
     {
       "w": "colette",
-      "n": 42
+      "n": 45
     },
     {
-      "w": "chinese",
+      "w": "board",
+      "n": 45
+    },
+    {
+      "w": "tech",
+      "n": 45
+    },
+    {
+      "w": "pro",
+      "n": 43
+    },
+    {
+      "w": "announced",
+      "n": 43
+    },
+    {
+      "w": "sources",
+      "n": 43
+    },
+    {
+      "w": "llm",
+      "n": 41
+    },
+    {
+      "w": "security",
       "n": 41
     },
     {
       "w": "times",
-      "n": 41
-    },
-    {
-      "w": "affair",
-      "n": 41
-    },
-    {
-      "w": "tools",
-      "n": 40
-    },
-    {
-      "w": "coding",
       "n": 39
     },
     {
-      "w": "meta",
-      "n": 37
+      "w": "affair",
+      "n": 39
     },
     {
-      "w": "deepseek",
-      "n": 37
+      "w": "api",
+      "n": 38
+    },
+    {
+      "w": "cfo",
+      "n": 38
     },
     {
       "w": "flash",
-      "n": 37
-    },
-    {
-      "w": "time",
       "n": 37
     },
     {
@@ -171,28 +151,48 @@
       "n": 36
     },
     {
-      "w": "million",
+      "w": "chinese",
+      "n": 36
+    },
+    {
+      "w": "deepseek",
+      "n": 36
+    },
+    {
+      "w": "ipo",
       "n": 35
     },
     {
-      "w": "amazon",
+      "w": "tools",
       "n": 35
     },
     {
-      "w": "information",
+      "w": "news",
       "n": 34
     },
     {
-      "w": "technology",
-      "n": 33
+      "w": "大模型",
+      "n": 34
     },
     {
-      "w": "cfo",
+      "w": "meta",
+      "n": 34
+    },
+    {
+      "w": "microsoft",
+      "n": 34
+    },
+    {
+      "w": "time",
       "n": 33
     },
     {
       "w": "trump",
       "n": 33
+    },
+    {
+      "w": "research",
+      "n": 32
     }
   ]
 }
