@@ -559,14 +559,6 @@
     "created": 1786548957,
     "name": "SpaceXAI: Grok 4.6 (batch)"
   },
-  "liquid/lfm-2.5-2.6b": {
-    "created": 1786470519,
-    "name": "LiquidAI: LFM2.5-2.6B"
-  },
-  "liquid/lfm-2.5-2.6b:free": {
-    "created": 1786470519,
-    "name": "LiquidAI: LFM2.5-2.6B (free)"
-  },
   "nvidia/nemotron-3.5-lightning": {
     "created": 1786452751,
     "name": "NVIDIA: Nemotron 3.5 Lightning"
