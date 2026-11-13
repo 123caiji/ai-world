@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T05:14:21.549Z",
+  "generatedAt": "2026-11-13T08:00:38.389Z",
   "windowHours": 72,
   "words": [
     {
@@ -8,114 +8,102 @@
     },
     {
       "w": "ceo",
-      "n": 215
+      "n": 213
     },
     {
       "w": "huang",
-      "n": 191
+      "n": 188
     },
     {
       "w": "jensen",
-      "n": 149
+      "n": 147
     },
     {
       "w": "agent",
-      "n": 130
+      "n": 125
     },
     {
       "w": "gemini",
-      "n": 128
-    },
-    {
-      "w": "google",
-      "n": 116
-    },
-    {
-      "w": "agents",
-      "n": 111
-    },
-    {
-      "w": "model",
-      "n": 101
-    },
-    {
-      "w": "claude",
-      "n": 97
+      "n": 120
     },
     {
       "w": "发布",
-      "n": 95
-    },
-    {
-      "w": "data",
-      "n": 92
-    },
-    {
-      "w": "november",
-      "n": 92
+      "n": 109
     },
     {
       "w": "models",
-      "n": 88
+      "n": 104
+    },
+    {
+      "w": "google",
+      "n": 98
+    },
+    {
+      "w": "model",
+      "n": 97
+    },
+    {
+      "w": "agents",
+      "n": 95
+    },
+    {
+      "w": "claude",
+      "n": 91
+    },
+    {
+      "w": "模型",
+      "n": 91
+    },
+    {
+      "w": "data",
+      "n": 81
     },
     {
       "w": "openai",
       "n": 80
     },
     {
-      "w": "模型",
-      "n": 75
-    },
-    {
-      "w": "anthropic",
-      "n": 69
+      "w": "november",
+      "n": 77
     },
     {
       "w": "智能",
-      "n": 63
+      "n": 73
     },
     {
-      "w": "aws",
-      "n": 61
-    },
-    {
-      "w": "company",
+      "w": "anthropic",
       "n": 58
     },
     {
-      "w": "announced",
-      "n": 57
-    },
-    {
-      "w": "llm",
-      "n": 56
-    },
-    {
-      "w": "api",
-      "n": 54
-    },
-    {
       "w": "china",
+      "n": 53
+    },
+    {
+      "w": "company",
       "n": 52
     },
     {
       "w": "hydrogen",
-      "n": 49
+      "n": 51
     },
     {
-      "w": "kress",
-      "n": 47
+      "w": "aws",
+      "n": 51
+    },
+    {
+      "w": "announced",
+      "n": 48
     },
     {
       "w": "tech",
       "n": 47
     },
     {
-      "w": "tools",
-      "n": 46
+      "w": "kress",
+      "n": 47
     },
     {
-      "w": "sources",
+      "w": "llm",
       "n": 46
     },
     {
@@ -123,27 +111,31 @@
       "n": 46
     },
     {
-      "w": "platform",
-      "n": 43
+      "w": "sources",
+      "n": 45
     },
     {
-      "w": "technology",
-      "n": 42
+      "w": "api",
+      "n": 44
     },
     {
       "w": "security",
-      "n": 42
+      "n": 43
+    },
+    {
+      "w": "芯片",
+      "n": 43
     },
     {
       "w": "colette",
       "n": 42
     },
     {
-      "w": "amazon",
-      "n": 42
+      "w": "chinese",
+      "n": 41
     },
     {
-      "w": "research",
+      "w": "times",
       "n": 41
     },
     {
@@ -151,48 +143,56 @@
       "n": 41
     },
     {
-      "w": "work",
+      "w": "tools",
       "n": 40
     },
     {
-      "w": "intelligence",
-      "n": 40
-    },
-    {
-      "w": "芯片",
-      "n": 39
-    },
-    {
-      "w": "million",
-      "n": 39
-    },
-    {
-      "w": "time",
+      "w": "coding",
       "n": 39
     },
     {
       "w": "meta",
-      "n": 38
+      "n": 37
     },
     {
-      "w": "coding",
-      "n": 38
-    },
-    {
-      "w": "times",
-      "n": 38
-    },
-    {
-      "w": "chinese",
-      "n": 38
+      "w": "deepseek",
+      "n": 37
     },
     {
       "w": "flash",
       "n": 37
     },
     {
-      "w": "apple",
+      "w": "time",
+      "n": 37
+    },
+    {
+      "w": "work",
       "n": 36
+    },
+    {
+      "w": "million",
+      "n": 35
+    },
+    {
+      "w": "amazon",
+      "n": 35
+    },
+    {
+      "w": "information",
+      "n": 34
+    },
+    {
+      "w": "technology",
+      "n": 33
+    },
+    {
+      "w": "cfo",
+      "n": 33
+    },
+    {
+      "w": "trump",
+      "n": 33
     }
   ]
 }

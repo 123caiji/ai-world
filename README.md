@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/13 13:12:10 · 库内 900 条 · 本轮新增 520 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/13 15:57:44 · 库内 900 条 · 本轮新增 580 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
+| 208 | [meta/astryx · 今日 +1830 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
 | 204 | [ollama/ollama 涨 130 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 196 | [deepseek-ai/deepseek-harness 涨 708 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 682 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 194 | [Alishahryar1/free-claude-code · 今日 +415 ⭐](https://github.com/Alishahryar1/free-claude-code) | GitHub 每日趋势 |
 | 194 | [huggingface/transformers 涨 123 星](https://github.com/huggingface/transformers) | GitHub 涨星榜 |
 | 184 | [QwenLM/qwen-code · 今日 +151 ⭐](https://github.com/QwenLM/qwen-code) | GitHub 每日趋势 |
-| 179 | [ggml-org/llama.cpp · 今日 +176 ⭐](https://github.com/ggml-org/llama.cpp) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
