@@ -1,78 +1,74 @@
 {
-  "generatedAt": "2026-11-12T23:43:02.325Z",
+  "generatedAt": "2026-11-13T02:28:38.548Z",
   "windowHours": 72,
   "words": [
     {
       "w": "nvidia",
-      "n": 198
+      "n": 207
     },
     {
       "w": "ceo",
-      "n": 180
+      "n": 200
     },
     {
       "w": "huang",
-      "n": 178
+      "n": 187
     },
     {
       "w": "jensen",
-      "n": 136
+      "n": 145
     },
     {
       "w": "agent",
-      "n": 133
+      "n": 132
     },
     {
       "w": "google",
-      "n": 114
-    },
-    {
-      "w": "agents",
-      "n": 112
+      "n": 121
     },
     {
       "w": "gemini",
-      "n": 105
+      "n": 120
+    },
+    {
+      "w": "agents",
+      "n": 115
     },
     {
       "w": "model",
-      "n": 102
+      "n": 101
     },
     {
       "w": "november",
-      "n": 99
-    },
-    {
-      "w": "claude",
-      "n": 95
+      "n": 100
     },
     {
       "w": "发布",
-      "n": 89
+      "n": 95
+    },
+    {
+      "w": "claude",
+      "n": 93
     },
     {
       "w": "openai",
-      "n": 86
+      "n": 88
     },
     {
       "w": "data",
-      "n": 84
-    },
-    {
-      "w": "模型",
-      "n": 74
+      "n": 86
     },
     {
       "w": "models",
-      "n": 74
+      "n": 75
     },
     {
       "w": "anthropic",
-      "n": 70
+      "n": 74
     },
     {
-      "w": "announced",
-      "n": 66
+      "w": "模型",
+      "n": 71
     },
     {
       "w": "company",
@@ -80,38 +76,42 @@
     },
     {
       "w": "智能",
-      "n": 63
+      "n": 64
+    },
+    {
+      "w": "announced",
+      "n": 64
     },
     {
       "w": "aws",
       "n": 61
     },
     {
-      "w": "china",
-      "n": 57
-    },
-    {
-      "w": "llm",
+      "w": "sources",
       "n": 53
     },
     {
       "w": "api",
-      "n": 53
+      "n": 52
+    },
+    {
+      "w": "china",
+      "n": 52
+    },
+    {
+      "w": "llm",
+      "n": 52
     },
     {
       "w": "tech",
-      "n": 49
+      "n": 51
+    },
+    {
+      "w": "hydrogen",
+      "n": 47
     },
     {
       "w": "amazon",
-      "n": 49
-    },
-    {
-      "w": "platform",
-      "n": 48
-    },
-    {
-      "w": "sources",
       "n": 47
     },
     {
@@ -119,55 +119,67 @@
       "n": 47
     },
     {
-      "w": "chinese",
-      "n": 46
-    },
-    {
       "w": "board",
       "n": 46
     },
     {
-      "w": "million",
+      "w": "times",
       "n": 45
     },
     {
-      "w": "meta",
+      "w": "platform",
       "n": 45
+    },
+    {
+      "w": "kress",
+      "n": 44
     },
     {
       "w": "intelligence",
       "n": 44
     },
     {
-      "w": "research",
+      "w": "tools",
       "n": 43
     },
     {
-      "w": "times",
-      "n": 42
-    },
-    {
-      "w": "tools",
-      "n": 41
+      "w": "million",
+      "n": 43
     },
     {
       "w": "technology",
+      "n": 42
+    },
+    {
+      "w": "affair",
+      "n": 41
+    },
+    {
+      "w": "chinese",
       "n": 41
     },
     {
       "w": "pro",
-      "n": 41
-    },
-    {
-      "w": "kress",
       "n": 40
     },
     {
-      "w": "affair",
+      "w": "research",
+      "n": 40
+    },
+    {
+      "w": "colette",
       "n": 39
     },
     {
-      "w": "hydrogen",
+      "w": "work",
+      "n": 39
+    },
+    {
+      "w": "芯片",
+      "n": 38
+    },
+    {
+      "w": "meta",
       "n": 38
     },
     {
@@ -175,23 +187,11 @@
       "n": 38
     },
     {
-      "w": "series",
-      "n": 38
-    },
-    {
-      "w": "work",
-      "n": 38
-    },
-    {
-      "w": "coding",
+      "w": "trump",
       "n": 36
     },
     {
-      "w": "business",
-      "n": 36
-    },
-    {
-      "w": "systems",
+      "w": "flash",
       "n": 36
     }
   ]
