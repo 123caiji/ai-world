@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-14T19:51:33.673Z",
-  "total": 5637,
+  "generatedAt": "2026-11-14T22:37:09.489Z",
+  "total": 5635,
   "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 1079
+      "count": 1078
     },
     {
       "name": "tools",
@@ -46,7 +46,7 @@
     },
     {
       "name": "remote",
-      "count": 180
+      "count": 179
     },
     {
       "name": "skill",
@@ -378,7 +378,7 @@
       "url": "https://awesome-dsh-plugin.com/p/WNLUO/dsh-mobile-plugin/",
       "repo": "https://github.com/WNLUO/dsh-mobile-plugin",
       "category": "remote",
-      "description": "手机 App 的对端插件，自身可作无头宿主单独运行（不需要桌面外壳或 Electron）：经中转隧道或局域网配对提供受限的移动 API，用于列出、新建与操控 DSH 会话、订阅设备实时事件流，并以可吊销的设备凭据鉴权。",
+      "description": "DeepSeek Harness App 让你在手机上使用这台电脑或服务器上的 DeepSeek Harness。手机和平板都能用，安卓和苹果都支持。在手机上可以继续对话、查看文件、管理插件，也可以从正在用的这一台连上其他几台上的 DeepSeek Harness，分别打开来用。",
       "version": "0.5.50",
       "publishedAt": "2026-11-13T22:54:24.000Z"
     },
