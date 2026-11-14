@@ -4,7 +4,7 @@
 <link>https://123caiji.github.io/ai-world/</link>
 <description>每 165 分钟自动扫描（无需人工）的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 14 Nov 2026 03:17:57 GMT</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 06:03:55 GMT</lastBuildDate>
 <item>
 <title>ollama/ollama 涨 130 星</title>
 <link>https://github.com/ollama/ollama</link>
@@ -15,12 +15,12 @@
 <enclosure url="https://github.com/ollama.png?size=96" type="image/png" />
 </item>
 <item>
-<title>deepseek-ai/deepseek-harness 涨 615 星</title>
+<title>deepseek-ai/deepseek-harness 涨 588 星</title>
 <link>https://github.com/deepseek-ai/deepseek-harness</link>
 <guid isPermaLink="false">889ea1c117f15b3172d305835b21dbdb4895b8c0</guid>
-<pubDate>Sat, 14 Nov 2026 03:17:29 GMT</pubDate>
+<pubDate>Sat, 14 Nov 2026 06:02:59 GMT</pubDate>
 <category>repo</category>
-<description>DeepSeek Harness: Everything is a Plugin. · 当前 280580 stars — 来源 GitHub 涨星榜，抓取于 2026-11-14T03:17:34.267Z，HTTP 200</description>
+<description>DeepSeek Harness: Everything is a Plugin. · 当前 280673 stars — 来源 GitHub 涨星榜，抓取于 2026-11-14T06:03:05.322Z，HTTP 200</description>
 <enclosure url="https://github.com/deepseek-ai.png?size=96" type="image/png" />
 </item>
 <item>
@@ -47,7 +47,7 @@
 <guid isPermaLink="false">95c23a9afeb3554e12cc55844f1fe7422b8726ba</guid>
 <pubDate>Thu, 12 Nov 2026 20:54:18 GMT</pubDate>
 <category>repo</category>
-<description>Keep your coding agent up to date with the latest web best practices · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T03:17:43.254Z，HTTP 200</description>
+<description>Keep your coding agent up to date with the latest web best practices · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T06:03:14.046Z，HTTP 200</description>
 <enclosure url="https://github.com/GoogleChrome.png?size=96" type="image/png" />
 </item>
 <item>
@@ -56,17 +56,8 @@
 <guid isPermaLink="false">a67bb8d2a6b423507df124720c24d43b990cf127</guid>
 <pubDate>Fri, 13 Nov 2026 13:28:40 GMT</pubDate>
 <category>repo</category>
-<description>Chrome DevTools for coding agents · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T03:17:43.254Z，HTTP 200</description>
+<description>Chrome DevTools for coding agents · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T06:03:14.046Z，HTTP 200</description>
 <enclosure url="https://github.com/ChromeDevTools.png?size=96" type="image/png" />
-</item>
-<item>
-<title>ggml-org/llama.cpp 涨 235 星</title>
-<link>https://github.com/ggml-org/llama.cpp</link>
-<guid isPermaLink="false">7d8321c30b48b6e40a60524e22c876373e781db7</guid>
-<pubDate>Sat, 14 Nov 2026 03:17:29 GMT</pubDate>
-<category>repo</category>
-<description>LLM inference in C/C++ · 当前 134894 stars — 来源 GitHub 涨星榜，抓取于 2026-11-14T03:17:36.545Z，HTTP 200</description>
-<enclosure url="https://github.com/ggml-org.png?size=96" type="image/png" />
 </item>
 <item>
 <title>alibaba/open-code-review · 今日 +215 ⭐</title>
@@ -74,7 +65,7 @@
 <guid isPermaLink="false">f7cfdfd7bcc39abd56d5784ec638c99a8319617d</guid>
 <pubDate>Fri, 13 Nov 2026 13:28:40 GMT</pubDate>
 <category>repo</category>
-<description>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp;amp; Anthropic compatible. · Go · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T03:17:43.254Z，HTTP 200</description>
+<description>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp;amp; Anthropic compatible. · Go · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T06:03:14.046Z，HTTP 200</description>
 <enclosure url="https://github.com/alibaba.png?size=96" type="image/png" />
 </item>
 <item>
@@ -85,6 +76,15 @@
 <category>discussion</category>
 <description>Zionist and sex lives aside, we're watching a major battle for the future of Open Source software. The true story imo is a landscape of closed cloud LLM companies (OpenAI, Anthropic, Google) who are tightly aligned with the US defense... — @nullagent@partyon.xyz（nullagent） · 4 赞 · 3 转发 · 1 回复 — 来源 Mastodon（联邦宇宙），抓取于 2026-11-12T23:39:54.146Z，HTTP 200</description>
 <enclosure url="https://files.mastodon.social/cache/media_attachments/files/117/605/806/629/663/256/small/38f47c965363d71a.png" type="image/png" />
+</item>
+<item>
+<title>ggml-org/llama.cpp 涨 173 星</title>
+<link>https://github.com/ggml-org/llama.cpp</link>
+<guid isPermaLink="false">7d8321c30b48b6e40a60524e22c876373e781db7</guid>
+<pubDate>Sat, 14 Nov 2026 06:02:59 GMT</pubDate>
+<category>repo</category>
+<description>LLM inference in C/C++ · 当前 134914 stars — 来源 GitHub 涨星榜，抓取于 2026-11-14T06:03:07.764Z，HTTP 200</description>
+<enclosure url="https://github.com/ggml-org.png?size=96" type="image/png" />
 </item>
 <item>
 <title>HCLTech researchers report that ChatGPT 6.1-Sol, given weight read and write tools and told to, edited a small Qwen2.5-1.5B model so it...</title>
@@ -124,7 +124,7 @@
 <guid isPermaLink="false">09a3e479d01f6a195901726d8934a962334397f5</guid>
 <pubDate>Fri, 13 Nov 2026 13:28:40 GMT</pubDate>
 <category>repo</category>
-<description>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T03:17:43.254Z，HTTP 200</description>
+<description>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T06:03:14.046Z，HTTP 200</description>
 <enclosure url="https://github.com/backnotprop.png?size=96" type="image/png" />
 </item>
 <item>
@@ -141,7 +141,7 @@
 <guid isPermaLink="false">65f8a2e3eddbdfe5bc4ab37ea341a7f2eff1e26c</guid>
 <pubDate>Fri, 13 Nov 2026 07:57:29 GMT</pubDate>
 <category>repo</category>
-<description>OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T03:17:43.254Z，HTTP 200</description>
+<description>OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T06:03:14.046Z，HTTP 200</description>
 <enclosure url="https://github.com/openai.png?size=96" type="image/png" />
 </item>
 <item>
@@ -150,7 +150,7 @@
 <guid isPermaLink="false">ec453d1217c2185916432f3e7a8148b66592ce66</guid>
 <pubDate>Fri, 13 Nov 2026 13:28:40 GMT</pubDate>
 <category>repo</category>
-<description>Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T03:17:43.254Z，HTTP 200</description>
+<description>Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T06:03:14.046Z，HTTP 200</description>
 <enclosure url="https://github.com/tradermonty.png?size=96" type="image/png" />
 </item>
 <item>
@@ -236,7 +236,7 @@
 <guid isPermaLink="false">ca7dd68b4ce7da30dca83743f05d5fe58b4ba324</guid>
 <pubDate>Fri, 13 Nov 2026 13:28:40 GMT</pubDate>
 <category>repo</category>
-<description>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T03:17:43.254Z，HTTP 200</description>
+<description>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T06:03:14.046Z，HTTP 200</description>
 <enclosure url="https://github.com/ZhuLinsen.png?size=96" type="image/png" />
 </item>
 <item>
@@ -245,7 +245,7 @@
 <guid isPermaLink="false">c57dfd8e10aff19dd248f5f6d54142be0115db4d</guid>
 <pubDate>Fri, 13 Nov 2026 13:28:40 GMT</pubDate>
 <category>repo</category>
-<description>Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience. · C++ · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T03:17:43.254Z，HTTP 200</description>
+<description>Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience. · C++ · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-14T06:03:14.046Z，HTTP 200</description>
 <enclosure url="https://github.com/Likely7.png?size=96" type="image/png" />
 </item>
 <item>
@@ -280,6 +280,15 @@
 <pubDate>Thu, 12 Nov 2026 18:01:00 GMT</pubDate>
 <category>model</category>
 <description>上下文 1,048,576 tokens · 输入 $0.75/M · 输出 $3.75/M · Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model — 来源 OpenRouter 新模型，抓取于 2026-11-12T20:54:17.451Z，HTTP 200</description>
+</item>
+<item>
+<title>[Claude] 想用 claude 连接 higgs 的 mcp 是否危险</title>
+<link>https://www.v2ex.com/t/1257025</link>
+<guid isPermaLink="false">802534456966f11f2e046d3b9f099a2ee7e16437</guid>
+<pubDate>Sat, 14 Nov 2026 05:47:20 GMT</pubDate>
+<category>discussion</category>
+<description>如题 就是想请教一下 是否会被封 我目前是日本节点家宽没问题 使用 claude 目前一个月没出现过问题 是用的日本地区的 email + 日本电话号 绑定的 + 日本卡充值 的方式 所以想现在用这个 gmail 去直接登录 higgs 并且连接 mcp 会有风险吗? — 来源 V2EX · AI 讨论，抓取于 2026-11-14T06:03:15.301Z，HTTP 200</description>
+<enclosure url="https://cdn.v2ex.com/gravatar/a554aac8fe1b36474eedad83e2357551?s=73&amp;d=retro" type="image/png" />
 </item>
 <item>
 <title>Databricks Details Three Enterprise Adoption Paths for OpenAI Tools</title>
@@ -327,6 +336,14 @@
 <enclosure url="https://cdn.v2ex.com/avatar/e860/c0fc/200723_large.png?m=1764256758" type="image/png" />
 </item>
 <item>
+<title>谷歌高管借 Gemini AI 成功让苹果 iPhone Duo 运行微软 Win11</title>
+<link>https://www.ithome.com/1/027/118.htm</link>
+<guid isPermaLink="false">50ed1be08408177b01b8048a7bf66b57f5d5abed</guid>
+<pubDate>Sat, 14 Nov 2026 05:31:28 GMT</pubDate>
+<category>news</category>
+<description>IT之家 11 月 14 日消息，谷歌 AI Studio 产品与设计负责人阿马尔 · 雷希（Ammaar Reshi）于 11 月 12 日在 X 平台发布推文，分享了一段视频， 演示在苹果首款折叠手机 iPhone Duo 上运行 Windows 11 系统，并在 GitHub 上开源 WindowsiOS 项目。 雷希表示借助谷歌 Gemini 4 Carbon 模型，成功开发 WindowsiOS 项目，通过虚拟机方式，在 iPhone Duo 上运行 Windows 11 on Arm 24H2 系统镜像，并支持触控操作。 根据演示效果，在 iPhone Duo 半折叠状态下，上半屏显示系统界面，下半屏提供虚拟键盘和多点触控板，呈现迷你笔记本的使用形态。项目通过虚拟网卡、音频等设备，让 Windows 调用手机的网络、扬声器和麦克风。 雷希设备无需越狱，方案采用即时编译等软件技术，也不必替换原有 iOS... — 来源 IT之家，抓取于 2026-11-14T06:03:22.133Z，HTTP 200</description>
+</item>
+<item>
 <title>OpenAI Launches ChatGPT Wallet for Agent-Assisted Purchases</title>
 <link>https://www.unite.ai/openai-launches-chatgpt-wallet-for-agent-assisted-purchases</link>
 <guid isPermaLink="false">f888f92c19d8cf7a22ced37805703ef1e54b00ef</guid>
@@ -334,23 +351,5 @@
 <category>news</category>
 <description>OpenAI introduced ChatGPT Wallet on November 13, 2026, letting users approve agent-assisted purchases without exposing actual card details to businesses or agents. Built with American Express, Mastercard, and Visa, the wallet is initially rolling out through dots to US ChatGPT Pro subscribers aged 18 and older who have eligible US-issued cards. The launch extends ChatGPT from shopping research into transaction... — 来源 Unite.AI，抓取于 2026-11-13T16:14:27.972Z，HTTP 200</description>
 <enclosure url="https://www.unite.ai/wp-content/uploads/2026/11/openai-launches-chatgpt-wallet-for-agent-assisted-purchases.jpg" type="image/png" />
-</item>
-<item>
-<title>[分享创造] 做了个可能是 macOS 上颜值最高的 AI 用量监控工具</title>
-<link>https://www.v2ex.com/t/1256964</link>
-<guid isPermaLink="false">a77c737e0a91cecf2832e21e651964be23a8f284</guid>
-<pubDate>Fri, 13 Nov 2026 15:21:33 GMT</pubDate>
-<category>discussion</category>
-<description>(用之前的号发，不知道为什么帖子被限流了，重新用这个号发一下) 如图轻喷，个人觉得颜值还是挺高的，贴在屏幕侧边，随时能看见也比较方便。 功能特点 贴边展示，看余量比较方便。想看详细的可以点一下，卡片里有每个额度还剩多少、多久重置。 会拿已经用掉的比例和已经过去的时间比一下，用得太快的话卡片上会提示，大概多久用完也会写出来。 统计今天和近 30 天的 Token ，按各模型的价格折算成金额。点柱状图上任意一天，上面的数字和模型明细都会换成那天的，每天的 Token 花了多少钱看得比较直观。目前是 Codex 、Claude Code 、DeepSeek 这类本机有会话日志的才能统计。 最近比较火的 AI 账单也支持了，可以生成一张小票，列出今天每个服务、每个模型各花了多少。 剩余降到你设的比例、用完或者重置时，发一条系统通知。 额度读取这块参考了 CodexBar 的实现，感谢一下作者。 官网：... — 来源 V2EX · AI 讨论，抓取于 2026-11-13T16:14:17.811Z，HTTP 200</description>
-<enclosure url="https://cdn.v2ex.com/avatar/2cd8/3394/518475_xlarge.png?m=1794583146" type="image/png" />
-</item>
-<item>
-<title>[推广] [白嫖] 频繁触发 AI 风控？适配 ChatGPT、Claude 的纯净 IP 免费送</title>
-<link>https://www.v2ex.com/t/1256915</link>
-<guid isPermaLink="false">015b0f199eee07ae040c1ae6c4820827fa25647a</guid>
-<pubDate>Fri, 13 Nov 2026 10:17:49 GMT</pubDate>
-<category>discussion</category>
-<description>ZooProxy 全球 IP 代理 — 批量供应 🚀以极具竞争力的价格获取高度稳定、真正原生住宅 IP 资源。 🔥 极具竞争力的价格： ◆ 动态住宅 IP：$0.35 / GB ◆ 长期双 ISP 静态住宅 IP：$0.9/IP ◆ 无限端口：低至 $0.38/端口/天，免费流量，无限 IP ◆ 全新无限带宽：$23.3/天 🎁 新用户专享：立即注册即可免费试用！ 再免费送几个 CDK,注册直接兑换使用 https://zooproxy.com/?kwd=LQ-v2ex 邀请码：veexfwaif (50%优惠） UCCF-EUCN-SUZT AVK6-XEJ2-ULJT 98GW-YAU8-36LK LVV5-YA2B-XL5Y YB5M-RWYW-MUFH G2H7-JVG3-URG8 A7KN-Z4J2-2LFG L7LQ-EQ4B-STQ7 需要测试或者咨询地区池，注册之后 联系客服，备注自己的业务。... — 来源 V2EX · AI 讨论，抓取于 2026-11-13T10:43:02.650Z，HTTP 200</description>
-<enclosure url="https://cdn.v2ex.com/avatar/cd6a/3674/45118_xlarge.png?m=1793935351" type="image/png" />
 </item>
 </channel></rss>

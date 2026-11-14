@@ -1,74 +1,74 @@
 {
-  "generatedAt": "2026-11-14T03:20:53.032Z",
+  "generatedAt": "2026-11-14T06:06:28.332Z",
   "windowHours": 72,
   "words": [
     {
       "w": "nvidia",
-      "n": 207
+      "n": 175
     },
     {
       "w": "ceo",
-      "n": 192
+      "n": 150
     },
     {
       "w": "huang",
-      "n": 174
+      "n": 145
     },
     {
       "w": "jensen",
-      "n": 138
+      "n": 120
     },
     {
       "w": "agent",
-      "n": 123
+      "n": 118
     },
     {
       "w": "claude",
-      "n": 115
+      "n": 116
     },
     {
       "w": "gemini",
-      "n": 108
+      "n": 109
     },
     {
       "w": "models",
-      "n": 105
+      "n": 100
+    },
+    {
+      "w": "anthropic",
+      "n": 98
     },
     {
       "w": "model",
-      "n": 98
-    },
-    {
-      "w": "agents",
-      "n": 98
-    },
-    {
-      "w": "google",
-      "n": 96
+      "n": 95
     },
     {
       "w": "openai",
+      "n": 95
+    },
+    {
+      "w": "google",
       "n": 94
+    },
+    {
+      "w": "agents",
+      "n": 93
     },
     {
       "w": "发布",
       "n": 92
     },
     {
-      "w": "anthropic",
-      "n": 91
-    },
-    {
       "w": "data",
-      "n": 91
+      "n": 90
     },
     {
       "w": "november",
-      "n": 83
+      "n": 78
     },
     {
       "w": "模型",
-      "n": 74
+      "n": 71
     },
     {
       "w": "智能",
@@ -79,63 +79,47 @@
       "n": 58
     },
     {
-      "w": "company",
-      "n": 55
-    },
-    {
       "w": "china",
-      "n": 50
+      "n": 48
     },
     {
-      "w": "kress",
+      "w": "company",
       "n": 48
     },
     {
       "w": "tools",
-      "n": 46
-    },
-    {
-      "w": "times",
-      "n": 46
-    },
-    {
-      "w": "work",
       "n": 45
     },
     {
-      "w": "llm",
-      "n": 43
+      "w": "times",
+      "n": 44
     },
     {
       "w": "ipo",
       "n": 43
     },
     {
-      "w": "chatgpt",
+      "w": "work",
       "n": 42
     },
     {
       "w": "code",
-      "n": 42
-    },
-    {
-      "w": "colette",
-      "n": 42
-    },
-    {
-      "w": "announced",
       "n": 41
     },
     {
-      "w": "microsoft",
+      "w": "llm",
       "n": 40
     },
     {
-      "w": "security",
-      "n": 40
+      "w": "deepseek",
+      "n": 39
     },
     {
-      "w": "pro",
+      "w": "faa",
+      "n": 39
+    },
+    {
+      "w": "chatgpt",
       "n": 39
     },
     {
@@ -143,31 +127,39 @@
       "n": 38
     },
     {
-      "w": "coding",
+      "w": "announced",
       "n": 38
     },
     {
-      "w": "tech",
-      "n": 37
+      "w": "security",
+      "n": 38
     },
     {
       "w": "芯片",
       "n": 37
     },
     {
-      "w": "research",
+      "w": "tech",
       "n": 37
     },
     {
-      "w": "amazon",
+      "w": "coding",
       "n": 37
     },
     {
-      "w": "intelligence",
+      "w": "pro",
       "n": 36
     },
     {
-      "w": "available",
+      "w": "news",
+      "n": 36
+    },
+    {
+      "w": "amazon",
+      "n": 36
+    },
+    {
+      "w": "microsoft",
       "n": 36
     },
     {
@@ -175,24 +167,32 @@
       "n": 35
     },
     {
+      "w": "spacex",
+      "n": 35
+    },
+    {
       "w": "built",
       "n": 35
     },
     {
-      "w": "faa",
+      "w": "research",
       "n": 34
     },
     {
-      "w": "deepseek",
+      "w": "available",
       "n": 34
+    },
+    {
+      "w": "information",
+      "n": 33
     },
     {
       "w": "public",
-      "n": 34
+      "n": 33
     },
     {
-      "w": "spacex",
-      "n": 34
+      "w": "safety",
+      "n": 32
     }
   ]
 }

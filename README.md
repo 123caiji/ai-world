@@ -40,12 +40,12 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/14 11:17:57 · 库内 900 条 · 本轮新增 488 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/14 14:03:55 · 库内 900 条 · 本轮新增 512 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 204 | [ollama/ollama 涨 130 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 196 | [deepseek-ai/deepseek-harness 涨 615 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 588 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [meta/astryx · 今日 +1283 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
 | 188 | [AI News: Things Will Never Be The Same](https://www.youtube.com/watch?v=G_Jrexy_5Bg) | YouTube · Matt Wolfe |
 | 178 | [GoogleChrome/modern-web-guidance-src · 今日 +1925 ⭐](https://github.com/GoogleChrome/modern-web-guidance-src) | GitHub 每日趋势 |
