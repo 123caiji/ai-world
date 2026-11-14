@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/14 19:35:08 · 库内 900 条 · 本轮新增 493 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/14 22:20:42 · 库内 900 条 · 本轮新增 498 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
+| 207 | [QwenLM/qwen-code · 今日 +462 ⭐](https://github.com/QwenLM/qwen-code) | GitHub 每日趋势 |
 | 204 | [ollama/ollama 涨 130 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 196 | [deepseek-ai/deepseek-harness 涨 582 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 197 | [Tencent/LoopForge · 今日 +174 ⭐](https://github.com/Tencent/LoopForge) | GitHub 每日趋势 |
+| 196 | [deepseek-ai/deepseek-harness 涨 573 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [ChromeDevTools/chrome-devtools-mcp · 今日 +673 ⭐](https://github.com/ChromeDevTools/chrome-devtools-mcp) | GitHub 每日趋势 |
 | 196 | [meta/astryx · 今日 +1283 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
-| 178 | [alibaba/open-code-review · 今日 +897 ⭐](https://github.com/alibaba/open-code-review) | GitHub 每日趋势 |
-| 178 | [tradermonty/claude-trading-skills · 今日 +556 ⭐](https://github.com/tradermonty/claude-trading-skills) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
