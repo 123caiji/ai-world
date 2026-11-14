@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-14T17:05:58.915Z",
-  "total": 5639,
+  "generatedAt": "2026-11-14T19:51:33.673Z",
+  "total": 5637,
   "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 1080
+      "count": 1079
     },
     {
       "name": "tools",
-      "count": 826
+      "count": 825
     },
     {
       "name": "session",
@@ -18,7 +18,7 @@
     },
     {
       "name": "workflow",
-      "count": 369
+      "count": 368
     },
     {
       "name": "dev",
@@ -46,7 +46,7 @@
     },
     {
       "name": "remote",
-      "count": 179
+      "count": 180
     },
     {
       "name": "skill",
@@ -68,7 +68,7 @@
       "url": "https://awesome-dsh-plugin.com/p/GuYou9799/dsh-auth-cookie-sweep/",
       "repo": "https://github.com/GuYou9799/dsh-auth-cookie-sweep",
       "category": "security",
-      "description": "由本地 Host 直接渲染一个 /auth-cookie-sweep 体检页，随时看到 cookie 罐有多满、离 16KB 的 431 还能再启动几次，并一键清理；旧 dsh-auth-* cookie 会自动失效，救援额度按历史最大 jar 的 4 倍放大且不设上限。DSH 0.2.2-rc.2…",
+      "description": "解决dsh报错431（有时为401）：由本地 Host 直接渲染一个 /auth-cookie-sweep 体检页，随时看到 cookie 罐有多满、离 16KB 的 431 还能再启动几次，并一键清理；旧 dsh-auth-* cookie 会自动失效，救援额度按历史最大 jar 的 4 倍放大且不设上限。DSH…",
       "version": "1.2.0",
       "publishedAt": "2026-11-14T02:23:36.000Z"
     },
@@ -218,7 +218,7 @@
       "url": "https://awesome-dsh-plugin.com/p/finogeeks/finsafe--integrations-dsh-windows/",
       "repo": "https://github.com/finogeeks/finsafe",
       "category": "security",
-      "description": "DSH Desktop 的 Windows 沙箱：设置完成后，Host 会经 FinSAFE 在 AppContainer 沙箱里启动，限制智能体能触及的本机范围。仅限 Windows x64；首次激活会下载并安装匹配的 FinSAFE 原生运行时（校验 SHA256，需 Windows…",
+      "description": "为Windows上的DSH Desktop提供隐私、交互、系统和数据四项安全防护：保护摄像头、麦克风与屏幕隐私，防范桌面操控与输入干扰，保护系统配置、服务和其他进程，守护指定文件与目录。沿用DSH原有使用流程，通过进程级沙箱隔离与权限控制，为Agent执行任务提供安全保护。38项公开对照测评，防护效果有据可查。通过DS…",
       "version": "0.10.51",
       "publishedAt": "2026-11-14T01:28:05.000Z"
     },
@@ -368,7 +368,7 @@
       "url": "https://awesome-dsh-plugin.com/p/AcuteSZW/dsh-rea-pro/",
       "repo": "https://github.com/AcuteSZW/dsh-rea-pro",
       "category": "tools",
-      "description": "把 REA 的逆向工程 MCP 工具集接进 DeepSeek Harness，输入框工具条上一个开关，装好即默认开启；关掉后工具全部撤走、MCP 子进程退出，不需要它的会话就不花这份上下文。",
+      "description": "把 REA 的逆向工程 MCP 工具集接进 DeepSeek Harness，输入框工具条上一个开关，装好默认关闭；点开即挂载，关掉后工具全部撤走、MCP 子进程退出，不需要它的会话就不花这份上下文。",
       "version": "1.0.3",
       "publishedAt": "2026-11-13T22:59:02.000Z"
     },
