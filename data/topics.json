@@ -1,50 +1,42 @@
 {
-  "generatedAt": "2026-11-14T08:52:22.948Z",
+  "generatedAt": "2026-11-14T11:37:57.066Z",
   "windowHours": 72,
   "words": [
     {
       "w": "nvidia",
-      "n": 149
+      "n": 135
     },
     {
       "w": "ceo",
       "n": 128
     },
     {
-      "w": "huang",
-      "n": 120
+      "w": "gemini",
+      "n": 112
     },
     {
       "w": "claude",
-      "n": 117
-    },
-    {
-      "w": "gemini",
-      "n": 114
+      "n": 112
     },
     {
       "w": "发布",
-      "n": 106
+      "n": 108
     },
     {
       "w": "agent",
-      "n": 106
-    },
-    {
-      "w": "jensen",
-      "n": 103
-    },
-    {
-      "w": "google",
-      "n": 100
-    },
-    {
-      "w": "models",
-      "n": 100
+      "n": 104
     },
     {
       "w": "anthropic",
-      "n": 97
+      "n": 99
+    },
+    {
+      "w": "huang",
+      "n": 99
+    },
+    {
+      "w": "google",
+      "n": 99
     },
     {
       "w": "model",
@@ -55,55 +47,71 @@
       "n": 93
     },
     {
+      "w": "models",
+      "n": 91
+    },
+    {
+      "w": "jensen",
+      "n": 86
+    },
+    {
       "w": "agents",
-      "n": 93
+      "n": 83
     },
     {
       "w": "data",
-      "n": 92
+      "n": 79
     },
     {
       "w": "模型",
-      "n": 73
-    },
-    {
-      "w": "november",
-      "n": 72
+      "n": 76
     },
     {
       "w": "智能",
-      "n": 68
+      "n": 72
+    },
+    {
+      "w": "november",
+      "n": 64
     },
     {
       "w": "hydrogen",
       "n": 58
     },
     {
-      "w": "china",
-      "n": 50
-    },
-    {
-      "w": "times",
-      "n": 45
-    },
-    {
-      "w": "company",
-      "n": 44
+      "w": "code",
+      "n": 48
     },
     {
       "w": "ipo",
+      "n": 47
+    },
+    {
+      "w": "芯片",
+      "n": 46
+    },
+    {
+      "w": "company",
+      "n": 45
+    },
+    {
+      "w": "china",
       "n": 44
     },
     {
-      "w": "code",
+      "w": "times",
+      "n": 44
+    },
+    {
+      "w": "llm",
       "n": 43
     },
     {
-      "w": "tools",
+      "w": "pro",
       "n": 42
     },
     {
-      "w": "work",
+      "w": "chatgpt",
       "n": 41
     },
     {
@@ -115,23 +123,15 @@
       "n": 41
     },
     {
-      "w": "chatgpt",
-      "n": 41
-    },
-    {
-      "w": "芯片",
-      "n": 40
-    },
-    {
-      "w": "llm",
+      "w": "tools",
       "n": 39
     },
     {
-      "w": "coding",
+      "w": "tech",
       "n": 39
     },
     {
-      "w": "deepseek",
+      "w": "work",
       "n": 39
     },
     {
@@ -139,19 +139,15 @@
       "n": 38
     },
     {
-      "w": "pro",
+      "w": "coding",
       "n": 37
     },
     {
-      "w": "news",
+      "w": "deepseek",
       "n": 37
     },
     {
-      "w": "tech",
-      "n": 36
-    },
-    {
-      "w": "built",
+      "w": "every",
       "n": 36
     },
     {
@@ -159,23 +155,19 @@
       "n": 35
     },
     {
-      "w": "language",
+      "w": "intelligence",
       "n": 35
     },
     {
-      "w": "intelligence",
-      "n": 34
+      "w": "news",
+      "n": 35
     },
     {
-      "w": "public",
-      "n": 34
+      "w": "agentic",
+      "n": 35
     },
     {
-      "w": "app",
-      "n": 34
-    },
-    {
-      "w": "system",
+      "w": "research",
       "n": 34
     },
     {
@@ -183,15 +175,23 @@
       "n": 34
     },
     {
-      "w": "announced",
+      "w": "app",
       "n": 34
     },
     {
-      "w": "research",
+      "w": "public",
       "n": 34
     },
     {
-      "w": "available",
+      "w": "built",
+      "n": 34
+    },
+    {
+      "w": "wallet",
+      "n": 32
+    },
+    {
+      "w": "problem",
       "n": 32
     }
   ]
