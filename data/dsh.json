@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-14T06:03:13.866Z",
-  "total": 5643,
-  "newCount": 108,
+  "generatedAt": "2026-11-14T08:49:13.321Z",
+  "total": 5639,
+  "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 1081
+      "count": 1080
     },
     {
       "name": "tools",
-      "count": 827
+      "count": 826
     },
     {
       "name": "session",
@@ -26,11 +26,11 @@
     },
     {
       "name": "model",
-      "count": 300
+      "count": 299
     },
     {
       "name": "usage",
-      "count": 286
+      "count": 285
     },
     {
       "name": "memory",
