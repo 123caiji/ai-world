@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/16 04:43:11 · 库内 900 条 · 本轮新增 569 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/16 07:28:39 · 库内 900 条 · 本轮新增 557 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 198 | [google-labs-code/stitch-skills · 今日 +248 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
 | 196 | [ChromeDevTools/chrome-devtools-mcp · 今日 +718 ⭐](https://github.com/ChromeDevTools/chrome-devtools-mcp) | GitHub 每日趋势 |
-| 195 | [deepseek-ai/deepseek-harness 涨 490 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 195 | [deepseek-ai/deepseek-harness 涨 499 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 195 | [Tencent/LoopForge · 今日 +484 ⭐](https://github.com/Tencent/LoopForge) | GitHub 每日趋势 |
-| 182 | [YellowLaborerMarket/Gemini-Config-Checker- · 475 stars](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-) | GitHub 新仓库 |
-| 182 | [WyrmClimberManacle/Gemini-Config-Checker- · 475 stars](https://github.com/WyrmClimberManacle/Gemini-Config-Checker-) | GitHub 新仓库 |
+| 178 | [GoogleChrome/modern-web-guidance-src · 今日 +1220 ⭐](https://github.com/GoogleChrome/modern-web-guidance-src) | GitHub 每日趋势 |
+| 178 | [dream-num/univer · 今日 +1041 ⭐](https://github.com/dream-num/univer) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
