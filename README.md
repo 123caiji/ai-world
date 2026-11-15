@@ -40,13 +40,13 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/15 12:10:05 · 库内 900 条 · 本轮新增 514 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/15 14:55:35 · 库内 900 条 · 本轮新增 532 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 196 | [ChromeDevTools/chrome-devtools-mcp · 今日 +664 ⭐](https://github.com/ChromeDevTools/chrome-devtools-mcp) | GitHub 每日趋势 |
 | 196 | [meta/astryx · 今日 +1283 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
-| 195 | [deepseek-ai/deepseek-harness 涨 498 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 195 | [deepseek-ai/deepseek-harness 涨 476 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 178 | [GoogleChrome/modern-web-guidance-src · 今日 +1231 ⭐](https://github.com/GoogleChrome/modern-web-guidance-src) | GitHub 每日趋势 |
 | 178 | [tradermonty/claude-trading-skills · 今日 +553 ⭐](https://github.com/tradermonty/claude-trading-skills) | GitHub 每日趋势 |
 | 178 | [alibaba/open-code-review · 今日 +893 ⭐](https://github.com/alibaba/open-code-review) | GitHub 每日趋势 |
