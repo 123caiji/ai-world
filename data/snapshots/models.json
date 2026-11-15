@@ -1159,10 +1159,6 @@
     "created": 1770164101,
     "name": "Qwen: Qwen3 Coder Next"
   },
-  "stepfun/step-3.5-flash": {
-    "created": 1769728337,
-    "name": "StepFun: Step 3.5 Flash"
-  },
   "moonshotai/kimi-k2.5": {
     "created": 1769487076,
     "name": "MoonshotAI: Kimi K2.5"
@@ -1335,10 +1331,6 @@
     "created": 1759870431,
     "name": "Google: Nano Banana (Gemini 2.5 Flash Image)"
   },
-  "qwen/qwen3-vl-30b-a3b-thinking": {
-    "created": 1759794479,
-    "name": "Qwen: Qwen3 VL 30B A3B Thinking"
-  },
   "qwen/qwen3-vl-30b-a3b-instruct": {
     "created": 1759794476,
     "name": "Qwen: Qwen3 VL 30B A3B Instruct"
@@ -1506,10 +1498,6 @@
   "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
     "created": 1752094966,
     "name": "Venice: Uncensored"
-  },
-  "tencent/hunyuan-a13b-instruct": {
-    "created": 1751987664,
-    "name": "Tencent: Hunyuan A13B Instruct"
   },
   "morph/morph-v3-large": {
     "created": 1751910858,

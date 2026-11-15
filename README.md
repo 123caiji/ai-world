@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/15 20:26:44 · 库内 900 条 · 本轮新增 547 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/15 23:12:12 · 库内 900 条 · 本轮新增 548 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
+| 210 | [google-labs-code/stitch-skills · 今日 +248 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
 | 196 | [ChromeDevTools/chrome-devtools-mcp · 今日 +718 ⭐](https://github.com/ChromeDevTools/chrome-devtools-mcp) | GitHub 每日趋势 |
-| 196 | [meta/astryx · 今日 +1283 ⭐](https://github.com/meta/astryx) | GitHub 每日趋势 |
-| 195 | [deepseek-ai/deepseek-harness 涨 459 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 195 | [deepseek-ai/deepseek-harness 涨 471 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 195 | [Tencent/LoopForge · 今日 +484 ⭐](https://github.com/Tencent/LoopForge) | GitHub 每日趋势 |
 | 178 | [GoogleChrome/modern-web-guidance-src · 今日 +1220 ⭐](https://github.com/GoogleChrome/modern-web-guidance-src) | GitHub 每日趋势 |
-| 178 | [backnotprop/plannotator · 今日 +860 ⭐](https://github.com/backnotprop/plannotator) | GitHub 每日趋势 |
-| 178 | [tradermonty/claude-trading-skills · 今日 +707 ⭐](https://github.com/tradermonty/claude-trading-skills) | GitHub 每日趋势 |
+| 178 | [dream-num/univer · 今日 +1041 ⭐](https://github.com/dream-num/univer) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
