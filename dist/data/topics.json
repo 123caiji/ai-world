@@ -1,146 +1,146 @@
 {
-  "generatedAt": "2026-11-15T06:58:32.769Z",
+  "generatedAt": "2026-11-15T09:44:03.438Z",
   "windowHours": 72,
   "words": [
     {
-      "w": "nvidia",
-      "n": 139
-    },
-    {
       "w": "claude",
-      "n": 129
-    },
-    {
-      "w": "ceo",
-      "n": 127
+      "n": 135
     },
     {
       "w": "agent",
-      "n": 121
+      "n": 135
+    },
+    {
+      "w": "nvidia",
+      "n": 131
+    },
+    {
+      "w": "ceo",
+      "n": 111
     },
     {
       "w": "发布",
-      "n": 108
-    },
-    {
-      "w": "anthropic",
-      "n": 95
+      "n": 103
     },
     {
       "w": "huang",
-      "n": 93
+      "n": 91
     },
     {
       "w": "openai",
-      "n": 85
+      "n": 90
     },
     {
-      "w": "模型",
-      "n": 84
+      "w": "anthropic",
+      "n": 90
     },
     {
       "w": "jensen",
-      "n": 82
+      "n": 79
+    },
+    {
+      "w": "模型",
+      "n": 77
     },
     {
       "w": "data",
-      "n": 80
-    },
-    {
-      "w": "智能",
-      "n": 76
+      "n": 73
     },
     {
       "w": "agents",
+      "n": 73
+    },
+    {
+      "w": "智能",
       "n": 71
     },
     {
-      "w": "gemini",
-      "n": 69
-    },
-    {
-      "w": "model",
+      "w": "code",
       "n": 63
     },
     {
-      "w": "code",
-      "n": 59
+      "w": "gemini",
+      "n": 63
+    },
+    {
+      "w": "model",
+      "n": 60
+    },
+    {
+      "w": "pro",
+      "n": 57
     },
     {
       "w": "models",
-      "n": 58
+      "n": 56
     },
     {
       "w": "google",
       "n": 53
     },
     {
-      "w": "ipo",
+      "w": "faa",
       "n": 51
     },
     {
       "w": "china",
-      "n": 51
-    },
-    {
-      "w": "pro",
       "n": 49
-    },
-    {
-      "w": "faa",
-      "n": 49
-    },
-    {
-      "w": "芯片",
-      "n": 48
     },
     {
       "w": "llm",
+      "n": 48
+    },
+    {
+      "w": "ipo",
       "n": 46
     },
     {
       "w": "people",
-      "n": 42
+      "n": 45
+    },
+    {
+      "w": "芯片",
+      "n": 43
     },
     {
       "w": "november",
+      "n": 41
+    },
+    {
+      "w": "company",
+      "n": 40
+    },
+    {
+      "w": "api",
+      "n": 40
+    },
+    {
+      "w": "artificialintelligence",
       "n": 40
     },
     {
       "w": "tech",
-      "n": 38
-    },
-    {
-      "w": "artificialintelligence",
-      "n": 38
-    },
-    {
-      "w": "api",
-      "n": 37
-    },
-    {
-      "w": "security",
-      "n": 37
-    },
-    {
-      "w": "work",
-      "n": 37
-    },
-    {
-      "w": "company",
-      "n": 36
+      "n": 39
     },
     {
       "w": "chatgpt",
-      "n": 36
-    },
-    {
-      "w": "europesays.com",
-      "n": 36
+      "n": 38
     },
     {
       "w": "system",
-      "n": 34
+      "n": 35
+    },
+    {
+      "w": "times",
+      "n": 35
+    },
+    {
+      "w": "work",
+      "n": 35
+    },
+    {
+      "w": "security",
+      "n": 35
     },
     {
       "w": "wallet",
@@ -151,31 +151,23 @@
       "n": 33
     },
     {
-      "w": "times",
-      "n": 33
+      "w": "business",
+      "n": 32
+    },
+    {
+      "w": "europesays.com",
+      "n": 32
+    },
+    {
+      "w": "news",
+      "n": 31
     },
     {
       "w": "token",
-      "n": 32
-    },
-    {
-      "w": "europe",
-      "n": 32
-    },
-    {
-      "w": "every",
       "n": 31
     },
     {
-      "w": "time",
-      "n": 31
-    },
-    {
-      "w": "app",
-      "n": 31
-    },
-    {
-      "w": "deepseek",
+      "w": "coding",
       "n": 31
     },
     {
@@ -183,16 +175,24 @@
       "n": 30
     },
     {
-      "w": "business",
+      "w": "every",
       "n": 30
     },
     {
-      "w": "public",
+      "w": "europe",
       "n": 30
     },
     {
-      "w": "news",
-      "n": 30
+      "w": "control",
+      "n": 29
+    },
+    {
+      "w": "intelligence",
+      "n": 29
+    },
+    {
+      "w": "software",
+      "n": 28
     }
   ]
 }
