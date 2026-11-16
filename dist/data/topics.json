@@ -1,181 +1,173 @@
 {
-  "generatedAt": "2026-11-16T07:50:39.494Z",
+  "generatedAt": "2026-11-16T10:36:20.917Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 134
-    },
-    {
-      "w": "nvidia",
-      "n": 127
+      "n": 151
     },
     {
       "w": "claude",
-      "n": 122
+      "n": 135
+    },
+    {
+      "w": "nvidia",
+      "n": 125
     },
     {
       "w": "ceo",
-      "n": 115
+      "n": 113
     },
     {
       "w": "发布",
-      "n": 112
-    },
-    {
-      "w": "huang",
-      "n": 93
+      "n": 108
     },
     {
       "w": "模型",
-      "n": 87
+      "n": 91
     },
     {
-      "w": "jensen",
-      "n": 83
+      "w": "huang",
+      "n": 85
     },
     {
       "w": "智能",
       "n": 78
     },
     {
-      "w": "data",
-      "n": 73
+      "w": "jensen",
+      "n": 77
     },
     {
       "w": "anthropic",
-      "n": 71
+      "n": 73
     },
     {
       "w": "gemini",
-      "n": 69
+      "n": 72
     },
     {
       "w": "llm",
-      "n": 64
+      "n": 66
     },
     {
-      "w": "code",
-      "n": 61
+      "w": "data",
+      "n": 63
     },
     {
       "w": "apple",
       "n": 61
     },
     {
+      "w": "code",
+      "n": 58
+    },
+    {
       "w": "openai",
+      "n": 58
+    },
+    {
+      "w": "pro",
       "n": 56
     },
     {
       "w": "google",
-      "n": 54
+      "n": 55
     },
     {
       "w": "tech",
-      "n": 54
-    },
-    {
-      "w": "pro",
-      "n": 52
-    },
-    {
-      "w": "people",
-      "n": 49
+      "n": 53
     },
     {
       "w": "model",
-      "n": 49
-    },
-    {
-      "w": "芯片",
-      "n": 45
-    },
-    {
-      "w": "news",
-      "n": 44
-    },
-    {
-      "w": "china",
-      "n": 44
+      "n": 52
     },
     {
       "w": "agents",
+      "n": 48
+    },
+    {
+      "w": "芯片",
+      "n": 46
+    },
+    {
+      "w": "china",
+      "n": 46
+    },
+    {
+      "w": "news",
+      "n": 46
+    },
+    {
+      "w": "people",
       "n": 43
     },
     {
-      "w": "faa",
-      "n": 39
+      "w": "token",
+      "n": 40
     },
     {
       "w": "windows",
-      "n": 38
+      "n": 39
     },
     {
-      "w": "token",
-      "n": 38
+      "w": "api",
+      "n": 37
     },
     {
       "w": "models",
       "n": 37
     },
     {
-      "w": "coding",
+      "w": "business",
+      "n": 37
+    },
+    {
+      "w": "raised",
+      "n": 37
+    },
+    {
+      "w": "app",
       "n": 36
+    },
+    {
+      "w": "times",
+      "n": 35
     },
     {
       "w": "intelligence",
       "n": 35
     },
     {
-      "w": "business",
+      "w": "coding",
       "n": 35
     },
     {
-      "w": "api",
-      "n": 34
-    },
-    {
-      "w": "raised",
-      "n": 34
-    },
-    {
-      "w": "software",
-      "n": 34
-    },
-    {
-      "w": "times",
-      "n": 34
-    },
-    {
-      "w": "app",
-      "n": 33
-    },
-    {
       "w": "mastodon.social",
-      "n": 33
-    },
-    {
-      "w": "company",
-      "n": 33
-    },
-    {
-      "w": "work",
-      "n": 32
-    },
-    {
-      "w": "europesays.com",
-      "n": 32
-    },
-    {
-      "w": "companies",
-      "n": 31
+      "n": 34
     },
     {
       "w": "iphone",
+      "n": 33
+    },
+    {
+      "w": "companies",
+      "n": 32
+    },
+    {
+      "w": "world",
+      "n": 32
+    },
+    {
+      "w": "work",
       "n": 31
     },
     {
-      "w": "find",
+      "w": "time",
+      "n": 31
+    },
+    {
+      "w": "series",
       "n": 31
     },
     {
@@ -183,15 +175,23 @@
       "n": 31
     },
     {
-      "w": "artificialintelligence",
-      "n": 31
-    },
-    {
-      "w": "time",
+      "w": "大模型",
       "n": 30
     },
     {
-      "w": "system",
+      "w": "find",
+      "n": 30
+    },
+    {
+      "w": "europesays.com",
+      "n": 30
+    },
+    {
+      "w": "software",
+      "n": 29
+    },
+    {
+      "w": "artificialintelligence",
       "n": 29
     }
   ]
