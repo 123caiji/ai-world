@@ -1,129 +1,117 @@
 {
-  "generatedAt": "2026-11-16T10:36:20.917Z",
+  "generatedAt": "2026-11-16T13:21:56.737Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 151
-    },
-    {
-      "w": "claude",
-      "n": 135
+      "n": 164
     },
     {
       "w": "nvidia",
-      "n": 125
+      "n": 131
+    },
+    {
+      "w": "claude",
+      "n": 130
     },
     {
       "w": "ceo",
-      "n": 113
+      "n": 103
     },
     {
       "w": "发布",
-      "n": 108
+      "n": 100
     },
     {
       "w": "模型",
-      "n": 91
+      "n": 88
     },
     {
       "w": "huang",
-      "n": 85
+      "n": 83
     },
     {
       "w": "智能",
-      "n": 78
+      "n": 82
     },
     {
       "w": "jensen",
-      "n": 77
-    },
-    {
-      "w": "anthropic",
-      "n": 73
+      "n": 79
     },
     {
       "w": "gemini",
-      "n": 72
+      "n": 71
     },
     {
-      "w": "llm",
-      "n": 66
+      "w": "anthropic",
+      "n": 68
     },
     {
       "w": "data",
-      "n": 63
+      "n": 64
     },
     {
-      "w": "apple",
-      "n": 61
+      "w": "llm",
+      "n": 64
     },
     {
       "w": "code",
-      "n": 58
+      "n": 62
     },
     {
       "w": "openai",
-      "n": 58
+      "n": 62
     },
     {
-      "w": "pro",
-      "n": 56
+      "w": "apple",
+      "n": 62
     },
     {
       "w": "google",
       "n": 55
     },
     {
-      "w": "tech",
-      "n": 53
+      "w": "agents",
+      "n": 54
     },
     {
-      "w": "model",
+      "w": "pro",
+      "n": 54
+    },
+    {
+      "w": "tech",
       "n": 52
     },
     {
-      "w": "agents",
-      "n": 48
+      "w": "people",
+      "n": 52
+    },
+    {
+      "w": "model",
+      "n": 49
     },
     {
       "w": "芯片",
-      "n": 46
-    },
-    {
-      "w": "china",
-      "n": 46
+      "n": 44
     },
     {
       "w": "news",
-      "n": 46
+      "n": 43
     },
     {
-      "w": "people",
-      "n": 43
+      "w": "times",
+      "n": 40
     },
     {
       "w": "token",
       "n": 40
     },
     {
-      "w": "windows",
-      "n": 39
+      "w": "china",
+      "n": 38
     },
     {
-      "w": "api",
-      "n": 37
-    },
-    {
-      "w": "models",
-      "n": 37
-    },
-    {
-      "w": "business",
-      "n": 37
-    },
-    {
-      "w": "raised",
+      "w": "november",
       "n": 37
     },
     {
@@ -131,27 +119,39 @@
       "n": 36
     },
     {
-      "w": "times",
-      "n": 35
+      "w": "raised",
+      "n": 36
     },
     {
-      "w": "intelligence",
+      "w": "business",
+      "n": 36
+    },
+    {
+      "w": "models",
       "n": 35
     },
     {
       "w": "coding",
-      "n": 35
-    },
-    {
-      "w": "mastodon.social",
       "n": 34
     },
     {
-      "w": "iphone",
+      "w": "work",
+      "n": 34
+    },
+    {
+      "w": "api",
       "n": 33
     },
     {
-      "w": "companies",
+      "w": "intelligence",
+      "n": 33
+    },
+    {
+      "w": "windows",
+      "n": 33
+    },
+    {
+      "w": "mastodon.social",
       "n": 32
     },
     {
@@ -159,40 +159,40 @@
       "n": 32
     },
     {
-      "w": "work",
-      "n": 31
+      "w": "linux",
+      "n": 32
     },
     {
-      "w": "time",
+      "w": "find",
       "n": 31
     },
     {
       "w": "series",
-      "n": 31
-    },
-    {
-      "w": "linux",
-      "n": 31
-    },
-    {
-      "w": "大模型",
       "n": 30
     },
     {
-      "w": "find",
+      "w": "llms",
       "n": 30
     },
     {
-      "w": "europesays.com",
+      "w": "companies",
       "n": 30
     },
     {
-      "w": "software",
+      "w": "tools",
       "n": 29
     },
     {
-      "w": "artificialintelligence",
+      "w": "company",
       "n": 29
+    },
+    {
+      "w": "android",
+      "n": 29
+    },
+    {
+      "w": "million",
+      "n": 28
     }
   ]
 }
