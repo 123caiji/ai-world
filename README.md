@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/16 07:28:39 · 库内 900 条 · 本轮新增 557 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/16 10:15:03 · 库内 900 条 · 本轮新增 583 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 198 | [google-labs-code/stitch-skills · 今日 +248 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
-| 196 | [ChromeDevTools/chrome-devtools-mcp · 今日 +718 ⭐](https://github.com/ChromeDevTools/chrome-devtools-mcp) | GitHub 每日趋势 |
-| 195 | [deepseek-ai/deepseek-harness 涨 499 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 195 | [Tencent/LoopForge · 今日 +484 ⭐](https://github.com/Tencent/LoopForge) | GitHub 每日趋势 |
-| 178 | [GoogleChrome/modern-web-guidance-src · 今日 +1220 ⭐](https://github.com/GoogleChrome/modern-web-guidance-src) | GitHub 每日趋势 |
-| 178 | [dream-num/univer · 今日 +1041 ⭐](https://github.com/dream-num/univer) | GitHub 每日趋势 |
+| 203 | [ollama/ollama 涨 122 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
+| 198 | [google-labs-code/stitch-skills · 今日 +247 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
+| 195 | [deepseek-ai/deepseek-harness 涨 495 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 194 | [Tencent/LoopForge · 今日 +423 ⭐](https://github.com/Tencent/LoopForge) | GitHub 每日趋势 |
+| 178 | [GoogleChrome/modern-web-guidance-src · 今日 +1219 ⭐](https://github.com/GoogleChrome/modern-web-guidance-src) | GitHub 每日趋势 |
+| 178 | [dream-num/univer · 今日 +988 ⭐](https://github.com/dream-num/univer) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
