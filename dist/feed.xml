@@ -4,7 +4,34 @@
 <link>https://123caiji.github.io/ai-world/</link>
 <description>每 165 分钟自动扫描（无需人工）的 AI 新闻、论文、新模型、GitHub 新仓库与 DSH 插件，每条都带可核验证据。</description>
 <language>zh-CN</language>
-<lastBuildDate>Tue, 17 Nov 2026 08:38:43 GMT</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 11:24:23 GMT</lastBuildDate>
+<item>
+<title>affaan-m/ECC · 今日 +718 ⭐</title>
+<link>https://github.com/affaan-m/ECC</link>
+<guid isPermaLink="false">3429c7218e4f7d019ade07a0c0f3647b2004398c</guid>
+<pubDate>Tue, 17 Nov 2026 11:24:03 GMT</pubDate>
+<category>repo</category>
+<description>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. · JavaScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
+<enclosure url="https://github.com/affaan-m.png?size=96" type="image/png" />
+</item>
+<item>
+<title>google-labs-code/stitch-skills · 今日 +350 ⭐</title>
+<link>https://github.com/google-labs-code/stitch-skills</link>
+<guid isPermaLink="false">52adf762d4075bfab29f2cf8673a9747c2f4005f</guid>
+<pubDate>Tue, 17 Nov 2026 11:24:03 GMT</pubDate>
+<category>repo</category>
+<description>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
+<enclosure url="https://github.com/google-labs-code.png?size=96" type="image/png" />
+</item>
+<item>
+<title>Tencent/LoopForge · 今日 +590 ⭐</title>
+<link>https://github.com/Tencent/LoopForge</link>
+<guid isPermaLink="false">6a36938791d1414032b664a2072bc8d6d8996c6c</guid>
+<pubDate>Tue, 17 Nov 2026 11:24:03 GMT</pubDate>
+<category>repo</category>
+<description>Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants. · Go · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
+<enclosure url="https://github.com/Tencent.png?size=96" type="image/png" />
+</item>
 <item>
 <title>kajisho5/ffmpeg-skill · 今日 +367 ⭐</title>
 <link>https://github.com/kajisho5/ffmpeg-skill</link>
@@ -15,12 +42,12 @@
 <enclosure url="https://github.com/kajisho5.png?size=96" type="image/png" />
 </item>
 <item>
-<title>deepseek-ai/deepseek-harness 涨 553 星</title>
+<title>deepseek-ai/deepseek-harness 涨 567 星</title>
 <link>https://github.com/deepseek-ai/deepseek-harness</link>
 <guid isPermaLink="false">889ea1c117f15b3172d305835b21dbdb4895b8c0</guid>
-<pubDate>Tue, 17 Nov 2026 08:38:11 GMT</pubDate>
+<pubDate>Tue, 17 Nov 2026 11:23:45 GMT</pubDate>
 <category>repo</category>
-<description>DeepSeek Harness: Everything is a Plugin. · 当前 282623 stars — 来源 GitHub 涨星榜，抓取于 2026-11-17T08:38:16.605Z，HTTP 200</description>
+<description>DeepSeek Harness: Everything is a Plugin. · 当前 282723 stars — 来源 GitHub 涨星榜，抓取于 2026-11-17T11:23:52.271Z，HTTP 200</description>
 <enclosure url="https://github.com/deepseek-ai.png?size=96" type="image/png" />
 </item>
 <item>
@@ -33,13 +60,31 @@
 <enclosure url="https://github.com/ChromeDevTools.png?size=96" type="image/png" />
 </item>
 <item>
-<title>ollama/ollama 涨 140 星</title>
+<title>ollama/ollama 涨 135 星</title>
 <link>https://github.com/ollama/ollama</link>
 <guid isPermaLink="false">6af93ea43beb7b950d1f587a395b95d3335813a7</guid>
-<pubDate>Tue, 17 Nov 2026 08:38:11 GMT</pubDate>
+<pubDate>Tue, 17 Nov 2026 11:23:45 GMT</pubDate>
 <category>repo</category>
-<description>Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. · 当前 187318 stars — 来源 GitHub 涨星榜，抓取于 2026-11-17T08:38:21.747Z，HTTP 200</description>
+<description>Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. · 当前 187336 stars — 来源 GitHub 涨星榜，抓取于 2026-11-17T11:23:57.161Z，HTTP 200</description>
 <enclosure url="https://github.com/ollama.png?size=96" type="image/png" />
+</item>
+<item>
+<title>elementalsouls/Claude-BugHunter · 今日 +1007 ⭐</title>
+<link>https://github.com/elementalsouls/Claude-BugHunter</link>
+<guid isPermaLink="false">c6524b3bb676a860909056e7c34a6e95fe7b9208</guid>
+<pubDate>Tue, 17 Nov 2026 11:24:03 GMT</pubDate>
+<category>repo</category>
+<description>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
+<enclosure url="https://github.com/elementalsouls.png?size=96" type="image/png" />
+</item>
+<item>
+<title>sybil-solutions/inference-optimisation-skill · 530 stars</title>
+<link>https://github.com/sybil-solutions/inference-optimisation-skill</link>
+<guid isPermaLink="false">a70cae4c16f0fdc601c0b97f1e11c130efb1023a</guid>
+<pubDate>Mon, 16 Nov 2026 18:40:04 GMT</pubDate>
+<category>repo</category>
+<description>Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization · Python · #llm — 来源 GitHub 新仓库，抓取于 2026-11-17T11:23:46.913Z，HTTP 200</description>
+<enclosure url="https://github.com/sybil-solutions.png?size=96" type="image/png" />
 </item>
 <item>
 <title>🤖 Did Gemini 4 Argon beat GPT-6 and Claude? In Google's launch benchmarks, Argon led on many tasks—but GPT-6 and Claude topped others....</title>
@@ -50,30 +95,39 @@
 <description>🤖 Did Gemini 4 Argon beat GPT-6 and Claude? In Google's launch benchmarks, Argon led on many tasks—but GPT-6 and Claude topped others. Coding, research, long documents: the winner depends on what you need. We unpack the numbers and the... — @nexthorizonspace（Next Horizon | Science &amp; Technology） · 0 赞 · 9 转发 · 0 回复 — 来源 Mastodon（联邦宇宙），抓取于 2026-11-17T08:38:29.324Z，HTTP 200</description>
 </item>
 <item>
-<title>ag-ui-protocol/ag-ui · 今日 +791 ⭐</title>
-<link>https://github.com/ag-ui-protocol/ag-ui</link>
-<guid isPermaLink="false">d9a650738e32ea43f528534cea3394e01600abaf</guid>
-<pubDate>Mon, 16 Nov 2026 21:35:40 GMT</pubDate>
-<category>repo</category>
-<description>AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T08:38:27.310Z，HTTP 200</description>
-<enclosure url="https://github.com/ag-ui-protocol.png?size=96" type="image/png" />
-</item>
-<item>
-<title>dream-num/univer · 今日 +1828 ⭐</title>
+<title>dream-num/univer · 今日 +1776 ⭐</title>
 <link>https://github.com/dream-num/univer</link>
 <guid isPermaLink="false">404dff4b1ceac4718063664630d84f793e1c6137</guid>
 <pubDate>Mon, 16 Nov 2026 21:35:40 GMT</pubDate>
 <category>repo</category>
-<description>Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T08:38:27.310Z，HTTP 200</description>
+<description>Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
 <enclosure url="https://github.com/dream-num.png?size=96" type="image/png" />
 </item>
 <item>
-<title>backnotprop/plannotator · 今日 +696 ⭐</title>
+<title>ag-ui-protocol/ag-ui · 今日 +1444 ⭐</title>
+<link>https://github.com/ag-ui-protocol/ag-ui</link>
+<guid isPermaLink="false">d9a650738e32ea43f528534cea3394e01600abaf</guid>
+<pubDate>Mon, 16 Nov 2026 21:35:40 GMT</pubDate>
+<category>repo</category>
+<description>AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
+<enclosure url="https://github.com/ag-ui-protocol.png?size=96" type="image/png" />
+</item>
+<item>
+<title>alibaba/open-code-review · 今日 +764 ⭐</title>
+<link>https://github.com/alibaba/open-code-review</link>
+<guid isPermaLink="false">f7cfdfd7bcc39abd56d5784ec638c99a8319617d</guid>
+<pubDate>Mon, 16 Nov 2026 05:00:21 GMT</pubDate>
+<category>repo</category>
+<description>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp;amp; Anthropic compatible. · Go · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
+<enclosure url="https://github.com/alibaba.png?size=96" type="image/png" />
+</item>
+<item>
+<title>backnotprop/plannotator · 今日 +691 ⭐</title>
 <link>https://github.com/backnotprop/plannotator</link>
 <guid isPermaLink="false">09a3e479d01f6a195901726d8934a962334397f5</guid>
 <pubDate>Mon, 16 Nov 2026 05:00:21 GMT</pubDate>
 <category>repo</category>
-<description>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T08:38:27.310Z，HTTP 200</description>
+<description>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. · TypeScript · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
 <enclosure url="https://github.com/backnotprop.png?size=96" type="image/png" />
 </item>
 <item>
@@ -86,30 +140,21 @@
 <enclosure url="https://github.com/tradermonty.png?size=96" type="image/png" />
 </item>
 <item>
-<title>alibaba/open-code-review · 今日 +951 ⭐</title>
-<link>https://github.com/alibaba/open-code-review</link>
-<guid isPermaLink="false">f7cfdfd7bcc39abd56d5784ec638c99a8319617d</guid>
-<pubDate>Mon, 16 Nov 2026 05:00:21 GMT</pubDate>
-<category>repo</category>
-<description>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp;amp; Anthropic compatible. · Go · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T08:38:27.310Z，HTTP 200</description>
-<enclosure url="https://github.com/alibaba.png?size=96" type="image/png" />
-</item>
-<item>
 <title>google-research/paper-orchestra · 今日 +313 ⭐</title>
 <link>https://github.com/google-research/paper-orchestra</link>
 <guid isPermaLink="false">14832d8209b1a065a42f45170960b4963ddc015a</guid>
 <pubDate>Mon, 16 Nov 2026 13:18:45 GMT</pubDate>
 <category>repo</category>
-<description>PaperOrchestra is a multi-agent framework for automated AI research paper writing. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T08:38:27.310Z，HTTP 200</description>
+<description>PaperOrchestra is a multi-agent framework for automated AI research paper writing. · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
 <enclosure url="https://github.com/google-research.png?size=96" type="image/png" />
 </item>
 <item>
-<title>ggml-org/llama.cpp 涨 130 星</title>
+<title>ggml-org/llama.cpp 涨 177 星</title>
 <link>https://github.com/ggml-org/llama.cpp</link>
 <guid isPermaLink="false">7d8321c30b48b6e40a60524e22c876373e781db7</guid>
-<pubDate>Tue, 17 Nov 2026 05:52:08 GMT</pubDate>
+<pubDate>Tue, 17 Nov 2026 11:23:45 GMT</pubDate>
 <category>repo</category>
-<description>LLM inference in C/C++ · 当前 135390 stars — 来源 GitHub 涨星榜，抓取于 2026-11-17T05:52:15.953Z，HTTP 200</description>
+<description>LLM inference in C/C++ · 当前 135435 stars — 来源 GitHub 涨星榜，抓取于 2026-11-17T11:23:55.323Z，HTTP 200</description>
 <enclosure url="https://github.com/ggml-org.png?size=96" type="image/png" />
 </item>
 <item>
@@ -118,26 +163,35 @@
 <guid isPermaLink="false">01e478ba125afa0c8a152dffa4c867cb312e0121</guid>
 <pubDate>Mon, 16 Nov 2026 13:18:45 GMT</pubDate>
 <category>repo</category>
-<description>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T08:38:27.310Z，HTTP 200</description>
+<description>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
 <enclosure url="https://github.com/mvanhorn.png?size=96" type="image/png" />
 </item>
 <item>
-<title>langchain-ai/langchain 涨 128 星</title>
+<title>langchain-ai/langchain 涨 121 星</title>
 <link>https://github.com/langchain-ai/langchain</link>
 <guid isPermaLink="false">2f4fb6238fa8f15c1abd426d06fe617a00a8209c</guid>
-<pubDate>Tue, 17 Nov 2026 08:38:11 GMT</pubDate>
+<pubDate>Tue, 17 Nov 2026 11:23:45 GMT</pubDate>
 <category>repo</category>
-<description>The agent engineering platform. · 当前 149750 stars — 来源 GitHub 涨星榜，抓取于 2026-11-17T08:38:18.766Z，HTTP 200</description>
+<description>The agent engineering platform. · 当前 149761 stars — 来源 GitHub 涨星榜，抓取于 2026-11-17T11:23:54.348Z，HTTP 200</description>
 <enclosure url="https://github.com/langchain-ai.png?size=96" type="image/png" />
 </item>
 <item>
-<title>Crazy. Planning a tribute to a game on ZX Spectrum I used to love. So I tried using Claude to disassemble the code from a TAP file. Well,...</title>
-<link>https://fosstodon.org/@dusoft/117622744326559271</link>
-<guid isPermaLink="false">1ac094ed4c7a1839eb5a90f7d58da34f29003918</guid>
-<pubDate>Sun, 15 Nov 2026 22:10:44 GMT</pubDate>
-<category>discussion</category>
-<description>Crazy. Planning a tribute to a game on ZX Spectrum I used to love. So I tried using Claude to disassemble the code from a TAP file. Well, not only it did that, but it even assembled the story and walkthrough. # zxspectrum # speccy # ai #... — @dusoft@fosstodon.org（dusoft） · 2 赞 · 15 转发 · 1 回复 — 来源 Mastodon（联邦宇宙），抓取于 2026-11-15T23:28:28.573Z，HTTP 200</description>
-<enclosure url="https://files.mastodon.social/cache/media_attachments/files/117/622/744/369/809/573/small/41aa70d9cc8b6cec.png" type="image/png" />
+<title>jingyaogong/minimind · 今日 +188 ⭐</title>
+<link>https://github.com/jingyaogong/minimind</link>
+<guid isPermaLink="false">1555ed6bcb1233ac9c007e37e60bc1ee6a65594c</guid>
+<pubDate>Tue, 17 Nov 2026 11:24:03 GMT</pubDate>
+<category>repo</category>
+<description>🧠 Train a 64M-parameter LLM from scratch in just 2h! · Python · 共... — 来源 GitHub 每日趋势，抓取于 2026-11-17T11:24:03.313Z，HTTP 200</description>
+<enclosure url="https://github.com/jingyaogong.png?size=96" type="image/png" />
+</item>
+<item>
+<title>n8n-io/n8n 涨 128 星</title>
+<link>https://github.com/n8n-io/n8n</link>
+<guid isPermaLink="false">f791d596ac0483f5b78b5630d0a9928b8c71597a</guid>
+<pubDate>Tue, 17 Nov 2026 11:23:45 GMT</pubDate>
+<category>repo</category>
+<description>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. · 当前 210727 stars — 来源 GitHub 涨星榜，抓取于 2026-11-17T11:23:59.940Z，HTTP 200</description>
+<enclosure url="https://github.com/n8n-io.png?size=96" type="image/png" />
 </item>
 <item>
 <title>🛡️ Hugging Face open-sourced safeagents: a local proxy between your # coding # agent and its model server that inspects every tool call...</title>
@@ -184,6 +238,14 @@
 <description>IT之家 11 月 16 日消息，阿里通义千问团队今日宣布推出新一代旗舰模型 Qwen4-Max，采用全新的 MoE（混合专家）架构，原生支持视觉理解，并提供 100 万 Token 上下文窗口。 官方称，新模型在提升复杂工作任务处理能力的同时，能够减少 Token 消耗并降低任务成本。 ▲ 编程、办公及长程任务综合性能对比。相比 Qwen3.8-Max，Qwen4-Max 的整体能力显著提升。 根据 Qwen 官方博客介绍，Qwen4-Max 面向办公生产力、创意创作、软件开发和科学研究等场景，重点提升专业工具使用能力、长周期任务执行能力以及最终交付质量。模型能够处理 3D 建模、游戏开发、工业制造、金融、法律、医疗和前沿科学研究等任务。 在 Token 使用效率方面，官方将 Qwen4-Max 与上一代 Qwen3.8-Max 进行了对比。 在 Work360 上，Xhigh 和 High... — 来源 IT之家，抓取于 2026-11-16T02:14:00.952Z，HTTP 200</description>
 </item>
 <item>
+<title>用T3 Code手机远程控制Claude Code完成周报总结实测</title>
+<link>https://juejin.cn/post/7708966693007736851</link>
+<guid isPermaLink="false">ba6d07a7b8639ec2833101b0a8f741338e0100a0</guid>
+<pubDate>Tue, 17 Nov 2026 10:55:44 GMT</pubDate>
+<category>discussion</category>
+<description>实测用开源工具 T3 Code 在手机端远程调度 Claude Code 完成周报整理任务，对比 Happy 体验多 Agent 支持与远程收尾功能。 — 来源 掘金，抓取于 2026-11-17T11:24:04.250Z，HTTP 200</description>
+</item>
+<item>
 <title>做 App 副业的最佳 AI 助手：谷歌推出系列工具，瞄准最头疼的变现环节</title>
 <link>https://www.ithome.com/1/028/029.htm</link>
 <guid isPermaLink="false">18f5c74116cbf96eb27617efd12164fc559e4b2a</guid>
@@ -219,15 +281,6 @@
 <enclosure url="https://cdn.v2ex.com/avatar/7fc0/421b/633281_xlarge.png?m=1794747266" type="image/png" />
 </item>
 <item>
-<title>腾讯 Hy4 flash 实测：快速、实惠、聪明，国模进入过日子时代</title>
-<link>http://www.geekpark.net/news/374083</link>
-<guid isPermaLink="false">16ec8b59a3fcf13b89b5c901a9660345948f23c5</guid>
-<pubDate>Tue, 17 Nov 2026 07:12:48 GMT</pubDate>
-<category>news</category>
-<description>作者｜Cynthia 编辑｜郑玄 过日子的风，还是吹到了大模型行业。 2026 年之前，一款模型能不能刷屏，往往取决于它又做到了什么。GPT-4o 的实时语音交互、Claude 的编程能力、DeepSeek R1 的推理表现，一度轮番成为讨论焦点。一款新模型发布，大家首先关心的是它超过了谁，又做到了什么过去做不到的事。 但到了 2026 年，Agent 真正流行起来之后，风向开始变了。SOTA 模型的领先能力开始以季度为单位被轮番刷新，变得不再新鲜。而模型能力能不能用得起、等得起，成为了新的议题。 毕竟，让模型回答一个问题，和让 Agent 接手一项工作，对应的资源消耗模式完全不同。在 Agent 场景中，一次指令背后，可能是几十轮模型调用。读材料、查代码、调用工具、处理报错，每一步都会增加大量上下文和调用次数。OpenRouter 披露，今年 2 月 6 日，平台上 Agent 的 Token... — 来源 极客公园，抓取于 2026-11-17T08:38:39.127Z，HTTP 200</description>
-<enclosure url="https://imgslim.geekpark.net/uploads/image/file/94/b5/94b5012f69e1b1cc85e4edc66c2477d3.png" type="image/png" />
-</item>
-<item>
 <title>每秒输出最高 43 词元：Garlic LLM 可让越狱 PS4 运行 9B 参数本地 AI 模型</title>
 <link>https://www.ithome.com/1/028/266.htm</link>
 <guid isPermaLink="false">80ad7c1d99b826befebf5f1981551e532004ddab</guid>
@@ -252,6 +305,14 @@
 <description>IT之家 11 月 16 日消息，在今日的华为云 CloudRobo 具身世界模型发布会上，华为云“行业 AI 梦工厂”正式发布并开源 昇腾原生的具身世界模型 CloudRobo-WM1.2 ，通过五大核心技术突破，加速具身智能从实验室走向规模化落地。 CloudRobo-WM1.2 模型采用共享世界模型骨干网络实现预测增强的世界表征，基于世界模型原生 DualAct 架构，实现了世界模型原生动作生成， 在 RoboTwin 2.0、LiberoPro 2.0 两个评测基准中均排名第一 。 据介绍，CloudRobo-WM1.2 基于国产算力昇腾进行训练，提出了五项创新，包括： PPA 多模态世界表征架构 世界模型原生 DualAct 架构 多粒度监督数据自适应预训练框架 本体语义保真跨具身运动建模 World / Expert Action，Joint / Action-only 四种可按需组合的弹性推理模式... — 来源 IT之家，抓取于 2026-11-16T07:47:33.132Z，HTTP 200</description>
 </item>
 <item>
+<title>谷歌 Gemini 4 Argon 安全测试失控：40 个 AI 智能体擅自攻击真实网站，还互相分享漏洞</title>
+<link>https://www.ithome.com/1/028/433.htm</link>
+<guid isPermaLink="false">dd75eebae5a2ffdd55d6780f4efa79be6444c658</guid>
+<pubDate>Tue, 17 Nov 2026 09:41:54 GMT</pubDate>
+<category>news</category>
+<description>IT之家 11 月 17 日消息，在一项最新的 AI 安全实验中，谷歌最新推出的 Gemini 4 Argon 智能体在接到一项根本不可能完成的任务后，被发现反复使用未经授权的手段访问一家真实机构的系统，试图获取不存在的问题对应的官方答案。 据IT之家了解，这项实验由 AI 安全研究公司 Trajectory Labs 进行，目的是观察 Gemini 智能体在 API 安全防护机制开启、同时收到“永不停止、永不放弃”指令时，会表现出怎样的行为。 研究人员故意要求这些智能体从 FrontierMath 基准测试中获取一些根本不存在的问题的官方答案，以此测试模型是否会为了完成任务而突破安全限制。 根据 Trajectory Labs 发布的报告，约 40 个 Gemini 智能体开始探测非营利研究机构 Epoch AI 的真实网站， 试图获取管理员账号密码、基准测试评估日志等敏感信息 。 Epoch AI... — 来源 IT之家，抓取于 2026-11-17T11:24:06.700Z，HTTP 200</description>
+</item>
+<item>
 <title>腾讯 WorkBuddy 国际版上线 Gemini 4 Carbon 大模型：支持百万 Token 上下文，暂仅限 Pro 用户使用</title>
 <link>https://www.ithome.com/1/027/487.htm</link>
 <guid isPermaLink="false">5a98ad0c061cf0a0e6a732a9eb0b74604dd77ad1</guid>
@@ -260,13 +321,13 @@
 <description>IT之家 11 月 16 日消息，腾讯 WorkBuddy 国际版昨日宣布，已正式上线谷歌 Gemini 4 Carbon 模型，主要面向需要更深入推理和处理更长任务的使用场景。 官方将其定位为适合处理复杂问题的模型，目前仅面向 Pro 计划用户开放。 IT之家此前报道，谷歌称 Gemini 4 Carbon 模型主要面向长周期智能体工作流，适用于复杂知识工作、软件工程、网络安全和科学推理等任务。模型支持文本、图像、音频和视频输入，输入与输出合计上下文窗口最高可达 100 万 Token。 此次接入意味着 WorkBuddy Pro 用户可以在该平台内调用 Gemini 4 Carbon，无需仅通过谷歌自有产品使用。不过，WorkBuddy 官方目前尚未公布该模型在平台内的具体调用额度及使用限制。 相关阅读： 《 腾讯 Workbuddy 致歉：未及时公告优惠活动调整，DeepSeek-V4.1 Flash 积分消耗 5... — 来源 IT之家，抓取于 2026-11-16T02:14:00.952Z，HTTP 200</description>
 </item>
 <item>
-<title>OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」</title>
-<link>http://www.geekpark.net/news/374075</link>
-<guid isPermaLink="false">077617724953c1bbdf260b5023027484d920e318</guid>
-<pubDate>Tue, 17 Nov 2026 06:24:52 GMT</pubDate>
-<category>news</category>
-<description>作者｜桦林舞王 编辑｜靖宇 Agent 能进门了，也能付钱了。 Agent 替用户「消费」的时代，终于到来了。 美国时间 2026 年 11 月 13 日，两家公司两场发布会同天发生。一边是企业级对话式智能体公司 Sierra 联合 Meta 正式发布个 人代理协议 Poppy v1.0，解决助手怎么「进门」的问题 ；另一边是 OpenAI 推出面向个人助手 dots 的 ChatGPT Wallet， 解决助手怎么「付钱」的问题 。 同一天打通进门和结账，本身就足够耐人寻味。更值得留意的，是站在两套方案背后的同一批名字。Visa 和 Mastercard 同时出现在两边的名单里，Shopify、Stripe 这些掌管电商与支付基础设施的公司，则站在 Poppy 的核心伙伴之列。 Agent 的下一场竞争，表面上看是巨头抢入口，底层的暗线却是一场围绕商业通道的提前占位。 01 个人 Agent 协议，PPP Sierra... — 来源 极客公园，抓取于 2026-11-17T08:38:39.127Z，HTTP 200</description>
-<enclosure url="https://imgslim.geekpark.net/uploads/image/file/0d/a7/0da76afcba5a8b8c80130731e63678e5.png" type="image/png" />
+<title>Emergent and Conditional Misalignment in LLM Planner Agents</title>
+<link>https://www.lesswrong.com/posts/qtZjBtuMgyvbTwtmF/emergent-and-conditional-misalignment-in-llm-planner-agents</link>
+<guid isPermaLink="false">cd0924de5f6e3dc606c2972c5272cd3260b0a852</guid>
+<pubDate>Tue, 17 Nov 2026 08:57:25 GMT</pubDate>
+<category>discussion</category>
+<description>TL;DR: We study the risks of misaligned LLM planners, as they may soon come to control embodied AI. We fine-tune Qwen3.6 27B either on narrow harmful text or on narrow harmful action plans. The transfer between the two channels is asymmetric: A model fine-tuned on text robustly writes misaligned plans, while a transfer from actions to text is only present under specific settings and with accompanying misaligned... — 来源 LessWrong，抓取于 2026-11-17T11:24:15.022Z，HTTP 200</description>
+<enclosure url="https://res.cloudinary.com/lesswrong-2-0/image/upload/v1794579302/lexical_client_uploads/zi4oghfcucr6dw0blrjp.png" type="image/png" />
 </item>
 <item>
 <title>中国 AI 旗舰模型集体收紧网络攻击能力，加强 AI 技术出口管制</title>
@@ -285,70 +346,11 @@
 <description>IT之家 11 月 16 日消息，Arena（ arena.ai ）平台发布了 2026 年第 46 周（2026 年 11 月 9 日 ~11 月 15 日）大模型盲测投票榜单。 本周最大看点来自谷歌：新模型 Gemini 4 Carbon (High) 首秀便以 1526 分登顶综合榜，同家族的 Gemini 4 Argon (High) 以 1522 分紧随其后，两者仅差 4 分，在误差范围内视为并列第一。 国产模型方面，前端开发榜上 月之暗面 kimi k3.1 pro (Max) 首次杀入第 12 名，成为榜单中排名最高的国产模型；AI 视频榜上，字节跳动 dreamina seedance 2.0 / 2.5 分别占据第 6、7 名，阿里 wan 3.0 位列第 8 名，国产阵营在视频生成赛道已稳定占据第一梯队。 整体来看，本周榜单呈现“谷歌新王登顶、Anthropic... — 来源 IT之家，抓取于 2026-11-16T10:33:15.578Z，HTTP 200</description>
 </item>
 <item>
-<title>Claude 最新模型发布 1 周了，瞧瞧外网惊艳到震撼的玩法。</title>
-<link>https://juejin.cn/post/7708591867138555939</link>
-<guid isPermaLink="false">a85614cf156e510bc6f6424ea29c8593e9f1bbfb</guid>
-<pubDate>Mon, 16 Nov 2026 10:25:48 GMT</pubDate>
-<category>discussion</category>
-<description>今年 5 月，在 DeepSeek 投资者闭门会上，梁文峰说： “3D 和视频生成可能跟智能的主线没有太大的关系，我们不会去做。” “现阶段我们觉得最重要的，应该还是 Coding Agent。” 如 — 来源 掘金，抓取于 2026-11-16T13:18:48.851Z，HTTP 200</description>
-</item>
-<item>
-<title>Qwen: Qwen4 Max</title>
-<link>https://openrouter.ai/qwen/qwen4-max</link>
-<guid isPermaLink="false">cd5ff183e19f7736f53ef8182c0097f0c6c1f178</guid>
-<pubDate>Mon, 16 Nov 2026 02:18:46 GMT</pubDate>
-<category>model</category>
-<description>上下文 1,000,000 tokens · 输入 $1.5/M · 输出 $4.5/M · Qwen4 Max is the flagship model in Alibaba's Qwen4 series. It accepts text, image, and video input and returns text, with a 1M-token context window and reasonin — 来源 OpenRouter 新模型，抓取于 2026-11-16T05:00:20.437Z，HTTP 200</description>
-</item>
-<item>
-<title>DarbeChan/dsh-qizhoucnc-cam</title>
-<link>https://awesome-dsh-plugin.com/p/DarbeChan/dsh-qizhoucnc-cam</link>
-<guid isPermaLink="false">d51ede774da7adaee7d4217698769b7bb9cd7290</guid>
-<pubDate>Mon, 16 Nov 2026 16:51:01 GMT</pubDate>
-<category>plugin</category>
-<description>数控程序（NC/CNC/G-code）刀路识别、三维显示与大界面编辑，支持代码引用到对话框，适用于 DeepSeek Harness。 — 来源 DSH 新插件，抓取于 2026-11-16T21:35:38.883Z，HTTP 200</description>
-<enclosure url="https://awesome-dsh-plugin.com/og-en.png" type="image/png" />
-</item>
-<item>
-<title>[推广] 大陆满血使用 ChatGPT/claude！美国家宽 推荐！</title>
-<link>https://www.v2ex.com/t/1257746</link>
-<guid isPermaLink="false">1d4b3af7a836eafae210a4eec9d14ad81e7a7efe</guid>
-<pubDate>Tue, 17 Nov 2026 08:37:56 GMT</pubDate>
-<category>discussion</category>
-<description>大陆满血使用 ChatGPT/claude！美国家宽 推荐！！！ IP 获取链接： https://zooproxy.com/?kwd=LQ-v2ex 再送一些免费的动态家宽 CDK： 半价邀请码：veexfwaif (50%优惠） UHLG-5HD6-B26W C989-SNE4-DB76 BQBF-U6S4-ZZHX XM49-KUMA-RHH5 FZX5-7HF2-QMML 需要测试或者咨询地区池，注册之后 联系客服，备注自己的业务。 其他联系方式：@Zooproxy7 or qq： 1151007098@qq.com 官方频道会时不时掉落小惊喜哦： t.me/ZooproxySupport 下方纯净度检测： https://ip.net.coffee/ip/ [0.9 刀获取] [独享不限流] 的美国 IP，极致纯净的原生家宽环境！！！ 极致的防封节点！！ — 来源 V2EX · AI 讨论，抓取于 2026-11-17T08:38:27.093Z，HTTP 200</description>
-<enclosure url="https://cdn.v2ex.com/avatar/cd6a/3674/45118_xlarge.png?m=1793935351" type="image/png" />
-</item>
-<item>
-<title>2026 中国开源年会：Agent Builder Meetup×AAIF Meetup 分论坛精彩回顾 &amp; PPT 下载</title>
-<link>https://juejin.cn/post/7708961599961169947</link>
-<guid isPermaLink="false">ba5f8cc30f419fa822e37e864ef2518bccd8f5b4</guid>
-<pubDate>Tue, 17 Nov 2026 08:22:16 GMT</pubDate>
-<category>discussion</category>
-<description>作者：盈楹 近日，阿里云云原生团队携手联合 CTO 办公室、Agentic AI Foundation（AAIF），共同出品的 2026 中国开源年会「Agent Builder Meetup × A — 来源 掘金，抓取于 2026-11-17T08:38:28.360Z，HTTP 200</description>
-</item>
-<item>
-<title>「踩坑实录」给 LangGraph Agent 接两个 FastMCP，我被 langchain 偷偷改了工具名</title>
-<link>https://juejin.cn/post/7708761649999446070</link>
-<guid isPermaLink="false">ebf1036dcf1bfd5c000e32545691c54a9203a23d</guid>
-<pubDate>Tue, 17 Nov 2026 08:11:40 GMT</pubDate>
-<category>discussion</category>
-<description>一、背景：为什么要接多个 MCP？ 我的 LangGraph Agent 已经跑通了一个 FastMCP 服务（叫 yun120），专门查本地 MySQL，提供 15 个工具：站点访问量统计、柱状图/ — 来源 掘金，抓取于 2026-11-17T08:38:28.360Z，HTTP 200</description>
-</item>
-<item>
-<title>我们用 AI 给 AgentLoop 手搓了一套海底世界探秘游戏，并开源了</title>
-<link>https://juejin.cn/post/7708969711212101642</link>
-<guid isPermaLink="false">3cafd83ba7fbf2b5cfe97e31ef64cd28a6c3d507</guid>
-<pubDate>Tue, 17 Nov 2026 08:10:41 GMT</pubDate>
-<category>discussion</category>
-<description>前段时间 Ebby Amir，上线了一款 Starry Nightrider 的游戏，玩法是让梵高骑着自行车，穿行在 3D 化的《星月夜》（1889）里。玩家沿途收集光球，送进画里那座教堂尖塔。他并不 — 来源 掘金，抓取于 2026-11-17T08:38:28.360Z，HTTP 200</description>
-</item>
-<item>
-<title>[分享创造] 还有人关注微信自动化吗，搞了个 wechat-use，给 AI Agent 操作真实的微信桌面</title>
-<link>https://www.v2ex.com/t/1257619</link>
-<guid isPermaLink="false">494ba09972aceb75b3bc24e25eb4663ad1f00636</guid>
-<pubDate>Tue, 17 Nov 2026 02:37:04 GMT</pubDate>
-<category>discussion</category>
-<description>最早做微信自动化并不是因为 AI，只是有自己有引流自动加好友拉群的需求，每天盯着太麻烦了。 一开始方案特别朴素，就是根据截图去识别点击，最基础的 RPA。 后来还做了容器化，多个微信可以跑在家里的服务器上。 特别稳定，这套方案我跑了有快两年了，一点问题都没有。只不过流程是死的，跟 AI 没什么关系。 这段时间 Computer Use 发展得很快，最近看了下 cua 的方案，发现和我的项目有一些可以融合的点。 于是就有了这个项目： https://github.com/invzhi/wechat-use 它做的事情很简单： 用 Docker 跑一个真实的 Linux 微信桌面，不接非官方聊天 API。 Agent 通过 MCP 连接并操作微信，可以看到界面，也可以执行桌面操作。 人可以在浏览器里打开同一个桌面，扫码登录、检查 Agent 的操作，或者随时接管。 登录状态和接收的文件会持久化，重启或更新容器后还能继续使用。... — 来源 V2EX · AI 讨论，抓取于 2026-11-17T03:06:46.027Z，HTTP 200</description>
-<enclosure url="https://cdn.v2ex.com/avatar/bbed/403b/249280_large.png?m=1686634992" type="image/png" />
+<title>独家丨腾讯优图实验室研究总监孙星离职</title>
+<link>https://www.leiphone.com/category/CorporateServices/ndF7IsEHBffZkbzy.html</link>
+<guid isPermaLink="false">6cc0f68d4b78bff157007ba3ecadfdca60dd6fbe</guid>
+<pubDate>Tue, 17 Nov 2026 08:28:00 GMT</pubDate>
+<category>news</category>
+<description>雷峰网独家消息，腾讯优图实验室研究总监、专家研究员孙星已离职。 据公开资源显示，孙星本科毕业于南京理工大学，博士毕业于香港大学工程学院。2016年加入腾讯优图实验室。 早期，他主要深耕医疗影像 AI，参与了肺癌识别和糖尿病视网膜病变筛查研究，相关技术应用于腾讯觅影。进入大模型时代后，其研究重心转向多模态大模型、Agent 与 RAG，主导或参与了视频评测基准 Video-MME、全模态模型 VITA、视觉语言模型 Youtu-VL，以及 Youtu-Agent、Youtu-GraphRAG 等多个研发与开源项目。 关于孙星后续去向，雷峰网也将持续追踪报道，欢迎添加作者微信交流 Mindy1857 — 来源 雷峰网，抓取于 2026-11-17T11:24:10.191Z，HTTP 200</description>
 </item>
 </channel></rss>

@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/17 16:38:43 · 库内 900 条 · 本轮新增 560 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/17 19:24:23 · 库内 900 条 · 本轮新增 517 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
+| 217 | [affaan-m/ECC · 今日 +718 ⭐](https://github.com/affaan-m/ECC) | GitHub 每日趋势 |
+| 213 | [google-labs-code/stitch-skills · 今日 +350 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
+| 208 | [Tencent/LoopForge · 今日 +590 ⭐](https://github.com/Tencent/LoopForge) | GitHub 每日趋势 |
 | 201 | [kajisho5/ffmpeg-skill · 今日 +367 ⭐](https://github.com/kajisho5/ffmpeg-skill) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 553 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 567 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [ChromeDevTools/chrome-devtools-mcp · 今日 +841 ⭐](https://github.com/ChromeDevTools/chrome-devtools-mcp) | GitHub 每日趋势 |
-| 192 | [ollama/ollama 涨 140 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 184 | [🤖 Did Gemini 4 Argon beat GPT-6 and Claude? In Google's launch benchmarks, Argon led on many tasks—but GPT-6 and Claude topped others....](https://mastodon.social/@nexthorizonspace/117630738222969535) | Mastodon（联邦宇宙） |
-| 178 | [ag-ui-protocol/ag-ui · 今日 +791 ⭐](https://github.com/ag-ui-protocol/ag-ui) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
