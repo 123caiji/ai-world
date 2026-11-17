@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T16:55:16.805Z",
-  "total": 5959,
+  "generatedAt": "2026-11-17T19:42:00.609Z",
+  "total": 5956,
   "newCount": 0,
   "firstRun": false,
   "categories": [
@@ -14,11 +14,11 @@
     },
     {
       "name": "session",
-      "count": 461
+      "count": 462
     },
     {
       "name": "workflow",
-      "count": 390
+      "count": 389
     },
     {
       "name": "dev",
@@ -46,7 +46,7 @@
     },
     {
       "name": "remote",
-      "count": 190
+      "count": 189
     },
     {
       "name": "skill",
@@ -58,7 +58,7 @@
     },
     {
       "name": "security",
-      "count": 162
+      "count": 161
     }
   ],
   "recent": [
@@ -238,7 +238,7 @@
       "url": "https://awesome-dsh-plugin.com/p/hoyyang/dsh-project-manager/",
       "repo": "https://github.com/hoyyang/dsh-project-manager",
       "category": "workflow",
-      "description": "项目看板 + 任务日程（甘特图）+ 项目记忆：从卡片打开的会话自动带上项目最新记忆；一句话落盘不丢事实需要 python3，Windows 上不可用。",
+      "description": "项目看板 + 任务日程甘特图 + 项目记忆：从卡片开的会话自动加载落盘项目记忆，会话关联任务，过 00:00 自动记录执行。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
       "version": "0.79.0",
       "publishedAt": "2026-11-17T01:55:02.000Z"
     },
@@ -408,7 +408,7 @@
       "url": "https://awesome-dsh-plugin.com/p/TaoruiLiu19/DSH-LLSA--packages-web-collab/",
       "repo": "https://github.com/TaoruiLiu19/DSH-LLSA",
       "category": "workflow",
-      "description": "DeepSeek Harness 任务的按需网页咨询：贴入资料与初审建议，子 Agent 可就一个具体疑点问一次网页对话，核验仍由 Agent 负责。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "description": "DeepSeek Harness 任务的按需网页咨询：贴入资料与初审建议，子 Agent 可就一个具体疑点问一次网页对话，核验仍由 Agent 负责。所有 HTTP 路由现在都先过 DSH 的连接栅栏（Host/Origin 准入 + 已认证的活动 Peer）。",
       "version": "0.2.2",
       "publishedAt": "2026-11-17T00:51:23.000Z"
     },
