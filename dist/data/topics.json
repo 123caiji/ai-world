@@ -1,149 +1,165 @@
 {
-  "generatedAt": "2026-11-17T14:12:54.136Z",
+  "generatedAt": "2026-11-17T16:58:28.639Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 178
+      "n": 171
     },
     {
       "w": "openai",
-      "n": 128
+      "n": 134
     },
     {
       "w": "nvidia",
-      "n": 118
-    },
-    {
-      "w": "发布",
-      "n": 112
-    },
-    {
-      "w": "agents",
-      "n": 101
-    },
-    {
-      "w": "模型",
-      "n": 98
+      "n": 130
     },
     {
       "w": "ceo",
-      "n": 98
+      "n": 115
+    },
+    {
+      "w": "agents",
+      "n": 107
     },
     {
       "w": "models",
-      "n": 94
+      "n": 101
     },
     {
-      "w": "data",
-      "n": 87
+      "w": "发布",
+      "n": 93
     },
     {
       "w": "november",
+      "n": 89
+    },
+    {
+      "w": "模型",
+      "n": 89
+    },
+    {
+      "w": "data",
       "n": 86
     },
     {
-      "w": "智能",
-      "n": 79
+      "w": "claude",
+      "n": 82
     },
     {
-      "w": "claude",
-      "n": 75
+      "w": "huang",
+      "n": 78
     },
     {
       "w": "model",
       "n": 73
     },
     {
-      "w": "huang",
-      "n": 71
+      "w": "智能",
+      "n": 68
+    },
+    {
+      "w": "jensen",
+      "n": 62
     },
     {
       "w": "pro",
-      "n": 64
-    },
-    {
-      "w": "apple",
-      "n": 59
+      "n": 60
     },
     {
       "w": "app",
       "n": 57
     },
     {
-      "w": "jensen",
+      "w": "apple",
       "n": 54
     },
     {
       "w": "google",
-      "n": 50
+      "n": 53
     },
     {
       "w": "llm",
+      "n": 51
+    },
+    {
+      "w": "announced",
       "n": 50
     },
     {
-      "w": "deepseek",
-      "n": 48
-    },
-    {
       "w": "work",
-      "n": 48
+      "n": 50
     },
     {
-      "w": "anthropic",
-      "n": 47
+      "w": "code",
+      "n": 48
     },
     {
       "w": "research",
       "n": 46
     },
     {
-      "w": "announced",
+      "w": "anthropic",
       "n": 46
     },
     {
-      "w": "code",
-      "n": 44
-    },
-    {
-      "w": "api",
-      "n": 44
-    },
-    {
-      "w": "token",
-      "n": 44
+      "w": "tools",
+      "n": 45
     },
     {
       "w": "security",
+      "n": 45
+    },
+    {
+      "w": "intelligence",
+      "n": 44
+    },
+    {
+      "w": "platform",
+      "n": 43
+    },
+    {
+      "w": "million",
       "n": 43
     },
     {
       "w": "access",
+      "n": 42
+    },
+    {
+      "w": "api",
+      "n": 42
+    },
+    {
+      "w": "companies",
       "n": 41
+    },
+    {
+      "w": "raised",
+      "n": 41
+    },
+    {
+      "w": "software",
+      "n": 40
+    },
+    {
+      "w": "deepseek",
+      "n": 40
+    },
+    {
+      "w": "company",
+      "n": 40
+    },
+    {
+      "w": "people",
+      "n": 40
     },
     {
       "w": "control",
       "n": 40
     },
     {
-      "w": "million",
-      "n": 40
-    },
-    {
-      "w": "raised",
-      "n": 40
-    },
-    {
-      "w": "intelligence",
-      "n": 39
-    },
-    {
-      "w": "people",
-      "n": 39
-    },
-    {
-      "w": "series",
+      "w": "labs",
       "n": 38
     },
     {
@@ -151,47 +167,31 @@
       "n": 38
     },
     {
-      "w": "companies",
-      "n": 37
-    },
-    {
-      "w": "tools",
-      "n": 37
-    },
-    {
-      "w": "software",
-      "n": 37
-    },
-    {
-      "w": "platform",
+      "w": "tech",
       "n": 36
     },
     {
-      "w": "coding",
+      "w": "series",
       "n": 36
-    },
-    {
-      "w": "芯片",
-      "n": 35
-    },
-    {
-      "w": "qwen4-max",
-      "n": 35
-    },
-    {
-      "w": "cloud",
-      "n": 34
-    },
-    {
-      "w": "company",
-      "n": 34
     },
     {
       "w": "times",
+      "n": 35
+    },
+    {
+      "w": "beta",
+      "n": 35
+    },
+    {
+      "w": "training",
       "n": 34
     },
     {
-      "w": "tech",
+      "w": "chatgpt",
+      "n": 34
+    },
+    {
+      "w": "coding",
       "n": 34
     }
   ]

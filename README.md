@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/17 22:09:57 · 库内 900 条 · 本轮新增 500 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/18 00:56:42 · 库内 900 条 · 本轮新增 504 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 205 | [affaan-m/ECC · 今日 +902 ⭐](https://github.com/affaan-m/ECC) | GitHub 每日趋势 |
 | 201 | [google-labs-code/stitch-skills · 今日 +350 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
 | 201 | [kajisho5/ffmpeg-skill · 今日 +367 ⭐](https://github.com/kajisho5/ffmpeg-skill) | GitHub 每日趋势 |
-| 197 | [huggingface/transformers 涨 173 星](https://github.com/huggingface/transformers) | GitHub 涨星榜 |
-| 196 | [deepseek-ai/deepseek-harness 涨 583 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 612 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 196 | [Tencent/LoopForge · 今日 +590 ⭐](https://github.com/Tencent/LoopForge) | GitHub 每日趋势 |
+| 196 | [ChromeDevTools/chrome-devtools-mcp · 今日 +841 ⭐](https://github.com/ChromeDevTools/chrome-devtools-mcp) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
