@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-16T21:35:38.969Z",
-  "total": 5943,
-  "newCount": 308,
+  "generatedAt": "2026-11-17T00:21:11.505Z",
+  "total": 5942,
+  "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 1141
+      "count": 1140
     },
     {
       "name": "tools",
@@ -218,7 +218,7 @@
       "url": "https://awesome-dsh-plugin.com/p/cup319/dsh-mmpl/",
       "repo": "https://github.com/cup319/dsh-mmpl",
       "category": "memory",
-      "description": "记忆宫殿 MCP 插件：DuckDB 向量记忆、技能库、遗忘曲线，并为 @cup319/mmpl MCP 服务器提供本地进程监督。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "description": "记忆宫殿 MCP 插件：DuckDB 向量记忆、技能库、遗忘曲线，并为 @cup319/mmpl MCP 服务器提供本地进程监督。它的 Web 路由复用 DSH connection 的准入闸（Host/Origin + 浏览器会话），跨站网页无法调用。",
       "version": "3.17.6",
       "publishedAt": "2026-11-16T15:48:33.000Z"
     },
