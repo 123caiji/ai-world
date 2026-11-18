@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T17:48:51.708Z",
-  "total": 6112,
+  "generatedAt": "2026-11-18T20:34:26.276Z",
+  "total": 6109,
   "newCount": 0,
   "firstRun": false,
   "categories": [
@@ -10,7 +10,7 @@
     },
     {
       "name": "tools",
-      "count": 923
+      "count": 922
     },
     {
       "name": "session",
@@ -50,7 +50,7 @@
     },
     {
       "name": "skill",
-      "count": 182
+      "count": 181
     },
     {
       "name": "fun",
@@ -138,7 +138,7 @@
       "url": "https://awesome-dsh-plugin.com/p/marsken88/dsh-studio/",
       "repo": "https://github.com/marsken88/dsh-studio",
       "category": "workflow",
-      "description": "角色化的多智能体研发生命周期看板：产品/架构/研发/测试各自认领卡片，设计评审闸门拦住未评审的开发，用例按套件回归，效能按专家度量。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "description": "角色化的多智能体研发生命周期看板：产品/架构/研发/测试各自认领卡片，设计评审闸门拦住未评审的开发，用例按套件回归，效能按专家度量。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
       "version": "0.2.1",
       "publishedAt": "2026-11-18T02:17:55.000Z"
     },
@@ -158,7 +158,7 @@
       "url": "https://awesome-dsh-plugin.com/p/ifrankwang/openspec-agents/",
       "repo": "https://github.com/ifrankwang/openspec-agents",
       "category": "workflow",
-      "description": "面向 OpenSpec 变更的按阶段门禁多 Agent 编排：6 个 opx_* 工具驱动阶段状态机，开发者与审核人两个 agent preset 分工实施与审查，23 份内置 skill 定义审查基准；完整流程为 analyze、实施、工具/任务/维度质量三层审查，精简流程为实施加一次合并质量审查。",
+      "description": "OpenSpec 流程插件：提案前先澄清需求，并对提案文档做一轮复核；实施在独立 worktree 中进行，不影响主仓库，每轮以一个任务组为单位推进；实施由开发与审核两个 Agent 分工，功能有问题或质量不通过时不允许结束，问题会退回开发 Agent 修复；内置多类规范 skill 作为质量审查基准，支持 Vue…",
       "version": "1.9.0",
       "publishedAt": "2026-11-18T02:11:49.000Z"
     },
@@ -368,7 +368,7 @@
       "url": "https://awesome-dsh-plugin.com/p/STARDUSTLC666/dsh-calendar/",
       "repo": "https://github.com/STARDUSTLC666/dsh-calendar",
       "category": "tools",
-      "description": "CalDAV 日历插件：查/建/改/删/搜日程与健康自检，Google/iCloud/Nextcloud/自定义端点，RRULE 重复事件展开；设置页内置月/周/议程面板，连接可在面板内填写并先测后存，周视图支持拖拽改期（15 分钟吸附、5 秒撤销）。面板内置 4 步首次使用引导，看一次后不再出现。",
+      "description": "CalDAV 日历工作台与 7 个 calendar_* 工具（查/建/改/删/搜/找空闲时段/自检），支持 iCloud、Google、Nextcloud 与自建端点：提供月/周/议程视图、空闲时段查找与邀约文案复制、周视图拖拽改期与撤销、RRULE 重复展开、连接先测后存、ICS 导入去重冲突预览及 5…",
       "version": "0.18.3",
       "publishedAt": "2026-11-18T01:46:38.000Z"
     },
@@ -388,7 +388,7 @@
       "url": "https://awesome-dsh-plugin.com/p/STARDUSTLC666/dsh-dream/",
       "repo": "https://github.com/STARDUSTLC666/dsh-dream",
       "category": "agi",
-      "description": "DSH 智能体经验记忆与反思插件：任务后自动整理候选经验，经用户审阅采纳后在相关任务中自动召回。支持来源追溯、按项目检索、冲突处理、使用反馈和到期复核；整理与召回可分别开关，写入 AGENTS.md 需预览并手动应用。面板内置 4 步首次使用引导，看一次后不再出现。",
+      "description": "任务经验记忆工作台、9 个 dream_* 工具与 dream-protocol 技能：任务后提取带来源证据的候选经验，在待审阅队列核对范围与例外后手动采纳（支持 J/K/A/D 快捷键），在相关任务中召回已采纳经验，并支持 AGENTS.md 规则差异预览与回滚；整理与召回独立开关，内置 5 套工作台主题。",
       "version": "0.16.3",
       "publishedAt": "2026-11-18T01:46:24.000Z"
     },
@@ -408,7 +408,7 @@
       "url": "https://awesome-dsh-plugin.com/p/STARDUSTLC666/dsh-code-security/",
       "repo": "https://github.com/STARDUSTLC666/dsh-code-security",
       "category": "security",
-      "description": "确定性代码安全审查：40+ 规则、密钥熵检测、staged diff 审查、SARIF 导出、基线接受、SBOM-lite 依赖清单与健康自检。面板内置 4 步首次使用引导，看一次后不再出现。",
+      "description": "代码安全工作台与 10 个 secure_* 工具：对文件、目录或 Git 改动执行确定性规则与密钥熵检查，支持依赖清单离线或 OSV 漏洞审计、脱敏证据查看、同范围修复复查与 Markdown/SARIF 报告导出，可选接入 Betterleaks / Semgrep CE / OSV-Scanner，内置 5…",
       "version": "0.8.3",
       "publishedAt": "2026-11-18T01:46:05.000Z"
     },
@@ -418,7 +418,7 @@
       "url": "https://awesome-dsh-plugin.com/p/STARDUSTLC666/dsh-cite/",
       "repo": "https://github.com/STARDUSTLC666/dsh-cite",
       "category": "tools",
-      "description": "参考文献工具：DOI 精确查询与 Crossref 题录检索，GB/T 7714 / APA / MLA / Chicago 格式化，BibTeX 生成、有界并发 DOI 校验与健康自检。面板内置 3 步首次使用引导，看一次后不再出现。",
+      "description": "三栏引文工作台与 6 个 cite_* 工具（lookup/format/bibtex/check/batch/health）：支持 DOI/BibTeX 本地导入去重与缺项预览、Crossref 真实性核查与空字段差异补全、GB/T 7714 / APA / MLA / Chicago 排版复制、BibTeX…",
       "version": "0.10.0",
       "publishedAt": "2026-11-18T01:45:20.000Z"
     },
