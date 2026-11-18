@@ -1,4 +1,12 @@
 {
+  "google/gemini-4-neon": {
+    "created": 1795006977,
+    "name": "Google: Gemini 4 Neon"
+  },
+  "google/gemini-4-neon:batch": {
+    "created": 1795006977,
+    "name": "Google: Gemini 4 Neon (batch)"
+  },
   "openai/gpt-6.2-astra-pro": {
     "created": 1794938432,
     "name": "OpenAI: GPT-6.2 Astra Pro"
