@@ -3,17 +3,33 @@
     "created": 1794938432,
     "name": "OpenAI: GPT-6.2 Astra Pro"
   },
+  "openai/gpt-6.2-astra-pro:batch": {
+    "created": 1794938432,
+    "name": "OpenAI: GPT-6.2 Astra Pro (batch)"
+  },
   "openai/gpt-6.2-astra": {
     "created": 1794938423,
     "name": "OpenAI: GPT-6.2 Astra"
+  },
+  "openai/gpt-6.2-astra:batch": {
+    "created": 1794938423,
+    "name": "OpenAI: GPT-6.2 Astra (batch)"
   },
   "openai/gpt-6.2-sol-pro": {
     "created": 1794938409,
     "name": "OpenAI: GPT-6.2 Sol Pro"
   },
+  "openai/gpt-6.2-sol-pro:batch": {
+    "created": 1794938409,
+    "name": "OpenAI: GPT-6.2 Sol Pro (batch)"
+  },
   "openai/gpt-6.2-sol": {
     "created": 1794938371,
     "name": "OpenAI: GPT-6.2 Sol"
+  },
+  "openai/gpt-6.2-sol:batch": {
+    "created": 1794938371,
+    "name": "OpenAI: GPT-6.2 Sol (batch)"
   },
   "tencent/hy4-flash": {
     "created": 1794838706,
