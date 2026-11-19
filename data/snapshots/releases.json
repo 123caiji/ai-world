@@ -5,7 +5,7 @@
   "langchain-ai/langchain": "langchain-core==1.8.3",
   "modelcontextprotocol/servers": "v2.5.0",
   "ggml-org/llama.cpp": "v1.0.0",
-  "openai/openai-python": "v3.55.1",
+  "openai/openai-python": "v3.56.0",
   "ollama/ollama": "v0.40.16",
   "microsoft/autogen": "python-v0.7.5",
   "crewAIInc/crewAI": "1.15.44",
