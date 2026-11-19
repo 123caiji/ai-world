@@ -1,170 +1,166 @@
 {
-  "generatedAt": "2026-11-19T04:55:31.769Z",
+  "generatedAt": "2026-11-19T07:41:04.878Z",
   "windowHours": 72,
   "words": [
     {
       "w": "openai",
-      "n": 167
-    },
-    {
-      "w": "models",
-      "n": 161
+      "n": 162
     },
     {
       "w": "ceo",
-      "n": 151
-    },
-    {
-      "w": "model",
-      "n": 151
+      "n": 158
     },
     {
       "w": "agent",
-      "n": 148
+      "n": 143
     },
     {
       "w": "nvidia",
-      "n": 127
+      "n": 126
     },
     {
-      "w": "agents",
-      "n": 117
+      "w": "model",
+      "n": 125
     },
     {
-      "w": "google",
-      "n": 112
+      "w": "models",
+      "n": 124
     },
     {
       "w": "anthropic",
-      "n": 105
-    },
-    {
-      "w": "astra",
-      "n": 103
-    },
-    {
-      "w": "claude",
-      "n": 102
-    },
-    {
-      "w": "data",
-      "n": 101
+      "n": 116
     },
     {
       "w": "发布",
-      "n": 93
+      "n": 110
     },
     {
-      "w": "november",
-      "n": 90
+      "w": "google",
+      "n": 107
     },
     {
-      "w": "gpt-6.2",
-      "n": 87
+      "w": "claude",
+      "n": 104
     },
     {
-      "w": "code",
-      "n": 78
+      "w": "agents",
+      "n": 94
     },
     {
       "w": "模型",
-      "n": 78
+      "n": 88
     },
     {
       "w": "gemini",
+      "n": 86
+    },
+    {
+      "w": "data",
+      "n": 85
+    },
+    {
+      "w": "astra",
+      "n": 80
+    },
+    {
+      "w": "november",
+      "n": 80
+    },
+    {
+      "w": "code",
       "n": 76
     },
     {
-      "w": "work",
-      "n": 75
+      "w": "gpt-6.2",
+      "n": 70
     },
     {
-      "w": "microsoft",
-      "n": 68
+      "w": "work",
+      "n": 63
     },
     {
       "w": "huang",
       "n": 61
     },
     {
-      "w": "sol",
-      "n": 58
+      "w": "ipo",
+      "n": 59
+    },
+    {
+      "w": "microsoft",
+      "n": 56
     },
     {
       "w": "company",
-      "n": 54
+      "n": 56
     },
     {
-      "w": "coding",
-      "n": 52
-    },
-    {
-      "w": "amazon",
-      "n": 51
+      "w": "智能",
+      "n": 53
     },
     {
       "w": "api",
       "n": 50
     },
     {
-      "w": "human",
-      "n": 49
-    },
-    {
-      "w": "ipo",
-      "n": 49
-    },
-    {
-      "w": "security",
+      "w": "world",
       "n": 48
     },
     {
-      "w": "智能",
-      "n": 48
+      "w": "sol",
+      "n": 47
     },
     {
-      "w": "app",
-      "n": 45
+      "w": "coding",
+      "n": 46
     },
     {
       "w": "token",
-      "n": 45
+      "n": 46
     },
     {
-      "w": "world",
-      "n": 45
+      "w": "security",
+      "n": 46
     },
     {
-      "w": "announced",
-      "n": 45
+      "w": "app",
+      "n": 46
     },
     {
       "w": "llm",
-      "n": 44
+      "n": 45
+    },
+    {
+      "w": "amazon",
+      "n": 45
     },
     {
       "w": "jensen",
       "n": 43
     },
     {
-      "w": "without",
-      "n": 39
+      "w": "芯片",
+      "n": 40
     },
     {
-      "w": "language",
-      "n": 39
-    },
-    {
-      "w": "million",
-      "n": 37
+      "w": "announced",
+      "n": 40
     },
     {
       "w": "amd",
+      "n": 38
+    },
+    {
+      "w": "human",
       "n": 36
     },
     {
-      "w": "systems",
-      "n": 36
+      "w": "china",
+      "n": 35
+    },
+    {
+      "w": "neon",
+      "n": 35
     },
     {
       "w": "research",
@@ -175,24 +171,28 @@
       "n": 35
     },
     {
-      "w": "tasks",
+      "w": "software",
       "n": 35
     },
     {
-      "w": "芯片",
+      "w": "gpu",
       "n": 34
     },
     {
-      "w": "access",
-      "n": 34
+      "w": "people",
+      "n": 33
     },
     {
-      "w": "even",
-      "n": 34
+      "w": "million",
+      "n": 33
     },
     {
-      "w": "software",
-      "n": 34
+      "w": "tech",
+      "n": 32
+    },
+    {
+      "w": "other",
+      "n": 32
     }
   ]
 }
