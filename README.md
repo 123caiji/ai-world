@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/19 07:20:12 · 库内 900 条 · 本轮新增 503 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/19 10:07:05 · 库内 900 条 · 本轮新增 500 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 196 | [deepseek-ai/deepseek-harness 涨 590 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 217 | [affaan-m/ECC · 今日 +1108 ⭐](https://github.com/affaan-m/ECC) | GitHub 每日趋势 |
+| 213 | [google-labs-code/stitch-skills · 今日 +365 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
+| 196 | [deepseek-ai/deepseek-harness 涨 551 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 191 | [ollama/ollama 涨 122 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 188 | [appwrite/appwrite · 今日 +239 ⭐](https://github.com/appwrite/appwrite) | GitHub 每日趋势 |
+| 188 | [appwrite/appwrite · 今日 +232 ⭐](https://github.com/appwrite/appwrite) | GitHub 每日趋势 |
 | 186 | [huggingface/transformers 涨 194 星](https://github.com/huggingface/transformers) | GitHub 涨星榜 |
-| 178 | [mvanhorn/last30days-skill · 今日 +1062 ⭐](https://github.com/mvanhorn/last30days-skill) | GitHub 每日趋势 |
-| 178 | [google-research/paper-orchestra · 今日 +1529 ⭐](https://github.com/google-research/paper-orchestra) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
