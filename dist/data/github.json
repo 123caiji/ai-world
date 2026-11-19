@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-19T13:09:14.801Z",
+  "generatedAt": "2026-11-19T15:54:50.468Z",
   "since": "2026-11-05",
   "newRepos": [
     {
       "full": "agentes-chat/agentes-chat",
       "url": "https://github.com/agentes-chat/agentes-chat",
       "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
-      "stars": 1735,
+      "stars": 1736,
       "language": "TypeScript",
       "createdAt": "2026-11-09T00:50:28Z",
-      "pushedAt": "2026-11-19T12:58:59Z",
+      "pushedAt": "2026-11-19T15:34:53Z",
       "topics": [
         "agentic-ai",
         "ai-agents",
@@ -23,7 +23,7 @@
       "full": "sybil-solutions/inference-optimisation-skill",
       "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
       "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-      "stars": 1192,
+      "stars": 1211,
       "language": "Python",
       "createdAt": "2026-11-16T18:40:04Z",
       "pushedAt": "2026-11-16T18:40:08Z",
@@ -40,7 +40,7 @@
       "full": "Dodaios/ste80-humanizer",
       "url": "https://github.com/Dodaios/ste80-humanizer",
       "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
-      "stars": 950,
+      "stars": 960,
       "language": "Python",
       "createdAt": "2026-11-09T17:18:59Z",
       "pushedAt": "2026-11-18T13:11:10Z",
@@ -122,6 +122,40 @@
       ]
     },
     {
+      "full": "WingDataVacuum/Gemini-Config-Checker-",
+      "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+      "stars": 472,
+      "language": "Makefile",
+      "createdAt": "2026-11-15T16:47:17Z",
+      "pushedAt": "2026-11-15T16:48:21Z",
+      "topics": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker"
+      ]
+    },
+    {
+      "full": "TypeTyrantScheme/Gemini-Config-Checker-",
+      "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+      "stars": 472,
+      "language": "Makefile",
+      "createdAt": "2026-11-15T16:46:04Z",
+      "pushedAt": "2026-11-15T16:47:01Z",
+      "topics": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker"
+      ]
+    },
+    {
       "full": "Visionbeyondtrack/Gemini-Config-Checker-",
       "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
       "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
@@ -156,23 +190,6 @@
       ]
     },
     {
-      "full": "WindGatorRise37/Gemini-Config-Checker-",
-      "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
-      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
-      "stars": 472,
-      "language": "Makefile",
-      "createdAt": "2026-11-15T16:47:17Z",
-      "pushedAt": "2026-11-15T16:48:17Z",
-      "topics": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker"
-      ]
-    },
-    {
       "full": "WyrmClimberManacle/Gemini-Config-Checker-",
       "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
       "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
@@ -190,30 +207,13 @@
       ]
     },
     {
-      "full": "WingDataVacuum/Gemini-Config-Checker-",
-      "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+      "full": "WindGatorRise37/Gemini-Config-Checker-",
+      "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
       "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
       "stars": 472,
       "language": "Makefile",
       "createdAt": "2026-11-15T16:47:17Z",
-      "pushedAt": "2026-11-15T16:48:21Z",
-      "topics": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker"
-      ]
-    },
-    {
-      "full": "TypeTyrantScheme/Gemini-Config-Checker-",
-      "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
-      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
-      "stars": 472,
-      "language": "Makefile",
-      "createdAt": "2026-11-15T16:46:04Z",
-      "pushedAt": "2026-11-15T16:47:01Z",
+      "pushedAt": "2026-11-15T16:48:17Z",
       "topics": [
         "ai",
         "ai-search",
@@ -326,30 +326,13 @@
       ]
     },
     {
-      "full": "WharfBoulderColander/Gemini-Config-Checker-",
-      "url": "https://github.com/WharfBoulderColander/Gemini-Config-Checker-",
-      "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
-      "stars": 472,
-      "language": "Makefile",
-      "createdAt": "2026-11-15T16:47:12Z",
-      "pushedAt": "2026-11-15T16:48:06Z",
-      "topics": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker"
-      ]
-    },
-    {
       "full": "alexeyw/lot-map",
       "url": "https://github.com/alexeyw/lot-map",
       "description": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.",
-      "stars": 1015,
+      "stars": 1016,
       "language": "TypeScript",
       "createdAt": "2026-11-09T19:13:52Z",
-      "pushedAt": "2026-11-19T13:01:28Z",
+      "pushedAt": "2026-11-19T13:19:02Z",
       "topics": [
         "agent-observability",
         "ai-agents",
@@ -363,7 +346,7 @@
       "full": "boringmarketer/boring-marketing-skills",
       "url": "https://github.com/boringmarketer/boring-marketing-skills",
       "description": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
-      "stars": 693,
+      "stars": 698,
       "language": "Python",
       "createdAt": "2026-11-16T15:09:46Z",
       "pushedAt": "2026-11-17T22:53:58Z",
@@ -380,7 +363,7 @@
       "full": "berkantay/gpucanvas",
       "url": "https://github.com/berkantay/gpucanvas",
       "description": "Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point at them.",
-      "stars": 531,
+      "stars": 533,
       "language": "TypeScript",
       "createdAt": "2026-11-12T23:19:42Z",
       "pushedAt": "2026-11-18T13:30:07Z",
@@ -397,7 +380,7 @@
       "full": "shanselman/sandbox-mcp",
       "url": "https://github.com/shanselman/sandbox-mcp",
       "description": "Fresh, throwaway Windows machines for testing your apps: an MCP server and CLI that automate Windows Sandbox",
-      "stars": 489,
+      "stars": 490,
       "language": "JavaScript",
       "createdAt": "2026-11-06T19:02:14Z",
       "pushedAt": "2026-11-15T22:34:43Z",
@@ -414,7 +397,7 @@
       "full": "op7418/guizang-game-skill",
       "url": "https://github.com/op7418/guizang-game-skill",
       "description": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
-      "stars": 417,
+      "stars": 418,
       "language": "JavaScript",
       "createdAt": "2026-11-11T16:28:54Z",
       "pushedAt": "2026-11-11T18:22:31Z",
@@ -428,27 +411,10 @@
       ]
     },
     {
-      "full": "dhruvthakur11/youtube-ai-video-editing-system",
-      "url": "https://github.com/dhruvthakur11/youtube-ai-video-editing-system",
-      "description": "Eyeline teleprompter meets editing agents: JSON-driven animation and motion graphics workflow",
-      "stars": 397,
-      "language": "HTML",
-      "createdAt": "2026-11-06T21:33:17Z",
-      "pushedAt": "2026-11-19T08:17:04Z",
-      "topics": [
-        "ai-agents",
-        "ai-video-editing",
-        "animation",
-        "claude-design",
-        "design",
-        "motion-graphics"
-      ]
-    },
-    {
       "full": "FrigadeHQ/yogurt",
       "url": "https://github.com/FrigadeHQ/yogurt",
       "description": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
-      "stars": 2532,
+      "stars": 2556,
       "language": "TypeScript",
       "createdAt": "2026-11-10T20:01:01Z",
       "pushedAt": "2026-11-19T08:33:29Z",
@@ -465,10 +431,10 @@
       "full": "DIYgod/pinky",
       "url": "https://github.com/DIYgod/pinky",
       "description": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
-      "stars": 2515,
+      "stars": 2524,
       "language": "Go",
       "createdAt": "2026-11-06T16:53:14Z",
-      "pushedAt": "2026-11-19T12:37:44Z",
+      "pushedAt": "2026-11-19T15:50:29Z",
       "topics": [
         "ai-agent",
         "android",
@@ -482,7 +448,7 @@
       "full": "gogoymh/auto-ontology-mcp",
       "url": "https://github.com/gogoymh/auto-ontology-mcp",
       "description": "NVIDIA Auto Ontology's semantic layer and a personal knowledge base as an MCP server for Claude, ChatGPT and other MCP clients. No LLM API key needed.",
-      "stars": 507,
+      "stars": 510,
       "language": "Python",
       "createdAt": "2026-11-06T12:09:07Z",
       "pushedAt": "2026-11-18T02:49:28Z",
@@ -516,7 +482,7 @@
       "full": "Timaga/noda-local-ai-notes",
       "url": "https://github.com/Timaga/noda-local-ai-notes",
       "description": "Local-first AI note-taking app for Windows: Markdown notes, a personal knowledge base, knowledge graph, semantic search and chat with cited sources.",
-      "stars": 105,
+      "stars": 98,
       "language": "JavaScript",
       "createdAt": "2026-11-13T17:28:15Z",
       "pushedAt": "2026-11-18T18:06:19Z",
@@ -533,7 +499,7 @@
       "full": "Domush/antigravity-plugin-context-mode",
       "url": "https://github.com/Domush/antigravity-plugin-context-mode",
       "description": "Reduce context size by 90%+ *and* make your agent smarter. Antigravity Context Mode is a local-first plugin built specifically for the Google Antigravity App. It prevents terminal commands, build logs, and multi-megabyte files from flooding your conversation history, saving thousands of tokens per turn and stopping \"agent amnesia\" in its tracks.",
-      "stars": 77,
+      "stars": 79,
       "language": "JavaScript",
       "createdAt": "2026-11-14T19:48:07Z",
       "pushedAt": "2026-11-18T18:59:48Z",
@@ -550,7 +516,7 @@
       "full": "yzsind/mydb",
       "url": "https://github.com/yzsind/mydb",
       "description": "A high-performance MySQL-compatible database for HTAP and AI agents  Mixed transactional and analytical workloads, with native AI retrieval.",
-      "stars": 62,
+      "stars": 63,
       "language": "Rust",
       "createdAt": "2026-11-16T22:52:44Z",
       "pushedAt": "2026-11-18T23:49:15Z",
@@ -567,7 +533,7 @@
       "full": "punit2911/meridian-multimodal-rag",
       "url": "https://github.com/punit2911/meridian-multimodal-rag",
       "description": "Evidence-grounded multimodal RAG for industrial maintenance documentation, with hybrid retrieval, citations, conflict resolution, claim verification and abstention. Includes an optional tool-using LLM agent and deterministic offline mode.",
-      "stars": 57,
+      "stars": 60,
       "language": "Python",
       "createdAt": "2026-11-16T12:11:22Z",
       "pushedAt": "2026-11-17T15:42:26Z",
@@ -618,10 +584,10 @@
       "full": "earayu/Mingle",
       "url": "https://github.com/earayu/Mingle",
       "description": "Bring your agent companion into the chat apps you already use. Runs on your machine, no server.",
-      "stars": 50,
+      "stars": 51,
       "language": "TypeScript",
       "createdAt": "2026-11-11T07:47:51Z",
-      "pushedAt": "2026-11-19T12:56:58Z",
+      "pushedAt": "2026-11-19T15:22:35Z",
       "topics": [
         "agent",
         "ai-agent",
@@ -635,7 +601,7 @@
       "full": "YanNyeinHtet/EggLab",
       "url": "https://github.com/YanNyeinHtet/EggLab",
       "description": "Local AI image generation and editing for Windows - a design agent for PhotoCraft powered by Qwen-Image-2.1 (no ComfyUI, no Python, no cloud).",
-      "stars": 35,
+      "stars": 41,
       "language": "JavaScript",
       "createdAt": "2026-11-15T10:27:54Z",
       "pushedAt": "2026-11-18T19:34:27Z",
@@ -668,7 +634,7 @@
       "full": "Antoine-Thomas/UH-Universal-Harness",
       "url": "https://github.com/Antoine-Thomas/UH-Universal-Harness",
       "description": "uh-harness (UH) — local-first, provider-agnostic agent harness for your desktop: chat, memory graph, telemetry, backups, skills. MIT. Not affiliated with the PyPI package universal-harness.",
-      "stars": 21,
+      "stars": 22,
       "language": "Python",
       "createdAt": "2026-11-11T18:00:19Z",
       "pushedAt": "2026-11-19T10:04:08Z",
@@ -686,9 +652,9 @@
     {
       "full": "deepseek-ai/deepseek-harness",
       "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "stars": 284034,
-      "delta": 536,
-      "deltaSince": "2026-11-18T15:02:24.602Z",
+      "stars": 284108,
+      "delta": 553,
+      "deltaSince": "2026-11-18T17:48:35.007Z",
       "pushedAt": "2026-11-18T12:48:10Z",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "language": "TypeScript",
@@ -697,10 +663,10 @@
     {
       "full": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
-      "stars": 211383,
-      "delta": 482,
-      "deltaSince": "2026-11-18T15:02:24.602Z",
-      "pushedAt": "2026-11-19T13:08:31Z",
+      "stars": 211400,
+      "delta": 459,
+      "deltaSince": "2026-11-18T17:48:35.007Z",
+      "pushedAt": "2026-11-19T15:55:02Z",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "language": "TypeScript",
       "mine": false
@@ -711,175 +677,175 @@
     {
       "topic": "llm",
       "full": "affaan-m/ECC",
-      "stars": 306948,
+      "stars": 307040,
       "url": "https://github.com/affaan-m/ECC"
     },
     {
       "topic": "llm",
       "full": "NousResearch/hermes-agent",
-      "stars": 264651,
+      "stars": 264684,
       "url": "https://github.com/NousResearch/hermes-agent"
     },
     {
       "topic": "llm",
       "full": "firecrawl/firecrawl",
-      "stars": 203615,
+      "stars": 203787,
       "url": "https://github.com/firecrawl/firecrawl"
     },
     {
       "topic": "llm",
       "full": "DietrichGebert/ponytail",
-      "stars": 194571,
+      "stars": 194665,
       "url": "https://github.com/DietrichGebert/ponytail"
     },
     {
       "topic": "llm",
       "full": "Significant-Gravitas/AutoGPT",
-      "stars": 188100,
+      "stars": 188102,
       "url": "https://github.com/Significant-Gravitas/AutoGPT"
     },
     {
       "topic": "llm",
       "full": "ollama/ollama",
-      "stars": 187598,
+      "stars": 187620,
       "url": "https://github.com/ollama/ollama"
     },
     {
       "topic": "ai-agents",
       "full": "affaan-m/ECC",
-      "stars": 306948,
+      "stars": 307040,
       "url": "https://github.com/affaan-m/ECC"
     },
     {
       "topic": "ai-agents",
       "full": "deepseek-ai/deepseek-harness",
-      "stars": 284034,
+      "stars": 284108,
       "url": "https://github.com/deepseek-ai/deepseek-harness"
     },
     {
       "topic": "ai-agents",
       "full": "NousResearch/hermes-agent",
-      "stars": 264651,
+      "stars": 264684,
       "url": "https://github.com/NousResearch/hermes-agent"
     },
     {
       "topic": "ai-agents",
       "full": "firecrawl/firecrawl",
-      "stars": 203615,
+      "stars": 203788,
       "url": "https://github.com/firecrawl/firecrawl"
     },
     {
       "topic": "ai-agents",
       "full": "DietrichGebert/ponytail",
-      "stars": 194571,
+      "stars": 194665,
       "url": "https://github.com/DietrichGebert/ponytail"
     },
     {
       "topic": "ai-agents",
       "full": "Graphify-Labs/graphify",
-      "stars": 150409,
+      "stars": 150475,
       "url": "https://github.com/Graphify-Labs/graphify"
     },
     {
       "topic": "rag",
       "full": "open-webui/open-webui",
-      "stars": 159081,
+      "stars": 159086,
       "url": "https://github.com/open-webui/open-webui"
     },
     {
       "topic": "rag",
       "full": "Graphify-Labs/graphify",
-      "stars": 150409,
+      "stars": 150475,
       "url": "https://github.com/Graphify-Labs/graphify"
     },
     {
       "topic": "rag",
       "full": "langchain-ai/langchain",
-      "stars": 149888,
+      "stars": 149906,
       "url": "https://github.com/langchain-ai/langchain"
     },
     {
       "topic": "rag",
       "full": "Shubhamsaboo/awesome-llm-apps",
-      "stars": 145060,
+      "stars": 145073,
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
     {
       "topic": "rag",
       "full": "thedotmack/claude-mem",
-      "stars": 118337,
+      "stars": 118368,
       "url": "https://github.com/thedotmack/claude-mem"
     },
     {
       "topic": "rag",
       "full": "infiniflow/ragflow",
-      "stars": 94432,
+      "stars": 94436,
       "url": "https://github.com/infiniflow/ragflow"
     },
     {
       "topic": "mcp",
       "full": "morluto/rea",
-      "stars": 469276,
+      "stars": 469503,
       "url": "https://github.com/morluto/rea"
     },
     {
       "topic": "mcp",
       "full": "affaan-m/ECC",
-      "stars": 306948,
+      "stars": 307040,
       "url": "https://github.com/affaan-m/ECC"
     },
     {
       "topic": "mcp",
       "full": "n8n-io/n8n",
-      "stars": 211383,
+      "stars": 211400,
       "url": "https://github.com/n8n-io/n8n"
     },
     {
       "topic": "mcp",
       "full": "langgenius/dify",
-      "stars": 161493,
+      "stars": 161512,
       "url": "https://github.com/langgenius/dify"
     },
     {
       "topic": "mcp",
       "full": "Snailclimb/JavaGuide",
-      "stars": 159623,
+      "stars": 159624,
       "url": "https://github.com/Snailclimb/JavaGuide"
     },
     {
       "topic": "mcp",
       "full": "open-webui/open-webui",
-      "stars": 159081,
+      "stars": 159086,
       "url": "https://github.com/open-webui/open-webui"
     },
     {
       "topic": "agentic-workflow",
       "full": "langgenius/dify",
-      "stars": 161493,
+      "stars": 161512,
       "url": "https://github.com/langgenius/dify"
     },
     {
       "topic": "agentic-workflow",
       "full": "bytedance/deer-flow",
-      "stars": 85518,
+      "stars": 85525,
       "url": "https://github.com/bytedance/deer-flow"
     },
     {
       "topic": "agentic-workflow",
       "full": "ruvnet/ruflo",
-      "stars": 82078,
+      "stars": 82086,
       "url": "https://github.com/ruvnet/ruflo"
     },
     {
       "topic": "agentic-workflow",
       "full": "daytonaio/daytona",
-      "stars": 71311,
+      "stars": 71310,
       "url": "https://github.com/daytonaio/daytona"
     },
     {
       "topic": "agentic-workflow",
       "full": "shanraisshan/claude-code-best-practice",
-      "stars": 69223,
+      "stars": 69227,
       "url": "https://github.com/shanraisshan/claude-code-best-practice"
     },
     {
@@ -895,8 +861,8 @@
       "url": "https://github.com/123caiji/ai-world",
       "stars": 2,
       "delta": 0,
-      "deltaSince": "2026-11-18T15:02:24.602Z",
-      "pushedAt": "2026-11-19T10:26:51Z",
+      "deltaSince": "2026-11-18T17:48:35.007Z",
+      "pushedAt": "2026-11-19T13:12:46Z",
       "description": "AI 大世界 · 实时 AI 情报站：新闻/论文/新模型/GitHub 涨星/DSH 插件，61 个数据源每 165 分钟自动扫描（自愈链，无需人管），每条都带可核验来源",
       "language": "JavaScript",
       "mine": true
@@ -906,7 +872,7 @@
       "url": "https://github.com/123caiji/dsh-memory-toolkit",
       "stars": 5,
       "delta": 0,
-      "deltaSince": "2026-11-18T15:02:24.602Z",
+      "deltaSince": "2026-11-18T17:48:35.007Z",
       "pushedAt": "2026-10-31T11:37:40Z",
       "description": "Memory and token-optimization plugin toolkit for DeepSeek Harness: cross-session knowledge graph memory + five-layer token-saving orchestration.",
       "language": "TypeScript",
@@ -917,7 +883,7 @@
       "url": "https://github.com/123caiji/dsh-live",
       "stars": 0,
       "delta": 0,
-      "deltaSince": "2026-11-18T15:02:24.602Z",
+      "deltaSince": "2026-11-18T17:48:35.007Z",
       "pushedAt": "2026-10-29T12:10:05Z",
       "description": "Live cockpit for DeepSeek Harness: what this session is doing right now, what needs you, what it costs (host projection + right-sidebar panel).",
       "language": "JavaScript",
@@ -928,7 +894,7 @@
       "url": "https://github.com/123caiji/awesome-agent-security",
       "stars": 1,
       "delta": 0,
-      "deltaSince": "2026-11-18T15:02:24.602Z",
+      "deltaSince": "2026-11-18T17:48:35.007Z",
       "pushedAt": "2026-11-19T11:35:57Z",
       "description": "AI Agent security tooling + DeepSeek Harness plugin ecosystem, curated and auto-refreshed daily by GitHub Actions.",
       "language": "JavaScript",
@@ -939,7 +905,7 @@
       "url": "https://github.com/123caiji/AI-LLM-Agent-Learning",
       "stars": 8,
       "delta": 0,
-      "deltaSince": "2026-11-18T15:02:24.602Z",
+      "deltaSince": "2026-11-18T17:48:35.007Z",
       "pushedAt": "2026-10-29T12:11:31Z",
       "description": "中文 AI/LLM Agent 系统学习知识库:15 章从交互入口、MCP 协议、Agent 主体到构建自己的 Agent 全流程,附真实可运行的 LangGraph 实战项目。个人学习总结,欢迎斧正。",
       "language": "Python",
