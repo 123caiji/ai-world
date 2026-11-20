@@ -1,145 +1,125 @@
 {
-  "generatedAt": "2026-11-20T00:16:16.899Z",
+  "generatedAt": "2026-11-20T03:01:50.150Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 172
+      "n": 184
     },
     {
       "w": "anthropic",
-      "n": 148
+      "n": 178
     },
     {
       "w": "models",
-      "n": 131
+      "n": 167
     },
     {
       "w": "google",
-      "n": 128
-    },
-    {
-      "w": "openai",
       "n": 127
     },
     {
       "w": "model",
-      "n": 113
+      "n": 126
+    },
+    {
+      "w": "openai",
+      "n": 123
     },
     {
       "w": "gemini",
-      "n": 108
-    },
-    {
-      "w": "ceo",
       "n": 102
     },
     {
-      "w": "agents",
-      "n": 98
-    },
-    {
-      "w": "data",
-      "n": 95
-    },
-    {
-      "w": "november",
+      "w": "ceo",
       "n": 93
     },
     {
-      "w": "nvidia",
-      "n": 89
+      "w": "agents",
+      "n": 93
     },
     {
-      "w": "claude",
-      "n": 81
+      "w": "data",
+      "n": 91
+    },
+    {
+      "w": "november",
+      "n": 88
     },
     {
       "w": "发布",
-      "n": 79
-    },
-    {
-      "w": "code",
-      "n": 74
+      "n": 84
     },
     {
       "w": "ipo",
-      "n": 72
+      "n": 81
+    },
+    {
+      "w": "claude",
+      "n": 78
+    },
+    {
+      "w": "code",
+      "n": 69
+    },
+    {
+      "w": "nvidia",
+      "n": 68
+    },
+    {
+      "w": "amazon",
+      "n": 67
     },
     {
       "w": "模型",
       "n": 66
     },
     {
-      "w": "amazon",
-      "n": 65
-    },
-    {
-      "w": "company",
-      "n": 57
-    },
-    {
-      "w": "work",
-      "n": 56
-    },
-    {
-      "w": "api",
+      "w": "pro",
       "n": 55
     },
     {
-      "w": "world",
+      "w": "智能",
+      "n": 54
+    },
+    {
+      "w": "company",
       "n": 53
     },
     {
-      "w": "智能",
-      "n": 50
-    },
-    {
-      "w": "announced",
-      "n": 49
-    },
-    {
-      "w": "security",
-      "n": 47
-    },
-    {
-      "w": "million",
-      "n": 46
-    },
-    {
-      "w": "pro",
-      "n": 46
+      "w": "api",
+      "n": 52
     },
     {
       "w": "llm",
-      "n": 45
+      "n": 51
     },
     {
-      "w": "microsoft",
-      "n": 45
+      "w": "world",
+      "n": 50
     },
     {
-      "w": "systems",
-      "n": 44
+      "w": "work",
+      "n": 49
     },
     {
       "w": "meta",
-      "n": 44
+      "n": 48
+    },
+    {
+      "w": "announced",
+      "n": 45
     },
     {
       "w": "safety",
+      "n": 44
+    },
+    {
+      "w": "microsoft",
       "n": 43
     },
     {
-      "w": "aws",
-      "n": 43
-    },
-    {
-      "w": "web",
-      "n": 43
-    },
-    {
-      "w": "neon",
+      "w": "systems",
       "n": 43
     },
     {
@@ -147,12 +127,40 @@
       "n": 42
     },
     {
-      "w": "tools",
+      "w": "security",
+      "n": 42
+    },
+    {
+      "w": "million",
+      "n": 41
+    },
+    {
+      "w": "tech",
+      "n": 40
+    },
+    {
+      "w": "aws",
+      "n": 40
+    },
+    {
+      "w": "information",
+      "n": 40
+    },
+    {
+      "w": "intelligence",
       "n": 39
     },
     {
-      "w": "access",
+      "w": "neon",
       "n": 39
+    },
+    {
+      "w": "times",
+      "n": 38
+    },
+    {
+      "w": "own",
+      "n": 38
     },
     {
       "w": "gpu",
@@ -163,36 +171,28 @@
       "n": 38
     },
     {
-      "w": "tech",
+      "w": "public",
       "n": 37
     },
     {
-      "w": "app",
-      "n": 37
-    },
-    {
-      "w": "intelligence",
-      "n": 37
-    },
-    {
-      "w": "information",
-      "n": 37
-    },
-    {
-      "w": "raised",
+      "w": "web",
       "n": 37
     },
     {
       "w": "coding",
-      "n": 37
-    },
-    {
-      "w": "price",
       "n": 36
     },
     {
-      "w": "own",
-      "n": 36
+      "w": "frontier",
+      "n": 35
+    },
+    {
+      "w": "large",
+      "n": 35
+    },
+    {
+      "w": "raised",
+      "n": 35
     }
   ]
 }

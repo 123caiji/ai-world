@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/20 08:13:23 · 库内 900 条 · 本轮新增 490 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/20 10:58:55 · 库内 900 条 · 本轮新增 549 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 205 | [affaan-m/ECC · 今日 +1108 ⭐](https://github.com/affaan-m/ECC) | GitHub 每日趋势 |
 | 200 | [google-labs-code/stitch-skills · 今日 +302 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
-| 196 | [deepseek-ai/deepseek-harness 涨 529 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 196 | [deepseek-ai/deepseek-harness 涨 511 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 191 | [ollama/ollama 涨 122 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
-| 191 | [NVIDIA/SkillEvaluator · 今日 +312 ⭐](https://github.com/NVIDIA/SkillEvaluator) | GitHub 每日趋势 |
-| 189 | [Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story](https://www.youtube.com/watch?v=KGA7B_c_S4s) | YouTube · AI Explained |
+| 184 | [Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story](https://www.youtube.com/watch?v=KGA7B_c_S4s) | YouTube · AI Explained |
+| 178 | [mvanhorn/last30days-skill · 今日 +954 ⭐](https://github.com/mvanhorn/last30days-skill) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
