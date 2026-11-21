@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-11-21T03:53:58.818Z",
+  "generatedAt": "2026-11-21T06:40:01.987Z",
   "windowHours": 72,
   "words": [
     {
       "w": "anthropic",
-      "n": 200
+      "n": 198
     },
     {
       "w": "agent",
-      "n": 152
-    },
-    {
-      "w": "claude",
-      "n": 114
+      "n": 148
     },
     {
       "w": "发布",
+      "n": 114
+    },
+    {
+      "w": "claude",
       "n": 104
     },
     {
-      "w": "agents",
-      "n": 96
-    },
-    {
-      "w": "pro",
+      "w": "models",
       "n": 95
     },
     {
-      "w": "models",
-      "n": 92
+      "w": "pro",
+      "n": 94
     },
     {
       "w": "openai",
-      "n": 91
+      "n": 94
     },
     {
       "w": "google",
       "n": 88
     },
     {
-      "w": "november",
-      "n": 87
+      "w": "agents",
+      "n": 86
     },
     {
       "w": "模型",
-      "n": 78
+      "n": 81
+    },
+    {
+      "w": "november",
+      "n": 80
     },
     {
       "w": "nvidia",
@@ -52,74 +52,66 @@
     },
     {
       "w": "ipo",
-      "n": 71
-    },
-    {
-      "w": "data",
-      "n": 69
+      "n": 70
     },
     {
       "w": "model",
-      "n": 65
+      "n": 67
     },
     {
       "w": "智能",
-      "n": 63
+      "n": 64
     },
     {
       "w": "gemini",
       "n": 63
     },
     {
-      "w": "code",
-      "n": 59
+      "w": "data",
+      "n": 63
     },
     {
-      "w": "ceo",
-      "n": 55
+      "w": "code",
+      "n": 52
     },
     {
       "w": "amazon",
-      "n": 53
+      "n": 52
     },
     {
-      "w": "people",
+      "w": "api",
       "n": 50
     },
     {
-      "w": "llm",
-      "n": 48
+      "w": "ceo",
+      "n": 50
+    },
+    {
+      "w": "people",
+      "n": 49
+    },
+    {
+      "w": "news",
+      "n": 47
     },
     {
       "w": "app",
       "n": 47
     },
     {
-      "w": "news",
-      "n": 44
+      "w": "llm",
+      "n": 45
     },
     {
-      "w": "api",
-      "n": 44
+      "w": "deepseek",
+      "n": 41
+    },
+    {
+      "w": "time",
+      "n": 41
     },
     {
       "w": "public",
-      "n": 44
-    },
-    {
-      "w": "own",
-      "n": 41
-    },
-    {
-      "w": "amd",
-      "n": 41
-    },
-    {
-      "w": "tech",
-      "n": 40
-    },
-    {
-      "w": "announced",
       "n": 40
     },
     {
@@ -127,55 +119,35 @@
       "n": 39
     },
     {
-      "w": "meta",
+      "w": "own",
       "n": 38
     },
     {
-      "w": "bloomberg",
+      "w": "tech",
       "n": 38
     },
     {
-      "w": "time",
-      "n": 38
-    },
-    {
-      "w": "company",
-      "n": 38
-    },
-    {
-      "w": "apple",
-      "n": 36
-    },
-    {
-      "w": "work",
-      "n": 36
+      "w": "amd",
+      "n": 37
     },
     {
       "w": "shares",
       "n": 36
     },
     {
-      "w": "world",
+      "w": "bloomberg",
+      "n": 36
+    },
+    {
+      "w": "芯片",
       "n": 35
     },
     {
-      "w": "deepseek",
-      "n": 35
-    },
-    {
-      "w": "research",
+      "w": "web",
       "n": 34
     },
     {
-      "w": "million",
-      "n": 34
-    },
-    {
-      "w": "chinese",
-      "n": 34
-    },
-    {
-      "w": "huang",
+      "w": "information",
       "n": 34
     },
     {
@@ -183,16 +155,44 @@
       "n": 34
     },
     {
-      "w": "芯片",
+      "w": "meta",
+      "n": 34
+    },
+    {
+      "w": "chinese",
+      "n": 34
+    },
+    {
+      "w": "company",
+      "n": 34
+    },
+    {
+      "w": "huang",
+      "n": 34
+    },
+    {
+      "w": "world",
       "n": 33
     },
     {
-      "w": "muse",
+      "w": "announced",
+      "n": 33
+    },
+    {
+      "w": "research",
       "n": 32
     },
     {
-      "w": "web",
+      "w": "apple",
       "n": 32
+    },
+    {
+      "w": "million",
+      "n": 31
+    },
+    {
+      "w": "china",
+      "n": 31
     }
   ]
 }
