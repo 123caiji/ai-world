@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T09:22:28.352Z",
-  "total": 6483,
-  "newCount": 0,
+  "generatedAt": "2026-11-21T12:08:00.130Z",
+  "total": 6487,
+  "newCount": 4,
   "firstRun": false,
   "categories": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "name": "session",
-      "count": 497
+      "count": 499
     },
     {
       "name": "workflow",
@@ -30,7 +30,7 @@
     },
     {
       "name": "usage",
-      "count": 334
+      "count": 335
     },
     {
       "name": "memory",
@@ -62,6 +62,46 @@
     }
   ],
   "recent": [
+    {
+      "name": "dsh-compaction-weave",
+      "title": "NightFrost42/dsh-compaction-weave",
+      "url": "https://awesome-dsh-plugin.com/p/NightFrost42/dsh-compaction-weave/",
+      "repo": "https://github.com/NightFrost42/dsh-compaction-weave",
+      "category": "session",
+      "description": "面向 DeepSeek Harness 长对话的增量式上下文压缩插件，将较早对话整理为结构化检查点摘要，保留用户要求与任务进度，并将原始消息与附件归档到本地以供按需历史搜索与读取。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "version": "0.3.4",
+      "publishedAt": "2026-11-21T10:38:22.000Z"
+    },
+    {
+      "name": "dsh-aftermath",
+      "title": "2-qing/dsh-aftermath",
+      "url": "https://awesome-dsh-plugin.com/p/2-qing/dsh-aftermath/",
+      "repo": "https://github.com/2-qing/dsh-aftermath",
+      "category": "session",
+      "description": "记录每一轮对话在观测目录里改了什么：哪些文件被新建、删除或修改，大致是哪次工具调用干的。不读文件内容。",
+      "version": "0.7.0",
+      "publishedAt": "2026-11-21T08:46:39.000Z"
+    },
+    {
+      "name": "dsh-browserpaw",
+      "title": "GoldenLoaf24h/browserpaw#browserpaw-dsh",
+      "url": "https://awesome-dsh-plugin.com/p/GoldenLoaf24h/browserpaw--plugins-browserpaw-dsh/",
+      "repo": "https://github.com/GoldenLoaf24h/browserpaw",
+      "category": "browser",
+      "description": "Chrome 浏览器双脑自动化插件：注册 browserpaw 技能与 browserpaw_session 会话工具，直连本机 BrowserPaw 原生服务（127.0.0.1:12306 与 bridge-token），免登录丢失控制已有浏览器。",
+      "version": "5.0.0",
+      "publishedAt": "2026-11-21T07:59:25.000Z"
+    },
+    {
+      "name": "dsh-card-panel",
+      "title": "fengpei666/dsh-card-panel",
+      "url": "https://awesome-dsh-plugin.com/p/fengpei666/dsh-card-panel/",
+      "repo": "https://github.com/fengpei666/dsh-card-panel",
+      "category": "usage",
+      "description": "在 DSH 左侧栏管理中转站日卡。粘贴发货信息即可写入模型路由并保存密钥，随后按卡查看 token 用量、到期倒计时和对照官方价的费用，并一键修复上下文窗口导致的输出截断。",
+      "version": "1.0.3",
+      "publishedAt": "2026-11-21T06:25:46.000Z"
+    },
     {
       "name": "@sshirkit/dsh-orchestrator",
       "title": "SShiRkiT/dsh-orchestrator",
@@ -421,46 +461,6 @@
       "description": "文渊阁：DeepSeek Harness 的 AI Team 工作台——有 owner 的 Task、独立验收、append-only 账本与并发 Project。请装进专用 profile（dsh plugin --profile ai-team add @suifei/dsh-ai-team），不要装进 web…",
       "version": "0.4.144",
       "publishedAt": "2026-11-21T01:03:42.000Z"
-    },
-    {
-      "name": "pocketagents",
-      "title": "oscarka/pocketagents",
-      "url": "https://awesome-dsh-plugin.com/p/oscarka/pocketagents/",
-      "repo": "https://github.com/oscarka/pocketagents",
-      "category": "remote",
-      "description": "PocketAgents（原 deepseekharness-remotecontrol）：DeepSeek Harness 的开源自托管手机端 Web PWA 与飞书远程总控台（同时支持本机 Antigravity IDE、Codex、Claude Code、WorkBuddy…",
-      "version": "0.9.8",
-      "publishedAt": "2026-11-21T01:03:25.000Z"
-    },
-    {
-      "name": "dsh-qq-access",
-      "title": "Applepinea/dsh-qq-access",
-      "url": "https://awesome-dsh-plugin.com/p/Applepinea/dsh-qq-access/",
-      "repo": "https://github.com/Applepinea/dsh-qq-access",
-      "category": "identity",
-      "description": "把 dsh 接到个人 QQ：NapCat 托管与扫码登录、私聊/群聊 AI 回复（含图片理解）与批量节流、本地归档与轮询补漏、群内 @ 与撤回自己刚发的消息、QQ 空间留言，并带左侧栏管理面板。默认任何 QQ 用户私聊该账号（或在群里 @ 它）都会得到 AI 回复；把 access.privateMode /…",
-      "version": "1.5.4",
-      "publishedAt": "2026-11-21T01:01:56.000Z"
-    },
-    {
-      "name": "dsh-github-studio",
-      "title": "zhaohaix/DeepSeek-GitHub",
-      "url": "https://awesome-dsh-plugin.com/p/zhaohaix/DeepSeek-GitHub/",
-      "repo": "https://github.com/zhaohaix/DeepSeek-GitHub",
-      "category": "git",
-      "description": "在 DeepSeek Harness 内完成 GitHub 授权、仓库浏览、AI 生成项目介绍与 Release 发布，所有写操作先预览再确认。",
-      "version": "0.7.1",
-      "publishedAt": "2026-11-21T00:59:14.000Z"
-    },
-    {
-      "name": "@copylee/dsh-proxy",
-      "title": "copylee711/dsh-proxy",
-      "url": "https://awesome-dsh-plugin.com/p/copylee711/dsh-proxy/",
-      "repo": "https://github.com/copylee711/dsh-proxy",
-      "category": "tools",
-      "description": "DeepSeek Harness 网络代理设置页：配置全局 HTTP(S) 代理及免代理主机，或为单个 LLM 提供商单独指定代理或直连；保存即生效，无需重启。",
-      "version": "0.4.7",
-      "publishedAt": "2026-11-21T00:51:21.000Z"
     }
   ]
 }
