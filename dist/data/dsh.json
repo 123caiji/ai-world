@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T17:39:14.206Z",
-  "total": 6487,
+  "generatedAt": "2026-11-21T20:24:44.233Z",
+  "total": 6485,
   "newCount": 0,
   "firstRun": false,
   "categories": [
@@ -30,18 +30,18 @@
     },
     {
       "name": "usage",
-      "count": 335
+      "count": 334
     },
     {
       "name": "memory",
       "count": 278
     },
     {
-      "name": "remote",
-      "count": 208
+      "name": "theme",
+      "count": 207
     },
     {
-      "name": "theme",
+      "name": "remote",
       "count": 207
     },
     {
@@ -88,7 +88,7 @@
       "url": "https://awesome-dsh-plugin.com/p/GoldenLoaf24h/browserpaw--plugins-browserpaw-dsh/",
       "repo": "https://github.com/GoldenLoaf24h/browserpaw",
       "category": "browser",
-      "description": "Chrome 浏览器双脑自动化插件：注册 browserpaw 技能与 browserpaw_session 会话工具，直连本机 BrowserPaw 原生服务（127.0.0.1:12306 与 bridge-token），免登录丢失控制已有浏览器。",
+      "description": "通过 BrowserPaw CLI 与 Agent Skill 操控 Chrome，并在 ~/.browserpaw 中保存可自动路由的自学习站点工作流。",
       "version": "5.0.0",
       "publishedAt": "2026-11-21T07:59:25.000Z"
     },
@@ -358,7 +358,7 @@
       "url": "https://awesome-dsh-plugin.com/p/iStarryDust/everwith/",
       "repo": "https://github.com/iStarryDust/everwith",
       "category": "identity",
-      "description": "给对话角色一层持续的内在状态：40 种带半衰期的情绪、九个驱动、会随时间淡去的记忆，每轮重新渲染进系统提示词。回复能拆成几条发出，能念出声（DeepSeek TTS / 小米 MiMo），也能听人说话（本地识别），后台还会隔一阵看一眼屏幕。提供 4 个工具。它的 HTTP 路由没有 DSH…",
+      "description": "给你对话框里的人：情绪、记忆、嗓子、眼睛。40 种情绪会涨会消，两层记忆记着账号和约定，说话一条一句像发消息，能出声也能听你说话，偶尔看一眼屏幕但只记在心里。",
       "version": "1.4.6",
       "publishedAt": "2026-11-21T02:00:39.000Z"
     },
@@ -388,7 +388,7 @@
       "url": "https://awesome-dsh-plugin.com/p/sjnole/dsh-whale-dream/",
       "repo": "https://github.com/sjnole/dsh-whale-dream",
       "category": "theme",
-      "description": "鲸梦是一款 DeepSeek Harness 主题插件：用深海配色替换应用配色，在对话背后绘制字符鲸鱼背景，并在启动时播放一段跃鲸开场动画。包含浅色与深色两套皮肤，跟随应用自身的外观设置切换。",
+      "description": "鲸梦是一款 DeepSeek Harness 主题插件：用深海配色替换应用配色，在对话背后绘制字符鲸鱼背景，并在启动时播放一段跃鲸开场动画。包含浅色与深色两套皮肤，跟随应用自身的外观设置切换。Windows 与 Apple 芯片 Mac 桌面版还可以开启一个置顶的实况小窗，显示最近回复、余额与用量。",
       "version": "0.9.0",
       "publishedAt": "2026-11-21T01:49:46.000Z"
     },
@@ -448,7 +448,7 @@
       "url": "https://awesome-dsh-plugin.com/p/surfishs/dsh-prompt-enhance/",
       "repo": "https://github.com/surfishs/dsh-prompt-enhance",
       "category": "ui",
-      "description": "输入框提示词增强：把草稿补成一份完整、可直接交给模型的提示词——目标、约束、步骤、输出格式与验收标准都会补齐，改写后可回填、复制、重新生成或撤销。不改变原意，缺的细节用占位标出，不编造需求。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "description": "输入框提示词增强：把草稿补成一份完整、可直接交给模型的提示词——目标、约束、步骤、输出格式与验收标准都会补齐，改写后可回填、复制、重新生成或撤销。不改变原意，缺的细节用占位标出，不编造需求。",
       "version": "0.1.5",
       "publishedAt": "2026-11-21T01:27:51.000Z"
     },
