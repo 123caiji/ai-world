@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-11-21T23:13:26.191Z",
+  "generatedAt": "2026-11-22T01:59:13.373Z",
   "windowHours": 72,
   "words": [
     {
       "w": "anthropic",
-      "n": 169
-    },
-    {
-      "w": "agent",
-      "n": 135
+      "n": 168
     },
     {
       "w": "claude",
-      "n": 125
+      "n": 131
+    },
+    {
+      "w": "agent",
+      "n": 129
     },
     {
       "w": "发布",
-      "n": 118
-    },
-    {
-      "w": "openai",
-      "n": 94
-    },
-    {
-      "w": "模型",
-      "n": 91
+      "n": 121
     },
     {
       "w": "pro",
-      "n": 89
+      "n": 97
     },
     {
-      "w": "智能",
-      "n": 73
+      "w": "模型",
+      "n": 94
     },
     {
-      "w": "gemini",
-      "n": 69
-    },
-    {
-      "w": "nvidia",
-      "n": 69
+      "w": "openai",
+      "n": 92
     },
     {
       "w": "google",
-      "n": 68
+      "n": 80
     },
     {
-      "w": "agents",
-      "n": 65
+      "w": "智能",
+      "n": 78
     },
     {
-      "w": "november",
-      "n": 60
+      "w": "gemini",
+      "n": 70
+    },
+    {
+      "w": "nvidia",
+      "n": 63
     },
     {
       "w": "models",
-      "n": 56
+      "n": 58
     },
     {
-      "w": "code",
+      "w": "agents",
+      "n": 58
+    },
+    {
+      "w": "november",
+      "n": 57
+    },
+    {
+      "w": "app",
       "n": 54
     },
     {
@@ -67,71 +67,67 @@
       "n": 51
     },
     {
-      "w": "model",
+      "w": "chatgpt",
       "n": 50
     },
     {
-      "w": "app",
+      "w": "code",
+      "n": 50
+    },
+    {
+      "w": "news",
       "n": 48
     },
     {
-      "w": "chatgpt",
+      "w": "ceo",
       "n": 48
     },
     {
-      "w": "data",
+      "w": "model",
       "n": 48
     },
     {
       "w": "ipo",
-      "n": 48
-    },
-    {
-      "w": "people",
-      "n": 47
-    },
-    {
-      "w": "deepseek",
-      "n": 47
-    },
-    {
-      "w": "news",
       "n": 46
     },
     {
-      "w": "ceo",
-      "n": 45
-    },
-    {
-      "w": "apple",
-      "n": 44
-    },
-    {
-      "w": "tech",
-      "n": 43
+      "w": "deepseek",
+      "n": 46
     },
     {
       "w": "riemann",
-      "n": 40
+      "n": 45
     },
     {
-      "w": "api",
-      "n": 39
+      "w": "tech",
+      "n": 45
+    },
+    {
+      "w": "people",
+      "n": 45
+    },
+    {
+      "w": "data",
+      "n": 44
+    },
+    {
+      "w": "hypothesis",
+      "n": 41
+    },
+    {
+      "w": "signal",
+      "n": 41
+    },
+    {
+      "w": "芯片",
+      "n": 40
     },
     {
       "w": "china",
       "n": 38
     },
     {
-      "w": "times",
-      "n": 38
-    },
-    {
-      "w": "intelligence",
-      "n": 38
-    },
-    {
-      "w": "芯片",
+      "w": "api",
       "n": 38
     },
     {
@@ -139,11 +135,11 @@
       "n": 37
     },
     {
-      "w": "own",
-      "n": 36
+      "w": "apple",
+      "n": 37
     },
     {
-      "w": "hypothesis",
+      "w": "times",
       "n": 36
     },
     {
@@ -151,31 +147,11 @@
       "n": 35
     },
     {
-      "w": "signal",
+      "w": "intelligence",
       "n": 34
     },
     {
-      "w": "shares",
-      "n": 34
-    },
-    {
-      "w": "work",
-      "n": 33
-    },
-    {
-      "w": "companies",
-      "n": 33
-    },
-    {
-      "w": "think",
-      "n": 32
-    },
-    {
-      "w": "artificial",
-      "n": 32
-    },
-    {
-      "w": "amazon",
+      "w": "alp",
       "n": 32
     },
     {
@@ -183,16 +159,40 @@
       "n": 32
     },
     {
-      "w": "bloomberg",
+      "w": "osta",
       "n": 32
     },
     {
-      "w": "ios",
+      "w": "think",
+      "n": 32
+    },
+    {
+      "w": "work",
+      "n": 32
+    },
+    {
+      "w": "token",
       "n": 31
     },
     {
-      "w": "million",
+      "w": "research",
       "n": 31
+    },
+    {
+      "w": "companies",
+      "n": 31
+    },
+    {
+      "w": "meta",
+      "n": 30
+    },
+    {
+      "w": "artificial",
+      "n": 30
+    },
+    {
+      "w": "million",
+      "n": 29
     }
   ]
 }
