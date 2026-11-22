@@ -40,12 +40,12 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/22 15:28:15 · 库内 900 条 · 本轮新增 545 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/22 18:13:49 · 库内 900 条 · 本轮新增 566 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 200 | [google-labs-code/stitch-skills · 今日 +326 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
-| 193 | [deepseek-ai/deepseek-harness 涨 371 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 193 | [deepseek-ai/deepseek-harness 涨 400 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 191 | [ollama/ollama 涨 129 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
 | 187 | [openvinotoolkit/openvino · 今日 +200 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
 | 180 | [Signal enhances screen security to block AI assistants like Siri AI and Gemini 🤖 Adds more screenshot protections to prevent AI agents...](https://mastodon.social/@aboutsignal/117649667873517316) | Mastodon（联邦宇宙） |
