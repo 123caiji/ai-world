@@ -1,8 +1,243 @@
 {
-  "generatedAt": "2026-11-22T15:44:55.897Z",
+  "generatedAt": "2026-11-22T18:31:19.924Z",
   "count": 900,
-  "freshCount": 567,
+  "freshCount": 549,
   "items": [
+    {
+      "id": "889ea1c117f15b3172d305835b21dbdb4895b8c0",
+      "kind": "repo",
+      "source": "github",
+      "sourceLabel": "GitHub 涨星榜",
+      "title": "deepseek-ai/deepseek-harness 涨 441 星",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "summary": "DeepSeek Harness: Everything is a Plugin. · 当前 285487 stars",
+      "lang": "zh",
+      "publishedAt": "2026-11-22T18:29:57.901Z",
+      "firstSeenAt": "2026-10-29T21:00:09.948Z",
+      "score": 441,
+      "scoreLabel": "涨 441 星 / 20h",
+      "tags": [
+        "开源",
+        "涨星",
+        "模型",
+        "智能体"
+      ],
+      "evidence": {
+        "url": "https://api.github.com/repos/deepseek-ai/deepseek-harness",
+        "fetchedAt": "2026-11-22T18:30:02.943Z",
+        "httpStatus": 200,
+        "pointer": "stargazers_count=285487 · 对比 2026-11-21T20:24:31.099Z"
+      },
+      "image": "https://github.com/deepseek-ai.png?size=96",
+      "imageSource": "GitHub 仓库头像",
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 205,
+      "heat": 194
+    },
+    {
+      "id": "7d8321c30b48b6e40a60524e22c876373e781db7",
+      "kind": "repo",
+      "source": "github",
+      "sourceLabel": "GitHub 涨星榜",
+      "title": "ggml-org/llama.cpp 涨 140 星",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "summary": "LLM inference in C/C++ · 当前 136098 stars",
+      "lang": "zh",
+      "publishedAt": "2026-11-22T18:29:57.901Z",
+      "firstSeenAt": "2026-11-20T00:13:01.443Z",
+      "score": 140,
+      "scoreLabel": "涨 140 星 / 20h",
+      "tags": [
+        "开源",
+        "涨星",
+        "模型",
+        "推理"
+      ],
+      "evidence": {
+        "url": "https://api.github.com/repos/ggml-org/llama.cpp",
+        "fetchedAt": "2026-11-22T18:30:05.521Z",
+        "httpStatus": 200,
+        "pointer": "stargazers_count=136098 · 对比 2026-11-21T20:24:31.099Z"
+      },
+      "image": "https://github.com/ggml-org.png?size=96",
+      "imageSource": "GitHub 仓库头像",
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 9,
+      "heat": 165
+    },
+    {
+      "id": "f791d596ac0483f5b78b5630d0a9928b8c71597a",
+      "kind": "repo",
+      "source": "github",
+      "sourceLabel": "GitHub 涨星榜",
+      "title": "n8n-io/n8n 涨 187 星",
+      "url": "https://github.com/n8n-io/n8n",
+      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. · 当前 211814 stars",
+      "lang": "zh",
+      "publishedAt": "2026-11-22T18:29:57.901Z",
+      "firstSeenAt": "2026-11-19T02:05:27.970Z",
+      "score": 187,
+      "scoreLabel": "涨 187 星 / 20h",
+      "tags": [
+        "开源",
+        "涨星",
+        "智能体"
+      ],
+      "evidence": {
+        "url": "https://api.github.com/repos/n8n-io/n8n",
+        "fetchedAt": "2026-11-22T18:30:10.179Z",
+        "httpStatus": 200,
+        "pointer": "stargazers_count=211814 · 对比 2026-11-21T20:24:31.099Z"
+      },
+      "image": "https://github.com/n8n-io.png?size=96",
+      "imageSource": "GitHub 仓库头像",
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 17,
+      "heat": 150
+    },
+    {
+      "id": "fcd127e1b629d8f7c1edc624e36aa6f8b1c8bc10",
+      "kind": "news",
+      "source": "techmeme",
+      "sourceLabel": "Techmeme",
+      "title": "OpenAI shares its models' perplexity, or how well they predict data, and proposes pacing limits on such metrics, citing a possible 2027 \"avalanche\" of advances (Jakub Pachocki/OpenAI)",
+      "url": "https://www.techmeme.com/261122/p9",
+      "summary": "Jakub Pachocki / OpenAI : OpenAI shares its models' perplexity, or how well they predict data, and proposes pacing limits on such metrics, citing a possible 2027 \"avalanche\" of advances - - Difficulty of comparison across labs. ... - Detachment from actionable evaluations. ... - Not accounting for advances outside of pretraining.",
+      "lang": "en",
+      "publishedAt": "2026-11-22T18:25:01.000Z",
+      "firstSeenAt": "2026-11-22T18:30:28.543Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "英文",
+        "模型"
+      ],
+      "evidence": {
+        "url": "https://www.techmeme.com/feed.xml",
+        "fetchedAt": "2026-11-22T18:30:28.542Z",
+        "httpStatus": 200,
+        "pointer": "feed item: OpenAI shares its models' perplexity, or how well they predict data, and..."
+      },
+      "image": "https://www.techmeme.com/261122/i9.jpg",
+      "imageSource": "RSS 原文配图",
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 1,
+      "heat": 112
+    },
+    {
+      "id": "8a4b71cb2a632c06cc0b1fda8df7a46f35402f7a",
+      "kind": "news",
+      "source": "unite-ai",
+      "sourceLabel": "Unite.AI",
+      "title": "Musk Allocates AI5 to Optimus, Leaving Tesla Cars on AI4",
+      "url": "https://www.unite.ai/musk-allocates-ai5-to-optimus-leaving-tesla-cars-on-ai4",
+      "summary": "Elon Musk said in an X reply on November 22, 2026, that Tesla’s AI5 computer is intended for Optimus, cars will continue using AI4, and AI4 is sufficient for superhuman driving. He was responding to an owner who asked when AI5 would reach new cars and whether to wait before upgrading from AI3. The reply followed an earlier technical post in the same discussion, where Musk explained how Tesla’s Reality View...",
+      "lang": "en",
+      "publishedAt": "2026-11-22T18:23:03.000Z",
+      "firstSeenAt": "2026-11-22T18:30:29.228Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "英文",
+        "媒体"
+      ],
+      "evidence": {
+        "url": "https://www.unite.ai/feed/",
+        "fetchedAt": "2026-11-22T18:30:29.227Z",
+        "httpStatus": 200,
+        "pointer": "feed item: Musk Allocates AI5 to Optimus, Leaving Tesla Cars on AI4"
+      },
+      "image": "https://www.unite.ai/wp-content/uploads/2026/11/musk-allocates-ai5-to-optimus-leaving-tesla-cars-on-ai4.jpg",
+      "imageSource": "RSS 原文配图",
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 1,
+      "heat": 112
+    },
+    {
+      "id": "bed82431ae1f061b2531719f2dd108d5e085f0de",
+      "kind": "news",
+      "source": "techcrunch-ai",
+      "sourceLabel": "TechCrunch AI",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash",
+      "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "lang": "en",
+      "publishedAt": "2026-11-22T18:08:43.000Z",
+      "firstSeenAt": "2026-11-22T18:30:26.254Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "英文"
+      ],
+      "evidence": {
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "fetchedAt": "2026-11-22T18:30:26.253Z",
+        "httpStatus": 200,
+        "pointer": "feed item: Why data centers are at the center of the Big Tech backlash"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 1,
+      "heat": 111,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+      "imageSource": "原文 OG 封面"
+    },
+    {
+      "id": "55bb123c61f2b449e05ddc011bb4bde206bb9abc",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "I know that most of you don't care but the claim that # Claude (an # LLM # AI ) solved the # RiemannHypothesis is really a wild...",
+      "url": "https://lgbtqia.space/@AeonCypher/117661407394562138",
+      "summary": "I know that most of you don't care but the claim that # Claude (an # LLM # AI ) solved the # RiemannHypothesis is really a wild exaggeration on multiple levels, and people keep posting about how it means we already have # ASI . Zzzzz.... — @AeonCypher@lgbtqia.space（➴➴➴Æ🜔Ɲ.Ƈꭚ⍴𝔥єɼ👩🏻‍💻） · 0 赞 · 1 转发 · 1 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T18:03:16.000Z",
+      "firstSeenAt": "2026-11-22T18:30:17.918Z",
+      "score": 2,
+      "scoreLabel": "0 赞 · 1 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "模型"
+      ],
+      "evidence": {
+        "url": "https://mastodon.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:17.917Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661407507303764"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 140
+    },
+    {
+      "id": "9133f4318c953ae9b7faa09d9ae45c7dbfe6be5b",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "# Signal Is Blocking # AI Agents From Reading Your Screen https:// securityaffairs.com/203742/ai/...",
+      "url": "https://infosec.exchange/@securityaffairs/117661402579260910",
+      "summary": "# Signal Is Blocking # AI Agents From Reading Your Screen https:// securityaffairs.com/203742/ai/ signal-is-blocking-ai-agents-from-reading-your-screen.html # securityaffairs # hacking # privacy — @securityaffairs@infosec.exchange（securityaffairs） · 0 赞 · 3 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T18:02:02.000Z",
+      "firstSeenAt": "2026-11-22T18:30:22.383Z",
+      "score": 6,
+      "scoreLabel": "0 赞 · 3 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "智能体",
+        "安全"
+      ],
+      "evidence": {
+        "url": "https://hachyderm.io/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:22.382Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661402789569624"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 148
+    },
     {
       "id": "a7100360a9ca9d21428b1243e55972831459811a",
       "kind": "discussion",
@@ -22,15 +257,72 @@
       ],
       "evidence": {
         "url": "https://www.infoq.cn/feed",
-        "fetchedAt": "2026-11-22T15:44:40.260Z",
+        "fetchedAt": "2026-11-22T18:30:16.063Z",
         "httpStatus": 200,
         "pointer": "infoq-cn RSS item: 财务团队的 AI 蓝图"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 100,
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 99,
       "image": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg",
       "imageSource": "原文 OG 封面"
+    },
+    {
+      "id": "ceb116447cbb3c574a1c2e5a7be8846cb1c4f9cb",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "Back in the days, # Win98 had 'dynamic wallpapers'. I want that right now with the # AI stock market... https:// finviz.com/map",
+      "url": "https://mastodon.social/@dec_hl/117661337768441095",
+      "summary": "Back in the days, # Win98 had 'dynamic wallpapers'. I want that right now with the # AI stock market... https:// finviz.com/map — @dec_hl@mastodon.social（SuperIlu） · 0 赞 · 1 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:45:33.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 2,
+      "scoreLabel": "0 赞 · 1 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "论文"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661338104473783"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 121
+    },
+    {
+      "id": "9434f78c9a209e86a2b845d6ab52bc27a7085c7e",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "Give # Google full access to all your personal files. What could possibly go wrong? https:// archive.is/NrWu1 # ai # gemini # privacy #...",
+      "url": "https://isdream.ing/@mookie/117661333923064211",
+      "summary": "Give # Google full access to all your personal files. What could possibly go wrong? https:// archive.is/NrWu1 # ai # gemini # privacy # mac # macos # apple — @mookie@isdream.ing（steve mookie kong） · 0 赞 · 1 转发 · 1 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:44:35.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 2,
+      "scoreLabel": "0 赞 · 1 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "模型",
+        "产品"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661333985210848"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 139
     },
     {
       "id": "6236a45056a2c59ac66a2437df619128dcf673b3",
@@ -51,14 +343,494 @@
       ],
       "evidence": {
         "url": "https://www.infoq.cn/feed",
-        "fetchedAt": "2026-11-22T15:44:40.260Z",
+        "fetchedAt": "2026-11-22T18:30:16.063Z",
         "httpStatus": 200,
         "pointer": "infoq-cn RSS item: 打造 AI 优先的销售与营销运营体系"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 100,
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 99,
       "image": "https://static001.geekbang.org/static/infoq/img/infoq_icon.jpg",
+      "imageSource": "原文 OG 封面"
+    },
+    {
+      "id": "4668cfdbd9a7c77d4cdd6474d7d6c4b3ca1cd32d",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "Delta flights grounded. Who wants to bet it’s # AI related? https://www. cnn.com/2026/11/22/us/delta-ai rlines-ground-delay # delta #...",
+      "url": "https://isdream.ing/@mookie/117661308867087120",
+      "summary": "Delta flights grounded. Who wants to bet it’s # AI related? https://www. cnn.com/2026/11/22/us/delta-ai rlines-ground-delay # delta # airlines — @mookie@isdream.ing（steve mookie kong） · 0 赞 · 0 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:38:12.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 0,
+      "scoreLabel": "0 赞 · 0 转发",
+      "tags": [
+        "社交",
+        "社区"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661308931410166"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 110
+    },
+    {
+      "id": "f64983f85cb900deaec655076e1eb6a6f2fc2c28",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "📣 ACCU York's next meetup 📣 Wed Dec 2, 2026 @ 6:30 PM 🗣️ @ glloyd \"What does it mean to be a programmer?\" An open session: what's hype,...",
+      "url": "https://fosstodon.org/@accu_york/117661274518966013",
+      "summary": "📣 ACCU York's next meetup 📣 Wed Dec 2, 2026 @ 6:30 PM 🗣️ @ glloyd \"What does it mean to be a programmer?\" An open session: what's hype, what's timeless, and what it means to be a programmer with and without AI? 🔗 Q&A, networking, and... — @accu_york@fosstodon.org（ACCU York） · 0 赞 · 1 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:29:28.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 2,
+      "scoreLabel": "0 赞 · 1 转发",
+      "tags": [
+        "社交",
+        "社区"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661274502181489"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 121
+    },
+    {
+      "id": "265c68ec3a4cc76bab4f5f94744a73152e5686b6",
+      "kind": "news",
+      "source": "verge-ai",
+      "sourceLabel": "The Verge AI",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:25:20.000Z",
+      "firstSeenAt": "2026-11-22T18:30:26.334Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "英文",
+        "多模态"
+      ],
+      "evidence": {
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "fetchedAt": "2026-11-22T18:30:26.333Z",
+        "httpStatus": 200,
+        "pointer": "feed item: Binding of Isaac developer removes AI music from Repentance Plus"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 1,
+      "heat": 110,
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+      "imageSource": "原文 OG 封面"
+    },
+    {
+      "id": "a3cb01551ed67e121eb138425e5a83f17114b19a",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "Automated warfare is already here. Now governments must restrain it | Helen Clark | The Guardian As Pope Leo XIV stated in his recent...",
+      "url": "https://kolektiva.social/@EricLawton/117661217773924507",
+      "summary": "Automated warfare is already here. Now governments must restrain it | Helen Clark | The Guardian As Pope Leo XIV stated in his recent encyclical, Magnifica Humanitas: “Any technology that facilitates attacks without seeing the face of... — @EricLawton@kolektiva.social（Eric Lawton） · 0 赞 · 2 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:15:02.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 4,
+      "scoreLabel": "0 赞 · 2 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "安全"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661217780430161"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 125
+    },
+    {
+      "id": "b5cfab92999a3c4faccb1103f77b895af9b0f5c7",
+      "kind": "news",
+      "source": "techmeme",
+      "sourceLabel": "Techmeme",
+      "title": "Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals (Reuters)",
+      "url": "https://www.techmeme.com/261122/p8",
+      "summary": "Reuters : Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals - For the second time this year, Wall Street bankers and lawyers took home a massive paycheck from a record-setting initial public offering.",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:15:01.000Z",
+      "firstSeenAt": "2026-11-22T18:30:28.543Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "英文"
+      ],
+      "evidence": {
+        "url": "https://www.techmeme.com/feed.xml",
+        "fetchedAt": "2026-11-22T18:30:28.542Z",
+        "httpStatus": 200,
+        "pointer": "feed item: Sources: amid leak fears, Anthropic limited some IPO banks to four-person..."
+      },
+      "image": "https://www.techmeme.com/261122/i8.jpg",
+      "imageSource": "RSS 原文配图",
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 1,
+      "heat": 110
+    },
+    {
+      "id": "57f3ac8320328c05e497bd6e15ed55e2a566b4c1",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "On # reviewing # AI -generated # code Quarrel of the Ancients and the Moderns, AI edition https:// blog.frankel.ch/reviewing-ai-g...",
+      "url": "https://mastodon.top/@frankel/117661202369953880",
+      "summary": "On # reviewing # AI -generated # code Quarrel of the Ancients and the Moderns, AI edition https:// blog.frankel.ch/reviewing-ai-g enerated-code/ — @frankel@mastodon.top（Nicolas Fränkel 🇪🇺🇺🇦🇬🇪） · 0 赞 · 0 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:11:07.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 0,
+      "scoreLabel": "0 赞 · 0 转发",
+      "tags": [
+        "社交",
+        "社区"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661202420999520"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 110
+    },
+    {
+      "id": "5115740a560fd33a99df4fdee2bc1fa516fc5867",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "WebMCP Comes to The Morning Dew and Dew Submitter https://www. alvinashcraft.com/2026/11/22/w ebmcp-on-the-morning-dew-and-dew-submitter/...",
+      "url": "https://hachyderm.io/@alvinashcraft/117661188511830925",
+      "summary": "WebMCP Comes to The Morning Dew and Dew Submitter https://www. alvinashcraft.com/2026/11/22/w ebmcp-on-the-morning-dew-and-dew-submitter/ # morningdew # webmcp # ai # mcp # dewdrop # devcommunity — @alvinashcraft@hachyderm.io（Alvin Ashcraft 🐿️） · 0 赞 · 0 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:07:36.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 0,
+      "scoreLabel": "0 赞 · 0 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "智能体"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661188564580479"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 128
+    },
+    {
+      "id": "03693029af810d149a69113680832cb7e45b3842",
+      "kind": "discussion",
+      "source": "community",
+      "sourceLabel": "V2EX · AI 讨论",
+      "title": "[问与答] deepseek 和哪家终端 CLI 工具搭配效果最好",
+      "url": "https://www.v2ex.com/t/1258974",
+      "summary": "公司提供的是 DS flash，个人比较喜欢用终端，想了解下现在哪个终端 cli 和 DS flash 搭配效果比较好，尝试了 dsh tui 和 omp，omp 用的比较多，加了 skill 和约束还是不太行，个人用的是 gpt，所以不太清楚情况",
+      "lang": "zh",
+      "publishedAt": "2026-11-22T17:00:51.000Z",
+      "firstSeenAt": "2026-11-22T18:30:19.310Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "中文",
+        "社区",
+        "模型"
+      ],
+      "evidence": {
+        "url": "https://www.v2ex.com/index.xml",
+        "fetchedAt": "2026-11-22T18:30:14.423Z",
+        "httpStatus": 200,
+        "pointer": "v2ex RSS item: [问与答] deepseek 和哪家终端 CLI 工具搭配效果最好"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 154,
+      "image": "https://cdn.v2ex.com/gravatar/9021e682921896acde36acf76f1bed25?s=73&d=retro",
+      "imageSource": "原文 OG 封面"
+    },
+    {
+      "id": "fe5c53cf0236e20cb4ee30145d4fa353f37f9751",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "😑 Will AI-Fueled Cyberattacks Lead to Better Funding for Critical Open Source Projects? https:// m.slashdot.org/story/459120 # ai #...",
+      "url": "https://indieweb.social/@jbz/117661159107806745",
+      "summary": "😑 Will AI-Fueled Cyberattacks Lead to Better Funding for Critical Open Source Projects? https:// m.slashdot.org/story/459120 # ai # opensource # funding # cybersecurity — @jbz@indieweb.social（jbz） · 0 赞 · 0 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:00:07.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 0,
+      "scoreLabel": "0 赞 · 0 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "开源",
+        "安全"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661159146281527"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 127
+    },
+    {
+      "id": "3b1cb953aacf752ecc397ba3d8254c8baa9bbeaf",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "Best thing I have read about Vibe sickness, vibe epidemic, by @ cwebber https:// dustycloud.org/blog/faulty-tow...",
+      "url": "https://caneandable.social/@WeirdWriter/117661115794005544",
+      "summary": "Best thing I have read about Vibe sickness, vibe epidemic, by @ cwebber https:// dustycloud.org/blog/faulty-tow ers-vibe-sickness-and-the-vibe-bobsled/ # AI # Education — @WeirdWriter@caneandable.social（Robert Kingett） · 0 赞 · 2 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T16:49:06.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 4,
+      "scoreLabel": "0 赞 · 2 转发",
+      "tags": [
+        "社交",
+        "社区"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661116650345326"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 124
+    },
+    {
+      "id": "21a2ff09d7e798b8f86ef219dd0d3dcc325a9c4c",
+      "kind": "discussion",
+      "source": "lobsters",
+      "sourceLabel": "Lobsters",
+      "title": "We asked [mathematicans about an incomprehensible AI proof of GRH] before it happened (13min38s)",
+      "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+      "summary": "Over the last year and a half, we've interviewed mathematematicians about AI in math. \"How would you feel if AI produced a Lean-verified proof of the Riemann hypothesis, incomprehensible to humans?\" was one common question. Here's what they said. Comments",
+      "lang": "en",
+      "publishedAt": "2026-11-22T16:37:37.000Z",
+      "firstSeenAt": "2026-11-22T18:30:13.766Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "技术社区",
+        "产品"
+      ],
+      "evidence": {
+        "url": "https://lobste.rs/rss",
+        "fetchedAt": "2026-11-22T18:30:13.764Z",
+        "httpStatus": 200,
+        "pointer": "RSS item: We asked [mathematicans about an incomprehensible AI proof o"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 109
+    },
+    {
+      "id": "53ee15c35b583ce3d6fff377dfe2e840ec990c36",
+      "kind": "discussion",
+      "source": "lesswrong",
+      "sourceLabel": "LessWrong",
+      "title": "Amendability and \"Solving Alignment\"",
+      "url": "https://www.lesswrong.com/posts/3qi53Zmyoaz83CJ3n/amendability-and-solving-alignment",
+      "summary": "Often people reference \"solving alignment\" as a win condition for AI safety, but I think it's important to specify what this means. Particularly, I think: current alignment research mostly aims to prevent misalignment . if successful, preventing misalignment will by default result in something like instruction-following . instruction-following will by default result in very bad outcomes , as will many of the other...",
+      "lang": "en",
+      "publishedAt": "2026-11-22T16:31:55.000Z",
+      "firstSeenAt": "2026-11-22T18:30:28.693Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "社区"
+      ],
+      "evidence": {
+        "url": "https://www.lesswrong.com/feed.xml",
+        "fetchedAt": "2026-11-22T18:30:28.684Z",
+        "httpStatus": 200,
+        "pointer": "feed item: Amendability and \"Solving Alignment\""
+      },
+      "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1794930069/lexical_client_uploads/e1wxhyu5erka2ta81rby.png",
+      "imageSource": "RSS 原文配图",
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 1,
+      "heat": 109
+    },
+    {
+      "id": "4104ac3d6d6b5ae5f103f8dcfab377c9af719fdb",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "Wycieki za pomocą zrzutów ekranu – PixelLeak czyli u agentów AI po staremu https:// sekurak.pl/wycieki-za-pomoca-z...",
+      "url": "https://2137.social/@13/117661043051977395",
+      "summary": "Wycieki za pomocą zrzutów ekranu – PixelLeak czyli u agentów AI po staremu https:// sekurak.pl/wycieki-za-pomoca-z rzutow-ekranu-pixelleak-czyli-u-agentow-ai-po-staremu/ # Wbiegu # Agent # Ai # Github # Llm # Pixelleak — @13@2137.social（13） · 0 赞 · 2 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T16:30:36.000Z",
+      "firstSeenAt": "2026-11-22T18:30:18.816Z",
+      "score": 4,
+      "scoreLabel": "0 赞 · 2 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "智能体",
+        "开源"
+      ],
+      "evidence": {
+        "url": "https://mastodon.social/api/v1/timelines/tag/LLM?limit=20",
+        "fetchedAt": "2026-11-22T18:30:18.815Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/LLM · status id=117661043092747716"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 142
+    },
+    {
+      "id": "e0baf298d34ca43cf025c284a2a11dd5dc274781",
+      "kind": "discussion",
+      "source": "community",
+      "sourceLabel": "OSCHINA 资讯",
+      "title": "从算力底座到行业落地，华为智启未来主题论坛亮相 2026 世界计算大会",
+      "url": "https://www.oschina.net/news/503727",
+      "summary": "11 月 20 日，2026 世界计算大会举办期间，由华为主办的“数智共昇 鸿湘有为”智启未来主题论坛在长沙举办。论坛深度对接湖南省“AI+”发展战略，围绕计算前沿技术、产业生态演进与人工智能行业落地实践展开研讨，既有面向产业全局的趋势判断，也有来自一线场景的落地经验，为算力生态伙伴协同创新、产业数智升级提供交流...",
+      "lang": "zh",
+      "publishedAt": "2026-11-22T16:18:42.000Z",
+      "firstSeenAt": "2026-11-22T18:30:19.310Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "中文",
+        "社区"
+      ],
+      "evidence": {
+        "url": "https://www.oschina.net/news/rss",
+        "fetchedAt": "2026-11-22T18:30:19.308Z",
+        "httpStatus": 200,
+        "pointer": "oschina RSS item: 从算力底座到行业落地，华为智启未来主题论坛亮相 2026 世界计算大会"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 108
+    },
+    {
+      "id": "b1f14d2eaa99b8d1e4a3a608b78e47dff18b9566",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "As lukewarm as I am on # LLM , it has been interesting talking to friends about the death of # SAAS at their jobs. If a vendor raises...",
+      "url": "https://c.im/@matdevdug/117660966105822280",
+      "summary": "As lukewarm as I am on # LLM , it has been interesting talking to friends about the death of # SAAS at their jobs. If a vendor raises their prices, there is now a real risk that a customer will simply use an LLM to copy the six features... — @matdevdug@c.im（matdevdug） · 9 赞 · 6 转发 · 2 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-22T16:11:02.000Z",
+      "firstSeenAt": "2026-11-22T18:30:18.816Z",
+      "score": 21,
+      "scoreLabel": "9 赞 · 6 转发",
+      "tags": [
+        "社交",
+        "社区"
+      ],
+      "evidence": {
+        "url": "https://mastodon.social/api/v1/timelines/tag/LLM?limit=20",
+        "fetchedAt": "2026-11-22T18:30:18.815Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/LLM · status id=117660966826862680"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 138
+    },
+    {
+      "id": "89021f5dc4915efa7077ca1495b522396c959075",
+      "kind": "discussion",
+      "source": "community",
+      "sourceLabel": "V2EX · AI 讨论",
+      "title": "[分享创造] 用 Deepseek 从 0 开始 3 小时，造了个轮子，iOS 代理工具",
+      "url": "https://www.v2ex.com/t/1258970",
+      "summary": "造了个轮子，iOS 版本的 VPN 客户端，类似 v2ray,clash 也上架成功了~ https://github.com/ji4ozhu-wq/wproxy 协议：VMess、VLESS、Trojan、Shadowsocks、SOCKS5 导入 ：粘贴共享链接、扫描二维码或添加订阅 路由： 全局模式或基于规则的分段路由，包含绕过国家/地区和局域网绕过 无账户、无分析、无广告或追踪;节点和设置会保留在您的设备上",
+      "lang": "zh",
+      "publishedAt": "2026-11-22T15:55:44.000Z",
+      "firstSeenAt": "2026-11-22T18:30:19.310Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "中文",
+        "社区",
+        "模型",
+        "开源"
+      ],
+      "evidence": {
+        "url": "https://www.v2ex.com/index.xml",
+        "fetchedAt": "2026-11-22T18:30:14.423Z",
+        "httpStatus": 200,
+        "pointer": "v2ex RSS item: [分享创造] 用 Deepseek 从 0 开始 3 小时，造了个轮子，iOS 代理工具"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 126,
+      "image": "https://www.v2ex.com/static/icon-192.png",
+      "imageSource": "原文 OG 封面"
+    },
+    {
+      "id": "9ed098ea5d165b33ec4d5276bfe56d02bd3fef9b",
+      "kind": "discussion",
+      "source": "community",
+      "sourceLabel": "V2EX · AI 讨论",
+      "title": "[推广] 做了个免费的 GTA 6 风格 AI 滤镜：上传一张自拍，出加载页风格的人像",
+      "url": "https://www.v2ex.com/t/1258969",
+      "summary": "GTA 6 发售这几天，推特和小红书上全是那种“GTA 加载页风格”的自拍——大家基本都是拿着同一套提示词去 ChatGPT/Gemini 里一张张跑，每次还要自己描述构图和配色。 我就把这事做成了一个一键网站： https://gamefacefilter.com 上传一张自拍，6 种风格可选，出图就是 GTA 加载页那种平涂色块 + 硬光影的味道 每天免费生成一次，不用注册 觉得图不错可以用 credits 把它变成 8 秒的竖屏视频（自己动起来的那种） 技术上就是图像生成模型 + 一套调过的风格提示词，难点在于让出图稳定——GTA 风格稍微偏一点就变成普通赛博朋克，调了挺久。 求各位老板轻拍：风格准不准、加载速度、免费额度设计合不合理，都可以骂。有想要的风格（比如 Carnage 风格、LEGO 风）也可以提，我排进下一批。",
+      "lang": "zh",
+      "publishedAt": "2026-11-22T15:55:09.000Z",
+      "firstSeenAt": "2026-11-22T18:30:19.310Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "中文",
+        "社区",
+        "模型",
+        "多模态"
+      ],
+      "evidence": {
+        "url": "https://www.v2ex.com/index.xml",
+        "fetchedAt": "2026-11-22T18:30:14.423Z",
+        "httpStatus": 200,
+        "pointer": "v2ex RSS item: [推广] 做了个免费的 GTA 6 风格 AI 滤镜：上传一张自拍，出加载页风格的人像"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 144,
+      "image": "https://cdn.v2ex.com/avatar/07c1/c928/852414_xlarge.png?m=1793549263",
       "imageSource": "原文 OG 封面"
     },
     {
@@ -81,15 +853,15 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: openvinotoolkit/openvino"
       },
       "image": "https://github.com/openvinotoolkit.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 1,
-      "heat": 196
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 2,
+      "heat": 184
     },
     {
       "id": "6096cc3a83ecce402b3936c5c56c1a09bfae4930",
@@ -111,107 +883,15 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: HKUDS/CLI-Anything"
       },
       "image": "https://github.com/HKUDS.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 1,
-      "heat": 190
-    },
-    {
-      "id": "889ea1c117f15b3172d305835b21dbdb4895b8c0",
-      "kind": "repo",
-      "source": "github",
-      "sourceLabel": "GitHub 涨星榜",
-      "title": "deepseek-ai/deepseek-harness 涨 409 星",
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "summary": "DeepSeek Harness: Everything is a Plugin. · 当前 285434 stars",
-      "lang": "zh",
-      "publishedAt": "2026-11-22T15:44:21.754Z",
-      "firstSeenAt": "2026-10-29T21:00:09.948Z",
-      "score": 409,
-      "scoreLabel": "涨 409 星 / 20h",
-      "tags": [
-        "开源",
-        "涨星",
-        "模型",
-        "智能体"
-      ],
-      "evidence": {
-        "url": "https://api.github.com/repos/deepseek-ai/deepseek-harness",
-        "fetchedAt": "2026-11-22T15:44:26.707Z",
-        "httpStatus": 200,
-        "pointer": "stargazers_count=285434 · 对比 2026-11-21T17:38:58.934Z"
-      },
-      "image": "https://github.com/deepseek-ai.png?size=96",
-      "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.575Z",
-      "seenCount": 204,
-      "heat": 193
-    },
-    {
-      "id": "7d8321c30b48b6e40a60524e22c876373e781db7",
-      "kind": "repo",
-      "source": "github",
-      "sourceLabel": "GitHub 涨星榜",
-      "title": "ggml-org/llama.cpp 涨 132 星",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "summary": "LLM inference in C/C++ · 当前 136077 stars",
-      "lang": "zh",
-      "publishedAt": "2026-11-22T15:44:21.754Z",
-      "firstSeenAt": "2026-11-20T00:13:01.443Z",
-      "score": 132,
-      "scoreLabel": "涨 132 星 / 20h",
-      "tags": [
-        "开源",
-        "涨星",
-        "模型",
-        "推理"
-      ],
-      "evidence": {
-        "url": "https://api.github.com/repos/ggml-org/llama.cpp",
-        "fetchedAt": "2026-11-22T15:44:29.017Z",
-        "httpStatus": 200,
-        "pointer": "stargazers_count=136077 · 对比 2026-11-21T17:38:58.934Z"
-      },
-      "image": "https://github.com/ggml-org.png?size=96",
-      "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 8,
-      "heat": 165
-    },
-    {
-      "id": "f791d596ac0483f5b78b5630d0a9928b8c71597a",
-      "kind": "repo",
-      "source": "github",
-      "sourceLabel": "GitHub 涨星榜",
-      "title": "n8n-io/n8n 涨 178 星",
-      "url": "https://github.com/n8n-io/n8n",
-      "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. · 当前 211791 stars",
-      "lang": "zh",
-      "publishedAt": "2026-11-22T15:44:21.754Z",
-      "firstSeenAt": "2026-11-19T02:05:27.970Z",
-      "score": 178,
-      "scoreLabel": "涨 178 星 / 20h",
-      "tags": [
-        "开源",
-        "涨星",
-        "智能体"
-      ],
-      "evidence": {
-        "url": "https://api.github.com/repos/n8n-io/n8n",
-        "fetchedAt": "2026-11-22T15:44:32.695Z",
-        "httpStatus": 200,
-        "pointer": "stargazers_count=211791 · 对比 2026-11-21T17:38:58.934Z"
-      },
-      "image": "https://github.com/n8n-io.png?size=96",
-      "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 16,
-      "heat": 150
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 2,
+      "heat": 178
     },
     {
       "id": "9a2932b1520df8e9b3d0f5d6932ccb9f5551671f",
@@ -260,13 +940,13 @@
       ],
       "evidence": {
         "url": "https://www.v2ex.com/index.xml",
-        "fetchedAt": "2026-11-22T15:44:34.934Z",
+        "fetchedAt": "2026-11-22T18:30:14.423Z",
         "httpStatus": 200,
         "pointer": "v2ex RSS item: [问与答] 求问 MacOS Vibe Coding 怎么设置网络"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 1,
-      "heat": 148,
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 2,
+      "heat": 131,
       "image": "https://www.v2ex.com/static/icon-192.png",
       "imageSource": "原文 OG 封面"
     },
@@ -292,13 +972,13 @@
       ],
       "evidence": {
         "url": "https://www.v2ex.com/index.xml",
-        "fetchedAt": "2026-11-22T15:44:34.934Z",
+        "fetchedAt": "2026-11-22T18:30:14.423Z",
         "httpStatus": 200,
         "pointer": "v2ex RSS item: [Claude] 大家帮我拿个主意，要把跨境电商封店的经验平移到 Claude 吗？"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 1,
-      "heat": 157,
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 2,
+      "heat": 140,
       "image": "https://cdn.v2ex.com/gravatar/3313ff99e2e076e7bb4ed280bbf7cdec?s=73&d=retro",
       "imageSource": "原文 OG 封面"
     },
@@ -358,6 +1038,36 @@
       "heat": 133,
       "image": "https://pinky.st/proxy/avatar.webp?url=https%3A%2F%2Fpinky.st%2Ffiles%2Fb19912ff-3c74-403f-a6b3-67de849686be&avatar=1",
       "imageSource": "原文 OG 封面"
+    },
+    {
+      "id": "660019c605a6bc961ebe1713bc49df75ce6093e1",
+      "kind": "discussion",
+      "source": "lesswrong",
+      "sourceLabel": "LessWrong",
+      "title": "Obstacles to mindreading: Simple, irreducible, and instrumental opacity",
+      "url": "https://www.lesswrong.com/posts/3znHBDGQWBjhWEKcQ/obstacles-to-mindreading-simple-irreducible-and-instrumental",
+      "summary": "Sometimes there's an entity in the world, and after observing that entity's behavior, I choose to model it as an agent : that is, something that \"seeks\" some objective. I think I usually do this because I want to predict the entity's behavior in circumstances I haven't observed. I see a weird, wet-looking thing on a rock, moving slowly, with a trail of slime behind it. I might choose to model it as seeking to move...",
+      "lang": "en",
+      "publishedAt": "2026-11-22T15:34:06.000Z",
+      "firstSeenAt": "2026-11-22T18:30:28.693Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "社区",
+        "模型",
+        "智能体"
+      ],
+      "evidence": {
+        "url": "https://www.lesswrong.com/feed.xml",
+        "fetchedAt": "2026-11-22T18:30:28.684Z",
+        "httpStatus": 200,
+        "pointer": "feed item: Obstacles to mindreading: Simple, irreducible, and instrumental opacity"
+      },
+      "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1795362103/lexical_client_uploads/fsorsebvk314za7jbujo.png",
+      "imageSource": "RSS 原文配图",
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 1,
+      "heat": 125
     },
     {
       "id": "5a20cd54997898c24c709df7a246bf83cacd7fd2",
@@ -434,14 +1144,14 @@
         "社区"
       ],
       "evidence": {
-        "url": "https://mastodon.social/api/v1/timelines/tag/ai?limit=20",
-        "fetchedAt": "2026-11-22T15:44:36.614Z",
+        "url": "https://mastodon.social/api/v1/timelines/tag/MachineLearning?limit=20",
+        "fetchedAt": "2026-11-22T18:30:19.934Z",
         "httpStatus": 200,
-        "pointer": "api/v1/timelines/tag/ai · status id=117660766572004990"
+        "pointer": "api/v1/timelines/tag/MachineLearning · status id=117660766572004990"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 1,
-      "heat": 127
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 2,
+      "heat": 110
     },
     {
       "id": "8f989537531898e187a30527fbc7c3252dba608e",
@@ -462,13 +1172,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: 美国初创企业公布 AI 自研 CPU 架构 Frostbite，能效是传统处理器的 4.59 倍"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 1,
-      "heat": 111
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 2,
+      "heat": 94
     },
     {
       "id": "ea4ec8bb42c1fcbf4e0868dd6aa69a1a7aa9e31c",
@@ -490,15 +1200,15 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.846Z",
+        "fetchedAt": "2026-11-22T18:30:27.505Z",
         "httpStatus": 200,
         "pointer": "feed item: AI coding agents ace isolated tests but complete fewer than one in ten tasks..."
       },
       "image": "https://the-decoder.com/wp-content/uploads/2026/11/cowork-benchmark-chatgpt-5-6.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 1,
-      "heat": 129
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 2,
+      "heat": 112
     },
     {
       "id": "063783055cde7e9e47582374d35f6919072512fd",
@@ -521,13 +1231,13 @@
       ],
       "evidence": {
         "url": "https://www.v2ex.com/index.xml",
-        "fetchedAt": "2026-11-22T15:44:34.934Z",
+        "fetchedAt": "2026-11-22T18:30:14.423Z",
         "httpStatus": 200,
         "pointer": "v2ex RSS item: [推广] [一周年/抽奖] iAgent 上线一年破千用户：抽 20 份 $18.8 余额，充值最高"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 1,
-      "heat": 156,
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 2,
+      "heat": 139,
       "image": "https://cdn.v2ex.com/gravatar/f562c53964eab4f750673cc636cc56f1?s=73&d=retro",
       "imageSource": "原文 OG 封面"
     },
@@ -634,15 +1344,15 @@
       ],
       "evidence": {
         "url": "https://www.techmeme.com/feed.xml",
-        "fetchedAt": "2026-11-22T15:44:45.178Z",
+        "fetchedAt": "2026-11-22T18:30:28.542Z",
         "httpStatus": 200,
         "pointer": "feed item: Jony Ive, ex-OpenAI product designer Joey Flynn, and others on Silicon..."
       },
       "image": "https://www.techmeme.com/261122/i7.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 1,
-      "heat": 111
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 2,
+      "heat": 94
     },
     {
       "id": "8d35d7f53f65d72def1c9d1c6426e3b833b35537",
@@ -746,13 +1456,13 @@
       ],
       "evidence": {
         "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-22T15:44:43.562Z",
+        "fetchedAt": "2026-11-22T18:30:26.160Z",
         "httpStatus": 200,
         "pointer": "feed item: 价值判断：跌停板的投资机会和风险提示（11月20日）｜上市公司观察"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 1,
-      "heat": 110
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 2,
+      "heat": 94
     },
     {
       "id": "6a5d459d0a6047e5717d330545af1ff2218a5033",
@@ -892,13 +1602,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: Oracle：已确保履行与 OpenAI 合同全部所需资金"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 1,
-      "heat": 128
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 2,
+      "heat": 111
     },
     {
       "id": "141d3e3e6383c48f73a5e43f0a4bc81ff9fcb04d",
@@ -921,14 +1631,14 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.846Z",
+        "fetchedAt": "2026-11-22T18:30:27.505Z",
         "httpStatus": 200,
         "pointer": "feed item: Perplexity's new Monitor API turns web search from a one-off query into a..."
       },
       "image": "",
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 1,
-      "heat": 128
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 2,
+      "heat": 111
     },
     {
       "id": "ddd7294ca524dd29bbb4d147c1e9b1ca615c632a",
@@ -976,13 +1686,13 @@
       ],
       "evidence": {
         "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-22T15:44:43.562Z",
+        "fetchedAt": "2026-11-22T18:30:26.160Z",
         "httpStatus": 200,
         "pointer": "feed item: 价值判断：涨停板的投资机会和风险提示（11月20日）｜上市公司观察"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 1,
-      "heat": 109
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 2,
+      "heat": 93
     },
     {
       "id": "8c292177d000d31fd83c934ee11140a87fe6db3b",
@@ -1002,13 +1712,13 @@
       ],
       "evidence": {
         "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-22T15:44:43.562Z",
+        "fetchedAt": "2026-11-22T18:30:26.160Z",
         "httpStatus": 200,
         "pointer": "feed item: 从黄仁勋看AI时代的领导力：为什么有些企业能够实现指数级增长？"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 1,
-      "heat": 109
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 2,
+      "heat": 93
     },
     {
       "id": "804aeed613ab756d3df6fa67aff9b73fb67cfb5d",
@@ -1029,13 +1739,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: 签约后也能涨价：消息称 AI 服务器厂商交付前提价，涨幅最高达 45%"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 1,
-      "heat": 109
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 2,
+      "heat": 92
     },
     {
       "id": "0a01ebb7e02489dae647366462ea1fc8f152ff5e",
@@ -1085,15 +1795,15 @@
       ],
       "evidence": {
         "url": "https://www.unite.ai/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.732Z",
+        "fetchedAt": "2026-11-22T18:30:29.227Z",
         "httpStatus": 200,
         "pointer": "feed item: monday.com vs. ClickUp: Which Is Better for Managing Work?"
       },
       "image": "https://www.unite.ai/wp-content/uploads/2026/11/monday-vs-clickup-hero-1920x1080-1.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 1,
-      "heat": 109
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 2,
+      "heat": 92
     },
     {
       "id": "8389674a3e9321dbb0ef36c93d8d42c044a6a246",
@@ -1116,15 +1826,15 @@
       ],
       "evidence": {
         "url": "https://www.unite.ai/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.732Z",
+        "fetchedAt": "2026-11-22T18:30:29.227Z",
         "httpStatus": 200,
         "pointer": "feed item: Robotics in 2027: The Winners Will Be Measured in Hours Without Human Help"
       },
       "image": "https://www.unite.ai/wp-content/uploads/2026/11/orion-2027-hero.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 1,
-      "heat": 109
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 2,
+      "heat": 92
     },
     {
       "id": "ff51ec66f3f9a8a2dfc64a2c2bf2c5707bd1fd37",
@@ -1204,13 +1914,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: MiniMax 利用最新内部模型破解多个密码学前沿方案，刷新国际挑战赛纪录"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 1,
-      "heat": 108
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 2,
+      "heat": 91
     },
     {
       "id": "048c3cdc38bd55ac89ae01d4178ad22ac8d65bcd",
@@ -1315,14 +2025,14 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.846Z",
+        "fetchedAt": "2026-11-22T18:30:27.505Z",
         "httpStatus": 200,
         "pointer": "feed item: AI is getting better faster than experts can reliably test whether new systems..."
       },
       "image": "",
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 1,
-      "heat": 125
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 2,
+      "heat": 109
     },
     {
       "id": "0506da7f19948a196871f2db789d535119ed3e2a",
@@ -1372,13 +2082,13 @@
       ],
       "evidence": {
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-        "fetchedAt": "2026-11-22T15:44:43.137Z",
+        "fetchedAt": "2026-11-22T18:30:26.333Z",
         "httpStatus": 200,
         "pointer": "feed item: The vibe-coding revolution is coming to all the gadgets"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 1,
-      "heat": 107,
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 2,
+      "heat": 91,
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AI_vibe_coding_hacker_hardware.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "imageSource": "原文 OG 封面"
     },
@@ -1710,15 +2420,15 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.846Z",
+        "fetchedAt": "2026-11-22T18:30:27.505Z",
         "httpStatus": 200,
         "pointer": "feed item: Security researchers show how cheap AI inference providers steal keys and..."
       },
       "image": "https://the-decoder.com/wp-content/uploads/2026/11/cybersecurity_data_leak.png",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 2,
-      "heat": 130
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 3,
+      "heat": 125
     },
     {
       "id": "e9b4c5fb58233a295b17a94a06c0d6049b61e501",
@@ -1855,13 +2565,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: B站就“AI 大肥鱼”智能体账号泛滥发布调查问卷，征集治理意见"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 2,
-      "heat": 138
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 3,
+      "heat": 133
     },
     {
       "id": "ffe038d2d4e6cb51684b2184589cab8dbf103db2",
@@ -1883,15 +2593,15 @@
       ],
       "evidence": {
         "url": "https://www.unite.ai/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.732Z",
+        "fetchedAt": "2026-11-22T18:30:29.227Z",
         "httpStatus": 200,
         "pointer": "feed item: Anthropic Sought Limits on IPO Deal Teams and Work with Rivals"
       },
       "image": "https://www.unite.ai/wp-content/uploads/2026/11/anthropic-sought-limits-on-ipo-deal-teams-and-work-with-rivals.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 2,
-      "heat": 93
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 3,
+      "heat": 88
     },
     {
       "id": "b8467e5ab62191591219fce3aa9ce3f6e150ec6d",
@@ -1945,13 +2655,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: 开发者将微型 Transformer 模型塞进软盘，让 486 老电脑也能用上 AI"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 2,
-      "heat": 111
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 3,
+      "heat": 106
     },
     {
       "id": "713640f249f3d82052a733083c14f19b09003b97",
@@ -1972,13 +2682,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: 郭明錤：谷歌削减 2027 年博通设计的 TPU 8i 系列出货量约 100 万颗"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 2,
-      "heat": 92
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 3,
+      "heat": 88
     },
     {
       "id": "bce0442a44223c54590d2860e41e7889ac532676",
@@ -2056,13 +2766,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: 纽约新音乐厅 Domino 官网闹笑话，宣传“纯手工制作”却满是 AI 生成痕迹"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 2,
-      "heat": 92
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 3,
+      "heat": 88
     },
     {
       "id": "5cfa4f9892b18c174e3301737179c9cd4fef8482",
@@ -2083,15 +2793,15 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.846Z",
+        "fetchedAt": "2026-11-22T18:30:27.505Z",
         "httpStatus": 200,
         "pointer": "feed item: Lean and Mathlib community officially confirms Levent Alpöge's proof of the..."
       },
       "image": "https://the-decoder.com/wp-content/uploads/2026/05/ai_and_math.png",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 2,
-      "heat": 92
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 3,
+      "heat": 87
     },
     {
       "id": "5195ddd8fa5bf2752e8952fa327ab4b3c05512f4",
@@ -2112,13 +2822,13 @@
       ],
       "evidence": {
         "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-22T15:44:43.562Z",
+        "fetchedAt": "2026-11-22T18:30:26.160Z",
         "httpStatus": 200,
         "pointer": "feed item: 从快手独立，可灵要回答的问题变了"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 2,
-      "heat": 92
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 3,
+      "heat": 87
     },
     {
       "id": "43477e7f39bded39df9c19f0546f87155f81e44f",
@@ -2140,13 +2850,13 @@
       ],
       "evidence": {
         "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-22T15:44:43.562Z",
+        "fetchedAt": "2026-11-22T18:30:26.160Z",
         "httpStatus": 200,
         "pointer": "feed item: 拆解大厂财报：谁最舍得为AI花钱？"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 2,
-      "heat": 92
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 3,
+      "heat": 87
     },
     {
       "id": "8e8d903da2bf77ab0906de978128553970c29763",
@@ -2199,15 +2909,15 @@
       ],
       "evidence": {
         "url": "https://www.techmeme.com/feed.xml",
-        "fetchedAt": "2026-11-22T15:44:45.178Z",
+        "fetchedAt": "2026-11-22T18:30:28.542Z",
         "httpStatus": 200,
         "pointer": "feed item: Experts say AI has made planning cyberattacks on industrial equipment faster..."
       },
       "image": "https://www.techmeme.com/261122/i6.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 2,
-      "heat": 92
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 3,
+      "heat": 87
     },
     {
       "id": "5077f698fa6ffaf441da10d3726bd6ba9a85585d",
@@ -2228,15 +2938,15 @@
       ],
       "evidence": {
         "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-        "fetchedAt": "2026-11-22T15:44:43.214Z",
+        "fetchedAt": "2026-11-22T18:30:26.457Z",
         "httpStatus": 200,
         "pointer": "feed item: Banks Have Had It Up to Here With Your AI Agent"
       },
       "image": "https://media.wired.com/photos/6b0080a25f35c47a5c116087/master/pass/GettyImages-2285133719.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 2,
-      "heat": 110
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 3,
+      "heat": 105
     },
     {
       "id": "298d20add41dc0e8c6506548c19fc47d0b1872c4",
@@ -2317,13 +3027,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: 闲鱼：2026 年第二季度日活增加 23%、订单增加 29%，AI 成核心增长动力"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 2,
-      "heat": 110
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 3,
+      "heat": 105
     },
     {
       "id": "1325db72ade71a19a707ccb4de5bd6da61ccbf0d",
@@ -2347,13 +3057,13 @@
       ],
       "evidence": {
         "url": "https://www.marktechpost.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.280Z",
+        "fetchedAt": "2026-11-22T18:30:28.656Z",
         "httpStatus": 200,
         "pointer": "feed item: Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 2,
-      "heat": 127
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 3,
+      "heat": 123
     },
     {
       "id": "b3bb62ffda6a18f0a1c28bb42dab48d19b30978c",
@@ -2401,13 +3111,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: 小鹏 G9L 在泰国、印尼上市，售价折合人民币超 47 万元"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 2,
-      "heat": 91
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 3,
+      "heat": 86
     },
     {
       "id": "54240c64804c55b4e975221f68fb774d5d882c9e",
@@ -2457,15 +3167,15 @@
       ],
       "evidence": {
         "url": "https://www.leiphone.com/feed",
-        "fetchedAt": "2026-11-22T15:44:43.011Z",
+        "fetchedAt": "2026-11-22T18:30:27.193Z",
         "httpStatus": 200,
         "pointer": "feed item: 特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局"
       },
       "image": "https://static.leiphone.com/uploads/new/images/20261120/6aff98111afaa.png?imageMogr2/quality/90",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 2,
-      "heat": 109
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 3,
+      "heat": 104
     },
     {
       "id": "f48885e73aa9e13a7ba73a608ab1ef1708bddda3",
@@ -2544,13 +3254,13 @@
       ],
       "evidence": {
         "url": "https://www.marktechpost.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.280Z",
+        "fetchedAt": "2026-11-22T18:30:28.656Z",
         "httpStatus": 200,
         "pointer": "feed item: Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 2,
-      "heat": 135
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 3,
+      "heat": 131
     },
     {
       "id": "fd3befb3d5203377ba16a496879df021f509befd",
@@ -2571,13 +3281,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: 报告：美国会计行业 AI 采用率高，但技术整合成熟度不足"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 90
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 85
     },
     {
       "id": "0cbda05d55dc00f276ed52d11ed824c39e4ceee0",
@@ -2599,14 +3309,14 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.846Z",
+        "fetchedAt": "2026-11-22T18:30:27.505Z",
         "httpStatus": 200,
         "pointer": "feed item: GPT-6.2 Astra and Sol get to the point faster but score lower on transparency..."
       },
       "image": "",
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 3,
-      "heat": 126
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 4,
+      "heat": 121
     },
     {
       "id": "7312bbed3d506d444c3e7d90effcfd222dcf5ea0",
@@ -2687,13 +3397,13 @@
       ],
       "evidence": {
         "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-22T15:44:39.621Z",
+        "fetchedAt": "2026-11-22T18:30:18.820Z",
         "httpStatus": 200,
         "pointer": "feed item: 菲尔兹奖得主梅纳德谈“AI 攻克黎曼猜想”：相信证明正确，但成果被人理解、才可能得到认可"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 108
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 103
     },
     {
       "id": "0498949dcda8ef8205ed7601f3e36e73e32af348",
@@ -3429,13 +4139,13 @@
       ],
       "evidence": {
         "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-22T15:44:43.562Z",
+        "fetchedAt": "2026-11-22T18:30:26.160Z",
         "httpStatus": 200,
         "pointer": "feed item: 跨境收款之后，中国公司盯上智能体支付的新生意"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 4,
-      "heat": 132
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 5,
+      "heat": 128
     },
     {
       "id": "648c17656376d31e0d928df6ee6a9075b1276136",
@@ -3859,15 +4569,15 @@
       ],
       "evidence": {
         "url": "https://www.unite.ai/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.732Z",
+        "fetchedAt": "2026-11-22T18:30:29.227Z",
         "httpStatus": 200,
         "pointer": "feed item: Tesla Rolls Out FSD V15 with Reality View and Vision Upgrades"
       },
       "image": "https://www.unite.ai/wp-content/uploads/2026/11/tesla-rolls-out-fsd-v15-with-reality-view-and-vision-upgrades.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 4,
-      "heat": 85
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 5,
+      "heat": 81
     },
     {
       "id": "54b0223dd0f949af19c8d99fd5f2c20b7b785da5",
@@ -3887,15 +4597,15 @@
       ],
       "evidence": {
         "url": "https://www.techmeme.com/feed.xml",
-        "fetchedAt": "2026-11-22T15:44:45.178Z",
+        "fetchedAt": "2026-11-22T18:30:28.542Z",
         "httpStatus": 200,
         "pointer": "feed item: Current and former officials from the US and other countries describe the..."
       },
       "image": "https://www.techmeme.com/261122/i5.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 4,
-      "heat": 85
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 5,
+      "heat": 80
     },
     {
       "id": "e90e1f1a775821e2faa8e9144fe38bec6383e17a",
@@ -4003,15 +4713,15 @@
       ],
       "evidence": {
         "url": "https://www.techmeme.com/feed.xml",
-        "fetchedAt": "2026-11-22T15:44:45.178Z",
+        "fetchedAt": "2026-11-22T18:30:28.542Z",
         "httpStatus": 200,
         "pointer": "feed item: Tesla rolls out FSD v15, featuring a photorealistic rendering of car..."
       },
       "image": "https://www.techmeme.com/261122/i4.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 4,
-      "heat": 85
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 5,
+      "heat": 80
     },
     {
       "id": "5a9fa0b494ba1ace8549fcce91c2dae2b951f418",
@@ -4142,13 +4852,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T15:44:39.111Z",
+        "fetchedAt": "2026-11-22T18:30:17.187Z",
         "httpStatus": 200,
         "pointer": "feed item: Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 84
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 79
     },
     {
       "id": "f9e83c227f939a25eac1ef4c32fcbea602d6c22d",
@@ -4169,13 +4879,13 @@
       ],
       "evidence": {
         "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-22T15:44:43.562Z",
+        "fetchedAt": "2026-11-22T18:30:26.160Z",
         "httpStatus": 200,
         "pointer": "feed item: 将靶材卖进台积电，江丰电子布局A+H，第二增长曲线成色待考"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 4,
-      "heat": 84
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 5,
+      "heat": 79
     },
     {
       "id": "7729ab8c25f71cfbce793da2fae68506809bc03f",
@@ -4197,13 +4907,13 @@
       ],
       "evidence": {
         "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-22T15:44:43.562Z",
+        "fetchedAt": "2026-11-22T18:30:26.160Z",
         "httpStatus": 200,
         "pointer": "feed item: Anthropic万亿上市，搅动的却是半导体江湖"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 4,
-      "heat": 84
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 5,
+      "heat": 79
     },
     {
       "id": "adfeae0a263f3b6a9a0ece5a379283a7a412281d",
@@ -4282,13 +4992,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T15:44:39.111Z",
+        "fetchedAt": "2026-11-22T18:30:17.187Z",
         "httpStatus": 200,
         "pointer": "feed item: A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 102
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 97
     },
     {
       "id": "be173053cdd628a162acebb8871f80b2eba1f10f",
@@ -4339,15 +5049,15 @@
       ],
       "evidence": {
         "url": "https://www.techmeme.com/feed.xml",
-        "fetchedAt": "2026-11-22T15:44:45.178Z",
+        "fetchedAt": "2026-11-22T18:30:28.542Z",
         "httpStatus": 200,
         "pointer": "feed item: Sources: AI server suppliers like Dell, HPE, Lenovo, and Supermicro are..."
       },
       "image": "https://www.techmeme.com/261122/i2.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 4,
-      "heat": 83
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 5,
+      "heat": 78
     },
     {
       "id": "461b3b577994a9226272b808275f9db9e5dca904",
@@ -4367,15 +5077,15 @@
       ],
       "evidence": {
         "url": "https://www.techmeme.com/feed.xml",
-        "fetchedAt": "2026-11-22T15:44:45.178Z",
+        "fetchedAt": "2026-11-22T18:30:28.542Z",
         "httpStatus": 200,
         "pointer": "feed item: Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in..."
       },
       "image": "https://www.techmeme.com/261122/i1.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 4,
-      "heat": 83
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 5,
+      "heat": 78
     },
     {
       "id": "2453fc6da44831a2d5881ca986f608ca9257282d",
@@ -4484,13 +5194,13 @@
       ],
       "evidence": {
         "url": "https://feeds.feedburner.com/TheHackersNews",
-        "fetchedAt": "2026-11-22T15:44:34.924Z",
+        "fetchedAt": "2026-11-22T18:30:14.271Z",
         "httpStatus": 200,
         "pointer": "RSS item: OpenRouter Drops 3 Providers After Researchers Catch Months "
       },
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 4,
-      "heat": 118
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 5,
+      "heat": 113
     },
     {
       "id": "0be8ff22df4a77bfdff9aa0c2fc94aa12902a850",
@@ -4513,13 +5223,13 @@
       ],
       "evidence": {
         "url": "https://feeds.feedburner.com/TheHackersNews",
-        "fetchedAt": "2026-11-22T15:44:34.924Z",
+        "fetchedAt": "2026-11-22T18:30:14.271Z",
         "httpStatus": 200,
         "pointer": "RSS item: Researchers Demonstrate Ghostscript Sandbox-Escape RCE via C"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 4,
-      "heat": 82
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 5,
+      "heat": 77
     },
     {
       "id": "01e478ba125afa0c8a152dffa4c867cb312e0121",
@@ -4541,14 +5251,14 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: mvanhorn/last30days-skill"
       },
       "image": "https://github.com/mvanhorn.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 5,
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 6,
       "heat": 178
     },
     {
@@ -5059,15 +5769,15 @@
       ],
       "evidence": {
         "url": "https://www.unite.ai/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.732Z",
+        "fetchedAt": "2026-11-22T18:30:29.227Z",
         "httpStatus": 200,
         "pointer": "feed item: OpenRouter Cuts Three Providers After AI Prompt Exposure Findings"
       },
       "image": "https://www.unite.ai/wp-content/uploads/2026/11/openrouter-cuts-three-providers-after-ai-prompt-exposure-findings.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 5,
-      "heat": 96
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 6,
+      "heat": 92
     },
     {
       "id": "e5ea074cb32ce225142655c73f64412510e93db2",
@@ -5088,15 +5798,15 @@
       ],
       "evidence": {
         "url": "https://www.lesswrong.com/feed.xml",
-        "fetchedAt": "2026-11-22T15:44:45.398Z",
+        "fetchedAt": "2026-11-22T18:30:28.684Z",
         "httpStatus": 200,
         "pointer": "feed item: Eval awareness remains an unsolved problem"
       },
       "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/bbff5e9987b3a20872f44e173e1924f7550f62804ff716b0ff0a9fefd1ddd4a1/gk2ftqr97owzk78plsob",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 5,
-      "heat": 96
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 6,
+      "heat": 92
     },
     {
       "id": "ff58138eda1a5b9fe143565601fe54f4ded52e6f",
@@ -5451,15 +6161,15 @@
       ],
       "evidence": {
         "url": "https://www.geekpark.net/rss",
-        "fetchedAt": "2026-11-22T15:44:51.561Z",
+        "fetchedAt": "2026-11-22T18:31:16.900Z",
         "httpStatus": 200,
         "pointer": "feed item: 重控制、轻渲染，达瓦科技的 AI 视频工业路线"
       },
       "image": "https://imgslim.geekpark.net/uploads/image/file/64/58/6458749c56ed4af96d66e042fbe468df.png",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 5,
-      "heat": 95
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 6,
+      "heat": 90
     },
     {
       "id": "26e2979e9c83fed2e1f84dbe6c218c438f4dbbbb",
@@ -5481,13 +6191,13 @@
       ],
       "evidence": {
         "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-        "fetchedAt": "2026-11-22T15:44:44.422Z",
+        "fetchedAt": "2026-11-22T18:30:27.720Z",
         "httpStatus": 200,
         "pointer": "feed item: Meta ads is now available in AWS Quick"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 5,
-      "heat": 113,
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 6,
+      "heat": 108,
       "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22411-featured-image.png",
       "imageSource": "原文 OG 封面"
     },
@@ -5510,15 +6220,15 @@
       ],
       "evidence": {
         "url": "https://www.geekpark.net/rss",
-        "fetchedAt": "2026-11-22T15:44:51.561Z",
+        "fetchedAt": "2026-11-22T18:31:16.900Z",
         "httpStatus": 200,
         "pointer": "feed item: 资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段"
       },
       "image": "https://imgslim.geekpark.net/uploads/image/file/0c/f2/0cf297d13962deb19ff3475bdf8a037f.png",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 5,
-      "heat": 77
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 6,
+      "heat": 72
     },
     {
       "id": "a01a58cea4347bee4a17e1e7467037d10080f065",
@@ -5542,15 +6252,15 @@
       ],
       "evidence": {
         "url": "https://www.geekpark.net/rss",
-        "fetchedAt": "2026-11-22T15:44:51.561Z",
+        "fetchedAt": "2026-11-22T18:31:16.900Z",
         "httpStatus": 200,
         "pointer": "feed item: 关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切"
       },
       "image": "https://imgslim.geekpark.net/uploads/image/file/87/43/8743c3e8ec6ac34f56682b7221845dac.png",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 5,
-      "heat": 122
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 6,
+      "heat": 117
     },
     {
       "id": "f713ebb1c6371eb659adf3a918198201040a49cd",
@@ -5572,13 +6282,13 @@
       ],
       "evidence": {
         "url": "https://www.marktechpost.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.280Z",
+        "fetchedAt": "2026-11-22T18:30:28.656Z",
         "httpStatus": 200,
         "pointer": "feed item: A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 5,
-      "heat": 76
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 6,
+      "heat": 72
     },
     {
       "id": "939f04b853ec9af7ea4a3ca0d6fbc87b81f366dc",
@@ -5722,13 +6432,13 @@
       ],
       "evidence": {
         "url": "https://www.ifanr.com/feed",
-        "fetchedAt": "2026-11-22T15:44:41.903Z",
+        "fetchedAt": "2026-11-22T18:30:24.267Z",
         "httpStatus": 200,
         "pointer": "feed item: Claude 的黎曼猜想证明获 Lean 官方认证，马斯克直呼惊人成就"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 6,
-      "heat": 112,
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 7,
+      "heat": 107,
       "image": "https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1795311159024-2.jpg",
       "imageSource": "原文 OG 封面"
     },
@@ -6259,15 +6969,15 @@
       ],
       "evidence": {
         "url": "https://www.techmeme.com/feed.xml",
-        "fetchedAt": "2026-11-22T15:44:45.178Z",
+        "fetchedAt": "2026-11-22T18:30:28.542Z",
         "httpStatus": 200,
         "pointer": "feed item: Matchmakers say more tech workers fear romantic espionage after the Jensen..."
       },
       "image": "https://www.techmeme.com/261121/i11.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 6,
-      "heat": 74
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 7,
+      "heat": 69
     },
     {
       "id": "3a83d0d95457d3b44c273fd1574d64bc83c567d2",
@@ -6325,6 +7035,34 @@
       "heat": 110
     },
     {
+      "id": "de5cd1a6d51dc917ab910942b7b9fe70d73cd78c",
+      "kind": "news",
+      "source": "openai",
+      "sourceLabel": "OpenAI 官方博客",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "lang": "en",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "firstSeenAt": "2026-11-22T18:30:24.971Z",
+      "score": null,
+      "scoreLabel": "",
+      "tags": [
+        "官方",
+        "模型",
+        "产品"
+      ],
+      "evidence": {
+        "url": "https://openai.com/news/rss.xml",
+        "fetchedAt": "2026-11-22T18:30:24.947Z",
+        "httpStatus": 200,
+        "pointer": "feed item: Perplexity and Intelligence"
+      },
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 1,
+      "heat": 81
+    },
+    {
       "id": "21bd1d482ae20679bdd42e3a7cc50b6c89d8ae11",
       "kind": "news",
       "source": "simonw",
@@ -6343,13 +7081,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-11-22T15:44:43.686Z",
+        "fetchedAt": "2026-11-22T18:30:26.941Z",
         "httpStatus": 200,
         "pointer": "feed item: Muru"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 6,
-      "heat": 73
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 7,
+      "heat": 68
     },
     {
       "id": "e2c2767503d4712c74948523b239072028160f63",
@@ -6430,15 +7168,15 @@
       ],
       "evidence": {
         "url": "https://www.unite.ai/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.732Z",
+        "fetchedAt": "2026-11-22T18:30:29.227Z",
         "httpStatus": 200,
         "pointer": "feed item: Together AI Discloses Prompt Leak After Coding Agent Exposed Credential"
       },
       "image": "https://www.unite.ai/wp-content/uploads/2026/11/together-ai-discloses-prompt-leak-after-coding-agent-exposed-credential.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 6,
-      "heat": 109
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 7,
+      "heat": 104
     },
     {
       "id": "44a293172db9d24c1c3115c333376488787f8fe3",
@@ -7171,13 +7909,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.068Z",
+        "fetchedAt": "2026-11-22T18:30:26.253Z",
         "httpStatus": 200,
         "pointer": "feed item: Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 7,
-      "heat": 69
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 8,
+      "heat": 64
     },
     {
       "id": "f8f80315c29903473b26f62db600e3fae2fe567c",
@@ -7200,15 +7938,15 @@
       ],
       "evidence": {
         "url": "https://www.unite.ai/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.732Z",
+        "fetchedAt": "2026-11-22T18:30:29.227Z",
         "httpStatus": 200,
         "pointer": "feed item: Lean and Mathlib Communities Certify Claude-Assisted Riemann Proof"
       },
       "image": "https://www.unite.ai/wp-content/uploads/2026/11/lean-and-mathlib-communities-certify-claude-assisted-riemann-proof.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 7,
-      "heat": 87
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 8,
+      "heat": 82
     },
     {
       "id": "3c385f3b7dd50cbb8f566c72008478c59416d43d",
@@ -7221,23 +7959,23 @@
       "lang": "en",
       "publishedAt": "2026-11-21T21:25:07.000Z",
       "firstSeenAt": "2026-11-21T23:10:16.414Z",
-      "score": 576,
-      "scoreLabel": "👍 576",
+      "score": 589,
+      "scoreLabel": "👍 589",
       "tags": [
         "视频",
         "Matt Wolfe"
       ],
       "evidence": {
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
-        "fetchedAt": "2026-11-22T15:44:34.688Z",
+        "fetchedAt": "2026-11-22T18:30:13.840Z",
         "httpStatus": 200,
         "pointer": "Atom entry yt:videoId=GFxHjrYwoFk"
       },
       "image": "https://i.ytimg.com/vi/GFxHjrYwoFk/hqdefault.jpg",
       "imageSource": "YouTube 视频封面",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 7,
-      "heat": 129
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 8,
+      "heat": 124
     },
     {
       "id": "a1abc1ba2744afcb4fa5b14bba743b9f514e6cfb",
@@ -7258,13 +7996,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.068Z",
+        "fetchedAt": "2026-11-22T18:30:26.253Z",
         "httpStatus": 200,
         "pointer": "feed item: A tale of two Nvidias"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 7,
-      "heat": 68
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 8,
+      "heat": 64
     },
     {
       "id": "47a82c0537ca02a147d56a986be3eadf906c183b",
@@ -7456,15 +8194,15 @@
       ],
       "evidence": {
         "url": "https://www.techmeme.com/feed.xml",
-        "fetchedAt": "2026-11-22T15:44:45.178Z",
+        "fetchedAt": "2026-11-22T18:30:28.542Z",
         "httpStatus": 200,
         "pointer": "feed item: Researchers used canary credentials in requests to AI routers like OpenRouter..."
       },
       "image": "https://www.techmeme.com/261121/i10.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 8,
-      "heat": 67
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 9,
+      "heat": 62
     },
     {
       "id": "30ec36ffd375d8ae7368b47a43d59110f54c516f",
@@ -7513,13 +8251,13 @@
       ],
       "evidence": {
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-        "fetchedAt": "2026-11-22T15:44:43.137Z",
+        "fetchedAt": "2026-11-22T18:30:26.333Z",
         "httpStatus": 200,
         "pointer": "feed item: The UN fails to agree on rules regulating ‘killer robots’"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 7,
-      "heat": 67
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 8,
+      "heat": 62
     },
     {
       "id": "aa247165c663084ac2a04000083823a169d32c31",
@@ -7539,13 +8277,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-11-22T15:44:45.675Z",
+        "fetchedAt": "2026-11-22T18:30:29.124Z",
         "httpStatus": 200,
         "pointer": "feed item: oovi"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 3,
-      "heat": 66
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 4,
+      "heat": 62
     },
     {
       "id": "d15d691dab6cb812c25834bbeb0b556936487745",
@@ -8305,13 +9043,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.068Z",
+        "fetchedAt": "2026-11-22T18:30:26.253Z",
         "httpStatus": 200,
         "pointer": "feed item: Here are the top AI agents that can live in your text messages"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 9,
-      "heat": 79
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 10,
+      "heat": 75
     },
     {
       "id": "2de9e4d84e4fe2b19ad8ca4844ad283efd3dd59a",
@@ -8444,15 +9182,15 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.846Z",
+        "fetchedAt": "2026-11-22T18:30:27.505Z",
         "httpStatus": 200,
         "pointer": "feed item: Nvidia researchers argue huge AI context windows are a dead end"
       },
       "image": "https://the-decoder.com/wp-content/uploads/2026/11/you-dont-need-long-context-nano-banana-pro.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 9,
-      "heat": 78
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 10,
+      "heat": 74
     },
     {
       "id": "b9a73ea0127db4aad981d3f08bd598f5edb45fd5",
@@ -8557,15 +9295,15 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.846Z",
+        "fetchedAt": "2026-11-22T18:30:27.505Z",
         "httpStatus": 200,
         "pointer": "feed item: Silicon Valley's growing obsession with AI doomsday is turning parts of the..."
       },
       "image": "https://the-decoder.com/wp-content/uploads/2026/11/buddhist_ai_sect.png",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 9,
-      "heat": 60
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 10,
+      "heat": 55
     },
     {
       "id": "4e6153d6e33482ae66ec505c2277b812b71bb77a",
@@ -8616,13 +9354,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.068Z",
+        "fetchedAt": "2026-11-22T18:30:26.253Z",
         "httpStatus": 200,
         "pointer": "feed item: Is selling an AI version of your face to this microdrama startup the future of..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 9,
-      "heat": 60
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 10,
+      "heat": 55
     },
     {
       "id": "771219a18d69cf82cbb71b4649fe464756322240",
@@ -8820,13 +9558,13 @@
       ],
       "evidence": {
         "url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
-        "fetchedAt": "2026-11-22T15:44:43.997Z",
+        "fetchedAt": "2026-11-22T18:30:27.436Z",
         "httpStatus": 200,
         "pointer": "feed item: AI may not work like the human brain after all, scientists discover"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 9,
-      "heat": 59
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 10,
+      "heat": 54
     },
     {
       "id": "162df0d8258a88af27d4345875fa42739123a26d",
@@ -8935,13 +9673,13 @@
       ],
       "evidence": {
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-        "fetchedAt": "2026-11-22T15:44:43.137Z",
+        "fetchedAt": "2026-11-22T18:30:26.333Z",
         "httpStatus": 200,
         "pointer": "feed item: Can Anthropic afford to put safety first?"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 9,
-      "heat": 76
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 10,
+      "heat": 71
     },
     {
       "id": "c3f78077f0cbfde8e842f386072cce0cb02c76d4",
@@ -9005,14 +9743,14 @@
       "kind": "repo",
       "source": "github",
       "sourceLabel": "GitHub 新仓库",
-      "title": "EL4CTEO/fast-anything · 1222 stars",
+      "title": "EL4CTEO/fast-anything · 1558 stars",
       "url": "https://github.com/EL4CTEO/fast-anything",
       "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. · Rust · #ai-agents",
       "lang": "en",
       "publishedAt": "2026-11-21T14:40:27Z",
       "firstSeenAt": "2026-11-22T10:13:19.010Z",
-      "score": 1222,
-      "scoreLabel": "1222 stars",
+      "score": 1558,
+      "scoreLabel": "1558 stars",
       "tags": [
         "开源",
         "新仓库",
@@ -9022,15 +9760,15 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-11-08%20stars%3A%3E%3D20%20topic%3Aai-agents&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-11-22T15:44:23.195Z",
+        "fetchedAt": "2026-11-22T18:29:59.437Z",
         "httpStatus": 200,
         "pointer": "search item full_name=EL4CTEO/fast-anything created=2026-11-21T14:40:27Z"
       },
       "image": "https://github.com/EL4CTEO.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.575Z",
-      "seenCount": 3,
-      "heat": 135
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 4,
+      "heat": 131
     },
     {
       "id": "2d9b5a824b143ef2f660521a7b95826071bd5f44",
@@ -9161,15 +9899,15 @@
       ],
       "evidence": {
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMLtBahI5DMrt0NPvDSoIRQ",
-        "fetchedAt": "2026-11-22T15:44:34.689Z",
+        "fetchedAt": "2026-11-22T18:30:13.976Z",
         "httpStatus": 200,
         "pointer": "Atom entry yt:videoId=INeNb0wwErg"
       },
       "image": "https://i.ytimg.com/vi/INeNb0wwErg/hqdefault.jpg",
       "imageSource": "YouTube 视频封面",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 10,
-      "heat": 74
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 11,
+      "heat": 70
     },
     {
       "id": "4d7514c7ac636e3f48901cfe3f6a22cdb5964cd5",
@@ -9465,13 +10203,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T15:44:39.111Z",
+        "fetchedAt": "2026-11-22T18:30:17.187Z",
         "httpStatus": 200,
         "pointer": "feed item: AI给乐队现场搓MV，这是黑客松还是音乐节啊"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 57
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 52
     },
     {
       "id": "b706bff3a00475eb81c2d5c780ced83b0edb381a",
@@ -9579,13 +10317,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T15:44:39.111Z",
+        "fetchedAt": "2026-11-22T18:30:17.187Z",
         "httpStatus": 200,
         "pointer": "feed item: 中国计算，走出新的登峰之路"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 57
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 52
     },
     {
       "id": "b78a9ee8a018e4adb1ace9e72a95b82e0dcae129",
@@ -9660,13 +10398,13 @@
       ],
       "evidence": {
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-        "fetchedAt": "2026-11-22T15:44:43.137Z",
+        "fetchedAt": "2026-11-22T18:30:26.333Z",
         "httpStatus": 200,
         "pointer": "feed item: Chess.com’s next move is a new hub for classic games, from mahjong to sudoku"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 10,
-      "heat": 56
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 11,
+      "heat": 52
     },
     {
       "id": "8f14c44a0ab53cd4ee5922fdfc0ae318deb983f7",
@@ -9689,15 +10427,15 @@
       ],
       "evidence": {
         "url": "https://www.unite.ai/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.732Z",
+        "fetchedAt": "2026-11-22T18:30:29.227Z",
         "httpStatus": 200,
         "pointer": "feed item: AI Governance in 2027: Accountability Moves Into the Workflow"
       },
       "image": "https://www.unite.ai/wp-content/uploads/2026/11/mira-2027-hero.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 10,
-      "heat": 56
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 11,
+      "heat": 52
     },
     {
       "id": "1d43457154cc269eb7bd206dcc4f18e6693f986b",
@@ -9748,15 +10486,15 @@
       ],
       "evidence": {
         "url": "https://www.unite.ai/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.732Z",
+        "fetchedAt": "2026-11-22T18:30:29.227Z",
         "httpStatus": 200,
         "pointer": "feed item: Anthropic Shares Drop 8.5% in Second Session During AI Selloff"
       },
       "image": "https://www.unite.ai/wp-content/uploads/2026/11/anthropic-shares-drop-8-5-in-second-session-during-ai-selloff.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 10,
-      "heat": 74
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 11,
+      "heat": 69
     },
     {
       "id": "1b9e3f87df38931e5900e2c5e62d44d6f845b5e3",
@@ -9836,14 +10574,14 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.846Z",
+        "fetchedAt": "2026-11-22T18:30:27.505Z",
         "httpStatus": 200,
         "pointer": "feed item: OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief..."
       },
       "image": "",
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 10,
-      "heat": 73
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 11,
+      "heat": 69
     },
     {
       "id": "070e878f96bc68a6767e7c8db30c3889c859aa84",
@@ -9983,15 +10721,15 @@
       ],
       "evidence": {
         "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-        "fetchedAt": "2026-11-22T15:44:43.214Z",
+        "fetchedAt": "2026-11-22T18:30:26.457Z",
         "httpStatus": 200,
         "pointer": "feed item: The Outages Are Just Getting Started"
       },
       "image": "https://media.wired.com/photos/6b00ba06fb286bb31d23be2b/master/pass/Kernel-Panic-Brace-for-More-Outages-Security.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 10,
-      "heat": 55
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 11,
+      "heat": 50
     },
     {
       "id": "76146bcb6999134c8892bd4efbd6f987fe3b84b0",
@@ -10158,13 +10896,13 @@
       ],
       "evidence": {
         "url": "https://www.marktechpost.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.280Z",
+        "fetchedAt": "2026-11-22T18:30:28.656Z",
         "httpStatus": 200,
         "pointer": "feed item: Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 10,
-      "heat": 71
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 11,
+      "heat": 67
     },
     {
       "id": "7be8e0f1d2d76ca9574de51ecf484ef38dd4175f",
@@ -10357,13 +11095,13 @@
       ],
       "evidence": {
         "url": "https://www.marktechpost.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.280Z",
+        "fetchedAt": "2026-11-22T18:30:28.656Z",
         "httpStatus": 200,
         "pointer": "feed item: OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 10,
-      "heat": 88
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 11,
+      "heat": 84
     },
     {
       "id": "a3ef3b37a15e307ac3d7ef8a599812e3886f69e6",
@@ -10439,13 +11177,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T15:44:39.111Z",
+        "fetchedAt": "2026-11-22T18:30:17.187Z",
         "httpStatus": 200,
         "pointer": "feed item: 8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 70
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 66
     },
     {
       "id": "313580747c6c3f487774873ec1172e772d376e3f",
@@ -10529,13 +11267,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T15:44:39.111Z",
+        "fetchedAt": "2026-11-22T18:30:17.187Z",
         "httpStatus": 200,
         "pointer": "feed item: 全网疯传！Grok一姐教你如何月提交3000个PR"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 52
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 47
     },
     {
       "id": "6195ea87f2282a203447aaf453655959566e285b",
@@ -10672,13 +11410,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T15:44:39.111Z",
+        "fetchedAt": "2026-11-22T18:30:17.187Z",
         "httpStatus": 200,
         "pointer": "feed item: 反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 3,
-      "heat": 97
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 4,
+      "heat": 92
     },
     {
       "id": "67c064cce4527197164b9e5ef21b652a79e8c002",
@@ -10754,15 +11492,15 @@
       ],
       "evidence": {
         "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.846Z",
+        "fetchedAt": "2026-11-22T18:30:27.505Z",
         "httpStatus": 200,
         "pointer": "feed item: Hours after Anthropic claims a Claude proof of the Riemann hypothesis,..."
       },
       "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_riemann.png",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 11,
-      "heat": 70
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 12,
+      "heat": 65
     },
     {
       "id": "4d231ad460bf3f1f450386ab4f7a0b5a19b33703",
@@ -10925,13 +11663,13 @@
       ],
       "evidence": {
         "url": "https://feeds.feedburner.com/TheHackersNews",
-        "fetchedAt": "2026-11-22T15:44:34.924Z",
+        "fetchedAt": "2026-11-22T18:30:14.271Z",
         "httpStatus": 200,
         "pointer": "RSS item: Attackers' AI Agents Found a Zero-Day in Medical-Imaging Sof"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 11,
-      "heat": 87
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 12,
+      "heat": 83
     },
     {
       "id": "4711b0fac75d9f09c35ad3cd1c44cc1327bce5a7",
@@ -10953,13 +11691,13 @@
       ],
       "evidence": {
         "url": "https://www.infoq.cn/feed",
-        "fetchedAt": "2026-11-22T15:44:40.260Z",
+        "fetchedAt": "2026-11-22T18:30:16.063Z",
         "httpStatus": 200,
         "pointer": "infoq-cn RSS item: 智能体 AI 架构：当前挑战与未来机遇"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 14,
-      "heat": 69
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 15,
+      "heat": 64
     },
     {
       "id": "e762df3868486949bb5df495c2ffcb3d75eb7bd3",
@@ -11246,13 +11984,13 @@
       ],
       "evidence": {
         "url": "https://www.infoq.cn/feed",
-        "fetchedAt": "2026-11-22T15:44:40.260Z",
+        "fetchedAt": "2026-11-22T18:30:16.063Z",
         "httpStatus": 200,
         "pointer": "infoq-cn RSS item: TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 14,
-      "heat": 67
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 15,
+      "heat": 63
     },
     {
       "id": "8a5612f7ecd20ec21e898755d9d36cb8a4466cf6",
@@ -11477,14 +12215,14 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: jingyaogong/minimind"
       },
       "image": "https://github.com/jingyaogong.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 12,
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 13,
       "heat": 159
     },
     {
@@ -11507,14 +12245,14 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: firecrawl/firecrawl"
       },
       "image": "https://github.com/firecrawl.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 12,
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 13,
       "heat": 178
     },
     {
@@ -11537,14 +12275,14 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: cathrynlavery/diagram-design"
       },
       "image": "https://github.com/cathrynlavery.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 12,
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 13,
       "heat": 178
     },
     {
@@ -11568,14 +12306,14 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: mjmirza/app-store-compliance"
       },
       "image": "https://github.com/mjmirza.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 12,
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 13,
       "heat": 178
     },
     {
@@ -11598,14 +12336,14 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: Tracer-Cloud/opensre"
       },
       "image": "https://github.com/Tracer-Cloud.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 12,
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 13,
       "heat": 175
     },
     {
@@ -11629,14 +12367,14 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: zhouxiaoka/autoclip"
       },
       "image": "https://github.com/zhouxiaoka.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 12,
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 13,
       "heat": 178
     },
     {
@@ -11660,14 +12398,14 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: elementalsouls/Claude-BugHunter"
       },
       "image": "https://github.com/elementalsouls.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 12,
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 13,
       "heat": 178
     },
     {
@@ -11804,15 +12542,15 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/datasets?sort=trendingScore&limit=15&direction=-1",
-        "fetchedAt": "2026-11-22T15:44:34.260Z",
+        "fetchedAt": "2026-11-22T18:30:12.111Z",
         "httpStatus": 200,
         "pointer": "trendingScore 排序里 id=HubLabs/HubEgo-100K"
       },
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/HubLabs/HubEgo-100K.png",
       "imageSource": "Hugging Face 官方卡片",
-      "lastSeenAt": "2026-11-22T15:44:51.575Z",
-      "seenCount": 45,
-      "heat": 77
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 46,
+      "heat": 72
     },
     {
       "id": "a06649a715a8f8f45b91a45e6ce1bff3591394c2",
@@ -12028,13 +12766,13 @@
       ],
       "evidence": {
         "url": "https://feeds.feedburner.com/TheHackersNews",
-        "fetchedAt": "2026-11-22T15:44:34.924Z",
+        "fetchedAt": "2026-11-22T18:30:14.271Z",
         "httpStatus": 200,
         "pointer": "RSS item: Signal Blocks AI Agents From Reading Private Chats via Scree"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 12,
-      "heat": 65
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 13,
+      "heat": 61
     },
     {
       "id": "df7aa872af18d203e8faf6ad527bdff09f0cabb7",
@@ -12466,7 +13204,7 @@
       "sourceLabel": "Product Hunt",
       "title": "Omi CLI",
       "url": "https://www.producthunt.com/products/omi-cli",
-      "summary": "An AI coding agent in your terminal, on 13 models Discussion | Link",
+      "summary": "AI coding agents that work while you're away. Discussion | Link",
       "lang": "en",
       "publishedAt": "2026-11-21T08:05:31.000Z",
       "firstSeenAt": "2026-11-22T10:13:42.543Z",
@@ -12474,18 +13212,17 @@
       "scoreLabel": "",
       "tags": [
         "产品",
-        "模型",
         "智能体"
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-11-22T15:44:45.675Z",
+        "fetchedAt": "2026-11-22T18:30:29.124Z",
         "httpStatus": 200,
         "pointer": "feed item: Omi CLI"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 3,
-      "heat": 64
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 4,
+      "heat": 59
     },
     {
       "id": "d0c034463c87c72a2763b90443d1e76fe85c05bc",
@@ -12806,14 +13543,14 @@
       "kind": "repo",
       "source": "github",
       "sourceLabel": "GitHub 新仓库",
-      "title": "w01fb0ss/PiBot · 323 stars",
+      "title": "w01fb0ss/PiBot · 346 stars",
       "url": "https://github.com/w01fb0ss/PiBot",
       "summary": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi. · TypeScript · #agent",
       "lang": "en",
       "publishedAt": "2026-11-21T06:54:24Z",
       "firstSeenAt": "2026-11-21T14:53:33.450Z",
-      "score": 323,
-      "scoreLabel": "323 stars",
+      "score": 346,
+      "scoreLabel": "346 stars",
       "tags": [
         "开源",
         "新仓库",
@@ -12823,15 +13560,15 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-11-08%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-11-22T15:44:24.583Z",
+        "fetchedAt": "2026-11-22T18:30:00.864Z",
         "httpStatus": 200,
         "pointer": "search item full_name=w01fb0ss/PiBot created=2026-11-21T06:54:24Z"
       },
       "image": "https://github.com/w01fb0ss.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.575Z",
-      "seenCount": 10,
-      "heat": 135
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 11,
+      "heat": 131
     },
     {
       "id": "3c36a9425564478747f95ae86b12f78bc7b9eb6e",
@@ -12936,13 +13673,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T15:44:39.111Z",
+        "fetchedAt": "2026-11-22T18:30:17.187Z",
         "httpStatus": 200,
         "pointer": "feed item: GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 12,
-      "heat": 62
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 13,
+      "heat": 57
     },
     {
       "id": "4cb075a5562c5e7f35ae87290fcd2ab5d38728b4",
@@ -12965,13 +13702,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T15:44:39.111Z",
+        "fetchedAt": "2026-11-22T18:30:17.187Z",
         "httpStatus": 200,
         "pointer": "feed item: 刚刚，DeepSeek V1作者创业项目曝光：开源Agent"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 12,
-      "heat": 89
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 13,
+      "heat": 84
     },
     {
       "id": "df78bdf65cd8825f9559a733caad91943e2743dc",
@@ -13022,13 +13759,13 @@
       ],
       "evidence": {
         "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T15:44:39.111Z",
+        "fetchedAt": "2026-11-22T18:30:17.187Z",
         "httpStatus": 200,
         "pointer": "feed item: 姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 12,
-      "heat": 44
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 13,
+      "heat": 39
     },
     {
       "id": "f430b1b5588de936c6712b1ba134ef1cfea12ab1",
@@ -13205,6 +13942,38 @@
       "heat": 111,
       "image": "https://cdn.v2ex.com/avatar/eaa3/241f/651354_xlarge.png?m=1782440246",
       "imageSource": "原文 OG 封面"
+    },
+    {
+      "id": "8543388e09776750013bca359af9d67d03b0a679",
+      "kind": "repo",
+      "source": "github",
+      "sourceLabel": "GitHub 新仓库",
+      "title": "gogoymh/git-ontology-agent · 22 stars",
+      "url": "https://github.com/gogoymh/git-ontology-agent",
+      "summary": "Talk to your agent mid-task: every request is a git branch, an ontology decides what to redo and how to merge. OpenAI, Anthropic, Gemini, xAI, Meta, OpenRouter + Typesafe Jev, OpenAI, Gemini, Cloudflare decision models. · Python · #agent",
+      "lang": "en",
+      "publishedAt": "2026-11-21T06:10:03Z",
+      "firstSeenAt": "2026-11-22T18:30:00.865Z",
+      "score": 22,
+      "scoreLabel": "22 stars",
+      "tags": [
+        "开源",
+        "新仓库",
+        "agent",
+        "anthropic",
+        "模型"
+      ],
+      "evidence": {
+        "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-11-08%20stars%3A%3E%3D20%20topic%3Aagent&sort=stars&order=desc&per_page=15",
+        "fetchedAt": "2026-11-22T18:30:00.864Z",
+        "httpStatus": 200,
+        "pointer": "search item full_name=gogoymh/git-ontology-agent created=2026-11-21T06:10:03Z"
+      },
+      "image": "https://github.com/gogoymh.png?size=96",
+      "imageSource": "GitHub 仓库头像",
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 1,
+      "heat": 116
     },
     {
       "id": "64721432a5b594289b8da2bb92891bdeff97462a",
@@ -13761,13 +14530,13 @@
       ],
       "evidence": {
         "url": "https://www.latent.space/feed",
-        "fetchedAt": "2026-11-22T15:44:44.154Z",
+        "fetchedAt": "2026-11-22T18:30:26.841Z",
         "httpStatus": 200,
         "pointer": "feed item: [AINews] Riemann Hypothesis proved...twice independently"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 13,
-      "heat": 59
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 14,
+      "heat": 54
     },
     {
       "id": "9c75314f734addc862cfb3b0a3a77c590518ed3b",
@@ -14021,13 +14790,13 @@
       ],
       "evidence": {
         "url": "https://www.marktechpost.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.280Z",
+        "fetchedAt": "2026-11-22T18:30:28.656Z",
         "httpStatus": 200,
         "pointer": "feed item: Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 13,
-      "heat": 57
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 14,
+      "heat": 53
     },
     {
       "id": "440aee46fadc5d235d0594e7c25f0773da14a738",
@@ -14267,23 +15036,23 @@
       "lang": "en",
       "publishedAt": "2026-11-21T03:42:44.000Z",
       "firstSeenAt": "2026-11-21T03:50:48.101Z",
-      "score": 275,
-      "scoreLabel": "👍 275",
+      "score": 278,
+      "scoreLabel": "👍 278",
       "tags": [
         "视频",
         "Matt Wolfe"
       ],
       "evidence": {
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
-        "fetchedAt": "2026-11-22T15:44:34.688Z",
+        "fetchedAt": "2026-11-22T18:30:13.840Z",
         "httpStatus": 200,
         "pointer": "Atom entry yt:videoId=7_pMINxEEPU"
       },
       "image": "https://i.ytimg.com/vi/7_pMINxEEPU/hqdefault.jpg",
       "imageSource": "YouTube 视频封面",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 14,
-      "heat": 92
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 15,
+      "heat": 88
     },
     {
       "id": "1bec393262a4d08d26d1e66d8fee0785ea733aa2",
@@ -14447,13 +15216,13 @@
       ],
       "evidence": {
         "url": "https://www.ifanr.com/feed",
-        "fetchedAt": "2026-11-22T15:44:41.903Z",
+        "fetchedAt": "2026-11-22T18:30:24.267Z",
         "httpStatus": 200,
         "pointer": "feed item: 美股一夜崩盘，AI 泡沫真要破了？"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 11,
-      "heat": 38
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 12,
+      "heat": 34
     },
     {
       "id": "041c6cb796dab77b08776dd0639ebe35771acaad",
@@ -14812,15 +15581,15 @@
       ],
       "evidence": {
         "url": "https://www.leiphone.com/feed",
-        "fetchedAt": "2026-11-22T15:44:43.011Z",
+        "fetchedAt": "2026-11-22T18:30:27.193Z",
         "httpStatus": 200,
         "pointer": "feed item: 当 Kling Image 4.0 自己出设计方案，生图的门槛又变了！"
       },
       "image": "https://static.leiphone.com/uploads/new/images/20261121/6b01088df1c07.png?imageMogr2/quality/90",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 13,
-      "heat": 74
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 14,
+      "heat": 69
     },
     {
       "id": "cb9d044195ff7e7fbd63be0796255cf55ab9e8c2",
@@ -15541,13 +16310,13 @@
       ],
       "evidence": {
         "url": "https://www.ifanr.com/feed",
-        "fetchedAt": "2026-11-22T15:44:41.903Z",
+        "fetchedAt": "2026-11-22T18:30:24.267Z",
         "httpStatus": 200,
         "pointer": "feed item: 刚刚，曝黎曼猜想被证明，Claude 立大功"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 11,
-      "heat": 71
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 12,
+      "heat": 66
     },
     {
       "id": "05be448b11c57058bdb329bf5a6c094af94d9fec",
@@ -15628,13 +16397,13 @@
       ],
       "evidence": {
         "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-        "fetchedAt": "2026-11-22T15:44:44.422Z",
+        "fetchedAt": "2026-11-22T18:30:27.720Z",
         "httpStatus": 200,
         "pointer": "feed item: New in AWS Quick: More capable flows, an updated web experience, and agents..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 14,
-      "heat": 52
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 15,
+      "heat": 48
     },
     {
       "id": "6ceb445e74d854766777ec0d3d84d6452b18a314",
@@ -16066,13 +16835,13 @@
       ],
       "evidence": {
         "url": "https://www.ifanr.com/feed",
-        "fetchedAt": "2026-11-22T15:44:41.903Z",
+        "fetchedAt": "2026-11-22T18:30:24.267Z",
         "httpStatus": 200,
         "pointer": "feed item: 早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 15,
-      "heat": 51
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 16,
+      "heat": 46
     },
     {
       "id": "e25fbc6a5af135e6471af535118e605ca9327f1f",
@@ -16179,15 +16948,15 @@
       ],
       "evidence": {
         "url": "https://www.geekpark.net/rss",
-        "fetchedAt": "2026-11-22T15:44:51.561Z",
+        "fetchedAt": "2026-11-22T18:31:16.900Z",
         "httpStatus": 200,
         "pointer": "feed item: 林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机"
       },
       "image": "https://imgslim.geekpark.net/uploads/image/file/97/c9/97c9699ff88acd605de153c7a7235c94.png",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 15,
-      "heat": 69
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 16,
+      "heat": 64
     },
     {
       "id": "e1b0c4ede4d1eb3f69193195ce39e3b721bfae4e",
@@ -16211,13 +16980,13 @@
       ],
       "evidence": {
         "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-        "fetchedAt": "2026-11-22T15:44:44.422Z",
+        "fetchedAt": "2026-11-22T18:30:27.720Z",
         "httpStatus": 200,
         "pointer": "feed item: Cut self-hosted LLM cost and latency with the distributed KV caching agent skill"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 15,
-      "heat": 69
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 16,
+      "heat": 64
     },
     {
       "id": "22160da58df9d5edd1b0a52d167faaf2eb675625",
@@ -16382,13 +17151,13 @@
       ],
       "evidence": {
         "url": "https://www.together.ai/blog/rss.xml",
-        "fetchedAt": "2026-11-22T15:44:45.682Z",
+        "fetchedAt": "2026-11-22T18:30:29.010Z",
         "httpStatus": 200,
         "pointer": "feed item: Security event: Prompt leakage for requests in June and July of 2026"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 6,
-      "heat": 50
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 7,
+      "heat": 46
     },
     {
       "id": "3ac87bcc9a31507e4e83a66481261a5e8949a4f4",
@@ -16411,13 +17180,13 @@
       ],
       "evidence": {
         "url": "https://www.together.ai/blog/rss.xml",
-        "fetchedAt": "2026-11-22T15:44:45.682Z",
+        "fetchedAt": "2026-11-22T18:30:29.010Z",
         "httpStatus": 200,
         "pointer": "feed item: Qwen4 Max is live on Together AI"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 7,
-      "heat": 50
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 8,
+      "heat": 46
     },
     {
       "id": "c56e088e924cdb20dda8d1821becf9ad38ecf69e",
@@ -16525,15 +17294,15 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-11-08%20stars%3A%3E%3D20%20topic%3Arag&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-11-22T15:44:24.095Z",
+        "fetchedAt": "2026-11-22T18:30:00.437Z",
         "httpStatus": 200,
         "pointer": "search item full_name=bluesky-social/diderot created=2026-11-20T23:39:20Z"
       },
       "image": "https://github.com/bluesky-social.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.575Z",
-      "seenCount": 12,
-      "heat": 105
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 13,
+      "heat": 100
     },
     {
       "id": "d441a6a385dc8218c2a330ff690c2284028336be",
@@ -16691,15 +17460,15 @@
       ],
       "evidence": {
         "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-        "fetchedAt": "2026-11-22T15:44:43.214Z",
+        "fetchedAt": "2026-11-22T18:30:26.457Z",
         "httpStatus": 200,
         "pointer": "feed item: Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop"
       },
       "image": "https://media.wired.com/photos/6b008734209518b1b255d3f5/master/pass/Law-Enforcement-GTA-Recruitment-Culture-Lucia_Caminos_05.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 15,
-      "heat": 31
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 16,
+      "heat": 27
     },
     {
       "id": "558961e1446d2bed2633a4b00f1dad0c0c38657f",
@@ -16838,13 +17607,13 @@
       ],
       "evidence": {
         "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-        "fetchedAt": "2026-11-22T15:44:44.422Z",
+        "fetchedAt": "2026-11-22T18:30:27.720Z",
         "httpStatus": 200,
         "pointer": "feed item: Introducing managed cluster extensions for observability and user management..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 15,
-      "heat": 31
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 16,
+      "heat": 26
     },
     {
       "id": "adc039a1fcfeef3c29d6979eea025bc2e32bbaf5",
@@ -17041,13 +17810,13 @@
       ],
       "evidence": {
         "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-        "fetchedAt": "2026-11-22T15:44:44.422Z",
+        "fetchedAt": "2026-11-22T18:30:27.720Z",
         "httpStatus": 200,
         "pointer": "feed item: Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 15,
-      "heat": 48
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 16,
+      "heat": 43
     },
     {
       "id": "8f002fd37cf385a869a4557a6457058d62f082d1",
@@ -17701,15 +18470,15 @@
       ],
       "evidence": {
         "url": "https://www.latent.space/feed",
-        "fetchedAt": "2026-11-22T15:44:44.154Z",
+        "fetchedAt": "2026-11-22T18:30:26.841Z",
         "httpStatus": 200,
         "pointer": "feed item: The War Against Slop and an Emerging Weapon to Fight it: Formal Verification"
       },
       "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/b6f560cd-a37a-4d62-8d6b-da5b59cf4790/formal-verification-feature.png?t=1795207886",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 16,
-      "heat": 28
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 17,
+      "heat": 23
     },
     {
       "id": "855809199f9634a629cc78e6e2e3258bdcb23ddb",
@@ -17878,15 +18647,15 @@
       ],
       "evidence": {
         "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
-        "fetchedAt": "2026-11-22T15:44:43.287Z",
+        "fetchedAt": "2026-11-22T18:30:26.557Z",
         "httpStatus": 200,
         "pointer": "feed item: Researcher plants 2m canaries into the AI supply chain. A privacy disaster..."
       },
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-500x500.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 16,
-      "heat": 27
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 17,
+      "heat": 23
     },
     {
       "id": "31331a4a9c1e4166ec01cc269706792b928d3b8d",
@@ -18015,12 +18784,12 @@
       "sourceLabel": "HF 热门模型",
       "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
       "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-      "summary": "下载 129.7k 赞 397 趋势 247.1 · image-text-to-text",
+      "summary": "下载 129.7k 赞 428 趋势 265.3 · image-text-to-text",
       "lang": "en",
       "publishedAt": "2026-11-20T20:42:23.000Z",
       "firstSeenAt": "2026-11-21T20:24:44.293Z",
-      "score": 247.1,
-      "scoreLabel": "趋势 247.1",
+      "score": 265.3,
+      "scoreLabel": "趋势 265.3",
       "tags": [
         "模型",
         "model",
@@ -18029,15 +18798,15 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/models?sort=trendingScore&limit=25&direction=-1",
-        "fetchedAt": "2026-11-22T15:44:34.257Z",
+        "fetchedAt": "2026-11-22T18:30:12.116Z",
         "httpStatus": 200,
         "pointer": "trendingScore 排序里 id=AtomicChat/Inkling-2-Mini-Uncensored-GGUF"
       },
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/AtomicChat/Inkling-2-Mini-Uncensored-GGUF.png",
       "imageSource": "Hugging Face 官方卡片",
-      "lastSeenAt": "2026-11-22T15:44:51.575Z",
-      "seenCount": 8,
-      "heat": 80
+      "lastSeenAt": "2026-11-22T18:31:16.911Z",
+      "seenCount": 9,
+      "heat": 75
     },
     {
       "id": "dc26abff63441211ec8ae74a02e6fa4bd743c3d2",
@@ -18058,13 +18827,13 @@
       ],
       "evidence": {
         "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-        "fetchedAt": "2026-11-22T15:44:44.422Z",
+        "fetchedAt": "2026-11-22T18:30:27.720Z",
         "httpStatus": 200,
         "pointer": "feed item: How Standard Bank Group automates AI risk assessment for generative AI"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 17,
-      "heat": 27
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 18,
+      "heat": 22
     },
     {
       "id": "274a1dff73836cc94b7993d3cb3c87fa8dfbc251",
@@ -18204,13 +18973,13 @@
       ],
       "evidence": {
         "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-        "fetchedAt": "2026-11-22T15:44:44.422Z",
+        "fetchedAt": "2026-11-22T18:30:27.720Z",
         "httpStatus": 200,
         "pointer": "feed item: Announcing Amazon Textract Insights: Verifiable generative AI for documents"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 16,
-      "heat": 26
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 17,
+      "heat": 22
     },
     {
       "id": "e682f921edddeaf4f3df4af5f4b96fbac1abbd66",
@@ -18379,13 +19148,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-11-22T15:44:45.675Z",
+        "fetchedAt": "2026-11-22T18:30:29.124Z",
         "httpStatus": 200,
         "pointer": "feed item: WaitFeed"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.581Z",
-      "seenCount": 11,
-      "heat": 44
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 12,
+      "heat": 39
     },
     {
       "id": "59fa562eab8a38b3aa6a08d6be6e26c2946c44ed",
@@ -18406,13 +19175,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.068Z",
+        "fetchedAt": "2026-11-22T18:30:26.253Z",
         "httpStatus": 200,
         "pointer": "feed item: Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 16,
-      "heat": 25
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 17,
+      "heat": 21
     },
     {
       "id": "5c429be098263f3046134c9a7adf0aa3c9ebfbd2",
@@ -18433,15 +19202,15 @@
       ],
       "evidence": {
         "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-        "fetchedAt": "2026-11-22T15:44:43.214Z",
+        "fetchedAt": "2026-11-22T18:30:26.457Z",
         "httpStatus": 200,
         "pointer": "feed item: Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation"
       },
       "image": "https://media.wired.com/photos/6b007b4f6873ef9746910ee1/master/pass/GettyImages-2298479100.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 16,
-      "heat": 25
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 17,
+      "heat": 21
     },
     {
       "id": "38136cf0c41628e4f1d12bea3a833b7148a334da",
@@ -18493,13 +19262,13 @@
       ],
       "evidence": {
         "url": "https://www.producthunt.com/feed",
-        "fetchedAt": "2026-11-22T12:59:14.842Z",
+        "fetchedAt": "2026-11-22T18:30:29.124Z",
         "httpStatus": 200,
         "pointer": "feed item: Stitch Loop"
       },
-      "lastSeenAt": "2026-11-22T12:59:16.723Z",
-      "seenCount": 10,
-      "heat": 48
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 11,
+      "heat": 38
     },
     {
       "id": "18db412f2371078e2d4834dcafe9830d55b4b642",
@@ -18547,13 +19316,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.068Z",
+        "fetchedAt": "2026-11-22T18:30:26.253Z",
         "httpStatus": 200,
         "pointer": "feed item: AI claimed a solution to the 167-year-old Riemann hypothesis — and a human..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 17,
-      "heat": 25
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 18,
+      "heat": 20
     },
     {
       "id": "0deb2c120753d60a53a7da4a7f2e69ee04e27b4c",
@@ -18627,13 +19396,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-11-22T15:44:43.686Z",
+        "fetchedAt": "2026-11-22T18:30:26.941Z",
         "httpStatus": 200,
         "pointer": "feed item: Quoting Ravi Vakil"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 17,
-      "heat": 25
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 18,
+      "heat": 20
     },
     {
       "id": "c277fe07dd8b7f149c928e5b1e5040f60fdb0b76",
@@ -19072,8 +19841,8 @@
       "lang": "en",
       "publishedAt": "2026-11-20T19:00:16.000Z",
       "firstSeenAt": "2026-11-20T19:33:57.307Z",
-      "score": 1768,
-      "scoreLabel": "👍 1768",
+      "score": 1800,
+      "scoreLabel": "👍 1800",
       "tags": [
         "视频",
         "Matt Wolfe",
@@ -19083,15 +19852,15 @@
       ],
       "evidence": {
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
-        "fetchedAt": "2026-11-22T15:44:34.688Z",
+        "fetchedAt": "2026-11-22T18:30:13.840Z",
         "httpStatus": 200,
         "pointer": "Atom entry yt:videoId=wqNIzUmNt9M"
       },
       "image": "https://i.ytimg.com/vi/wqNIzUmNt9M/hqdefault.jpg",
       "imageSource": "YouTube 视频封面",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 17,
-      "heat": 129
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 18,
+      "heat": 124
     },
     {
       "id": "0c398cb01d455555807bc4a70d795d91dc7ee724",
@@ -19229,13 +19998,13 @@
       ],
       "evidence": {
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-        "fetchedAt": "2026-11-22T15:44:43.137Z",
+        "fetchedAt": "2026-11-22T18:30:26.333Z",
         "httpStatus": 200,
         "pointer": "feed item: Trump threatens ‘tremendous tax’ for moving AI data centers outside the US"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 17,
-      "heat": 24
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 18,
+      "heat": 19
     },
     {
       "id": "d1ace1f0c5c5e8253fc827811f0ac8cc5f809da2",
@@ -19341,13 +20110,13 @@
       ],
       "evidence": {
         "url": "https://www.infoq.cn/feed",
-        "fetchedAt": "2026-11-22T15:44:40.260Z",
+        "fetchedAt": "2026-11-22T18:30:16.063Z",
         "httpStatus": 200,
         "pointer": "infoq-cn RSS item: AI 来了，团队究竟怎么变？"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 20,
-      "heat": 23
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 21,
+      "heat": 19
     },
     {
       "id": "caae41f58c62487a6610cf3d593010647527fe67",
@@ -19569,13 +20338,13 @@
       ],
       "evidence": {
         "url": "https://www.infoq.cn/feed",
-        "fetchedAt": "2026-11-22T15:44:40.260Z",
+        "fetchedAt": "2026-11-22T18:30:16.063Z",
         "httpStatus": 200,
         "pointer": "infoq-cn RSS item: Agent 上岗，你敢放手吗？"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 20,
-      "heat": 41
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 21,
+      "heat": 36
     },
     {
       "id": "1993e3871a4476a3d5fe743ffc296c1ba55af61f",
@@ -19597,13 +20366,13 @@
       ],
       "evidence": {
         "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-        "fetchedAt": "2026-11-22T15:44:44.422Z",
+        "fetchedAt": "2026-11-22T18:30:27.720Z",
         "httpStatus": 200,
         "pointer": "feed item: Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 18,
-      "heat": 23
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 19,
+      "heat": 18
     },
     {
       "id": "2fdd7a0916ab501f20694f1310c1fad9ca5c82af",
@@ -19625,13 +20394,13 @@
       ],
       "evidence": {
         "url": "https://www.technologyreview.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.579Z",
+        "fetchedAt": "2026-11-22T18:30:26.632Z",
         "httpStatus": 200,
         "pointer": "feed item: The most misunderstood graph in AI just got a major update"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 17,
-      "heat": 23
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 18,
+      "heat": 18
     },
     {
       "id": "86912eab8db7a55f9d4a07b5c907568e8ba4eec4",
@@ -19715,13 +20484,13 @@
       ],
       "evidence": {
         "url": "https://www.marktechpost.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.280Z",
+        "fetchedAt": "2026-11-22T18:30:28.656Z",
         "httpStatus": 200,
         "pointer": "feed item: RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 17,
-      "heat": 58
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 18,
+      "heat": 53
     },
     {
       "id": "e43240c9ae66c70f1e069e9fae4e1d66d263d917",
@@ -19741,13 +20510,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.068Z",
+        "fetchedAt": "2026-11-22T18:30:26.253Z",
         "httpStatus": 200,
         "pointer": "feed item: Chips can survive the space environment — can their financing?"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 17,
-      "heat": 22
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 18,
+      "heat": 17
     },
     {
       "id": "9f105e706e43cd3710fe8942a3e37211e3f399f0",
@@ -20008,13 +20777,13 @@
       ],
       "evidence": {
         "url": "https://www.infoq.cn/feed",
-        "fetchedAt": "2026-11-22T15:44:40.260Z",
+        "fetchedAt": "2026-11-22T18:30:16.063Z",
         "httpStatus": 200,
         "pointer": "infoq-cn RSS item: AI 漫剧不缺作品，缺什么？｜QLab直播"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 20,
-      "heat": 21
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 21,
+      "heat": 16
     },
     {
       "id": "41ef67f836e5ab029f0607b1d8693047b90e9486",
@@ -20154,13 +20923,13 @@
       ],
       "evidence": {
         "url": "https://feeds.feedburner.com/TheHackersNews",
-        "fetchedAt": "2026-11-22T15:44:34.924Z",
+        "fetchedAt": "2026-11-22T18:30:14.271Z",
         "httpStatus": 200,
         "pointer": "RSS item: Bazuka Android Malware Uses Fake Screen Overlays to Hide Cre"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 17,
-      "heat": 20
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 18,
+      "heat": 16
     },
     {
       "id": "6e830587368a56ca5c8a195d63dc32b00019a483",
@@ -20243,14 +21012,14 @@
       ],
       "evidence": {
         "url": "https://github.com/trending?since=daily",
-        "fetchedAt": "2026-11-22T15:44:34.270Z",
+        "fetchedAt": "2026-11-22T18:30:13.256Z",
         "httpStatus": 200,
         "pointer": "trending article: google-labs-code/stitch-skills"
       },
       "image": "https://github.com/google-labs-code.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 18,
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 19,
       "heat": 205
     },
     {
@@ -20448,13 +21217,13 @@
       ],
       "evidence": {
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-        "fetchedAt": "2026-11-22T15:44:43.137Z",
+        "fetchedAt": "2026-11-22T18:30:26.333Z",
         "httpStatus": 200,
         "pointer": "feed item: Anthropic mathematician claims to have solved prestigious Millennium Prize..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 18,
-      "heat": 38
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 19,
+      "heat": 33
     },
     {
       "id": "26b5ffb13c0db540e68b59f743b93b72e5392afa",
@@ -20505,13 +21274,13 @@
       ],
       "evidence": {
         "url": "https://simonwillison.net/atom/everything/",
-        "fetchedAt": "2026-11-22T15:44:43.686Z",
+        "fetchedAt": "2026-11-22T18:30:26.941Z",
         "httpStatus": 200,
         "pointer": "feed item: Quoting Levent Alpöge"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 18,
-      "heat": 38
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 19,
+      "heat": 33
     },
     {
       "id": "340619b74039956d6f0fd215fe8bf4ca0ebc9e55",
@@ -21175,6 +21944,36 @@
       "heat": 89
     },
     {
+      "id": "52f1446c6bc9787d2eef6a6ffa65112fbd8f50a3",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "NEWS FLASH: UBS Global Equities CIO Says AI Agents Now Consume 75% of AI Tokens. What Does That Mean for Utah’s Businesses, Executives,...",
+      "url": "https://pubeurope.com/@byteseu/117649504245102257",
+      "summary": "NEWS FLASH: UBS Global Equities CIO Says AI Agents Now Consume 75% of AI Tokens. What Does That Mean for Utah’s Businesses, Executives, and Investors? https://www. byteseu.com/2534042/ # AI # ArtificialIntelligence — @byteseu@pubeurope.com（Bytes Europe） · 0 赞 · 0 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-20T15:36:08.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 0,
+      "scoreLabel": "0 赞 · 0 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "智能体"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661403002066086"
+      },
+      "image": "https://cdn.masto.host/sigmoidsocial/cache/media_attachments/files/117/661/402/958/093/220/small/71e05ca9e9e06ba6.png",
+      "imageSource": "Mastodon 帖子配图",
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 43
+    },
+    {
       "id": "1565aa1dbeea59d962e04e0dcb2039deabeb5f88",
       "kind": "discussion",
       "source": "community",
@@ -21425,13 +22224,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.068Z",
+        "fetchedAt": "2026-11-22T18:30:26.253Z",
         "httpStatus": 200,
         "pointer": "feed item: The fallout from Nvidia’s Jensen Huang scandal continues"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 18,
-      "heat": 17
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 19,
+      "heat": 12
     },
     {
       "id": "05d97431e50b773a66ed682008fb6d4e46d8ae88",
@@ -21490,6 +22289,36 @@
       "heat": 87
     },
     {
+      "id": "211fc1e11f608a94211103e14644da45946d336f",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "https://www. europesays.com/3388537/ Broadcom gives its AI-building grad a senior chaperone, not unlimited tokens # AgenticAI #...",
+      "url": "https://pubeurope.com/@europesays/117649303362070226",
+      "summary": "https://www. europesays.com/3388537/ Broadcom gives its AI-building grad a senior chaperone, not unlimited tokens # AgenticAI # AgenticArtificialIntelligence # AI # ArtificialIntelligence — @europesays@pubeurope.com（Europe Says） · 0 赞 · 0 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-20T14:45:03.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 0,
+      "scoreLabel": "0 赞 · 0 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "智能体"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661142652609593"
+      },
+      "image": "https://cdn.masto.host/sigmoidsocial/cache/media_attachments/files/117/661/142/594/740/599/small/5871fc1b436b30bf.png",
+      "imageSource": "Mastodon 帖子配图",
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 42
+    },
+    {
       "id": "d3eca65cd8fed2202f9b7090d435bdeb75080bee",
       "kind": "news",
       "source": "marktechpost",
@@ -21510,13 +22339,43 @@
       ],
       "evidence": {
         "url": "https://www.marktechpost.com/feed/",
-        "fetchedAt": "2026-11-22T15:44:45.280Z",
+        "fetchedAt": "2026-11-22T18:30:28.656Z",
         "httpStatus": 200,
         "pointer": "feed item: NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model..."
       },
-      "lastSeenAt": "2026-11-22T15:44:51.580Z",
-      "seenCount": 18,
-      "heat": 35
+      "lastSeenAt": "2026-11-22T18:31:16.916Z",
+      "seenCount": 19,
+      "heat": 30
+    },
+    {
+      "id": "ce2d969248d0016bc3b92ca071b7d56da4e4aab3",
+      "kind": "discussion",
+      "source": "mastodon",
+      "sourceLabel": "Mastodon（联邦宇宙）",
+      "title": "https://www. europesays.com/3388535/ Danaher Partners with Microsoft on Agentic Lab Instrument Platform – Unite.AI # AgenticAI #...",
+      "url": "https://pubeurope.com/@europesays/117649299423675546",
+      "summary": "https://www. europesays.com/3388535/ Danaher Partners with Microsoft on Agentic Lab Instrument Platform – Unite.AI # AgenticAI # AgenticArtificialIntelligence # AI # ArtificialIntelligence — @europesays@pubeurope.com（Europe Says） · 0 赞 · 0 转发 · 0 回复",
+      "lang": "en",
+      "publishedAt": "2026-11-20T14:44:03.000Z",
+      "firstSeenAt": "2026-11-22T18:30:21.012Z",
+      "score": 0,
+      "scoreLabel": "0 赞 · 0 转发",
+      "tags": [
+        "社交",
+        "社区",
+        "智能体"
+      ],
+      "evidence": {
+        "url": "https://sigmoid.social/api/v1/timelines/tag/ai?limit=20",
+        "fetchedAt": "2026-11-22T18:30:21.011Z",
+        "httpStatus": 200,
+        "pointer": "api/v1/timelines/tag/ai · status id=117661139097062377"
+      },
+      "image": "https://cdn.masto.host/sigmoidsocial/cache/media_attachments/files/117/661/139/061/026/131/small/385340cc158506bb.jpeg",
+      "imageSource": "Mastodon 帖子配图",
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 1,
+      "heat": 42
     },
     {
       "id": "f06264d843f54f8b8a7aa3217447acaf5eb7a3f7",
@@ -21608,14 +22467,14 @@
       "kind": "repo",
       "source": "github",
       "sourceLabel": "GitHub 新仓库",
-      "title": "han938/open-webui-private-ai-desk · 151 stars",
+      "title": "han938/open-webui-private-ai-desk · 149 stars",
       "url": "https://github.com/han938/open-webui-private-ai-desk",
       "summary": "Chat with private AI models locally, powered by Open Webui Private Ai Desk. · TypeScript · #rag",
       "lang": "en",
       "publishedAt": "2026-11-20T14:25:27Z",
       "firstSeenAt": "2026-11-20T16:47:54.867Z",
-      "score": 151,
-      "scoreLabel": "151 stars",
+      "score": 149,
+      "scoreLabel": "149 stars",
       "tags": [
         "开源",
         "新仓库",
@@ -21625,15 +22484,15 @@
       ],
       "evidence": {
         "url": "https://api.github.com/search/repositories?q=created%3A%3E2026-11-08%20stars%3A%3E%3D20%20topic%3Arag&sort=stars&order=desc&per_page=15",
-        "fetchedAt": "2026-11-22T15:44:24.095Z",
+        "fetchedAt": "2026-11-22T18:30:00.437Z",
         "httpStatus": 200,
         "pointer": "search item full_name=han938/open-webui-private-ai-desk created=2026-11-20T14:25:27Z"
       },
       "image": "https://github.com/han938.png?size=96",
       "imageSource": "GitHub 仓库头像",
-      "lastSeenAt": "2026-11-22T15:44:51.575Z",
-      "seenCount": 18,
-      "heat": 82
+      "lastSeenAt": "2026-11-22T18:31:16.912Z",
+      "seenCount": 19,
+      "heat": 77
     },
     {
       "id": "a9033e6dc11c5107748141826bb31042a07fe6c7",
@@ -21770,13 +22629,13 @@
       ],
       "evidence": {
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-        "fetchedAt": "2026-11-22T15:44:43.137Z",
+        "fetchedAt": "2026-11-22T18:30:26.333Z",
         "httpStatus": 200,
         "pointer": "feed item: The week everything fell apart"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 18,
-      "heat": 16
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 19,
+      "heat": 11
     },
     {
       "id": "76b572e9d01704145d194b4eec9ad99876468745",
@@ -21825,13 +22684,13 @@
       ],
       "evidence": {
         "url": "https://www.infoq.cn/feed",
-        "fetchedAt": "2026-11-22T15:44:40.260Z",
+        "fetchedAt": "2026-11-22T18:30:16.063Z",
         "httpStatus": 200,
         "pointer": "infoq-cn RSS item: Grab 通过安全策略应对 AI 生成代码变更激增，提升移动端 App 稳定性"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 21,
-      "heat": 33
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 22,
+      "heat": 29
     },
     {
       "id": "912ce9389b493fc3fb3bcb6943c80b85948f45bb",
@@ -21851,13 +22710,13 @@
       ],
       "evidence": {
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "fetchedAt": "2026-11-22T15:44:43.068Z",
+        "fetchedAt": "2026-11-22T18:30:26.253Z",
         "httpStatus": 200,
         "pointer": "feed item: Six AI-powered gadgets that could make your home office smarter"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 19,
-      "heat": 15
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 20,
+      "heat": 11
     },
     {
       "id": "d88b5c0fca9f6a6b693f52fc81d1c6ab0c2e2cb1",
@@ -22669,12 +23528,12 @@
       "sourceLabel": "HF 热门模型",
       "title": "unsloth/Inkling-2-Mini-GGUF",
       "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-      "summary": "下载 806.0k 赞 796 趋势 737 · image-text-to-text",
+      "summary": "下载 806.0k 赞 820 趋势 759 · image-text-to-text",
       "lang": "en",
       "publishedAt": "2026-11-20T13:09:48.000Z",
       "firstSeenAt": "2026-11-20T22:19:35.872Z",
-      "score": 737,
-      "scoreLabel": "趋势 737",
+      "score": 759,
+      "scoreLabel": "趋势 759",
       "tags": [
         "模型",
         "model",
@@ -22683,15 +23542,15 @@
       ],
       "evidence": {
         "url": "https://huggingface.co/api/models?sort=trendingScore&limit=25&direction=-1",
-        "fetchedAt": "2026-11-22T15:44:34.257Z",
+        "fetchedAt": "2026-11-22T18:30:12.116Z",
         "httpStatus": 200,
         "pointer": "trendingScore 排序里 id=unsloth/Inkling-2-Mini-GGUF"
       },
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/unsloth/Inkling-2-Mini-GGUF.png",
       "imageSource": "Hugging Face 官方卡片",
-      "lastSeenAt": "2026-11-22T15:44:51.575Z",
-      "seenCount": 16,
-      "heat": 74
+      "lastSeenAt": "2026-11-22T18:31:16.911Z",
+      "seenCount": 17,
+      "heat": 69
     },
     {
       "id": "4910c4cf077673b4a0f845781276ad9b96b2e7e7",
@@ -22921,13 +23780,13 @@
       ],
       "evidence": {
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-        "fetchedAt": "2026-11-22T15:44:43.137Z",
+        "fetchedAt": "2026-11-22T18:30:26.333Z",
         "httpStatus": 200,
         "pointer": "feed item: Signal is blocking Gemini and Siri AI from reading your screen"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 19,
-      "heat": 49
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 20,
+      "heat": 44
     },
     {
       "id": "cf24727037c82e279531947e7e6a09ca2b256279",
@@ -23089,13 +23948,13 @@
       ],
       "evidence": {
         "url": "https://feeds.feedburner.com/TheHackersNews",
-        "fetchedAt": "2026-11-22T15:44:34.924Z",
+        "fetchedAt": "2026-11-22T18:30:14.271Z",
         "httpStatus": 200,
         "pointer": "RSS item: The Path to AI Autonomy in the SOC"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 19,
-      "heat": 30
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 20,
+      "heat": 25
     },
     {
       "id": "b9c4bcb3a317103a8ac926169586d737c29ed885",
@@ -23115,15 +23974,15 @@
       ],
       "evidence": {
         "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-        "fetchedAt": "2026-11-22T15:44:43.214Z",
+        "fetchedAt": "2026-11-22T18:30:26.457Z",
         "httpStatus": 200,
         "pointer": "feed item: Muse Is Unleashing a World of Pettiness on Instagram"
       },
       "image": "https://media.wired.com/photos/6aff9abb37d7793ac7889730/master/pass/Meta-Muse-Pettiness-Culture.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 19,
-      "heat": 12
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 20,
+      "heat": 7
     },
     {
       "id": "af7dec5842bc3f7627f2065a1d973508f13f24af",
@@ -23693,15 +24552,15 @@
       ],
       "evidence": {
         "url": "https://www.leiphone.com/feed",
-        "fetchedAt": "2026-11-22T15:44:43.011Z",
+        "fetchedAt": "2026-11-22T18:30:27.193Z",
         "httpStatus": 200,
         "pointer": "feed item: 拓竹 MakerWorld，为什么难复制？"
       },
       "image": "https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 19,
-      "heat": 11
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 20,
+      "heat": 6
     },
     {
       "id": "945a1656b838d3289338d92fb9bff1dac5126255",
@@ -23920,15 +24779,15 @@
       ],
       "evidence": {
         "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-        "fetchedAt": "2026-11-22T15:44:43.214Z",
+        "fetchedAt": "2026-11-22T18:30:26.457Z",
         "httpStatus": 200,
         "pointer": "feed item: Regular Tech Bros Are Worried About Honeypots"
       },
       "image": "https://media.wired.com/photos/6afbae0afa103e595fff7d74/master/pass/Business_Honeypot%20Fears%20Are%20Trickling%20Down%20Into%20the%20Dating%20Lives%20of%20Normal%20Dudes_v1.jpg",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.579Z",
-      "seenCount": 20,
-      "heat": 10
+      "lastSeenAt": "2026-11-22T18:31:16.915Z",
+      "seenCount": 21,
+      "heat": 6
     },
     {
       "id": "0ca1f5841c761a60ca743703a3de280ccfbd99e8",
@@ -24408,13 +25267,13 @@
       ],
       "evidence": {
         "url": "https://www.ifanr.com/feed",
-        "fetchedAt": "2026-11-22T15:44:41.903Z",
+        "fetchedAt": "2026-11-22T18:30:24.267Z",
         "httpStatus": 200,
         "pointer": "feed item: 理想造了一颗登上台积电讲台的芯片，却希望你在开车时彻底忘掉它"
       },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 20,
-      "heat": 10
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 21,
+      "heat": 5
     },
     {
       "id": "4d42936f98b694cf3798eb35d6e90d749ddb2257",
@@ -24467,13 +25326,13 @@
       ],
       "evidence": {
         "url": "https://feeds.feedburner.com/TheHackersNews",
-        "fetchedAt": "2026-11-22T15:44:34.924Z",
+        "fetchedAt": "2026-11-22T18:30:14.271Z",
         "httpStatus": 200,
         "pointer": "RSS item: SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, "
       },
-      "lastSeenAt": "2026-11-22T15:44:51.576Z",
-      "seenCount": 20,
-      "heat": 10
+      "lastSeenAt": "2026-11-22T18:31:16.913Z",
+      "seenCount": 21,
+      "heat": 5
     },
     {
       "id": "a06e861e85434d1de0aca43212c1aa26c9c10033",
@@ -24637,15 +25496,15 @@
       ],
       "evidence": {
         "url": "https://www.leiphone.com/feed",
-        "fetchedAt": "2026-11-22T15:44:43.011Z",
+        "fetchedAt": "2026-11-22T18:30:27.193Z",
         "httpStatus": 200,
         "pointer": "feed item: 灵掌机器人太空灵巧手亮相世界智能制造博览会"
       },
       "image": "https://static.leiphone.com/uploads/new/images/20261120/6b00209c07776.jpg?imageMogr2/quality/90",
       "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 19,
-      "heat": 9
+      "lastSeenAt": "2026-11-22T18:31:16.914Z",
+      "seenCount": 20,
+      "heat": 5
     },
     {
       "id": "a330430b8665756301e498a2b078d070550940c9",
@@ -24911,848 +25770,6 @@
       "heat": 110,
       "image": "https://cdn.v2ex.com/avatar/c3e8/78e2/362_xlarge.png?m=1790292993",
       "imageSource": "原文 OG 封面"
-    },
-    {
-      "id": "0830ef22d3a16be7bed861065f52cda3c0ab0da5",
-      "kind": "news",
-      "source": "ithome",
-      "sourceLabel": "IT之家",
-      "title": "小米 MiMo：Token Plan 的 Pro / Max 套餐限时支持 UltraSpeed 超高速推理模型",
-      "url": "https://www.ithome.com/1/030/193.htm",
-      "summary": "IT之家 11 月 20 日消息，小米 MiMo 官方文档显示，11 月 19 日起， Token Plan 限时支持 UltraSpeed 超高速旗舰推理模型 。 Token Plan 的 Pro / Max 套餐现已限时开放和支持 MiMo-V2.6-Pro-UltraSpeed 超高速推理模型，兼具旗舰级智能与更快的响应速度，模型调用更高效、交互体验更流畅。 据介绍，MiMo-V2.6-Pro-UltraSpeed 兼顾 V2.6-Pro 性能， 提供最高 20 倍输出速度 ；适合量化交易、实时风控、科学研究、实时编程辅助等场景。 IT之家附小米 MiMo Token Plan 个人版价格如下： 相关阅读： 《 小米 MiMo-V2.6 发布 》",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T10:11:05.000Z",
-      "firstSeenAt": "2026-11-20T11:16:12.789Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "论文",
-        "模型",
-        "推理",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-20T14:02:00.981Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 小米 MiMo：Token Plan 的 Pro / Max 套餐限时支持 UltraSpeed 超高速推理模型"
-      },
-      "lastSeenAt": "2026-11-20T14:02:47.153Z",
-      "seenCount": 2,
-      "heat": 129
-    },
-    {
-      "id": "5ffd496f1810508dfaf0d259995a516992921c22",
-      "kind": "discussion",
-      "source": "community",
-      "sourceLabel": "掘金",
-      "title": "产品情报局 11 | AI 数据湖 LAS：打造大模型时代多模态数据底座",
-      "url": "https://juejin.cn/post/7710073999841411107",
-      "summary": "它定位为大模型时代企业级 AI 全托管数据底座云服务。 区别于传统面向结构化业务的数据湖，LAS 原生为 AI 场景设计。",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T10:09:47.000Z",
-      "firstSeenAt": "2026-11-20T14:02:07.420Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "社区",
-        "模型"
-      ],
-      "evidence": {
-        "url": "https://juejin.cn/rss",
-        "fetchedAt": "2026-11-20T14:01:56.308Z",
-        "httpStatus": 200,
-        "pointer": "juejin RSS item: 产品情报局 11 | AI 数据湖 LAS：打造大模型时代多模态数据底座"
-      },
-      "lastSeenAt": "2026-11-20T14:02:47.152Z",
-      "seenCount": 1,
-      "heat": 123
-    },
-    {
-      "id": "061880a2b4fcefb3f6d4f2a164c95a5ef3995438",
-      "kind": "news",
-      "source": "leiphone",
-      "sourceLabel": "雷峰网",
-      "title": "解读丨智能戒指红海之外，Elah Ring 正在深入美国腹地",
-      "url": "https://www.leiphone.com/category/weiwu/ptAnAiMGqEOX65EI.html",
-      "summary": "斯坦福毕业生做的 Elah Ring，要当美国百姓的“Personal Faith Agent”。 作者丨 陈玘凡 编辑丨吴优 斯坦福周边没有密集的商圈与高楼，和车程半小时的旧金山城区氛围差别明显。校园占地 8180 英亩，大片山丘林地，建筑低矮，很容易让人产生孤独感。 2014 年，Everblessed 创始人温立来到这里，攻读流体力学与水文硕士。 初来乍到，每周最轻松愉快的时候，就是周六晚的信仰家庭聚会。每个人做几个菜，大家一起读经，唱诗，祷告，聊最近生活中的喜怒哀乐，和背后神的指引。这是当时温立每周能吃到最丰盛的晚餐。 那时候，他没有想到，求学之外的这样一段独特经历，会在十年后深刻地影响他的人生选择。 2024 年，温立与联创 Ricky Xia 在美国创立了 Everblessed Technology INC。 Everblessed 旗下祈祷应用 Blessed App 用户突破千万，排名一度登顶...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T10:09:00.000Z",
-      "firstSeenAt": "2026-11-20T14:02:03.045Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "智能体",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.leiphone.com/feed",
-        "fetchedAt": "2026-11-22T15:44:43.011Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 解读丨智能戒指红海之外，Elah Ring 正在深入美国腹地"
-      },
-      "image": "https://static.leiphone.com/6a6c4981e5bcb.jpg?imageMogr2/quality/90",
-      "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 19,
-      "heat": 27
-    },
-    {
-      "id": "82e7585188bf597bc9f96b11541dbe77a42469df",
-      "kind": "news",
-      "source": "ithome",
-      "sourceLabel": "IT之家",
-      "title": "欧洲央行行长拉加德：AI 加剧网络攻击威胁，使我夜不能寐",
-      "url": "https://www.ithome.com/1/030/191.htm",
-      "summary": "IT之家 11 月 20 日消息，据路透社报道，当地时间 20 日，欧洲央行行长克里斯蒂娜 · 拉加德发出警告，随着 AI 智能体日益先进，网络攻击的威胁也随之加剧，可能成为全球金融业当前面临的最大挑战。 拉加德在法兰克福举行的欧洲银行业大会上坦言，政策制定者尚未充分重视这一威胁。“ 真正让我和在座许多人夜不能寐的，就是 AI 与网络威胁的结合 。” 综合IT之家此前报道，当地时间 19 日，欧盟委员会证实 遭受了利用 AI 工具进行的网络攻击 。有关此事的调查尚未结束，事态规模暂难判断。 今年 10 月，法国数百家超市的商用冷藏柜和冷冻柜因黑客攻击停运。此前，驶往美国的船只、美国的水处理厂和洛杉矶的公共交通系统也分别在 8 月、7 月和 3 月因遭到黑客攻击而中断运行。 此外， 全美范围的航班一度暂停起飞数小时 ，银行和微软的应用程序也出现无法使用的情况。技术专家认为，这些中断是紧急修补新发现的软件漏洞所致。",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T10:06:09.000Z",
-      "firstSeenAt": "2026-11-20T11:16:12.789Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "智能体"
-      ],
-      "evidence": {
-        "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-20T14:02:00.981Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 欧洲央行行长拉加德：AI 加剧网络攻击威胁，使我夜不能寐"
-      },
-      "lastSeenAt": "2026-11-20T14:02:47.153Z",
-      "seenCount": 2,
-      "heat": 111
-    },
-    {
-      "id": "1f13ccb06b03613880ecdb82e253c82c01c26996",
-      "kind": "news",
-      "source": "ithome",
-      "sourceLabel": "IT之家",
-      "title": "零跑汽车 2026 年第三财季归母净利润 4000 万元，同比下降 73.33%",
-      "url": "https://www.ithome.com/1/030/190.htm",
-      "summary": "IT之家 11 月 20 日消息，零跑汽车今日发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）报告： 营业总收入 ：317 亿元，同比增长 63%，环比增长 16.2% 毛利润 ：34.6 亿元，同比增长 22.7%，环比增长 0.87% 毛利率 ：10.9%，同比下降 3.6 个百分点，环比下降 1.7 个百分点 归母净利润 ：4000 万元，同比下降 73.33%，环比下降 93.33% 经营现金流 ：16.2 亿元，同比下降 66.8%，环比下降 81.55% 自由现金流 ：5.5 亿元，同比下降 85.68%，环比下降 92.71% AI 解读 本季度营收略低于市场一致预期，但归母净利润显著低于分析师预期，盈利能力承压明显。 公司主营业务与本季财报亮点 零跑汽车是掌握新能源汽车核心技术全域自研能力的中国新能源车企，产品覆盖 A、B、C、D...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T10:03:25.000Z",
-      "firstSeenAt": "2026-11-20T11:16:12.789Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-20T14:02:00.981Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 零跑汽车 2026 年第三财季归母净利润 4000 万元，同比下降 73.33%"
-      },
-      "lastSeenAt": "2026-11-20T14:02:47.153Z",
-      "seenCount": 2,
-      "heat": 93
-    },
-    {
-      "id": "3d18b689c937b7b7a61f90311755026b92a26aa9",
-      "kind": "discussion",
-      "source": "community",
-      "sourceLabel": "OSCHINA 资讯",
-      "title": ":fire: xbatis 1.10.11 正式发版，mybatis 系列最好用最简单最方便的 ORM !!",
-      "url": "https://www.oschina.net/news/503711",
-      "summary": "推荐理由： 强、强、强 ，单表？连表？不想连表？让你直接少写 1/3 甚至 2/3 的持久层代码；API 简单 快捷 优雅 简洁 构建 SQL 非常强！用过的 没用过的都来体验，虽然有 AI 了，但是真正好用的 ORM 的还不能忽略的，除非你以后不维护。 1.10.15 - 2026-11-05 1：修复一些问题和优化代码 2：提前部分兼容 mybatis 3.6.0 ...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T10:02:48.000Z",
-      "firstSeenAt": "2026-11-20T11:16:10.504Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "社区"
-      ],
-      "evidence": {
-        "url": "https://www.oschina.net/news/rss",
-        "fetchedAt": "2026-11-22T15:44:39.028Z",
-        "httpStatus": 200,
-        "pointer": "oschina RSS item: :fire: xbatis 1.10.11 正式发版，mybatis 系列最好用最简单最方便的 OR"
-      },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 20,
-      "heat": 9
-    },
-    {
-      "id": "8fe35bd50ea0688afaf95b98fb4688ca2fd6960d",
-      "kind": "discussion",
-      "source": "community",
-      "sourceLabel": "掘金",
-      "title": "Gemini 真的变强了，写代码做视频的能力接近 Claude Opus5.5 了！",
-      "url": "https://juejin.cn/post/7710094508159074342",
-      "summary": "我之前对 Gemini 的偏见太大了。对不起啊，你不是“美国大豆包”，我错了。。。 最近，我又重新了开通了 Gemini 家的会员，实际用了几天，远远超过我的语气。 速度快，给的量也比较大，搭配 Co",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T10:00:43.000Z",
-      "firstSeenAt": "2026-11-20T14:02:07.420Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "社区",
-        "模型"
-      ],
-      "evidence": {
-        "url": "https://juejin.cn/rss",
-        "fetchedAt": "2026-11-20T14:01:56.308Z",
-        "httpStatus": 200,
-        "pointer": "juejin RSS item: Gemini 真的变强了，写代码做视频的能力接近 Claude Opus5.5 了！"
-      },
-      "lastSeenAt": "2026-11-20T14:02:47.152Z",
-      "seenCount": 1,
-      "heat": 141
-    },
-    {
-      "id": "3ea993db7e3c60d1925ec70cc8db101a60f4b500",
-      "kind": "news",
-      "source": "openai",
-      "sourceLabel": "OpenAI 官方博客",
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "lang": "en",
-      "publishedAt": "2026-11-20T10:00:00.000Z",
-      "firstSeenAt": "2026-11-20T22:19:42.760Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "官方",
-        "模型",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://openai.com/news/rss.xml",
-        "fetchedAt": "2026-11-22T15:44:41.967Z",
-        "httpStatus": 200,
-        "pointer": "feed item: Combatting adversarial distillation"
-      },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 16,
-      "heat": 9
-    },
-    {
-      "id": "038f9761411d7347097737ed6c547c79d123caa2",
-      "kind": "discussion",
-      "source": "community",
-      "sourceLabel": "InfoQ 中文",
-      "title": "火山引擎 Agent-Native 团队的上下文管理实践｜AICon北京",
-      "url": "https://www.infoq.cn/article/YTGHxcabs0RI3btLIUxm?amp%3Butm_medium=article",
-      "summary": "点击查看原文>",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T10:00:00.000Z",
-      "firstSeenAt": "2026-11-20T02:58:42.602Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "社区",
-        "智能体"
-      ],
-      "evidence": {
-        "url": "https://www.infoq.cn/feed",
-        "fetchedAt": "2026-11-22T07:28:02.952Z",
-        "httpStatus": 200,
-        "pointer": "infoq-cn RSS item: 火山引擎 Agent-Native 团队的上下文管理实践｜AICon北京"
-      },
-      "lastSeenAt": "2026-11-22T07:28:12.869Z",
-      "seenCount": 20,
-      "heat": 59
-    },
-    {
-      "id": "eff10dd94532cdc0c62e961ada6ca37dd7e4db4f",
-      "kind": "news",
-      "source": "the-decoder",
-      "sourceLabel": "The Decoder",
-      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
-      "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill",
-      "summary": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder .",
-      "lang": "en",
-      "publishedAt": "2026-11-20T09:59:51.000Z",
-      "firstSeenAt": "2026-11-20T11:16:17.310Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "英文",
-        "智能体",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://the-decoder.com/feed/",
-        "fetchedAt": "2026-11-21T09:22:36.704Z",
-        "httpStatus": 200,
-        "pointer": "feed item: Hermes Agent's Collective Wisdom feature turns one employee's AI trick into..."
-      },
-      "image": "https://the-decoder.com/wp-content/uploads/2026/06/hermes-og-image-blue.png",
-      "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-21T09:22:41.369Z",
-      "seenCount": 9,
-      "heat": 78
-    },
-    {
-      "id": "ab1455f60c6ed24d003ff459ae3997806a71c60b",
-      "kind": "news",
-      "source": "ithome",
-      "sourceLabel": "IT之家",
-      "title": "消息称林俊旸从阿里离职后创办的 AI 公司语用科技完成新一轮融资，估值达 50 亿美元",
-      "url": "https://www.ithome.com/1/030/176.htm",
-      "summary": "IT之家 11 月 20 日消息，据彭博社报道，林俊旸（yáng）从阿里离职后，今年夏天创立的语用科技 Pragmatik Labs 已完成新一轮融资， 估值达 50 亿美元 （IT之家注：现汇率约合 334.6 亿元人民币） 。 知情人士透露，语用科技在近期完成的一轮融资中筹集了数千万美元。今年 8 月，该公司在数亿美元的首轮融资中获得 20 亿美元 （现汇率约合 133.84 亿元人民币） 估值。 知情人士称，新晋投资方包括华业天成资本（HyT Capital）、鼎晖投资（CDH Investments）以及汽车制造商吉利汽车控股有限公司。 公开资料显示，出生于 1993 年的林俊旸，曾是阿里最年轻的 P10 级技术专家，与智谱 AI 创始人唐杰、月之暗面（Kimi）创始人杨植麟、腾讯首席 AI 科学家姚顺雨并称为“基模四杰”。今年 3 月，林俊旸宣布从阿里巴巴离职。 据IT之家此前报道，今年 8...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:59:30.000Z",
-      "firstSeenAt": "2026-11-20T11:16:12.789Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "模型",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-20T14:02:00.981Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 消息称林俊旸从阿里离职后创办的 AI 公司语用科技完成新一轮融资，估值达 50 亿美元"
-      },
-      "lastSeenAt": "2026-11-20T14:02:47.153Z",
-      "seenCount": 2,
-      "heat": 129
-    },
-    {
-      "id": "5c66eadcb3d6b2c2b281fb59e10b881e2e6482a6",
-      "kind": "news",
-      "source": "tmtpost",
-      "sourceLabel": "钛媒体",
-      "title": "Falling Prices Push AI Video Toward Platform Economics",
-      "url": "https://www.tmtpost.com/8212911.html",
-      "summary": "NextFin News - The race in AI video is less about who can render the most striking clip than about who can sustain low prices and still hold the customer relationship. Google has cut the list price of a mainstream 720p generation tier to well under a dollar per several seconds of output, with multi-turn editing that bills each revision. Chinese vendors have followed with promotional rates measured in fractions of...",
-      "lang": "en",
-      "publishedAt": "2026-11-20T09:54:05.000Z",
-      "firstSeenAt": "2026-11-20T11:16:15.960Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "多模态"
-      ],
-      "evidence": {
-        "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-21T01:05:16.293Z",
-        "httpStatus": 200,
-        "pointer": "feed item: Falling Prices Push AI Video Toward Platform Economics"
-      },
-      "lastSeenAt": "2026-11-21T01:05:30.320Z",
-      "seenCount": 6,
-      "heat": 74
-    },
-    {
-      "id": "d65a0435a5f445fecb66ac8ffe7fed7dac8174a8",
-      "kind": "discussion",
-      "source": "community",
-      "sourceLabel": "V2EX · AI 讨论",
-      "title": "[问与答] 马上黑五了，有什么囤货作业可以抄么？",
-      "url": "https://www.v2ex.com/t/1258622",
-      "summary": "如题。求推荐！ 个人能想到的可囤的 1. 各大 gift card，尤其是 apple gift card，现在 chatgpt/claude 订阅刚需 2. VPS。 vmiss 之类的 3. 软件订阅",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:46:39.000Z",
-      "firstSeenAt": "2026-11-20T11:16:10.504Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "社区",
-        "模型",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.v2ex.com/index.xml",
-        "fetchedAt": "2026-11-20T11:16:07.969Z",
-        "httpStatus": 200,
-        "pointer": "v2ex RSS item: [问与答] 马上黑五了，有什么囤货作业可以抄么？"
-      },
-      "lastSeenAt": "2026-11-20T11:16:28.336Z",
-      "seenCount": 1,
-      "heat": 145,
-      "image": "https://cdn.v2ex.com/avatar/785d/6c97/194443_xlarge.png?m=1795168498",
-      "imageSource": "原文 OG 封面"
-    },
-    {
-      "id": "940abb1f9f3b18665f7f9a0919c629d32ee2ca3a",
-      "kind": "discussion",
-      "source": "community",
-      "sourceLabel": "掘金",
-      "title": "跨端框架对比：从性能、动态化、AI 能力看 Kuikly / Flutter / React Native",
-      "url": "https://juejin.cn/post/7710132945277239322",
-      "summary": "跨端选型时，本文从性能，动态化能力和 AI 辅助研发效率这三个维度去分析几个主流框架，希望带来帮助。",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:45:52.000Z",
-      "firstSeenAt": "2026-11-20T14:02:07.420Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "社区"
-      ],
-      "evidence": {
-        "url": "https://juejin.cn/rss",
-        "fetchedAt": "2026-11-20T14:01:56.308Z",
-        "httpStatus": 200,
-        "pointer": "juejin RSS item: 跨端框架对比：从性能、动态化、AI 能力看 Kuikly / Flutter / React Nat"
-      },
-      "lastSeenAt": "2026-11-20T14:02:47.152Z",
-      "seenCount": 1,
-      "heat": 105
-    },
-    {
-      "id": "751be5339f691910b49a92700ebd5b335722dcbf",
-      "kind": "news",
-      "source": "techmeme",
-      "sourceLabel": "Techmeme",
-      "title": "An analysis of 10M job ads in China between 2021 and 2025 finds a double-digit decline in listings for roles more exposed to AI than for less-exposed positions (Bloomberg)",
-      "url": "https://www.techmeme.com/261120/p7",
-      "summary": "Bloomberg : An analysis of 10M job ads in China between 2021 and 2025 finds a double-digit decline in listings for roles more exposed to AI than for less-exposed positions - A Bloomberg analysis finds a double-digit decline in hiring for jobs most exposed to the technology.",
-      "lang": "en",
-      "publishedAt": "2026-11-20T09:45:00.000Z",
-      "firstSeenAt": "2026-11-20T11:16:18.421Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "英文"
-      ],
-      "evidence": {
-        "url": "https://www.techmeme.com/feed.xml",
-        "fetchedAt": "2026-11-20T16:48:18.512Z",
-        "httpStatus": 200,
-        "pointer": "feed item: An analysis of 10M job ads in China between 2021 and 2025 finds a double-digit..."
-      },
-      "image": "https://www.techmeme.com/261120/i7.jpg",
-      "imageSource": "RSS 原文配图",
-      "lastSeenAt": "2026-11-20T16:48:36.647Z",
-      "seenCount": 3,
-      "heat": 88
-    },
-    {
-      "id": "bf2ad93841c4cecd7f8e37c3ce7e724adf7aaed5",
-      "kind": "news",
-      "source": "ithome",
-      "sourceLabel": "IT之家",
-      "title": "我国首个自主指令集综合开源社区，开放原子龙架构社区正式成立",
-      "url": "https://www.ithome.com/1/030/139.htm",
-      "summary": "IT之家 11 月 20 日消息，2026 开放原子开发者大会今日在郑州举办，在大会开幕式上， 开放原子龙架构社区正式成立 。 该社区由龙芯中科与开放原子开源基金会联合共建， 是我国在自主指令集领域发起的首个综合性开源社区 。 开放原子龙架构社区由开放原子开源基金会筹建、孵化、运营，将重点布局 IP 核、二进制翻译、基础操作系统三大开源专项，从芯片设计到终端应用全链条打造国内自主 CPU 架构领域首次生态共建实践。 据介绍，社区现已汇聚首批成员单位 22 家，覆盖芯片、操作系统、整机终端、科研机构等多元主体，打通从核心 IP、底层软件到场景落地的创新链路，以 OpenLA132 为核心的龙架构开源处理器核、龙架构二进制翻译器（LATU、LATS）、基础操作系统 LoongHong 一批标志性开源项目已正式上线。 为更好承载项目成果、服务产业共建， 龙架构社区官网正式上线 ，IT之家附链接：...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:44:40.000Z",
-      "firstSeenAt": "2026-11-20T11:16:12.789Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "开源"
-      ],
-      "evidence": {
-        "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-20T11:16:12.784Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 我国首个自主指令集综合开源社区，开放原子龙架构社区正式成立"
-      },
-      "lastSeenAt": "2026-11-20T11:16:28.337Z",
-      "seenCount": 1,
-      "heat": 127
-    },
-    {
-      "id": "5e136963d2611481f08ce2b49a07bb3b6e0021ca",
-      "kind": "news",
-      "source": "ithome",
-      "sourceLabel": "IT之家",
-      "title": "法院批准交易，谷歌 1000 万美元收购精神航空数据过关",
-      "url": "https://www.ithome.com/1/030/137.htm",
-      "summary": "IT之家 11 月 20 日消息，据外媒 The Record 报道，美国纽约联邦破产法官当地时间 17 日批准 Google（谷歌）收购破产廉价航空公司 Spirit Airlines（精神航空）企业数据。 该交易价值 1,000 万美元 （IT之家注：现汇率约合 6,692 万元人民币） 。 这些数据将用于改进谷歌的产品与人工智能模型 。 图源：Pexels 虽然谷歌在交易伊始就表示将对该批数据进行匿名化处理，但该交易仍一度遭遇空乘工会和美国国会议员的强烈反对。 为使这项交易被放行，谷歌表示将排除精神航空员工的医疗健康数据、安全纪律记录、身份证明文件等敏感信息，严格进行去标识化处理并需通过独立评估审查，且不尝试重新识别数据。在谷歌作出这些额外承诺后， 工会撤回了对交易的反对 。 延伸阅读 公开资料显示，Spirit Airlines（精神航空）是一家美国超低成本航空公司，总部位于佛罗里达州米拉马尔，前身为 1983...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:40:55.000Z",
-      "firstSeenAt": "2026-11-20T11:16:12.789Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "模型",
-        "安全"
-      ],
-      "evidence": {
-        "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-20T11:16:12.784Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 法院批准交易，谷歌 1000 万美元收购精神航空数据过关"
-      },
-      "lastSeenAt": "2026-11-20T11:16:28.337Z",
-      "seenCount": 1,
-      "heat": 127
-    },
-    {
-      "id": "ebbfbe3958a35f0b16d43c7dd3e31e43efe9bf99",
-      "kind": "news",
-      "source": "ithome",
-      "sourceLabel": "IT之家",
-      "title": "今年前三季度我国数字产业收入超 32 万亿元，同比增长 14.8%",
-      "url": "https://www.ithome.com/1/030/135.htm",
-      "summary": "IT之家 11 月 20 日消息，据央视新闻今天（20 日）下午报道，前三季度，我国数字产业整体延续向优向好发展态势，收入增速加快，盈利水平持续提升，电子产品对外出口延续强劲增势，人工智能创新迭代提速，智能终端产品密集发布，产业新动能加速积蓄，为稳定经济增长、培育发展新质生产力、赋能千行百业数智转型提供有力支撑。 一、发展质效持续提升 IT之家从数据中获悉， 前三季度，数字产业实现收入 32.41 万亿元，同比增长 14.8%，增速较上年同期加快 5.2 个百分点。 其中，制造业部分实现收入 19.32 万亿元，同比增长 20.5%，服务业部分实现收入 13.09 万亿元，同比增长 7.3%。受人工智能需求旺盛、出口增势强劲双重拉动，实现利润 2.78 万亿元，同比增长 23.4%，增速较上年同期提升 14.9 个百分点，收入利润率达 8.6%，较上年同期提升 0.4 个百分点，盈利水平持续优化。 二、产业集聚态势显著...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:34:36.000Z",
-      "firstSeenAt": "2026-11-20T11:16:12.789Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-20T11:16:12.784Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 今年前三季度我国数字产业收入超 32 万亿元，同比增长 14.8%"
-      },
-      "lastSeenAt": "2026-11-20T11:16:28.337Z",
-      "seenCount": 1,
-      "heat": 109
-    },
-    {
-      "id": "e4c0a67b84a5e5f5519012337f751d5d18ec436e",
-      "kind": "discussion",
-      "source": "community",
-      "sourceLabel": "OSCHINA 资讯",
-      "title": "Jync v2.4.3 AI 助手确认执行与启动诊断",
-      "url": "https://www.oschina.net/news/503710",
-      "summary": "Jync v2.4.3 新增 AI 运维助手可以执行运行态操作，但每一次都由人确认：启动 / 停止同步任务、立即同步一次、启用 / 停用 / 立即运行 ETL 任务、启停 / 立即运行 / 取消专属迁移、重建 CDC 基线，助手只生成确认卡；点「确认执行」后由服务端按当前账号的角色与资源归属重新校验一次才生效。确认令牌绑定发起账号、5 分...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:33:08.000Z",
-      "firstSeenAt": "2026-11-20T11:16:10.504Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "社区"
-      ],
-      "evidence": {
-        "url": "https://www.oschina.net/news/rss",
-        "fetchedAt": "2026-11-22T15:44:39.028Z",
-        "httpStatus": 200,
-        "pointer": "oschina RSS item: Jync v2.4.3 AI 助手确认执行与启动诊断"
-      },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 20,
-      "heat": 8
-    },
-    {
-      "id": "518c8d86b9bf7f8cdcf2b8af3e3080475a07a83d",
-      "kind": "news",
-      "source": "tmtpost",
-      "sourceLabel": "钛媒体",
-      "title": "抖音生活悄悄上万亿",
-      "url": "https://www.tmtpost.com/8211611.html",
-      "summary": "（本文作者为 巨潮WAVE，钛媒体经授权发布） 文 | 巨潮WAVE，作者｜葱岭，编辑｜杨旭然 字节跳动整体在AI领域快速发展的同时，抖音生活服务悄然完成了换帅。这个体量庞大的业务线，已经进入了一个新的发展阶段。 据雷峰网报道，这项业务2025年的支付GMV就已超过8500亿元，今年初披露的增长目标在50%左右。按这一目标计算，全年交易规模指向1.2万亿元以上。 目前还差不到50天，全年结果尚待披露，整体的支付金额中也包含了尚未到店核销的订单，但抖音生活成为万亿级玩家已是不争的事实。 11月17日，红果短剧负责人莫少君接任抖音生活服务总裁。抖音集团回应称，此次调整属于正常的管理岗位轮换与交接，同时强调，生活服务是公司的长期发展方向，将持续投入、长期经营。 一家把内容流量转化为线下生意的平台，在交易规模接近万亿之后，又调来一位连续做成大众产品的负责人。这其中的意味不言而喻。...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:23:08.000Z",
-      "firstSeenAt": "2026-11-20T11:16:15.960Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-21T01:05:16.293Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 抖音生活悄悄上万亿"
-      },
-      "lastSeenAt": "2026-11-21T01:05:30.320Z",
-      "seenCount": 6,
-      "heat": 73
-    },
-    {
-      "id": "97b41fd025344e324c7d458069ce60c5e4353f3c",
-      "kind": "news",
-      "source": "tmtpost",
-      "sourceLabel": "钛媒体",
-      "title": "Anthropic正式登陆纳斯达克：敲钟那天，账已经在另一张纸上？",
-      "url": "https://www.tmtpost.com/8212716.html",
-      "summary": "（本文作者为 ST商业研究社，钛媒体经授权发布） 文 | ST商业研究社 11月19日，Anthropic在纳斯达克挂牌，9.8亿股，每股83美元。我翻到招股书封面那段才发现，英伟达与微软和谷歌等七家另掏260亿美元买它的股票。卖铲子的人，成了股东。 01 先把招股书封面上那张表读一遍。 据Anthropic在11月19日向美国证监会提交的424B4招股书，公司发行9.8亿股A类普通股并且每股定价83美元，募资总额达到813.4亿美元，其中公司自己卖出了9.5635亿股新股，老股东另外卖出2364.86万股。 图源 | Anthropic, PBC 424B4 招股书封面， 据同一份招股书的封面费用表，按每股0.56122美元的承销折价计算，承销团一共拿走了5.5亿美元现金，公司净得788.4亿美元，老股东净得19.5亿美元。...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:22:47.000Z",
-      "firstSeenAt": "2026-11-20T11:16:15.960Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "论文",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-21T01:05:16.293Z",
-        "httpStatus": 200,
-        "pointer": "feed item: Anthropic正式登陆纳斯达克：敲钟那天，账已经在另一张纸上？"
-      },
-      "lastSeenAt": "2026-11-21T01:05:30.320Z",
-      "seenCount": 6,
-      "heat": 73
-    },
-    {
-      "id": "ceae175f504560322462f6d0d6eb531c55ebd3db",
-      "kind": "news",
-      "source": "tmtpost",
-      "sourceLabel": "钛媒体",
-      "title": "AI这一年，倒下的APP们",
-      "url": "https://www.tmtpost.com/8212771.html",
-      "summary": "（本文作者为 象先志，钛媒体经授权发布） 文 | 象先志 2025年9月，Sora冲上美国AppStore榜首那天，OpenAI的工程师们在社交平台上转发着截图，仿佛AI视频时代真的来了。七个月后，这款产品从用户的手机里消失了，App黑屏，网页报错，API接到了终止通知。 这不是个例。冒泡鸭全平台600万下载量，停运；XEVA300万用户，关闭服务器；字节扣子企业版，占有市场份额19.3%、排名行业第一，接到了2027年底全面下线的通知。腾讯元器、百度梯子AI、米哈游AnuNeko......\"死亡名单\"还在继续。 但关停潮的另一面并不是行业萎缩。Sensor Tower统计显示，2025年全球生成式AI移动应用下载量同比翻倍至38亿次，应用内购收入超过50亿美元，接近2024年的3倍。 生成式AI应用的需求增长与产品关停同时发生 那这些AI产品因何而死，下一个死掉的AI APP又是谁呢？ 墓园在扩容，名单在继续...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:22:43.000Z",
-      "firstSeenAt": "2026-11-20T11:16:15.960Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.tmtpost.com/rss",
-        "fetchedAt": "2026-11-21T01:05:16.293Z",
-        "httpStatus": 200,
-        "pointer": "feed item: AI这一年，倒下的APP们"
-      },
-      "lastSeenAt": "2026-11-21T01:05:30.321Z",
-      "seenCount": 6,
-      "heat": 73
-    },
-    {
-      "id": "6d23f9fa92468feece881451f487c0471f6d6a94",
-      "kind": "dataset",
-      "source": "hf-trending",
-      "sourceLabel": "HF 热门数据集",
-      "title": "alphaXiv/AgentAlphaXiv",
-      "url": "https://huggingface.co/datasets/alphaXiv/AgentAlphaXiv",
-      "summary": "下载 374 赞 14 趋势 14 · 更新于 2026-11-20",
-      "lang": "en",
-      "publishedAt": "2026-11-20T09:21:02.000Z",
-      "firstSeenAt": "2026-11-20T11:16:06.812Z",
-      "score": 14,
-      "scoreLabel": "趋势 14",
-      "tags": [
-        "模型",
-        "dataset",
-        "智能体"
-      ],
-      "evidence": {
-        "url": "https://huggingface.co/api/datasets?sort=trendingScore&limit=15&direction=-1",
-        "fetchedAt": "2026-11-20T16:48:06.603Z",
-        "httpStatus": 200,
-        "pointer": "trendingScore 排序里 id=alphaXiv/AgentAlphaXiv"
-      },
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/alphaXiv/AgentAlphaXiv.png",
-      "imageSource": "Hugging Face 官方卡片",
-      "lastSeenAt": "2026-11-20T16:48:36.642Z",
-      "seenCount": 3,
-      "heat": 131
-    },
-    {
-      "id": "b641f5430c4ddfdaf43cfa31984e6868678adfa4",
-      "kind": "news",
-      "source": "ifanr",
-      "sourceLabel": "爱范儿",
-      "title": "首款鸿蒙 AI 手机发布：华为全新子品牌 OSTA 星芒有一个「增援未来计划」",
-      "url": "https://www.ifanr.com/1690642?amp%3Butm_medium=rss&amp%3Butm_campaign=",
-      "summary": "现在请你张开左手，略微用力仔细抚摸小指头第二节的内侧，大概率会摸到一个凹槽，这是我们长时间使用手机时用小指头当做支撑点留下的印记。 这种可触摸的印记要比手机对我们大脑留下的改变更为直观，亦是人在使用手机，手机反过来塑造人的小小例证。 类似的，在《人类简史》里，作者提了一个有点反常识的观点：看起来是人类驯化了小麦这种植物，让它从野生的杂草变成了产量高，种植面积广的农业作物，进而成为中西方最主要的主食来源之一。但实际上，为了种植小麦，万年前会定期迁徙的人类开始在水源地附近定居，日常奔跑狩猎，爬树采集的活动也被重复单一的农业劳动代替。 小麦从野外零星分布的植物，跃升为植物界最兴盛的物种之一，拿到了生物学意义上的大结果。而我们人类获得的是面条，包子和面包，以及腰椎疾病。 我们也在手机上的一个个应用里投入名为时间和注意力的养料，种植出了一个个庞大的不可或缺的互联网服务，以及俨然巨物的互联网大厂。 华为和我们，都需要一束新的光...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:17:05.000Z",
-      "firstSeenAt": "2026-11-20T11:16:15.092Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.ifanr.com/feed",
-        "fetchedAt": "2026-11-22T15:44:41.903Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 首款鸿蒙 AI 手机发布：华为全新子品牌 OSTA 星芒有一个「增援未来计划」"
-      },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 20,
-      "heat": 7
-    },
-    {
-      "id": "cc19d04a54d6d35e3bfa26b794e4cfe190c14636",
-      "kind": "news",
-      "source": "ithome",
-      "sourceLabel": "IT之家",
-      "title": "AMD XDNA2 NPU 率先获得 Unsloth Desktop 适配，支持超百款智能体",
-      "url": "https://www.ithome.com/1/030/131.htm",
-      "summary": "IT之家 11 月 20 日消息，AMD 当地时间 19 日宣布，其锐龙 AI 处理器上的 \"XDNA 2\" NPU 成为 首款获得 Unsloth Desktop 本地界面支持的神经网络处理器 。 具体来看，兼容的应用程序向 Unsloth Desktop API 发送模型请求，而 Lemonade 和 FastFlowLM 则在 AMD XDNA 2 NPU 上处理模型服务和推理。模型的响应返回给应用程序，供其工作流程使用。 这意味着 OpenClaw、Hermes 等超百款智能体可通过 Unsloth Desktop 在锐龙 AI 处理器的 NPU 上本地运行， 从 CPU 和 GPU 上卸载相关 AI 工作负载 ，留出更多算力以供其它任务使用，也有助于延长带电池设备的续航。",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:13:35.000Z",
-      "firstSeenAt": "2026-11-20T11:16:12.789Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "模型",
-        "智能体",
-        "推理"
-      ],
-      "evidence": {
-        "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-20T11:16:12.784Z",
-        "httpStatus": 200,
-        "pointer": "feed item: AMD XDNA2 NPU 率先获得 Unsloth Desktop 适配，支持超百款智能体"
-      },
-      "lastSeenAt": "2026-11-20T11:16:28.337Z",
-      "seenCount": 1,
-      "heat": 145
-    },
-    {
-      "id": "8e957a73e24f2b4d5bcb99b1f70a2c3b369bbd2c",
-      "kind": "news",
-      "source": "ithome",
-      "sourceLabel": "IT之家",
-      "title": "Anthropic 上市当天，离职研究员考克森在其总部外呼吁禁止 AI 递归自我改进",
-      "url": "https://www.ithome.com/1/030/127.htm",
-      "summary": "IT之家 11 月 20 日消息，据《商业内幕》报道，今年 9 月，Anthropic 前研究员雅各布 · 考克森 因担忧 AI 发展而离职 ，并在美国引发了对 AI 技术的广泛恐慌。时间来到当地时间 19 日，随着 Anthropic 股票首次上市交易，考克森再次呼吁公众关注 AI 安全问题。 这次，他在接受采访时强调：“ 他们买不买股票根本不重要。我们必须阻止递归自我改进 。” IT之家注：“递归自我改进”指 让先进 AI 系统参与训练下一代 AI ，从而推动 AI 能力不断提升。 当天，考克森与数十名抗议者聚集在 Anthropic 旧金山总部外，要求禁止有关技术。 抗议者举着标语、高喊口号，现场还有考克森、OpenAI 前研究员丹尼尔 · 科科塔伊洛和 YouTube 博主罗布 · 迈尔斯发表演讲，随后赶到的 Stop AI 组织成员则封堵了办公楼入口。 AI 安全研究机构 METR 近期发布的独立报告发现，AI...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:06:53.000Z",
-      "firstSeenAt": "2026-11-20T11:16:12.789Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "论文",
-        "安全",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.ithome.com/rss/",
-        "fetchedAt": "2026-11-20T11:16:12.784Z",
-        "httpStatus": 200,
-        "pointer": "feed item: Anthropic 上市当天，离职研究员考克森在其总部外呼吁禁止 AI 递归自我改进"
-      },
-      "lastSeenAt": "2026-11-20T11:16:28.337Z",
-      "seenCount": 1,
-      "heat": 126
-    },
-    {
-      "id": "c82e3acfa62bd6682cc75c07064d500f5b51aa90",
-      "kind": "news",
-      "source": "ifanr",
-      "sourceLabel": "爱范儿",
-      "title": "给 Gemini 道歉，请自觉排队",
-      "url": "https://www.ifanr.com/1690572?amp%3Butm_medium=rss&amp%3Butm_campaign=",
-      "summary": "今天，知名半导体和 AI 研究机构 SemiAnalysis 在 X 上发了一张写给 Google DeepMind 主席 Demis Hassabis 的《向 Google 道歉专用表》。 理由一栏勾了包括「我只看了 X 上大家的消息」、「我那在 Anthropic 工作的室友，说服我相信 Gemini 已经完了」和「我没有阅读模型卡」等原因。最有意思的是最后一行：「Demis，关于 Gemini 4，我们错了。我们只想撤回一个词。」 他们从自己当初的标题里划掉了一个 is：Gemini is cooked。一句「Gemini 完了」，变成了「Gemini 这回真做出了点东西」。 事件的起因是 SemiAnalysis 在今年 8 月份发布了一篇文章，通篇都在讲 Google 自从去年 11 月短暂领先之后，就再也没有发布任何让人激动的模型，几乎是处在了掉队中的状态。 当时他们分析 DeepMind...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:03:13.000Z",
-      "firstSeenAt": "2026-11-20T11:16:15.093Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "论文",
-        "模型",
-        "产品"
-      ],
-      "evidence": {
-        "url": "https://www.ifanr.com/feed",
-        "fetchedAt": "2026-11-22T15:44:41.903Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 给 Gemini 道歉，请自觉排队"
-      },
-      "lastSeenAt": "2026-11-22T15:44:51.578Z",
-      "seenCount": 20,
-      "heat": 25
-    },
-    {
-      "id": "1410fbaba41d209cc9ccb8f8785de9e3eed1b407",
-      "kind": "discussion",
-      "source": "community",
-      "sourceLabel": "OSCHINA 资讯",
-      "title": "【AI 智能运维平台】本周更新：内置常用智能体模版，简单配置快速启用",
-      "url": "https://www.oschina.net/news/503707",
-      "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。 :loudspeaker: 【平台 · 本周更新速递】 :hammer_and_wrench: 系统管理 • 新增「超级审计员」角色，可只读查看全部组织和应用数据 :card_index_dividers: CMDB • 采集任...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:02:40.000Z",
-      "firstSeenAt": "2026-11-20T11:16:10.504Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "社区",
-        "智能体"
-      ],
-      "evidence": {
-        "url": "https://www.oschina.net/news/rss",
-        "fetchedAt": "2026-11-22T15:44:39.028Z",
-        "httpStatus": 200,
-        "pointer": "oschina RSS item: 【AI 智能运维平台】本周更新：内置常用智能体模版，简单配置快速启用"
-      },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 20,
-      "heat": 25
-    },
-    {
-      "id": "e83910e8b6b7256d1786bf8fe23f219fbea3b42b",
-      "kind": "discussion",
-      "source": "community",
-      "sourceLabel": "OSCHINA 资讯",
-      "title": "哈佛大学研究人员：AI 编程目前的瓶颈是“Code Review”",
-      "url": "https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted",
-      "summary": "哈佛大学两位博士候选人做了一份工作论文，把 AI 编程 Agent 的真实效果算了一遍。样本是 718 家公司、725938 名员工。 结论不太好看。 用上 AI 编程 Agent 之后，人均每月新增代码行数从 5017 涨到 6511，多了约 30%。提交数增长 20%，Pull Request 增长 23%。该有的增长都出现了。 但活干完了吗？没有。 论文用 Jira i...",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T09:00:13.000Z",
-      "firstSeenAt": "2026-11-20T11:16:10.504Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文",
-        "社区",
-        "论文",
-        "智能体"
-      ],
-      "evidence": {
-        "url": "https://www.oschina.net/news/rss",
-        "fetchedAt": "2026-11-22T15:44:39.028Z",
-        "httpStatus": 200,
-        "pointer": "oschina RSS item: 哈佛大学研究人员：AI 编程目前的瓶颈是“Code Review”"
-      },
-      "lastSeenAt": "2026-11-22T15:44:51.577Z",
-      "seenCount": 20,
-      "heat": 25
-    },
-    {
-      "id": "6a3168fe7f8d65f615cf1833665cbecad4b8455b",
-      "kind": "news",
-      "source": "qbitai",
-      "sourceLabel": "量子位",
-      "title": "给万卡国产芯装个“超级外挂”！清华团队要造最强国产Token工厂",
-      "url": "https://www.qbitai.com/2026/11/511679.html",
-      "summary": "联合华为昇腾，五年冲刺十万卡",
-      "lang": "zh",
-      "publishedAt": "2026-11-20T08:59:15.000Z",
-      "firstSeenAt": "2026-11-20T11:16:11.378Z",
-      "score": null,
-      "scoreLabel": "",
-      "tags": [
-        "中文"
-      ],
-      "evidence": {
-        "url": "https://www.qbitai.com/feed",
-        "fetchedAt": "2026-11-22T07:28:04.896Z",
-        "httpStatus": 200,
-        "pointer": "feed item: 给万卡国产芯装个“超级外挂”！清华团队要造最强国产Token工厂"
-      },
-      "lastSeenAt": "2026-11-22T07:28:12.870Z",
-      "seenCount": 11,
-      "heat": 21
     }
   ]
 }
