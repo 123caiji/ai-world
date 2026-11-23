@@ -1,105 +1,117 @@
 {
-  "generatedAt": "2026-11-23T13:54:44.047Z",
+  "generatedAt": "2026-11-23T16:40:21.928Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 188
+      "n": 179
     },
     {
       "w": "claude",
-      "n": 123
-    },
-    {
-      "w": "模型",
-      "n": 106
+      "n": 124
     },
     {
       "w": "发布",
       "n": 104
     },
     {
-      "w": "智能",
-      "n": 97
+      "w": "模型",
+      "n": 98
     },
     {
       "w": "pro",
-      "n": 95
+      "n": 96
+    },
+    {
+      "w": "智能",
+      "n": 90
     },
     {
       "w": "openai",
-      "n": 80
-    },
-    {
-      "w": "gemini",
-      "n": 79
+      "n": 78
     },
     {
       "w": "anthropic",
-      "n": 79
+      "n": 75
     },
     {
-      "w": "google",
-      "n": 73
-    },
-    {
-      "w": "agents",
-      "n": 62
-    },
-    {
-      "w": "model",
-      "n": 57
-    },
-    {
-      "w": "llm",
-      "n": 57
+      "w": "nvidia",
+      "n": 72
     },
     {
       "w": "ceo",
-      "n": 49
+      "n": 71
+    },
+    {
+      "w": "gemini",
+      "n": 71
+    },
+    {
+      "w": "google",
+      "n": 70
+    },
+    {
+      "w": "huang",
+      "n": 67
+    },
+    {
+      "w": "model",
+      "n": 62
+    },
+    {
+      "w": "agents",
+      "n": 58
     },
     {
       "w": "models",
-      "n": 46
+      "n": 53
+    },
+    {
+      "w": "llm",
+      "n": 53
+    },
+    {
+      "w": "jensen",
+      "n": 48
     },
     {
       "w": "november",
-      "n": 46
-    },
-    {
-      "w": "chatgpt",
-      "n": 46
-    },
-    {
-      "w": "data",
-      "n": 43
+      "n": 48
     },
     {
       "w": "tech",
+      "n": 45
+    },
+    {
+      "w": "riemann",
       "n": 41
+    },
+    {
+      "w": "china",
+      "n": 40
     },
     {
       "w": "deepseek",
-      "n": 41
+      "n": 40
     },
     {
-      "w": "code",
-      "n": 41
+      "w": "times",
+      "n": 40
     },
     {
       "w": "coding",
       "n": 39
     },
     {
-      "w": "china",
+      "w": "code",
+      "n": 39
+    },
+    {
+      "w": "data",
       "n": 38
     },
     {
-      "w": "times",
-      "n": 38
-    },
-    {
-      "w": "app",
+      "w": "people",
       "n": 38
     },
     {
@@ -107,92 +119,80 @@
       "n": 38
     },
     {
-      "w": "api",
-      "n": 38
-    },
-    {
-      "w": "intelligence",
-      "n": 37
-    },
-    {
-      "w": "riemann",
+      "w": "lean",
       "n": 36
     },
     {
-      "w": "nvidia",
+      "w": "chatgpt",
+      "n": 36
+    },
+    {
+      "w": "intelligence",
       "n": 35
     },
     {
-      "w": "proof",
+      "w": "app",
       "n": 35
     },
     {
-      "w": "lean",
+      "w": "api",
       "n": 35
     },
     {
-      "w": "dsh",
-      "n": 35
-    },
-    {
-      "w": "people",
+      "w": "osta",
       "n": 34
     },
     {
-      "w": "harness",
-      "n": 33
+      "w": "proof",
+      "n": 34
     },
     {
       "w": "meta",
       "n": 33
     },
     {
+      "w": "security",
+      "n": 32
+    },
+    {
+      "w": "dsh",
+      "n": 32
+    },
+    {
+      "w": "harness",
+      "n": 32
+    },
+    {
+      "w": "million",
+      "n": 31
+    },
+    {
+      "w": "company",
+      "n": 31
+    },
+    {
       "w": "gpt",
       "n": 31
     },
     {
-      "w": "token",
+      "w": "hypothesis",
       "n": 31
     },
     {
-      "w": "million",
+      "w": "human",
       "n": 30
     },
     {
-      "w": "huang",
+      "w": "token",
       "n": 29
-    },
-    {
-      "w": "ios",
-      "n": 29
-    },
-    {
-      "w": "智能体",
-      "n": 29
-    },
-    {
-      "w": "hypothesis",
-      "n": 29
-    },
-    {
-      "w": "安全",
-      "n": 27
-    },
-    {
-      "w": "work",
-      "n": 27
-    },
-    {
-      "w": "human",
-      "n": 27
     },
     {
       "w": "news",
-      "n": 26
+      "n": 28
     },
     {
-      "w": "security",
-      "n": 25
+      "w": "article",
+      "n": 28
     }
   ]
 }
