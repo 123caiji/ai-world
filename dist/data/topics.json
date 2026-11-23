@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-11-23T19:25:57.377Z",
+  "generatedAt": "2026-11-23T22:11:30.948Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 170
+      "n": 154
     },
     {
       "w": "claude",
-      "n": 120
+      "n": 127
+    },
+    {
+      "w": "nvidia",
+      "n": 115
+    },
+    {
+      "w": "huang",
+      "n": 115
     },
     {
       "w": "发布",
       "n": 100
-    },
-    {
-      "w": "nvidia",
-      "n": 99
-    },
-    {
-      "w": "huang",
-      "n": 95
     },
     {
       "w": "pro",
@@ -28,51 +28,51 @@
     },
     {
       "w": "模型",
-      "n": 93
-    },
-    {
-      "w": "google",
-      "n": 85
-    },
-    {
-      "w": "智能",
-      "n": 85
+      "n": 91
     },
     {
       "w": "ceo",
-      "n": 81
+      "n": 89
+    },
+    {
+      "w": "jensen",
+      "n": 86
+    },
+    {
+      "w": "google",
+      "n": 86
+    },
+    {
+      "w": "智能",
+      "n": 84
     },
     {
       "w": "openai",
-      "n": 75
+      "n": 79
     },
     {
       "w": "anthropic",
-      "n": 74
+      "n": 76
     },
     {
       "w": "gemini",
       "n": 72
     },
     {
-      "w": "jensen",
+      "w": "agents",
       "n": 71
     },
     {
-      "w": "agents",
-      "n": 62
-    },
-    {
       "w": "model",
-      "n": 60
+      "n": 63
     },
     {
       "w": "models",
-      "n": 56
+      "n": 61
     },
     {
       "w": "november",
-      "n": 56
+      "n": 60
     },
     {
       "w": "llm",
@@ -80,42 +80,46 @@
     },
     {
       "w": "tech",
-      "n": 46
-    },
-    {
-      "w": "data",
-      "n": 44
-    },
-    {
-      "w": "people",
-      "n": 43
+      "n": 50
     },
     {
       "w": "code",
+      "n": 48
+    },
+    {
+      "w": "data",
+      "n": 46
+    },
+    {
+      "w": "trump",
       "n": 41
     },
     {
-      "w": "coding",
+      "w": "people",
       "n": 41
+    },
+    {
+      "w": "company",
+      "n": 40
     },
     {
       "w": "china",
-      "n": 39
-    },
-    {
-      "w": "times",
       "n": 38
     },
     {
-      "w": "riemann",
+      "w": "app",
       "n": 37
     },
     {
-      "w": "app",
-      "n": 36
+      "w": "coding",
+      "n": 37
     },
     {
       "w": "security",
+      "n": 36
+    },
+    {
+      "w": "times",
       "n": 36
     },
     {
@@ -123,23 +127,15 @@
       "n": 36
     },
     {
-      "w": "chatgpt",
-      "n": 36
-    },
-    {
-      "w": "deepseek",
+      "w": "board",
       "n": 35
     },
     {
-      "w": "api",
+      "w": "chatgpt",
       "n": 34
     },
     {
-      "w": "intelligence",
-      "n": 34
-    },
-    {
-      "w": "trump",
+      "w": "million",
       "n": 34
     },
     {
@@ -147,27 +143,31 @@
       "n": 34
     },
     {
-      "w": "芯片",
-      "n": 34
-    },
-    {
-      "w": "company",
+      "w": "api",
       "n": 33
     },
     {
-      "w": "million",
-      "n": 32
+      "w": "intelligence",
+      "n": 33
     },
     {
-      "w": "board",
-      "n": 32
+      "w": "deepseek",
+      "n": 33
     },
     {
-      "w": "gpt",
-      "n": 31
+      "w": "芯片",
+      "n": 33
     },
     {
       "w": "safety",
+      "n": 31
+    },
+    {
+      "w": "riemann",
+      "n": 31
+    },
+    {
+      "w": "gpt",
       "n": 30
     },
     {
@@ -175,24 +175,24 @@
       "n": 30
     },
     {
-      "w": "news",
+      "w": "companies",
       "n": 29
     },
     {
-      "w": "chinese",
+      "w": "announced",
       "n": 29
     },
     {
-      "w": "harness",
-      "n": 29
+      "w": "own",
+      "n": 28
     },
     {
       "w": "token",
       "n": 28
     },
     {
-      "w": "announced",
-      "n": 27
+      "w": "harness",
+      "n": 28
     }
   ]
 }
