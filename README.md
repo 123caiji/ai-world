@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/24 00:37:27 · 库内 900 条 · 本轮新增 599 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/24 03:23:01 · 库内 900 条 · 本轮新增 587 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 203 | [google-labs-code/stitch-skills · 今日 +425 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
-| 195 | [deepseek-ai/deepseek-harness 涨 496 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 186 | [openvinotoolkit/openvino · 今日 +183 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
-| 178 | [HKUDS/CLI-Anything · 今日 +783 ⭐](https://github.com/HKUDS/CLI-Anything) | GitHub 每日趋势 |
-| 178 | [mvanhorn/last30days-skill · 今日 +790 ⭐](https://github.com/mvanhorn/last30days-skill) | GitHub 每日趋势 |
-| 167 | [Government investigators posing as terrorists got ChatGPT, Claude, Gemini and Grok to produce workable plans for a bombing and an attack...](https://typo.social/@victor/117656271511765913) | Mastodon（联邦宇宙） |
+| 195 | [deepseek-ai/deepseek-harness 涨 504 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 190 | [elementalsouls/Claude-BugHunter · 今日 +2037 ⭐](https://github.com/elementalsouls/Claude-BugHunter) | GitHub 每日趋势 |
+| 190 | [firecrawl/firecrawl · 今日 +920 ⭐](https://github.com/firecrawl/firecrawl) | GitHub 每日趋势 |
+| 190 | [cathrynlavery/diagram-design · 今日 +624 ⭐](https://github.com/cathrynlavery/diagram-design) | GitHub 每日趋势 |
+| 190 | [mjmirza/app-store-compliance · 今日 +755 ⭐](https://github.com/mjmirza/app-store-compliance) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
