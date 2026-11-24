@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-24T20:14:57.848Z",
-  "total": 6803,
-  "newCount": 0,
+  "generatedAt": "2026-11-24T23:00:30.056Z",
+  "total": 6807,
+  "newCount": 5,
   "firstRun": false,
   "categories": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "name": "tools",
-      "count": 1090
+      "count": 1091
     },
     {
       "name": "session",
@@ -18,15 +18,15 @@
     },
     {
       "name": "workflow",
-      "count": 449
+      "count": 450
     },
     {
       "name": "dev",
-      "count": 386
+      "count": 385
     },
     {
       "name": "model",
-      "count": 355
+      "count": 356
     },
     {
       "name": "usage",
@@ -38,7 +38,7 @@
     },
     {
       "name": "remote",
-      "count": 215
+      "count": 216
     },
     {
       "name": "theme",
@@ -62,6 +62,56 @@
     }
   ],
   "recent": [
+    {
+      "name": "@gaor0605-kq/dsh-workspace-explorer",
+      "title": "gaor0605-kq/dsh-workspace-explorer",
+      "url": "https://awesome-dsh-plugin.com/p/gaor0605-kq/dsh-workspace-explorer/",
+      "repo": "https://github.com/gaor0605-kq/dsh-workspace-explorer",
+      "category": "ui",
+      "description": "在左侧栏「工作区」标题旁加入「对话 | 文件」切换，把会话列表换成当前会话工作区的按需加载文件树。文件和文件夹可拖进输入框作为 @路径 引用；单击文件打开自带预览；右键可在系统文件管理器中打开所在文件夹或复制路径；条目按 VS Code 的方式显示相对最近一次提交的 Git…",
+      "version": "1.2.1",
+      "publishedAt": "2026-11-24T11:12:29.000Z"
+    },
+    {
+      "name": "@model-go/dsh-modelgo-provider",
+      "title": "modelgo/dsh-modelgo-provider",
+      "url": "https://awesome-dsh-plugin.com/p/modelgo/dsh-modelgo-provider/",
+      "repo": "https://github.com/modelgo/dsh-modelgo-provider",
+      "category": "model",
+      "description": "ModelGo 是稳定的企业级 AI 大模型 API 平台，一个 API Key 即可调用 Claude、GPT、Gemini、DeepSeek 等最新主流模型，兼容 OpenAI 与 Anthropic 协议。为 AI 编程和 Agent 工作流灵活选择模型，调用费用逐笔可查，提供可视化看板，支持预算与消费上限管理。",
+      "version": "0.3.1",
+      "publishedAt": "2026-11-24T09:04:02.000Z"
+    },
+    {
+      "name": "dsh-dreams",
+      "title": "hehuifeng/dsh-dreams",
+      "url": "https://awesome-dsh-plugin.com/p/hehuifeng/dsh-dreams/",
+      "repo": "https://github.com/hehuifeng/dsh-dreams",
+      "category": "memory",
+      "description": "为 DSH 提供做梦式记忆：空闲时回放会话记录，整理成带逐字引文的笔记和始终注入的简报；带面板、每日定时与模型选择。",
+      "version": "1.1.1",
+      "publishedAt": "2026-11-24T08:50:20.000Z"
+    },
+    {
+      "name": "dsh-pure-search",
+      "title": "silentlamb05147/dsh-pure-search",
+      "url": "https://awesome-dsh-plugin.com/p/silentlamb05147/dsh-pure-search/",
+      "repo": "https://github.com/silentlamb05147/dsh-pure-search",
+      "category": "docs",
+      "description": "面向 DSH 的本地文档检索：八个 kb_* 工具把 Markdown、TXT、PDF、DOCX、HTML、JSON 建成工作区/会话分层索引，返回带路径、章节与行号的原文片段；默认 BM25，可选稠密检索，全程离线、仅宿主侧。",
+      "version": "1.4.0",
+      "publishedAt": "2026-11-24T08:01:26.000Z"
+    },
+    {
+      "name": "@shuf/dsh-sidebar-restore",
+      "title": "uitTe/dsh-sidebar-restore",
+      "url": "https://awesome-dsh-plugin.com/p/uitTe/dsh-sidebar-restore/",
+      "repo": "https://github.com/uitTe/dsh-sidebar-restore",
+      "category": "ui",
+      "description": "在 Windows 桌面端把收起的侧边栏还原成 56px 图标轨道，面板、新建会话与工作区入口保持可点，悬停时在轨道右侧浮出工作区会话卡片。",
+      "version": "1.1.1",
+      "publishedAt": "2026-11-24T03:09:58.000Z"
+    },
     {
       "name": "dsh-ink-splash",
       "title": "xiaobaga281/dsh-ink-splash",
@@ -178,7 +228,7 @@
       "url": "https://awesome-dsh-plugin.com/p/marchinlab/dsh-quiet-whale-girl/",
       "repo": "https://github.com/marchinlab/dsh-quiet-whale-girl",
       "category": "fun",
-      "description": "基于 LivLiv Player 与鲸鱼娘（Kujira）社区角色的 2.5D 动画桌宠：可拖动、视线跟随鼠标、待机眨眼浅笑、点击互动，可切换 Kujira / Kujira Q 两只角色。纯本地运行，不联网、不上传数据。角色素材为 CC BY-NC-SA 4.0 非商用，署名详见仓库 CREDITS。",
+      "description": "安静的鲸鱼娘 —— 基于 LivLiv Player 与鲸鱼娘（Kujira）社区角色的 2.5D 动画桌宠：可拖动、视线跟随鼠标、待机眨眼浅笑、点击互动，可切换 Kujira / Kujira Q 两只角色。纯本地运行，不联网、不上传数据。角色素材为 CC BY-NC-SA 4.0 非商用，署名详见仓库…",
       "version": "0.1.3",
       "publishedAt": "2026-11-24T02:13:00.000Z"
     },
@@ -288,7 +338,7 @@
       "url": "https://awesome-dsh-plugin.com/p/fubai-fenzhi/dsh-procedures/",
       "repo": "https://github.com/fubai-fenzhi/dsh-procedures",
       "category": "memory",
-      "description": "给 DSH 和其他 agent 用的文件化经验卡：工具报错命中时只注入一行指向本地卡的提示、不注入整卡，含命中统计、稀有度、跨机同步、社区卡库与非 DSH agent 的通用版。",
+      "description": "给 DSH 和其他 agent 用的文件化经验卡：工具报错命中时只注入一行指向本地卡的提示、不注入整卡——实测单次命中约省 83%~90% token——含命中统计、稀有度、跨机同步、社区卡库与非 DSH agent 的通用版。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
       "version": "1.4.0",
       "publishedAt": "2026-11-24T01:55:29.000Z"
     },
@@ -378,7 +428,7 @@
       "url": "https://awesome-dsh-plugin.com/p/lyy-hast/dsh-yapi/",
       "repo": "https://github.com/lyy-hast/dsh-yapi",
       "category": "docs",
-      "description": "为 DeepSeek Harness 连接 YAPI 服务：通过 agent 对话自动生成接口文档，经审查卡片审批后同步至远程 YAPI 文档服务。",
+      "description": "为 DeepSeek Harness 连接 YAPI 服务：通过 agent 对话自动生成接口文档，按接口对应类的 Javadoc 注释归入 YAPI 文件夹，经审查卡片审批后同步至远程 YAPI 文档服务。",
       "version": "1.1.0",
       "publishedAt": "2026-11-24T01:12:53.000Z"
     },
@@ -411,56 +461,6 @@
       "description": "面向个人开发者与小团队的多 Agent 工程流程框架：七个角色、四档流程、人工审批点、护栏，以及随任务归档持续沉淀规格与经验的共享资产仓库。",
       "version": "0.2.5",
       "publishedAt": "2026-11-24T01:07:24.000Z"
-    },
-    {
-      "name": "dsh-eye-comfort",
-      "title": "AaronKate/dsh-codex-appearance",
-      "url": "https://awesome-dsh-plugin.com/p/AaronKate/dsh-codex-appearance/",
-      "repo": "https://github.com/AaronKate/dsh-codex-appearance",
-      "category": "theme",
-      "description": "为 DeepSeek Harness 增加外观设置页：五套护眼浅色主题，每套主题自带匹配的强调色与链接色；另可调整强调色与背景色、界面与代码的字体和字号、字体样式、内容宽度、对比度与减少动态效果。",
-      "version": "0.3.26",
-      "publishedAt": "2026-11-24T01:01:59.000Z"
-    },
-    {
-      "name": "dsh-tool-manager",
-      "title": "pan17/dsh-tool-manager",
-      "url": "https://awesome-dsh-plugin.com/p/pan17/dsh-tool-manager/",
-      "repo": "https://github.com/pan17/dsh-tool-manager",
-      "category": "tools",
-      "description": "DSH 工具管理插件：按 Agent Preset 开关和分组工具，像 Skill 一样按需加载工具，减少模型上下文占用。",
-      "version": "1.5.1",
-      "publishedAt": "2026-11-24T01:00:25.000Z"
-    },
-    {
-      "name": "dsh-workflow-canvas",
-      "title": "Wasabi2575/dsh-workflow-canvas",
-      "url": "https://awesome-dsh-plugin.com/p/Wasabi2575/dsh-workflow-canvas/",
-      "repo": "https://github.com/Wasabi2575/dsh-workflow-canvas",
-      "category": "workflow",
-      "description": "DeepSeek Harness 可视化子代理工作流画布：拖拽节点与三种语义连线、动态并发执行、Lead 节点暂停拍板、节点记忆选择，也支持在对话里一句话搭图与改图。",
-      "version": "1.5.0",
-      "publishedAt": "2026-11-24T00:57:41.000Z"
-    },
-    {
-      "name": "dsh-whale-dream",
-      "title": "sjnole/dsh-whale-dream",
-      "url": "https://awesome-dsh-plugin.com/p/sjnole/dsh-whale-dream/",
-      "repo": "https://github.com/sjnole/dsh-whale-dream",
-      "category": "theme",
-      "description": "鲸梦是一款 DeepSeek Harness 主题插件：用深海配色替换应用配色，在对话背后绘制字符鲸鱼背景，并在启动时播放一段跃鲸开场动画。包含浅色与深色两套皮肤，跟随应用自身的外观设置切换。Windows 与 Apple 芯片 Mac 桌面版还可以开启一个置顶的实况小窗，显示最近回复、余额与用量。",
-      "version": "1.0.1",
-      "publishedAt": "2026-11-24T00:51:27.000Z"
-    },
-    {
-      "name": "@dsh-teamwork/dsh-teamwork",
-      "title": "dsh-teamwork/dsh-teamwork",
-      "url": "https://awesome-dsh-plugin.com/p/dsh-teamwork/dsh-teamwork/",
-      "repo": "https://github.com/dsh-teamwork/dsh-teamwork",
-      "category": "workflow",
-      "description": "将团队模型、智能体预设和审批后的插件同步到 DeepSeek Harness，并提供绑定团队的助理操作。",
-      "version": "0.19.11",
-      "publishedAt": "2026-11-24T00:45:22.000Z"
     }
   ]
 }
