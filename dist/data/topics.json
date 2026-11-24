@@ -1,141 +1,141 @@
 {
-  "generatedAt": "2026-11-24T11:59:37.052Z",
+  "generatedAt": "2026-11-24T14:45:30.288Z",
   "windowHours": 72,
   "words": [
     {
       "w": "agent",
-      "n": 151
+      "n": 146
     },
     {
       "w": "ceo",
-      "n": 140
+      "n": 138
     },
     {
       "w": "发布",
-      "n": 139
+      "n": 137
     },
     {
       "w": "huang",
-      "n": 128
-    },
-    {
-      "w": "nvidia",
-      "n": 119
+      "n": 130
     },
     {
       "w": "models",
-      "n": 114
+      "n": 125
     },
     {
-      "w": "模型",
-      "n": 104
+      "w": "nvidia",
+      "n": 120
+    },
+    {
+      "w": "agents",
+      "n": 103
+    },
+    {
+      "w": "openai",
+      "n": 102
     },
     {
       "w": "jensen",
       "n": 99
     },
     {
-      "w": "claude",
+      "w": "anthropic",
       "n": 98
     },
     {
-      "w": "openai",
-      "n": 97
+      "w": "模型",
+      "n": 93
     },
     {
-      "w": "agents",
-      "n": 91
+      "w": "claude",
+      "n": 90
     },
     {
       "w": "智能",
-      "n": 91
-    },
-    {
-      "w": "anthropic",
-      "n": 87
+      "n": 80
     },
     {
       "w": "model",
-      "n": 71
-    },
-    {
-      "w": "pro",
-      "n": 66
+      "n": 73
     },
     {
       "w": "data",
-      "n": 61
+      "n": 72
     },
     {
       "w": "november",
+      "n": 63
+    },
+    {
+      "w": "trump",
       "n": 58
     },
     {
       "w": "code",
-      "n": 56
+      "n": 55
     },
     {
       "w": "google",
       "n": 55
     },
     {
-      "w": "trump",
-      "n": 54
-    },
-    {
-      "w": "coding",
-      "n": 47
-    },
-    {
-      "w": "tech",
-      "n": 45
+      "w": "pro",
+      "n": 49
     },
     {
       "w": "company",
+      "n": 48
+    },
+    {
+      "w": "systems",
       "n": 45
+    },
+    {
+      "w": "coding",
+      "n": 44
     },
     {
       "w": "board",
       "n": 44
     },
     {
+      "w": "tech",
+      "n": 43
+    },
+    {
+      "w": "announced",
+      "n": 42
+    },
+    {
       "w": "llm",
       "n": 42
     },
     {
-      "w": "token",
-      "n": 39
+      "w": "security",
+      "n": 41
     },
     {
-      "w": "announced",
-      "n": 37
+      "w": "gemini",
+      "n": 38
+    },
+    {
+      "w": "token",
+      "n": 38
     },
     {
       "w": "president",
       "n": 37
     },
     {
-      "w": "security",
+      "w": "amazon",
       "n": 35
     },
     {
-      "w": "api",
+      "w": "work",
       "n": 35
     },
     {
-      "w": "gemini",
-      "n": 35
-    },
-    {
-      "w": "intelligence",
-      "n": 34
-    },
-    {
-      "w": "安全",
-      "n": 33
-    },
-    {
-      "w": "systems",
+      "w": "safety",
       "n": 33
     },
     {
@@ -143,55 +143,55 @@
       "n": 33
     },
     {
-      "w": "大模型",
+      "w": "intelligence",
       "n": 32
     },
     {
-      "w": "app",
-      "n": 32
+      "w": "million",
+      "n": 31
     },
     {
-      "w": "work",
-      "n": 32
+      "w": "led",
+      "n": 31
+    },
+    {
+      "w": "only",
+      "n": 31
     },
     {
       "w": "times",
       "n": 31
     },
     {
-      "w": "safety",
+      "w": "video",
       "n": 30
     },
     {
-      "w": "deepseek",
+      "w": "without",
       "n": 30
-    },
-    {
-      "w": "led",
-      "n": 30
-    },
-    {
-      "w": "review",
-      "n": 29
-    },
-    {
-      "w": "reasoning",
-      "n": 29
     },
     {
       "w": "people",
+      "n": 30
+    },
+    {
+      "w": "app",
+      "n": 30
+    },
+    {
+      "w": "api",
+      "n": 30
+    },
+    {
+      "w": "tasks",
       "n": 29
     },
     {
-      "w": "only",
+      "w": "companies",
       "n": 29
     },
     {
-      "w": "million",
-      "n": 29
-    },
-    {
-      "w": "video",
+      "w": "software",
       "n": 29
     }
   ]
