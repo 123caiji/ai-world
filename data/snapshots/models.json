@@ -1327,10 +1327,6 @@
     "created": 1763057820,
     "name": "OpenAI: GPT-5.1-Codex-Mini"
   },
-  "moonshotai/kimi-k2-thinking": {
-    "created": 1762440622,
-    "name": "MoonshotAI: Kimi K2 Thinking"
-  },
   "amazon/nova-premier-v1": {
     "created": 1761950332,
     "name": "Amazon: Nova Premier 1.0"
@@ -1530,10 +1526,6 @@
   "qwen/qwen3-235b-a22b-2507": {
     "created": 1753119555,
     "name": "Qwen: Qwen3 235B A22B Instruct 2507"
-  },
-  "moonshotai/kimi-k2": {
-    "created": 1752263252,
-    "name": "MoonshotAI: Kimi K2 0711"
   },
   "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
     "created": 1752094966,
