@@ -40,13 +40,13 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/24 14:25:26 · 库内 900 条 · 本轮新增 594 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/24 17:11:03 · 库内 900 条 · 本轮新增 612 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 203 | [google-labs-code/stitch-skills · 今日 +422 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
-| 195 | [deepseek-ai/deepseek-harness 涨 457 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 186 | [openvinotoolkit/openvino · 今日 +184 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
+| 195 | [deepseek-ai/deepseek-harness 涨 476 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 190 | [mvanhorn/last30days-skill · 今日 +797 ⭐](https://github.com/mvanhorn/last30days-skill) | GitHub 每日趋势 |
 | 178 | [elementalsouls/Claude-BugHunter · 今日 +2029 ⭐](https://github.com/elementalsouls/Claude-BugHunter) | GitHub 每日趋势 |
 | 178 | [firecrawl/firecrawl · 今日 +924 ⭐](https://github.com/firecrawl/firecrawl) | GitHub 每日趋势 |
 | 178 | [cathrynlavery/diagram-design · 今日 +620 ⭐](https://github.com/cathrynlavery/diagram-design) | GitHub 每日趋势 |
