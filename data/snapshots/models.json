@@ -587,10 +587,6 @@
     "created": 1786722910,
     "name": "Qwen: Qwen3.8 27B (batch)"
   },
-  "dots-studio/dots-3-note-preview:free": {
-    "created": 1786680361,
-    "name": "Dots Studio: Dots3-Note Preview (free)"
-  },
   "google/gemini-3.7-flash": {
     "created": 1786640581,
     "name": "Google: Gemini 3.7 Flash"
@@ -1427,10 +1423,6 @@
     "created": 1755779628,
     "name": "DeepSeek: DeepSeek V3.1"
   },
-  "mistralai/mistral-medium-3.1": {
-    "created": 1755095639,
-    "name": "Mistral: Mistral Medium 3.1"
-  },
   "z-ai/glm-4.5v": {
     "created": 1754922288,
     "name": "Z.ai: GLM 4.5V"
@@ -1566,10 +1558,6 @@
   "deepseek/deepseek-r1-0528": {
     "created": 1748455170,
     "name": "DeepSeek: R1 0528"
-  },
-  "mistralai/mistral-medium-3": {
-    "created": 1746627341,
-    "name": "Mistral: Mistral Medium 3"
   },
   "meta-llama/llama-guard-4-12b": {
     "created": 1745975193,
