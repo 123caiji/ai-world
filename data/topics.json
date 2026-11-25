@@ -1,153 +1,157 @@
 {
-  "generatedAt": "2026-11-25T04:36:22.327Z",
+  "generatedAt": "2026-11-25T07:22:00.990Z",
   "windowHours": 72,
   "words": [
     {
       "w": "models",
-      "n": 158
+      "n": 156
     },
     {
       "w": "agent",
-      "n": 155
-    },
-    {
-      "w": "huang",
-      "n": 141
-    },
-    {
-      "w": "nvidia",
-      "n": 141
+      "n": 151
     },
     {
       "w": "anthropic",
-      "n": 132
-    },
-    {
-      "w": "ceo",
-      "n": 121
+      "n": 129
     },
     {
       "w": "openai",
-      "n": 118
+      "n": 123
     },
     {
       "w": "claude",
-      "n": 115
+      "n": 121
     },
     {
       "w": "发布",
-      "n": 109
+      "n": 119
     },
     {
-      "w": "jensen",
-      "n": 109
+      "w": "ceo",
+      "n": 114
+    },
+    {
+      "w": "nvidia",
+      "n": 113
+    },
+    {
+      "w": "huang",
+      "n": 110
     },
     {
       "w": "agents",
-      "n": 106
+      "n": 109
     },
     {
       "w": "model",
-      "n": 88
+      "n": 100
+    },
+    {
+      "w": "jensen",
+      "n": 85
     },
     {
       "w": "模型",
-      "n": 79
+      "n": 83
+    },
+    {
+      "w": "data",
+      "n": 81
     },
     {
       "w": "code",
       "n": 78
     },
     {
-      "w": "data",
-      "n": 73
-    },
-    {
-      "w": "november",
-      "n": 69
-    },
-    {
-      "w": "trump",
+      "w": "智能",
       "n": 65
     },
     {
-      "w": "智能",
-      "n": 59
-    },
-    {
-      "w": "google",
-      "n": 56
-    },
-    {
-      "w": "company",
-      "n": 55
+      "w": "november",
+      "n": 65
     },
     {
       "w": "llm",
-      "n": 53
+      "n": 62
     },
     {
-      "w": "systems",
-      "n": 48
+      "w": "trump",
+      "n": 55
+    },
+    {
+      "w": "company",
+      "n": 50
+    },
+    {
+      "w": "language",
+      "n": 50
     },
     {
       "w": "work",
-      "n": 46
+      "n": 45
     },
     {
-      "w": "security",
-      "n": 46
+      "w": "systems",
+      "n": 44
+    },
+    {
+      "w": "google",
+      "n": 43
+    },
+    {
+      "w": "开源",
+      "n": 41
     },
     {
       "w": "gemini",
-      "n": 42
+      "n": 41
     },
     {
-      "w": "board",
-      "n": 40
-    },
-    {
-      "w": "people",
+      "w": "reasoning",
       "n": 39
     },
     {
-      "w": "times",
-      "n": 39
-    },
-    {
-      "w": "tech",
-      "n": 39
-    },
-    {
-      "w": "video",
+      "w": "intelligence",
       "n": 38
     },
     {
-      "w": "time",
-      "n": 37
+      "w": "times",
+      "n": 38
     },
     {
       "w": "without",
+      "n": 38
+    },
+    {
+      "w": "security",
       "n": 37
     },
     {
-      "w": "pro",
-      "n": 36
+      "w": "generation",
+      "n": 37
     },
     {
       "w": "announced",
       "n": 36
     },
     {
-      "w": "same",
+      "w": "tech",
+      "n": 36
+    },
+    {
+      "w": "time",
+      "n": 36
+    },
+    {
+      "w": "learning",
       "n": 35
     },
     {
-      "w": "language",
+      "w": "video",
       "n": 35
     },
     {
-      "w": "开源",
+      "w": "pro",
       "n": 34
     },
     {
@@ -155,23 +159,23 @@
       "n": 34
     },
     {
-      "w": "reasoning",
-      "n": 34
-    },
-    {
-      "w": "research",
-      "n": 34
-    },
-    {
-      "w": "muse",
+      "w": "business",
       "n": 33
     },
     {
-      "w": "api",
+      "w": "people",
       "n": 33
     },
     {
-      "w": "president",
+      "w": "existing",
+      "n": 33
+    },
+    {
+      "w": "human",
+      "n": 33
+    },
+    {
+      "w": "large",
       "n": 33
     },
     {
@@ -179,19 +183,15 @@
       "n": 33
     },
     {
-      "w": "business",
+      "w": "introduce",
+      "n": 33
+    },
+    {
+      "w": "app",
       "n": 32
     },
     {
-      "w": "yet",
-      "n": 32
-    },
-    {
-      "w": "安全",
-      "n": 32
-    },
-    {
-      "w": "human",
+      "w": "million",
       "n": 32
     }
   ]
