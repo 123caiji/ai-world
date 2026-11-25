@@ -1,129 +1,129 @@
 {
-  "generatedAt": "2026-11-25T01:50:41.711Z",
+  "generatedAt": "2026-11-25T04:36:22.327Z",
   "windowHours": 72,
   "words": [
     {
-      "w": "huang",
-      "n": 168
-    },
-    {
-      "w": "nvidia",
-      "n": 167
-    },
-    {
-      "w": "ceo",
-      "n": 147
+      "w": "models",
+      "n": 158
     },
     {
       "w": "agent",
+      "n": 155
+    },
+    {
+      "w": "huang",
       "n": 141
     },
     {
-      "w": "models",
-      "n": 136
-    },
-    {
-      "w": "jensen",
-      "n": 130
+      "w": "nvidia",
+      "n": 141
     },
     {
       "w": "anthropic",
-      "n": 125
+      "n": 132
     },
     {
-      "w": "claude",
-      "n": 112
+      "w": "ceo",
+      "n": 121
     },
     {
       "w": "openai",
-      "n": 112
+      "n": 118
+    },
+    {
+      "w": "claude",
+      "n": 115
     },
     {
       "w": "发布",
-      "n": 111
+      "n": 109
+    },
+    {
+      "w": "jensen",
+      "n": 109
     },
     {
       "w": "agents",
-      "n": 111
-    },
-    {
-      "w": "november",
-      "n": 78
+      "n": 106
     },
     {
       "w": "model",
-      "n": 77
+      "n": 88
     },
     {
       "w": "模型",
-      "n": 76
-    },
-    {
-      "w": "trump",
-      "n": 75
+      "n": 79
     },
     {
       "w": "code",
-      "n": 69
-    },
-    {
-      "w": "company",
-      "n": 64
+      "n": 78
     },
     {
       "w": "data",
-      "n": 64
+      "n": 73
     },
     {
-      "w": "google",
-      "n": 58
+      "w": "november",
+      "n": 69
+    },
+    {
+      "w": "trump",
+      "n": 65
     },
     {
       "w": "智能",
-      "n": 57
+      "n": 59
     },
     {
-      "w": "board",
+      "w": "google",
+      "n": 56
+    },
+    {
+      "w": "company",
       "n": 55
     },
     {
-      "w": "security",
+      "w": "llm",
       "n": 53
     },
     {
       "w": "systems",
+      "n": 48
+    },
+    {
+      "w": "work",
       "n": 46
     },
     {
-      "w": "announced",
-      "n": 45
-    },
-    {
-      "w": "llm",
-      "n": 45
+      "w": "security",
+      "n": 46
     },
     {
       "w": "gemini",
-      "n": 41
+      "n": 42
     },
     {
-      "w": "times",
-      "n": 41
-    },
-    {
-      "w": "president",
-      "n": 41
-    },
-    {
-      "w": "pro",
-      "n": 40
-    },
-    {
-      "w": "tech",
+      "w": "board",
       "n": 40
     },
     {
       "w": "people",
+      "n": 39
+    },
+    {
+      "w": "times",
+      "n": 39
+    },
+    {
+      "w": "tech",
+      "n": 39
+    },
+    {
+      "w": "video",
+      "n": 38
+    },
+    {
+      "w": "time",
       "n": 37
     },
     {
@@ -131,68 +131,68 @@
       "n": 37
     },
     {
-      "w": "software",
+      "w": "pro",
       "n": 36
     },
     {
-      "w": "work",
+      "w": "announced",
+      "n": 36
+    },
+    {
+      "w": "same",
       "n": 35
     },
     {
-      "w": "time",
-      "n": 34
+      "w": "language",
+      "n": 35
     },
     {
-      "w": "million",
+      "w": "开源",
       "n": 34
-    },
-    {
-      "w": "amazon",
-      "n": 34
-    },
-    {
-      "w": "tools",
-      "n": 32
     },
     {
       "w": "ai-generated",
-      "n": 32
+      "n": 34
+    },
+    {
+      "w": "reasoning",
+      "n": 34
+    },
+    {
+      "w": "research",
+      "n": 34
+    },
+    {
+      "w": "muse",
+      "n": 33
+    },
+    {
+      "w": "api",
+      "n": 33
+    },
+    {
+      "w": "president",
+      "n": 33
+    },
+    {
+      "w": "each",
+      "n": 33
     },
     {
       "w": "business",
       "n": 32
     },
     {
-      "w": "app",
-      "n": 31
+      "w": "yet",
+      "n": 32
     },
     {
       "w": "安全",
-      "n": 31
+      "n": 32
     },
     {
-      "w": "tidal",
-      "n": 31
-    },
-    {
-      "w": "intelligence",
-      "n": 31
-    },
-    {
-      "w": "same",
-      "n": 31
-    },
-    {
-      "w": "video",
-      "n": 31
-    },
-    {
-      "w": "article",
-      "n": 31
-    },
-    {
-      "w": "coding",
-      "n": 30
+      "w": "human",
+      "n": 32
     }
   ]
 }
