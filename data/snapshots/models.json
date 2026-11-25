@@ -235,17 +235,9 @@
     "created": 1792076662,
     "name": "NVIDIA: Nemotron 3.5 Super VL (free)"
   },
-  "unbiased/pareto-26.10": {
-    "created": 1792073620,
-    "name": "Pareto 26.10"
-  },
   "~unbiased/pareto-latest": {
     "created": 1791933050,
     "name": "Pareto Latest"
-  },
-  "unbiased/pareto-26.9": {
-    "created": 1791930537,
-    "name": "Pareto 26.9"
   },
   "liquid/lfm-2.5-24b-a2b": {
     "created": 1791912025,
@@ -294,10 +286,6 @@
   "inclusionai/ling-3.1-flash": {
     "created": 1790950024,
     "name": "inclusionAI: Ling 3.1 Flash"
-  },
-  "unbiased/pareto-26.10-preview": {
-    "created": 1790863623,
-    "name": "Pareto 26.10 Preview"
   },
   "openai/gpt-6.1-sol-pro": {
     "created": 1790702886,
@@ -1526,6 +1514,10 @@
   "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
     "created": 1752094966,
     "name": "Venice: Uncensored"
+  },
+  "tngtech/deepseek-r1t2-chimera": {
+    "created": 1751986985,
+    "name": "TNG: DeepSeek R1T2 Chimera"
   },
   "morph/morph-v3-large": {
     "created": 1751910858,
