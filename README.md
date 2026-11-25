@@ -40,13 +40,13 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/26 02:22:14 · 库内 900 条 · 本轮新增 519 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/26 05:07:47 · 库内 900 条 · 本轮新增 517 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 203 | [ollama/ollama 涨 121 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
 | 201 | [google-labs-code/stitch-skills · 今日 +352 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
-| 194 | [deepseek-ai/deepseek-harness 涨 440 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 195 | [deepseek-ai/deepseek-harness 涨 463 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 186 | [openvinotoolkit/openvino · 今日 +188 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
 | 178 | [elementalsouls/Claude-BugHunter · 今日 +1644 ⭐](https://github.com/elementalsouls/Claude-BugHunter) | GitHub 每日趋势 |
 | 178 | [firecrawl/firecrawl · 今日 +1131 ⭐](https://github.com/firecrawl/firecrawl) | GitHub 每日趋势 |
