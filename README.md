@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/25 20:51:03 · 库内 900 条 · 本轮新增 538 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/25 23:36:41 · 库内 900 条 · 本轮新增 527 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
+| 203 | [ollama/ollama 涨 121 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
 | 201 | [google-labs-code/stitch-skills · 今日 +352 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
-| 193 | [deepseek-ai/deepseek-harness 涨 410 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 190 | [elementalsouls/Claude-BugHunter · 今日 +1644 ⭐](https://github.com/elementalsouls/Claude-BugHunter) | GitHub 每日趋势 |
-| 190 | [firecrawl/firecrawl · 今日 +1131 ⭐](https://github.com/firecrawl/firecrawl) | GitHub 每日趋势 |
-| 190 | [cathrynlavery/diagram-design · 今日 +1133 ⭐](https://github.com/cathrynlavery/diagram-design) | GitHub 每日趋势 |
-| 190 | [mjmirza/app-store-compliance · 今日 +853 ⭐](https://github.com/mjmirza/app-store-compliance) | GitHub 每日趋势 |
+| 194 | [deepseek-ai/deepseek-harness 涨 433 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 186 | [openvinotoolkit/openvino · 今日 +188 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
+| 178 | [elementalsouls/Claude-BugHunter · 今日 +1644 ⭐](https://github.com/elementalsouls/Claude-BugHunter) | GitHub 每日趋势 |
+| 178 | [firecrawl/firecrawl · 今日 +1131 ⭐](https://github.com/firecrawl/firecrawl) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
