@@ -1,125 +1,109 @@
 {
-  "generatedAt": "2026-11-26T05:33:13.182Z",
+  "generatedAt": "2026-11-26T08:19:33.044Z",
   "windowHours": 72,
   "words": [
     {
-      "w": "models",
-      "n": 152
-    },
-    {
       "w": "agent",
-      "n": 141
+      "n": 131
     },
     {
-      "w": "nvidia",
-      "n": 106
-    },
-    {
-      "w": "anthropic",
-      "n": 102
-    },
-    {
-      "w": "data",
-      "n": 97
-    },
-    {
-      "w": "agents",
-      "n": 94
+      "w": "models",
+      "n": 127
     },
     {
       "w": "发布",
-      "n": 90
+      "n": 108
     },
     {
       "w": "openai",
-      "n": 87
+      "n": 97
+    },
+    {
+      "w": "anthropic",
+      "n": 97
     },
     {
       "w": "模型",
-      "n": 84
+      "n": 96
+    },
+    {
+      "w": "nvidia",
+      "n": 95
+    },
+    {
+      "w": "data",
+      "n": 83
     },
     {
       "w": "claude",
-      "n": 84
+      "n": 81
+    },
+    {
+      "w": "agents",
+      "n": 81
     },
     {
       "w": "model",
-      "n": 84
-    },
-    {
-      "w": "ceo",
-      "n": 69
-    },
-    {
-      "w": "november",
-      "n": 63
-    },
-    {
-      "w": "video",
-      "n": 61
-    },
-    {
-      "w": "huang",
-      "n": 60
+      "n": 68
     },
     {
       "w": "智能",
-      "n": 58
+      "n": 63
     },
     {
-      "w": "llm",
+      "w": "ceo",
+      "n": 63
+    },
+    {
+      "w": "november",
+      "n": 56
+    },
+    {
+      "w": "video",
       "n": 54
     },
     {
-      "w": "language",
-      "n": 53
-    },
-    {
-      "w": "work",
+      "w": "people",
       "n": 52
     },
     {
+      "w": "huang",
+      "n": 50
+    },
+    {
       "w": "learning",
-      "n": 51
-    },
-    {
-      "w": "people",
-      "n": 50
-    },
-    {
-      "w": "million",
-      "n": 50
-    },
-    {
-      "w": "jensen",
       "n": 49
     },
     {
-      "w": "code",
-      "n": 47
+      "w": "million",
+      "n": 45
     },
     {
-      "w": "company",
+      "w": "work",
+      "n": 45
+    },
+    {
+      "w": "code",
+      "n": 44
+    },
+    {
+      "w": "llm",
+      "n": 44
+    },
+    {
+      "w": "language",
       "n": 44
     },
     {
       "w": "google",
+      "n": 43
+    },
+    {
+      "w": "jensen",
       "n": 42
     },
     {
-      "w": "existing",
-      "n": 42
-    },
-    {
-      "w": "muse",
-      "n": 42
-    },
-    {
-      "w": "without",
-      "n": 41
-    },
-    {
-      "w": "still",
+      "w": "app",
       "n": 40
     },
     {
@@ -127,72 +111,88 @@
       "n": 39
     },
     {
-      "w": "only",
-      "n": 39
-    },
-    {
-      "w": "every",
-      "n": 39
-    },
-    {
-      "w": "large",
-      "n": 39
-    },
-    {
       "w": "api",
       "n": 38
     },
     {
-      "w": "meta",
+      "w": "only",
       "n": 38
     },
     {
-      "w": "human",
+      "w": "company",
       "n": 37
     },
     {
-      "w": "often",
+      "w": "gemini",
       "n": 36
     },
     {
-      "w": "reasoning",
+      "w": "every",
       "n": 36
     },
     {
-      "w": "visual",
+      "w": "still",
       "n": 35
     },
     {
-      "w": "tidal",
+      "w": "without",
       "n": 35
+    },
+    {
+      "w": "muse",
+      "n": 35
+    },
+    {
+      "w": "existing",
+      "n": 34
+    },
+    {
+      "w": "meta",
+      "n": 34
     },
     {
       "w": "intelligence",
-      "n": 34
+      "n": 33
     },
     {
       "w": "introduce",
-      "n": 34
-    },
-    {
-      "w": "gemini",
-      "n": 33
-    },
-    {
-      "w": "business",
-      "n": 33
-    },
-    {
-      "w": "training",
-      "n": 33
-    },
-    {
-      "w": "each",
       "n": 33
     },
     {
       "w": "generation",
       "n": 32
+    },
+    {
+      "w": "visual",
+      "n": 32
+    },
+    {
+      "w": "机器人",
+      "n": 30
+    },
+    {
+      "w": "human",
+      "n": 30
+    },
+    {
+      "w": "芯片",
+      "n": 29
+    },
+    {
+      "w": "control",
+      "n": 29
+    },
+    {
+      "w": "gpu",
+      "n": 29
+    },
+    {
+      "w": "spacex",
+      "n": 29
+    },
+    {
+      "w": "often",
+      "n": 29
     }
   ]
 }
