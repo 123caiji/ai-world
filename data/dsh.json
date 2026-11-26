@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-25T23:53:04.353Z",
-  "total": 6885,
+  "generatedAt": "2026-11-26T02:38:35.528Z",
+  "total": 6881,
   "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 1294
+      "count": 1293
     },
     {
       "name": "tools",
-      "count": 1108
+      "count": 1107
     },
     {
       "name": "session",
-      "count": 525
+      "count": 524
     },
     {
       "name": "workflow",
@@ -26,7 +26,7 @@
     },
     {
       "name": "model",
-      "count": 360
+      "count": 359
     },
     {
       "name": "usage",
@@ -228,7 +228,7 @@
       "url": "https://awesome-dsh-plugin.com/p/Phoeky/dsh-llm-detector/",
       "repo": "https://github.com/Phoeky/dsh-llm-detector",
       "category": "model",
-      "description": "检测 DSH 渠道背后实际的模型：让模型写约 300 个 1–355 的整数，与 76 模型参考库比对并给出校准置信度；提供左侧边栏面板（实时采样进度、单样本重试、思考强度与出站代理）和 llm_fingerprint 对话工具。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "description": "检测DSH注册的模型指纹，看看其背后实际是哪个模型：让模型写一串“随机”整数，用数值分布与参考库比对并给出置信度。提供左侧边栏面板UI检测和直接与模型对话检测两种方式。",
       "version": "1.1.2",
       "publishedAt": "2026-11-25T02:18:10.000Z"
     },
@@ -318,7 +318,7 @@
       "url": "https://awesome-dsh-plugin.com/p/jsnancy/dsh-impeccable/",
       "repo": "https://github.com/jsnancy/dsh-impeccable",
       "category": "ui",
-      "description": "侧栏里的设计审校台。impeccable 技能随插件自带，装上就能用：填项目路径或网址，跑 62 条确定性规则（不调模型、不用 API key），按规则分组列出问题位置；24 条技能命令变成点一下就复制、或直接开新对话的提示词。检测引擎（约 21 MB）首次加载时在后台下载一次，没下完前面板会说明状态，而不是给一个跑不…",
+      "description": "侧栏里的设计校审台。impeccable 技能随插件自带，装上就能用：顶部输入框填路径或网址，或直接从最近改过的页面里挑一个，点一下就跑 62 条确定性规则（不调模型、不用 API key）。问题按类型分组，每处都标出文件和行号，点「让 AI 帮我改」直接带着问题开新对话；24…",
       "version": "0.5.1",
       "publishedAt": "2026-11-25T02:06:33.000Z"
     },
@@ -428,7 +428,7 @@
       "url": "https://awesome-dsh-plugin.com/p/hua-ri/dsh-ops/",
       "repo": "https://github.com/hua-ri/dsh-ops",
       "category": "remote",
-      "description": "一体化运维插件：SSH 远程运维 / Kubernetes 集群管理 / Helm Chart 管理。它的 HTTP 路由没有 DSH 的访问检查，浏览器里打开的网页可以调用它们。",
+      "description": "一体化运维插件：SSH 远程运维 / Kubernetes 集群管理 / Helm Chart 管理。",
       "version": "0.3.1",
       "publishedAt": "2026-11-25T01:56:29.000Z"
     },

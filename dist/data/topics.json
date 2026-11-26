@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T23:56:15.658Z",
+  "generatedAt": "2026-11-26T02:41:45.978Z",
   "windowHours": 72,
   "words": [
     {
@@ -8,59 +8,55 @@
     },
     {
       "w": "models",
-      "n": 134
-    },
-    {
-      "w": "anthropic",
-      "n": 122
+      "n": 137
     },
     {
       "w": "nvidia",
+      "n": 112
+    },
+    {
+      "w": "anthropic",
       "n": 108
     },
     {
       "w": "agents",
-      "n": 106
+      "n": 101
     },
     {
       "w": "data",
-      "n": 104
-    },
-    {
-      "w": "openai",
       "n": 100
     },
     {
-      "w": "claude",
-      "n": 87
+      "w": "openai",
+      "n": 94
     },
     {
       "w": "发布",
-      "n": 84
+      "n": 91
+    },
+    {
+      "w": "claude",
+      "n": 89
     },
     {
       "w": "模型",
-      "n": 83
+      "n": 84
     },
     {
       "w": "model",
       "n": 78
     },
     {
-      "w": "huang",
-      "n": 76
-    },
-    {
-      "w": "november",
+      "w": "ceo",
       "n": 75
     },
     {
-      "w": "ceo",
-      "n": 70
+      "w": "november",
+      "n": 69
     },
     {
-      "w": "jensen",
-      "n": 60
+      "w": "huang",
+      "n": 69
     },
     {
       "w": "llm",
@@ -68,14 +64,14 @@
     },
     {
       "w": "work",
-      "n": 57
+      "n": 54
     },
     {
-      "w": "code",
-      "n": 55
+      "w": "jensen",
+      "n": 54
     },
     {
-      "w": "company",
+      "w": "智能",
       "n": 51
     },
     {
@@ -83,75 +79,79 @@
       "n": 51
     },
     {
-      "w": "智能",
+      "w": "code",
+      "n": 50
+    },
+    {
+      "w": "company",
       "n": 48
     },
     {
-      "w": "muse",
-      "n": 45
-    },
-    {
       "w": "people",
-      "n": 44
-    },
-    {
-      "w": "google",
-      "n": 44
-    },
-    {
-      "w": "trump",
-      "n": 44
+      "n": 47
     },
     {
       "w": "language",
-      "n": 44
+      "n": 45
     },
     {
-      "w": "still",
+      "w": "google",
       "n": 43
     },
     {
-      "w": "intelligence",
+      "w": "learning",
+      "n": 43
+    },
+    {
+      "w": "muse",
+      "n": 42
+    },
+    {
+      "w": "amazon",
+      "n": 40
+    },
+    {
+      "w": "human",
       "n": 40
     },
     {
       "w": "api",
-      "n": 39
-    },
-    {
-      "w": "human",
-      "n": 39
-    },
-    {
-      "w": "gemini",
-      "n": 39
-    },
-    {
-      "w": "systems",
       "n": 38
     },
     {
       "w": "meta",
-      "n": 37
+      "n": 38
     },
     {
       "w": "every",
+      "n": 37
+    },
+    {
+      "w": "still",
+      "n": 37
+    },
+    {
+      "w": "pro",
       "n": 36
     },
     {
-      "w": "time",
+      "w": "gemini",
       "n": 36
     },
     {
-      "w": "times",
+      "w": "without",
       "n": 36
     },
     {
-      "w": "security",
+      "w": "business",
       "n": 35
     },
     {
-      "w": "amazon",
+      "w": "training",
+      "n": 35
+    },
+    {
+      "w": "intelligence",
       "n": 35
     },
     {
@@ -159,40 +159,40 @@
       "n": 35
     },
     {
+      "w": "security",
+      "n": 34
+    },
+    {
+      "w": "time",
+      "n": 34
+    },
+    {
+      "w": "systems",
+      "n": 34
+    },
+    {
       "w": "tech",
-      "n": 34
-    },
-    {
-      "w": "learning",
-      "n": 34
-    },
-    {
-      "w": "training",
-      "n": 32
-    },
-    {
-      "w": "开源",
-      "n": 32
-    },
-    {
-      "w": "business",
-      "n": 32
-    },
-    {
-      "w": "announced",
-      "n": 31
-    },
-    {
-      "w": "each",
-      "n": 31
-    },
-    {
-      "w": "safety",
-      "n": 30
+      "n": 33
     },
     {
       "w": "ai-generated",
-      "n": 30
+      "n": 33
+    },
+    {
+      "w": "trump",
+      "n": 33
+    },
+    {
+      "w": "other",
+      "n": 32
+    },
+    {
+      "w": "research",
+      "n": 32
+    },
+    {
+      "w": "video",
+      "n": 32
     }
   ]
 }
