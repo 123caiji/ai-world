@@ -1,6 +1,7 @@
 import { join } from 'node:path';
 import { sources } from './sources/index.mjs';
 import { appendJsonl, readJson, writeJson } from './lib/store.mjs';
+import { archiveIdSet, compactArchiveFile } from './lib/archive.mjs';
 import { sha1 } from './lib/util.mjs';
 import { fetchCoverImage, isUsableImage, mapLimit } from './lib/media.mjs';
 import { DEFAULT_INTERVAL_MIN, FORCE, clearSkipMarker, humanMinutes, writeSkipMarker } from './lib/window.mjs';
@@ -11,6 +12,8 @@ const DATA_DIR = join(ROOT, 'data');
 const SNAP_DIR = join(DATA_DIR, 'snapshots');
 const MAX_FEED = 900;
 const MAX_AGE_HOURS = 24 * 21;
+// 归档文件超过这个体积就在写新行前原地去重压一遍（2026-11 曾因重复 id 涨到 36 MB）
+const ARCHIVE_COMPACT_BYTES = 12 * 1024 * 1024;
 const SOURCE_TIMEOUT_MS = 180000;
 const HEAVY = new Set(['github', 'dsh-plugins']);
 
@@ -278,7 +281,19 @@ writeJson(join(SNAP_DIR, 'covers.json'), coverCache);
 const coverMs = Date.now() - coverStarted;
 
 const month = new Date().toISOString().slice(0, 7);
-appendJsonl(join(DATA_DIR, 'archive', month + '.jsonl'), freshRows.map((row) => ({
+const archiveFile = join(DATA_DIR, 'archive', month + '.jsonl');
+const compacted = compactArchiveFile(archiveFile, ARCHIVE_COMPACT_BYTES);
+if (compacted) {
+  const mb = (bytes) => (bytes / 1024 / 1024).toFixed(1);
+  console.log(`archive: ${month}.jsonl ${mb(compacted.beforeBytes)} MB → ${mb(compacted.afterBytes)} MB（去重丢弃 ${compacted.dropped} 行，保留 ${compacted.rows} 行）`);
+}
+const prevMonth = new Date(Date.now() - 31 * 86400000).toISOString().slice(0, 7);
+const archivedIds = archiveIdSet(join(DATA_DIR, 'archive'), [month, prevMonth]);
+const archiveRows = freshRows.filter((row) => row.id && !archivedIds.has(row.id));
+if (archiveRows.length !== freshRows.length) {
+  console.log(`archive: 本轮 ${freshRows.length} 条新条目里有 ${freshRows.length - archiveRows.length} 条已归档，跳过重复写入`);
+}
+appendJsonl(archiveFile, archiveRows.map((row) => ({
   id: row.id,
   kind: row.kind,
   source: row.source,

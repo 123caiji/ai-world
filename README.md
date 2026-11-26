@@ -180,7 +180,7 @@ ai-world/
 │  ├─ collect.mjs             # 采集主入口：并发抓取 → 去重 → 算热度 → 落盘
 │  ├─ render.mjs              # 生成 digest / README 热榜 / dist 静态站
 │  ├─ serve.mjs               # 本地预览
-│  ├─ lib/{http,feed,util,store,rssSource}.mjs
+│  ├─ lib/{http,feed,util,store,archive,keeper,media,window,rssSource}.mjs
 │  └─ sources/                # 61 个适配器，一个文件管一个源
 ├─ data/
 │  ├─ feed.json               # 主数据（近 600 条，带 evidence）
@@ -188,7 +188,7 @@ ai-world/
 │  ├─ dsh.json                # 插件生态
 │  ├─ sources.json            # 数据源健康度
 │  ├─ digest.md               # 本轮快照
-│  ├─ archive/YYYY-MM.jsonl   # 历史归档
+│  ├─ archive/YYYY-MM.jsonl   # 历史归档（按 id 去重，单文件超 12 MB 自动压一遍）
 │  └─ snapshots/              # stars / releases / models / plugins 快照（算 delta 用）
 ├─ web/                       # 无构建单页（构建时整目录拷到 dist/）
 └─ .github/workflows/
