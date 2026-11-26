@@ -1427,6 +1427,10 @@
     "created": 1757612213,
     "name": "Qwen: Qwen3 Next 80B A3B Instruct"
   },
+  "moonshotai/kimi-k2-0905": {
+    "created": 1757021147,
+    "name": "MoonshotAI: Kimi K2 0905"
+  },
   "nousresearch/hermes-4-405b": {
     "created": 1756235463,
     "name": "Nous: Hermes 4 405B"
@@ -1530,6 +1534,10 @@
   "qwen/qwen3-235b-a22b-2507": {
     "created": 1753119555,
     "name": "Qwen: Qwen3 235B A22B Instruct 2507"
+  },
+  "moonshotai/kimi-k2": {
+    "created": 1752263252,
+    "name": "MoonshotAI: Kimi K2 0711"
   },
   "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
     "created": 1752094966,
