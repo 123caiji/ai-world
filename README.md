@@ -40,15 +40,15 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/26 16:16:50 · 库内 900 条 · 本轮新增 576 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/26 19:02:48 · 库内 900 条 · 本轮新增 518 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 203 | [ollama/ollama 涨 121 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
 | 201 | [google-labs-code/stitch-skills · 今日 +355 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
-| 198 | [openvinotoolkit/openvino · 今日 +191 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
-| 195 | [deepseek-ai/deepseek-harness 涨 463 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 190 | [HKUDS/CLI-Anything · 今日 +1106 ⭐](https://github.com/HKUDS/CLI-Anything) | GitHub 每日趋势 |
+| 195 | [deepseek-ai/deepseek-harness 涨 478 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 186 | [openvinotoolkit/openvino · 今日 +191 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
+| 178 | [HKUDS/CLI-Anything · 今日 +1106 ⭐](https://github.com/HKUDS/CLI-Anything) | GitHub 每日趋势 |
 | 178 | [mvanhorn/last30days-skill · 今日 +945 ⭐](https://github.com/mvanhorn/last30days-skill) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 

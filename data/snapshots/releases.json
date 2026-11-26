@@ -4,13 +4,13 @@
   "huggingface/transformers": "v5.24.1",
   "langchain-ai/langchain": "langchain-core==1.8.5",
   "modelcontextprotocol/servers": "v2.5.0",
-  "ggml-org/llama.cpp": "v1.0.0",
+  "ggml-org/llama.cpp": "v1.1.0",
   "openai/openai-python": "v3.60.0",
   "ollama/ollama": "v0.40.18",
   "microsoft/autogen": "python-v0.7.5",
   "crewAIInc/crewAI": "1.15.45",
   "browser-use/browser-use": "1.0.8",
   "Aider-AI/aider": "v0.86.0",
-  "cline/cline": "v4.1.27",
+  "cline/cline": "v4.1.28",
   "n8n-io/n8n": "n8n@2.49.7"
 }
