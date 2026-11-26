@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "event": "schedule",
-  "runId": "43134594885",
+  "event": "workflow_dispatch",
+  "runId": "45761927721",
   "lastDispatchOk": true,
   "lastDispatch": {
     "ok": true,
@@ -9,10 +9,10 @@
     "ref": "main",
     "reason": "keeper-start",
     "message": "queued",
-    "at": "2026-11-12T01:27:17.393Z"
+    "at": "2026-11-26T05:29:46.100Z"
   },
   "intervalMinutes": 165,
   "maxWaitMinutes": 180,
-  "chainRuns": 6,
-  "updatedAt": "2026-11-12T01:27:17.393Z"
+  "chainRuns": 7,
+  "updatedAt": "2026-11-26T05:29:46.101Z"
 }
