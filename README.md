@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/27 14:21:44 · 库内 900 条 · 本轮新增 584 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/27 17:07:27 · 库内 900 条 · 本轮新增 545 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 203 | [ollama/ollama 涨 121 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
 | 200 | [google-labs-code/stitch-skills · 今日 +309 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
 | 196 | [zhouxiaoka/autoclip · 今日 +774 ⭐](https://github.com/zhouxiaoka/autoclip) | GitHub 每日趋势 |
-| 195 | [deepseek-ai/deepseek-harness 涨 484 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 195 | [deepseek-ai/deepseek-harness 涨 485 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 185 | [DeepMind’s New AI: The King Is Back](https://www.youtube.com/watch?v=u6UYsl-KEoc) | YouTube · Two Minute Papers |
 | 185 | [openvinotoolkit/openvino · 今日 +176 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
-| 178 | [HKUDS/CLI-Anything · 今日 +746 ⭐](https://github.com/HKUDS/CLI-Anything) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
