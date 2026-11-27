@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/27 22:39:59 · 库内 900 条 · 本轮新增 541 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/28 01:25:46 · 库内 900 条 · 本轮新增 521 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 208 | [zhouxiaoka/autoclip · 今日 +733 ⭐](https://github.com/zhouxiaoka/autoclip) | GitHub 每日趋势 |
-| 203 | [ollama/ollama 涨 121 星](https://github.com/ollama/ollama) | GitHub 涨星榜 |
 | 200 | [google-labs-code/stitch-skills · 今日 +311 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
-| 194 | [deepseek-ai/deepseek-harness 涨 442 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 190 | [firecrawl/firecrawl · 今日 +833 ⭐](https://github.com/firecrawl/firecrawl) | GitHub 每日趋势 |
-| 190 | [cathrynlavery/diagram-design · 今日 +731 ⭐](https://github.com/cathrynlavery/diagram-design) | GitHub 每日趋势 |
+| 196 | [zhouxiaoka/autoclip · 今日 +733 ⭐](https://github.com/zhouxiaoka/autoclip) | GitHub 每日趋势 |
+| 194 | [deepseek-ai/deepseek-harness 涨 433 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 184 | [openvinotoolkit/openvino · 今日 +152 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
+| 181 | [DeepMind’s New AI Just Changed The AI Race](https://www.youtube.com/watch?v=u6UYsl-KEoc) | YouTube · Two Minute Papers |
+| 178 | [firecrawl/firecrawl · 今日 +833 ⭐](https://github.com/firecrawl/firecrawl) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
