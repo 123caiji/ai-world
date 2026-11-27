@@ -3,7 +3,7 @@
   "sgl-project/sglang": "v0.5.23",
   "huggingface/transformers": "v5.24.1",
   "langchain-ai/langchain": "langchain-core==1.8.5",
-  "modelcontextprotocol/servers": "v2.5.0",
+  "modelcontextprotocol/servers": "v2.6.0",
   "ggml-org/llama.cpp": "v1.1.0",
   "openai/openai-python": "v3.60.0",
   "ollama/ollama": "v0.40.18",
