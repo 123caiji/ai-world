@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/28 18:01:13 · 库内 900 条 · 本轮新增 579 条 · 数据源 58/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/28 20:46:46 · 库内 900 条 · 本轮新增 580 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
-| 200 | [google-labs-code/stitch-skills · 今日 +311 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
-| 196 | [zhouxiaoka/autoclip · 今日 +718 ⭐](https://github.com/zhouxiaoka/autoclip) | GitHub 每日趋势 |
-| 191 | [deepseek-ai/deepseek-harness 涨 307 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 184 | [openvinotoolkit/openvino · 今日 +151 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
-| 178 | [firecrawl/firecrawl · 今日 +822 ⭐](https://github.com/firecrawl/firecrawl) | GitHub 每日趋势 |
-| 178 | [cathrynlavery/diagram-design · 今日 +725 ⭐](https://github.com/cathrynlavery/diagram-design) | GitHub 每日趋势 |
+| 199 | [google-labs-code/stitch-skills · 今日 +293 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
+| 196 | [zhouxiaoka/autoclip · 今日 +517 ⭐](https://github.com/zhouxiaoka/autoclip) | GitHub 每日趋势 |
+| 191 | [deepseek-ai/deepseek-harness 涨 314 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
+| 190 | [mvanhorn/last30days-skill · 今日 +519 ⭐](https://github.com/mvanhorn/last30days-skill) | GitHub 每日趋势 |
+| 181 | [openvinotoolkit/openvino · 今日 +111 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
+| 178 | [firecrawl/firecrawl · 今日 +717 ⭐](https://github.com/firecrawl/firecrawl) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
