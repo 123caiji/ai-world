@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-28T15:32:00.386Z",
-  "total": 7156,
+  "generatedAt": "2026-11-28T18:17:55.091Z",
+  "total": 7153,
   "newCount": 0,
   "firstRun": false,
   "categories": [
     {
       "name": "ui",
-      "count": 1336
+      "count": 1335
     },
     {
       "name": "tools",
@@ -22,7 +22,7 @@
     },
     {
       "name": "dev",
-      "count": 411
+      "count": 410
     },
     {
       "name": "model",
@@ -45,12 +45,12 @@
       "count": 226
     },
     {
-      "name": "skill",
-      "count": 217
-    },
-    {
       "name": "notify",
       "count": 216
+    },
+    {
+      "name": "skill",
+      "count": 215
     },
     {
       "name": "fun",
@@ -98,7 +98,7 @@
       "url": "https://awesome-dsh-plugin.com/p/heiyedehen/dsh-self-clock/",
       "repo": "https://github.com/heiyedehen/dsh-self-clock",
       "category": "tools",
-      "description": "鱼的心跳（dsh-self-clock）：给智能体自己设的闹钟——到点在同一段对话里收到一句安静的通知，它先看你有没有在说话。除闹钟外还能挂「意图」（intent_set / intent_list / intent_cancel）：比如「23:30 他还在就看我一眼」，没叫成的那条留着，最多 5 条待发、一天最多叫…",
+      "description": "鱼的心跳：让智能体给自己上闹钟——到点就在同一段对话里留一句轻提示，不会打断你；它会先看你是否正在说话，正在说话就等下一次。除了固定闹钟，也能记下「等会儿该看一眼的事」，没叫成会留着。带设置面板，重启不丢。",
       "version": "0.3.17",
       "publishedAt": "2026-11-28T02:27:07.000Z"
     },
@@ -108,7 +108,7 @@
       "url": "https://awesome-dsh-plugin.com/p/heiyedehen/dsh-whale-whispers/",
       "repo": "https://github.com/heiyedehen/dsh-whale-whispers",
       "category": "ui",
-      "description": "会话头部的「鲸语」：每个对话一本 markdown 语录，带搜索、翻一句、句数与收藏计数、每条回复旁的一键收入，以及能恢复的回收站。agent 有增、查、删、合并四个工具，系统提示里也带一段记录指引，所以默认每个对话它最多自己记一两句；记什么可按对话或全局设置。全部只存本地。需要 DSH…",
+      "description": "鲸语：给说过的话留一本句子本——你说过的、它回你的，那句值得再看一遍的话都收进输入框上方的「鲸语」标签里，每句都带着当时的上下文，能搜、能随手翻一句、能导出。只存本地。",
       "version": "2.1.9",
       "publishedAt": "2026-11-28T02:24:37.000Z"
     },
@@ -118,7 +118,7 @@
       "url": "https://awesome-dsh-plugin.com/p/heiyedehen/dsh-half-page/",
       "repo": "https://github.com/heiyedehen/dsh-half-page",
       "category": "ui",
-      "description": "半页（dsh-half-page）：给智能体用的书房，它通过 reading_* 工具一章一章读 ~/.dsh/reading 里的书，在章节旁写读后感，也把自己写的东西放在这里，面板显示它的阅读进度。插件会往系统提示里加几行，告诉智能体这间书房归它自己、读不读随它。另有「书房时间」：到点只在对话里投一句「书房时间到了…",
+      "description": "半页：给智能体一间自己的书房——它一章一章地读，记着自己读到哪，读完想说什么就写在那章边上；你自己写的东西也可以放在这里。打开面板能看见它在读哪本、今天翻了几页、写了什么。不是待办清单。",
       "version": "0.4.54",
       "publishedAt": "2026-11-28T02:24:02.000Z"
     },
@@ -328,7 +328,7 @@
       "url": "https://awesome-dsh-plugin.com/p/pearjelly/deep-blend--packages-deepblend-bundle/",
       "repo": "https://github.com/pearjelly/deep-blend",
       "category": "tools",
-      "description": "在 DSH 中创建可编辑的 Blender 产品场景。从胡桃木格栅垫、音箱、杯与灯具配方或导入模型开始，在光台查看保存结果、比较版本，调整尺寸、材质、相机与灯光。创建或继续修改格栅垫时，可将横条间距设为 52–92 mm 并保持居中，也可设置 0–1 mm 的木条边缘倒角。一次操作将静态模型放到实际网格表面并保存，再另…",
+      "description": "在 DSH 中创建可继续编辑的 Blender 产品模型。从胡桃木格栅垫、音箱、杯或台灯配方开始，也可以导入已有模型。联动修改装配尺寸、查看已保存的渲染，并调整材质、相机和灯光。预览木构半搭接的两个槽口，一次保存两组木条的底色照片和重建后的 UV。将静态模型放到实测网格表面，导出带素材的 Blender…",
       "version": "0.31.0",
       "publishedAt": "2026-11-27T23:50:07.000Z"
     },

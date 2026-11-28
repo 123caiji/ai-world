@@ -40,16 +40,16 @@
 | 订阅（RSS 2.0，热度前 40 条） | [`feed.xml`](https://123caiji.github.io/ai-world/feed.xml) |
 
 <!-- RADAR:START -->
-**最近一次采集**：2026/11/28 23:32:38 · 库内 900 条 · 本轮新增 586 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
+**最近一次采集**：2026/11/29 02:18:15 · 库内 900 条 · 本轮新增 566 条 · 数据源 59/59 正常（另有 2 个待配置凭据）
 
 | 热度 | 条目 | 来源 |
 | ---: | --- | --- |
 | 199 | [google-labs-code/stitch-skills · 今日 +293 ⭐](https://github.com/google-labs-code/stitch-skills) | GitHub 每日趋势 |
 | 196 | [zhouxiaoka/autoclip · 今日 +517 ⭐](https://github.com/zhouxiaoka/autoclip) | GitHub 每日趋势 |
-| 191 | [deepseek-ai/deepseek-harness 涨 319 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
-| 181 | [openvinotoolkit/openvino · 今日 +111 ⭐](https://github.com/openvinotoolkit/openvino) | GitHub 每日趋势 |
+| 192 | [deepseek-ai/deepseek-harness 涨 342 星](https://github.com/deepseek-ai/deepseek-harness) | GitHub 涨星榜 |
 | 178 | [mvanhorn/last30days-skill · 今日 +519 ⭐](https://github.com/mvanhorn/last30days-skill) | GitHub 每日趋势 |
 | 178 | [firecrawl/firecrawl · 今日 +717 ⭐](https://github.com/firecrawl/firecrawl) | GitHub 每日趋势 |
+| 178 | [mjmirza/app-store-compliance · 今日 +907 ⭐](https://github.com/mjmirza/app-store-compliance) | GitHub 每日趋势 |
 <!-- RADAR:END -->
 
 ## 一条情报长什么样
